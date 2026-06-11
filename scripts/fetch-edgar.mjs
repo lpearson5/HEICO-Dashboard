@@ -18,9 +18,11 @@ const ROOT = join(__dirname, "..");
 const CUSIPS = { HEI: "422819102", HEIA: "422819201" };
 
 const HEADERS = {
-  "User-Agent": "HEICO-Dashboard lpearson5@users.noreply.github.com",
-  "Accept-Encoding": "identity",
-  "Accept": "*/*",
+  "User-Agent": "HEICO-Dashboard/1.0 (institutional ownership research; lpearson@heico.com)",
+  "Accept-Encoding": "gzip, deflate, br",
+  "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "Accept-Language": "en-US,en;q=0.5",
+  "Connection": "keep-alive",
 };
 
 const CONCURRENCY = 10;
