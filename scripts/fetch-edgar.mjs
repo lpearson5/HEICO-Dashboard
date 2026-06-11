@@ -1,14 +1,11 @@
 /**
  * Fetches HEICO institutional ownership from SEC EDGAR 13F-HR filings.
- * Run via:  node scripts/fetch-edgar.mjs
- * Outputs:  data/hei.json  and  data/heia.json
  *
- * Architecture:
- *  1. EDGAR EFTS full-text search → find every 13F-HR that mentions each CUSIP
- *  2. For each filing hit, download the information-table XML
- *  3. Parse share counts for the target CUSIP
- *  4. Compare current quarter vs prior quarter → derive action (Bought / Sold / etc.)
- *  5. Write result JSON
+ * Strategy: Download EDGAR's quarterly full-index (crawler.idx) to find every
+ * 13F-HR filer for the relevant quarters, then download each filer's XML and
+ * check whether it contains a HEICO CUSIP.
+ *
+ * This avoids the EDGAR EFTS full-text-search endpoint, which blocks cloud IPs.
  */
 
 import { writeFileSync, mkdirSync } from "fs";
@@ -18,321 +15,321 @@ import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
 
-// ─── HEICO CUSIPs ────────────────────────────────────────────────────────────
-const TICKERS = {
-  HEI: "422819102",   // HEICO Corp Common
-  HEIA: "422819201",  // HEICO Corp Class A
+const CUSIPS = {
+  HEI:  "422819102",
+  HEIA: "422819201",
 };
 
-const USER_AGENT = "HEICO Ownership Dashboard contact@heico-dashboard.example";
+// EDGAR requires a descriptive User-Agent with a contact email
+const HEADERS = {
+  "User-Agent": "HEICO-Dashboard lpearson5@users.noreply.github.com",
+  "Accept-Encoding": "gzip",
+  "Accept": "*/*",
+};
 
-// ─── Quarterly filing date ranges ────────────────────────────────────────────
-function getQuarterRanges() {
+const CONCURRENCY = 15;
+const DELAY_MS = 100;
+
+// ─── Quarter helpers ─────────────────────────────────────────────────────────
+
+function getQuarterInfo() {
   const now = new Date();
   const year = now.getFullYear();
-  const month = now.getMonth() + 1; // 1–12
+  const month = now.getMonth() + 1;
 
-  // 13F-HR filing deadlines are ~45 days after quarter end:
-  //   Q1 (Mar 31) → filed Apr–May
-  //   Q2 (Jun 30) → filed Jul–Aug
-  //   Q3 (Sep 30) → filed Oct–Nov
-  //   Q4 (Dec 31) → filed Jan–Feb
-
+  // 13F-HR due ~45 days after quarter end
   if (month >= 4 && month <= 6) {
     return {
-      current:  { start: `${year}-04-01`, end: `${year}-05-31`,  label: `Q1 ${year}` },
-      prior:    { start: `${year}-01-01`, end: `${year}-02-28`,  label: `Q4 ${year - 1}` },
+      current: { year,     quarter: 1, label: `Q1 ${year}` },
+      prior:   { year: year - 1, quarter: 4, label: `Q4 ${year - 1}` },
     };
   }
   if (month >= 7 && month <= 9) {
     return {
-      current:  { start: `${year}-07-01`, end: `${year}-08-31`,  label: `Q2 ${year}` },
-      prior:    { start: `${year}-04-01`, end: `${year}-05-31`,  label: `Q1 ${year}` },
+      current: { year, quarter: 2, label: `Q2 ${year}` },
+      prior:   { year, quarter: 1, label: `Q1 ${year}` },
     };
   }
   if (month >= 10 && month <= 12) {
     return {
-      current:  { start: `${year}-10-01`, end: `${year}-11-30`,  label: `Q3 ${year}` },
-      prior:    { start: `${year}-07-01`, end: `${year}-08-31`,  label: `Q2 ${year}` },
+      current: { year, quarter: 3, label: `Q3 ${year}` },
+      prior:   { year, quarter: 2, label: `Q2 ${year}` },
     };
   }
-  // Jan–Mar: most-recent complete quarter is Q4 of last year
   return {
-    current:  { start: `${year}-01-01`, end: `${year}-02-28`,     label: `Q4 ${year - 1}` },
-    prior:    { start: `${year - 1}-10-01`, end: `${year - 1}-11-30`, label: `Q3 ${year - 1}` },
+    current: { year: year - 1, quarter: 4, label: `Q4 ${year - 1}` },
+    prior:   { year: year - 1, quarter: 3, label: `Q3 ${year - 1}` },
   };
 }
 
-// ─── Throttled fetch (EDGAR allows ~10 req/s) ────────────────────────────────
-const CONCURRENCY = 8;
-const DELAY_MS = 120; // ~8 req/s
+// ─── Throttled fetch ──────────────────────────────────────────────────────────
 
-async function throttledFetch(url, opts = {}) {
-  const headers = {
-    "User-Agent": USER_AGENT,
-    Accept: "application/json, text/plain, */*",
-    ...opts.headers,
-  };
-  const res = await fetch(url, { ...opts, headers });
-  if (!res.ok) {
-    console.warn(`  [WARN] ${res.status} ${url.slice(0, 80)}`);
-    return null;
+async function get(url) {
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const res = await fetch(url, { headers: HEADERS });
+      if (res.status === 429 || res.status === 503) {
+        await sleep(2000 * attempt);
+        continue;
+      }
+      if (!res.ok) {
+        console.warn(`  [${res.status}] ${url.slice(0, 90)}`);
+        return null;
+      }
+      return res;
+    } catch (e) {
+      if (attempt === 3) console.warn(`  [ERR] ${e.message.slice(0, 60)} — ${url.slice(0, 60)}`);
+      await sleep(500 * attempt);
+    }
   }
-  return res;
+  return null;
+}
+
+function sleep(ms) {
+  return new Promise((r) => setTimeout(r, ms));
 }
 
 async function batchProcess(items, fn, concurrency = CONCURRENCY) {
   const results = [];
   for (let i = 0; i < items.length; i += concurrency) {
     const batch = items.slice(i, i + concurrency);
-    const batchResults = await Promise.all(batch.map(fn));
-    results.push(...batchResults);
-    if (i + concurrency < items.length) {
-      await new Promise((r) => setTimeout(r, DELAY_MS));
+    const out = await Promise.all(batch.map(fn));
+    results.push(...out);
+    if (i + concurrency < items.length) await sleep(DELAY_MS);
+    if (i % 500 === 0 && i > 0) {
+      const found = results.filter(Boolean).length;
+      console.log(`  … ${i}/${items.length} checked, ${found} HEICO holders so far`);
     }
   }
   return results;
 }
 
-// ─── EDGAR EFTS search ───────────────────────────────────────────────────────
-async function eftsSearch(cusip, start, end) {
-  const hits = [];
-  let from = 0;
-  const size = 200;
+// ─── Download quarterly filer list ───────────────────────────────────────────
+
+async function getQuarterFilers(year, quarter) {
+  // crawler.idx is pipe-delimited: Company Name|Form Type|CIK|Date Filed|Filename
+  const url = `https://www.sec.gov/Archives/edgar/full-index/${year}/QTR${quarter}/crawler.idx`;
+  console.log(`  Fetching index: ${url}`);
+
+  const res = await get(url);
+  if (!res) throw new Error(`Failed to fetch quarterly index ${year} QTR${quarter}`);
+
+  const text = await res.text();
+  const filers = [];
   const seen = new Set();
 
-  while (true) {
-    const url =
-      `https://efts.sec.gov/LATEST/search-index` +
-      `?q=%22${cusip}%22` +
-      `&forms=13F-HR` +
-      `&dateRange=custom&startdt=${start}&enddt=${end}` +
-      `&from=${from}&size=${size}`;
+  for (const line of text.split("\n")) {
+    if (!line.includes("|13F-HR|")) continue;
+    const [company, formType, cik, dateField, filename] = line.split("|");
+    if (!formType || formType.trim() !== "13F-HR") continue;
+    if (!filename) continue;
 
-    const res = await throttledFetch(url);
-    if (!res) break;
+    const accMatch = filename.match(/(\d{10}-\d{2}-\d{6})/);
+    if (!accMatch) continue;
 
-    const data = await res.json();
-    const pageHits = data?.hits?.hits ?? [];
-    const total = data?.hits?.total?.value ?? 0;
+    const cleanCik = cik ? cik.trim().replace(/^0+/, "") || "0" : "0";
+    const key = accMatch[1];
+    if (seen.has(key)) continue;
+    seen.add(key);
 
-    for (const h of pageHits) {
-      const acc = h._source?.accession_no;
-      if (acc && !seen.has(acc)) {
-        seen.add(acc);
-        hits.push(h._source);
-      }
+    filers.push({
+      cik: cleanCik,
+      accessionNo: accMatch[1],
+      company: company ? company.trim() : "Unknown",
+      indexPath: filename.trim(),
+    });
+  }
+
+  console.log(`  ${filers.length} 13F-HR filers found for ${year} QTR${quarter}`);
+  return filers;
+}
+
+// ─── Find info-table XML URL ──────────────────────────────────────────────────
+
+function buildIndexUrl(indexPath) {
+  return `https://www.sec.gov/${indexPath.replace(/^\//, "")}`;
+}
+
+async function findInfoTableUrl(cik, accessionNo, indexPath) {
+  const accNoDashes = accessionNo.replace(/-/g, "");
+
+  // First: try fetching the filing index HTML and parsing it
+  const indexUrl = buildIndexUrl(indexPath);
+  const res = await get(indexUrl);
+
+  if (res) {
+    const html = await res.text();
+    const xmlPaths = [];
+    const re = /href="(\/Archives\/edgar\/data\/[^"]+\.xml)"/gi;
+    let m;
+    while ((m = re.exec(html)) !== null) xmlPaths.push(m[1]);
+
+    if (xmlPaths.length > 0) {
+      const preferred = xmlPaths.find((p) =>
+        /infotable|informationtable|13finfo/i.test(p)
+      );
+      return `https://www.sec.gov${preferred ?? xmlPaths[xmlPaths.length - 1]}`;
     }
-
-    from += size;
-    if (from >= total || pageHits.length === 0) break;
-
-    await new Promise((r) => setTimeout(r, 110));
   }
 
-  console.log(`  EFTS ${cusip} [${start}→${end}]: ${hits.length} filings`);
-  return hits;
-}
-
-// ─── Find info-table XML URL from EDGAR filing index ─────────────────────────
-function cikFromAccession(accessionNo) {
-  // "0000102909-25-010000" → 102909
-  return parseInt(accessionNo.split("-")[0], 10);
-}
-
-function accNoDashes(accessionNo) {
-  return accessionNo.replace(/-/g, "");
-}
-
-async function findInfoTableUrl(accessionNo) {
-  const cik = cikFromAccession(accessionNo);
-  const noD = accNoDashes(accessionNo);
-  const indexUrl = `https://www.sec.gov/Archives/edgar/data/${cik}/${noD}/${accessionNo}-index.htm`;
-
-  const res = await throttledFetch(indexUrl);
-  if (!res) return tryCommonXmlUrls(cik, noD);
-
-  const html = await res.text();
-
-  // Collect all .xml paths in the page
-  const xmlPaths = [];
-  const re = /href="(\/Archives\/edgar\/data\/[^"]+\.xml)"/gi;
-  let m;
-  while ((m = re.exec(html)) !== null) xmlPaths.push(m[1]);
-
-  if (xmlPaths.length === 0) return tryCommonXmlUrls(cik, noD);
-
-  // Prefer paths containing info-table keywords
-  const preferred = xmlPaths.find((p) =>
-    /infotable|informationtable|13finfo/i.test(p)
-  );
-  const chosen = preferred ?? xmlPaths[xmlPaths.length - 1];
-  return `https://www.sec.gov${chosen}`;
-}
-
-async function tryCommonXmlUrls(cik, noD) {
-  const base = `https://www.sec.gov/Archives/edgar/data/${cik}/${noD}`;
+  // Fallback: try common filenames
+  const base = `https://www.sec.gov/Archives/edgar/data/${cik}/${accNoDashes}`;
   for (const name of ["infotable.xml", "form13fInfoTable.xml", "informationtable.xml"]) {
-    const url = `${base}/${name}`;
-    const r = await throttledFetch(url);
-    if (r) return url;
+    const r = await get(`${base}/${name}`);
+    if (r) return `${base}/${name}`;
   }
+
   return null;
 }
 
-// ─── Parse XML for a specific CUSIP's position ───────────────────────────────
+// ─── Parse XML for a CUSIP's position ────────────────────────────────────────
+
 function parseInfoTable(xml, cusip) {
-  // Handle both namespaced and plain elements
   const tableRe = /<(?:\w+:)?infoTable>([\s\S]*?)<\/(?:\w+:)?infoTable>/gi;
   let m;
   while ((m = tableRe.exec(xml)) !== null) {
     const block = m[1];
-    // Check CUSIP match (strip spaces/dashes just in case)
-    const cusipMatch = block.match(/<(?:\w+:)?cusip>([^<]+)<\/(?:\w+:)?cusip>/i);
-    if (!cusipMatch) continue;
-    if (cusipMatch[1].replace(/\s|-/g, "") !== cusip) continue;
+    const cusipM = block.match(/<(?:\w+:)?cusip>([^<]+)<\/(?:\w+:)?cusip>/i);
+    if (!cusipM) continue;
+    if (cusipM[1].replace(/[\s-]/g, "") !== cusip) continue;
 
-    const sharesMatch = block.match(/<(?:\w+:)?sshPrnamt>(\d+)<\/(?:\w+:)?sshPrnamt>/i);
-    const valueMatch  = block.match(/<(?:\w+:)?value>(\d+)<\/(?:\w+:)?value>/i);
+    const sharesM = block.match(/<(?:\w+:)?sshPrnamt>(\d+)<\/(?:\w+:)?sshPrnamt>/i);
+    const valueM  = block.match(/<(?:\w+:)?value>(\d+)<\/(?:\w+:)?value>/i);
     return {
-      shares: sharesMatch ? parseInt(sharesMatch[1], 10) : null,
-      value:  valueMatch  ? parseInt(valueMatch[1],  10) : null, // in $thousands
+      shares: sharesM ? parseInt(sharesM[1], 10) : null,
+      value:  valueM  ? parseInt(valueM[1],  10) : null,
     };
   }
   return null;
 }
 
-// ─── Process one filing hit ───────────────────────────────────────────────────
-async function processHit(hit, cusip) {
-  try {
-    const xmlUrl = await findInfoTableUrl(hit.accession_no);
-    if (!xmlUrl) return null;
+// ─── Process one filer ────────────────────────────────────────────────────────
 
-    const res = await throttledFetch(xmlUrl);
-    if (!res) return null;
+async function processFiler(filer, cusips) {
+  const xmlUrl = await findInfoTableUrl(filer.cik, filer.accessionNo, filer.indexPath);
+  if (!xmlUrl) return null;
 
-    const xml = await res.text();
-    const position = parseInfoTable(xml, cusip);
-    if (!position) return null;
+  const res = await get(xmlUrl);
+  if (!res) return null;
 
-    return {
-      cik: String(cikFromAccession(hit.accession_no)),
-      name: hit.entity_name ?? "Unknown",
-      accessionNo: hit.accession_no,
-      fileDate: hit.file_date ?? "",
-      periodOfReport: hit.period_of_report ?? "",
-      shares: position.shares,
-      value: position.value,
-    };
-  } catch (e) {
-    return null;
+  const xml = await res.text();
+
+  const positions = {};
+  for (const [ticker, cusip] of Object.entries(cusips)) {
+    const pos = parseInfoTable(xml, cusip);
+    if (pos) positions[ticker] = pos;
   }
+
+  if (Object.keys(positions).length === 0) return null;
+
+  return { cik: filer.cik, name: filer.company, positions };
 }
 
-// ─── Classify action ─────────────────────────────────────────────────────────
+// ─── Classify action ──────────────────────────────────────────────────────────
+
 function classifyAction(current, prior) {
   if (current == null && prior != null) return "Sell Out";
   if (current != null && prior == null) return "New Position";
-  if (current == null && prior == null) return "No Change";
-  if (current > prior) return "Bought";
-  if (current < prior) return "Sold";
+  if (current == null)                  return "No Change";
+  if (current > prior)  return "Bought";
+  if (current < prior)  return "Sold";
   return "No Change";
 }
 
-// ─── Main per-ticker function ─────────────────────────────────────────────────
-async function fetchTickerData(ticker, cusip, ranges) {
-  console.log(`\n=== ${ticker} (CUSIP ${cusip}) ===`);
+// ─── Build holdings output ────────────────────────────────────────────────────
 
-  const [currentHits, priorHits] = await Promise.all([
-    eftsSearch(cusip, ranges.current.start, ranges.current.end),
-    eftsSearch(cusip, ranges.prior.start, ranges.prior.end),
-  ]);
-
-  console.log(`  Processing ${currentHits.length} current + ${priorHits.length} prior filings…`);
-
-  const [currentResults, priorResults] = await Promise.all([
-    batchProcess(currentHits, (h) => processHit(h, cusip)),
-    batchProcess(priorHits,   (h) => processHit(h, cusip)),
-  ]);
-
-  // Build CIK → data maps
-  const currentMap = new Map();
-  const nameMap    = new Map();
+function buildHoldings(ticker, currentResults, priorResults) {
+  const curMap  = new Map();
+  const priorMap = new Map();
+  const nameMap  = new Map();
 
   for (const r of currentResults) {
     if (!r) continue;
-    currentMap.set(r.cik, { shares: r.shares, value: r.value, fileDate: r.fileDate });
     nameMap.set(r.cik, r.name);
+    const pos = r.positions[ticker];
+    if (pos) curMap.set(r.cik, pos);
   }
-
-  const priorMap = new Map();
   for (const r of priorResults) {
     if (!r) continue;
-    if (r.shares != null) priorMap.set(r.cik, r.shares);
     if (!nameMap.has(r.cik)) nameMap.set(r.cik, r.name);
+    const pos = r.positions[ticker];
+    if (pos?.shares != null) priorMap.set(r.cik, pos.shares);
   }
 
-  const allCiks = new Set([...currentMap.keys(), ...priorMap.keys()]);
+  const allCiks = new Set([...curMap.keys(), ...priorMap.keys()]);
   const holdings = [];
 
   for (const cik of allCiks) {
-    const cur  = currentMap.get(cik) ?? null;
-    const curShares  = cur?.shares  ?? null;
-    const curValue   = cur?.value   ?? null;
-    const priorShares = priorMap.get(cik) ?? null;
+    const cur   = curMap.get(cik)   ?? null;
+    const curSh = cur?.shares       ?? null;
+    const priSh = priorMap.get(cik) ?? null;
 
-    const change = curShares != null && priorShares != null
-      ? curShares - priorShares : null;
-    const pctChange = change != null && priorShares
-      ? (change / priorShares) * 100 : null;
+    const change    = curSh != null && priSh != null ? curSh - priSh : null;
+    const pctChange = change != null && priSh
+      ? Math.round((change / priSh) * 1000) / 10 : null;
 
     holdings.push({
       filerName:    nameMap.get(cik) ?? "Unknown",
       filerCik:     cik,
-      currentShares: curShares,
-      priorShares,
+      currentShares: curSh,
+      priorShares:  priSh,
       change,
-      pctChange:    pctChange != null ? Math.round(pctChange * 10) / 10 : null,
-      currentValue: curValue,
-      action:       classifyAction(curShares, priorShares),
-      fileDate:     cur?.fileDate ?? "",
+      pctChange,
+      currentValue: cur?.value ?? null,
+      action: classifyAction(curSh, priSh),
     });
   }
 
-  // Sort: current shares desc (nulls last)
   holdings.sort((a, b) => (b.currentShares ?? -1) - (a.currentShares ?? -1));
-
-  const okCount = holdings.filter((h) => h.currentShares != null).length;
-  console.log(`  ${ticker}: ${holdings.length} total holders (${okCount} with current position)`);
-
-  return {
-    ticker,
-    cusip,
-    currentPeriod: ranges.current.label,
-    priorPeriod:   ranges.prior.label,
-    lastUpdated:   new Date().toISOString(),
-    holdings,
-  };
+  return holdings;
 }
 
-// ─── Entry point ─────────────────────────────────────────────────────────────
+// ─── Main ─────────────────────────────────────────────────────────────────────
+
 async function main() {
-  console.log("Fetching HEICO 13F institutional ownership from SEC EDGAR…");
-  const ranges = getQuarterRanges();
-  console.log(`Quarters: current=${ranges.current.label}, prior=${ranges.prior.label}`);
+  console.log("=== HEICO Institutional Ownership Fetch ===");
+  const { current, prior } = getQuarterInfo();
+  console.log(`Current: ${current.label}  Prior: ${prior.label}`);
 
-  const dataDir = join(ROOT, "data");
-  mkdirSync(dataDir, { recursive: true });
+  // Download both quarter indexes
+  const [curFilers, priFilersRaw] = await Promise.all([
+    getQuarterFilers(current.year, current.quarter),
+    getQuarterFilers(prior.year, prior.quarter),
+  ]);
 
-  for (const [ticker, cusip] of Object.entries(TICKERS)) {
-    try {
-      const data = await fetchTickerData(ticker, cusip, ranges);
-      const outPath = join(dataDir, `${ticker.toLowerCase()}.json`);
-      writeFileSync(outPath, JSON.stringify(data, null, 2));
-      console.log(`  Saved → ${outPath}`);
-    } catch (err) {
-      console.error(`  ERROR for ${ticker}:`, err.message);
-    }
+  // De-duplicate prior filers by CIK (keep most recent filing per filer)
+  const priFilersByCik = new Map();
+  for (const f of priFilersRaw) priFilersByCik.set(f.cik, f);
+  const priFilers = [...priFilersByCik.values()];
+
+  console.log(`\nProcessing ${curFilers.length} current + ${priFilers.length} prior filers...`);
+  console.log("(This checks each filer's XML for HEICO positions — takes a few minutes)\n");
+
+  const [currentResults, priorResults] = await Promise.all([
+    batchProcess(curFilers,  (f) => processFiler(f, CUSIPS)),
+    batchProcess(priFilers,  (f) => processFiler(f, CUSIPS)),
+  ]);
+
+  const curFound  = currentResults.filter(Boolean).length;
+  const priFound  = priorResults.filter(Boolean).length;
+  console.log(`\nFound ${curFound} HEICO holders in current quarter, ${priFound} in prior quarter`);
+
+  mkdirSync(join(ROOT, "data"), { recursive: true });
+
+  for (const [ticker] of Object.entries(CUSIPS)) {
+    const holdings = buildHoldings(ticker, currentResults, priorResults);
+    const out = {
+      ticker,
+      cusip: CUSIPS[ticker],
+      currentPeriod: current.label,
+      priorPeriod:   prior.label,
+      lastUpdated:   new Date().toISOString(),
+      holdings,
+    };
+    const path = join(ROOT, "data", `${ticker.toLowerCase()}.json`);
+    writeFileSync(path, JSON.stringify(out, null, 2));
+    const withPos = holdings.filter((h) => h.currentShares != null).length;
+    console.log(`  ${ticker}: ${holdings.length} total, ${withPos} with current position → ${path}`);
   }
 
   console.log("\nDone.");
