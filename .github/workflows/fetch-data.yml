@@ -2,18 +2,20 @@ name: Fetch EDGAR Data
 
 on:
   schedule:
-    - cron: "0 14 * * 1"  # Mondays at 2pm UTC (10am Eastern)
-  workflow_dispatch:       # allow manual trigger from GitHub UI
+    - cron: "0 14 * * 1"
+  workflow_dispatch:
 
 jobs:
   fetch:
-    runs-on: self-hosted   # runs on your PC so EDGAR doesn't block it
+    runs-on: self-hosted
     permissions:
       contents: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -26,15 +28,16 @@ jobs:
 
       - name: Commit updated data files
         shell: powershell
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin "https://lpearson5:$env:GH_PAT@github.com/lpearson5/HEICO-Dashboard.git"
           git add data/hei.json data/heia.json
           git diff --cached --quiet
           if ($LASTEXITCODE -ne 0) {
             $date = Get-Date ([datetime]::UtcNow) -Format 'yyyy-MM-dd'
             git commit -m "chore: refresh EDGAR 13F data $date"
             git push
-          } else {
-            Write-Host "No changes to commit"
           }
