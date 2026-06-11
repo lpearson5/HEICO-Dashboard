@@ -208,10 +208,9 @@ async function main() {
   console.log(`Current quarter: ${cur.label}   Prior quarter: ${pri.label}\n`);
 
   console.log("Step 1: Downloading quarterly filer lists from EDGAR...");
-  const [curFilers, priFilers] = await Promise.all([
-    getQuarterFilers(cur.y, cur.q),
-    getQuarterFilers(pri.y, pri.q),
-  ]);
+  const curFilers = await getQuarterFilers(cur.y, cur.q);
+  await sleep(2000); // pause so EDGAR doesn't rate-limit the second request
+  const priFilers = await getQuarterFilers(pri.y, pri.q);
 
   const total = curFilers.length + priFilers.length;
   console.log(`\nStep 2: Checking ${total} filers for HEICO positions (this takes 5-15 minutes)...`);
