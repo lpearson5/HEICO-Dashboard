@@ -8,6 +8,10 @@
  * Runs on a self-hosted runner (your PC) so www.sec.gov is not blocked.
  */
 
+// Corporate SSL inspection proxies re-sign certificates with a company CA that
+// Node.js doesn't trust. Disable strict TLS verification so requests work on HEICO's network.
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+
 import { writeFileSync, mkdirSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
