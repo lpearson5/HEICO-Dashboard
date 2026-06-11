@@ -21,14 +21,20 @@ jobs:
           node-version: "24"
 
       - name: Fetch EDGAR 13F data
-        shell: bash
+        shell: powershell
         run: node scripts/fetch-edgar.mjs
 
       - name: Commit updated data files
-        shell: bash
+        shell: powershell
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/hei.json data/heia.json
-          git diff --cached --quiet || git commit -m "chore: refresh EDGAR 13F data $(date -u +%Y-%m-%d)"
-          git push
+          git diff --cached --quiet
+          if ($LASTEXITCODE -ne 0) {
+            $date = Get-Date ([datetime]::UtcNow) -Format 'yyyy-MM-dd'
+            git commit -m "chore: refresh EDGAR 13F data $date"
+            git push
+          } else {
+            Write-Host "No changes to commit"
+          }
