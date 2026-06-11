@@ -2,13 +2,12 @@ name: Fetch EDGAR Data
 
 on:
   schedule:
-    # Run every day at 06:00 UTC (after US market open)
-    - cron: "0 6 * * *"
-  workflow_dispatch: # allow manual trigger from GitHub UI
+    - cron: "0 14 * * 1"  # Mondays at 2pm UTC (10am Eastern)
+  workflow_dispatch:       # allow manual trigger from GitHub UI
 
 jobs:
   fetch:
-    runs-on: self-hosted  # runs on your PC so EDGAR doesn't block it
+    runs-on: self-hosted   # runs on your PC so EDGAR doesn't block it
     permissions:
       contents: write
 
@@ -19,12 +18,14 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Fetch EDGAR 13F data
+        shell: bash
         run: node scripts/fetch-edgar.mjs
 
       - name: Commit updated data files
+        shell: bash
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
