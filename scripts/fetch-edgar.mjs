@@ -76,13 +76,12 @@ async function batch(items, fn, concurrency = CONCURRENCY) {
 // ─── Quarterly index ──────────────────────────────────────────────────────────
 
 async function getQuarterFilers(y, q) {
-  const url = `https://www.sec.gov/Archives/edgar/full-index/${y}/QTR${q}/crawler.idx`;
+  const url = `https://www.sec.gov/Archives/edgar/full-index/${y}/QTR${q}/company.idx`;
   console.log(`  Downloading index: ${url}`);
   const res = await get(url);
   if (!res) throw new Error(`Cannot download quarterly index for ${y} QTR${q}. Check your internet connection.`);
 
   const text = await res.text();
-  console.log(`  First 200 chars: ${text.slice(0, 200).replace(/\n/g, " ")}`);
   const filers = [];
   const seen = new Set();
 
