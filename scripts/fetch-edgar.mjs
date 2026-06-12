@@ -85,6 +85,10 @@ async function getQuarterFilers(y, q) {
   const filers = [];
   const seen = new Set();
 
+  // Log the first line that contains 13F-HR so we can see the exact format
+  const sample = text.split("\n").find(l => l.includes("13F-HR"));
+  console.log(`  Sample 13F-HR line: ${JSON.stringify(sample)}`);
+
   // company.idx is fixed-width — use regex to find 13F-HR lines robustly
   for (const line of text.split("\n")) {
     if (!line.includes("13F-HR")) continue;
