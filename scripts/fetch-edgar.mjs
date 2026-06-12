@@ -85,15 +85,11 @@ async function getQuarterFilers(y, q) {
   const filers = [];
   const seen = new Set();
 
-  // Log the first line that contains 13F-HR so we can see the exact format
-  const sample = text.split("\n").find(l => l.includes("13F-HR"));
-  console.log(`  Sample 13F-HR line: ${JSON.stringify(sample)}`);
-
   // company.idx is fixed-width — use regex to find 13F-HR lines robustly
   for (const line of text.split("\n")) {
     if (!line.includes("13F-HR")) continue;
     // Match: company name, then 2+ spaces, then form type, then CIK (10 digits), then date, then edgar/ path
-    const m = line.match(/^(.+?)\s{2,}(13F-HR\S*)\s+(\d{10})\s+\S+\s+(edgar\/\S+)/);
+    const m = line.match(/^(.+?)\s{2,}(13F-HR\S*)\s+(\d+)\s+\S+\s+(edgar\/\S+)/);
     if (!m) continue;
     const [, company, formType, cikRaw, filename] = m;
     if (!formType.startsWith("13F-HR")) continue;
@@ -113,7 +109,7 @@ async function getQuarterFilers(y, q) {
 
 async function findXmlUrl(cik, accNo, indexPath) {
   const noD = accNo.replace(/-/g, "");
-  const indexUrl = `https://www.sec.gov/${indexPath.replace(/^\//, "")}`;
+  const indexUrl = `https://www.sec.gov/${indexPath.replace(/^\//, "").replace(/\.txt$/, "-index.htm")}`;
   const res = await get(indexUrl);
   if (res) {
     const html = await res.text();
