@@ -82,26 +82,22 @@ async function getQuarterFilers(y, q) {
   if (!res) throw new Error(`Cannot download quarterly index for ${y} QTR${q}. Check your internet connection.`);
 
   const text = await res.text();
-  console.log(`  First 300 chars: ${JSON.stringify(text.slice(0, 300))}`);
   const filers = [];
   const seen = new Set();
 
+  // company.idx is fixed-width: Company Name (0-61), Form Type (62-73), CIK (74-85), Date (86-97), Filename (98+)
   for (const line of text.split("\n")) {
-    if (!line.includes("|13F-HR|")) continue;
-    const parts = line.split("|");
-    if (parts.length < 5) continue;
-    const [company, formType, cik, , filename] = parts;
-    if (formType.trim() !== "13F-HR") continue;
+    if (line.length < 100) continue;
+    const formType = line.slice(62, 74).trim();
+    if (formType !== "13F-HR") continue;
+    const company = line.slice(0, 62).trim();
+    const cik = line.slice(74, 86).trim().replace(/^0+/, "") || "0";
+    const filename = line.slice(98).trim();
     const m = filename && filename.match(/(\d{10}-\d{2}-\d{6})/);
     if (!m) continue;
     if (seen.has(m[1])) continue;
     seen.add(m[1]);
-    filers.push({
-      cik: cik.trim().replace(/^0+/, "") || "0",
-      accessionNo: m[1],
-      company: company.trim(),
-      indexPath: filename.trim(),
-    });
+    filers.push({ cik, accessionNo: m[1], company, indexPath: filename });
   }
 
   console.log(`  Found ${filers.length} 13F-HR filers for ${y} QTR${q}`);
