@@ -27,7 +27,7 @@ const HEADERS = {
   "Accept": "*/*",
 };
 
-const CONCURRENCY = 10;
+const CONCURRENCY = 20;
 
 // ─── Quarter helpers ──────────────────────────────────────────────────────────
 
@@ -85,19 +85,20 @@ async function getQuarterFilers(y, q) {
   const filers = [];
   const seen = new Set();
 
-  // company.idx is fixed-width: Company Name (0-61), Form Type (62-73), CIK (74-85), Date (86-97), Filename (98+)
+  // company.idx is fixed-width — use regex to find 13F-HR lines robustly
   for (const line of text.split("\n")) {
-    if (line.length < 100) continue;
-    const formType = line.slice(62, 74).trim();
-    if (formType !== "13F-HR") continue;
-    const company = line.slice(0, 62).trim();
-    const cik = line.slice(74, 86).trim().replace(/^0+/, "") || "0";
-    const filename = line.slice(98).trim();
-    const m = filename && filename.match(/(\d{10}-\d{2}-\d{6})/);
+    if (!line.includes("13F-HR")) continue;
+    // Match: company name, then 2+ spaces, then form type, then CIK (10 digits), then date, then edgar/ path
+    const m = line.match(/^(.+?)\s{2,}(13F-HR\S*)\s+(\d{10})\s+\S+\s+(edgar\/\S+)/);
     if (!m) continue;
-    if (seen.has(m[1])) continue;
-    seen.add(m[1]);
-    filers.push({ cik, accessionNo: m[1], company, indexPath: filename });
+    const [, company, formType, cikRaw, filename] = m;
+    if (!formType.startsWith("13F-HR")) continue;
+    const accM = filename.match(/(\d{10}-\d{2}-\d{6})/);
+    if (!accM) continue;
+    if (seen.has(accM[1])) continue;
+    seen.add(accM[1]);
+    const cik = cikRaw.replace(/^0+/, "") || "0";
+    filers.push({ cik, accessionNo: accM[1], company: company.trim(), indexPath: filename });
   }
 
   console.log(`  Found ${filers.length} 13F-HR filers for ${y} QTR${q}`);
