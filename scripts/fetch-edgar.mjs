@@ -82,6 +82,7 @@ async function getQuarterFilers(y, q) {
   if (!res) throw new Error(`Cannot download quarterly index for ${y} QTR${q}. Check your internet connection.`);
 
   const text = await res.text();
+  console.log(`  First 300 chars: ${JSON.stringify(text.slice(0, 300))}`);
   const filers = [];
   const seen = new Set();
 
