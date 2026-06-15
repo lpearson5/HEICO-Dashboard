@@ -1,15 +1,15 @@
 /**
  * Fetches HEICO institutional ownership from SEC EDGAR 13F-HR filings.
  *
- * Strategy: Download EDGAR's quarterly crawler.idx (a pipe-delimited list of
- * every filing that quarter), filter for 13F-HR, then download each filer's
- * XML and check for HEICO CUSIPs.
+ * Strategy: Use EDGAR full-text search (EFTS) to find only the ~500 filings
+ * that actually mention HEICO's CUSIPs, rather than checking all 12,000+ filers.
+ * Falls back to the full index scan if EFTS is unavailable.
  *
  * Runs on a self-hosted runner (your PC) so www.sec.gov is not blocked.
  */
 
-// Corporate SSL inspection proxies re-sign certificates with a company CA that
-// Node.js doesn't trust. Disable strict TLS verification so requests work on HEICO's network.
+// Corporate SSL inspection proxies re-sign certs with a company CA that
+// Node.js doesn't trust by default.
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 import { writeFileSync, mkdirSync } from "fs";
@@ -35,11 +35,10 @@ function getQuarters() {
   const now = new Date();
   const y = now.getFullYear();
   const m = now.getMonth() + 1;
-  // 13F-HR due ~45 days after quarter end
-  if (m >= 4 && m <= 6)  return { cur: { y, q: 1, label: `Q1 ${y}` },   pri: { y: y-1, q: 4, label: `Q4 ${y-1}` } };
-  if (m >= 7 && m <= 9)  return { cur: { y, q: 2, label: `Q2 ${y}` },   pri: { y,     q: 1, label: `Q1 ${y}`   } };
-  if (m >= 10 && m <= 12) return { cur: { y, q: 3, label: `Q3 ${y}` },  pri: { y,     q: 2, label: `Q2 ${y}`   } };
-  return                          { cur: { y: y-1, q: 4, label: `Q4 ${y-1}` }, pri: { y: y-1, q: 3, label: `Q3 ${y-1}` } };
+  if (m >= 4 && m <= 6)  return { cur: { y, q: 1, label: `Q1 ${y}`,  start: `${y}-01-01`,   end: `${y}-03-31`   }, pri: { y: y-1, q: 4, label: `Q4 ${y-1}`, start: `${y-1}-10-01`, end: `${y-1}-12-31` } };
+  if (m >= 7 && m <= 9)  return { cur: { y, q: 2, label: `Q2 ${y}`,  start: `${y}-04-01`,   end: `${y}-06-30`   }, pri: { y,     q: 1, label: `Q1 ${y}`,   start: `${y}-01-01`,   end: `${y}-03-31`   } };
+  if (m >= 10 && m <= 12) return { cur: { y, q: 3, label: `Q3 ${y}`, start: `${y}-07-01`,   end: `${y}-09-30`   }, pri: { y,     q: 2, label: `Q2 ${y}`,   start: `${y}-04-01`,   end: `${y}-06-30`   } };
+  return                          { cur: { y: y-1, q: 4, label: `Q4 ${y-1}`, start: `${y-1}-10-01`, end: `${y-1}-12-31` }, pri: { y: y-1, q: 3, label: `Q3 ${y-1}`, start: `${y-1}-07-01`, end: `${y-1}-09-30` } };
 }
 
 // ─── HTTP ─────────────────────────────────────────────────────────────────────
@@ -65,63 +64,97 @@ async function batch(items, fn, concurrency = CONCURRENCY) {
   const out = [];
   for (let i = 0; i < items.length; i += concurrency) {
     out.push(...await Promise.all(items.slice(i, i + concurrency).map(fn)));
-    if (i + concurrency < items.length) await sleep(120);
-    if (i > 0 && i % 500 === 0) {
-      console.log(`    … ${i}/${items.length} checked, ${out.filter(Boolean).length} HEICO holders so far`);
+    if (i + concurrency < items.length) await sleep(200);
+    if (i > 0 && i % 100 === 0) {
+      console.log(`    … ${i}/${items.length} processed`);
     }
   }
   return out;
 }
 
-// ─── Quarterly index ──────────────────────────────────────────────────────────
+// ─── Strategy 1: EFTS full-text search ────────────────────────────────────────
+
+async function eftsSearch(cusip, startdt, enddt) {
+  const allHits = [];
+  let from = 0;
+  const size = 100;
+
+  while (true) {
+    const url = `https://efts.sec.gov/LATEST/search-index?q=%22${cusip}%22&forms=13F-HR&dateRange=custom&startdt=${startdt}&enddt=${enddt}&from=${from}&size=${size}`;
+    const res = await get(url);
+    if (!res) return null; // EFTS unavailable
+
+    const json = await res.json();
+    const hits = json.hits?.hits ?? [];
+    allHits.push(...hits);
+
+    const total = json.hits?.total?.value ?? 0;
+    if (allHits.length >= total || hits.length === 0) break;
+    from += size;
+    await sleep(300);
+  }
+
+  return allHits.map(h => {
+    const s = h._source ?? {};
+    const accNo = (s.accession_no ?? "").replace(/\./g, "-");
+    const cik = (s.entity_id ?? s.file_num ?? "").replace(/\D/g, "");
+    return { cik, accessionNo: accNo, company: s.entity_name ?? "Unknown" };
+  }).filter(f => f.accessionNo);
+}
+
+// ─── Strategy 2: Full index scan (fallback) ────────────────────────────────────
 
 async function getQuarterFilers(y, q) {
   const url = `https://www.sec.gov/Archives/edgar/full-index/${y}/QTR${q}/company.idx`;
   console.log(`  Downloading index: ${url}`);
   const res = await get(url);
-  if (!res) throw new Error(`Cannot download quarterly index for ${y} QTR${q}. Check your internet connection.`);
+  if (!res) throw new Error(`Cannot download quarterly index for ${y} QTR${q}.`);
 
   const text = await res.text();
   const filers = [];
   const seen = new Set();
 
-  // company.idx is fixed-width — use regex to find 13F-HR lines robustly
   for (const line of text.split("\n")) {
     if (!line.includes("13F-HR")) continue;
-    // Match: company name, then 2+ spaces, then form type, then CIK (10 digits), then date, then edgar/ path
     const m = line.match(/^(.+?)\s{2,}(13F-HR\S*)\s+(\d+)\s+\S+\s+(edgar\/\S+)/);
     if (!m) continue;
-    const [, company, formType, cikRaw, filename] = m;
-    if (!formType.startsWith("13F-HR")) continue;
+    const [, company, , cikRaw, filename] = m;
     const accM = filename.match(/(\d{10}-\d{2}-\d{6})/);
     if (!accM) continue;
     if (seen.has(accM[1])) continue;
     seen.add(accM[1]);
-    const cik = cikRaw.replace(/^0+/, "") || "0";
-    filers.push({ cik, accessionNo: accM[1], company: company.trim(), indexPath: filename });
+    filers.push({ cik: cikRaw.replace(/^0+/, "") || "0", accessionNo: accM[1], company: company.trim(), indexPath: filename });
   }
 
   console.log(`  Found ${filers.length} 13F-HR filers for ${y} QTR${q}`);
   return filers;
 }
 
-// ─── XML finding & parsing ────────────────────────────────────────────────────
+// ─── XML parsing ─────────────────────────────────────────────────────────────
 
-async function findXmlUrl(cik, accNo, indexPath) {
-  const noD = accNo.replace(/-/g, "");
-  const indexUrl = `https://www.sec.gov/${indexPath.replace(/^\//, "").replace(/\.txt$/, "-index.htm")}`;
-  const res = await get(indexUrl);
-  if (res) {
-    const html = await res.text();
-    const paths = [];
+async function getXmlUrl(filer) {
+  const { cik, accessionNo } = filer;
+  const noD = accessionNo.replace(/-/g, "");
+
+  // Build the correct index page URL (requires /Archives/ prefix)
+  const indexPath = filer.indexPath
+    ? `Archives/${filer.indexPath.replace(/^\//, "").replace(/\.txt$/, "-index.htm")}`
+    : `Archives/edgar/data/${cik}/${noD}/${accessionNo}-index.htm`;
+
+  const indexRes = await get(`https://www.sec.gov/${indexPath}`);
+  if (indexRes) {
+    const html = await indexRes.text();
     const re = /href="(\/Archives\/edgar\/data\/[^"]+\.xml)"/gi;
     let m;
-    while ((m = re.exec(html)) !== null) paths.push(m[1]);
-    if (paths.length) {
-      const p = paths.find(x => /infotable|informationtable|13finfo/i.test(x)) ?? paths[paths.length - 1];
+    const candidates = [];
+    while ((m = re.exec(html)) !== null) candidates.push(m[1]);
+    if (candidates.length) {
+      const p = candidates.find(x => /infotable|informationtable|13finfo/i.test(x)) ?? candidates[candidates.length - 1];
       return `https://www.sec.gov${p}`;
     }
   }
+
+  // Fallback: try common XML filenames directly
   const base = `https://www.sec.gov/Archives/edgar/data/${cik}/${noD}`;
   for (const name of ["infotable.xml", "form13fInfoTable.xml", "informationtable.xml"]) {
     const r = await get(`${base}/${name}`);
@@ -146,7 +179,7 @@ function parseXml(xml, cusip) {
 
 async function processFiler(filer, cusips) {
   try {
-    const xmlUrl = await findXmlUrl(filer.cik, filer.accessionNo, filer.indexPath);
+    const xmlUrl = await getXmlUrl(filer);
     if (!xmlUrl) return null;
     const res = await get(xmlUrl);
     if (!res) return null;
@@ -204,18 +237,34 @@ function buildHoldings(ticker, curResults, priResults) {
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
+async function getFilers(quarter, label) {
+  // Try EFTS first (fast: searches only filings containing HEICO CUSIPs)
+  const allCusips = Object.values(CUSIPS).join('" OR "');
+  console.log(`  Trying EFTS search for ${label}...`);
+  const eftsResult = await eftsSearch(`${Object.values(CUSIPS)[0]}" OR "${Object.values(CUSIPS)[1]}`, quarter.start, quarter.end);
+
+  if (eftsResult !== null) {
+    console.log(`  EFTS found ${eftsResult.length} relevant filers for ${label}`);
+    return eftsResult;
+  }
+
+  // EFTS unavailable — fall back to full index scan
+  console.log(`  EFTS unavailable, falling back to full index scan for ${label}...`);
+  return getQuarterFilers(quarter.y, quarter.q);
+}
+
 async function main() {
   console.log("=== HEICO 13F Fetch ===");
   const { cur, pri } = getQuarters();
   console.log(`Current quarter: ${cur.label}   Prior quarter: ${pri.label}\n`);
 
-  console.log("Step 1: Downloading quarterly filer lists from EDGAR...");
-  const curFilers = await getQuarterFilers(cur.y, cur.q);
-  await sleep(2000); // pause so EDGAR doesn't rate-limit the second request
-  const priFilers = await getQuarterFilers(pri.y, pri.q);
+  console.log("Step 1: Finding filers with HEICO positions...");
+  const curFilers = await getFilers(cur, cur.label);
+  await sleep(1000);
+  const priFilers = await getFilers(pri, pri.label);
 
   const total = curFilers.length + priFilers.length;
-  console.log(`\nStep 2: Checking ${total} filers for HEICO positions (this takes 5-15 minutes)...`);
+  console.log(`\nStep 2: Downloading and parsing ${total} filings...`);
 
   const [curResults, priResults] = await Promise.all([
     batch(curFilers, f => processFiler(f, CUSIPS)),
