@@ -35,9 +35,9 @@ function getQuarters() {
   const now = new Date();
   const y = now.getFullYear();
   const m = now.getMonth() + 1;
-  if (m >= 4 && m <= 6)  return { cur: { y, q: 1, label: `Q1 ${y}`,  start: `${y}-01-01`,   end: `${y}-03-31`   }, pri: { y: y-1, q: 4, label: `Q4 ${y-1}`, start: `${y-1}-10-01`, end: `${y-1}-12-31` } };
-  if (m >= 7 && m <= 9)  return { cur: { y, q: 2, label: `Q2 ${y}`,  start: `${y}-04-01`,   end: `${y}-06-30`   }, pri: { y,     q: 1, label: `Q1 ${y}`,   start: `${y}-01-01`,   end: `${y}-03-31`   } };
-  if (m >= 10 && m <= 12) return { cur: { y, q: 3, label: `Q3 ${y}`, start: `${y}-07-01`,   end: `${y}-09-30`   }, pri: { y,     q: 2, label: `Q2 ${y}`,   start: `${y}-04-01`,   end: `${y}-06-30`   } };
+  if (m >= 4 && m <= 6)   return { cur: { y, q: 1, label: `Q1 ${y}`,      start: `${y}-01-01`,     end: `${y}-03-31`     }, pri: { y: y-1, q: 4, label: `Q4 ${y-1}`, start: `${y-1}-10-01`, end: `${y-1}-12-31` } };
+  if (m >= 7 && m <= 9)   return { cur: { y, q: 2, label: `Q2 ${y}`,      start: `${y}-04-01`,     end: `${y}-06-30`     }, pri: { y,     q: 1, label: `Q1 ${y}`,   start: `${y}-01-01`,   end: `${y}-03-31`   } };
+  if (m >= 10 && m <= 12) return { cur: { y, q: 3, label: `Q3 ${y}`,      start: `${y}-07-01`,     end: `${y}-09-30`     }, pri: { y,     q: 2, label: `Q2 ${y}`,   start: `${y}-04-01`,   end: `${y}-06-30`   } };
   return                          { cur: { y: y-1, q: 4, label: `Q4 ${y-1}`, start: `${y-1}-10-01`, end: `${y-1}-12-31` }, pri: { y: y-1, q: 3, label: `Q3 ${y-1}`, start: `${y-1}-07-01`, end: `${y-1}-09-30` } };
 }
 
@@ -72,7 +72,7 @@ async function batch(items, fn, concurrency = CONCURRENCY) {
   return out;
 }
 
-// ─── Strategy 1: EFTS full-text search ────────────────────────────────────────
+// ─── Strategy 1: EFTS full-text search ───────────────────────────────────────
 
 async function eftsSearch(cusip, startdt, enddt) {
   const allHits = [];
@@ -82,7 +82,7 @@ async function eftsSearch(cusip, startdt, enddt) {
   while (true) {
     const url = `https://efts.sec.gov/LATEST/search-index?q=%22${cusip}%22&forms=13F-HR&dateRange=custom&startdt=${startdt}&enddt=${enddt}&from=${from}&size=${size}`;
     const res = await get(url);
-    if (!res) return null; // EFTS unavailable
+    if (!res) return null;
 
     const json = await res.json();
     const hits = json.hits?.hits ?? [];
@@ -96,13 +96,13 @@ async function eftsSearch(cusip, startdt, enddt) {
 
   return allHits.map(h => {
     const s = h._source ?? {};
-    const accNo = (s.accession_no ?? "").replace(/\./g, "-");
-    const cik = (s.entity_id ?? s.file_num ?? "").replace(/\D/g, "");
+    const accNo = (h._id ?? s.accession_no ?? "").replace(/\./g, "-");
+    const cik = String(s.entity_id ?? "").replace(/^0+/, "") || "0";
     return { cik, accessionNo: accNo, company: s.entity_name ?? "Unknown" };
   }).filter(f => f.accessionNo);
 }
 
-// ─── Strategy 2: Full index scan (fallback) ────────────────────────────────────
+// ─── Strategy 2: Full index scan (fallback) ───────────────────────────────────
 
 async function getQuarterFilers(y, q) {
   const url = `https://www.sec.gov/Archives/edgar/full-index/${y}/QTR${q}/company.idx`;
@@ -123,7 +123,7 @@ async function getQuarterFilers(y, q) {
     if (!accM) continue;
     if (seen.has(accM[1])) continue;
     seen.add(accM[1]);
-    filers.push({ cik: cikRaw.replace(/^0+/, "") || "0", accessionNo: accM[1], company: company.trim(), indexPath: filename });
+    filers.push({ cik: cikRaw.replace(/^0+/, "") || "0", accessionNo: accM[1], company: company.trim() });
   }
 
   console.log(`  Found ${filers.length} 13F-HR filers for ${y} QTR${q}`);
@@ -234,19 +234,23 @@ function buildHoldings(ticker, curResults, priResults) {
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function getFilers(quarter, label) {
-  // Try EFTS first (fast: searches only filings containing HEICO CUSIPs)
-  const allCusips = Object.values(CUSIPS).join('" OR "');
   console.log(`  Trying EFTS search for ${label}...`);
-  const eftsResult = await eftsSearch(`${Object.values(CUSIPS)[0]}" OR "${Object.values(CUSIPS)[1]}`, quarter.start, quarter.end);
-
-  if (eftsResult !== null) {
-    console.log(`  EFTS found ${eftsResult.length} relevant filers for ${label}`);
-    return eftsResult;
+  const results = [];
+  for (const [ticker, cusip] of Object.entries(CUSIPS)) {
+    const hits = await eftsSearch(cusip, quarter.start, quarter.end);
+    if (hits === null) {
+      console.log(`  EFTS unavailable, falling back to full index scan for ${label}...`);
+      return getQuarterFilers(quarter.y, quarter.q);
+    }
+    console.log(`  EFTS: ${hits.length} filers hold ${ticker} in ${label}`);
+    results.push(...hits);
   }
-
-  // EFTS unavailable — fall back to full index scan
-  console.log(`  EFTS unavailable, falling back to full index scan for ${label}...`);
-  return getQuarterFilers(quarter.y, quarter.q);
+  const seen = new Set();
+  return results.filter(f => {
+    if (seen.has(f.accessionNo)) return false;
+    seen.add(f.accessionNo);
+    return true;
+  });
 }
 
 async function main() {
