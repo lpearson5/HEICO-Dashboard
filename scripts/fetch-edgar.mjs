@@ -97,7 +97,8 @@ async function eftsSearch(cusip, startdt, enddt) {
   return allHits.map(h => {
     const s = h._source ?? {};
     const accNo = (s.accession_no ?? "").replace(/\./g, "-");
-        const cikRaw = String(s.entity_id ?? s.file_num ?? "");
+        const cikRaw = String(s.entity_id ?? s.file_num ?? "");    const cikRaw = String(s.entity_id ?? s.file_num ?? "");
+    const cik = cikRaw.replace(/^0+/, "") || "0";
     return { cik, accessionNo: accNo, company: s.entity_name ?? "Unknown" };
   }).filter(f => f.accessionNo);
 }
