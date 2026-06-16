@@ -27,7 +27,7 @@ const HEADERS = {
   "Accept": "*/*",
 };
 
-const CONCURRENCY = 5;
+const CONCURRENCY = 3;
 
 // ─── Quarter helpers ──────────────────────────────────────────────────────────
 
@@ -66,7 +66,7 @@ async function batch(items, fn, concurrency = CONCURRENCY) {
   const out = [];
   for (let i = 0; i < items.length; i += concurrency) {
     out.push(...await Promise.all(items.slice(i, i + concurrency).map(fn)));
-    if (i + concurrency < items.length) await sleep(500);
+    if (i + concurrency < items.length) await sleep(1000);
     if (i > 0 && i % 100 === 0) {
       console.log(`    … ${i}/${items.length} processed`);
     }
