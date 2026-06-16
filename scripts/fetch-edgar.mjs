@@ -136,12 +136,8 @@ async function getXmlUrl(filer) {
   const { cik, accessionNo } = filer;
   const noD = accessionNo.replace(/-/g, "");
 
-  // Build the correct index page URL (requires /Archives/ prefix)
-  const indexPath = filer.indexPath
-    ? `Archives/${filer.indexPath.replace(/^\//, "").replace(/\.txt$/, "-index.htm")}`
-    : `Archives/edgar/data/${cik}/${noD}/${accessionNo}-index.htm`;
-
-  const indexRes = await get(`https://www.sec.gov/${indexPath}`);
+   // The index page is always at /Archives/edgar/data/{CIK}/{noD}/{accNo}-index.htm
+  const indexRes = await get(`https://www.sec.gov/Archives/edgar/data/${cik}/${noD}/${accessionNo}-index.htm`);;
   if (indexRes) {
     const html = await indexRes.text();
     const re = /href="(\/Archives\/edgar\/data\/[^"]+\.xml)"/gi;
