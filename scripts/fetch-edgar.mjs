@@ -27,7 +27,7 @@ const HEADERS = {
   "Accept": "*/*",
 };
 
-const CONCURRENCY = 20;
+const CONCURRENCY = 5;
 
 // ─── Quarter helpers ──────────────────────────────────────────────────────────
 
@@ -66,7 +66,7 @@ async function batch(items, fn, concurrency = CONCURRENCY) {
   const out = [];
   for (let i = 0; i < items.length; i += concurrency) {
     out.push(...await Promise.all(items.slice(i, i + concurrency).map(fn)));
-    if (i + concurrency < items.length) await sleep(200);
+    if (i + concurrency < items.length) await sleep(500);
     if (i > 0 && i % 100 === 0) {
       console.log(`    … ${i}/${items.length} processed`);
     }
@@ -236,23 +236,8 @@ function buildHoldings(ticker, curResults, priResults) {
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function getFilers(quarter, label) {
-  console.log(`  Trying EFTS search for ${label}...`);
-  const results = [];
-  for (const [ticker, cusip] of Object.entries(CUSIPS)) {
-    const hits = await eftsSearch(cusip, quarter.start, quarter.end);
-    if (hits === null) {
-      console.log(`  EFTS unavailable, falling back to full index scan for ${label}...`);
-      return getQuarterFilers(quarter.y, quarter.q);
-    }
-    console.log(`  EFTS: ${hits.length} filers hold ${ticker} in ${label}`);
-    results.push(...hits);
-  }
-  const seen = new Set();
-  return results.filter(f => {
-    if (seen.has(f.accessionNo)) return false;
-    seen.add(f.accessionNo);
-    return true;
-  });
+  // EFTS does not index 13F XML content — use full index scan for complete results
+  return getQuarterFilers(quarter.y, quarter.q);
 }
 
 async function main() {
