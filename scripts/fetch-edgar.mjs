@@ -35,10 +35,12 @@ function getQuarters() {
   const now = new Date();
   const y = now.getFullYear();
   const m = now.getMonth() + 1;
-  if (m >= 4 && m <= 6)   return { cur: { y, q: 1, label: `Q1 ${y}`,      start: `${y}-01-01`,     end: `${y}-03-31`     }, pri: { y: y-1, q: 4, label: `Q4 ${y-1}`, start: `${y-1}-10-01`, end: `${y-1}-12-31` } };
-  if (m >= 7 && m <= 9)   return { cur: { y, q: 2, label: `Q2 ${y}`,      start: `${y}-04-01`,     end: `${y}-06-30`     }, pri: { y,     q: 1, label: `Q1 ${y}`,   start: `${y}-01-01`,   end: `${y}-03-31`   } };
-  if (m >= 10 && m <= 12) return { cur: { y, q: 3, label: `Q3 ${y}`,      start: `${y}-07-01`,     end: `${y}-09-30`     }, pri: { y,     q: 2, label: `Q2 ${y}`,   start: `${y}-04-01`,   end: `${y}-06-30`   } };
-  return                          { cur: { y: y-1, q: 4, label: `Q4 ${y-1}`, start: `${y-1}-10-01`, end: `${y-1}-12-31` }, pri: { y: y-1, q: 3, label: `Q3 ${y-1}`, start: `${y-1}-07-01`, end: `${y-1}-09-30` } };
+  // EFTS uses file date (not period_of_report). 13F-HR filings are due ~45 days after quarter end.
+  // Q1 holdings (Jan-Mar) → filed Apr-Jun; Q2 (Apr-Jun) → filed Jul-Sep; etc.
+  if (m >= 4 && m <= 6)   return { cur: { y, q: 1, label: `Q1 ${y}`,      start: `${y}-04-01`,     end: `${y}-06-30`     }, pri: { y: y-1, q: 4, label: `Q4 ${y-1}`, start: `${y}-01-01`,   end: `${y}-03-31`   } };
+  if (m >= 7 && m <= 9)   return { cur: { y, q: 2, label: `Q2 ${y}`,      start: `${y}-07-01`,     end: `${y}-09-30`     }, pri: { y,     q: 1, label: `Q1 ${y}`,   start: `${y}-04-01`,   end: `${y}-06-30`   } };
+  if (m >= 10 && m <= 12) return { cur: { y, q: 3, label: `Q3 ${y}`,      start: `${y}-10-01`,     end: `${y}-12-31`     }, pri: { y,     q: 2, label: `Q2 ${y}`,   start: `${y}-07-01`,   end: `${y}-09-30`   } };
+  return                          { cur: { y: y-1, q: 4, label: `Q4 ${y-1}`, start: `${y}-01-01`,   end: `${y}-03-31`   }, pri: { y: y-1, q: 3, label: `Q3 ${y-1}`, start: `${y-1}-10-01`, end: `${y-1}-12-31` } };
 }
 
 // ─── HTTP ─────────────────────────────────────────────────────────────────────
@@ -49,7 +51,7 @@ async function get(url) {
   for (let i = 1; i <= 3; i++) {
     try {
       const res = await fetch(url, { headers: HEADERS });
-      if (res.status === 429 || res.status === 503) { await sleep(3000 * i); continue; }
+      if (res.status === 429 || res.status === 500 || res.status === 503) { await sleep(3000 * i); continue; }
       if (!res.ok) { console.warn(`  [${res.status}] ${url.slice(0, 100)}`); return null; }
       return res;
     } catch (e) {
