@@ -1,282 +1,186 @@
 /**
- * Fetches HEICO institutional ownership from SEC EDGAR 13F-HR filings.
- *
- * Strategy: Use EDGAR full-text search (EFTS) to find only the ~500 filings
- * that actually mention HEICO's CUSIPs, rather than checking all 12,000+ filers.
- * Falls back to the full index scan if EFTS is unavailable.
- *
- * Runs on a self-hosted runner (your PC) so www.sec.gov is not blocked.
+ * Fetches HEICO institutional ownership from Financial Modeling Prep (FMP) API.
+ * FMP aggregates 13F-HR filings from SEC EDGAR, providing complete holder lists
+ * without requiring direct EDGAR XML scraping.
  */
 
-// Corporate SSL inspection proxies re-sign certs with a company CA that
-// Node.js doesn't trust by default.
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
-import { writeFileSync, mkdirSync } from "fs";
+import { writeFileSync, mkdirSync, readFileSync, existsSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
 
-const CUSIPS = { HEI: "422819102", HEIA: "422819201" };
+const FMP_KEY = process.env.FMP_API_KEY;
+if (!FMP_KEY) {
+  console.error("ERROR: FMP_API_KEY environment variable is not set.");
+  process.exit(1);
+}
 
-const HEADERS = {
-  "User-Agent": "HEICO-Dashboard/1.0 lpearson@heico.com",
-  "Accept-Encoding": "identity",
-  "Accept": "*/*",
-};
-
-const CONCURRENCY = 3;
+const TICKERS = { HEI: "HEI", HEIA: "HEI-A" };
+const CUSIPS  = { HEI: "422819102", HEIA: "422819201" };
 
 // ─── Quarter helpers ──────────────────────────────────────────────────────────
 
-function getQuarters() {
+function getQuarterLabel(dateStr) {
+  // dateStr is like "2025-12-31" (period of report)
+  const d = new Date(dateStr);
+  const m = d.getMonth() + 1; // 1-12
+  const y = d.getFullYear();
+  if (m <= 3)  return `Q1 ${y}`;
+  if (m <= 6)  return `Q2 ${y}`;
+  if (m <= 9)  return `Q3 ${y}`;
+  return `Q4 ${y}`;
+}
+
+function currentExpectedQuarter() {
   const now = new Date();
   const y = now.getFullYear();
   const m = now.getMonth() + 1;
-  // EFTS uses file date (not period_of_report). 13F-HR filings are due ~45 days after quarter end.
-  // Q1 holdings (Jan-Mar) → filed Apr-Jun; Q2 (Apr-Jun) → filed Jul-Sep; etc.
-  if (m >= 4 && m <= 6)   return { cur: { y, q: 1, label: `Q1 ${y}`,      start: `${y}-04-01`,     end: `${y}-06-30`     }, pri: { y: y-1, q: 4, label: `Q4 ${y-1}`, start: `${y}-01-01`,   end: `${y}-03-31`   } };
-  if (m >= 7 && m <= 9)   return { cur: { y, q: 2, label: `Q2 ${y}`,      start: `${y}-07-01`,     end: `${y}-09-30`     }, pri: { y,     q: 1, label: `Q1 ${y}`,   start: `${y}-04-01`,   end: `${y}-06-30`   } };
-  if (m >= 10 && m <= 12) return { cur: { y, q: 3, label: `Q3 ${y}`,      start: `${y}-10-01`,     end: `${y}-12-31`     }, pri: { y,     q: 2, label: `Q2 ${y}`,   start: `${y}-07-01`,   end: `${y}-09-30`   } };
-  return                          { cur: { y: y-1, q: 4, label: `Q4 ${y-1}`, start: `${y}-01-01`,   end: `${y}-03-31`   }, pri: { y: y-1, q: 3, label: `Q3 ${y-1}`, start: `${y-1}-10-01`, end: `${y-1}-12-31` } };
+  // 13F-HR filings are due ~45 days after quarter end.
+  // If we're in Apr-Jun, the most recent completed filing period is Q1.
+  if (m >= 4 && m <= 6)  return `Q1 ${y}`;
+  if (m >= 7 && m <= 9)  return `Q2 ${y}`;
+  if (m >= 10 && m <= 12) return `Q3 ${y}`;
+  return `Q4 ${y - 1}`;
+}
+
+function priorQuarter(label) {
+  const m = { Q1: 4, Q2: 7, Q3: 10, Q4: 1 };
+  const [q, y] = label.split(" ");
+  const yr = parseInt(y, 10);
+  const prevQ = { Q1: "Q4", Q2: "Q1", Q3: "Q2", Q4: "Q3" }[q];
+  const prevY = q === "Q1" ? yr - 1 : yr;
+  return `${prevQ} ${prevY}`;
 }
 
 // ─── HTTP ─────────────────────────────────────────────────────────────────────
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
-async function get(url) {
+async function fmpGet(path) {
+  const sep = path.includes("?") ? "&" : "?";
+  const url = `https://financialmodelingprep.com/stable${path}${sep}apikey=${FMP_KEY}`;
   for (let i = 1; i <= 3; i++) {
     try {
-      const res = await fetch(url, { headers: HEADERS });
-      if (res.status === 429 || res.status === 500 || res.status === 503) { await sleep(3000 * i); continue; }
-      if (!res.ok) { console.warn(`  [${res.status}] ${url.slice(0, 100)}`); return null; }
-      return res;
+      const res = await fetch(url);
+      if (res.status === 429) { await sleep(5000 * i); continue; }
+      if (!res.ok) {
+        console.warn(`  [${res.status}] FMP ${path}`);
+        return null;
+      }
+      const json = await res.json();
+      // FMP returns {"error":"..."} on bad key etc.
+      if (json?.error) {
+        console.error(`  FMP API error: ${json.error}`);
+        return null;
+      }
+      return json;
     } catch (e) {
-      if (i === 3) console.warn(`  [ERR] ${e.message.slice(0, 80)}`);
+      if (i === 3) console.warn(`  [ERR] ${e.message}`);
       await sleep(800 * i);
     }
   }
   return null;
 }
 
-async function batch(items, fn, concurrency = CONCURRENCY) {
-  const out = [];
-  for (let i = 0; i < items.length; i += concurrency) {
-    out.push(...await Promise.all(items.slice(i, i + concurrency).map(fn)));
-    if (i + concurrency < items.length) await sleep(1000);
-    if (i > 0 && i % 100 === 0) {
-      console.log(`    … ${i}/${items.length} processed`);
-    }
+// ─── FMP institutional holder fetch ──────────────────────────────────────────
+
+async function fetchHolders(fmpTicker) {
+  console.log(`  Fetching holders for ${fmpTicker}...`);
+  // Returns array of { holder, shares, change, dateReported, weightPercent }
+  const data = await fmpGet(`/institutional-ownership/list?symbol=${fmpTicker}`);
+  if (!Array.isArray(data)) {
+    console.warn(`  Unexpected FMP response for ${fmpTicker}`);
+    return [];
   }
-  return out;
+  console.log(`  → ${data.length} holders returned`);
+  return data;
 }
 
-// ─── Strategy 1: EFTS full-text search ───────────────────────────────────────
+// ─── Action classification ───────────────────────────────────────────────────
 
-async function eftsSearch(cusip, startdt, enddt) {
-  const allHits = [];
-  let from = 0;
-  const size = 100;
-
-  while (true) {
-    const url = `https://efts.sec.gov/LATEST/search-index?q=%22${cusip}%22&forms=13F-HR&dateRange=custom&startdt=${startdt}&enddt=${enddt}&from=${from}&size=${size}`;
-    const res = await get(url);
-    if (!res) return null;
-
-    const json = await res.json();
-    const hits = json.hits?.hits ?? [];
-    allHits.push(...hits);
-
-    const total = json.hits?.total?.value ?? 0;
-    if (allHits.length >= total || hits.length === 0) break;
-    from += size;
-    await sleep(300);
-  }
-
-  return allHits.map(h => {
-    const s = h._source ?? {};
-    const accNo = (h._id ?? s.accession_no ?? "").replace(/\./g, "-");
-    const cik = String(s.entity_id ?? "").replace(/^0+/, "") || "0";
-    return { cik, accessionNo: accNo, company: s.entity_name ?? "Unknown" };
-  }).filter(f => f.accessionNo);
-}
-
-// ─── Strategy 2: Full index scan (fallback) ───────────────────────────────────
-
-async function getQuarterFilers(y, q) {
-  const url = `https://www.sec.gov/Archives/edgar/full-index/${y}/QTR${q}/company.idx`;
-  console.log(`  Downloading index: ${url}`);
-  const res = await get(url);
-  if (!res) throw new Error(`Cannot download quarterly index for ${y} QTR${q}.`);
-
-  const text = await res.text();
-  const filers = [];
-  const seen = new Set();
-
-  for (const line of text.split("\n")) {
-    if (!line.includes("13F-HR")) continue;
-    const m = line.match(/^(.+?)\s{2,}(13F-HR\S*)\s+(\d+)\s+\S+\s+(edgar\/\S+)/);
-    if (!m) continue;
-    const [, company, , cikRaw, filename] = m;
-    const accM = filename.match(/(\d{10}-\d{2}-\d{6})/);
-    if (!accM) continue;
-    if (seen.has(accM[1])) continue;
-    seen.add(accM[1]);
-    filers.push({ cik: cikRaw.replace(/^0+/, "") || "0", accessionNo: accM[1], company: company.trim() });
-  }
-
-  console.log(`  Found ${filers.length} 13F-HR filers for ${y} QTR${q}`);
-  return filers;
-}
-
-// ─── XML parsing ─────────────────────────────────────────────────────────────
-
-async function getXmlUrl(filer) {
-  const { cik, accessionNo } = filer;
-  const noD = accessionNo.replace(/-/g, "");
-
-  // The index page is always at /Archives/edgar/data/{CIK}/{noD}/{accNo}-index.htm
-  const indexRes = await get(`https://www.sec.gov/Archives/edgar/data/${cik}/${noD}/${accessionNo}-index.htm`);
-  if (indexRes) {
-    const html = await indexRes.text();
-    const base = `https://www.sec.gov/Archives/edgar/data/${cik}/${noD}/`;
-    const re = /href="([^"]+\.xml)"/gi;
-    let m;
-    const candidates = [];
-    while ((m = re.exec(html)) !== null) {
-      const href = m[1];
-      candidates.push(href.startsWith("/") ? `https://www.sec.gov${href}` : `${base}${href}`);
-    }
-    if (candidates.length) {
-      const p = candidates.find(x => /infotable|informationtable|13finfo/i.test(x)) ?? candidates[candidates.length - 1];
-      return p;
-    }
-  }
-
-  // Fallback: try common XML filenames directly
-  const base = `https://www.sec.gov/Archives/edgar/data/${cik}/${noD}`;
-  for (const name of ["infotable.xml", "form13fInfoTable.xml", "informationtable.xml"]) {
-    const r = await get(`${base}/${name}`);
-    if (r) return `${base}/${name}`;
-  }
-  return null;
-}
-
-function parseXml(xml, cusip) {
-  const re = /<(?:\w+:)?infoTable>([\s\S]*?)<\/(?:\w+:)?infoTable>/gi;
-  let m;
-  while ((m = re.exec(xml)) !== null) {
-    const b = m[1];
-    const cm = b.match(/<(?:\w+:)?cusip>([^<]+)<\/(?:\w+:)?cusip>/i);
-    if (!cm || cm[1].replace(/[\s-]/g, "") !== cusip) continue;
-    const sm = b.match(/<(?:\w+:)?sshPrnamt>(\d+)<\/(?:\w+:)?sshPrnamt>/i);
-    const vm = b.match(/<(?:\w+:)?value>(\d+)<\/(?:\w+:)?value>/i);
-    return { shares: sm ? parseInt(sm[1], 10) : null, value: vm ? parseInt(vm[1], 10) : null };
-  }
-  return null;
-}
-
-async function processFiler(filer, cusips) {
-  try {
-    const xmlUrl = await getXmlUrl(filer);
-    if (!xmlUrl) return null;
-    const res = await get(xmlUrl);
-    if (!res) return null;
-    const xml = await res.text();
-    const positions = {};
-    for (const [t, c] of Object.entries(cusips)) {
-      const p = parseXml(xml, c);
-      if (p) positions[t] = p;
-    }
-    if (!Object.keys(positions).length) return null;
-    return { cik: filer.cik, name: filer.company, positions };
-  } catch { return null; }
-}
-
-// ─── Holdings builder ─────────────────────────────────────────────────────────
-
-function classifyAction(cur, pri) {
-  if (cur == null && pri != null) return "Sell Out";
-  if (cur != null && pri == null) return "New Position";
-  if (cur == null) return "No Change";
-  if (cur > pri) return "Bought";
-  if (cur < pri) return "Sold";
+function classifyAction(curShares, change) {
+  if (curShares == null) return "No Data";
+  if (change == null)    return "No Change";
+  if (curShares === 0 && change < 0) return "Sell Out";
+  if (change > 0 && (curShares - change) === 0) return "New Position";
+  if (change > 0)  return "Bought";
+  if (change < 0)  return "Sold";
   return "No Change";
 }
 
-function buildHoldings(ticker, curResults, priResults) {
-  const curMap = new Map(), priMap = new Map(), nameMap = new Map();
-  for (const r of curResults) {
-    if (!r) continue;
-    nameMap.set(r.cik, r.name);
-    const p = r.positions[ticker];
-    if (p) curMap.set(r.cik, p);
-  }
-  for (const r of priResults) {
-    if (!r) continue;
-    if (!nameMap.has(r.cik)) nameMap.set(r.cik, r.name);
-    const p = r.positions[ticker];
-    if (p?.shares != null) priMap.set(r.cik, p.shares);
-  }
-  const holdings = [];
-  for (const cik of new Set([...curMap.keys(), ...priMap.keys()])) {
-    const cur = curMap.get(cik) ?? null;
-    const curSh = cur?.shares ?? null, priSh = priMap.get(cik) ?? null;
-    const change = curSh != null && priSh != null ? curSh - priSh : null;
-    const pctChange = change != null && priSh ? Math.round((change / priSh) * 1000) / 10 : null;
-    holdings.push({
-      filerName: nameMap.get(cik) ?? "Unknown",
-      filerCik: cik, currentShares: curSh, priorShares: priSh,
-      change, pctChange, currentValue: cur?.value ?? null,
-      action: classifyAction(curSh, priSh),
-    });
-  }
-  return holdings.sort((a, b) => (b.currentShares ?? -1) - (a.currentShares ?? -1));
+// ─── Build holdings array ─────────────────────────────────────────────────────
+
+function buildHoldings(fmpData, curPeriod, priPeriod) {
+  return fmpData
+    .map(item => {
+      const curShares = item.shares != null ? item.shares : null;
+      const change    = item.change != null ? item.change : null;
+      const priShares = curShares != null && change != null ? curShares - change : null;
+      const pctChange = change != null && priShares ? Math.round((change / priShares) * 1000) / 10 : null;
+      const curValue  = item.marketValue != null ? Math.round(item.marketValue) : null;
+
+      return {
+        filerName:     item.investorName ?? item.holder ?? "Unknown",
+        currentShares: curShares,
+        priorShares:   priShares,
+        change,
+        pctChange,
+        currentValue:  curValue,
+        action:        classifyAction(curShares, change),
+        dateReported:  item.dateReported ?? null,
+      };
+    })
+    .sort((a, b) => (b.currentShares ?? -1) - (a.currentShares ?? -1));
 }
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
-async function getFilers(quarter, label) {
-  // EFTS does not index 13F XML content — use full index scan for complete results
-  return getQuarterFilers(quarter.y, quarter.q);
-}
-
 async function main() {
-  console.log("=== HEICO 13F Fetch ===");
-  const { cur, pri } = getQuarters();
-  console.log(`Current quarter: ${cur.label}   Prior quarter: ${pri.label}\n`);
+  console.log("=== HEICO Institutional Ownership via FMP API ===\n");
 
-  console.log("Step 1: Finding filers with HEICO positions...");
-  const curFilers = await getFilers(cur, cur.label);
-  await sleep(1000);
-  const priFilers = await getFilers(pri, pri.label);
-
-  const total = curFilers.length + priFilers.length;
-  console.log(`\nStep 2: Downloading and parsing ${total} filings...`);
-
-  const [curResults, priResults] = await Promise.all([
-    batch(curFilers, f => processFiler(f, CUSIPS)),
-    batch(priFilers, f => processFiler(f, CUSIPS)),
-  ]);
-
-  const found = [...curResults, ...priResults].filter(Boolean).length;
-  console.log(`\nFound ${found} HEICO holder records. Building output...`);
+  const curPeriod = currentExpectedQuarter();
+  const priPeriod = priorQuarter(curPeriod);
+  console.log(`Expected period: ${curPeriod}   Prior: ${priPeriod}\n`);
 
   mkdirSync(join(ROOT, "data"), { recursive: true });
 
-  for (const [ticker, cusip] of Object.entries(CUSIPS)) {
-    const holdings = buildHoldings(ticker, curResults, priResults);
-    const withPos = holdings.filter(h => h.currentShares != null).length;
-    writeFileSync(
-      join(ROOT, "data", `${ticker.toLowerCase()}.json`),
-      JSON.stringify({ ticker, cusip, currentPeriod: cur.label, priorPeriod: pri.label,
-                       lastUpdated: new Date().toISOString(), holdings }, null, 2)
-    );
-    console.log(`  ${ticker}: ${withPos} current holders, ${holdings.length} total`);
+  for (const [key, fmpTicker] of Object.entries(TICKERS)) {
+    const cusip = CUSIPS[key];
+    const fmpData = await fetchHolders(fmpTicker);
+
+    if (fmpData.length === 0) {
+      console.warn(`  WARNING: No data returned for ${fmpTicker}. Skipping.`);
+      continue;
+    }
+
+    // Determine actual period from the dateReported field if available
+    const sample = fmpData.find(d => d.dateReported);
+    const actualPeriod = sample ? getQuarterLabel(sample.dateReported) : curPeriod;
+    const actualPrior  = priorQuarter(actualPeriod);
+
+    const holdings = buildHoldings(fmpData, actualPeriod, actualPrior);
+    const withPos   = holdings.filter(h => h.currentShares != null && h.currentShares > 0).length;
+
+    const out = {
+      ticker:        key,
+      cusip,
+      currentPeriod: actualPeriod,
+      priorPeriod:   actualPrior,
+      lastUpdated:   new Date().toISOString(),
+      holdings,
+    };
+
+    const outPath = join(ROOT, "data", `${key.toLowerCase()}.json`);
+    writeFileSync(outPath, JSON.stringify(out, null, 2));
+    console.log(`  ${key} (${fmpTicker}): ${withPos} current holders, ${holdings.length} total → data/${key.toLowerCase()}.json`);
+
+    await sleep(500);
   }
+
   console.log("\nDone!");
 }
 
