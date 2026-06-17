@@ -62,7 +62,7 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 async function fmpGet(path) {
   const sep = path.includes("?") ? "&" : "?";
-  const url = `https://financialmodelingprep.com/stable${path}${sep}apikey=${FMP_KEY}`;
+  const url = `https://financialmodelingprep.com/api/v3${path}${sep}apikey=${FMP_KEY}`;
   for (let i = 1; i <= 3; i++) {
     try {
       const res = await fetch(url);
@@ -91,7 +91,7 @@ async function fmpGet(path) {
 async function fetchHolders(fmpTicker) {
   console.log(`  Fetching holders for ${fmpTicker}...`);
   // Returns array of { holder, shares, change, dateReported, weightPercent }
-  const data = await fmpGet(`/institutional-ownership/list?symbol=${fmpTicker}`);
+  const data = await fmpGet(`/institutional-holder/${fmpTicker}`);
   if (!Array.isArray(data)) {
     console.warn(`  Unexpected FMP response for ${fmpTicker}`);
     return [];
