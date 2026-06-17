@@ -142,13 +142,17 @@ async function getXmlUrl(filer) {
   const indexRes = await get(`https://www.sec.gov/Archives/edgar/data/${cik}/${noD}/${accessionNo}-index.htm`);
   if (indexRes) {
     const html = await indexRes.text();
-    const re = /href="(\/Archives\/edgar\/data\/[^"]+\.xml)"/gi;
+    const base = `https://www.sec.gov/Archives/edgar/data/${cik}/${noD}/`;
+    const re = /href="([^"]+\.xml)"/gi;
     let m;
     const candidates = [];
-    while ((m = re.exec(html)) !== null) candidates.push(m[1]);
+    while ((m = re.exec(html)) !== null) {
+      const href = m[1];
+      candidates.push(href.startsWith("/") ? `https://www.sec.gov${href}` : `${base}${href}`);
+    }
     if (candidates.length) {
       const p = candidates.find(x => /infotable|informationtable|13finfo/i.test(x)) ?? candidates[candidates.length - 1];
-      return `https://www.sec.gov${p}`;
+      return p;
     }
   }
 
