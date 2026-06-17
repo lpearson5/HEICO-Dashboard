@@ -22,10 +22,8 @@ jobs:
         with:
           node-version: "24"
 
-      - name: Fetch institutional ownership via FMP API
+      - name: Fetch EDGAR 13F data
         shell: powershell
-        env:
-          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
         run: node scripts/fetch-edgar.mjs
 
       - name: Commit updated data files
