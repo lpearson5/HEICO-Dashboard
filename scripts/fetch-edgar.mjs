@@ -1,60 +1,68 @@
 /**
- * Fetches HEICO institutional ownership from SEC EDGAR bulk 13F data sets.
+ * Fetches HEICO institutional ownership from WhalewWisdom API.
+ * WhalewWisdom aggregates SEC 13F-HR filings and exposes a complete
+ * holder list via their API (870 HEI holders, 682 HEI-A holders).
  *
- * SEC publishes quarterly ZIP files containing ALL 13F holdings data.
- * We download one ZIP per quarter, extract the infotable TSV, and filter
- * for HEICO's CUSIPs — no per-filer scraping required.
- *
- * Bulk data URL: https://www.sec.gov/data/form13f/{YEAR}q{Q}_form13f.zip
- * Each ZIP contains:
- *   INFOTABLE.tsv  — one row per holding (CUSIP, shares, value, accession)
- *   COVERPAGE.tsv  — one row per filing (accession, filer name, period)
- *   SUBMISSION.tsv — accession → CIK mapping
+ * Auth: HMAC-SHA1 signed requests using WW_SHARED_KEY + WW_SECRET secrets.
  */
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
+import { createHmac } from "crypto";
 import { writeFileSync, mkdirSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
-import { createInflateRaw } from "zlib";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
 
-const CUSIPS = { HEI: "422819102", HEIA: "422819201" };
+const WW_KEY    = process.env.WW_SHARED_KEY;
+const WW_SECRET = process.env.WW_SECRET;
 
-const HEADERS = {
-  "User-Agent": "HEICO-Dashboard/1.0 lpearson@heico.com",
-  "Accept-Encoding": "identity",
-  "Accept": "*/*",
-};
-
-// ─── Quarter helpers ──────────────────────────────────────────────────────────
-
-function getQuarters() {
-  const now = new Date();
-  const y = now.getFullYear();
-  const m = now.getMonth() + 1;
-  // 13F due ~45 days after quarter end; if Apr-Jun we're in the Q1 filing window
-  if (m >= 4 && m <= 6)   return { cur: { y, q: 1, label: `Q1 ${y}` },        pri: { y: y-1, q: 4, label: `Q4 ${y-1}` } };
-  if (m >= 7 && m <= 9)   return { cur: { y, q: 2, label: `Q2 ${y}` },        pri: { y,     q: 1, label: `Q1 ${y}` } };
-  if (m >= 10 && m <= 12) return { cur: { y, q: 3, label: `Q3 ${y}` },        pri: { y,     q: 2, label: `Q2 ${y}` } };
-  return                          { cur: { y: y-1, q: 4, label: `Q4 ${y-1}` }, pri: { y: y-1, q: 3, label: `Q3 ${y-1}` } };
+if (!WW_KEY || !WW_SECRET) {
+  console.error("ERROR: WW_SHARED_KEY and WW_SECRET environment variables must be set.");
+  process.exit(1);
 }
 
-// ─── HTTP ─────────────────────────────────────────────────────────────────────
+const TICKERS = [
+  { key: "HEI",  cusip: "422819102", wwName: "HEI"   },
+  { key: "HEIA", cusip: "422819201", wwName: "HEI-A"  },
+];
+
+// ─── WhalewWisdom API ─────────────────────────────────────────────────────────
+
+function wwSign(argsStr) {
+  const timestamp = new Date().toISOString().replace(/\.\d{3}Z$/, "Z");
+  const base = argsStr + "\n" + timestamp;
+  const sig = createHmac("sha1", WW_SECRET).update(base).digest("base64");
+  return { timestamp, sig };
+}
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
-async function fetchBuffer(url) {
+async function wwCall(argsObj) {
+  const argsStr = JSON.stringify(argsObj);
+  const { timestamp, sig } = wwSign(argsStr);
+  const url = [
+    "https://whalewisdom.com/shell/command.json",
+    `?args=${encodeURIComponent(argsStr)}`,
+    `&api_shared_key=${encodeURIComponent(WW_KEY)}`,
+    `&api_sig=${encodeURIComponent(sig)}`,
+    `&timestamp=${encodeURIComponent(timestamp)}`,
+  ].join("");
+
   for (let i = 1; i <= 3; i++) {
     try {
-      const res = await fetch(url, { headers: HEADERS });
-      if (res.status === 429 || res.status === 503) { await sleep(5000 * i); continue; }
-      if (!res.ok) { console.warn(`  [${res.status}] ${url}`); return null; }
-      const buf = Buffer.from(await res.arrayBuffer());
-      return buf;
+      const res = await fetch(url, {
+        headers: { "User-Agent": "HEICO-Dashboard/1.0 lpearson@heico.com" },
+      });
+      if (res.status === 429) { await sleep(5000 * i); continue; }
+      if (!res.ok) {
+        const text = await res.text();
+        console.warn(`  [${res.status}] WW API: ${text.slice(0, 200)}`);
+        return null;
+      }
+      return await res.json();
     } catch (e) {
       if (i === 3) console.warn(`  [ERR] ${e.message}`);
       await sleep(1000 * i);
@@ -63,230 +71,162 @@ async function fetchBuffer(url) {
   return null;
 }
 
-// ─── ZIP reader (no npm deps) ─────────────────────────────────────────────────
-// Minimal ZIP parser: reads local file headers and extracts stored/deflated entries.
+// ─── Stock lookup ─────────────────────────────────────────────────────────────
 
-function readUint16LE(buf, off) { return buf[off] | (buf[off+1] << 8); }
-function readUint32LE(buf, off) { return (buf[off] | (buf[off+1]<<8) | (buf[off+2]<<16) | (buf[off+3]<<24)) >>> 0; }
+async function lookupStockId(ticker) {
+  console.log(`  Looking up stock ID for ${ticker}...`);
+  const data = await wwCall({ command: "stock_lookup", name: ticker });
+  if (!data) return null;
 
-async function extractFileFromZip(zipBuf, targetName) {
-  // Walk local file headers (PK\x03\x04)
-  let off = 0;
-  while (off < zipBuf.length - 4) {
-    if (zipBuf[off] !== 0x50 || zipBuf[off+1] !== 0x4B ||
-        zipBuf[off+2] !== 0x03 || zipBuf[off+3] !== 0x04) {
-      off++;
-      continue;
-    }
-    const compression   = readUint16LE(zipBuf, off + 8);
-    const compSize      = readUint32LE(zipBuf, off + 18);
-    const uncompSize    = readUint32LE(zipBuf, off + 22);
-    const nameLen       = readUint16LE(zipBuf, off + 26);
-    const extraLen      = readUint16LE(zipBuf, off + 28);
-    const name          = zipBuf.slice(off + 30, off + 30 + nameLen).toString("utf8");
-    const dataStart     = off + 30 + nameLen + extraLen;
+  // Response is typically an array of matching stocks
+  const list = Array.isArray(data) ? data : (data.results ?? data.stocks ?? []);
+  const match = list.find(s =>
+    (s.ticker ?? s.symbol ?? "").toUpperCase() === ticker.toUpperCase()
+  ) ?? list[0];
 
-    if (name.toUpperCase() === targetName.toUpperCase()) {
-      const compData = zipBuf.slice(dataStart, dataStart + compSize);
-      if (compression === 0) {
-        // Stored — no compression
-        return compData.toString("utf8");
-      } else if (compression === 8) {
-        // Deflated
-        return await new Promise((resolve, reject) => {
-          const chunks = [];
-          const inflate = createInflateRaw();
-          inflate.on("data", c => chunks.push(c));
-          inflate.on("end", () => resolve(Buffer.concat(chunks).toString("utf8")));
-          inflate.on("error", reject);
-          inflate.write(compData);
-          inflate.end();
-        });
-      } else {
-        throw new Error(`Unsupported ZIP compression method: ${compression}`);
-      }
-    }
-    off = dataStart + compSize;
-  }
-  return null;
+  if (!match) { console.warn(`  No stock found for ${ticker}`); return null; }
+  const id = match.id ?? match.stock_id ?? match.f13_id;
+  console.log(`  → ${ticker} stock ID: ${id} (${match.name ?? match.stock_name ?? ""})`);
+  return id;
 }
 
-// ─── TSV parser ───────────────────────────────────────────────────────────────
+// ─── Fetch holders ────────────────────────────────────────────────────────────
 
-function parseTsv(text) {
-  const lines = text.split("\n");
-  if (lines.length < 2) return [];
-  const headers = lines[0].split("\t").map(h => h.trim().toUpperCase());
-  const rows = [];
-  for (let i = 1; i < lines.length; i++) {
-    const line = lines[i].trim();
-    if (!line) continue;
-    const cols = line.split("\t");
-    const row = {};
-    for (let j = 0; j < headers.length; j++) row[headers[j]] = (cols[j] ?? "").trim();
-    rows.push(row);
+async function fetchHolders(stockId, ticker) {
+  console.log(`  Fetching holders for ${ticker} (id=${stockId})...`);
+  // No quarter_ids = most recent two quarters by default
+  const data = await wwCall({
+    command:   "holders",
+    stock_ids: [stockId],
+    limit:     2000,
+  });
+
+  if (!data) return [];
+
+  const rows = Array.isArray(data) ? data : (data.results ?? data.holders ?? []);
+  console.log(`  → ${rows.length} holder rows`);
+
+  if (rows.length > 0) {
+    console.log(`  Sample row keys: ${Object.keys(rows[0]).join(", ")}`);
+    console.log(`  Sample: ${JSON.stringify(rows[0])}`);
   }
   return rows;
 }
 
-// ─── Bulk 13F download ────────────────────────────────────────────────────────
+// ─── Quarter helpers ──────────────────────────────────────────────────────────
 
-// SEC publishes 13F bulk ZIPs with 3-month windows ending Feb/May/Aug/Nov.
-// Q1 holdings (filed Apr-May) → mar-may ZIP
-// Q2 holdings (filed Jul-Aug) → jun-aug ZIP
-// Q3 holdings (filed Oct-Nov) → sep-nov ZIP
-// Q4 holdings (filed Jan-Feb) → dec-feb ZIP (spans two calendar years)
-function quarterToZipUrl(y, q) {
-  const months = ["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"];
-  const days   = [31,28,31,30,31,30,31,31,30,31,30,31];
-  const isLeap = yr => (yr % 4 === 0 && yr % 100 !== 0) || yr % 400 === 0;
-
-  let startM, startY, endM, endY;
-  if (q === 1) { startM = 3; startY = y;   endM = 5; endY = y;   }
-  if (q === 2) { startM = 6; startY = y;   endM = 8; endY = y;   }
-  if (q === 3) { startM = 9; startY = y;   endM = 11; endY = y;  }
-  if (q === 4) { startM = 12; startY = y;  endM = 2; endY = y+1; }
-
-  const startDay = 1;
-  const endDay = endM === 2 ? (isLeap(endY) ? 29 : 28) : days[endM - 1];
-  const start = `${String(startDay).padStart(2,"0")}${months[startM-1]}${startY}`;
-  const end   = `${String(endDay).padStart(2,"0")}${months[endM-1]}${endY}`;
-  return `https://www.sec.gov/files/structureddata/data/form-13f-data-sets/${start}-${end}_form13f.zip`;
-}
-
-async function fetchQuarterData(y, q) {
-  const url = quarterToZipUrl(y, q);
-  console.log(`  Downloading bulk data: ${url}`);
-  const buf = await fetchBuffer(url);
-  if (!buf) throw new Error(`Cannot download 13F bulk data for ${y} Q${q} — URL: ${url}`);
-  return buf;
-}
-
-async function getHolderData(y, q) {
-  const zipBuf = await fetchQuarterData(y, q);
-  console.log(`  Downloaded ${(zipBuf.length / 1024 / 1024).toFixed(1)} MB`);
-
-  console.log(`  Extracting INFOTABLE.tsv...`);
-  const infoTsv = await extractFileFromZip(zipBuf, "INFOTABLE.tsv");
-  if (!infoTsv) throw new Error("INFOTABLE.tsv not found in ZIP");
-
-  console.log(`  Extracting COVERPAGE.tsv...`);
-  const coverTsv = await extractFileFromZip(zipBuf, "COVERPAGE.tsv");
-  if (!coverTsv) throw new Error("COVERPAGE.tsv not found in ZIP");
-
-  // Build accession → filer name map from cover page
-  const coverRows = parseTsv(coverTsv);
-  const filerMap = new Map();
-  for (const row of coverRows) {
-    const acc = row["ACCESSION_NUMBER"] ?? row["ACCESSION-NUMBER"] ?? "";
-    const name = row["FILINGMANAGER_NAME"] ?? row["FILER_NAME"] ?? row["MANAGERNAME"] ?? "Unknown";
-    if (acc) filerMap.set(acc, name);
-  }
-  console.log(`  ${filerMap.size} filers in cover page`);
-
-  // Filter infotable for HEICO CUSIPs
-  const infoRows = parseTsv(infoTsv);
-  console.log(`  ${infoRows.length} total holding rows`);
-
-  const results = [];
-  for (const row of infoRows) {
-    const cusip = (row["CUSIP"] ?? "").replace(/[\s-]/g, "");
-    for (const [ticker, targetCusip] of Object.entries(CUSIPS)) {
-      if (cusip === targetCusip) {
-        const acc = row["ACCESSION_NUMBER"] ?? row["ACCESSION-NUMBER"] ?? "";
-        const shares = parseInt(row["SSHPRNAMT"] ?? "0", 10) || null;
-        const value  = parseInt(row["VALUE"] ?? "0", 10) || null;
-        results.push({
-          accession: acc,
-          ticker,
-          filerName: filerMap.get(acc) ?? "Unknown",
-          shares,
-          value,
-        });
-      }
-    }
-  }
-  console.log(`  Found ${results.length} HEICO holding rows`);
-  return results;
+function periodToLabel(periodStr) {
+  // periodStr like "2026-03-31" or "31-MAR-2026"
+  if (!periodStr) return "Unknown";
+  const d = new Date(periodStr);
+  if (isNaN(d)) return periodStr;
+  const m = d.getUTCMonth() + 1;
+  const y = d.getUTCFullYear();
+  if (m <= 3)  return `Q1 ${y}`;
+  if (m <= 6)  return `Q2 ${y}`;
+  if (m <= 9)  return `Q3 ${y}`;
+  return `Q4 ${y}`;
 }
 
 // ─── Action classification ───────────────────────────────────────────────────
 
-function classifyAction(cur, pri) {
-  if (cur == null && pri != null) return "Sell Out";
-  if (cur != null && pri == null) return "New Position";
-  if (cur == null) return "No Change";
-  if (cur > pri) return "Bought";
-  if (cur < pri) return "Sold";
+function classifyAction(curSh, priSh) {
+  if (curSh == null && priSh != null) return "Sell Out";
+  if (curSh != null && priSh == null) return "New Position";
+  if (curSh == null) return "No Change";
+  if (curSh > priSh) return "Bought";
+  if (curSh < priSh) return "Sold";
   return "No Change";
 }
 
-// ─── Build holdings ───────────────────────────────────────────────────────────
+// ─── Build holdings from WW rows ─────────────────────────────────────────────
 
-function buildHoldings(ticker, curRows, priRows) {
-  // Map by filer name (bulk data doesn't always have CIK)
-  const curMap = new Map(), priMap = new Map();
-  for (const r of curRows.filter(x => x.ticker === ticker)) {
-    curMap.set(r.accession, { shares: r.shares, value: r.value, name: r.filerName });
-  }
-  for (const r of priRows.filter(x => x.ticker === ticker)) {
-    priMap.set(r.accession, { shares: r.shares, name: r.filerName });
-  }
+function buildHoldings(rows) {
+  if (!rows.length) return { holdings: [], currentPeriod: "Unknown", priorPeriod: "Unknown" };
 
-  // Merge by accession (same institution may use same accession prefix pattern)
-  // For cross-quarter comparison, match by filer name
-  const curByName = new Map(), priByName = new Map();
-  for (const [, v] of curMap) curByName.set(v.name, v);
-  for (const [, v] of priMap) priByName.set(v.name, v);
+  // WW returns current + prior shares in each row
+  // Field names vary — try common variants
+  const get = (row, ...keys) => {
+    for (const k of keys) if (row[k] != null) return row[k];
+    return null;
+  };
 
-  const allNames = new Set([...curByName.keys(), ...priByName.keys()]);
-  const holdings = [];
-  for (const name of allNames) {
-    const cur = curByName.get(name) ?? null;
-    const pri = priByName.get(name) ?? null;
-    const curSh = cur?.shares ?? null;
-    const priSh = pri?.shares ?? null;
-    const change = curSh != null && priSh != null ? curSh - priSh : null;
-    const pctChange = change != null && priSh ? Math.round((change / priSh) * 1000) / 10 : null;
-    holdings.push({
-      filerName: name,
-      currentShares: curSh,
-      priorShares: priSh,
-      change,
-      pctChange,
-      currentValue: cur?.value ?? null,
-      action: classifyAction(curSh, priSh),
-    });
-  }
-  return holdings.sort((a, b) => (b.currentShares ?? -1) - (a.currentShares ?? -1));
+  const holdings = rows.map(row => {
+    const name     = get(row, "filer_name", "name", "fund_name", "manager_name") ?? "Unknown";
+    const curSh    = get(row, "current_shares", "shares", "share_count", "position_size");
+    const priSh    = get(row, "previous_shares", "prior_shares", "prev_shares", "last_shares");
+    const change   = curSh != null && priSh != null ? curSh - priSh
+                   : get(row, "change", "share_change", "shares_change") ?? null;
+    const curVal   = get(row, "market_value", "value", "current_value", "mv");
+    const pct      = curSh != null && priSh && priSh !== 0
+                   ? Math.round((curSh - priSh) / priSh * 1000) / 10 : null;
+
+    return {
+      filerName:     name,
+      currentShares: curSh != null ? Number(curSh) : null,
+      priorShares:   priSh != null ? Number(priSh) : null,
+      change:        change != null ? Number(change) : null,
+      pctChange:     pct,
+      currentValue:  curVal != null ? Number(curVal) : null,
+      action:        classifyAction(
+                       curSh != null ? Number(curSh) : null,
+                       priSh != null ? Number(priSh) : null
+                     ),
+    };
+  });
+
+  // Determine period labels from sample row
+  const sample = rows[0];
+  const curPeriod = periodToLabel(
+    get(sample, "quarter", "period_of_report", "quarter_end", "report_date", "as_of_date")
+  );
+  // WW might not give prior period label — derive it
+  const priorPeriod = (() => {
+    const map = { Q1: "Q4", Q2: "Q1", Q3: "Q2", Q4: "Q3" };
+    const [q, y] = curPeriod.split(" ");
+    if (!q || !y) return "Unknown";
+    const prevQ = map[q];
+    const prevY = q === "Q1" ? parseInt(y) - 1 : parseInt(y);
+    return `${prevQ} ${prevY}`;
+  })();
+
+  return {
+    holdings: holdings.sort((a, b) => (b.currentShares ?? -1) - (a.currentShares ?? -1)),
+    currentPeriod,
+    priorPeriod,
+  };
 }
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
-  console.log("=== HEICO 13F Bulk Fetch ===");
-  const { cur, pri } = getQuarters();
-  console.log(`Current quarter: ${cur.label}   Prior quarter: ${pri.label}\n`);
-
-  console.log(`Fetching ${cur.label} bulk data...`);
-  const curRows = await getHolderData(cur.y, cur.q);
-  await sleep(2000);
-
-  console.log(`\nFetching ${pri.label} bulk data...`);
-  const priRows = await getHolderData(pri.y, pri.q);
-
+  console.log("=== HEICO Institutional Ownership via WhalewWisdom ===\n");
   mkdirSync(join(ROOT, "data"), { recursive: true });
 
-  for (const ticker of Object.keys(CUSIPS)) {
-    const holdings = buildHoldings(ticker, curRows, priRows);
-    const withPos = holdings.filter(h => h.currentShares != null).length;
+  for (const { key, cusip, wwName } of TICKERS) {
+    console.log(`\n── ${key} (${wwName}) ──`);
+
+    const stockId = await lookupStockId(wwName);
+    if (!stockId) {
+      console.warn(`  Skipping ${key} — could not find stock ID`);
+      continue;
+    }
+
+    await sleep(1000);
+    const rows = await fetchHolders(stockId, key);
+
+    const { holdings, currentPeriod, priorPeriod } = buildHoldings(rows);
+    const withPos = holdings.filter(h => h.currentShares != null && h.currentShares > 0).length;
+
     writeFileSync(
-      join(ROOT, "data", `${ticker.toLowerCase()}.json`),
-      JSON.stringify({ ticker, cusip: CUSIPS[ticker], currentPeriod: cur.label,
-                       priorPeriod: pri.label, lastUpdated: new Date().toISOString(), holdings }, null, 2)
+      join(ROOT, "data", `${key.toLowerCase()}.json`),
+      JSON.stringify({ ticker: key, cusip, currentPeriod, priorPeriod,
+                       lastUpdated: new Date().toISOString(), holdings }, null, 2)
     );
-    console.log(`  ${ticker}: ${withPos} current holders, ${holdings.length} total`);
+    console.log(`  ${key}: ${withPos} current holders, ${holdings.length} total → data/${key.toLowerCase()}.json`);
+    await sleep(2000);
   }
+
   console.log("\nDone!");
 }
 

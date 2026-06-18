@@ -22,8 +22,11 @@ jobs:
         with:
           node-version: "24"
 
-      - name: Fetch EDGAR 13F data
+      - name: Fetch institutional ownership via WhalewWisdom
         shell: powershell
+        env:
+          WW_SHARED_KEY: ${{ secrets.WW_SHARED_KEY }}
+          WW_SECRET: ${{ secrets.WW_SECRET }}
         run: node scripts/fetch-edgar.mjs
 
       - name: Commit updated data files
