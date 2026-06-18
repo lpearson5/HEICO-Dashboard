@@ -131,18 +131,34 @@ function parseTsv(text) {
 
 // ─── Bulk 13F download ────────────────────────────────────────────────────────
 
+// SEC publishes 13F bulk ZIPs with 3-month windows ending Feb/May/Aug/Nov.
+// Q1 holdings (filed Apr-May) → mar-may ZIP
+// Q2 holdings (filed Jul-Aug) → jun-aug ZIP
+// Q3 holdings (filed Oct-Nov) → sep-nov ZIP
+// Q4 holdings (filed Jan-Feb) → dec-feb ZIP (spans two calendar years)
+function quarterToZipUrl(y, q) {
+  const months = ["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"];
+  const days   = [31,28,31,30,31,30,31,31,30,31,30,31];
+  const isLeap = yr => (yr % 4 === 0 && yr % 100 !== 0) || yr % 400 === 0;
+
+  let startM, startY, endM, endY;
+  if (q === 1) { startM = 3; startY = y;   endM = 5; endY = y;   }
+  if (q === 2) { startM = 6; startY = y;   endM = 8; endY = y;   }
+  if (q === 3) { startM = 9; startY = y;   endM = 11; endY = y;  }
+  if (q === 4) { startM = 12; startY = y;  endM = 2; endY = y+1; }
+
+  const startDay = 1;
+  const endDay = endM === 2 ? (isLeap(endY) ? 29 : 28) : days[endM - 1];
+  const start = `${String(startDay).padStart(2,"0")}${months[startM-1]}${startY}`;
+  const end   = `${String(endDay).padStart(2,"0")}${months[endM-1]}${endY}`;
+  return `https://www.sec.gov/files/structureddata/data/form-13f-data-sets/${start}-${end}_form13f.zip`;
+}
+
 async function fetchQuarterData(y, q) {
-  const url = `https://www.sec.gov/data/form13f/${y}q${q}_form13f.zip`;
+  const url = quarterToZipUrl(y, q);
   console.log(`  Downloading bulk data: ${url}`);
   const buf = await fetchBuffer(url);
-  if (!buf) {
-    // Try alternate URL format
-    const url2 = `https://www.sec.gov/Archives/edgar/form13f/${y}q${q}_form13f.zip`;
-    console.log(`  Trying alternate URL: ${url2}`);
-    const buf2 = await fetchBuffer(url2);
-    if (!buf2) throw new Error(`Cannot download 13F bulk data for ${y} Q${q}`);
-    return buf2;
-  }
+  if (!buf) throw new Error(`Cannot download 13F bulk data for ${y} Q${q} — URL: ${url}`);
   return buf;
 }
 
