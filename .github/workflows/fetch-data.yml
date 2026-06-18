@@ -8,6 +8,7 @@ on:
 jobs:
   fetch:
     runs-on: self-hosted
+    timeout-minutes: 720
     permissions:
       contents: write
 
@@ -22,11 +23,8 @@ jobs:
         with:
           node-version: "24"
 
-      - name: Fetch institutional ownership via WhalewWisdom
+      - name: Fetch institutional ownership from EDGAR
         shell: powershell
-        env:
-          WW_SHARED_KEY: ${{ secrets.WW_SHARED_KEY }}
-          WW_SECRET: ${{ secrets.WW_SECRET }}
         run: node scripts/fetch-edgar.mjs
 
       - name: Commit updated data files
@@ -37,7 +35,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin "https://lpearson5:$env:GH_PAT@github.com/lpearson5/HEICO-Dashboard.git"
-          git add data/hei.json data/heia.json
+          git add data/hei.json data/heia.json data/scan-cache.json
           git diff --cached --quiet
           if ($LASTEXITCODE -ne 0) {
             $date = Get-Date ([datetime]::UtcNow) -Format 'yyyy-MM-dd'
