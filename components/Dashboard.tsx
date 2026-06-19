@@ -94,6 +94,17 @@ export default function Dashboard({
     return rows;
   }, [data, actionFilter, search, sortKey, sortAsc]);
 
+  // Column totals across the currently-shown rows.
+  const totals = useMemo(() => {
+    let current = 0, prior = 0, value = 0;
+    for (const h of filtered) {
+      current += h.currentShares ?? 0;
+      prior   += h.priorShares ?? 0;
+      value   += h.currentValue ?? 0;
+    }
+    return { current, prior, change: current - prior, value };
+  }, [filtered]);
+
   function toggleSort(key: SortKey) {
     if (sortKey === key) setSortAsc((v) => !v);
     else { setSortKey(key); setSortAsc(false); }
@@ -292,6 +303,26 @@ export default function Dashboard({
                   ))
                 )}
               </tbody>
+              {filtered.length > 0 && (
+                <tfoot className="border-t-2 border-gray-200 bg-gray-50 font-semibold text-gray-900">
+                  <tr>
+                    <td className="px-4 py-3">
+                      Total · {filtered.length.toLocaleString()} institution{filtered.length !== 1 ? "s" : ""}
+                    </td>
+                    <td className="px-4 py-3 text-right tabular-nums">{fmt(totals.current)}</td>
+                    <td className="px-4 py-3 text-right tabular-nums">{fmt(totals.prior)}</td>
+                    <td className={`px-4 py-3 text-right tabular-nums ${
+                      totals.change > 0 ? "text-green-600" :
+                      totals.change < 0 ? "text-red-600" : "text-gray-500"
+                    }`}>
+                      {(totals.change > 0 ? "+" : "") + fmt(totals.change)}
+                    </td>
+                    <td className="px-4 py-3" />
+                    <td className="px-4 py-3 text-right tabular-nums text-gray-600">{fmtValue(totals.value)}</td>
+                    <td className="px-4 py-3" />
+                  </tr>
+                </tfoot>
+              )}
             </table>
           </div>
         </div>
