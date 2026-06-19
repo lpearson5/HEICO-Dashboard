@@ -15,9 +15,14 @@ const ACTION_FILTER_ORDER: (Action | "All")[] = [
   "All", "New Position", "Bought", "Sold", "Sell Out", "No Change",
 ];
 
+// Rank used when sorting by the Action column (logical order, not alphabetical).
+const ACTION_RANK: Record<Action, number> = {
+  "New Position": 0, Bought: 1, Sold: 2, "Sell Out": 3, "No Change": 4,
+};
+
 type SortKey = keyof Pick<
   Holding,
-  "filerName" | "currentShares" | "priorShares" | "change" | "pctChange"
+  "filerName" | "currentShares" | "priorShares" | "change" | "pctChange" | "currentValue" | "action"
 >;
 
 function fmt(n: number | null, decimals = 0): string {
@@ -72,6 +77,10 @@ export default function Dashboard({
     }
 
     rows = [...rows].sort((a, b) => {
+      if (sortKey === "action") {
+        const ar = ACTION_RANK[a.action], br = ACTION_RANK[b.action];
+        return sortAsc ? ar - br : br - ar;
+      }
       const av = a[sortKey] ?? (sortAsc ? Infinity : -Infinity);
       const bv = b[sortKey] ?? (sortAsc ? Infinity : -Infinity);
       if (typeof av === "string" && typeof bv === "string") {
@@ -94,10 +103,10 @@ export default function Dashboard({
   }
 
   const Th = ({
-    k, label, right
-  }: { k: SortKey; label: string; right?: boolean }) => (
+    k, label, right, center
+  }: { k: SortKey; label: string; right?: boolean; center?: boolean }) => (
     <th
-      className={`px-4 py-3 text-xs font-semibold text-gray-500 uppercase tracking-wide cursor-pointer hover:bg-gray-100 select-none ${right ? "text-right" : "text-left"}`}
+      className={`px-4 py-3 text-xs font-semibold text-gray-500 uppercase tracking-wide cursor-pointer hover:bg-gray-100 select-none ${right ? "text-right" : center ? "text-center" : "text-left"}`}
       onClick={() => toggleSort(k)}
     >
       {label}
@@ -231,12 +240,8 @@ export default function Dashboard({
                   <Th k="priorShares"   label={`${data.priorPeriod} Shares`}   right />
                   <Th k="change"        label="Change"       right />
                   <Th k="pctChange"     label="% Change"     right />
-                  <th className="px-4 py-3 text-xs font-semibold text-gray-500 uppercase tracking-wide text-right">
-                    Value
-                  </th>
-                  <th className="px-4 py-3 text-xs font-semibold text-gray-500 uppercase tracking-wide text-center">
-                    Action
-                  </th>
+                  <Th k="currentValue"  label="Value"        right />
+                  <Th k="action"        label="Action"       center />
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100">
@@ -292,7 +297,7 @@ export default function Dashboard({
         {/* Footer */}
         <p className="text-xs text-gray-400 text-center pb-4">
           Data sourced from SEC EDGAR 13F-HR filings · Automatically refreshed daily ·
-          CUSIPs: HEI 422819102 · HEI/A 422819201
+          CUSIPs: HEI 422806109 · HEI/A 422806208
         </p>
       </div>
     </div>
