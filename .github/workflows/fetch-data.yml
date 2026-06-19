@@ -2,8 +2,9 @@ name: Fetch EDGAR Data
 
 on:
   schedule:
-    # 11:00 UTC Monday = ~6-7am Eastern, finishes well before the 8am email.
-    - cron: "0 11 * * 1"
+    # 11:00 UTC daily = ~6-7am Eastern. Refreshes the dashboard every day;
+    # the Monday run also finishes well before the 8am ET weekly email.
+    - cron: "0 11 * * *"
   workflow_dispatch:
 
 jobs:
