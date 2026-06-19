@@ -4,20 +4,21 @@ import { useState, useMemo } from "react";
 import type { TickerData, Holding, Action } from "@/lib/types";
 
 const ACTION_COLORS: Record<Action, string> = {
-  "New Position": "bg-blue-100 text-blue-800 border-blue-200",
-  Bought:         "bg-green-100 text-green-800 border-green-200",
-  Sold:           "bg-amber-100 text-amber-800 border-amber-200",
-  "Sell Out":     "bg-red-100 text-red-800 border-red-200",
-  "No Change":    "bg-gray-100 text-gray-600 border-gray-200",
+  "New Position":  "bg-blue-100 text-blue-800 border-blue-200",
+  Bought:          "bg-green-100 text-green-800 border-green-200",
+  Sold:            "bg-amber-100 text-amber-800 border-amber-200",
+  "Sell Out":      "bg-red-100 text-red-800 border-red-200",
+  "No Change":     "bg-gray-100 text-gray-600 border-gray-200",
+  "Not Filed Yet": "bg-purple-100 text-purple-800 border-purple-200",
 };
 
 const ACTION_FILTER_ORDER: (Action | "All")[] = [
-  "All", "New Position", "Bought", "Sold", "Sell Out", "No Change",
+  "All", "New Position", "Bought", "Sold", "Sell Out", "No Change", "Not Filed Yet",
 ];
 
 // Rank used when sorting by the Action column (logical order, not alphabetical).
 const ACTION_RANK: Record<Action, number> = {
-  "New Position": 0, Bought: 1, Sold: 2, "Sell Out": 3, "No Change": 4,
+  "New Position": 0, Bought: 1, Sold: 2, "Sell Out": 3, "No Change": 4, "Not Filed Yet": 5,
 };
 
 type SortKey = keyof Pick<
@@ -60,7 +61,7 @@ export default function Dashboard({
   const summary = useMemo(() => {
     if (!data) return null;
     const counts: Record<Action, number> = {
-      "New Position": 0, Bought: 0, Sold: 0, "Sell Out": 0, "No Change": 0,
+      "New Position": 0, Bought: 0, Sold: 0, "Sell Out": 0, "No Change": 0, "Not Filed Yet": 0,
     };
     for (const h of data.holdings) counts[h.action]++;
     return counts;
@@ -177,14 +178,15 @@ export default function Dashboard({
 
         {/* Summary cards */}
         {summary && (
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
             {(
               [
-                { label: "New Positions", key: "New Position", color: "text-blue-600",  bg: "bg-blue-50",  border: "border-blue-100" },
-                { label: "Buyers",        key: "Bought",       color: "text-green-600", bg: "bg-green-50", border: "border-green-100" },
-                { label: "Sellers",       key: "Sold",         color: "text-amber-600", bg: "bg-amber-50", border: "border-amber-100" },
-                { label: "Sell Outs",     key: "Sell Out",     color: "text-red-600",   bg: "bg-red-50",   border: "border-red-100" },
-                { label: "No Change",     key: "No Change",    color: "text-gray-600",  bg: "bg-gray-50",  border: "border-gray-200" },
+                { label: "New Positions", key: "New Position",  color: "text-blue-600",   bg: "bg-blue-50",   border: "border-blue-100" },
+                { label: "Buyers",        key: "Bought",        color: "text-green-600",  bg: "bg-green-50",  border: "border-green-100" },
+                { label: "Sellers",       key: "Sold",          color: "text-amber-600",  bg: "bg-amber-50",  border: "border-amber-100" },
+                { label: "Sell Outs",     key: "Sell Out",      color: "text-red-600",    bg: "bg-red-50",    border: "border-red-100" },
+                { label: "No Change",     key: "No Change",     color: "text-gray-600",   bg: "bg-gray-50",   border: "border-gray-200" },
+                { label: "Not Filed Yet", key: "Not Filed Yet", color: "text-purple-600", bg: "bg-purple-50", border: "border-purple-100" },
               ] as const
             ).map(({ label, key, color, bg, border }) => (
               <button

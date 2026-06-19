@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-03-31",
   "priorPeriod": "2025-12-31",
-  "lastUpdated": "2026-06-19T19:05:42.485Z",
+  "lastUpdated": "2026-06-19T19:18:12.735Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -3316,16 +3316,6 @@
       "action": "Bought"
     },
     {
-      "filerName": "Colonial River Investments, LLC",
-      "filerCik": "1845859",
-      "currentShares": 3465,
-      "priorShares": 2887,
-      "change": 578,
-      "pctChange": 20,
-      "currentValue": 731427,
-      "action": "Bought"
-    },
-    {
       "filerName": "Gibbs Wealth Management",
       "filerCik": "2081110",
       "currentShares": 3460,
@@ -3529,11 +3519,11 @@
       "filerName": "Tortoise Investment Management, LLC",
       "filerCik": "1599511",
       "currentShares": 2919,
-      "priorShares": null,
-      "change": null,
-      "pctChange": null,
+      "priorShares": 2917,
+      "change": 2,
+      "pctChange": 0.1,
       "currentValue": 616198,
-      "action": "New Position"
+      "action": "Bought"
     },
     {
       "filerName": "Legacy Wealth Asset Management, LLC",
@@ -5526,8 +5516,8 @@
       "action": "New Position"
     },
     {
-      "filerName": "Sunbelt Securities, Inc.",
-      "filerCik": "1632932",
+      "filerName": "Bogart Wealth, LLC",
+      "filerCik": "1715740",
       "currentShares": 30,
       "priorShares": 30,
       "change": 0,
@@ -5536,8 +5526,8 @@
       "action": "No Change"
     },
     {
-      "filerName": "Bogart Wealth, LLC",
-      "filerCik": "1715740",
+      "filerName": "Sunbelt Securities, Inc.",
+      "filerCik": "1632932",
       "currentShares": 30,
       "priorShares": 30,
       "change": 0,
@@ -6203,7 +6193,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "Merited Wealth, LLC",
@@ -6333,7 +6323,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "PANAGORA ASSET MANAGEMENT INC",
@@ -6363,23 +6353,13 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "NewEdge Wealth, LLC",
       "filerCik": "1861796",
       "currentShares": null,
       "priorShares": 2005,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
-    },
-    {
-      "filerName": "HARBOR INVESTMENT ADVISORY, LLC",
-      "filerCik": "1468792",
-      "currentShares": null,
-      "priorShares": 539,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6413,7 +6393,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "Elyxium Wealth, LLC",
@@ -6453,7 +6433,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "COMERICA BANK",
@@ -6463,7 +6443,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "VANGUARD GROUP INC",
@@ -6473,7 +6453,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "Global Retirement Partners, LLC",
@@ -6483,7 +6463,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "ORG Partners LLC",
@@ -6493,7 +6473,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "Makaira Partners LLC",
@@ -6573,7 +6553,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "McLean Asset Management Corp",
@@ -6600,6 +6580,16 @@
       "filerCik": "1920117",
       "currentShares": null,
       "priorShares": 1087,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
+      "filerName": "Colonial River Investments, LLC",
+      "filerCik": "1845859",
+      "currentShares": null,
+      "priorShares": 2887,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6653,7 +6643,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "Farringdon Capital, Ltd.",
@@ -6866,6 +6856,16 @@
       "action": "Sell Out"
     },
     {
+      "filerName": "Sowell Financial Services LLC",
+      "filerCik": "1633697",
+      "currentShares": null,
+      "priorShares": 834,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
       "filerName": "TUCKER ASSET MANAGEMENT LLC",
       "filerCik": "1870012",
       "currentShares": null,
@@ -6873,13 +6873,13 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
-      "filerName": "Sowell Financial Services LLC",
-      "filerCik": "1633697",
+      "filerName": "HARBOR INVESTMENT ADVISORY, LLC",
+      "filerCik": "1468792",
       "currentShares": null,
-      "priorShares": 834,
+      "priorShares": 539,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6903,7 +6903,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "Key FInancial Inc",

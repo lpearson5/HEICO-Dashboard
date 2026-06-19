@@ -181,8 +181,10 @@ async function fetchFiling(h, cache) {
 
 // ─── Holdings builder ─────────────────────────────────────────────────────────
 
-function classify(cur, pri) {
-  if (cur == null && pri != null) return "Sell Out";
+function classify(cur, pri, filedCurrent) {
+  // No current position but held last quarter: distinguish a real exit (they
+  // filed this quarter and dropped HEICO) from a filer who simply hasn't filed yet.
+  if (cur == null && pri != null) return filedCurrent ? "Sell Out" : "Not Filed Yet";
   if (cur != null && pri == null) return "New Position";
   if (cur == null) return "No Change";
   if (cur > pri) return "Bought";
@@ -190,7 +192,7 @@ function classify(cur, pri) {
   return "No Change";
 }
 
-function buildHoldings(ticker, curByCik, priByCik, nameByCik) {
+function buildHoldings(ticker, curByCik, priByCik, nameByCik, filedSet) {
   const holdings = [];
   for (const cik of new Set([...curByCik.keys(), ...priByCik.keys()])) {
     const curSh = curByCik.get(cik)?.shares ?? null;
@@ -204,10 +206,31 @@ function buildHoldings(ticker, curByCik, priByCik, nameByCik) {
       priorShares:   priSh,
       change, pctChange,
       currentValue:  curByCik.get(cik)?.value ?? null,
-      action:        classify(curSh, priSh),
+      action:        classify(curSh, priSh, filedSet.has(cik)),
     });
   }
   return holdings.sort((a, b) => (b.currentShares ?? -1) - (a.currentShares ?? -1));
+}
+
+// Has this filer submitted any 13F-HR for the given holdings period yet?
+// Cached as true once filed (immutable); pending results are not cached so
+// they get re-checked next run.
+async function hasFiledCurrent(cik, period, cache) {
+  if (!cache._filed) cache._filed = {};
+  const key = `${cik}|${period}`;
+  if (cache._filed[key]) return true;
+  const sub = await getRetry(
+    `https://data.sec.gov/submissions/CIK${String(cik).padStart(10, "0")}.json`,
+    { json: true }
+  );
+  const f = sub?.filings?.recent;
+  if (!f) return false;
+  let filed = false;
+  for (let i = 0; i < f.form.length; i++) {
+    if (f.form[i].startsWith("13F-HR") && f.reportDate[i] === period) { filed = true; break; }
+  }
+  if (filed) cache._filed[key] = true;
+  return filed;
 }
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
@@ -260,6 +283,22 @@ async function main() {
   }
   saveCache(cache);
 
+  // 4b. Determine which filers have submitted a current-period 13F yet.
+  // Anyone with a current-period HEICO filing obviously filed; for the rest
+  // (held last quarter, no current HEICO position) check their submissions.
+  const filedSet = new Set(filings.filter(h => h.period === current).map(h => h.cik));
+  const priorOnly = [...new Set(
+    filings.filter(h => h.period === prior && !filedSet.has(h.cik)).map(h => h.cik)
+  )];
+  console.log(`\nChecking filing status of ${priorOnly.length} prior-only filers…`);
+  let pc = 0;
+  for (const cik of priorOnly) {
+    if (await hasFiledCurrent(cik, current, cache)) filedSet.add(cik);
+    if (++pc % 25 === 0) { saveCache(cache); console.log(`  filing status ${pc}/${priorOnly.length}`); }
+    await sleep(150);
+  }
+  saveCache(cache);
+
   // 5. Build per-period maps and write output.
   for (const ticker of Object.keys(CUSIPS)) {
     const curByCik = new Map(), priByCik = new Map();
@@ -270,7 +309,7 @@ async function main() {
       if (h.period === current) curByCik.set(h.cik, pos);
       else if (h.period === prior) priByCik.set(h.cik, pos);
     }
-    const holdings = buildHoldings(ticker, curByCik, priByCik, nameByCik);
+    const holdings = buildHoldings(ticker, curByCik, priByCik, nameByCik, filedSet);
     const withPos  = holdings.filter(x => x.currentShares != null).length;
     writeFileSync(join(DATA_DIR, `${ticker.toLowerCase()}.json`), JSON.stringify({
       ticker, cusip: CUSIPS[ticker],

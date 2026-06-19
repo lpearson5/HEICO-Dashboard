@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-03-31",
   "priorPeriod": "2025-12-31",
-  "lastUpdated": "2026-06-19T19:05:42.478Z",
+  "lastUpdated": "2026-06-19T19:18:12.726Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -1829,11 +1829,11 @@
       "filerName": "Bridgewater Associates, LP",
       "filerCik": "1350694",
       "currentShares": 17524,
-      "priorShares": 20400,
-      "change": -2876,
-      "pctChange": -14.1,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
       "currentValue": 4805081,
-      "action": "Sold"
+      "action": "New Position"
     },
     {
       "filerName": "Mn Services Vermogensbeheer B.V.",
@@ -3183,6 +3183,16 @@
       "change": 201,
       "pctChange": 4.3,
       "currentValue": 1068931,
+      "action": "Bought"
+    },
+    {
+      "filerName": "Tidal Investments LLC",
+      "filerCik": "1600064",
+      "currentShares": 4526,
+      "priorShares": 2875,
+      "change": 1651,
+      "pctChange": 57.4,
+      "currentValue": 1241029,
       "action": "Bought"
     },
     {
@@ -6486,22 +6496,22 @@
       "action": "No Change"
     },
     {
-      "filerName": "Kohmann Bosshard Financial Services, LLC",
-      "filerCik": "1696615",
-      "currentShares": 49,
-      "priorShares": 35,
-      "change": 14,
-      "pctChange": 40,
-      "currentValue": 13436,
-      "action": "Bought"
-    },
-    {
       "filerName": "Bogart Wealth, LLC",
       "filerCik": "1715740",
       "currentShares": 49,
       "priorShares": 45,
       "change": 4,
       "pctChange": 8.9,
+      "currentValue": 13436,
+      "action": "Bought"
+    },
+    {
+      "filerName": "Kohmann Bosshard Financial Services, LLC",
+      "filerCik": "1696615",
+      "currentShares": 49,
+      "priorShares": 35,
+      "change": 14,
+      "pctChange": 40,
       "currentValue": 13436,
       "action": "Bought"
     },
@@ -7596,6 +7606,16 @@
       "action": "Sell Out"
     },
     {
+      "filerName": "Fiduciary Group, LLC",
+      "filerCik": "1645890",
+      "currentShares": null,
+      "priorShares": 721,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
       "filerName": "MGB Wealth Management, LLC",
       "filerCik": "2015822",
       "currentShares": null,
@@ -7603,7 +7623,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "Alpine Global Management, LLC",
@@ -7683,6 +7703,16 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
+      "action": "Not Filed Yet"
+    },
+    {
+      "filerName": "Merited Wealth, LLC",
+      "filerCik": "2123943",
+      "currentShares": null,
+      "priorShares": 83,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
       "action": "Sell Out"
     },
     {
@@ -7690,16 +7720,6 @@
       "filerCik": "1742435",
       "currentShares": null,
       "priorShares": 1151,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
-    },
-    {
-      "filerName": "Merited Wealth, LLC",
-      "filerCik": "2123943",
-      "currentShares": null,
-      "priorShares": 83,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7823,7 +7843,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "West Branch Capital LLC",
@@ -8153,7 +8173,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "DV Trading LLC",
@@ -8203,7 +8223,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "DRW Securities, LLC",
@@ -8383,7 +8403,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "Elyxium Wealth, LLC",
@@ -8453,23 +8473,13 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "Sound Income Strategies, LLC",
       "filerCik": "1730960",
       "currentShares": null,
       "priorShares": 5,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
-    },
-    {
-      "filerName": "Tidal Investments LLC",
-      "filerCik": "1600064",
-      "currentShares": null,
-      "priorShares": 2875,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -8483,7 +8493,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "VANGUARD GROUP INC",
@@ -8493,7 +8503,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "Global Retirement Partners, LLC",
@@ -8503,7 +8513,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "Mariner, LLC",
@@ -8523,17 +8533,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Sell Out"
-    },
-    {
-      "filerName": "Fiduciary Group, LLC",
-      "filerCik": "1645890",
-      "currentShares": null,
-      "priorShares": 721,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
+      "action": "Not Filed Yet"
     }
   ]
 }
