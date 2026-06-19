@@ -58,12 +58,20 @@ async function getRetry(url, { json = false, tries = 5 } = {}) {
 }
 
 // ─── Cache ─────────────────────────────────────────────────────────────────────
+// Bump CACHE_VERSION whenever parseInfoTable logic changes, so stale parsed
+// results are discarded and filings are re-parsed on the next run.
+const CACHE_VERSION = 2;
 
 function loadCache() {
-  if (!existsSync(CACHE_PATH)) return {};
-  try { return JSON.parse(readFileSync(CACHE_PATH, "utf8")); } catch { return {}; }
+  if (!existsSync(CACHE_PATH)) return { _version: CACHE_VERSION };
+  try {
+    const c = JSON.parse(readFileSync(CACHE_PATH, "utf8"));
+    if (c._version !== CACHE_VERSION) return { _version: CACHE_VERSION };
+    return c;
+  } catch { return { _version: CACHE_VERSION }; }
 }
 function saveCache(c) {
+  c._version = CACHE_VERSION;
   mkdirSync(DATA_DIR, { recursive: true });
   writeFileSync(CACHE_PATH, JSON.stringify(c, null, 2));
 }
@@ -140,6 +148,10 @@ function parseInfoTable(xml) {
     const cusip = cm[1].replace(/[\s-]/g, "");
     const ticker = Object.keys(CUSIPS).find(t => CUSIPS[t] === cusip);
     if (!ticker) continue;
+    // Exclude option positions (PUT/CALL): they list contracts under the same
+    // CUSIP and would inflate the share count. Count actual shares only.
+    const pc = (b.match(/<(?:\w+:)?putCall>([^<]+)</i)?.[1] ?? "").trim().toUpperCase();
+    if (pc === "PUT" || pc === "CALL") continue;
     const sm = b.match(/<(?:\w+:)?sshPrnamt>(\d+)</i);
     const vm = b.match(/<(?:\w+:)?value>(\d+)</i);
     const shares = sm ? parseInt(sm[1], 10) : 0;
@@ -154,13 +166,16 @@ function parseInfoTable(xml) {
 }
 
 async function fetchFiling(h, cache) {
-  if (cache[h.accession]) return cache[h.accession];
+  // Reuse cache only for successful fetches; retry past failures (filings are
+  // immutable, so a success never needs re-fetching).
+  const cached = cache[h.accession];
+  if (cached && cached.ok) return cached;
   const noD = h.accession.replace(/-/g, "");
   const url = `https://www.sec.gov/Archives/edgar/data/${h.cik}/${noD}/${h.doc}`;
   const xml = await getRetry(url);
   const positions = xml ? parseInfoTable(xml) : {};
   const rec = { cik: h.cik, name: h.name, period: h.period, positions, ok: !!xml };
-  cache[h.accession] = rec;
+  if (rec.ok) cache[h.accession] = rec;   // don't persist failures
   return rec;
 }
 
