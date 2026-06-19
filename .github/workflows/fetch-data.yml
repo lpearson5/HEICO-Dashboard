@@ -42,3 +42,36 @@ jobs:
             git commit -m "chore: refresh EDGAR 13F data $date"
             git push
           }
+
+      - name: Email dashboard link
+        shell: powershell
+        continue-on-error: true
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+        run: |
+          $hei  = Get-Content data/hei.json  -Raw | ConvertFrom-Json
+          $heia = Get-Content data/heia.json -Raw | ConvertFrom-Json
+          $heiCur  = ($hei.holdings  | Where-Object { $null -ne $_.currentShares }).Count
+          $heiaCur = ($heia.holdings | Where-Object { $null -ne $_.currentShares }).Count
+          $date = Get-Date ([datetime]::UtcNow) -Format 'MMMM d, yyyy'
+
+          $body = @"
+          <p>The HEICO institutional ownership dashboard has refreshed ($date).</p>
+          <p><a href="https://heico-dashboard.vercel.app">Open the dashboard &rarr;</a></p>
+          <ul>
+            <li><b>HEI</b> (current period $($hei.currentPeriod)): $heiCur institutional holders</li>
+            <li><b>HEI.A</b> (current period $($heia.currentPeriod)): $heiaCur institutional holders</li>
+          </ul>
+          <p style="color:#888;font-size:12px">Sourced from SEC EDGAR 13F-HR filings. Updates automatically every Monday.</p>
+          "@
+
+          $sec  = ConvertTo-SecureString $env:SMTP_PASS -AsPlainText -Force
+          $cred = New-Object System.Management.Automation.PSCredential($env:SMTP_USER, $sec)
+          Send-MailMessage `
+            -From $env:SMTP_USER `
+            -To "lpearson@heico.com","vmendelson@heico.com" `
+            -Subject "HEICO Ownership Dashboard updated - $date" `
+            -Body $body -BodyAsHtml `
+            -SmtpServer "smtp.office365.com" -Port 587 -UseSsl -Credential $cred
+          Write-Host "Notification email sent."
