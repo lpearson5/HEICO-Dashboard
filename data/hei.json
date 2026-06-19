@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-03-31",
   "priorPeriod": "2025-12-31",
-  "lastUpdated": "2026-06-19T13:01:17.814Z",
+  "lastUpdated": "2026-06-19T13:53:08.352Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -3223,6 +3223,16 @@
       "change": 201,
       "pctChange": 4.3,
       "currentValue": 1068931,
+      "action": "Bought"
+    },
+    {
+      "filerName": "Tidal Investments LLC",
+      "filerCik": "1600064",
+      "currentShares": 4526,
+      "priorShares": 2875,
+      "change": 1651,
+      "pctChange": 57.4,
+      "currentValue": 1241029,
       "action": "Bought"
     },
     {
@@ -7636,20 +7646,20 @@
       "action": "Sell Out"
     },
     {
-      "filerName": "Machina Capital S.A.S.",
-      "filerCik": "1744373",
+      "filerName": "Alpine Global Management, LLC",
+      "filerCik": "1581655",
       "currentShares": null,
-      "priorShares": 1468,
+      "priorShares": 1156,
       "change": null,
       "pctChange": null,
       "currentValue": null,
       "action": "Sell Out"
     },
     {
-      "filerName": "Alpine Global Management, LLC",
-      "filerCik": "1581655",
+      "filerName": "Machina Capital S.A.S.",
+      "filerCik": "1744373",
       "currentShares": null,
-      "priorShares": 1156,
+      "priorShares": 1468,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -8490,16 +8500,6 @@
       "filerCik": "1730960",
       "currentShares": null,
       "priorShares": 5,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
-    },
-    {
-      "filerName": "Tidal Investments LLC",
-      "filerCik": "1600064",
-      "currentShares": null,
-      "priorShares": 2875,
       "change": null,
       "pctChange": null,
       "currentValue": null,
