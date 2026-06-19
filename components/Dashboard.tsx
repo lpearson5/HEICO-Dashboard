@@ -33,11 +33,13 @@ function fmt(n: number | null, decimals = 0): string {
   });
 }
 
+// 13F values are reported in whole dollars (post-2023 SEC convention).
 function fmtValue(n: number | null): string {
   if (n == null) return "—";
-  if (n >= 1_000_000) return `$${(n / 1_000_000).toFixed(1)}B`;
-  if (n >= 1_000)     return `$${(n / 1_000).toFixed(1)}M`;
-  return `$${n.toLocaleString()}K`;
+  if (n >= 1_000_000_000) return `$${(n / 1_000_000_000).toFixed(1)}B`;
+  if (n >= 1_000_000)     return `$${(n / 1_000_000).toFixed(1)}M`;
+  if (n >= 1_000)         return `$${(n / 1_000).toFixed(1)}K`;
+  return `$${n.toLocaleString()}`;
 }
 
 export default function Dashboard({
