@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-03-31",
   "priorPeriod": "2025-12-31",
-  "lastUpdated": "2026-06-19T19:18:12.735Z",
+  "lastUpdated": "2026-06-20T16:12:09.090Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -3316,6 +3316,16 @@
       "action": "Bought"
     },
     {
+      "filerName": "Colonial River Investments, LLC",
+      "filerCik": "1845859",
+      "currentShares": 3465,
+      "priorShares": 2887,
+      "change": 578,
+      "pctChange": 20,
+      "currentValue": 731427,
+      "action": "Bought"
+    },
+    {
       "filerName": "Gibbs Wealth Management",
       "filerCik": "2081110",
       "currentShares": 3460,
@@ -6366,6 +6376,16 @@
       "action": "Sell Out"
     },
     {
+      "filerName": "HARBOR INVESTMENT ADVISORY, LLC",
+      "filerCik": "1468792",
+      "currentShares": null,
+      "priorShares": 539,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
       "filerName": "NORGES BANK",
       "filerCik": "1374170",
       "currentShares": null,
@@ -6580,16 +6600,6 @@
       "filerCik": "1920117",
       "currentShares": null,
       "priorShares": 1087,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
-    },
-    {
-      "filerName": "Colonial River Investments, LLC",
-      "filerCik": "1845859",
-      "currentShares": null,
-      "priorShares": 2887,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6874,16 +6884,6 @@
       "pctChange": null,
       "currentValue": null,
       "action": "Not Filed Yet"
-    },
-    {
-      "filerName": "HARBOR INVESTMENT ADVISORY, LLC",
-      "filerCik": "1468792",
-      "currentShares": null,
-      "priorShares": 539,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
     },
     {
       "filerName": "Private Wealth Asset Management, LLC",
