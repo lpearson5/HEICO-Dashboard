@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-03-31",
   "priorPeriod": "2025-12-31",
-  "lastUpdated": "2026-06-20T16:12:09.087Z",
+  "lastUpdated": "2026-06-21T17:03:10.519Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -6306,16 +6306,6 @@
       "action": "Bought"
     },
     {
-      "filerName": "Greykasell Wealth Strategies, Inc.",
-      "filerCik": "2041220",
-      "currentShares": 90,
-      "priorShares": 90,
-      "change": 0,
-      "pctChange": 0,
-      "currentValue": 24686,
-      "action": "No Change"
-    },
-    {
       "filerName": "Arlington Trust Co LLC",
       "filerCik": "1997685",
       "currentShares": 87,
@@ -6869,11 +6859,11 @@
       "filerName": "Rakuten Securities, Inc.",
       "filerCik": "2009539",
       "currentShares": 17,
-      "priorShares": null,
-      "change": null,
-      "pctChange": null,
+      "priorShares": 9,
+      "change": 8,
+      "pctChange": 88.9,
       "currentValue": 4661,
-      "action": "New Position"
+      "action": "Bought"
     },
     {
       "filerName": "Morse Asset Management, Inc",
@@ -7860,6 +7850,16 @@
       "filerCik": "1603328",
       "currentShares": null,
       "priorShares": 8840,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
+      "filerName": "Greykasell Wealth Strategies, Inc.",
+      "filerCik": "2041220",
+      "currentShares": null,
+      "priorShares": 90,
       "change": null,
       "pctChange": null,
       "currentValue": null,
