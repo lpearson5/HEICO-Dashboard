@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-03-31",
   "priorPeriod": "2025-12-31",
-  "lastUpdated": "2026-06-21T17:03:10.519Z",
+  "lastUpdated": "2026-06-22T21:33:18.862Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -1529,11 +1529,11 @@
       "filerName": "Roundview Capital LLC",
       "filerCik": "1476804",
       "currentShares": 24850,
-      "priorShares": 24838,
-      "change": 12,
-      "pctChange": 0,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
       "currentValue": 6813870,
-      "action": "Bought"
+      "action": "New Position"
     },
     {
       "filerName": "FRANKLIN RESOURCES INC  (BEN)",
@@ -3206,16 +3206,6 @@
       "action": "Sold"
     },
     {
-      "filerName": "Perigon Wealth Management, LLC",
-      "filerCik": "1575239",
-      "currentShares": 4495,
-      "priorShares": 4269,
-      "change": 226,
-      "pctChange": 5.3,
-      "currentValue": 1232515,
-      "action": "Bought"
-    },
-    {
       "filerName": "AG2R LA MONDIALE GESTION D'ACTIFS",
       "filerCik": "2047606",
       "currentShares": 4459,
@@ -3259,11 +3249,11 @@
       "filerName": "Waverly Advisors, LLC",
       "filerCik": "1568787",
       "currentShares": 4313,
-      "priorShares": 4148,
-      "change": 165,
-      "pctChange": 4,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
       "currentValue": 1182636,
-      "action": "Bought"
+      "action": "New Position"
     },
     {
       "filerName": "GSA CAPITAL PARTNERS LLP",
@@ -6306,6 +6296,16 @@
       "action": "Bought"
     },
     {
+      "filerName": "Greykasell Wealth Strategies, Inc.",
+      "filerCik": "2041220",
+      "currentShares": 90,
+      "priorShares": 90,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 24686,
+      "action": "No Change"
+    },
+    {
       "filerName": "Arlington Trust Co LLC",
       "filerCik": "1997685",
       "currentShares": 87,
@@ -7606,16 +7606,6 @@
       "action": "Sell Out"
     },
     {
-      "filerName": "MGB Wealth Management, LLC",
-      "filerCik": "2015822",
-      "currentShares": null,
-      "priorShares": 2900,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet"
-    },
-    {
       "filerName": "Machina Capital S.A.S.",
       "filerCik": "1744373",
       "currentShares": null,
@@ -7636,20 +7626,20 @@
       "action": "Sell Out"
     },
     {
-      "filerName": "Integrated Quantitative Investments LLC",
-      "filerCik": "2046834",
+      "filerName": "Cornerstone Wealth Group, LLC",
+      "filerCik": "1774879",
       "currentShares": null,
-      "priorShares": 4211,
+      "priorShares": 620,
       "change": null,
       "pctChange": null,
       "currentValue": null,
       "action": "Sell Out"
     },
     {
-      "filerName": "Cornerstone Wealth Group, LLC",
-      "filerCik": "1774879",
+      "filerName": "Integrated Quantitative Investments LLC",
+      "filerCik": "2046834",
       "currentShares": null,
-      "priorShares": 620,
+      "priorShares": 4211,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7850,16 +7840,6 @@
       "filerCik": "1603328",
       "currentShares": null,
       "priorShares": 8840,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
-    },
-    {
-      "filerName": "Greykasell Wealth Strategies, Inc.",
-      "filerCik": "2041220",
-      "currentShares": null,
-      "priorShares": 90,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -8226,6 +8206,16 @@
       "action": "Not Filed Yet"
     },
     {
+      "filerName": "Perigon Wealth Management, LLC",
+      "filerCik": "1575239",
+      "currentShares": null,
+      "priorShares": 4269,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
       "filerName": "DRW Securities, LLC",
       "filerCik": "1481986",
       "currentShares": null,
@@ -8530,6 +8520,16 @@
       "filerCik": "1979372",
       "currentShares": null,
       "priorShares": 56,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet"
+    },
+    {
+      "filerName": "MGB Wealth Management, LLC",
+      "filerCik": "2015822",
+      "currentShares": null,
+      "priorShares": 2900,
       "change": null,
       "pctChange": null,
       "currentValue": null,

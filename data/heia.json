@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-03-31",
   "priorPeriod": "2025-12-31",
-  "lastUpdated": "2026-06-21T17:03:10.522Z",
+  "lastUpdated": "2026-06-22T21:33:18.866Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -2076,16 +2076,6 @@
       "action": "No Change"
     },
     {
-      "filerName": "WASATCH ADVISORS LP",
-      "filerCik": "814133",
-      "currentShares": 17802,
-      "priorShares": 18950,
-      "change": -1148,
-      "pctChange": -6.1,
-      "currentValue": 3757824,
-      "action": "Sold"
-    },
-    {
       "filerName": "Creative Planning",
       "filerCik": "1540235",
       "currentShares": 17719,
@@ -3699,11 +3689,11 @@
       "filerName": "Premier Path Wealth Partners, LLC",
       "filerCik": "1999925",
       "currentShares": 2477,
-      "priorShares": 2512,
-      "change": -35,
-      "pctChange": -1.4,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
       "currentValue": 522801,
-      "action": "Sold"
+      "action": "New Position"
     },
     {
       "filerName": "Envestnet Portfolio Solutions, Inc.",
@@ -6196,16 +6186,6 @@
       "action": "Sell Out"
     },
     {
-      "filerName": "MGB Wealth Management, LLC",
-      "filerCik": "2015822",
-      "currentShares": null,
-      "priorShares": 183,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet"
-    },
-    {
       "filerName": "Merited Wealth, LLC",
       "filerCik": "2123943",
       "currentShares": null,
@@ -6606,6 +6586,16 @@
       "action": "Sell Out"
     },
     {
+      "filerName": "WASATCH ADVISORS LP",
+      "filerCik": "814133",
+      "currentShares": null,
+      "priorShares": 18950,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
       "filerName": "HIGHBRIDGE CAPITAL MANAGEMENT LLC",
       "filerCik": "919185",
       "currentShares": null,
@@ -6624,6 +6614,16 @@
       "pctChange": null,
       "currentValue": null,
       "action": "Sell Out"
+    },
+    {
+      "filerName": "MGB Wealth Management, LLC",
+      "filerCik": "2015822",
+      "currentShares": null,
+      "priorShares": 183,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "Accent Capital Management, LLC",
