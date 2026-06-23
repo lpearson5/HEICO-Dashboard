@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-03-31",
   "priorPeriod": "2025-12-31",
-  "lastUpdated": "2026-06-22T21:33:18.866Z",
+  "lastUpdated": "2026-06-23T17:37:16.757Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -2076,6 +2076,16 @@
       "action": "No Change"
     },
     {
+      "filerName": "WASATCH ADVISORS LP",
+      "filerCik": "814133",
+      "currentShares": 17802,
+      "priorShares": 18950,
+      "change": -1148,
+      "pctChange": -6.1,
+      "currentValue": 3757824,
+      "action": "Sold"
+    },
+    {
       "filerName": "Creative Planning",
       "filerCik": "1540235",
       "currentShares": 17719,
@@ -3689,11 +3699,11 @@
       "filerName": "Premier Path Wealth Partners, LLC",
       "filerCik": "1999925",
       "currentShares": 2477,
-      "priorShares": null,
-      "change": null,
-      "pctChange": null,
+      "priorShares": 2512,
+      "change": -35,
+      "pctChange": -1.4,
       "currentValue": 522801,
-      "action": "New Position"
+      "action": "Sold"
     },
     {
       "filerName": "Envestnet Portfolio Solutions, Inc.",
@@ -5926,16 +5936,6 @@
       "action": "No Change"
     },
     {
-      "filerName": "Avion Wealth",
-      "filerCik": "1792704",
-      "currentShares": 4,
-      "priorShares": 4,
-      "change": 0,
-      "pctChange": 0,
-      "currentValue": 0,
-      "action": "No Change"
-    },
-    {
       "filerName": "Rachor Investment Advisory Services, LLC",
       "filerCik": "2008792",
       "currentShares": 4,
@@ -5943,6 +5943,16 @@
       "change": 0,
       "pctChange": 0,
       "currentValue": 845,
+      "action": "No Change"
+    },
+    {
+      "filerName": "Avion Wealth",
+      "filerCik": "1792704",
+      "currentShares": 4,
+      "priorShares": 4,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 0,
       "action": "No Change"
     },
     {
@@ -6580,16 +6590,6 @@
       "filerCik": "1920117",
       "currentShares": null,
       "priorShares": 1087,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
-    },
-    {
-      "filerName": "WASATCH ADVISORS LP",
-      "filerCik": "814133",
-      "currentShares": null,
-      "priorShares": 18950,
       "change": null,
       "pctChange": null,
       "currentValue": null,
