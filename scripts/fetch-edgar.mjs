@@ -22,7 +22,13 @@ import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const DATA_DIR  = join(__dirname, "..", "data");
+const ROOT      = join(__dirname, "..");
+const DATA_DIR  = join(ROOT, "data");
+
+// Email an alert when a filer's quarter-over-quarter move is this large or more.
+const ALERT_THRESHOLD = 1_000_000;
+const ALERTS_PATH = join(DATA_DIR, "alerts-sent.json");   // de-dupe state (committed)
+const ALERT_MSG_PATH = join(ROOT, "new-alerts.txt");      // summary for the commit message (not committed)
 
 // HEICO Corp CUSIPs, confirmed from filings (nameOfIssuer "HEICO CORP NEW"):
 //   HEI  = Common  422806109
@@ -212,6 +218,15 @@ function buildHoldings(ticker, curByCik, priByCik, nameByCik, filedSet) {
   return holdings.sort((a, b) => (b.currentShares ?? -1) - (a.currentShares ?? -1));
 }
 
+// Size and direction of a holding's quarter-over-quarter move, for alerting.
+function moveOf(h) {
+  if (h.action === "Bought")       return { size: h.change,        dir: "increased" };
+  if (h.action === "Sold")         return { size: -h.change,       dir: "decreased" };
+  if (h.action === "New Position") return { size: h.currentShares, dir: "new position" };
+  if (h.action === "Sell Out")     return { size: h.priorShares,   dir: "exited" };
+  return null; // No Change / Not Filed Yet → not a confirmed move
+}
+
 // Has this filer submitted any 13F-HR for the given holdings period yet?
 // Cached as true once filed (immutable); pending results are not cached so
 // they get re-checked next run.
@@ -299,7 +314,8 @@ async function main() {
   }
   saveCache(cache);
 
-  // 5. Build per-period maps and write output.
+  // 5. Build per-period maps and write output (collecting large movers).
+  const bigMovers = [];
   for (const ticker of Object.keys(CUSIPS)) {
     const curByCik = new Map(), priByCik = new Map();
     for (const h of filings) {
@@ -318,6 +334,47 @@ async function main() {
       holdings,
     }, null, 2));
     console.log(`  ${ticker}: ${withPos} current holders, ${holdings.length} total records`);
+
+    for (const h of holdings) {
+      const mv = moveOf(h);
+      if (mv && mv.size >= ALERT_THRESHOLD) {
+        bigMovers.push({ ticker, cik: h.filerCik, name: h.filerName, size: mv.size, dir: mv.dir });
+      }
+    }
+  }
+
+  // 6. Large-move alerts: email only NEW movers (de-duped). On the very first
+  // run there is no state file, so we baseline all current movers silently.
+  const seeding = !existsSync(ALERTS_PATH);
+  const alerts = seeding ? { sent: {} } : (() => {
+    try { return JSON.parse(readFileSync(ALERTS_PATH, "utf8")); } catch { return { sent: {} }; }
+  })();
+  if (!alerts.sent) alerts.sent = {};
+
+  const tName = t => (t === "HEIA" ? "HEI/A" : "HEI");
+  const newMovers = [];
+  for (const m of bigMovers) {
+    const key = `${m.ticker}|${m.cik}|${current}|${m.dir}`;
+    if (!alerts.sent[key]) {
+      alerts.sent[key] = { name: m.name, size: m.size, period: current };
+      if (!seeding) newMovers.push(m);
+    }
+  }
+  writeFileSync(ALERTS_PATH, JSON.stringify(alerts, null, 2));
+
+  if (newMovers.length) {
+    const parts = newMovers
+      .sort((a, b) => b.size - a.size)
+      .map(m => `${m.name} ${m.dir} ${tName(m.ticker)} by ${m.size.toLocaleString("en-US")}`);
+    const shown = parts.slice(0, 6).join("; ");
+    const extra = parts.length > 6 ? ` (+${parts.length - 6} more)` : "";
+    writeFileSync(ALERT_MSG_PATH, `${newMovers.length} large HEICO 13F move(s): ${shown}${extra}`);
+    console.log(`\n⚑ ${newMovers.length} NEW large move(s) — alert queued.`);
+  } else {
+    writeFileSync(ALERT_MSG_PATH, "");   // empty => no alert this run
+    console.log(seeding
+      ? `\nBaselined ${bigMovers.length} existing large holders (no alerts on first run).`
+      : `\nNo new large moves.`);
   }
 
   console.log("\nDone!");

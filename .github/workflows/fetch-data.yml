@@ -29,14 +29,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/hei.json data/heia.json data/scan-cache.json
+          git add data/hei.json data/heia.json data/scan-cache.json data/alerts-sent.json
           if ! git diff --cached --quiet; then
-            hei=$(node -e "console.log(require('./data/hei.json').holdings.filter(h=>h.currentShares!=null).length)")
-            heia=$(node -e "console.log(require('./data/heia.json').holdings.filter(h=>h.currentShares!=null).length)")
             date=$(date -u +%Y-%m-%d)
-            git commit -m "HEICO 13F data refreshed $date - HEI $hei holders, HEI.A $heia holders"
+            # If the script flagged new large moves, lead the commit (and thus the
+            # RSS-triggered alert email) with an [ALERT] marker carrying the summary.
+            if [ -s new-alerts.txt ]; then
+              msg="[ALERT] $(cat new-alerts.txt)"
+            else
+              hei=$(node -e "console.log(require('./data/hei.json').holdings.filter(h=>h.currentShares!=null).length)")
+              heia=$(node -e "console.log(require('./data/heia.json').holdings.filter(h=>h.currentShares!=null).length)")
+              msg="HEICO 13F data refreshed $date - HEI $hei holders, HEI.A $heia holders"
+            fi
+            git commit -m "$msg"
             git push
-            echo "Data changed and pushed."
+            echo "Data changed and pushed: $msg"
           else
             echo "No data change."
           fi
