@@ -34,10 +34,12 @@ function largeMove(h: Holding): { big: boolean; dir: "up" | "down" } {
   return { big: size >= LARGE_MOVE, dir };
 }
 
-type SortKey = keyof Pick<
-  Holding,
-  "filerName" | "currentShares" | "priorShares" | "change" | "pctChange" | "currentValue" | "action"
->;
+type SortKey =
+  | "filerName" | "currentShares" | "priorShares" | "change"
+  | "pctChange" | "currentValue" | "action" | "filed";
+
+// A filer has reported for the current quarter unless they're still pending.
+const hasFiled = (h: Holding): boolean => h.action !== "Not Filed Yet";
 
 function fmt(n: number | null, decimals = 0): string {
   if (n == null) return "—";
@@ -101,8 +103,12 @@ export default function Dashboard({
         const ar = ACTION_RANK[a.action], br = ACTION_RANK[b.action];
         return sortAsc ? ar - br : br - ar;
       }
-      const av = a[sortKey] ?? (sortAsc ? Infinity : -Infinity);
-      const bv = b[sortKey] ?? (sortAsc ? Infinity : -Infinity);
+      if (sortKey === "filed") {
+        const af = hasFiled(a) ? 1 : 0, bf = hasFiled(b) ? 1 : 0;
+        return sortAsc ? af - bf : bf - af;
+      }
+      const av = (a as unknown as Record<string, number | string | null>)[sortKey] ?? (sortAsc ? Infinity : -Infinity);
+      const bv = (b as unknown as Record<string, number | string | null>)[sortKey] ?? (sortAsc ? Infinity : -Infinity);
       if (typeof av === "string" && typeof bv === "string") {
         return sortAsc ? av.localeCompare(bv) : bv.localeCompare(av);
       }
@@ -284,6 +290,7 @@ export default function Dashboard({
               <thead className="bg-gray-50 border-b border-gray-200">
                 <tr>
                   <Th k="filerName"     label="Institution" />
+                  <Th k="filed"         label="Filed" center />
                   <Th k="currentShares" label={`${data.currentPeriod} Shares`} right />
                   <Th k="priorShares"   label={`${data.priorPeriod} Shares`}   right />
                   <Th k="change"        label="Change"       right />
@@ -295,7 +302,7 @@ export default function Dashboard({
               <tbody className="divide-y divide-gray-100">
                 {filtered.length === 0 ? (
                   <tr>
-                    <td colSpan={7} className="px-4 py-12 text-center text-gray-400">
+                    <td colSpan={8} className="px-4 py-12 text-center text-gray-400">
                       No results match your filters.
                     </td>
                   </tr>
@@ -322,6 +329,13 @@ export default function Dashboard({
                           >
                             {lm.dir === "up" ? "▲" : "▼"} 1M+
                           </span>
+                        )}
+                      </td>
+                      <td className="px-4 py-3 text-center">
+                        {hasFiled(h) ? (
+                          <span className="text-green-600 font-bold" title="Filed this quarter">✓</span>
+                        ) : (
+                          <span className="text-red-500 font-bold" title="Not filed yet">✗</span>
                         )}
                       </td>
                       <td className="px-4 py-3 text-right tabular-nums text-gray-700">
@@ -363,6 +377,9 @@ export default function Dashboard({
                   <tr>
                     <td className="px-4 py-3">
                       Total · {filtered.length.toLocaleString()} institution{filtered.length !== 1 ? "s" : ""}
+                    </td>
+                    <td className="px-4 py-3 text-center text-xs text-gray-500 font-medium whitespace-nowrap">
+                      {filtered.filter(hasFiled).length} filed
                     </td>
                     <td className="px-4 py-3 text-right tabular-nums">{fmt(totals.current)}</td>
                     <td className="px-4 py-3 text-right tabular-nums">{fmt(totals.prior)}</td>
