@@ -21,6 +21,19 @@ const ACTION_RANK: Record<Action, number> = {
   "New Position": 0, Bought: 1, Sold: 2, "Sell Out": 3, "No Change": 4, "Not Filed Yet": 5,
 };
 
+// A "large move" = a quarter-over-quarter buy or sell of this many shares or more.
+const LARGE_MOVE = 1_000_000;
+
+function largeMove(h: Holding): { big: boolean; dir: "up" | "down" } {
+  let size = 0;
+  let dir: "up" | "down" = "up";
+  if (h.action === "Bought" && h.change != null)            { size = h.change;        dir = "up"; }
+  else if (h.action === "Sold" && h.change != null)         { size = -h.change;       dir = "down"; }
+  else if (h.action === "New Position" && h.currentShares != null) { size = h.currentShares; dir = "up"; }
+  else if (h.action === "Sell Out" && h.priorShares != null)       { size = h.priorShares;   dir = "down"; }
+  return { big: size >= LARGE_MOVE, dir };
+}
+
 type SortKey = keyof Pick<
   Holding,
   "filerName" | "currentShares" | "priorShares" | "change" | "pctChange" | "currentValue" | "action"
@@ -52,6 +65,7 @@ export default function Dashboard({
 }) {
   const [activeTicker, setActiveTicker] = useState<"HEI" | "HEIA">("HEI");
   const [actionFilter, setActionFilter] = useState<Action | "All">("All");
+  const [largeOnly, setLargeOnly] = useState(false);
   const [search, setSearch] = useState("");
   const [sortKey, setSortKey] = useState<SortKey>("currentShares");
   const [sortAsc, setSortAsc] = useState(false);
@@ -74,6 +88,9 @@ export default function Dashboard({
     if (actionFilter !== "All") {
       rows = rows.filter((h) => h.action === actionFilter);
     }
+    if (largeOnly) {
+      rows = rows.filter((h) => largeMove(h).big);
+    }
     if (search.trim()) {
       const q = search.toLowerCase();
       rows = rows.filter((h) => h.filerName.toLowerCase().includes(q));
@@ -93,7 +110,12 @@ export default function Dashboard({
     });
 
     return rows;
-  }, [data, actionFilter, search, sortKey, sortAsc]);
+  }, [data, actionFilter, largeOnly, search, sortKey, sortAsc]);
+
+  const largeCount = useMemo(
+    () => (data ? data.holdings.filter((h) => largeMove(h).big).length : 0),
+    [data]
+  );
 
   // Column totals across the currently-shown rows.
   const totals = useMemo(() => {
@@ -219,7 +241,7 @@ export default function Dashboard({
             />
           </div>
 
-          {/* Action filter pills */}
+          {/* Action filter pills + large-move toggle */}
           <div className="flex flex-wrap gap-1.5">
             {ACTION_FILTER_ORDER.map((a) => (
               <button
@@ -234,6 +256,17 @@ export default function Dashboard({
                 {a}
               </button>
             ))}
+            <button
+              onClick={() => setLargeOnly((v) => !v)}
+              className={`px-3 py-1.5 text-xs font-semibold rounded-full border transition-colors ${
+                largeOnly
+                  ? "bg-amber-500 text-white border-amber-500"
+                  : "bg-amber-50 text-amber-700 border-amber-300 hover:border-amber-400"
+              }`}
+              title="Show only buys or sells of 1,000,000+ shares"
+            >
+              ⚑ Large Moves ≥1M ({largeCount})
+            </button>
           </div>
         </div>
 
@@ -267,10 +300,29 @@ export default function Dashboard({
                     </td>
                   </tr>
                 ) : (
-                  filtered.map((h) => (
-                    <tr key={h.filerCik} className="hover:bg-gray-50 transition-colors">
+                  filtered.map((h) => {
+                    const lm = largeMove(h);
+                    return (
+                    <tr
+                      key={h.filerCik}
+                      className={`transition-colors ${
+                        lm.big
+                          ? "bg-amber-50 border-l-4 border-amber-400 hover:bg-amber-100"
+                          : "hover:bg-gray-50"
+                      }`}
+                    >
                       <td className="px-4 py-3 font-medium text-gray-900 max-w-xs truncate">
                         {h.filerName}
+                        {lm.big && (
+                          <span
+                            className={`ml-2 inline-block px-1.5 py-0.5 text-[10px] font-bold rounded align-middle ${
+                              lm.dir === "up" ? "bg-green-600 text-white" : "bg-red-600 text-white"
+                            }`}
+                            title="Large move: 1,000,000+ shares"
+                          >
+                            {lm.dir === "up" ? "▲" : "▼"} 1M+
+                          </span>
+                        )}
                       </td>
                       <td className="px-4 py-3 text-right tabular-nums text-gray-700">
                         {fmt(h.currentShares)}
@@ -302,7 +354,8 @@ export default function Dashboard({
                         </span>
                       </td>
                     </tr>
-                  ))
+                    );
+                  })
                 )}
               </tbody>
               {filtered.length > 0 && (
