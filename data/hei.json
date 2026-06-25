@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-03-31",
   "priorPeriod": "2025-12-31",
-  "lastUpdated": "2026-06-24T18:20:21.542Z",
+  "lastUpdated": "2026-06-25T18:42:03.011Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -759,11 +759,11 @@
       "filerName": "Erste Asset Management GmbH",
       "filerCik": "2024532",
       "currentShares": 85000,
-      "priorShares": null,
-      "change": null,
-      "pctChange": null,
+      "priorShares": 85000,
+      "change": 0,
+      "pctChange": 0,
       "currentValue": 22526700,
-      "action": "New Position"
+      "action": "No Change"
     },
     {
       "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
@@ -2199,11 +2199,11 @@
       "filerName": "K.J. Harrison & Partners Inc",
       "filerCik": "1418359",
       "currentShares": 12300,
-      "priorShares": 12300,
-      "change": 0,
-      "pctChange": 0,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
       "currentValue": 3372660,
-      "action": "No Change"
+      "action": "New Position"
     },
     {
       "filerName": "Arizona State Retirement System",
@@ -2669,11 +2669,11 @@
       "filerName": "Verity Asset Management, Inc.",
       "filerCik": "1597298",
       "currentShares": 7343,
-      "priorShares": 7136,
-      "change": 207,
-      "pctChange": 2.9,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
       "currentValue": 2013451,
-      "action": "Bought"
+      "action": "New Position"
     },
     {
       "filerName": "Pathstone Holdings, LLC",
@@ -5306,16 +5306,6 @@
       "action": "Bought"
     },
     {
-      "filerName": "TRED AVON FAMILY WEALTH, LLC",
-      "filerCik": "2094435",
-      "currentShares": 942,
-      "priorShares": 942,
-      "change": 0,
-      "pctChange": 0,
-      "currentValue": 258296,
-      "action": "No Change"
-    },
-    {
       "filerName": "Frontier Asset Management, LLC",
       "filerCik": "1910146",
       "currentShares": 941,
@@ -7576,6 +7566,16 @@
       "action": "Sell Out"
     },
     {
+      "filerName": "TRED AVON FAMILY WEALTH, LLC",
+      "filerCik": "2094435",
+      "currentShares": null,
+      "priorShares": 942,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
       "filerName": "Encompass More Asset Management",
       "filerCik": "2011218",
       "currentShares": null,
@@ -7616,16 +7616,6 @@
       "action": "Sell Out"
     },
     {
-      "filerName": "Fiduciary Group, LLC",
-      "filerCik": "1645890",
-      "currentShares": null,
-      "priorShares": 721,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
-    },
-    {
       "filerName": "MGB Wealth Management, LLC",
       "filerCik": "2015822",
       "currentShares": null,
@@ -7636,10 +7626,10 @@
       "action": "Not Filed Yet"
     },
     {
-      "filerName": "Machina Capital S.A.S.",
-      "filerCik": "1744373",
+      "filerName": "Fiduciary Group, LLC",
+      "filerCik": "1645890",
       "currentShares": null,
-      "priorShares": 1468,
+      "priorShares": 721,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7650,6 +7640,16 @@
       "filerCik": "1581655",
       "currentShares": null,
       "priorShares": 1156,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
+      "filerName": "Machina Capital S.A.S.",
+      "filerCik": "1744373",
+      "currentShares": null,
+      "priorShares": 1468,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7716,20 +7716,20 @@
       "action": "Not Filed Yet"
     },
     {
-      "filerName": "FORA Capital, LLC",
-      "filerCik": "1742435",
+      "filerName": "Merited Wealth, LLC",
+      "filerCik": "2123943",
       "currentShares": null,
-      "priorShares": 1151,
+      "priorShares": 83,
       "change": null,
       "pctChange": null,
       "currentValue": null,
       "action": "Sell Out"
     },
     {
-      "filerName": "Merited Wealth, LLC",
-      "filerCik": "2123943",
+      "filerName": "FORA Capital, LLC",
+      "filerCik": "1742435",
       "currentShares": null,
-      "priorShares": 83,
+      "priorShares": 1151,
       "change": null,
       "pctChange": null,
       "currentValue": null,
