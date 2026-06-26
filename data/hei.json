@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-03-31",
   "priorPeriod": "2025-12-31",
-  "lastUpdated": "2026-06-25T18:42:03.011Z",
+  "lastUpdated": "2026-06-26T17:28:37.310Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -2199,11 +2199,11 @@
       "filerName": "K.J. Harrison & Partners Inc",
       "filerCik": "1418359",
       "currentShares": 12300,
-      "priorShares": null,
-      "change": null,
-      "pctChange": null,
+      "priorShares": 12300,
+      "change": 0,
+      "pctChange": 0,
       "currentValue": 3372660,
-      "action": "New Position"
+      "action": "No Change"
     },
     {
       "filerName": "Arizona State Retirement System",
@@ -2669,11 +2669,11 @@
       "filerName": "Verity Asset Management, Inc.",
       "filerCik": "1597298",
       "currentShares": 7343,
-      "priorShares": null,
-      "change": null,
-      "pctChange": null,
+      "priorShares": 7136,
+      "change": 207,
+      "pctChange": 2.9,
       "currentValue": 2013451,
-      "action": "New Position"
+      "action": "Bought"
     },
     {
       "filerName": "Pathstone Holdings, LLC",
@@ -5236,16 +5236,6 @@
       "action": "Bought"
     },
     {
-      "filerName": "Private Advisory Group LLC",
-      "filerCik": "1632965",
-      "currentShares": 981,
-      "priorShares": 981,
-      "change": 0,
-      "pctChange": 0,
-      "currentValue": 268990,
-      "action": "No Change"
-    },
-    {
       "filerName": "PRUDENTIAL FINANCIAL INC  (PFH, PRH, PRS, PRU)",
       "filerCik": "1137774",
       "currentShares": 975,
@@ -5304,6 +5294,16 @@
       "pctChange": 26.6,
       "currentValue": 262136,
       "action": "Bought"
+    },
+    {
+      "filerName": "TRED AVON FAMILY WEALTH, LLC",
+      "filerCik": "2094435",
+      "currentShares": 942,
+      "priorShares": 942,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 258296,
+      "action": "No Change"
     },
     {
       "filerName": "Frontier Asset Management, LLC",
@@ -5564,16 +5564,6 @@
       "pctChange": -33.8,
       "currentValue": 222650,
       "action": "Sold"
-    },
-    {
-      "filerName": "GREENLEAF TRUST",
-      "filerCik": "1162170",
-      "currentShares": 810,
-      "priorShares": null,
-      "change": null,
-      "pctChange": null,
-      "currentValue": 222102,
-      "action": "New Position"
     },
     {
       "filerName": "DSM CAPITAL PARTNERS LLC",
@@ -6273,16 +6263,6 @@
       "change": 0,
       "pctChange": 0,
       "currentValue": 27843,
-      "action": "No Change"
-    },
-    {
-      "filerName": "Costello Asset Management, INC",
-      "filerCik": "1760145",
-      "currentShares": 100,
-      "priorShares": 100,
-      "change": 0,
-      "pctChange": 0,
-      "currentValue": 27420,
       "action": "No Change"
     },
     {
@@ -7566,16 +7546,6 @@
       "action": "Sell Out"
     },
     {
-      "filerName": "TRED AVON FAMILY WEALTH, LLC",
-      "filerCik": "2094435",
-      "currentShares": null,
-      "priorShares": 942,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
-    },
-    {
       "filerName": "Encompass More Asset Management",
       "filerCik": "2011218",
       "currentShares": null,
@@ -7616,6 +7586,16 @@
       "action": "Sell Out"
     },
     {
+      "filerName": "Fiduciary Group, LLC",
+      "filerCik": "1645890",
+      "currentShares": null,
+      "priorShares": 721,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
       "filerName": "MGB Wealth Management, LLC",
       "filerCik": "2015822",
       "currentShares": null,
@@ -7626,10 +7606,10 @@
       "action": "Not Filed Yet"
     },
     {
-      "filerName": "Fiduciary Group, LLC",
-      "filerCik": "1645890",
+      "filerName": "Machina Capital S.A.S.",
+      "filerCik": "1744373",
       "currentShares": null,
-      "priorShares": 721,
+      "priorShares": 1468,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7646,10 +7626,10 @@
       "action": "Sell Out"
     },
     {
-      "filerName": "Machina Capital S.A.S.",
-      "filerCik": "1744373",
+      "filerName": "Integrated Quantitative Investments LLC",
+      "filerCik": "2046834",
       "currentShares": null,
-      "priorShares": 1468,
+      "priorShares": 4211,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7660,16 +7640,6 @@
       "filerCik": "1774879",
       "currentShares": null,
       "priorShares": 620,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
-    },
-    {
-      "filerName": "Integrated Quantitative Investments LLC",
-      "filerCik": "2046834",
-      "currentShares": null,
-      "priorShares": 4211,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7730,6 +7700,16 @@
       "filerCik": "1742435",
       "currentShares": null,
       "priorShares": 1151,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
+      "filerName": "Private Advisory Group LLC",
+      "filerCik": "1632965",
+      "currentShares": null,
+      "priorShares": 981,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -8010,6 +7990,16 @@
       "filerCik": "1700574",
       "currentShares": null,
       "priorShares": 3033,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
+      "filerName": "Costello Asset Management, INC",
+      "filerCik": "1760145",
+      "currentShares": null,
+      "priorShares": 100,
       "change": null,
       "pctChange": null,
       "currentValue": null,
