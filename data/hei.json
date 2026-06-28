@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-03-31",
   "priorPeriod": "2025-12-31",
-  "lastUpdated": "2026-06-27T15:55:10.195Z",
+  "lastUpdated": "2026-06-28T15:58:29.471Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -3289,11 +3289,11 @@
       "filerName": "Quantbot Technologies LP",
       "filerCik": "1512991",
       "currentShares": 4076,
-      "priorShares": null,
-      "change": null,
-      "pctChange": null,
+      "priorShares": 33633,
+      "change": -29557,
+      "pctChange": -87.9,
       "currentValue": 1117639,
-      "action": "New Position"
+      "action": "Sold"
     },
     {
       "filerName": "Snowden Capital Advisors LLC",
@@ -3814,6 +3814,16 @@
       "pctChange": null,
       "currentValue": 720598,
       "action": "New Position"
+    },
+    {
+      "filerName": "JACOBS LEVY EQUITY MANAGEMENT, INC",
+      "filerCik": "884414",
+      "currentShares": 2628,
+      "priorShares": 2628,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 720598,
+      "action": "No Change"
     },
     {
       "filerName": "MetLife Investment Management, LLC",
@@ -6726,6 +6736,16 @@
       "action": "Bought"
     },
     {
+      "filerName": "Intentional Wealth Strategies, LLC",
+      "filerCik": "2119881",
+      "currentShares": 25,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
+      "currentValue": 6855,
+      "action": "New Position"
+    },
+    {
       "filerName": "WPG Advisers, LLC",
       "filerCik": "2067343",
       "currentShares": 24,
@@ -8100,16 +8120,6 @@
       "filerCik": "1426853",
       "currentShares": null,
       "priorShares": 886,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
-    },
-    {
-      "filerName": "JACOBS LEVY EQUITY MANAGEMENT, INC",
-      "filerCik": "884414",
-      "currentShares": null,
-      "priorShares": 2628,
       "change": null,
       "pctChange": null,
       "currentValue": null,
