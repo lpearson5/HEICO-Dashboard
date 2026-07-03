@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-03-31",
   "priorPeriod": "2025-12-31",
-  "lastUpdated": "2026-07-02T17:21:02.780Z",
+  "lastUpdated": "2026-07-03T16:21:31.929Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -4936,16 +4936,6 @@
       "action": "No Change"
     },
     {
-      "filerName": "Johnson Financial Group, Inc.",
-      "filerCik": "1477024",
-      "currentShares": 306,
-      "priorShares": 598,
-      "change": -292,
-      "pctChange": -48.8,
-      "currentValue": 64594,
-      "action": "Sold"
-    },
-    {
       "filerName": "Heritage Wealth Advisors",
       "filerCik": "1591122",
       "currentShares": 300,
@@ -6096,16 +6086,6 @@
       "action": "Sold"
     },
     {
-      "filerName": "Seneschal Advisors, LLC",
-      "filerCik": "2039659",
-      "currentShares": 1,
-      "priorShares": 1,
-      "change": 0,
-      "pctChange": 0,
-      "currentValue": 212,
-      "action": "No Change"
-    },
-    {
       "filerName": "TopTier Wealth Management, LLC",
       "filerCik": "2109367",
       "currentShares": 1,
@@ -6154,6 +6134,16 @@
       "pctChange": null,
       "currentValue": 211,
       "action": "New Position"
+    },
+    {
+      "filerName": "Seneschal Advisors, LLC",
+      "filerCik": "2039659",
+      "currentShares": 1,
+      "priorShares": 1,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 212,
+      "action": "No Change"
     },
     {
       "filerName": "Employees Retirement System of Texas",
@@ -6900,6 +6890,16 @@
       "filerCik": "1883006",
       "currentShares": null,
       "priorShares": 1,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
+      "filerName": "Johnson Financial Group, Inc.",
+      "filerCik": "1477024",
+      "currentShares": null,
+      "priorShares": 598,
       "change": null,
       "pctChange": null,
       "currentValue": null,
