@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-03-31",
   "priorPeriod": "2025-12-31",
-  "lastUpdated": "2026-07-03T16:21:31.925Z",
+  "lastUpdated": "2026-07-04T14:58:45.895Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -2246,16 +2246,6 @@
       "action": "Bought"
     },
     {
-      "filerName": "EP Wealth Advisors, LLC",
-      "filerCik": "1540569",
-      "currentShares": 10869,
-      "priorShares": 11035,
-      "change": -166,
-      "pctChange": -1.5,
-      "currentValue": 2980252,
-      "action": "Sold"
-    },
-    {
       "filerName": "FIFTH THIRD BANCORP  (FITB, FITBI, FITBM, FITBO, FITBP)",
       "filerCik": "35527",
       "currentShares": 10579,
@@ -3629,11 +3619,11 @@
       "filerName": "PINNACLE ASSOCIATES LTD",
       "filerCik": "743127",
       "currentShares": 3025,
-      "priorShares": 3125,
-      "change": -100,
-      "pctChange": -3.2,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
       "currentValue": 829507,
-      "action": "Sold"
+      "action": "New Position"
     },
     {
       "filerName": "BRANT POINT INVESTMENT MANAGEMENT LLC",
@@ -4829,11 +4819,11 @@
       "filerName": "PICTON MAHONEY ASSET MANAGEMENT",
       "filerCik": "1539041",
       "currentShares": 1248,
-      "priorShares": 1173,
-      "change": 75,
-      "pctChange": 6.4,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
       "currentValue": 342202,
-      "action": "Bought"
+      "action": "New Position"
     },
     {
       "filerName": "North Dakota State Investment Board",
@@ -5994,16 +5984,6 @@
       "pctChange": 0.3,
       "currentValue": 83631,
       "action": "Bought"
-    },
-    {
-      "filerName": "ATWOOD & PALMER INC",
-      "filerCik": "1044929",
-      "currentShares": 300,
-      "priorShares": 300,
-      "change": 0,
-      "pctChange": 0,
-      "currentValue": 82260,
-      "action": "No Change"
     },
     {
       "filerName": "MassMutual Private Wealth & Trust, FSB",
@@ -7296,6 +7276,16 @@
       "action": "No Change"
     },
     {
+      "filerName": "Seneschal Advisors, LLC",
+      "filerCik": "2039659",
+      "currentShares": 1,
+      "priorShares": 1,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 275,
+      "action": "No Change"
+    },
+    {
       "filerName": "Elequin Capital, LP",
       "filerCik": "1810873",
       "currentShares": 1,
@@ -7353,16 +7343,6 @@
       "change": 0,
       "pctChange": 0,
       "currentValue": 274,
-      "action": "No Change"
-    },
-    {
-      "filerName": "Seneschal Advisors, LLC",
-      "filerCik": "2039659",
-      "currentShares": 1,
-      "priorShares": 1,
-      "change": 0,
-      "pctChange": 0,
-      "currentValue": 275,
       "action": "No Change"
     },
     {
@@ -7616,16 +7596,6 @@
       "action": "Sell Out"
     },
     {
-      "filerName": "Fiduciary Group, LLC",
-      "filerCik": "1645890",
-      "currentShares": null,
-      "priorShares": 721,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
-    },
-    {
       "filerName": "MGB Wealth Management, LLC",
       "filerCik": "2015822",
       "currentShares": null,
@@ -7634,6 +7604,16 @@
       "pctChange": null,
       "currentValue": null,
       "action": "Not Filed Yet"
+    },
+    {
+      "filerName": "Fiduciary Group, LLC",
+      "filerCik": "1645890",
+      "currentShares": null,
+      "priorShares": 721,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
     },
     {
       "filerName": "Machina Capital S.A.S.",
@@ -7656,20 +7636,20 @@
       "action": "Sell Out"
     },
     {
-      "filerName": "Integrated Quantitative Investments LLC",
-      "filerCik": "2046834",
+      "filerName": "Cornerstone Wealth Group, LLC",
+      "filerCik": "1774879",
       "currentShares": null,
-      "priorShares": 4211,
+      "priorShares": 620,
       "change": null,
       "pctChange": null,
       "currentValue": null,
       "action": "Sell Out"
     },
     {
-      "filerName": "Cornerstone Wealth Group, LLC",
-      "filerCik": "1774879",
+      "filerName": "Integrated Quantitative Investments LLC",
+      "filerCik": "2046834",
       "currentShares": null,
-      "priorShares": 620,
+      "priorShares": 4211,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7780,6 +7760,16 @@
       "filerCik": "1798172",
       "currentShares": null,
       "priorShares": 936,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
+      "filerName": "ATWOOD & PALMER INC",
+      "filerCik": "1044929",
+      "currentShares": null,
+      "priorShares": 300,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -8280,6 +8270,16 @@
       "filerCik": "1736225",
       "currentShares": null,
       "priorShares": 63076,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
+      "filerName": "EP Wealth Advisors, LLC",
+      "filerCik": "1540569",
+      "currentShares": null,
+      "priorShares": 11035,
       "change": null,
       "pctChange": null,
       "currentValue": null,
