@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-03-31",
   "priorPeriod": "2025-12-31",
-  "lastUpdated": "2026-07-04T14:58:45.895Z",
+  "lastUpdated": "2026-07-05T15:53:40.048Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -774,16 +774,6 @@
       "pctChange": -2.1,
       "currentValue": 23222272,
       "action": "Sold"
-    },
-    {
-      "filerName": "CAPITAL INTERNATIONAL LTD /CA/",
-      "filerCik": "1065350",
-      "currentShares": 82693,
-      "priorShares": 52469,
-      "change": 30224,
-      "pctChange": 57.6,
-      "currentValue": 22674421,
-      "action": "Bought"
     },
     {
       "filerName": "JPMORGAN CHASE & CO  (JPM, AMJB, VYLD, JPM-PC, JPM-PD, JPM-PJ, JPM-PK, JPM-PL, JPM-PM)",
@@ -2246,6 +2236,16 @@
       "action": "Bought"
     },
     {
+      "filerName": "EP Wealth Advisors, LLC",
+      "filerCik": "1540569",
+      "currentShares": 10869,
+      "priorShares": 11035,
+      "change": -166,
+      "pctChange": -1.5,
+      "currentValue": 2980252,
+      "action": "Sold"
+    },
+    {
       "filerName": "FIFTH THIRD BANCORP  (FITB, FITBI, FITBM, FITBO, FITBP)",
       "filerCik": "35527",
       "currentShares": 10579,
@@ -3619,11 +3619,11 @@
       "filerName": "PINNACLE ASSOCIATES LTD",
       "filerCik": "743127",
       "currentShares": 3025,
-      "priorShares": null,
-      "change": null,
-      "pctChange": null,
+      "priorShares": 3125,
+      "change": -100,
+      "pctChange": -3.2,
       "currentValue": 829507,
-      "action": "New Position"
+      "action": "Sold"
     },
     {
       "filerName": "BRANT POINT INVESTMENT MANAGEMENT LLC",
@@ -4736,16 +4736,6 @@
       "action": "No Change"
     },
     {
-      "filerName": "Coastal Bridge Advisors, LLC",
-      "filerCik": "1665976",
-      "currentShares": 1276,
-      "priorShares": 1246,
-      "change": 30,
-      "pctChange": 2.4,
-      "currentValue": 349950,
-      "action": "Bought"
-    },
-    {
       "filerName": "IQ EQ FUND MANAGEMENT (IRELAND) Ltd",
       "filerCik": "1620943",
       "currentShares": 1269,
@@ -4819,11 +4809,11 @@
       "filerName": "PICTON MAHONEY ASSET MANAGEMENT",
       "filerCik": "1539041",
       "currentShares": 1248,
-      "priorShares": null,
-      "change": null,
-      "pctChange": null,
+      "priorShares": 1173,
+      "change": 75,
+      "pctChange": 6.4,
       "currentValue": 342202,
-      "action": "New Position"
+      "action": "Bought"
     },
     {
       "filerName": "North Dakota State Investment Board",
@@ -5984,6 +5974,16 @@
       "pctChange": 0.3,
       "currentValue": 83631,
       "action": "Bought"
+    },
+    {
+      "filerName": "ATWOOD & PALMER INC",
+      "filerCik": "1044929",
+      "currentShares": 300,
+      "priorShares": 300,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 82260,
+      "action": "No Change"
     },
     {
       "filerName": "MassMutual Private Wealth & Trust, FSB",
@@ -7506,6 +7506,16 @@
       "action": "Sell Out"
     },
     {
+      "filerName": "CAPITAL INTERNATIONAL LTD /CA/",
+      "filerCik": "1065350",
+      "currentShares": null,
+      "priorShares": 52469,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
       "filerName": "nVerses Capital, LLC",
       "filerCik": "2011399",
       "currentShares": null,
@@ -7596,16 +7606,6 @@
       "action": "Sell Out"
     },
     {
-      "filerName": "MGB Wealth Management, LLC",
-      "filerCik": "2015822",
-      "currentShares": null,
-      "priorShares": 2900,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet"
-    },
-    {
       "filerName": "Fiduciary Group, LLC",
       "filerCik": "1645890",
       "currentShares": null,
@@ -7614,6 +7614,16 @@
       "pctChange": null,
       "currentValue": null,
       "action": "Sell Out"
+    },
+    {
+      "filerName": "MGB Wealth Management, LLC",
+      "filerCik": "2015822",
+      "currentShares": null,
+      "priorShares": 2900,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "Machina Capital S.A.S.",
@@ -7636,20 +7646,20 @@
       "action": "Sell Out"
     },
     {
-      "filerName": "Cornerstone Wealth Group, LLC",
-      "filerCik": "1774879",
+      "filerName": "Integrated Quantitative Investments LLC",
+      "filerCik": "2046834",
       "currentShares": null,
-      "priorShares": 620,
+      "priorShares": 4211,
       "change": null,
       "pctChange": null,
       "currentValue": null,
       "action": "Sell Out"
     },
     {
-      "filerName": "Integrated Quantitative Investments LLC",
-      "filerCik": "2046834",
+      "filerName": "Cornerstone Wealth Group, LLC",
+      "filerCik": "1774879",
       "currentShares": null,
-      "priorShares": 4211,
+      "priorShares": 620,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7696,20 +7706,20 @@
       "action": "Not Filed Yet"
     },
     {
-      "filerName": "FORA Capital, LLC",
-      "filerCik": "1742435",
+      "filerName": "Merited Wealth, LLC",
+      "filerCik": "2123943",
       "currentShares": null,
-      "priorShares": 1151,
+      "priorShares": 83,
       "change": null,
       "pctChange": null,
       "currentValue": null,
       "action": "Sell Out"
     },
     {
-      "filerName": "Merited Wealth, LLC",
-      "filerCik": "2123943",
+      "filerName": "FORA Capital, LLC",
+      "filerCik": "1742435",
       "currentShares": null,
-      "priorShares": 83,
+      "priorShares": 1151,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7766,10 +7776,10 @@
       "action": "Sell Out"
     },
     {
-      "filerName": "ATWOOD & PALMER INC",
-      "filerCik": "1044929",
+      "filerName": "Coastal Bridge Advisors, LLC",
+      "filerCik": "1665976",
       "currentShares": null,
-      "priorShares": 300,
+      "priorShares": 1246,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -8196,16 +8206,6 @@
       "action": "Sell Out"
     },
     {
-      "filerName": "Jain Global LLC",
-      "filerCik": "2024579",
-      "currentShares": null,
-      "priorShares": 13825,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
-    },
-    {
       "filerName": "AMERIFLEX GROUP, INC.",
       "filerCik": "2057637",
       "currentShares": null,
@@ -8270,16 +8270,6 @@
       "filerCik": "1736225",
       "currentShares": null,
       "priorShares": 63076,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
-    },
-    {
-      "filerName": "EP Wealth Advisors, LLC",
-      "filerCik": "1540569",
-      "currentShares": null,
-      "priorShares": 11035,
       "change": null,
       "pctChange": null,
       "currentValue": null,
