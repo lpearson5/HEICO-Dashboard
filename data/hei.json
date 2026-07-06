@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-03-31",
   "priorPeriod": "2025-12-31",
-  "lastUpdated": "2026-07-05T15:53:40.048Z",
+  "lastUpdated": "2026-07-06T18:33:24.867Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -776,6 +776,16 @@
       "action": "Sold"
     },
     {
+      "filerName": "CAPITAL INTERNATIONAL LTD /CA/",
+      "filerCik": "1065350",
+      "currentShares": 82693,
+      "priorShares": 52469,
+      "change": 30224,
+      "pctChange": 57.6,
+      "currentValue": 22674421,
+      "action": "Bought"
+    },
+    {
       "filerName": "JPMORGAN CHASE & CO  (JPM, AMJB, VYLD, JPM-PC, JPM-PD, JPM-PJ, JPM-PK, JPM-PL, JPM-PM)",
       "filerCik": "19617",
       "currentShares": 81679,
@@ -1469,11 +1479,11 @@
       "filerName": "Advisors Asset Management, Inc.",
       "filerCik": "1297376",
       "currentShares": 26092,
-      "priorShares": 25309,
-      "change": 783,
-      "pctChange": 3.1,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
       "currentValue": 7154426,
-      "action": "Bought"
+      "action": "New Position"
     },
     {
       "filerName": "Vinva Investment Management Ltd",
@@ -4619,11 +4629,11 @@
       "filerName": "Csenge Advisory Group",
       "filerCik": "1715593",
       "currentShares": 1396,
-      "priorShares": 1403,
-      "change": -7,
-      "pctChange": -0.5,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
       "currentValue": 382886,
-      "action": "Sold"
+      "action": "New Position"
     },
     {
       "filerName": "FIDELIS CAPITAL PARTNERS, LLC",
@@ -4734,6 +4744,16 @@
       "pctChange": 0,
       "currentValue": 350976,
       "action": "No Change"
+    },
+    {
+      "filerName": "Coastal Bridge Advisors, LLC",
+      "filerCik": "1665976",
+      "currentShares": 1276,
+      "priorShares": 1246,
+      "change": 30,
+      "pctChange": 2.4,
+      "currentValue": 349950,
+      "action": "Bought"
     },
     {
       "filerName": "IQ EQ FUND MANAGEMENT (IRELAND) Ltd",
@@ -4994,16 +5014,6 @@
       "pctChange": 0,
       "currentValue": 306281,
       "action": "No Change"
-    },
-    {
-      "filerName": "FIDUCIARY TRUST CO",
-      "filerCik": "35442",
-      "currentShares": 1102,
-      "priorShares": 1106,
-      "change": -4,
-      "pctChange": -0.4,
-      "currentValue": 302168,
-      "action": "Sold"
     },
     {
       "filerName": "Legacy Wealth Asset Management, LLC",
@@ -6756,16 +6766,6 @@
       "action": "Sold"
     },
     {
-      "filerName": "PRIVATE TRUST CO NA",
-      "filerCik": "1277557",
-      "currentShares": 23,
-      "priorShares": 23,
-      "change": 0,
-      "pctChange": 0,
-      "currentValue": 6307,
-      "action": "No Change"
-    },
-    {
       "filerName": "Ancora Advisors LLC",
       "filerCik": "1446114",
       "currentShares": 23,
@@ -6774,6 +6774,16 @@
       "pctChange": 360,
       "currentValue": 6307,
       "action": "Bought"
+    },
+    {
+      "filerName": "PRIVATE TRUST CO NA",
+      "filerCik": "1277557",
+      "currentShares": 23,
+      "priorShares": 23,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 6307,
+      "action": "No Change"
     },
     {
       "filerName": "GILL CAPITAL PARTNERS, LLC",
@@ -7396,20 +7406,20 @@
       "action": "Sell Out"
     },
     {
-      "filerName": "THREADGILL FINANCIAL, LLC",
-      "filerCik": "1814104",
+      "filerName": "Dedeker Financial LLC",
+      "filerCik": "2113408",
       "currentShares": null,
-      "priorShares": 3770,
+      "priorShares": 626,
       "change": null,
       "pctChange": null,
       "currentValue": null,
       "action": "Sell Out"
     },
     {
-      "filerName": "Dedeker Financial LLC",
-      "filerCik": "2113408",
+      "filerName": "THREADGILL FINANCIAL, LLC",
+      "filerCik": "1814104",
       "currentShares": null,
-      "priorShares": 626,
+      "priorShares": 3770,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7500,16 +7510,6 @@
       "filerCik": "1600085",
       "currentShares": null,
       "priorShares": 637,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
-    },
-    {
-      "filerName": "CAPITAL INTERNATIONAL LTD /CA/",
-      "filerCik": "1065350",
-      "currentShares": null,
-      "priorShares": 52469,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7776,16 +7776,6 @@
       "action": "Sell Out"
     },
     {
-      "filerName": "Coastal Bridge Advisors, LLC",
-      "filerCik": "1665976",
-      "currentShares": null,
-      "priorShares": 1246,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
-    },
-    {
       "filerName": "Interchange Capital Partners, LLC",
       "filerCik": "1845998",
       "currentShares": null,
@@ -7890,16 +7880,6 @@
       "filerCik": "1804329",
       "currentShares": null,
       "priorShares": 726,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
-    },
-    {
-      "filerName": "Rakuten Investment Management, Inc.",
-      "filerCik": "2062680",
-      "currentShares": null,
-      "priorShares": 1866,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -8040,6 +8020,16 @@
       "filerCik": "1616034",
       "currentShares": null,
       "priorShares": 1169,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
+      "filerName": "FIDUCIARY TRUST CO",
+      "filerCik": "35442",
+      "currentShares": null,
+      "priorShares": 1106,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -8200,6 +8190,16 @@
       "filerCik": "1998414",
       "currentShares": null,
       "priorShares": 22,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
+      "filerName": "Jain Global LLC",
+      "filerCik": "2024579",
+      "currentShares": null,
+      "priorShares": 13825,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -8534,6 +8534,16 @@
       "pctChange": null,
       "currentValue": null,
       "action": "Not Filed Yet"
+    },
+    {
+      "filerName": "Rakuten Investment Management, Inc.",
+      "filerCik": "2062680",
+      "currentShares": null,
+      "priorShares": 1866,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
     }
   ]
 }
