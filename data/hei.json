@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-03-31",
   "priorPeriod": "2025-12-31",
-  "lastUpdated": "2026-07-06T18:33:24.867Z",
+  "lastUpdated": "2026-07-07T18:39:02.312Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -1479,11 +1479,11 @@
       "filerName": "Advisors Asset Management, Inc.",
       "filerCik": "1297376",
       "currentShares": 26092,
-      "priorShares": null,
-      "change": null,
-      "pctChange": null,
+      "priorShares": 25309,
+      "change": 783,
+      "pctChange": 3.1,
       "currentValue": 7154426,
-      "action": "New Position"
+      "action": "Bought"
     },
     {
       "filerName": "Vinva Investment Management Ltd",
@@ -4629,11 +4629,11 @@
       "filerName": "Csenge Advisory Group",
       "filerCik": "1715593",
       "currentShares": 1396,
-      "priorShares": null,
-      "change": null,
-      "pctChange": null,
+      "priorShares": 1403,
+      "change": -7,
+      "pctChange": -0.5,
       "currentValue": 382886,
-      "action": "New Position"
+      "action": "Sold"
     },
     {
       "filerName": "FIDELIS CAPITAL PARTNERS, LLC",
@@ -4919,11 +4919,11 @@
       "filerName": "Rehmann Capital Advisory Group",
       "filerCik": "1633037",
       "currentShares": 1171,
-      "priorShares": 1242,
-      "change": -71,
-      "pctChange": -5.7,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
       "currentValue": 321088,
-      "action": "Sold"
+      "action": "New Position"
     },
     {
       "filerName": "Parkside Financial Bank & Trust",
@@ -6266,16 +6266,6 @@
       "action": "Bought"
     },
     {
-      "filerName": "NBC SECURITIES, INC.",
-      "filerCik": "791540",
-      "currentShares": 101,
-      "priorShares": 101,
-      "change": 0,
-      "pctChange": 0,
-      "currentValue": 27843,
-      "action": "No Change"
-    },
-    {
       "filerName": "Costello Asset Management, INC",
       "filerCik": "1760145",
       "currentShares": 100,
@@ -6766,16 +6756,6 @@
       "action": "Sold"
     },
     {
-      "filerName": "Ancora Advisors LLC",
-      "filerCik": "1446114",
-      "currentShares": 23,
-      "priorShares": 5,
-      "change": 18,
-      "pctChange": 360,
-      "currentValue": 6307,
-      "action": "Bought"
-    },
-    {
       "filerName": "PRIVATE TRUST CO NA",
       "filerCik": "1277557",
       "currentShares": 23,
@@ -6784,6 +6764,16 @@
       "pctChange": 0,
       "currentValue": 6307,
       "action": "No Change"
+    },
+    {
+      "filerName": "Ancora Advisors LLC",
+      "filerCik": "1446114",
+      "currentShares": 23,
+      "priorShares": 5,
+      "change": 18,
+      "pctChange": 360,
+      "currentValue": 6307,
+      "action": "Bought"
     },
     {
       "filerName": "GILL CAPITAL PARTNERS, LLC",
@@ -7706,20 +7696,20 @@
       "action": "Not Filed Yet"
     },
     {
-      "filerName": "Merited Wealth, LLC",
-      "filerCik": "2123943",
+      "filerName": "FORA Capital, LLC",
+      "filerCik": "1742435",
       "currentShares": null,
-      "priorShares": 83,
+      "priorShares": 1151,
       "change": null,
       "pctChange": null,
       "currentValue": null,
       "action": "Sell Out"
     },
     {
-      "filerName": "FORA Capital, LLC",
-      "filerCik": "1742435",
+      "filerName": "Merited Wealth, LLC",
+      "filerCik": "2123943",
       "currentShares": null,
-      "priorShares": 1151,
+      "priorShares": 83,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7880,6 +7870,16 @@
       "filerCik": "1804329",
       "currentShares": null,
       "priorShares": 726,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
+      "filerName": "Rakuten Investment Management, Inc.",
+      "filerCik": "2062680",
+      "currentShares": null,
+      "priorShares": 1866,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -8456,6 +8456,16 @@
       "action": "Sell Out"
     },
     {
+      "filerName": "NBC SECURITIES, INC.",
+      "filerCik": "791540",
+      "currentShares": null,
+      "priorShares": 101,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
       "filerName": "TWO SIGMA ADVISERS, LP",
       "filerCik": "1478735",
       "currentShares": null,
@@ -8534,16 +8544,6 @@
       "pctChange": null,
       "currentValue": null,
       "action": "Not Filed Yet"
-    },
-    {
-      "filerName": "Rakuten Investment Management, Inc.",
-      "filerCik": "2062680",
-      "currentShares": null,
-      "priorShares": 1866,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
     }
   ]
 }

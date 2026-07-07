@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-03-31",
   "priorPeriod": "2025-12-31",
-  "lastUpdated": "2026-07-06T18:33:24.870Z",
+  "lastUpdated": "2026-07-07T18:39:02.315Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -189,11 +189,11 @@
       "filerName": "Giverny Capital Inc.",
       "filerCik": "1641864",
       "currentShares": 738482,
-      "priorShares": 754532,
-      "change": -16050,
-      "pctChange": -2.1,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
       "currentValue": 155886165,
-      "action": "Sold"
+      "action": "New Position"
     },
     {
       "filerName": "MORGAN STANLEY  (MS, MS-PA, MS-PE, MS-PF, MS-PI, MS-PK, MS-PL, MS-PO, MS-PP, MS-PQ)",
@@ -6276,6 +6276,16 @@
       "action": "Sell Out"
     },
     {
+      "filerName": "Rakuten Investment Management, Inc.",
+      "filerCik": "2062680",
+      "currentShares": null,
+      "priorShares": 3208,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out"
+    },
+    {
       "filerName": "Aaron Wealth Advisors LLC",
       "filerCik": "1812198",
       "currentShares": null,
@@ -6556,16 +6566,6 @@
       "action": "Sell Out"
     },
     {
-      "filerName": "SHERBROOKE PARK ADVISERS LLC",
-      "filerCik": "1965377",
-      "currentShares": null,
-      "priorShares": 793,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet"
-    },
-    {
       "filerName": "United Super Pty Ltd in its capacity as Trustee for the Construction & Building Unions Superannuation Fund",
       "filerCik": "1730896",
       "currentShares": null,
@@ -6574,6 +6574,16 @@
       "pctChange": null,
       "currentValue": null,
       "action": "Sell Out"
+    },
+    {
+      "filerName": "SHERBROOKE PARK ADVISERS LLC",
+      "filerCik": "1965377",
+      "currentShares": null,
+      "priorShares": 793,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet"
     },
     {
       "filerName": "McLean Asset Management Corp",
@@ -6710,16 +6720,6 @@
       "filerCik": "2110114",
       "currentShares": null,
       "priorShares": 78,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out"
-    },
-    {
-      "filerName": "Rakuten Investment Management, Inc.",
-      "filerCik": "2062680",
-      "currentShares": null,
-      "priorShares": 3208,
       "change": null,
       "pctChange": null,
       "currentValue": null,
