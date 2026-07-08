@@ -68,6 +68,7 @@ export default function Dashboard({
   const [activeTicker, setActiveTicker] = useState<"HEI" | "HEIA">("HEI");
   const [actionFilter, setActionFilter] = useState<Action | "All">("All");
   const [largeOnly, setLargeOnly] = useState(false);
+  const [newOnly, setNewOnly] = useState(false);
   const [search, setSearch] = useState("");
   const [sortKey, setSortKey] = useState<SortKey>("currentShares");
   const [sortAsc, setSortAsc] = useState(false);
@@ -93,6 +94,9 @@ export default function Dashboard({
     if (largeOnly) {
       rows = rows.filter((h) => largeMove(h).big);
     }
+    if (newOnly) {
+      rows = rows.filter((h) => h.newThisWeek);
+    }
     if (search.trim()) {
       const q = search.toLowerCase();
       rows = rows.filter((h) => h.filerName.toLowerCase().includes(q));
@@ -116,10 +120,14 @@ export default function Dashboard({
     });
 
     return rows;
-  }, [data, actionFilter, largeOnly, search, sortKey, sortAsc]);
+  }, [data, actionFilter, largeOnly, newOnly, search, sortKey, sortAsc]);
 
   const largeCount = useMemo(
     () => (data ? data.holdings.filter((h) => largeMove(h).big).length : 0),
+    [data]
+  );
+  const newCount = useMemo(
+    () => (data ? data.holdings.filter((h) => h.newThisWeek).length : 0),
     [data]
   );
 
@@ -273,6 +281,17 @@ export default function Dashboard({
             >
               ⚑ Large Moves ≥1M ({largeCount})
             </button>
+            <button
+              onClick={() => setNewOnly((v) => !v)}
+              className={`px-3 py-1.5 text-xs font-semibold rounded-full border transition-colors ${
+                newOnly
+                  ? "bg-teal-600 text-white border-teal-600"
+                  : "bg-teal-50 text-teal-700 border-teal-300 hover:border-teal-400"
+              }`}
+              title="Investors new to the list or changed within the last 7 days"
+            >
+              🆕 New This Week ({newCount})
+            </button>
           </div>
         </div>
 
@@ -328,6 +347,14 @@ export default function Dashboard({
                             title="Large move: 1,000,000+ shares"
                           >
                             {lm.dir === "up" ? "▲" : "▼"} 1M+
+                          </span>
+                        )}
+                        {h.newThisWeek && (
+                          <span
+                            className="ml-2 inline-block px-1.5 py-0.5 text-[10px] font-bold rounded align-middle bg-teal-600 text-white"
+                            title={h.firstSeen ? `New/changed this week (since ${h.firstSeen})` : "New this week"}
+                          >
+                            NEW
                           </span>
                         )}
                       </td>

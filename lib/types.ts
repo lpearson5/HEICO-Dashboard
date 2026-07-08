@@ -10,6 +10,8 @@ export interface Holding {
   currentValue: number | null; // USD thousands
   action: Action;
   fileDate: string;
+  firstSeen?: string | null;   // date this holder first appeared (week-over-week tracking)
+  newThisWeek?: boolean;       // new to the list or changed within the last 7 days
 }
 
 export interface TickerData {

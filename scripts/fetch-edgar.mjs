@@ -30,6 +30,11 @@ const ALERT_THRESHOLD = 1_000_000;
 const ALERTS_PATH = join(DATA_DIR, "alerts-sent.json");   // de-dupe state (committed)
 const ALERT_MSG_PATH = join(ROOT, "new-alerts.txt");      // summary for the commit message (not committed)
 
+// Week-over-week "new this week" tracking.
+const HISTORY_PATH = join(DATA_DIR, "holder-history.json"); // per-holder first-seen / last-changed (committed)
+const SEED_DATE = "2000-01-01";  // sentinel so first-run holders aren't all flagged "new"
+const NEW_WINDOW_DAYS = 7;
+
 // HEICO Corp CUSIPs, confirmed from filings (nameOfIssuer "HEICO CORP NEW"):
 //   HEI  = Common  422806109
 //   HEIA = Class A 422806208
@@ -218,6 +223,31 @@ function buildHoldings(ticker, curByCik, priByCik, nameByCik, filedSet) {
   return holdings.sort((a, b) => (b.currentShares ?? -1) - (a.currentShares ?? -1));
 }
 
+// Annotate holdings with week-over-week "new this week" status, updating the
+// rolling history. A current holder is "new this week" if they first appeared
+// or their share count changed within the last NEW_WINDOW_DAYS.
+function annotateNewThisWeek(ticker, holdings, history, seeding, today) {
+  const todayStr = today.toISOString().slice(0, 10);
+  const daysSince = d => (today.getTime() - Date.parse(d)) / 86_400_000;
+  for (const h of holdings) {
+    if (h.currentShares == null) { h.firstSeen = null; h.newThisWeek = false; continue; }
+    const key = `${ticker}|${h.filerCik}`;
+    let rec = history[key];
+    if (seeding) {
+      rec = { shares: h.currentShares, firstSeen: SEED_DATE, lastChanged: SEED_DATE };
+      history[key] = rec;
+    } else if (!rec) {
+      rec = { shares: h.currentShares, firstSeen: todayStr, lastChanged: todayStr };
+      history[key] = rec;
+    } else if (rec.shares !== h.currentShares) {
+      rec.shares = h.currentShares;
+      rec.lastChanged = todayStr;
+    }
+    h.firstSeen = rec.firstSeen === SEED_DATE ? null : rec.firstSeen;
+    h.newThisWeek = daysSince(rec.lastChanged) <= NEW_WINDOW_DAYS;
+  }
+}
+
 // Size and direction of a holding's quarter-over-quarter move, for alerting.
 function moveOf(h) {
   if (h.action === "Bought")       return { size: h.change,        dir: "increased" };
@@ -315,6 +345,12 @@ async function main() {
   saveCache(cache);
 
   // 5. Build per-period maps and write output (collecting large movers).
+  const seedingHistory = !existsSync(HISTORY_PATH);
+  const history = seedingHistory ? {} : (() => {
+    try { return JSON.parse(readFileSync(HISTORY_PATH, "utf8")); } catch { return {}; }
+  })();
+  const today = new Date();
+
   const bigMovers = [];
   for (const ticker of Object.keys(CUSIPS)) {
     const curByCik = new Map(), priByCik = new Map();
@@ -326,14 +362,16 @@ async function main() {
       else if (h.period === prior) priByCik.set(h.cik, pos);
     }
     const holdings = buildHoldings(ticker, curByCik, priByCik, nameByCik, filedSet);
+    annotateNewThisWeek(ticker, holdings, history, seedingHistory, today);
     const withPos  = holdings.filter(x => x.currentShares != null).length;
+    const newCount = holdings.filter(x => x.newThisWeek).length;
     writeFileSync(join(DATA_DIR, `${ticker.toLowerCase()}.json`), JSON.stringify({
       ticker, cusip: CUSIPS[ticker],
       currentPeriod: current, priorPeriod: prior,
-      lastUpdated: new Date().toISOString(),
+      lastUpdated: today.toISOString(),
       holdings,
     }, null, 2));
-    console.log(`  ${ticker}: ${withPos} current holders, ${holdings.length} total records`);
+    console.log(`  ${ticker}: ${withPos} current holders, ${holdings.length} total records, ${newCount} new this week`);
 
     for (const h of holdings) {
       const mv = moveOf(h);
@@ -342,6 +380,7 @@ async function main() {
       }
     }
   }
+  writeFileSync(HISTORY_PATH, JSON.stringify(history, null, 2));
 
   // 6. Large-move alerts: email only NEW movers (de-duped). On the very first
   // run there is no state file, so we baseline all current movers silently.
