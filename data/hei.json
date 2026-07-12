@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-03-31",
   "priorPeriod": "2025-12-31",
-  "lastUpdated": "2026-07-11T11:59:13.039Z",
+  "lastUpdated": "2026-07-12T12:05:21.766Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -5754,18 +5754,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "OAK RIDGE INVESTMENTS LLC",
-      "filerCik": "1054554",
-      "currentShares": 1261,
-      "priorShares": 1262,
-      "change": -1,
-      "pctChange": -0.1,
-      "currentValue": 345766,
-      "action": "Sold",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "PINEBRIDGE INVESTMENTS LLC",
       "filerCik": "2088548",
       "currentShares": 1251,
@@ -5913,11 +5901,11 @@
       "filerName": "Rehmann Capital Advisory Group",
       "filerCik": "1633037",
       "currentShares": 1171,
-      "priorShares": 1242,
-      "change": -71,
-      "pctChange": -5.7,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
       "currentValue": 321088,
-      "action": "Sold",
+      "action": "New Position",
       "firstSeen": null,
       "newThisWeek": false
     },
@@ -6513,11 +6501,11 @@
       "filerName": "Fortis Group Advisors, LLC",
       "filerCik": "1815183",
       "currentShares": 889,
-      "priorShares": 889,
-      "change": 0,
-      "pctChange": 0,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
       "currentValue": 239905,
-      "action": "No Change",
+      "action": "New Position",
       "firstSeen": null,
       "newThisWeek": false
     },
@@ -9010,6 +8998,18 @@
       "filerCik": "1783412",
       "currentShares": null,
       "priorShares": 723,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
+      "filerName": "OAK RIDGE INVESTMENTS LLC",
+      "filerCik": "1054554",
+      "currentShares": null,
+      "priorShares": 1262,
       "change": null,
       "pctChange": null,
       "currentValue": null,

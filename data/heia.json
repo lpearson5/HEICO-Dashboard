@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-03-31",
   "priorPeriod": "2025-12-31",
-  "lastUpdated": "2026-07-11T11:59:13.039Z",
+  "lastUpdated": "2026-07-12T12:05:21.766Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -5322,18 +5322,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "TEACHER RETIREMENT SYSTEM OF TEXAS",
-      "filerCik": "796848",
-      "currentShares": 1129,
-      "priorShares": 2502,
-      "change": -1373,
-      "pctChange": -54.9,
-      "currentValue": 238320,
-      "action": "Sold",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "FULTON BANK, N.A.",
       "filerCik": "883782",
       "currentShares": 1111,
@@ -7710,6 +7698,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "TEACHER RETIREMENT SYSTEM OF TEXAS",
+      "filerCik": "796848",
+      "currentShares": null,
+      "priorShares": 2502,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
       "filerName": "CIBC Private Wealth Group LLC",
       "filerCik": "1298088",
       "currentShares": null,
@@ -8226,10 +8226,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Turning Point Benefit Group, Inc.",
-      "filerCik": "2008513",
+      "filerName": "Wellington Grp LLC",
+      "filerCik": "2134013",
       "currentShares": null,
-      "priorShares": 6,
+      "priorShares": 39,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -8238,10 +8238,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Wellington Grp LLC",
-      "filerCik": "2134013",
+      "filerName": "Turning Point Benefit Group, Inc.",
+      "filerCik": "2008513",
       "currentShares": null,
-      "priorShares": 39,
+      "priorShares": 6,
       "change": null,
       "pctChange": null,
       "currentValue": null,
