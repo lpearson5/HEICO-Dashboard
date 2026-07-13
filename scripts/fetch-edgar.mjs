@@ -30,9 +30,7 @@ const ALERT_THRESHOLD = 1_000_000;
 const ALERTS_PATH = join(DATA_DIR, "alerts-sent.json");   // de-dupe state (committed)
 const ALERT_MSG_PATH = join(ROOT, "new-alerts.txt");      // summary for the commit message (not committed)
 
-// Week-over-week "new this week" tracking.
-const HISTORY_PATH = join(DATA_DIR, "holder-history.json"); // per-holder first-seen / last-changed (committed)
-const SEED_DATE = "2000-01-01";  // sentinel so first-run holders aren't all flagged "new"
+// "New this week" = current-quarter 13F filed within this many days.
 const NEW_WINDOW_DAYS = 7;
 
 // HEICO Corp CUSIPs, confirmed from filings (nameOfIssuer "HEICO CORP NEW"):
@@ -124,7 +122,7 @@ async function searchCusip(cusip) {
   return hits;
 }
 
-// ─── Quarter selection (data-driven) ───────────────────────────────────────────
+// ─── Quarter selection (calendar-based, matches Vickers) ────────────────────────
 
 function priorQuarterEnd(periodEnd) {
   // periodEnd like "2025-09-30" -> previous quarter end
@@ -135,14 +133,24 @@ function priorQuarterEnd(periodEnd) {
   return `${y}-09-30`; // m === 12
 }
 
-function pickPeriods(allHits) {
+// The most recent calendar quarter that has already ended as of `today`.
+function mostRecentQuarterEnd(today) {
+  const y = today.getUTCFullYear();
+  const m = today.getUTCMonth() + 1; // 1-12
+  if (m <= 3)  return `${y - 1}-12-31`;
+  if (m <= 6)  return `${y}-03-31`;
+  if (m <= 9)  return `${y}-06-30`;
+  return `${y}-09-30`;
+}
+
+// Current = the most recent ended quarter (the one filers are actively reporting,
+// even if only partially filed) — this is how Vickers presents the data. Falls
+// back a quarter only if the newest one has no filings yet (very start of a season).
+function pickPeriods(allHits, today) {
   const counts = {};
   for (const h of allHits) if (h.period) counts[h.period] = (counts[h.period] || 0) + 1;
-  const maxCount  = Math.max(...Object.values(counts), 0);
-  const threshold = maxCount * 0.4;            // ignore quarters not yet substantially filed
-  const current = Object.keys(counts)
-    .filter(p => counts[p] >= threshold)
-    .sort((a, b) => b.localeCompare(a))[0];
+  let current = mostRecentQuarterEnd(today);
+  for (let i = 0; i < 4 && !(counts[current] > 0); i++) current = priorQuarterEnd(current);
   return { current, prior: priorQuarterEnd(current), counts };
 }
 
@@ -223,28 +231,14 @@ function buildHoldings(ticker, curByCik, priByCik, nameByCik, filedSet) {
   return holdings.sort((a, b) => (b.currentShares ?? -1) - (a.currentShares ?? -1));
 }
 
-// Annotate holdings with week-over-week "new this week" status, updating the
-// rolling history. A current holder is "new this week" if they first appeared
-// or their share count changed within the last NEW_WINDOW_DAYS.
-function annotateNewThisWeek(ticker, holdings, history, seeding, today) {
-  const todayStr = today.toISOString().slice(0, 10);
+// Mark holders whose current-quarter 13F was filed within the last NEW_WINDOW_DAYS
+// as "new this week" — the same definition Vickers uses ("filed during the past week").
+function annotateNewThisWeek(holdings, fileDateByCik, today) {
   const daysSince = d => (today.getTime() - Date.parse(d)) / 86_400_000;
   for (const h of holdings) {
-    if (h.currentShares == null) { h.firstSeen = null; h.newThisWeek = false; continue; }
-    const key = `${ticker}|${h.filerCik}`;
-    let rec = history[key];
-    if (seeding) {
-      rec = { shares: h.currentShares, firstSeen: SEED_DATE, lastChanged: SEED_DATE };
-      history[key] = rec;
-    } else if (!rec) {
-      rec = { shares: h.currentShares, firstSeen: todayStr, lastChanged: todayStr };
-      history[key] = rec;
-    } else if (rec.shares !== h.currentShares) {
-      rec.shares = h.currentShares;
-      rec.lastChanged = todayStr;
-    }
-    h.firstSeen = rec.firstSeen === SEED_DATE ? null : rec.firstSeen;
-    h.newThisWeek = daysSince(rec.lastChanged) <= NEW_WINDOW_DAYS;
+    const fd = fileDateByCik.get(h.filerCik) ?? null;
+    h.firstSeen = fd;  // date their current-quarter 13F was filed
+    h.newThisWeek = h.currentShares != null && fd != null && daysSince(fd) <= NEW_WINDOW_DAYS;
   }
 }
 
@@ -297,9 +291,10 @@ async function main() {
     await sleep(1500);
   }
 
-  // 2. Pick current/prior holdings periods from the data.
-  const { current, prior, counts } = pickPeriods(allHits);
-  console.log(`\nHoldings periods (auto-detected): current=${current}  prior=${prior}`);
+  // 2. Pick current/prior holdings periods: current = most recent ended quarter.
+  const today = new Date();
+  const { current, prior, counts } = pickPeriods(allHits, today);
+  console.log(`\nHoldings periods: current=${current}  prior=${prior}`);
   console.log(`  filing counts by period: ${JSON.stringify(counts)}`);
 
   // 3. Collect the relevant filings (dedupe per cik+period, latest filing wins).
@@ -345,11 +340,9 @@ async function main() {
   saveCache(cache);
 
   // 5. Build per-period maps and write output (collecting large movers).
-  const seedingHistory = !existsSync(HISTORY_PATH);
-  const history = seedingHistory ? {} : (() => {
-    try { return JSON.parse(readFileSync(HISTORY_PATH, "utf8")); } catch { return {}; }
-  })();
-  const today = new Date();
+  // Filing date of each filer's current-quarter 13F (for "new this week").
+  const curFileDateByCik = new Map();
+  for (const h of filings) if (h.period === current) curFileDateByCik.set(h.cik, h.fileDate);
 
   const bigMovers = [];
   for (const ticker of Object.keys(CUSIPS)) {
@@ -362,7 +355,7 @@ async function main() {
       else if (h.period === prior) priByCik.set(h.cik, pos);
     }
     const holdings = buildHoldings(ticker, curByCik, priByCik, nameByCik, filedSet);
-    annotateNewThisWeek(ticker, holdings, history, seedingHistory, today);
+    annotateNewThisWeek(holdings, curFileDateByCik, today);
     const withPos  = holdings.filter(x => x.currentShares != null).length;
     const newCount = holdings.filter(x => x.newThisWeek).length;
     writeFileSync(join(DATA_DIR, `${ticker.toLowerCase()}.json`), JSON.stringify({
@@ -380,7 +373,6 @@ async function main() {
       }
     }
   }
-  writeFileSync(HISTORY_PATH, JSON.stringify(history, null, 2));
 
   // 6. Large-move alerts: email only NEW movers (de-duped). On the very first
   // run there is no state file, so we baseline all current movers silently.
