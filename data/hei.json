@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-03-31",
   "priorPeriod": "2025-12-31",
-  "lastUpdated": "2026-07-12T12:05:21.766Z",
+  "lastUpdated": "2026-07-13T13:30:21.481Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -5754,6 +5754,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "OAK RIDGE INVESTMENTS LLC",
+      "filerCik": "1054554",
+      "currentShares": 1261,
+      "priorShares": 1262,
+      "change": -1,
+      "pctChange": -0.1,
+      "currentValue": 345766,
+      "action": "Sold",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
       "filerName": "PINEBRIDGE INVESTMENTS LLC",
       "filerCik": "2088548",
       "currentShares": 1251,
@@ -5901,11 +5913,11 @@
       "filerName": "Rehmann Capital Advisory Group",
       "filerCik": "1633037",
       "currentShares": 1171,
-      "priorShares": null,
-      "change": null,
-      "pctChange": null,
+      "priorShares": 1242,
+      "change": -71,
+      "pctChange": -5.7,
       "currentValue": 321088,
-      "action": "New Position",
+      "action": "Sold",
       "firstSeen": null,
       "newThisWeek": false
     },
@@ -6501,11 +6513,11 @@
       "filerName": "Fortis Group Advisors, LLC",
       "filerCik": "1815183",
       "currentShares": 889,
-      "priorShares": null,
-      "change": null,
-      "pctChange": null,
+      "priorShares": 889,
+      "change": 0,
+      "pctChange": 0,
       "currentValue": 239905,
-      "action": "New Position",
+      "action": "No Change",
       "firstSeen": null,
       "newThisWeek": false
     },
@@ -8070,18 +8082,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "JFS WEALTH ADVISORS, LLC",
-      "filerCik": "1568068",
-      "currentShares": 26,
-      "priorShares": 25,
-      "change": 1,
-      "pctChange": 4,
-      "currentValue": 7130,
-      "action": "Bought",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "Intentional Wealth Strategies, LLC",
       "filerCik": "2119881",
       "currentShares": 25,
@@ -8442,18 +8442,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Wall Street Financial Group, Inc.",
-      "filerCik": "2019337",
-      "currentShares": 7,
-      "priorShares": null,
-      "change": null,
-      "pctChange": null,
-      "currentValue": 1919,
-      "action": "New Position",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "Ares Financial Consulting, LLC",
       "filerCik": "2106717",
       "currentShares": 7,
@@ -8486,6 +8474,18 @@
       "pctChange": -46.2,
       "currentValue": 1919,
       "action": "Sold",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Wall Street Financial Group, Inc.",
+      "filerCik": "2019337",
+      "currentShares": 7,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
+      "currentValue": 1919,
+      "action": "New Position",
       "firstSeen": null,
       "newThisWeek": false
     },
@@ -8998,18 +8998,6 @@
       "filerCik": "1783412",
       "currentShares": null,
       "priorShares": 723,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "OAK RIDGE INVESTMENTS LLC",
-      "filerCik": "1054554",
-      "currentShares": null,
-      "priorShares": 1262,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -10090,6 +10078,18 @@
       "filerCik": "2070972",
       "currentShares": null,
       "priorShares": 2,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
+      "filerName": "JFS WEALTH ADVISORS, LLC",
+      "filerCik": "1568068",
+      "currentShares": null,
+      "priorShares": 25,
       "change": null,
       "pctChange": null,
       "currentValue": null,
