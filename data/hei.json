@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-07-29T13:06:39.696Z",
+  "lastUpdated": "2026-07-30T12:49:59.409Z",
   "holdings": [
     {
       "filerName": "RIVERBRIDGE PARTNERS LLC",
@@ -16,6 +16,18 @@
       "action": "Sold",
       "firstSeen": "2026-07-13",
       "newThisWeek": false
+    },
+    {
+      "filerName": "EULAV Asset Management",
+      "filerCik": "1540826",
+      "currentShares": 251697,
+      "priorShares": 322697,
+      "change": -71000,
+      "pctChange": -22,
+      "currentValue": 89651954,
+      "action": "Sold",
+      "firstSeen": "2026-07-29",
+      "newThisWeek": true
     },
     {
       "filerName": "CONGRESS ASSET MANAGEMENT CO",
@@ -39,6 +51,18 @@
       "currentValue": 58303416,
       "action": "Sold",
       "firstSeen": "2026-07-29",
+      "newThisWeek": true
+    },
+    {
+      "filerName": "Sumitomo Mitsui Trust Group, Inc.",
+      "filerCik": "1475365",
+      "currentShares": 123134,
+      "priorShares": 122579,
+      "change": 555,
+      "pctChange": 0.5,
+      "currentValue": 43859099,
+      "action": "Bought",
+      "firstSeen": "2026-07-30",
       "newThisWeek": true
     },
     {
@@ -138,6 +162,18 @@
       "newThisWeek": true
     },
     {
+      "filerName": "SAWGRASS ASSET MANAGEMENT LLC",
+      "filerCik": "1105467",
+      "currentShares": 31354,
+      "priorShares": 18893,
+      "change": 12461,
+      "pctChange": 66,
+      "currentValue": 11167981,
+      "action": "Bought",
+      "firstSeen": "2026-07-29",
+      "newThisWeek": true
+    },
+    {
       "filerName": "Sumitomo Mitsui DS Asset Management Company, Ltd",
       "filerCik": "1411530",
       "currentShares": 28804,
@@ -172,6 +208,18 @@
       "action": "Sold",
       "firstSeen": "2026-07-16",
       "newThisWeek": false
+    },
+    {
+      "filerName": "NEW YORK STATE COMMON RETIREMENT FUND",
+      "filerCik": "810265",
+      "currentShares": 24750,
+      "priorShares": 25374,
+      "change": -624,
+      "pctChange": -2.5,
+      "currentValue": 8815703,
+      "action": "Sold",
+      "firstSeen": "2026-07-29",
+      "newThisWeek": true
     },
     {
       "filerName": "MinichMacGregor Wealth Management, LLC",
@@ -267,6 +315,18 @@
       "currentValue": 4728136,
       "action": "Sold",
       "firstSeen": "2026-07-23",
+      "newThisWeek": false
+    },
+    {
+      "filerName": "COMMONWEALTH EQUITY SERVICES, LLC",
+      "filerCik": "312272",
+      "currentShares": 13438,
+      "priorShares": 14225,
+      "change": -787,
+      "pctChange": -5.5,
+      "currentValue": 4786640,
+      "action": "Sold",
+      "firstSeen": "2026-07-29",
       "newThisWeek": true
     },
     {
@@ -279,7 +339,7 @@
       "currentValue": 4186553,
       "action": "New Position",
       "firstSeen": "2026-07-23",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Hennion & Walsh Asset Management, Inc.",
@@ -303,7 +363,7 @@
       "currentValue": 4181314,
       "action": "Bought",
       "firstSeen": "2026-07-23",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Private Advisor Group, LLC",
@@ -405,11 +465,11 @@
       "filerName": "PFG Advisors",
       "filerCik": "1694435",
       "currentShares": 8883,
-      "priorShares": 8147,
-      "change": 736,
-      "pctChange": 9,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
       "currentValue": 3164037,
-      "action": "Bought",
+      "action": "New Position",
       "firstSeen": "2026-07-16",
       "newThisWeek": false
     },
@@ -423,6 +483,18 @@
       "currentValue": 2991284,
       "action": "Bought",
       "firstSeen": "2026-07-23",
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Ashton Thomas Private Wealth, LLC",
+      "filerCik": "2019663",
+      "currentShares": 8133,
+      "priorShares": 8187,
+      "change": -54,
+      "pctChange": -0.7,
+      "currentValue": 2896893,
+      "action": "Sold",
+      "firstSeen": "2026-07-29",
       "newThisWeek": true
     },
     {
@@ -495,7 +567,7 @@
       "currentValue": 2222982,
       "action": "Sold",
       "firstSeen": "2026-07-23",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "FJARDE AP-FONDEN /FOURTH SWEDISH NATIONAL PENSION FUND",
@@ -567,6 +639,18 @@
       "currentValue": 1868929,
       "action": "Bought",
       "firstSeen": "2026-07-23",
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Swiss Life Asset Management Ltd",
+      "filerCik": "1637689",
+      "currentShares": 5073,
+      "priorShares": 5716,
+      "change": -643,
+      "pctChange": -11.2,
+      "currentValue": 1806952,
+      "action": "Sold",
+      "firstSeen": "2026-07-29",
       "newThisWeek": true
     },
     {
@@ -639,7 +723,7 @@
       "currentValue": 1566168,
       "action": "No Change",
       "firstSeen": "2026-07-23",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Pekao Towarzystwo Funduszy Inwestycyjnych S.A.",
@@ -651,7 +735,7 @@
       "currentValue": 1460023,
       "action": "Sold",
       "firstSeen": "2026-07-23",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "CAISSE DES DEPOTS ET CONSIGNATIONS",
@@ -668,13 +752,13 @@
     {
       "filerName": "Cambridge Investment Research Advisors, Inc.",
       "filerCik": "1419186",
-      "currentShares": 4005,
+      "currentShares": 4001,
       "priorShares": 3976,
-      "change": 29,
-      "pctChange": 0.7,
-      "currentValue": 1427,
+      "change": 25,
+      "pctChange": 0.6,
+      "currentValue": 1425,
       "action": "Bought",
-      "firstSeen": "2026-07-27",
+      "firstSeen": "2026-07-30",
       "newThisWeek": true
     },
     {
@@ -783,7 +867,7 @@
       "currentValue": 1178,
       "action": "Sold",
       "firstSeen": "2026-07-23",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "QRG CAPITAL MANAGEMENT, INC.",
@@ -855,7 +939,7 @@
       "currentValue": 1009442,
       "action": "Bought",
       "firstSeen": "2026-07-23",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "BARRETT & COMPANY, INC.",
@@ -879,7 +963,7 @@
       "currentValue": 960645,
       "action": "Bought",
       "firstSeen": "2026-07-23",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Farther Finance Advisors, LLC",
@@ -1074,6 +1158,18 @@
       "newThisWeek": true
     },
     {
+      "filerName": "Connecticut Wealth Management, LLC",
+      "filerCik": "1689829",
+      "currentShares": 1557,
+      "priorShares": 1557,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 554588,
+      "action": "No Change",
+      "firstSeen": "2026-07-29",
+      "newThisWeek": true
+    },
+    {
       "filerName": "Powell Investment Advisors, LLC",
       "filerCik": "1802195",
       "currentShares": 1517,
@@ -1095,6 +1191,18 @@
       "currentValue": 522544,
       "action": "Bought",
       "firstSeen": "2026-07-27",
+      "newThisWeek": true
+    },
+    {
+      "filerName": "Chicago Partners Investment Group LLC",
+      "filerCik": "1563525",
+      "currentShares": 1459,
+      "priorShares": 1438,
+      "change": 21,
+      "pctChange": 1.5,
+      "currentValue": 496856,
+      "action": "Bought",
+      "firstSeen": "2026-07-30",
       "newThisWeek": true
     },
     {
@@ -1131,7 +1239,7 @@
       "currentValue": 455923,
       "action": "No Change",
       "firstSeen": "2026-07-23",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "PensionDanmark Pensionsforsikringsaktieselskab",
@@ -1170,6 +1278,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "Ethic Inc.",
+      "filerCik": "1780570",
+      "currentShares": 1179,
+      "priorShares": 14616,
+      "change": -13437,
+      "pctChange": -91.9,
+      "currentValue": 419952,
+      "action": "Sold",
+      "firstSeen": "2026-07-29",
+      "newThisWeek": true
+    },
+    {
       "filerName": "OAK RIDGE INVESTMENTS LLC",
       "filerCik": "1054554",
       "currentShares": 1169,
@@ -1192,6 +1312,18 @@
       "action": "Bought",
       "firstSeen": "2026-07-14",
       "newThisWeek": false
+    },
+    {
+      "filerName": "HB Wealth Management, LLC",
+      "filerCik": "1911253",
+      "currentShares": 1145,
+      "priorShares": 1160,
+      "change": -15,
+      "pctChange": -1.3,
+      "currentValue": 407838,
+      "action": "Sold",
+      "firstSeen": "2026-07-29",
+      "newThisWeek": true
     },
     {
       "filerName": "Trust Point Inc.",
@@ -1218,6 +1350,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "ALPS ADVISORS INC",
+      "filerCik": "1376113",
+      "currentShares": 1108,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
+      "currentValue": 394659,
+      "action": "New Position",
+      "firstSeen": "2026-07-29",
+      "newThisWeek": true
+    },
+    {
       "filerName": "Leonard Rickey Investment Advisors P.L.L.C.",
       "filerCik": "1731447",
       "currentShares": 1088,
@@ -1227,7 +1371,7 @@
       "currentValue": 387535,
       "action": "Sold",
       "firstSeen": "2026-07-23",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "J.W. COLE ADVISORS, INC.",
@@ -1314,6 +1458,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "NORDEN GROUP LLC",
+      "filerCik": "1990699",
+      "currentShares": 1004,
+      "priorShares": 1004,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 357617,
+      "action": "No Change",
+      "firstSeen": "2026-07-29",
+      "newThisWeek": true
+    },
+    {
       "filerName": "Cross Staff Investments Inc",
       "filerCik": "1900406",
       "currentShares": 1000,
@@ -1324,6 +1480,18 @@
       "action": "No Change",
       "firstSeen": "2026-07-22",
       "newThisWeek": false
+    },
+    {
+      "filerName": "Keystone Financial Group",
+      "filerCik": "1729299",
+      "currentShares": 1000,
+      "priorShares": 1000,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 356190,
+      "action": "No Change",
+      "firstSeen": "2026-07-29",
+      "newThisWeek": true
     },
     {
       "filerName": "Baker Avenue Asset Management, LP",
@@ -1360,6 +1528,18 @@
       "action": "New Position",
       "firstSeen": "2026-07-21",
       "newThisWeek": false
+    },
+    {
+      "filerName": "STEPHENS INC /AR/",
+      "filerCik": "757657",
+      "currentShares": 926,
+      "priorShares": 928,
+      "change": -2,
+      "pctChange": -0.2,
+      "currentValue": 329832,
+      "action": "Sold",
+      "firstSeen": "2026-07-29",
+      "newThisWeek": true
     },
     {
       "filerName": "NOVEM GROUP",
@@ -1611,7 +1791,7 @@
       "currentValue": 239356,
       "action": "New Position",
       "firstSeen": "2026-07-23",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Claret Asset Management Corp",
@@ -1695,7 +1875,7 @@
       "currentValue": 216207,
       "action": "New Position",
       "firstSeen": "2026-07-23",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Encompass More Asset Management",
@@ -1719,7 +1899,7 @@
       "currentValue": 208878,
       "action": "Bought",
       "firstSeen": "2026-07-23",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "STEPH & CO",
@@ -1767,7 +1947,7 @@
       "currentValue": 157436,
       "action": "Sold",
       "firstSeen": "2026-07-23",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "CULLEN/FROST BANKERS, INC.  (CFR, CFR-PB)",
@@ -1827,7 +2007,7 @@
       "currentValue": 82637,
       "action": "No Change",
       "firstSeen": "2026-07-23",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Aventura Private Wealth, LLC",
@@ -1863,6 +2043,18 @@
       "currentValue": 68032,
       "action": "Sold",
       "firstSeen": "2026-07-28",
+      "newThisWeek": true
+    },
+    {
+      "filerName": "Cornerstone Planning Group LLC",
+      "filerCik": "1822587",
+      "currentShares": 178,
+      "priorShares": 179,
+      "change": -1,
+      "pctChange": -0.6,
+      "currentValue": 59689,
+      "action": "Sold",
+      "firstSeen": "2026-07-29",
       "newThisWeek": true
     },
     {
@@ -1998,6 +2190,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "Financial Network Wealth Advisors LLC",
+      "filerCik": "2012031",
+      "currentShares": 58,
+      "priorShares": 58,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 20659,
+      "action": "No Change",
+      "firstSeen": "2026-07-29",
+      "newThisWeek": true
+    },
+    {
       "filerName": "WHITTIER TRUST CO OF NEVADA INC",
       "filerCik": "1263548",
       "currentShares": 58,
@@ -2067,7 +2271,7 @@
       "currentValue": 13536,
       "action": "No Change",
       "firstSeen": "2026-07-23",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "SALEM INVESTMENT COUNSELORS INC",
@@ -2211,7 +2415,7 @@
       "currentValue": 6055,
       "action": "No Change",
       "firstSeen": "2026-07-23",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Wealth Enhancement Trust Services, Inc.",
@@ -2502,6 +2706,18 @@
       "newThisWeek": true
     },
     {
+      "filerName": "MV CAPITAL MANAGEMENT, INC.",
+      "filerCik": "1633366",
+      "currentShares": 3,
+      "priorShares": 3,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 823,
+      "action": "No Change",
+      "firstSeen": "2026-07-29",
+      "newThisWeek": true
+    },
+    {
       "filerName": "Creative Capital Management Investments LLC",
       "filerCik": "1957363",
       "currentShares": 3,
@@ -2646,10 +2862,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "MAR VISTA INVESTMENT PARTNERS LLC",
-      "filerCik": "1419999",
+      "filerName": "AUCTUS ADVISORS LLC",
+      "filerCik": "2042516",
       "currentShares": null,
-      "priorShares": 47726,
+      "priorShares": 772,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -2658,10 +2874,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "AUCTUS ADVISORS LLC",
-      "filerCik": "2042516",
+      "filerName": "MAR VISTA INVESTMENT PARTNERS LLC",
+      "filerCik": "1419999",
       "currentShares": null,
-      "priorShares": 772,
+      "priorShares": 47726,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -2994,18 +3210,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "EULAV Asset Management",
-      "filerCik": "1540826",
-      "currentShares": null,
-      "priorShares": 322697,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "Chancellor Financial Group WB LP",
       "filerCik": "2059742",
       "currentShares": null,
@@ -3078,6 +3282,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "PALLADIEM, LLC",
+      "filerCik": "1629271",
+      "currentShares": null,
+      "priorShares": 355,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
       "filerName": "CLEAR WAVE WEALTH MANAGEMENT LLC",
       "filerCik": "2113615",
       "currentShares": null,
@@ -3094,18 +3310,6 @@
       "filerCik": "1065350",
       "currentShares": null,
       "priorShares": 82693,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "PALLADIEM, LLC",
-      "filerCik": "1629271",
-      "currentShares": null,
-      "priorShares": 355,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -3190,18 +3394,6 @@
       "filerCik": "2110835",
       "currentShares": null,
       "priorShares": 1181,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "SAWGRASS ASSET MANAGEMENT LLC",
-      "filerCik": "1105467",
-      "currentShares": null,
-      "priorShares": 18893,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -3390,10 +3582,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Citizens Business Bank",
-      "filerCik": "1948632",
+      "filerName": "IFS Advisors, LLC",
+      "filerCik": "1765617",
       "currentShares": null,
-      "priorShares": 1773,
+      "priorShares": 50,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -3402,10 +3594,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "IFS Advisors, LLC",
-      "filerCik": "1765617",
+      "filerName": "Citizens Business Bank",
+      "filerCik": "1948632",
       "currentShares": null,
-      "priorShares": 50,
+      "priorShares": 1773,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -3474,6 +3666,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "AustralianSuper Pty Ltd",
+      "filerCik": "1694164",
+      "currentShares": null,
+      "priorShares": 60471,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
       "filerName": "AdvisorShares Investments LLC",
       "filerCik": "1425930",
       "currentShares": null,
@@ -3494,18 +3698,6 @@
       "pctChange": null,
       "currentValue": null,
       "action": "Sell Out",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "AustralianSuper Pty Ltd",
-      "filerCik": "1694164",
-      "currentShares": null,
-      "priorShares": 60471,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
       "firstSeen": null,
       "newThisWeek": false
     },
@@ -3690,6 +3882,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "Varma Mutual Pension Insurance Co",
+      "filerCik": "1698484",
+      "currentShares": null,
+      "priorShares": 28400,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
       "filerName": "Ghisallo Capital Management LLC",
       "filerCik": "1825214",
       "currentShares": null,
@@ -3754,18 +3958,6 @@
       "filerCik": "872259",
       "currentShares": null,
       "priorShares": 3433,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Connecticut Wealth Management, LLC",
-      "filerCik": "1689829",
-      "currentShares": null,
-      "priorShares": 1557,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -3966,10 +4158,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "BEESE FULMER INVESTMENT MANAGEMENT, INC.",
-      "filerCik": "911274",
+      "filerName": "Birchwood Financial Partners, Inc.",
+      "filerCik": "2110062",
       "currentShares": null,
-      "priorShares": 1303,
+      "priorShares": 76,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -3990,14 +4182,14 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Birchwood Financial Partners, Inc.",
-      "filerCik": "2110062",
+      "filerName": "BEESE FULMER INVESTMENT MANAGEMENT, INC.",
+      "filerCik": "911274",
       "currentShares": null,
-      "priorShares": 76,
+      "priorShares": 1303,
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Not Filed Yet",
+      "action": "Sell Out",
       "firstSeen": null,
       "newThisWeek": false
     },
@@ -4434,30 +4626,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Keystone Financial Group",
-      "filerCik": "1729299",
-      "currentShares": null,
-      "priorShares": 1000,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Ethic Inc.",
-      "filerCik": "1780570",
-      "currentShares": null,
-      "priorShares": 14616,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "Siemens Fonds Invest GmbH",
       "filerCik": "1856637",
       "currentShares": null,
@@ -4674,10 +4842,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Kera Capital Partners, Inc.",
-      "filerCik": "2040353",
+      "filerName": "ALERUS FINANCIAL NA",
+      "filerCik": "919458",
       "currentShares": null,
-      "priorShares": 1842,
+      "priorShares": 18713,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -4686,10 +4854,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "ALERUS FINANCIAL NA",
-      "filerCik": "919458",
+      "filerName": "Kera Capital Partners, Inc.",
+      "filerCik": "2040353",
       "currentShares": null,
-      "priorShares": 18713,
+      "priorShares": 1842,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -4830,18 +4998,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "NORDEN GROUP LLC",
-      "filerCik": "1990699",
-      "currentShares": null,
-      "priorShares": 1004,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "Curi Capital, LLC",
       "filerCik": "1332905",
       "currentShares": null,
@@ -4974,18 +5130,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "BI Asset Management Fondsmaeglerselskab A/S",
-      "filerCik": "1778131",
-      "currentShares": null,
-      "priorShares": 18204,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "Jacobi Capital Management LLC",
       "filerCik": "1689646",
       "currentShares": null,
@@ -5022,10 +5166,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Seneschal Advisors, LLC",
-      "filerCik": "2039659",
+      "filerName": "Regal Investment Advisors LLC",
+      "filerCik": "1559789",
       "currentShares": null,
-      "priorShares": 1,
+      "priorShares": 3567,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5034,10 +5178,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Regal Investment Advisors LLC",
-      "filerCik": "1559789",
+      "filerName": "Seneschal Advisors, LLC",
+      "filerCik": "2039659",
       "currentShares": null,
-      "priorShares": 3567,
+      "priorShares": 1,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5130,6 +5274,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "North Dakota State Investment Board",
+      "filerCik": "2064039",
+      "currentShares": null,
+      "priorShares": 1241,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
       "filerName": "PRAXIS INVESTMENT MANAGEMENT INC",
       "filerCik": "1056825",
       "currentShares": null,
@@ -5146,18 +5302,6 @@
       "filerCik": "2051323",
       "currentShares": null,
       "priorShares": 5780,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "North Dakota State Investment Board",
-      "filerCik": "2064039",
-      "currentShares": null,
-      "priorShares": 1241,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5202,10 +5346,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "SummitTX Capital, L.P.",
-      "filerCik": "2052310",
+      "filerName": "Elequin Capital, LP",
+      "filerCik": "1810873",
       "currentShares": null,
-      "priorShares": 18929,
+      "priorShares": 1,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5226,10 +5370,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Elequin Capital, LP",
-      "filerCik": "1810873",
+      "filerName": "SummitTX Capital, L.P.",
+      "filerCik": "2052310",
       "currentShares": null,
-      "priorShares": 1,
+      "priorShares": 18929,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5358,46 +5502,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Dynamic Technology Lab Private Ltd",
-      "filerCik": "1535387",
-      "currentShares": null,
-      "priorShares": 2152,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "Edgestream Partners, L.P.",
       "filerCik": "1535061",
       "currentShares": null,
       "priorShares": 5133,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Financial Network Wealth Advisors LLC",
-      "filerCik": "2012031",
-      "currentShares": null,
-      "priorShares": 58,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Swiss Life Asset Management Ltd",
-      "filerCik": "1637689",
-      "currentShares": null,
-      "priorShares": 5716,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5706,18 +5814,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Treasurer of the State of North Carolina",
-      "filerCik": "1761054",
-      "currentShares": null,
-      "priorShares": 18171,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "Woodline Partners LP",
       "filerCik": "1784547",
       "currentShares": null,
@@ -5734,30 +5830,6 @@
       "filerCik": "850529",
       "currentShares": null,
       "priorShares": 334502,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Bridgewater Associates, LP",
-      "filerCik": "1350694",
-      "currentShares": null,
-      "priorShares": 17524,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Utah Retirement Systems",
-      "filerCik": "1548392",
-      "currentShares": null,
-      "priorShares": 6890,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5790,10 +5862,22 @@
       "newThisWeek": false
     },
     {
-      "filerName": "CALIFORNIA PUBLIC EMPLOYEES RETIREMENT SYSTEM",
-      "filerCik": "919079",
+      "filerName": "Utah Retirement Systems",
+      "filerCik": "1548392",
       "currentShares": null,
-      "priorShares": 50343,
+      "priorShares": 6890,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Bridgewater Associates, LP",
+      "filerCik": "1350694",
+      "currentShares": null,
+      "priorShares": 17524,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5814,10 +5898,34 @@
       "newThisWeek": false
     },
     {
+      "filerName": "CALIFORNIA PUBLIC EMPLOYEES RETIREMENT SYSTEM",
+      "filerCik": "919079",
+      "currentShares": null,
+      "priorShares": 50343,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
       "filerName": "Rafferty Asset Management, LLC",
       "filerCik": "1389426",
       "currentShares": null,
       "priorShares": 10242,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
+      "filerName": "OMERS ADMINISTRATION Corp",
+      "filerCik": "1053321",
+      "currentShares": null,
+      "priorShares": 6128,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5842,18 +5950,6 @@
       "filerCik": "1315421",
       "currentShares": null,
       "priorShares": 7516,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "OMERS ADMINISTRATION Corp",
-      "filerCik": "1053321",
-      "currentShares": null,
-      "priorShares": 6128,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5946,18 +6042,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "MV CAPITAL MANAGEMENT, INC.",
-      "filerCik": "1633366",
-      "currentShares": null,
-      "priorShares": 3,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "NOMURA ASSET MANAGEMENT CO LTD",
       "filerCik": "1055964",
       "currentShares": null,
@@ -6018,18 +6102,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "KAYNE ANDERSON RUDNICK INVESTMENT MANAGEMENT LLC",
-      "filerCik": "1021223",
-      "currentShares": null,
-      "priorShares": 195,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "NewEdge Wealth, LLC",
       "filerCik": "1861796",
       "currentShares": null,
@@ -6042,10 +6114,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "M&T BANK CORP  (MTB, MTB-PH, MTB-PJ, MTB-PK)",
-      "filerCik": "36270",
+      "filerName": "KAYNE ANDERSON RUDNICK INVESTMENT MANAGEMENT LLC",
+      "filerCik": "1021223",
       "currentShares": null,
-      "priorShares": 6852,
+      "priorShares": 195,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6054,10 +6126,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Sumitomo Mitsui Trust Group, Inc.",
-      "filerCik": "1475365",
+      "filerName": "M&T BANK CORP  (MTB, MTB-PH, MTB-PJ, MTB-PK)",
+      "filerCik": "36270",
       "currentShares": null,
-      "priorShares": 122579,
+      "priorShares": 6852,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6282,10 +6354,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Colonial Trust Co / SC",
-      "filerCik": "1954093",
+      "filerName": "Anchor Investment Management, LLC",
+      "filerCik": "1634149",
       "currentShares": null,
-      "priorShares": 164,
+      "priorShares": 872,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6294,10 +6366,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Anchor Investment Management, LLC",
-      "filerCik": "1634149",
+      "filerName": "Colonial Trust Co / SC",
+      "filerCik": "1954093",
       "currentShares": null,
-      "priorShares": 872,
+      "priorShares": 164,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6402,18 +6474,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "STEPHENS INC /AR/",
-      "filerCik": "757657",
-      "currentShares": null,
-      "priorShares": 928,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "Summit Trail Advisors, LLC",
       "filerCik": "1698478",
       "currentShares": null,
@@ -6498,18 +6558,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "VOYA INVESTMENT MANAGEMENT LLC",
-      "filerCik": "1068837",
-      "currentShares": null,
-      "priorShares": 470223,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "PICTON MAHONEY ASSET MANAGEMENT",
       "filerCik": "1539041",
       "currentShares": null,
@@ -6522,10 +6570,34 @@
       "newThisWeek": false
     },
     {
+      "filerName": "VOYA INVESTMENT MANAGEMENT LLC",
+      "filerCik": "1068837",
+      "currentShares": null,
+      "priorShares": 470223,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
       "filerName": "COLDSTREAM CAPITAL MANAGEMENT INC",
       "filerCik": "1082339",
       "currentShares": null,
       "priorShares": 2435,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Perigon Wealth Management, LLC",
+      "filerCik": "1575239",
+      "currentShares": null,
+      "priorShares": 4495,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6550,18 +6622,6 @@
       "filerCik": "1297376",
       "currentShares": null,
       "priorShares": 26092,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Perigon Wealth Management, LLC",
-      "filerCik": "1575239",
-      "currentShares": null,
-      "priorShares": 4495,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6666,18 +6726,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "HB Wealth Management, LLC",
-      "filerCik": "1911253",
-      "currentShares": null,
-      "priorShares": 1160,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "MGO ONE SEVEN LLC",
       "filerCik": "1731444",
       "currentShares": null,
@@ -6726,10 +6774,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Y-Intercept (Hong Kong) Ltd",
-      "filerCik": "1772875",
+      "filerName": "Key FInancial Inc",
+      "filerCik": "1801720",
       "currentShares": null,
-      "priorShares": 14724,
+      "priorShares": 40,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6738,10 +6786,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Key FInancial Inc",
-      "filerCik": "1801720",
+      "filerName": "Y-Intercept (Hong Kong) Ltd",
+      "filerCik": "1772875",
       "currentShares": null,
-      "priorShares": 40,
+      "priorShares": 14724,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6906,18 +6954,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Daiwa Securities Group Inc.  (DSECF, DSEEY)",
-      "filerCik": "1481045",
-      "currentShares": null,
-      "priorShares": 3915,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "World Investment Advisors",
       "filerCik": "1652594",
       "currentShares": null,
@@ -6954,10 +6990,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Ashton Thomas Private Wealth, LLC",
-      "filerCik": "2019663",
+      "filerName": "Daiwa Securities Group Inc.  (DSECF, DSEEY)",
+      "filerCik": "1481045",
       "currentShares": null,
-      "priorShares": 8187,
+      "priorShares": 3915,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6982,18 +7018,6 @@
       "filerCik": "1483066",
       "currentShares": null,
       "priorShares": 13068,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Chicago Partners Investment Group LLC",
-      "filerCik": "1563525",
-      "currentShares": null,
-      "priorShares": 1438,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7098,10 +7122,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "BROWN BROTHERS HARRIMAN & CO",
-      "filerCik": "14661",
+      "filerName": "Stratos Wealth Partners, LTD.",
+      "filerCik": "1612865",
       "currentShares": null,
-      "priorShares": 6,
+      "priorShares": 32142,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7122,6 +7146,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "BROWN BROTHERS HARRIMAN & CO",
+      "filerCik": "14661",
+      "currentShares": null,
+      "priorShares": 6,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
       "filerName": "CVA Family Office, LLC",
       "filerCik": "1802084",
       "currentShares": null,
@@ -7134,10 +7170,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Stratos Wealth Partners, LTD.",
-      "filerCik": "1612865",
+      "filerName": "Rialto Wealth Management, LLC",
+      "filerCik": "2054966",
       "currentShares": null,
-      "priorShares": 32142,
+      "priorShares": 1,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7146,10 +7182,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Rialto Wealth Management, LLC",
-      "filerCik": "2054966",
+      "filerName": "OPPENHEIMER & CO INC",
+      "filerCik": "822581",
       "currentShares": null,
-      "priorShares": 1,
+      "priorShares": 1403,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7174,18 +7210,6 @@
       "filerCik": "1164508",
       "currentShares": null,
       "priorShares": 311017,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "OPPENHEIMER & CO INC",
-      "filerCik": "822581",
-      "currentShares": null,
-      "priorShares": 1403,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7410,10 +7434,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Russell Investments Group, Ltd.",
-      "filerCik": "1692234",
+      "filerName": "Man Group plc",
+      "filerCik": "1637460",
       "currentShares": null,
-      "priorShares": 38016,
+      "priorShares": 109917,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7422,10 +7446,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Man Group plc",
-      "filerCik": "1637460",
+      "filerName": "Russell Investments Group, Ltd.",
+      "filerCik": "1692234",
       "currentShares": null,
-      "priorShares": 109917,
+      "priorShares": 38016,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7546,18 +7570,6 @@
       "filerCik": "1767306",
       "currentShares": null,
       "priorShares": 6373,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Cornerstone Planning Group LLC",
-      "filerCik": "1822587",
-      "currentShares": null,
-      "priorShares": 179,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7890,10 +7902,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Caitong International Asset Management Co., Ltd",
-      "filerCik": "1963355",
+      "filerName": "Clearstead Advisors, LLC",
+      "filerCik": "842775",
       "currentShares": null,
-      "priorShares": 562,
+      "priorShares": 1331,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7902,10 +7914,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Clearstead Advisors, LLC",
-      "filerCik": "842775",
+      "filerName": "Caitong International Asset Management Co., Ltd",
+      "filerCik": "1963355",
       "currentShares": null,
-      "priorShares": 1331,
+      "priorShares": 562,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7986,10 +7998,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "QUADRANT CAPITAL GROUP LLC",
-      "filerCik": "1650717",
+      "filerName": "Rossby Financial, LCC",
+      "filerCik": "2056510",
       "currentShares": null,
-      "priorShares": 1205,
+      "priorShares": 18,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7998,10 +8010,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Rossby Financial, LCC",
-      "filerCik": "2056510",
+      "filerName": "QUADRANT CAPITAL GROUP LLC",
+      "filerCik": "1650717",
       "currentShares": null,
-      "priorShares": 18,
+      "priorShares": 1205,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -8214,10 +8226,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "FIRST TRUST ADVISORS LP",
-      "filerCik": "1125816",
+      "filerName": "NISA INVESTMENT ADVISORS, LLC",
+      "filerCik": "937615",
       "currentShares": null,
-      "priorShares": 231579,
+      "priorShares": 963,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -8226,10 +8238,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "NEW YORK STATE COMMON RETIREMENT FUND",
-      "filerCik": "810265",
+      "filerName": "FIRST TRUST ADVISORS LP",
+      "filerCik": "1125816",
       "currentShares": null,
-      "priorShares": 25374,
+      "priorShares": 231579,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -8454,10 +8466,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Bank of New York Mellon Corp  (BK, BK-PK)",
-      "filerCik": "1390777",
+      "filerName": "Quantinno Capital Management LP",
+      "filerCik": "1759654",
       "currentShares": null,
-      "priorShares": 156627,
+      "priorShares": 138095,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -8466,10 +8478,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Quantinno Capital Management LP",
-      "filerCik": "1759654",
+      "filerName": "Bank of New York Mellon Corp  (BK, BK-PK)",
+      "filerCik": "1390777",
       "currentShares": null,
-      "priorShares": 138095,
+      "priorShares": 156627,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -8602,18 +8614,6 @@
       "filerCik": "1344551",
       "currentShares": null,
       "priorShares": 27270,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "CHARLES SCHWAB INVESTMENT MANAGEMENT INC",
-      "filerCik": "884546",
-      "currentShares": null,
-      "priorShares": 561142,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -8797,7 +8797,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Not Filed Yet",
+      "action": "Sell Out",
       "firstSeen": null,
       "newThisWeek": false
     },
@@ -8946,10 +8946,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "WELLS FARGO & COMPANY/MN  (WFC, WFCNP, WFC-PA, WFC-PC, WFC-PD, WFC-PL, WFC-PY, WFC-PZ)",
-      "filerCik": "72971",
+      "filerName": "RAYMOND JAMES FINANCIAL INC  (RJF)",
+      "filerCik": "720005",
       "currentShares": null,
-      "priorShares": 63158,
+      "priorShares": 121417,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -8958,10 +8958,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "RAYMOND JAMES FINANCIAL INC  (RJF)",
-      "filerCik": "720005",
+      "filerName": "WELLS FARGO & COMPANY/MN  (WFC, WFCNP, WFC-PA, WFC-PC, WFC-PD, WFC-PL, WFC-PY, WFC-PZ)",
+      "filerCik": "72971",
       "currentShares": null,
-      "priorShares": 121417,
+      "priorShares": 63158,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -8986,18 +8986,6 @@
       "filerCik": "1179392",
       "currentShares": null,
       "priorShares": 801131,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "COMMONWEALTH EQUITY SERVICES, LLC",
-      "filerCik": "312272",
-      "currentShares": null,
-      "priorShares": 14225,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -9246,10 +9234,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Varma Mutual Pension Insurance Co",
-      "filerCik": "1698484",
+      "filerName": "BI Asset Management Fondsmaeglerselskab A/S",
+      "filerCik": "1778131",
       "currentShares": null,
-      "priorShares": 28400,
+      "priorShares": 18204,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -9258,10 +9246,22 @@
       "newThisWeek": false
     },
     {
-      "filerName": "NISA INVESTMENT ADVISORS, LLC",
-      "filerCik": "937615",
+      "filerName": "Treasurer of the State of North Carolina",
+      "filerCik": "1761054",
       "currentShares": null,
-      "priorShares": 963,
+      "priorShares": 18171,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
+      "filerName": "CHARLES SCHWAB INVESTMENT MANAGEMENT INC",
+      "filerCik": "884546",
+      "currentShares": null,
+      "priorShares": 561142,
       "change": null,
       "pctChange": null,
       "currentValue": null,
