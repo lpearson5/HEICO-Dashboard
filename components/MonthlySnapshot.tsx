@@ -1,7 +1,7 @@
 "use client";
 
 import { Fragment, useMemo, useState } from "react";
-import type { MonthlyData, MonthlyHolding, MonthlyAction, FundData, FundHolder, FundManager, BeneficialData } from "@/lib/types";
+import type { MonthlyData, MonthlyHolding, MonthlyAction, FundData, FundHolder, FundManager, BeneficialData, PeersData } from "@/lib/types";
 
 const ACTION_COLORS: Record<MonthlyAction, string> = {
   New:         "bg-blue-100 text-blue-800 border-blue-200",
@@ -73,7 +73,7 @@ function SortTh({ id, label, sort, align = "left" }: { id: string; label: string
   );
 }
 
-export default function MonthlySnapshot({ data, funds, beneficial }: { data: MonthlyData | null; funds?: FundData | null; beneficial?: BeneficialData | null }) {
+export default function MonthlySnapshot({ data, funds, beneficial, peers }: { data: MonthlyData | null; funds?: FundData | null; beneficial?: BeneficialData | null; peers?: PeersData | null }) {
   const [search, setSearch] = useState("");
 
   const filtered = useMemo(() => {
@@ -218,6 +218,9 @@ export default function MonthlySnapshot({ data, funds, beneficial }: { data: Mon
 
       {/* §11 Forms 13G / 13D / 14D */}
       <BeneficialSection beneficial={beneficial} outShares={data.sharesOutstanding} />
+
+      {/* §12/§13 Peer reports */}
+      <PeerSection peers={peers} />
 
       <p className="text-xs text-gray-400 text-center pb-4">
         Source: SEC EDGAR 13F-HR (managers) &amp; N-PORT (funds) · % of shares outstanding based on {fmt(data.sharesOutstanding)} shares ·
@@ -428,6 +431,73 @@ function DiscretionSection({ holdings }: { holdings: MonthlyHolding[] }) {
                 <td className="px-4 py-2 text-right tabular-nums text-gray-600">{fmt(h.voteSole ?? null)}</td>
                 <td className="px-4 py-2 text-right tabular-nums text-gray-600">{fmt(h.voteShared ?? null)}</td>
                 <td className="px-4 py-2 text-right tabular-nums text-gray-600">{fmt(h.voteNone ?? null)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
+
+function PeerSection({ peers }: { peers?: PeersData | null }) {
+  const [sel, setSel] = useState(0);
+  if (!peers || peers.peers.length === 0) {
+    return (
+      <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6 text-center text-gray-500 text-sm">
+        Peer reports will appear here on the next refresh.
+      </div>
+    );
+  }
+  const p = peers.peers[sel] ?? peers.peers[0];
+  return (
+    <div className="space-y-4">
+      <div className="border-t border-gray-200 pt-6">
+        <h2 className="text-lg font-bold text-gray-900">Peer Reports</h2>
+        <p className="text-xs text-gray-500">Top holders of HEICO's sector peers, ranked by market value of shares held. Computed from large institutional managers and fund families (approximate top-20).</p>
+      </div>
+      <div className="flex flex-wrap gap-1.5">
+        {peers.peers.map((pr, i) => (
+          <button key={pr.ticker} onClick={() => setSel(i)}
+            className={`px-3 py-1.5 text-xs font-medium rounded-full border transition-colors ${
+              i === sel ? "bg-blue-600 text-white border-blue-600" : "bg-white text-gray-600 border-gray-300 hover:border-gray-400"}`}>
+            {pr.ticker} · {pr.name}
+          </button>
+        ))}
+      </div>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <PeerTable title={`§12 · Top 13F Holders — ${p.name}`} rows={p.top13F.map(r => ({ name: r.filer, sub: "", shares: r.shares, value: r.value }))} />
+        <PeerTable title={`§13 · Top Fund Holders — ${p.name}`} rows={p.topFunds.map(r => ({ name: decode(r.fund), sub: r.manager, shares: r.shares, value: r.value }))} />
+      </div>
+    </div>
+  );
+}
+
+function PeerTable({ title, rows }: { title: string; rows: { name: string; sub: string; shares: number; value: number }[] }) {
+  return (
+    <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+      <div className="px-4 py-3 border-b border-gray-100 text-sm font-semibold text-gray-700">{title}</div>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm">
+          <thead className="bg-gray-50 border-b border-gray-200 text-xs font-semibold text-gray-500 uppercase tracking-wide">
+            <tr>
+              <th className="px-4 py-2 text-left">#</th>
+              <th className="px-4 py-2 text-left">Holder</th>
+              <th className="px-4 py-2 text-right">Shares</th>
+              <th className="px-4 py-2 text-right">Value</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-gray-100">
+            {rows.length === 0 ? (
+              <tr><td colSpan={4} className="px-4 py-6 text-center text-gray-400">No data.</td></tr>
+            ) : rows.map((r, i) => (
+              <tr key={i} className="hover:bg-gray-50">
+                <td className="px-4 py-2 text-gray-400 tabular-nums">{i + 1}</td>
+                <td className="px-4 py-2 text-gray-900 max-w-xs truncate" title={r.sub}>
+                  {r.name}{r.sub ? <span className="text-gray-400"> · {r.sub}</span> : null}
+                </td>
+                <td className="px-4 py-2 text-right tabular-nums text-gray-700">{fmt(r.shares)}</td>
+                <td className="px-4 py-2 text-right tabular-nums text-gray-900 font-medium">{fmtValue(r.value)}</td>
               </tr>
             ))}
           </tbody>

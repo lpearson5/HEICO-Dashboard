@@ -3,8 +3,20 @@
   "cusip": "422806208",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-08-04T19:28:37.792Z",
+  "lastUpdated": "2026-08-04T21:04:47.440Z",
   "holdings": [
+    {
+      "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
+      "filerCik": "1126328",
+      "currentShares": 7707811,
+      "priorShares": 8867257,
+      "change": -1159446,
+      "pctChange": -13.1,
+      "currentValue": 1987933875,
+      "action": "Sold",
+      "firstSeen": "2026-08-04",
+      "newThisWeek": true
+    },
     {
       "filerName": "Local Pensions Partnership Investment Ltd",
       "filerCik": "1698810",
@@ -1278,6 +1290,18 @@
       "newThisWeek": true
     },
     {
+      "filerName": "North Dakota State Investment Board",
+      "filerCik": "2064039",
+      "currentShares": 2230,
+      "priorShares": 2167,
+      "change": 63,
+      "pctChange": 2.9,
+      "currentValue": 575139,
+      "action": "Bought",
+      "firstSeen": "2026-08-04",
+      "newThisWeek": true
+    },
+    {
       "filerName": "Crestwood Advisors Group, LLC",
       "filerCik": "1426853",
       "currentShares": 2081,
@@ -1348,6 +1372,18 @@
       "action": "Sold",
       "firstSeen": "2026-07-15",
       "newThisWeek": false
+    },
+    {
+      "filerName": "TRANSCEND CAPITAL ADVISORS, LLC",
+      "filerCik": "1776082",
+      "currentShares": 1845,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
+      "currentValue": 475881,
+      "action": "New Position",
+      "firstSeen": "2026-08-04",
+      "newThisWeek": true
     },
     {
       "filerName": "E. Ohman J:or Asset Management AB",
@@ -2212,6 +2248,18 @@
       "action": "New Position",
       "firstSeen": "2026-07-02",
       "newThisWeek": false
+    },
+    {
+      "filerName": "TD PRIVATE CLIENT WEALTH LLC",
+      "filerCik": "1551017",
+      "currentShares": 96,
+      "priorShares": 400,
+      "change": -304,
+      "pctChange": -76,
+      "currentValue": 24759,
+      "action": "Sold",
+      "firstSeen": "2026-08-04",
+      "newThisWeek": true
     },
     {
       "filerName": "MATHER GROUP, LLC.",
@@ -3258,10 +3306,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Capital International Investors",
-      "filerCik": "1562230",
+      "filerName": "Capital Research Global Investors",
+      "filerCik": "1422848",
       "currentShares": null,
-      "priorShares": 507773,
+      "priorShares": 186503,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -3270,10 +3318,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Capital Research Global Investors",
-      "filerCik": "1422848",
+      "filerName": "Capital International Investors",
+      "filerCik": "1562230",
       "currentShares": null,
-      "priorShares": 186503,
+      "priorShares": 507773,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -3618,18 +3666,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "North Dakota State Investment Board",
-      "filerCik": "2064039",
-      "currentShares": null,
-      "priorShares": 2167,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "COMMERCE BANK",
       "filerCik": "1009076",
       "currentShares": null,
@@ -3906,10 +3942,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "CALIFORNIA PUBLIC EMPLOYEES RETIREMENT SYSTEM",
-      "filerCik": "919079",
+      "filerName": "BROWN, LISLE/CUMMINGS, INC.",
+      "filerCik": "14745",
       "currentShares": null,
-      "priorShares": 156448,
+      "priorShares": 19,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -3918,10 +3954,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "BROWN, LISLE/CUMMINGS, INC.",
-      "filerCik": "14745",
+      "filerName": "CALIFORNIA PUBLIC EMPLOYEES RETIREMENT SYSTEM",
+      "filerCik": "919079",
       "currentShares": null,
-      "priorShares": 19,
+      "priorShares": 156448,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -4590,18 +4626,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "TD PRIVATE CLIENT WEALTH LLC",
-      "filerCik": "1551017",
-      "currentShares": null,
-      "priorShares": 400,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "BROWN BROTHERS HARRIMAN & CO",
       "filerCik": "14661",
       "currentShares": null,
@@ -4914,10 +4938,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Universal- Beteiligungs- und Servicegesellschaft mbH",
-      "filerCik": "2057170",
+      "filerName": "Vanguard Personalized Indexing Management, LLC",
+      "filerCik": "1767306",
       "currentShares": null,
-      "priorShares": 38058,
+      "priorShares": 6812,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -4926,10 +4950,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Vanguard Personalized Indexing Management, LLC",
-      "filerCik": "1767306",
+      "filerName": "Universal- Beteiligungs- und Servicegesellschaft mbH",
+      "filerCik": "2057170",
       "currentShares": null,
-      "priorShares": 6812,
+      "priorShares": 38058,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5442,18 +5466,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Advisory Services Network, LLC",
-      "filerCik": "1573876",
-      "currentShares": null,
-      "priorShares": 155,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "DEUTSCHE BANK AG\\",
       "filerCik": "948046",
       "currentShares": null,
@@ -5802,10 +5814,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Bank of New York Mellon Corp  (BK, BK-PK)",
-      "filerCik": "1390777",
+      "filerName": "Quantinno Capital Management LP",
+      "filerCik": "1759654",
       "currentShares": null,
-      "priorShares": 209891,
+      "priorShares": 50540,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5814,10 +5826,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Quantinno Capital Management LP",
-      "filerCik": "1759654",
+      "filerName": "Bank of New York Mellon Corp  (BK, BK-PK)",
+      "filerCik": "1390777",
       "currentShares": null,
-      "priorShares": 50540,
+      "priorShares": 209891,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5946,10 +5958,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "PRUDENTIAL FINANCIAL INC  (PFH, PRH, PRS, PRU)",
-      "filerCik": "1137774",
+      "filerName": "Vanguard Global Advisers, LLC",
+      "filerCik": "1811242",
       "currentShares": null,
-      "priorShares": 2381,
+      "priorShares": 37169,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5958,10 +5970,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Vanguard Global Advisers, LLC",
-      "filerCik": "1811242",
+      "filerName": "PRUDENTIAL FINANCIAL INC  (PFH, PRH, PRS, PRU)",
+      "filerCik": "1137774",
       "currentShares": null,
-      "priorShares": 37169,
+      "priorShares": 2381,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6306,18 +6318,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
-      "filerCik": "1126328",
-      "currentShares": null,
-      "priorShares": 8867257,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "Allworth Financial LP",
       "filerCik": "1555170",
       "currentShares": null,
@@ -6654,10 +6654,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "GENEVA CAPITAL MANAGEMENT LLC",
-      "filerCik": "1009232",
+      "filerName": "Skye Global Management LP",
+      "filerCik": "1675884",
       "currentShares": null,
-      "priorShares": 148712,
+      "priorShares": 29500,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6666,10 +6666,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Skye Global Management LP",
-      "filerCik": "1675884",
+      "filerName": "GENEVA CAPITAL MANAGEMENT LLC",
+      "filerCik": "1009232",
       "currentShares": null,
-      "priorShares": 29500,
+      "priorShares": 148712,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7062,10 +7062,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Machina Capital S.A.S.",
-      "filerCik": "1744373",
+      "filerName": "SOMERVILLE KURT F",
+      "filerCik": "1215208",
       "currentShares": null,
-      "priorShares": 2753,
+      "priorShares": 1474,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7074,10 +7074,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "SOMERVILLE KURT F",
-      "filerCik": "1215208",
+      "filerName": "Machina Capital S.A.S.",
+      "filerCik": "1744373",
       "currentShares": null,
-      "priorShares": 1474,
+      "priorShares": 2753,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7206,10 +7206,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Plato Investment Management Ltd",
-      "filerCik": "1984475",
+      "filerName": "S&T BANK/PA",
+      "filerCik": "1010911",
       "currentShares": null,
-      "priorShares": 4832,
+      "priorShares": 6,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7230,10 +7230,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "S&T BANK/PA",
-      "filerCik": "1010911",
+      "filerName": "Plato Investment Management Ltd",
+      "filerCik": "1984475",
       "currentShares": null,
-      "priorShares": 6,
+      "priorShares": 4832,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7462,18 +7462,6 @@
       "filerCik": "1591122",
       "currentShares": null,
       "priorShares": 300,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "WHITEBOX ADVISORS LLC",
-      "filerCik": "1257391",
-      "currentShares": null,
-      "priorShares": 124737,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7722,10 +7710,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "ExodusPoint Capital Management, LP",
-      "filerCik": "1736225",
+      "filerName": "Smithfield Trust Co",
+      "filerCik": "1019754",
       "currentShares": null,
-      "priorShares": 2178,
+      "priorShares": 50,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7734,10 +7722,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Smithfield Trust Co",
-      "filerCik": "1019754",
+      "filerName": "ExodusPoint Capital Management, LP",
+      "filerCik": "1736225",
       "currentShares": null,
-      "priorShares": 50,
+      "priorShares": 2178,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7898,6 +7886,18 @@
       "pctChange": null,
       "currentValue": null,
       "action": "Sell Out",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Advisory Services Network, LLC",
+      "filerCik": "1573876",
+      "currentShares": null,
+      "priorShares": 155,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet",
       "firstSeen": null,
       "newThisWeek": false
     },

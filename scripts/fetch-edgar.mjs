@@ -102,10 +102,11 @@ function saveCache(c) {
 
 function ymd(d) { return d.toISOString().slice(0, 10); }
 
-// Return all 13F-HR filings (last ~14 months) mentioning a CUSIP.
-async function searchCusip(cusip) {
+// Return all 13F-HR filings mentioning a CUSIP within the look-back window.
+// (Narrow the window for very widely-held peers so results stay under the 10k cap.)
+async function searchCusip(cusip, windowDays = 430) {
   const end   = new Date();
-  const start = new Date(end.getTime() - 430 * 24 * 3600 * 1000);
+  const start = new Date(end.getTime() - windowDays * 24 * 3600 * 1000);
   const hits  = [];
   let from = 0, total = null;
   while (true) {
@@ -453,6 +454,9 @@ async function main() {
 
   // 9. §11 beneficial-ownership filings (13G/13D/14D).
   await buildBeneficialOwners(today);
+
+  // 10. §12/§13 peer reports.
+  await buildPeerReports(today);
 
   console.log("\nDone!");
 }
@@ -815,6 +819,112 @@ async function buildFunds(today) {
     }, null, 2));
     console.log(`  funds ${ticker}: ${summary.funds} funds hold, ${summary.pctOut.toFixed(2)}% of shares, ${summary.newFunds} new, ${sellouts.length} sellouts`);
   }
+}
+
+// ─── §12/§13: Peer reports ───────────────────────────────────────────────────────
+
+const PEERS = [
+  { name: "RTX Corp.",             ticker: "RTX", cusip: "75513E101" },
+  { name: "Boeing Co.",            ticker: "BA",  cusip: "097023105" },
+  { name: "Howmet Aerospace",      ticker: "HWM", cusip: "443201108" },
+  { name: "TransDigm Group",       ticker: "TDG", cusip: "893641100" },
+  { name: "Teledyne Technologies", ticker: "TDY", cusip: "879360105" },
+];
+const PEER_CACHE_PATH = join(DATA_DIR, "peer-cache.json");
+
+// Parse a single CUSIP's long position from a 13F info table or an N-PORT.
+function parseCusipHoldings(xml, cusip, isNport) {
+  let shares = 0, value = 0;
+  if (isNport) {
+    const re = /<invstOrSec>([\s\S]*?)<\/invstOrSec>/gi; let m;
+    while ((m = re.exec(xml)) !== null) {
+      const b = m[1];
+      if ((b.match(/<cusip>([^<]+)<\/cusip>/i)?.[1] ?? "").replace(/[\s-]/g, "") !== cusip) continue;
+      shares += Math.round(parseFloat(b.match(/<balance>([^<]+)</i)?.[1] ?? "0"));
+      value  += Math.round(parseFloat(b.match(/<valUSD>([^<]+)</i)?.[1] ?? "0"));
+    }
+  } else {
+    const re = /<(?:\w+:)?infoTable>([\s\S]*?)<\/(?:\w+:)?infoTable>/gi; let m;
+    while ((m = re.exec(xml)) !== null) {
+      const b = m[1];
+      if ((b.match(/<(?:\w+:)?cusip>([^<]+)</i)?.[1] ?? "").replace(/[\s-]/g, "") !== cusip) continue;
+      const pc = (b.match(/<(?:\w+:)?putCall>([^<]+)</i)?.[1] ?? "").trim().toUpperCase();
+      if (pc === "PUT" || pc === "CALL") continue;
+      shares += parseInt(b.match(/<(?:\w+:)?sshPrnamt>(\d+)</i)?.[1] ?? "0", 10);
+      value  += parseInt(b.match(/<(?:\w+:)?value>(\d+)</i)?.[1] ?? "0", 10);
+    }
+  }
+  return shares > 0 ? { shares, value } : null;
+}
+
+async function buildPeerReports(today) {
+  console.log("\nBuilding peer reports (§12/§13)…");
+  const cache = existsSync(PEER_CACHE_PATH) ? (() => { try { return JSON.parse(readFileSync(PEER_CACHE_PATH, "utf8")); } catch { return {}; } })() : {};
+  const saveP = () => { writeFileSync(PEER_CACHE_PATH, JSON.stringify(cache, null, 2)); };
+
+  // Candidate mega-managers = HEICO's largest 13F holders (they dominate large-cap ownership).
+  const candidateCiks = new Set();
+  for (const file of ["monthly-hei.json", "monthly-heia.json"]) {
+    try {
+      const m = JSON.parse(readFileSync(join(DATA_DIR, file), "utf8"));
+      m.holdings.filter(h => h.shares[0] != null).sort((a, b) => b.shares[0] - a.shares[0]).slice(0, 60)
+        .forEach(h => candidateCiks.add(h.filerCik));
+    } catch {}
+  }
+
+  const fetchParse = async (h, cusip, isNport) => {
+    const key = `${h.accession}|${cusip}`;
+    if (cache[key] !== undefined) return cache[key];
+    const noD = h.accession.replace(/-/g, "");
+    const xml = await getRetry(`https://www.sec.gov/Archives/edgar/data/${h.cik}/${noD}/${h.doc}`);
+    const pos = xml ? parseCusipHoldings(xml, cusip, isNport) : null;
+    cache[key] = pos;
+    await sleep(300);
+    return pos;
+  };
+
+  const out = [];
+  for (const peer of PEERS) {
+    // §12 — top 13F holders (from candidate mega-managers, most recent settled quarter).
+    // Narrow window (~1 quarter) so widely-held peers don't truncate at the 10k cap.
+    const hits13 = await searchCusip(peer.cusip, 165);
+    const curQ = mostRecentCompleteQuarterEnd(today);
+    const want13 = new Map();
+    for (const h of hits13) {
+      if (h.period !== curQ || !candidateCiks.has(h.cik) || !h.accession || !h.doc) continue;
+      const prev = want13.get(h.cik);
+      if (!prev || (h.fileDate ?? "") > (prev.fileDate ?? "")) want13.set(h.cik, h);
+    }
+    const top13F = [];
+    for (const h of want13.values()) {
+      const pos = await fetchParse(h, peer.cusip, false);
+      if (pos) top13F.push({ filer: h.name, shares: pos.shares, value: pos.value });
+    }
+    top13F.sort((a, b) => b.value - a.value);
+
+    // §13 — top mutual-fund holders (from large fund families)
+    const hitsN = await searchNport(peer.cusip, today);
+    const wantN = new Map();
+    for (const h of hitsN) {
+      if (!resolveManager(h.regName, "") || !h.accession || !h.doc) continue;   // big families only
+      const key = `${h.cik}|${h.doc}`;
+      const prev = wantN.get(key);
+      if (!prev || (h.fileDate ?? "") > (prev.fileDate ?? "")) wantN.set(key, h);
+    }
+    const topFunds = [];
+    for (const h of wantN.values()) {
+      const pos = await fetchParse(h, peer.cusip, true);
+      if (pos) topFunds.push({ fund: h.regName, manager: resolveManager(h.regName, ""), shares: pos.shares, value: pos.value });
+    }
+    topFunds.sort((a, b) => b.value - a.value);
+
+    saveP();
+    out.push({ name: peer.name, ticker: peer.ticker, top13F: top13F.slice(0, 20), topFunds: topFunds.slice(0, 20) });
+    console.log(`  ${peer.name}: ${top13F.length} candidate 13F holders, ${topFunds.length} candidate fund holders`);
+  }
+
+  writeFileSync(join(DATA_DIR, "peers.json"), JSON.stringify({ lastUpdated: today.toISOString(), peers: out }, null, 2));
+  console.log(`  peers.json written (${out.length} peers).`);
 }
 
 // ─── §11: Forms 13G / 13D / 14D beneficial-ownership filings ─────────────────────

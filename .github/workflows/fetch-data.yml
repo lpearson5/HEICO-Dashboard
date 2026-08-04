@@ -29,7 +29,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/hei.json data/heia.json data/scan-cache.json data/alerts-sent.json data/monthly-hei.json data/monthly-heia.json data/funds-hei.json data/funds-heia.json data/nport-cache.json data/beneficial-owners.json
+          git add data/hei.json data/heia.json data/scan-cache.json data/alerts-sent.json data/monthly-hei.json data/monthly-heia.json data/funds-hei.json data/funds-heia.json data/nport-cache.json data/beneficial-owners.json data/peers.json data/peer-cache.json
           if ! git diff --cached --quiet; then
             date=$(date -u +%Y-%m-%d)
             # If the script flagged new large moves, lead the commit (and thus the

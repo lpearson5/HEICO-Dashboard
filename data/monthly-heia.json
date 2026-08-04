@@ -8,13 +8,13 @@
     "2025-06-30"
   ],
   "sharesOutstanding": 84369872,
-  "lastUpdated": "2026-08-04T19:28:37.792Z",
+  "lastUpdated": "2026-08-04T21:04:47.440Z",
   "summary": {
-    "institutions": 620,
-    "totalShares": 69192530,
-    "pctOut": 82.01,
-    "newHolders": 78,
-    "sellouts": 76,
+    "institutions": 619,
+    "totalShares": 69067793,
+    "pctOut": 81.86,
+    "newHolders": 77,
+    "sellouts": 77,
     "bought": 257,
     "sold": 186,
     "held": 99
@@ -1481,24 +1481,6 @@
       "voteNone": 5
     },
     {
-      "filerName": "RICHARDSON FINANCIAL SERVICES INC.",
-      "filerCik": "2012303",
-      "shares": [
-        4,
-        null,
-        null,
-        5
-      ],
-      "netChg": 4,
-      "currentValue": 844,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 4
-    },
-    {
       "filerName": "Strategic Wealth Partners, Ltd.",
       "filerCik": "1720777",
       "shares": [
@@ -1690,6 +1672,24 @@
         191457
       ],
       "netChg": -193537,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "WHITEBOX ADVISORS LLC",
+      "filerCik": "1257391",
+      "shares": [
+        null,
+        124737,
+        122799,
+        118954
+      ],
+      "netChg": -124737,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -4523,24 +4523,6 @@
       "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 125000,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "WHITEBOX ADVISORS LLC",
-      "filerCik": "1257391",
-      "shares": [
-        124737,
-        124737,
-        122799,
-        118954
-      ],
-      "netChg": 0,
-      "currentValue": 26330733,
-      "pctOut": 0.15,
-      "action": "No Change",
-      "discretion": "SOLE",
-      "voteSole": 124737,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -8960,7 +8942,7 @@
       "shares": [
         3465,
         2887,
-        null,
+        3993,
         4576
       ],
       "netChg": 578,
@@ -13765,14 +13747,14 @@
       "filerCik": "2012303",
       "shares": [
         4,
-        null,
+        4,
         null,
         5
       ],
-      "netChg": 4,
+      "netChg": 0,
       "currentValue": 844,
       "pctOut": 0,
-      "action": "New",
+      "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -16074,6 +16056,24 @@
         null
       ],
       "netChg": -3378,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "WHITEBOX ADVISORS LLC",
+      "filerCik": "1257391",
+      "shares": [
+        null,
+        124737,
+        122799,
+        118954
+      ],
+      "netChg": -124737,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",

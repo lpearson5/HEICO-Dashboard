@@ -122,3 +122,17 @@ export interface BeneficialData {
   lastUpdated: string;
   filers: BeneficialOwner[];
 }
+
+// ── §12/§13 Peer reports ──
+export interface PeerHolder { filer: string; shares: number; value: number }
+export interface PeerFund { fund: string; manager: string; shares: number; value: number }
+export interface Peer {
+  name: string;
+  ticker: string;
+  top13F: PeerHolder[];
+  topFunds: PeerFund[];
+}
+export interface PeersData {
+  lastUpdated: string;
+  peers: Peer[];
+}
