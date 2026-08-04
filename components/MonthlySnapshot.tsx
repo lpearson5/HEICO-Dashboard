@@ -125,6 +125,7 @@ export default function MonthlySnapshot({ data, funds, beneficial, peers }: { da
 
       {/* §2 Ownership Profile by Institution Type */}
       <OwnershipProfile data={data} funds={funds} />
+      <OwnershipDonut data={data} funds={funds} />
 
       {/* Top 10 holders */}
       <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
@@ -548,6 +549,78 @@ function BeneficialSection({ beneficial, outShares }: { beneficial?: BeneficialD
             ))}
           </tbody>
         </table>
+      </div>
+    </div>
+  );
+}
+
+function OwnershipDonut({ data, funds }: { data: MonthlyData; funds?: FundData | null }) {
+  const [hover, setHover] = useState<number | null>(null);
+  const out = data.sharesOutstanding;
+  const inst = data.summary.totalShares;
+  const fundShares = funds?.summary.totalShares ?? 0;
+  // Split the 13F total into funds vs. other-institutional so nothing double-counts.
+  const segs = [
+    { label: "Mutual funds & ETFs", shares: fundShares, color: "#2563eb" },
+    { label: "Other 13F institutional", shares: Math.max(0, inst - fundShares), color: "#0d9488" },
+    { label: "Insiders & other holders", shares: Math.max(0, out - inst), color: "#ea580c" },
+  ].filter((s) => s.shares > 0);
+
+  const R = 68, SW = 26, C = 2 * Math.PI * R, GAP = 3;
+  let cum = 0;
+  const arcs = segs.map((s) => {
+    const frac = s.shares / out;
+    const len = Math.max(0, frac * C - GAP);
+    const arc = { ...s, frac, len, offset: -cum * C };
+    cum += frac;
+    return arc;
+  });
+
+  return (
+    <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-5">
+      <div className="text-sm font-semibold text-gray-700 mb-3">Ownership Composition</div>
+      <div className="flex flex-col sm:flex-row items-center gap-6">
+        <div className="relative shrink-0" style={{ width: 200, height: 200 }}>
+          <svg viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Ownership composition donut">
+            <g transform="rotate(-90 100 100)">
+              {arcs.map((a, i) => (
+                <circle
+                  key={i} cx="100" cy="100" r={R} fill="none"
+                  stroke={a.color} strokeWidth={hover === i ? SW + 4 : SW}
+                  strokeDasharray={`${a.len} ${C - a.len}`} strokeDashoffset={a.offset}
+                  opacity={hover === null || hover === i ? 1 : 0.35}
+                  onMouseEnter={() => setHover(i)} onMouseLeave={() => setHover(null)}
+                  style={{ transition: "opacity .12s, stroke-width .12s", cursor: "default" }}
+                />
+              ))}
+            </g>
+          </svg>
+          <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
+            {hover === null ? (
+              <>
+                <div className="text-xl font-bold text-gray-900 tabular-nums">{data.summary.pctOut.toFixed(1)}%</div>
+                <div className="text-[11px] text-gray-500">institutional</div>
+              </>
+            ) : (
+              <>
+                <div className="text-lg font-bold tabular-nums" style={{ color: arcs[hover].color }}>{(arcs[hover].frac * 100).toFixed(1)}%</div>
+                <div className="text-[11px] text-gray-500 text-center px-2">{arcs[hover].label}</div>
+              </>
+            )}
+          </div>
+        </div>
+        <div className="flex-1 w-full space-y-2">
+          {arcs.map((a, i) => (
+            <div key={i} className={`flex items-center justify-between gap-3 rounded-lg px-2 py-1.5 ${hover === i ? "bg-gray-50" : ""}`}
+              onMouseEnter={() => setHover(i)} onMouseLeave={() => setHover(null)}>
+              <span className="flex items-center gap-2 text-sm text-gray-700">
+                <span className="inline-block w-3 h-3 rounded-sm" style={{ background: a.color }} />
+                {a.label}
+              </span>
+              <span className="text-sm tabular-nums text-gray-600">{fmt(a.shares)} · <b className="text-gray-900">{(a.frac * 100).toFixed(1)}%</b></span>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
