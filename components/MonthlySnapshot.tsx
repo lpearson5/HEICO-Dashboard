@@ -123,10 +123,13 @@ export default function MonthlySnapshot({ data, funds }: { data: MonthlyData | n
         ))}
       </div>
 
+      {/* §2 Ownership Profile by Institution Type */}
+      <OwnershipProfile data={data} funds={funds} />
+
       {/* Top 10 holders */}
       <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
         <div className="px-4 py-3 border-b border-gray-100 text-sm font-semibold text-gray-700">
-          Top 10 Institutional Holders
+          Top 10 Institutional Holders (13F)
         </div>
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
@@ -284,6 +287,23 @@ function FundSection({
         </div>
       </div>
 
+      {/* §3 New fund holders */}
+      {funds.newHolders.length > 0 && (
+        <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+          <div className="px-4 py-3 border-b border-gray-100 text-sm font-semibold text-blue-700">
+            New Fund Holders ({funds.newHolders.length})
+          </div>
+          <div className="overflow-y-auto max-h-80 divide-y divide-gray-100">
+            {[...funds.newHolders].sort((a, b) => b.shares - a.shares).map((h, i) => (
+              <div key={`${h.cik}-${i}`} className="px-4 py-2 flex items-center justify-between gap-3">
+                <span className="text-sm text-gray-800 truncate">{decode(h.fundName)}{h.manager ? <span className="text-gray-400"> · {h.manager}</span> : null}</span>
+                <span className="text-sm tabular-nums text-gray-600 whitespace-nowrap">{fmt(h.shares)}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
         <div className="px-4 py-3 border-b border-gray-100 flex items-center justify-between gap-3">
           <span className="text-sm font-semibold text-gray-700">Fund Holders · {rows.length.toLocaleString()} shown</span>
@@ -332,6 +352,57 @@ function FundSection({
 
       {/* §10: 13F Managers with Affiliated Funds */}
       <ManagersSection managers={funds.managers} outShares={funds.sharesOutstanding} />
+    </div>
+  );
+}
+
+function OwnershipProfile({ data, funds }: { data: MonthlyData; funds?: FundData | null }) {
+  const out = data.sharesOutstanding;
+  const inst = data.summary.totalShares;
+  const other = Math.max(0, out - inst);
+  const pct = (n: number) => `${(n / out * 100).toFixed(1)}%`;
+  const rows: { label: string; n: string; shares: number; indent?: boolean; strong?: boolean }[] = [
+    { label: "13F Institutional Managers", n: data.summary.institutions.toLocaleString(), shares: inst, strong: true },
+  ];
+  if (funds) {
+    rows.push({ label: "— of which mutual funds & ETFs", n: funds.summary.funds.toLocaleString(), shares: funds.summary.totalShares, indent: true });
+  }
+  rows.push({ label: "Insiders & other holders", n: "—", shares: other });
+
+  return (
+    <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+      <div className="px-4 py-3 border-b border-gray-100 text-sm font-semibold text-gray-700">
+        Ownership Profile by Institution Type
+      </div>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm">
+          <thead className="bg-gray-50 border-b border-gray-200 text-xs font-semibold text-gray-500 uppercase tracking-wide">
+            <tr>
+              <th className="px-4 py-2 text-left">Holder Type</th>
+              <th className="px-4 py-2 text-right">Institutions</th>
+              <th className="px-4 py-2 text-right">Shares</th>
+              <th className="px-4 py-2 text-right">% of Shares Out</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-gray-100">
+            {rows.map((r) => (
+              <tr key={r.label} className={r.indent ? "bg-gray-50/50" : ""}>
+                <td className={`px-4 py-2 ${r.indent ? "pl-8 text-gray-500 italic" : "text-gray-800 font-medium"}`}>{r.label}</td>
+                <td className="px-4 py-2 text-right tabular-nums text-gray-600">{r.n}</td>
+                <td className={`px-4 py-2 text-right tabular-nums ${r.strong ? "font-semibold text-gray-900" : "text-gray-700"}`}>{fmt(r.shares)}</td>
+                <td className="px-4 py-2 text-right tabular-nums text-gray-600">{pct(r.shares)}</td>
+              </tr>
+            ))}
+            <tr className="border-t-2 border-gray-200 bg-gray-50 font-semibold">
+              <td className="px-4 py-2 text-gray-900">Total Shares Outstanding</td>
+              <td className="px-4 py-2" />
+              <td className="px-4 py-2 text-right tabular-nums text-gray-900">{fmt(out)}</td>
+              <td className="px-4 py-2 text-right tabular-nums text-gray-600">100%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p className="px-4 py-2 text-xs text-gray-400">Mutual-fund shares are a subset of the 13F total (each fund’s shares are also reported by its parent manager), shown indented to avoid double-counting.</p>
     </div>
   );
 }
