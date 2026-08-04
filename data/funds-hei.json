@@ -2,14 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55148527,
-  "lastUpdated": "2026-08-04T17:42:32.003Z",
+  "lastUpdated": "2026-08-04T18:56:57.190Z",
   "summary": {
-    "funds": 430,
-    "totalShares": 18523567,
-    "pctOut": 33.588499999999996,
-    "newFunds": 37,
+    "funds": 415,
+    "totalShares": 18651237,
+    "pctOut": 33.82,
+    "newFunds": 36,
+    "sellouts": 56,
     "linkedManagers": 26,
-    "linkedShares": 15995821
+    "linkedShares": 16001072
   },
   "newHolders": [
     {
@@ -479,19 +480,400 @@
       "change": null,
       "pctOut": 0,
       "action": "New"
+    }
+  ],
+  "sellouts": [
+    {
+      "fundName": "VANGUARD WINDSOR II FUND",
+      "registrant": "VANGUARD WINDSOR FUNDS",
+      "manager": "Vanguard Group",
+      "lastShares": 99023,
+      "lastReport": "2025-04-30"
     },
     {
-      "fundName": "Saba Capital Income &amp; Opportunities Fund II",
-      "registrant": "Saba Capital Income & Opportunities Fund II",
+      "fundName": "Invesco V.I. Discovery Mid Cap Growth Fund",
+      "registrant": "AIM Variable Insurance Funds (Invesco Variable Insurance Funds)",
+      "manager": "Invesco",
+      "lastShares": 27945,
+      "lastReport": "2025-12-31"
+    },
+    {
+      "fundName": "Alger Large Cap Growth Portfolio",
+      "registrant": "ALGER PORTFOLIOS",
       "manager": "",
-      "cik": "828803",
-      "shares": -107,
-      "value": -28881,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": -0.00019999999999999998,
-      "action": "New"
+      "lastShares": 27777,
+      "lastReport": "2025-12-31"
+    },
+    {
+      "fundName": "Goldman Sachs Large Cap Growth Insights Fund",
+      "registrant": "Goldman Sachs Trust",
+      "manager": "Goldman Sachs",
+      "lastShares": 27706,
+      "lastReport": "2025-10-31"
+    },
+    {
+      "fundName": "AST PGIM Aggressive Multi-Asset Portfolio",
+      "registrant": "Advanced Series Trust",
+      "manager": "PGIM (Prudential)",
+      "lastShares": 18500,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "WisdomTree U.S. Quality Dividend Growth Fund",
+      "registrant": "WisdomTree Trust",
+      "manager": "WisdomTree",
+      "lastShares": 16991,
+      "lastReport": "2025-09-30"
+    },
+    {
+      "fundName": "AST Balanced Asset Allocation Portfolio",
+      "registrant": "Advanced Series Trust",
+      "manager": "",
+      "lastShares": 13800,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "MML Invesco Discovery Mid Cap Fund",
+      "registrant": "MML Series Investment Fund II",
+      "manager": "Invesco",
+      "lastShares": 11017,
+      "lastReport": "2025-12-31"
+    },
+    {
+      "fundName": "AST Multi-Asset Diversified Portfolio",
+      "registrant": "Advanced Series Trust",
+      "manager": "",
+      "lastShares": 9400,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "LVIP Blended Large Cap Growth Managed Volatility Fund",
+      "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
+      "manager": "FMR (Fidelity)",
+      "lastShares": 8844,
+      "lastReport": "2025-12-31"
+    },
+    {
+      "fundName": "AST Aggressive Asset Allocation Portfolio",
+      "registrant": "Advanced Series Trust",
+      "manager": "",
+      "lastShares": 8500,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "MidCap Growth Fund III",
+      "registrant": "Principal Funds, Inc",
+      "manager": "Principal",
+      "lastShares": 7195,
+      "lastReport": "2025-07-31"
+    },
+    {
+      "fundName": "Fidelity SAI U.S. Momentum Index Fund",
+      "registrant": "Fidelity Salem Street Trust",
+      "manager": "FMR (Fidelity)",
+      "lastShares": 4553,
+      "lastReport": "2025-07-31"
+    },
+    {
+      "fundName": "AGF U.S. Market Neutral Anti-Beta Fund",
+      "registrant": "AGF Investments Trust",
+      "manager": "",
+      "lastShares": 3726,
+      "lastReport": "2025-12-31"
+    },
+    {
+      "fundName": "WisdomTree U.S. AI Enhanced Value Fund",
+      "registrant": "WisdomTree Trust",
+      "manager": "WisdomTree",
+      "lastShares": 3617,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "PGIM Balanced Fund",
+      "registrant": "Prudential Investment Portfolios, Inc.",
+      "manager": "PGIM (Prudential)",
+      "lastShares": 3600,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "Muirfield Fund",
+      "registrant": "Meeder Funds",
+      "manager": "",
+      "lastShares": 3337,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "Inspire Fidelis Multi Factor ETF",
+      "registrant": "Northern Lights Fund Trust IV",
+      "manager": "",
+      "lastShares": 2975,
+      "lastReport": "2025-08-31"
+    },
+    {
+      "fundName": "First Trust Lunt U.S. Factor Rotation ETF",
+      "registrant": "First Trust Exchange-Traded Fund",
+      "manager": "First Trust",
+      "lastShares": 2527,
+      "lastReport": "2025-09-30"
+    },
+    {
+      "fundName": "Invesco Global Allocation Fund",
+      "registrant": "AIM Investment Funds (Invesco Investment Funds)",
+      "manager": "Invesco",
+      "lastShares": 2387,
+      "lastReport": "2025-07-31"
+    },
+    {
+      "fundName": "AST Preservation Asset Allocation Portfolio",
+      "registrant": "Advanced Series Trust",
+      "manager": "",
+      "lastShares": 2100,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "AST Multi-Asset Diversified Plus Portfolio",
+      "registrant": "Advanced Series Trust",
+      "manager": "",
+      "lastShares": 2000,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "AST Quantitative Modeling Portfolio",
+      "registrant": "Advanced Series Trust",
+      "manager": "",
+      "lastShares": 1600,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "Adaptive Core ETF",
+      "registrant": "Collaborative Investment Series Trust",
+      "manager": "",
+      "lastShares": 1296,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "Innovator IBD(R) 50 ETF",
+      "registrant": "Innovator ETFs Trust",
+      "manager": "",
+      "lastShares": 1272,
+      "lastReport": "2025-07-31"
+    },
+    {
+      "fundName": "SIIT LARGE CAP DISCIPLINED EQUITY FUND",
+      "registrant": "SEI INSTITUTIONAL INVESTMENTS TRUST",
+      "manager": "",
+      "lastShares": 1167,
+      "lastReport": "2025-11-30"
+    },
+    {
+      "fundName": "Balanced Fund",
+      "registrant": "Meeder Funds",
+      "manager": "",
+      "lastShares": 1063,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "Dynamic Allocation Fund",
+      "registrant": "Meeder Funds",
+      "manager": "",
+      "lastShares": 1063,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "Multi-Manager Growth Strategies Fund",
+      "registrant": "Columbia Funds Series Trust I",
+      "manager": "Columbia (Ameriprise)",
+      "lastShares": 959,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "Fidelity Flex Mid Cap Index Fund",
+      "registrant": "Fidelity Salem Street Trust",
+      "manager": "FMR (Fidelity)",
+      "lastShares": 958,
+      "lastReport": "2025-07-31"
+    },
+    {
+      "fundName": "AST Large-Cap Equity Portfolio",
+      "registrant": "Advanced Series Trust",
+      "manager": "",
+      "lastShares": 900,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "Goldman Sachs U.S. Equity Insights Fund",
+      "registrant": "Goldman Sachs Trust",
+      "manager": "Goldman Sachs",
+      "lastShares": 812,
+      "lastReport": "2025-10-31"
+    },
+    {
+      "fundName": "WBI BullBear Quality 3000 ETF",
+      "registrant": "Absolute Shares Trust",
+      "manager": "",
+      "lastShares": 743,
+      "lastReport": "2025-12-31"
+    },
+    {
+      "fundName": "BlackRock SMID-Cap Growth Equity Fund",
+      "registrant": "BlackRock Funds",
+      "manager": "BlackRock",
+      "lastShares": 739,
+      "lastReport": "2025-05-30"
+    },
+    {
+      "fundName": "Alger Weatherbie Enduring Growth ETF",
+      "registrant": "Alger ETF Trust",
+      "manager": "",
+      "lastShares": 656,
+      "lastReport": "2025-09-30"
+    },
+    {
+      "fundName": "Spectrum Fund",
+      "registrant": "Meeder Funds",
+      "manager": "",
+      "lastShares": 565,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "Goldman Sachs Global Managed Beta Fund",
+      "registrant": "GOLDMAN SACHS TRUST",
+      "manager": "Goldman Sachs",
+      "lastShares": 508,
+      "lastReport": "2025-05-31"
+    },
+    {
+      "fundName": "Janus Henderson Adaptive Risk Managed U.S. Equity Fund",
+      "registrant": "JANUS INVESTMENT FUND",
+      "manager": "Janus Henderson",
+      "lastShares": 426,
+      "lastReport": "2025-12-31"
+    },
+    {
+      "fundName": "Moderate Allocation Fund",
+      "registrant": "Meeder Funds",
+      "manager": "",
+      "lastShares": 392,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "Aptus Large Cap Enhanced Yield ETF",
+      "registrant": "ETF Series Solutions",
+      "manager": "",
+      "lastShares": 371,
+      "lastReport": "2025-10-31"
+    },
+    {
+      "fundName": "Goldman Sachs Variable Insurance Trust U.S. Equity Insights Fund",
+      "registrant": "Goldman Sachs Variable Insurance Trust",
+      "manager": "Goldman Sachs",
+      "lastShares": 272,
+      "lastReport": "2025-09-30"
+    },
+    {
+      "fundName": "Sofi Next 500 ETF",
+      "registrant": "Tidal Trust I",
+      "manager": "",
+      "lastShares": 252,
+      "lastReport": "2025-11-30"
+    },
+    {
+      "fundName": "Timothy Plan US Large/Mid Cap Core Enhanced ETF",
+      "registrant": "Timothy Plan",
+      "manager": "",
+      "lastShares": 217,
+      "lastReport": "2025-09-30"
+    },
+    {
+      "fundName": "Fidelity Enduring Opportunities Fund",
+      "registrant": "Fidelity Investment Trust",
+      "manager": "FMR (Fidelity)",
+      "lastShares": 191,
+      "lastReport": "2025-07-31"
+    },
+    {
+      "fundName": "Conservative Allocation Fund",
+      "registrant": "Meeder Funds",
+      "manager": "",
+      "lastShares": 169,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "TIFF Multi-Asset Fund",
+      "registrant": "TIFF INVESTMENT PROGRAM",
+      "manager": "",
+      "lastShares": 129,
+      "lastReport": "2025-09-30"
+    },
+    {
+      "fundName": "Gotham Short Strategies ETF",
+      "registrant": "Tidal Trust I",
+      "manager": "",
+      "lastShares": 111,
+      "lastReport": "2025-12-31"
+    },
+    {
+      "fundName": "Innovator IBD(R) Breakout Opportunities ETF",
+      "registrant": "Innovator ETFs Trust",
+      "manager": "",
+      "lastShares": 108,
+      "lastReport": "2025-07-31"
+    },
+    {
+      "fundName": "Global Allocation Fund",
+      "registrant": "Meeder Funds",
+      "manager": "",
+      "lastShares": 75,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "Acclivity Mid Cap Multi-Style Fund",
+      "registrant": "NORTHERN LIGHTS FUND TRUST II",
+      "manager": "",
+      "lastShares": 46,
+      "lastReport": "2025-09-30"
+    },
+    {
+      "fundName": "Janus Henderson Mid Cap Growth Alpha ETF",
+      "registrant": "Janus Detroit Street Trust",
+      "manager": "Janus Henderson",
+      "lastShares": 31,
+      "lastReport": "2025-10-31"
+    },
+    {
+      "fundName": "FIIG ESG STOCK PLAN FOR RETIREMENT",
+      "registrant": "Unified Series Trust",
+      "manager": "",
+      "lastShares": 15,
+      "lastReport": "2025-05-31"
+    },
+    {
+      "fundName": "ARS Core Equity Portfolio ETF",
+      "registrant": "EA Series Trust",
+      "manager": "",
+      "lastShares": 15,
+      "lastReport": "2025-11-28"
+    },
+    {
+      "fundName": "FIIG US LARGE CAP EQUITY",
+      "registrant": "Unified Series Trust",
+      "manager": "",
+      "lastShares": 14,
+      "lastReport": "2025-05-31"
+    },
+    {
+      "fundName": "Catholic Values Equity Fund",
+      "registrant": "SEI CATHOLIC VALUES TRUST",
+      "manager": "",
+      "lastShares": 12,
+      "lastReport": "2025-11-30"
+    },
+    {
+      "fundName": "FIIG US SMALL CAP EQUITY",
+      "registrant": "Unified Series Trust",
+      "manager": "",
+      "lastShares": 6,
+      "lastReport": "2025-05-31"
     }
   ],
   "managers": [
@@ -1322,8 +1704,8 @@
     },
     {
       "manager": "First Trust",
-      "fundCount": 7,
-      "shares": 204317,
+      "fundCount": 6,
+      "shares": 209568,
       "funds": [
         {
           "fundName": "First Trust Indxx Aerospace &amp; Defense ETF",
@@ -1348,10 +1730,6 @@
         {
           "fundName": "First Trust Multi Cap Growth AlphaDEX Fund",
           "shares": 1358
-        },
-        {
-          "fundName": "First Trust Long/Short Equity ETF",
-          "shares": -5251
         }
       ]
     },
@@ -2974,19 +3352,6 @@
       "change": 641,
       "pctOut": 0.043199999999999995,
       "action": "Bought"
-    },
-    {
-      "fundName": "Alger Large Cap Growth Portfolio",
-      "registrant": "ALGER PORTFOLIOS",
-      "manager": "",
-      "cik": "832566",
-      "shares": 23677,
-      "value": 6492233,
-      "reportDate": "2026-03-31",
-      "priorShares": 27777,
-      "change": -4100,
-      "pctOut": 0.0429,
-      "action": "Sold"
     },
     {
       "fundName": "Invesco Dorsey Wright Industrials Momentum ETF",
@@ -7082,188 +7447,6 @@
       "change": 0,
       "pctOut": 0,
       "action": "No Change"
-    },
-    {
-      "fundName": "Saba Capital Income &amp; Opportunities Fund II",
-      "registrant": "Saba Capital Income & Opportunities Fund II",
-      "manager": "",
-      "cik": "828803",
-      "shares": -107,
-      "value": -28881,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": -0.00019999999999999998,
-      "action": "New"
-    },
-    {
-      "fundName": "AQR CVX Fusion Fund",
-      "registrant": "AQR Funds",
-      "manager": "",
-      "cik": "1444822",
-      "shares": -160,
-      "value": -43872,
-      "reportDate": "2026-03-31",
-      "priorShares": -206,
-      "change": 46,
-      "pctOut": -0.00030000000000000003,
-      "action": "Bought"
-    },
-    {
-      "fundName": "AQR MS Fusion Fund",
-      "registrant": "AQR Funds",
-      "manager": "",
-      "cik": "1444822",
-      "shares": -195,
-      "value": -53469,
-      "reportDate": "2026-03-31",
-      "priorShares": -222,
-      "change": 27,
-      "pctOut": -0.00039999999999999996,
-      "action": "Bought"
-    },
-    {
-      "fundName": "Saba Capital Income &amp; Opportunities Fund",
-      "registrant": "Saba Capital Income & Opportunities Fund",
-      "manager": "",
-      "cik": "826020",
-      "shares": -240,
-      "value": -64781,
-      "reportDate": "2026-04-30",
-      "priorShares": -240,
-      "change": 0,
-      "pctOut": -0.00039999999999999996,
-      "action": "No Change"
-    },
-    {
-      "fundName": "Strategic Alternatives Fund",
-      "registrant": "GuideStone Funds",
-      "manager": "",
-      "cik": "1131013",
-      "shares": -244,
-      "value": -66905,
-      "reportDate": "2026-03-31",
-      "priorShares": -244,
-      "change": 0,
-      "pctOut": -0.00039999999999999996,
-      "action": "No Change"
-    },
-    {
-      "fundName": "AQR LSE Fusion Fund",
-      "registrant": "AQR Funds",
-      "manager": "",
-      "cik": "1444822",
-      "shares": -272,
-      "value": -74582,
-      "reportDate": "2026-03-31",
-      "priorShares": -306,
-      "change": 34,
-      "pctOut": -0.0005,
-      "action": "Bought"
-    },
-    {
-      "fundName": "AQR MS Fusion HV Fund",
-      "registrant": "AQR Funds",
-      "manager": "",
-      "cik": "1444822",
-      "shares": -795,
-      "value": -217989,
-      "reportDate": "2026-03-31",
-      "priorShares": -448,
-      "change": -347,
-      "pctOut": -0.0014,
-      "action": "Sold"
-    },
-    {
-      "fundName": "AQR Trend Total Return Fund",
-      "registrant": "AQR Funds",
-      "manager": "",
-      "cik": "1444822",
-      "shares": -1806,
-      "value": -495205,
-      "reportDate": "2026-03-31",
-      "priorShares": -1276,
-      "change": -530,
-      "pctOut": -0.0033000000000000004,
-      "action": "Sold"
-    },
-    {
-      "fundName": "First Trust Long/Short Equity ETF",
-      "registrant": "First Trust Exchange-Traded Fund III",
-      "manager": "First Trust",
-      "cik": "1424212",
-      "shares": -5251,
-      "value": -1737608,
-      "reportDate": "2026-01-31",
-      "priorShares": 19088,
-      "change": -24339,
-      "pctOut": -0.0095,
-      "action": "Sold"
-    },
-    {
-      "fundName": "AQR Equity Market Neutral Fund",
-      "registrant": "AQR Funds",
-      "manager": "",
-      "cik": "1444822",
-      "shares": -13454,
-      "value": -3689087,
-      "reportDate": "2026-03-31",
-      "priorShares": -19513,
-      "change": 6059,
-      "pctOut": -0.024399999999999998,
-      "action": "Bought"
-    },
-    {
-      "fundName": "Invenomic Fund",
-      "registrant": "NORTHERN LIGHTS FUND TRUST II",
-      "manager": "",
-      "cik": "1518042",
-      "shares": -15669,
-      "value": -4229376,
-      "reportDate": "2026-04-30",
-      "priorShares": -16752,
-      "change": 1083,
-      "pctOut": -0.0284,
-      "action": "Bought"
-    },
-    {
-      "fundName": "AQR Managed Futures Strategy HV Fund",
-      "registrant": "AQR Funds",
-      "manager": "",
-      "cik": "1444822",
-      "shares": -17271,
-      "value": -4735708,
-      "reportDate": "2026-03-31",
-      "priorShares": -9473,
-      "change": -7798,
-      "pctOut": -0.0313,
-      "action": "Sold"
-    },
-    {
-      "fundName": "AQR Managed Futures Strategy Fund",
-      "registrant": "AQR Funds",
-      "manager": "",
-      "cik": "1444822",
-      "shares": -32587,
-      "value": -8935355,
-      "reportDate": "2026-03-31",
-      "priorShares": -22419,
-      "change": -10168,
-      "pctOut": -0.05910000000000001,
-      "action": "Sold"
-    },
-    {
-      "fundName": "AQR Long-Short Equity Fund",
-      "registrant": "AQR Funds",
-      "manager": "",
-      "cik": "1444822",
-      "shares": -63296,
-      "value": -17355763,
-      "reportDate": "2026-03-31",
-      "priorShares": -94665,
-      "change": 31369,
-      "pctOut": -0.1148,
-      "action": "Bought"
     }
   ]
 }

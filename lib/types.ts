@@ -88,13 +88,22 @@ export interface FundManager {
   funds: { fundName: string; shares: number }[];
 }
 
+export interface FundSellout {
+  fundName: string;
+  registrant: string;
+  manager: string;
+  lastShares: number;
+  lastReport: string;
+}
+
 export interface FundData {
   ticker: string;
   cusip: string;
   sharesOutstanding: number;
   lastUpdated: string;
-  summary: { funds: number; totalShares: number; pctOut: number; newFunds: number; linkedManagers: number; linkedShares: number };
+  summary: { funds: number; totalShares: number; pctOut: number; newFunds: number; sellouts: number; linkedManagers: number; linkedShares: number };
   newHolders: FundHolder[];
+  sellouts: FundSellout[];
   managers: FundManager[];
   holders: FundHolder[];
 }

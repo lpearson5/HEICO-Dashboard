@@ -310,6 +310,26 @@ function FundSection({
         </div>
       )}
 
+      {/* §5 Fund sellouts */}
+      {funds.sellouts && funds.sellouts.length > 0 && (
+        <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+          <div className="px-4 py-3 border-b border-gray-100 text-sm font-semibold text-red-700">
+            Sold-Out Funds ({funds.sellouts.length})
+          </div>
+          <div className="overflow-y-auto max-h-80 divide-y divide-gray-100">
+            {funds.sellouts.map((h, i) => (
+              <div key={`${h.registrant}-${h.fundName}-${i}`} className="px-4 py-2 flex items-center justify-between gap-3">
+                <span className="text-sm text-gray-800 truncate">
+                  {decode(h.fundName)}
+                  <span className="text-gray-400"> · {decode(h.registrant)}{h.manager ? ` (${h.manager})` : ""}</span>
+                </span>
+                <span className="text-sm tabular-nums text-gray-500 whitespace-nowrap">last held {fmt(h.lastShares)} ({fmtReportDate(h.lastReport)})</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
         <div className="px-4 py-3 border-b border-gray-100 flex items-center justify-between gap-3">
           <span className="text-sm font-semibold text-gray-700">Fund Holders · {rows.length.toLocaleString()} shown</span>

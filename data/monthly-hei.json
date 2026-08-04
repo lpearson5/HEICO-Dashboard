@@ -8,16 +8,16 @@
     "2025-06-30"
   ],
   "sharesOutstanding": 55148527,
-  "lastUpdated": "2026-08-04T17:42:32.003Z",
+  "lastUpdated": "2026-08-04T18:56:57.190Z",
   "summary": {
     "institutions": 739,
     "totalShares": 40926075,
     "pctOut": 74.21,
-    "newHolders": 99,
+    "newHolders": 100,
     "sellouts": 117,
     "bought": 244,
     "sold": 256,
-    "held": 140
+    "held": 139
   },
   "top10": [
     {
@@ -1389,6 +1389,24 @@
       "voteSole": 105,
       "voteShared": 0,
       "voteNone": 705
+    },
+    {
+      "filerName": "Vise Technologies, Inc.",
+      "filerCik": "1812090",
+      "shares": [
+        765,
+        null,
+        652,
+        null
+      ],
+      "netChg": 765,
+      "currentValue": 247546,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 765
     },
     {
       "filerName": "RITHOLTZ WEALTH MANAGEMENT",
@@ -3325,7 +3343,7 @@
         null,
         680,
         680,
-        658
+        null
       ],
       "netChg": -680,
       "currentValue": null,
@@ -3864,7 +3882,7 @@
       "shares": [
         null,
         21,
-        21,
+        null,
         21
       ],
       "netChg": -21,
@@ -9212,7 +9230,7 @@
       "shares": [
         6355,
         6265,
-        6265,
+        null,
         6214
       ],
       "netChg": 90,
@@ -12200,7 +12218,7 @@
       "shares": [
         1559,
         1984,
-        2031,
+        null,
         2031
       ],
       "netChg": -425,
@@ -12866,7 +12884,7 @@
       "shares": [
         1202,
         1203,
-        null,
+        1196,
         1196
       ],
       "netChg": -1,
@@ -14359,14 +14377,14 @@
       "filerCik": "1812090",
       "shares": [
         765,
-        765,
+        null,
         652,
         null
       ],
-      "netChg": 0,
+      "netChg": 765,
       "currentValue": 247546,
       "pctOut": 0,
-      "action": "No Change",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -20007,24 +20025,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Principia Wealth Advisory, LLC",
-      "filerCik": "2041436",
-      "shares": [
-        null,
-        2,
-        3,
-        1
-      ],
-      "netChg": -2,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "AXXCESS WEALTH MANAGEMENT, LLC",
       "filerCik": "1911056",
       "shares": [
@@ -20034,6 +20034,24 @@
         null
       ],
       "netChg": -8358,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Principia Wealth Advisory, LLC",
+      "filerCik": "2041436",
+      "shares": [
+        null,
+        2,
+        3,
+        1
+      ],
+      "netChg": -2,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -20355,27 +20373,9 @@
         null,
         680,
         680,
-        658
+        null
       ],
       "netChg": -680,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Newbridge Financial Services Group, Inc.",
-      "filerCik": "1879757",
-      "shares": [
-        null,
-        21,
-        21,
-        21
-      ],
-      "netChg": -21,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -20433,6 +20433,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Newbridge Financial Services Group, Inc.",
+      "filerCik": "1879757",
+      "shares": [
+        null,
+        21,
+        null,
+        21
+      ],
+      "netChg": -21,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,

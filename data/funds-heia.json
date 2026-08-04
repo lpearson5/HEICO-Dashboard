@@ -2,12 +2,13 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84369872,
-  "lastUpdated": "2026-08-04T17:42:32.003Z",
+  "lastUpdated": "2026-08-04T18:56:57.190Z",
   "summary": {
     "funds": 348,
     "totalShares": 29568219,
     "pctOut": 35.0459,
     "newFunds": 26,
+    "sellouts": 32,
     "linkedManagers": 23,
     "linkedShares": 25331859
   },
@@ -349,6 +350,232 @@
       "change": null,
       "pctOut": 0,
       "action": "New"
+    }
+  ],
+  "sellouts": [
+    {
+      "fundName": "Invesco RAFI Emerging Markets ETF",
+      "registrant": "Invesco Exchange-Traded Fund Trust II",
+      "manager": "Invesco",
+      "lastShares": 4532953,
+      "lastReport": "2025-07-31"
+    },
+    {
+      "fundName": "BBH Select Series Mid Cap Fund",
+      "registrant": "BBH Trust",
+      "manager": "",
+      "lastShares": 72549,
+      "lastReport": "2025-10-31"
+    },
+    {
+      "fundName": "Invesco Advantage International Fund",
+      "registrant": "AIM International Mutual Funds (Invesco International Mutual Funds)",
+      "manager": "Invesco",
+      "lastShares": 64822,
+      "lastReport": "2025-07-31"
+    },
+    {
+      "fundName": "Fidelity Contrafund",
+      "registrant": "Fidelity Contrafund",
+      "manager": "FMR (Fidelity)",
+      "lastShares": 45934,
+      "lastReport": "2025-12-31"
+    },
+    {
+      "fundName": "Select Industrials Portfolio",
+      "registrant": "Fidelity Select Portfolios",
+      "manager": "FMR (Fidelity)",
+      "lastShares": 40700,
+      "lastReport": "2025-08-31"
+    },
+    {
+      "fundName": "Vulcan Value Partners Fund",
+      "registrant": "FINANCIAL INVESTORS TRUST",
+      "manager": "",
+      "lastShares": 39532,
+      "lastReport": "2025-07-31"
+    },
+    {
+      "fundName": "Invesco S&amp;P Emerging Markets Momentum ETF",
+      "registrant": "Invesco Exchange-Traded Fund Trust II",
+      "manager": "Invesco",
+      "lastShares": 26514,
+      "lastReport": "2025-07-31"
+    },
+    {
+      "fundName": "Mercer US Small/Mid Cap Equity Fund",
+      "registrant": "Mercer Funds",
+      "manager": "",
+      "lastShares": 19530,
+      "lastReport": "2025-12-31"
+    },
+    {
+      "fundName": "WisdomTree U.S. Quality Dividend Growth Fund",
+      "registrant": "WisdomTree Trust",
+      "manager": "WisdomTree",
+      "lastShares": 12192,
+      "lastReport": "2025-09-30"
+    },
+    {
+      "fundName": "Fidelity SAI U.S. Momentum Index Fund",
+      "registrant": "Fidelity Salem Street Trust",
+      "manager": "FMR (Fidelity)",
+      "lastShares": 11063,
+      "lastReport": "2025-07-31"
+    },
+    {
+      "fundName": "Fidelity Contrafund K6",
+      "registrant": "Fidelity Contrafund",
+      "manager": "FMR (Fidelity)",
+      "lastShares": 9545,
+      "lastReport": "2025-12-31"
+    },
+    {
+      "fundName": "VIP Contrafund Portfolio",
+      "registrant": "Variable Insurance Products Fund II",
+      "manager": "FMR (Fidelity)",
+      "lastShares": 5613,
+      "lastReport": "2025-12-31"
+    },
+    {
+      "fundName": "Fidelity Advisor New Insights Fund",
+      "registrant": "Fidelity Contrafund",
+      "manager": "FMR (Fidelity)",
+      "lastShares": 4956,
+      "lastReport": "2025-12-31"
+    },
+    {
+      "fundName": "AST PGIM Aggressive Multi-Asset Portfolio",
+      "registrant": "Advanced Series Trust",
+      "manager": "PGIM (Prudential)",
+      "lastShares": 4800,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "AB All Market Real Return Portfolio",
+      "registrant": "AB BOND FUND, INC.",
+      "manager": "",
+      "lastShares": 4450,
+      "lastReport": "2025-10-31"
+    },
+    {
+      "fundName": "Alger 35 ETF",
+      "registrant": "Alger ETF Trust",
+      "manager": "",
+      "lastShares": 3902,
+      "lastReport": "2025-09-30"
+    },
+    {
+      "fundName": "MassMutual Premier Disciplined Growth Fund",
+      "registrant": "MASSMUTUAL PREMIER FUNDS",
+      "manager": "",
+      "lastShares": 3541,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "American Beacon Stephens Small Cap Growth Fund",
+      "registrant": "AMERICAN BEACON FUNDS",
+      "manager": "",
+      "lastShares": 2848,
+      "lastReport": "2025-12-31"
+    },
+    {
+      "fundName": "ALGER 35 FUND",
+      "registrant": "ALGER FUNDS",
+      "manager": "",
+      "lastShares": 2811,
+      "lastReport": "2025-10-31"
+    },
+    {
+      "fundName": "Fidelity Series Opportunistic Insights Fund",
+      "registrant": "Fidelity Contrafund",
+      "manager": "FMR (Fidelity)",
+      "lastShares": 2549,
+      "lastReport": "2025-12-31"
+    },
+    {
+      "fundName": "PGIM Balanced Fund",
+      "registrant": "Prudential Investment Portfolios, Inc.",
+      "manager": "PGIM (Prudential)",
+      "lastShares": 1800,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "Fidelity Flex Mid Cap Index Fund",
+      "registrant": "Fidelity Salem Street Trust",
+      "manager": "FMR (Fidelity)",
+      "lastShares": 1722,
+      "lastReport": "2025-07-31"
+    },
+    {
+      "fundName": "Janus Henderson Mid Cap Growth Alpha ETF",
+      "registrant": "Janus Detroit Street Trust",
+      "manager": "Janus Henderson",
+      "lastShares": 1602,
+      "lastReport": "2025-10-31"
+    },
+    {
+      "fundName": "Multi-Manager Growth Strategies Fund",
+      "registrant": "Columbia Funds Series Trust I",
+      "manager": "Columbia (Ameriprise)",
+      "lastShares": 1311,
+      "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "Systematic Core Fund",
+      "registrant": "VALIC Co I",
+      "manager": "",
+      "lastShares": 981,
+      "lastReport": "2025-05-31"
+    },
+    {
+      "fundName": "CONESTOGA MID CAP FUND",
+      "registrant": "Conestoga Funds",
+      "manager": "",
+      "lastShares": 720,
+      "lastReport": "2025-09-30"
+    },
+    {
+      "fundName": "Goldman Sachs Global Managed Beta Fund",
+      "registrant": "GOLDMAN SACHS TRUST",
+      "manager": "Goldman Sachs",
+      "lastShares": 648,
+      "lastReport": "2025-05-31"
+    },
+    {
+      "fundName": "MidCap Growth Fund III",
+      "registrant": "Principal Funds, Inc",
+      "manager": "Principal",
+      "lastShares": 522,
+      "lastReport": "2025-07-31"
+    },
+    {
+      "fundName": "Sofi Next 500 ETF",
+      "registrant": "Tidal Trust I",
+      "manager": "",
+      "lastShares": 452,
+      "lastReport": "2025-11-30"
+    },
+    {
+      "fundName": "First Trust Multi-Manager Small Cap Opportunities ETF",
+      "registrant": "First Trust Exchange-Traded Fund VIII",
+      "manager": "First Trust",
+      "lastShares": 322,
+      "lastReport": "2025-11-30"
+    },
+    {
+      "fundName": "Catholic Values Equity Fund",
+      "registrant": "SEI CATHOLIC VALUES TRUST",
+      "manager": "",
+      "lastShares": 262,
+      "lastReport": "2025-11-30"
+    },
+    {
+      "fundName": "ARS Core Equity Portfolio ETF",
+      "registrant": "EA Series Trust",
+      "manager": "",
+      "lastShares": 2,
+      "lastReport": "2025-11-28"
     }
   ],
   "managers": [

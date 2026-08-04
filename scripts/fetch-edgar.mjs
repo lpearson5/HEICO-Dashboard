@@ -677,9 +677,23 @@ function fundAction(cur, prev) {
   return "No Change";
 }
 
+// Latest NPORT-P period a fund registrant has filed (for detecting fund sellouts).
+async function registrantLatestNport(cik, memo) {
+  if (memo.has(cik)) return memo.get(cik);
+  const sub = await getRetry(`https://data.sec.gov/submissions/CIK${String(cik).padStart(10, "0")}.json`, { json: true });
+  let latest = null;
+  const f = sub?.filings?.recent;
+  if (f) for (let i = 0; i < f.form.length; i++) {
+    if (f.form[i] === "NPORT-P" && (latest == null || f.reportDate[i] > latest)) latest = f.reportDate[i];
+  }
+  memo.set(cik, latest);
+  return latest;
+}
+
 async function buildFunds(today) {
   console.log("\nBuilding mutual-fund (N-PORT) holders…");
   const cache = loadNportCache();
+  const nportMemo = new Map();
 
   // 1. Find all N-PORT filings mentioning either HEICO CUSIP.
   const byAcc = new Map();
@@ -722,7 +736,7 @@ async function buildFunds(today) {
       const sorted = [...list].sort((a, b) => (b.period ?? "").localeCompare(a.period ?? ""));
       const latest = sorted[0];
       const cur = latest.positions?.[ticker]?.shares ?? null;
-      if (cur == null) continue;                                   // fund doesn't hold this class in latest report
+      if (cur == null || cur <= 0) continue;                       // not a long holder (skip zero/short positions)
       if (Date.parse(latest.period) < staleCut) continue;          // stale report → treat as no longer current
       // prior = this fund's previous report that we have
       const prevRec = sorted.find(r => r !== latest && r.positions?.[ticker]?.shares != null);
@@ -746,6 +760,28 @@ async function buildFunds(today) {
     holders.sort((a, b) => b.shares - a.shares);
     const totalShares = holders.reduce((s, h) => s + h.shares, 0);
 
+    // §5: fund sellouts — held HEICO, but registrant has filed a newer N-PORT
+    // (past this fund's last HEICO report), i.e. they've since reported without it.
+    const sellouts = [];
+    for (const [, list] of byFund) {
+      const sorted = [...list].sort((a, b) => (b.period ?? "").localeCompare(a.period ?? ""));
+      const latest = sorted[0];
+      const had = latest.positions?.[ticker]?.shares ?? null;
+      if (had == null || had <= 0) continue;                     // only real long positions
+      if (Date.parse(latest.period) >= staleCut) continue;       // still a current holder
+      const regLatest = await registrantLatestNport(latest.cik, nportMemo);
+      await sleep(100);
+      if (regLatest && regLatest > latest.period) {
+        sellouts.push({
+          fundName: latest.seriesName || "(unnamed fund)",
+          registrant: latest.regName,
+          manager: resolveManager(latest.regName, latest.seriesName || ""),
+          lastShares: had, lastReport: latest.period,
+        });
+      }
+    }
+    sellouts.sort((a, b) => b.lastShares - a.lastShares);
+
     // §10: 13F managers with their affiliated funds.
     const mgrMap = new Map();
     for (const h of holders) {
@@ -763,6 +799,7 @@ async function buildFunds(today) {
       totalShares,
       pctOut: Math.round(totalShares / outShares * 1e6) / 1e6 * 100,
       newFunds: holders.filter(h => h.action === "New").length,
+      sellouts: sellouts.length,
       linkedManagers: managers.length,
       linkedShares,
     };
@@ -771,9 +808,9 @@ async function buildFunds(today) {
     writeFileSync(join(DATA_DIR, `funds-${ticker.toLowerCase()}.json`), JSON.stringify({
       ticker, cusip: CUSIPS[ticker], sharesOutstanding: outShares,
       lastUpdated: today.toISOString(),
-      summary, newHolders, managers, holders,
+      summary, newHolders, sellouts, managers, holders,
     }, null, 2));
-    console.log(`  funds ${ticker}: ${summary.funds} funds hold, ${summary.pctOut.toFixed(2)}% of shares, ${summary.newFunds} new`);
+    console.log(`  funds ${ticker}: ${summary.funds} funds hold, ${summary.pctOut.toFixed(2)}% of shares, ${summary.newFunds} new, ${sellouts.length} sellouts`);
   }
 }
 
