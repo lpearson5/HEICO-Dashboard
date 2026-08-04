@@ -1,7 +1,7 @@
 "use client";
 
 import { Fragment, useMemo, useState } from "react";
-import type { MonthlyData, MonthlyHolding, MonthlyAction, FundData, FundHolder, FundManager } from "@/lib/types";
+import type { MonthlyData, MonthlyHolding, MonthlyAction, FundData, FundHolder, FundManager, BeneficialData } from "@/lib/types";
 
 const ACTION_COLORS: Record<MonthlyAction, string> = {
   New:         "bg-blue-100 text-blue-800 border-blue-200",
@@ -73,7 +73,7 @@ function SortTh({ id, label, sort, align = "left" }: { id: string; label: string
   );
 }
 
-export default function MonthlySnapshot({ data, funds }: { data: MonthlyData | null; funds?: FundData | null }) {
+export default function MonthlySnapshot({ data, funds, beneficial }: { data: MonthlyData | null; funds?: FundData | null; beneficial?: BeneficialData | null }) {
   const [search, setSearch] = useState("");
 
   const filtered = useMemo(() => {
@@ -215,6 +215,9 @@ export default function MonthlySnapshot({ data, funds }: { data: MonthlyData | n
 
       {/* ── Mutual funds & ETFs (N-PORT) ── */}
       <FundSection funds={funds} search={search} setSearch={setSearch} />
+
+      {/* §11 Forms 13G / 13D / 14D */}
+      <BeneficialSection beneficial={beneficial} outShares={data.sharesOutstanding} />
 
       <p className="text-xs text-gray-400 text-center pb-4">
         Source: SEC EDGAR 13F-HR (managers) &amp; N-PORT (funds) · % of shares outstanding based on {fmt(data.sharesOutstanding)} shares ·
@@ -425,6 +428,52 @@ function DiscretionSection({ holdings }: { holdings: MonthlyHolding[] }) {
                 <td className="px-4 py-2 text-right tabular-nums text-gray-600">{fmt(h.voteSole ?? null)}</td>
                 <td className="px-4 py-2 text-right tabular-nums text-gray-600">{fmt(h.voteShared ?? null)}</td>
                 <td className="px-4 py-2 text-right tabular-nums text-gray-600">{fmt(h.voteNone ?? null)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
+
+function BeneficialSection({ beneficial, outShares }: { beneficial?: BeneficialData | null; outShares: number }) {
+  if (!beneficial || beneficial.filers.length === 0) {
+    return (
+      <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6 text-center text-gray-500 text-sm">
+        No 13G / 13D / 14D beneficial-ownership filings on record.
+      </div>
+    );
+  }
+  return (
+    <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+      <div className="px-4 py-3 border-b border-gray-100">
+        <span className="text-sm font-semibold text-gray-700">Forms 13G / 13D / 14D Filers</span>
+        <p className="text-xs text-gray-500 mt-0.5">Beneficial-ownership filings ({'>'}5% holders). Latest filing per filer, from SEC EDGAR.</p>
+      </div>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm">
+          <thead className="bg-gray-50 border-b border-gray-200 text-xs font-semibold text-gray-500 uppercase tracking-wide">
+            <tr>
+              <th className="px-4 py-2 text-left">Filer</th>
+              <th className="px-4 py-2 text-center">Form</th>
+              <th className="px-4 py-2 text-center">Filed</th>
+              <th className="px-4 py-2 text-right">Shares Owned</th>
+              <th className="px-4 py-2 text-right">% of Class</th>
+              <th className="px-4 py-2 text-center">Filing</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-gray-100">
+            {beneficial.filers.map((f, i) => (
+              <tr key={`${f.filer}-${i}`} className="hover:bg-gray-50">
+                <td className="px-4 py-2 font-medium text-gray-900">{f.filer}</td>
+                <td className="px-4 py-2 text-center text-gray-600 whitespace-nowrap">{f.form}</td>
+                <td className="px-4 py-2 text-center text-gray-500 whitespace-nowrap">{f.fileDate}</td>
+                <td className="px-4 py-2 text-right tabular-nums text-gray-800">{fmt(f.shares)}</td>
+                <td className="px-4 py-2 text-right tabular-nums text-gray-700">{f.pctClass != null ? `${f.pctClass}%` : "—"}</td>
+                <td className="px-4 py-2 text-center">
+                  <a href={f.url} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-xs">view →</a>
+                </td>
               </tr>
             ))}
           </tbody>

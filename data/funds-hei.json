@@ -2,13 +2,13 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55148527,
-  "lastUpdated": "2026-08-04T18:56:57.190Z",
+  "lastUpdated": "2026-08-04T19:28:37.792Z",
   "summary": {
-    "funds": 415,
-    "totalShares": 18651237,
-    "pctOut": 33.82,
+    "funds": 416,
+    "totalShares": 18674914,
+    "pctOut": 33.8629,
     "newFunds": 36,
-    "sellouts": 56,
+    "sellouts": 55,
     "linkedManagers": 26,
     "linkedShares": 16001072
   },
@@ -495,13 +495,6 @@
       "registrant": "AIM Variable Insurance Funds (Invesco Variable Insurance Funds)",
       "manager": "Invesco",
       "lastShares": 27945,
-      "lastReport": "2025-12-31"
-    },
-    {
-      "fundName": "Alger Large Cap Growth Portfolio",
-      "registrant": "ALGER PORTFOLIOS",
-      "manager": "",
-      "lastShares": 27777,
       "lastReport": "2025-12-31"
     },
     {
@@ -3352,6 +3345,19 @@
       "change": 641,
       "pctOut": 0.043199999999999995,
       "action": "Bought"
+    },
+    {
+      "fundName": "Alger Large Cap Growth Portfolio",
+      "registrant": "ALGER PORTFOLIOS",
+      "manager": "",
+      "cik": "832566",
+      "shares": 23677,
+      "value": 6492233,
+      "reportDate": "2026-03-31",
+      "priorShares": 27777,
+      "change": -4100,
+      "pctOut": 0.0429,
+      "action": "Sold"
     },
     {
       "fundName": "Invesco Dorsey Wright Industrials Momentum ETF",

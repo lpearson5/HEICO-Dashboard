@@ -107,3 +107,18 @@ export interface FundData {
   managers: FundManager[];
   holders: FundHolder[];
 }
+
+// ── §11 Beneficial-ownership filings (13G/13D/14D) ──
+export interface BeneficialOwner {
+  filer: string;
+  form: string;
+  fileDate: string;
+  shares: number | null;
+  pctClass: number | null;
+  url: string;
+}
+
+export interface BeneficialData {
+  lastUpdated: string;
+  filers: BeneficialOwner[];
+}

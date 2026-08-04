@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import type { TickerData, Holding, Action, MonthlyData, FundData } from "@/lib/types";
+import type { TickerData, Holding, Action, MonthlyData, FundData, BeneficialData } from "@/lib/types";
 import MonthlySnapshot from "@/components/MonthlySnapshot";
 
 const ACTION_COLORS: Record<Action, string> = {
@@ -66,6 +66,7 @@ export default function Dashboard({
   monthlyHeia = null,
   fundsHei = null,
   fundsHeia = null,
+  beneficial = null,
 }: {
   hei: TickerData | null;
   heia: TickerData | null;
@@ -73,6 +74,7 @@ export default function Dashboard({
   monthlyHeia?: MonthlyData | null;
   fundsHei?: FundData | null;
   fundsHeia?: FundData | null;
+  beneficial?: BeneficialData | null;
 }) {
   const [view, setView] = useState<"weekly" | "monthly">("weekly");
   const [activeTicker, setActiveTicker] = useState<"HEI" | "HEIA">("HEI");
@@ -242,7 +244,7 @@ export default function Dashboard({
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6">
-        {view === "monthly" && <MonthlySnapshot data={monthlyData} funds={fundsData} />}
+        {view === "monthly" && <MonthlySnapshot data={monthlyData} funds={fundsData} beneficial={beneficial} />}
       </div>
 
       <div className={`max-w-7xl mx-auto px-4 sm:px-6 py-6 space-y-6 ${view === "monthly" ? "hidden" : ""}`}>

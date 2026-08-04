@@ -451,6 +451,9 @@ async function main() {
   // 8. Mutual-fund holders (Phase 2: N-PORT).
   await buildFunds(today);
 
+  // 9. §11 beneficial-ownership filings (13G/13D/14D).
+  await buildBeneficialOwners(today);
+
   console.log("\nDone!");
 }
 
@@ -812,6 +815,70 @@ async function buildFunds(today) {
     }, null, 2));
     console.log(`  funds ${ticker}: ${summary.funds} funds hold, ${summary.pctOut.toFixed(2)}% of shares, ${summary.newFunds} new, ${sellouts.length} sellouts`);
   }
+}
+
+// ─── §11: Forms 13G / 13D / 14D beneficial-ownership filings ─────────────────────
+
+async function buildBeneficialOwners(today) {
+  console.log("\nBuilding 13G/13D/14D beneficial-ownership filings…");
+  const end = today, start = new Date(end.getTime() - 3 * 366 * 864e5);  // ~3 years
+  const forms = "SC 13D,SC 13D/A,SC 13G,SC 13G/A,SC 14D9,SC 14D9/A";
+  const hits = [];
+  for (const cusip of Object.values(CUSIPS)) {
+    let from = 0, total = null;
+    while (true) {
+      const url = `https://efts.sec.gov/LATEST/search-index?q=%22${cusip}%22&forms=${encodeURIComponent(forms)}`
+        + `&dateRange=custom&startdt=${ymd(start)}&enddt=${ymd(end)}&from=${from}`;
+      const j = await getRetry(url, { json: true });
+      if (!j) { await sleep(3000); continue; }
+      if (total === null) total = j.hits?.total?.value ?? 0;
+      const page = j.hits?.hits ?? [];
+      if (!page.length) break;
+      for (const h of page) hits.push(h);
+      from += page.length;
+      if (from >= total || from >= 500) break;
+      await sleep(1000);
+    }
+    await sleep(1000);
+  }
+  // Latest filing per filer CIK (exclude HEICO's own CIK 0000046619).
+  const byFiler = new Map();
+  for (const h of hits) {
+    const s = h._source ?? {};
+    const filerCik = (s.ciks ?? []).find(c => c !== "0000046619") ?? "";
+    const filer = (s.display_names ?? []).find(n => !/HEICO CORP/i.test(n))?.replace(/\s*\(CIK.*$/i, "").trim() ?? "Unknown";
+    if (!filerCik) continue;
+    const rec = { filer, filerCik, form: s.file_type, fileDate: s.file_date, adsh: s.adsh, doc: String(h._id).split(":")[1] };
+    const prev = byFiler.get(filerCik);
+    if (!prev || (rec.fileDate ?? "") > (prev.fileDate ?? "")) byFiler.set(filerCik, rec);
+  }
+
+  const filers = [];
+  for (const rec of byFiler.values()) {
+    const noD = rec.adsh.replace(/-/g, "");
+    const url = `https://www.sec.gov/Archives/edgar/data/${rec.filerCik.replace(/^0+/, "")}/${noD}/${rec.doc}`;
+    const html = await getRetry(url);
+    let shares = null, pct = null;
+    if (html) {
+      const txt = html.replace(/<[^>]+>/g, " ").replace(/&#160;|&nbsp;/g, " ").replace(/\s+/g, " ");
+      // Skip the "row (9)/(11)" references; grab the first 4+ digit number / N.N% after the label.
+      shares = txt.match(/AGGREGATE AMOUNT BENEFICIALLY OWNED(?:\s+BY\s+EACH\s+REPORTING\s+PERSON)?[\s\S]{0,60}?([\d,]{4,})/i)?.[1]?.replace(/,/g, "");
+      pct = txt.match(/PERCENT OF CLASS[\s\S]{0,140}?(\d{1,2}(?:\.\d+)?)\s*%/i)?.[1];
+    }
+    filers.push({
+      filer: rec.filer, form: rec.form, fileDate: rec.fileDate,
+      shares: shares ? parseInt(shares, 10) : null,
+      pctClass: pct ? parseFloat(pct) : null,
+      url,
+    });
+    await sleep(300);
+  }
+  filers.sort((a, b) => (b.shares ?? -1) - (a.shares ?? -1));
+
+  writeFileSync(join(DATA_DIR, "beneficial-owners.json"), JSON.stringify({
+    lastUpdated: today.toISOString(), filers,
+  }, null, 2));
+  console.log(`  beneficial owners: ${filers.length} filers (13G/13D/14D)`);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });
