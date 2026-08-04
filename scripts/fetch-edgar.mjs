@@ -39,6 +39,14 @@ const NEW_WINDOW_DAYS = 7;
 // NB: 422819102 is Heidrick & Struggles — do NOT use it for HEICO.
 const CUSIPS = { HEI: "422806109", HEIA: "422806208" };
 
+// HEICO shares outstanding by class, for "% of shares outstanding".
+// Source: latest 10-Q cover (also shown on the Vickers monthly report).
+// TODO: automate from SEC XBRL; refresh when HEICO reports new share counts.
+const SHARES_OUTSTANDING = { HEI: 55_148_527, HEIA: 84_369_872 };
+
+// Monthly snapshot shows this many quarters of history (current + 3 prior).
+const MONTHLY_QUARTERS = 4;
+
 const HEADERS = {
   "User-Agent":      "HEICO-Dashboard/1.0 lpearson@heico.com",
   "Accept-Encoding": "identity",
@@ -141,6 +149,19 @@ function mostRecentQuarterEnd(today) {
   if (m <= 6)  return `${y}-03-31`;
   if (m <= 9)  return `${y}-06-30`;
   return `${y}-09-30`;
+}
+
+// The most recent quarter whose 13F filing deadline (quarter-end + 45 days) has
+// passed — i.e. the latest "settled" quarter. Used for the monthly snapshot.
+function mostRecentCompleteQuarterEnd(today) {
+  let qe = mostRecentQuarterEnd(today);
+  const deadlinePassed = qeStr => {
+    const d = new Date(`${qeStr}T00:00:00Z`);
+    d.setUTCDate(d.getUTCDate() + 45);
+    return d.getTime() <= today.getTime();
+  };
+  for (let i = 0; i < 4 && !deadlinePassed(qe); i++) qe = priorQuarterEnd(qe);
+  return qe;
 }
 
 // Current = the most recent ended quarter (the one filers are actively reporting,
@@ -408,7 +429,104 @@ async function main() {
       : `\nNo new large moves.`);
   }
 
+  // 7. Monthly snapshot (Phase 1: 13F, 4-quarter history). Uses the most
+  //    complete quarter as "current" (a settled view), unlike the weekly page.
+  await buildMonthly(allHits, counts, cache, today);
+
   console.log("\nDone!");
+}
+
+// ─── Monthly snapshot builder ───────────────────────────────────────────────────
+
+function monthlyAction(cur, prev) {
+  if (cur == null && prev != null) return "Sellout";
+  if (cur != null && prev == null) return "New";
+  if (cur == null) return "No Change";
+  if (cur > prev) return "Bought";
+  if (cur < prev) return "Sold";
+  return "No Change";
+}
+
+async function buildMonthly(allHits, counts, cache, today) {
+  // Current = most recent quarter whose filing deadline has passed. Then 3 prior.
+  const monthlyCurrent = mostRecentCompleteQuarterEnd(today);
+  const quarters = [monthlyCurrent];
+  for (let i = 1; i < MONTHLY_QUARTERS; i++) quarters.push(priorQuarterEnd(quarters[i - 1]));
+  console.log(`\nMonthly snapshot quarters: ${quarters.join(", ")}`);
+
+  // Latest filing per (cik, period) across the 4 quarters.
+  const want = new Map(), nameByCik = new Map();
+  for (const h of allHits) {
+    if (!quarters.includes(h.period) || !h.accession || !h.doc) continue;
+    nameByCik.set(h.cik, h.name);
+    const key = `${h.cik}|${h.period}`;
+    const prev = want.get(key);
+    if (!prev || (h.fileDate ?? "") > (prev.fileDate ?? "")) want.set(key, h);
+  }
+  const filings = [...want.values()];
+  const toFetch = filings.filter(h => !cache[h.accession]?.ok);
+  console.log(`  monthly filings: ${filings.length} (${toFetch.length} to fetch)`);
+  let n = 0;
+  for (const h of filings) {
+    const before = cache[h.accession]?.ok;
+    await fetchFiling(h, cache);
+    if (!before) await sleep(400);
+    if (++n % 100 === 0) { saveCache(cache); console.log(`  monthly fetched ${n}/${filings.length}`); }
+  }
+  saveCache(cache);
+
+  for (const ticker of Object.keys(CUSIPS)) {
+    const outShares = SHARES_OUTSTANDING[ticker];
+    // cik -> { period -> {shares,value} }
+    const byCik = new Map();
+    for (const h of filings) {
+      const pos = cache[h.accession]?.positions?.[ticker];
+      if (!pos) continue;
+      if (!byCik.has(h.cik)) byCik.set(h.cik, {});
+      byCik.get(h.cik)[h.period] = pos;
+    }
+    const records = [];
+    for (const [cik, byP] of byCik) {
+      const shares = quarters.map(p => byP[p]?.shares ?? null);
+      const cur = shares[0], prev = shares[1];
+      const netChg = cur != null && prev != null ? cur - prev
+        : cur != null ? cur : prev != null ? -prev : null;
+      records.push({
+        filerName: nameByCik.get(cik) ?? "Unknown",
+        filerCik: cik,
+        shares,                                   // [current, -1q, -2q, -3q]
+        netChg,
+        currentValue: byP[quarters[0]]?.value ?? null,
+        pctOut: cur != null ? Math.round(cur / outShares * 1e4) / 1e4 * 100 : null,
+        action: monthlyAction(cur, prev),
+      });
+    }
+    records.sort((a, b) => (b.shares[0] ?? -1) - (a.shares[0] ?? -1));
+
+    const heldCur = records.filter(r => r.shares[0] != null);
+    const totalShares = heldCur.reduce((s, r) => s + r.shares[0], 0);
+    const summary = {
+      institutions: heldCur.length,
+      totalShares,
+      pctOut: Math.round(totalShares / outShares * 1e4) / 1e4 * 100,
+      newHolders: records.filter(r => r.action === "New").length,
+      sellouts:   records.filter(r => r.action === "Sellout").length,
+      bought:     records.filter(r => r.action === "Bought").length,
+      sold:       records.filter(r => r.action === "Sold").length,
+      held:       records.filter(r => r.action === "No Change" && r.shares[0] != null).length,
+    };
+    const top10    = heldCur.slice(0, 10);
+    const newList  = records.filter(r => r.action === "New").sort((a, b) => (b.shares[0] ?? 0) - (a.shares[0] ?? 0));
+    const sellouts = records.filter(r => r.action === "Sellout").sort((a, b) => (b.shares[1] ?? 0) - (a.shares[1] ?? 0));
+
+    writeFileSync(join(DATA_DIR, `monthly-${ticker.toLowerCase()}.json`), JSON.stringify({
+      ticker, cusip: CUSIPS[ticker],
+      quarters, sharesOutstanding: outShares,
+      lastUpdated: today.toISOString(),
+      summary, top10, newHolders: newList, sellouts, holdings: records,
+    }, null, 2));
+    console.log(`  monthly ${ticker}: ${summary.institutions} holders, ${summary.pctOut.toFixed(2)}% of shares; ${summary.newHolders} new, ${summary.sellouts} sellouts`);
+  }
 }
 
 main().catch(e => { console.error(e); process.exit(1); });

@@ -22,3 +22,40 @@ export interface TickerData {
   lastUpdated: string;
   holdings: Holding[];
 }
+
+// ── Monthly snapshot (Phase 1: 13F, 4-quarter history) ──
+export type MonthlyAction = "New" | "Bought" | "Sold" | "Sellout" | "No Change";
+
+export interface MonthlyHolding {
+  filerName: string;
+  filerCik: string;
+  shares: (number | null)[];   // [current, -1q, -2q, -3q]
+  netChg: number | null;       // current minus prior quarter
+  currentValue: number | null; // USD thousands
+  pctOut: number | null;       // % of shares outstanding
+  action: MonthlyAction;
+}
+
+export interface MonthlySummary {
+  institutions: number;
+  totalShares: number;
+  pctOut: number;
+  newHolders: number;
+  sellouts: number;
+  bought: number;
+  sold: number;
+  held: number;
+}
+
+export interface MonthlyData {
+  ticker: string;
+  cusip: string;
+  quarters: string[];          // 4 period-end dates, [current, -1q, -2q, -3q]
+  sharesOutstanding: number;
+  lastUpdated: string;
+  summary: MonthlySummary;
+  top10: MonthlyHolding[];
+  newHolders: MonthlyHolding[];
+  sellouts: MonthlyHolding[];
+  holdings: MonthlyHolding[];
+}

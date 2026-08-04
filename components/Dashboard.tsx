@@ -1,7 +1,8 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import type { TickerData, Holding, Action } from "@/lib/types";
+import type { TickerData, Holding, Action, MonthlyData } from "@/lib/types";
+import MonthlySnapshot from "@/components/MonthlySnapshot";
 
 const ACTION_COLORS: Record<Action, string> = {
   "New Position":  "bg-blue-100 text-blue-800 border-blue-200",
@@ -61,10 +62,15 @@ function fmtValue(n: number | null): string {
 export default function Dashboard({
   hei,
   heia,
+  monthlyHei = null,
+  monthlyHeia = null,
 }: {
   hei: TickerData | null;
   heia: TickerData | null;
+  monthlyHei?: MonthlyData | null;
+  monthlyHeia?: MonthlyData | null;
 }) {
+  const [view, setView] = useState<"weekly" | "monthly">("weekly");
   const [activeTicker, setActiveTicker] = useState<"HEI" | "HEIA">("HEI");
   const [actionFilter, setActionFilter] = useState<Action | "All">("All");
   const [largeOnly, setLargeOnly] = useState(false);
@@ -74,6 +80,7 @@ export default function Dashboard({
   const [sortAsc, setSortAsc] = useState(false);
 
   const data = activeTicker === "HEI" ? hei : heia;
+  const monthlyData = activeTicker === "HEI" ? monthlyHei : monthlyHeia;
 
   const summary = useMemo(() => {
     if (!data) return null;
@@ -183,34 +190,57 @@ export default function Dashboard({
             <div>
               <h1 className="text-2xl font-bold text-gray-900">HEICO Institutional Ownership</h1>
               <p className="text-sm text-gray-500 mt-0.5">
-                {data.currentPeriod} vs {data.priorPeriod} · SEC EDGAR 13F-HR ·{" "}
-                Updated {new Date(data.lastUpdated).toLocaleDateString("en-US", {
+                {view === "weekly"
+                  ? <>{data.currentPeriod} vs {data.priorPeriod} · Weekly 13F tracker</>
+                  : <>Monthly ownership snapshot · SEC EDGAR 13F-HR</>}
+                {" · "}Updated {new Date(data.lastUpdated).toLocaleDateString("en-US", {
                   month: "short", day: "numeric", year: "numeric",
                 })}
               </p>
             </div>
 
-            {/* Ticker toggle */}
-            <div className="flex rounded-lg border border-gray-300 overflow-hidden self-start sm:self-auto">
-              {(["HEI", "HEIA"] as const).map((t) => (
-                <button
-                  key={t}
-                  onClick={() => setActiveTicker(t)}
-                  className={`px-5 py-2 text-sm font-medium transition-colors ${
-                    activeTicker === t
-                      ? "bg-blue-600 text-white"
-                      : "bg-white text-gray-700 hover:bg-gray-50"
-                  }`}
-                >
-                  {t === "HEIA" ? "HEI/A" : t}
-                </button>
-              ))}
+            <div className="flex flex-wrap items-center gap-2 self-start sm:self-auto">
+              {/* Weekly / Monthly view tabs */}
+              <div className="flex rounded-lg border border-gray-300 overflow-hidden">
+                {([["weekly", "Weekly"], ["monthly", "Monthly"]] as const).map(([v, label]) => (
+                  <button
+                    key={v}
+                    onClick={() => setView(v)}
+                    className={`px-4 py-2 text-sm font-medium transition-colors ${
+                      view === v ? "bg-gray-900 text-white" : "bg-white text-gray-700 hover:bg-gray-50"
+                    }`}
+                  >
+                    {label}
+                  </button>
+                ))}
+              </div>
+
+              {/* Ticker toggle */}
+              <div className="flex rounded-lg border border-gray-300 overflow-hidden">
+                {(["HEI", "HEIA"] as const).map((t) => (
+                  <button
+                    key={t}
+                    onClick={() => setActiveTicker(t)}
+                    className={`px-5 py-2 text-sm font-medium transition-colors ${
+                      activeTicker === t
+                        ? "bg-blue-600 text-white"
+                        : "bg-white text-gray-700 hover:bg-gray-50"
+                    }`}
+                  >
+                    {t === "HEIA" ? "HEI/A" : t}
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 space-y-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6">
+        {view === "monthly" && <MonthlySnapshot data={monthlyData} />}
+      </div>
+
+      <div className={`max-w-7xl mx-auto px-4 sm:px-6 py-6 space-y-6 ${view === "monthly" ? "hidden" : ""}`}>
 
         {/* Summary cards */}
         {summary && (

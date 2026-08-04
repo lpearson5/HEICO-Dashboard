@@ -1,12 +1,11 @@
 import { readFileSync } from "fs";
 import { join } from "path";
 import Dashboard from "@/components/Dashboard";
-import type { TickerData } from "@/lib/types";
+import type { TickerData, MonthlyData } from "@/lib/types";
 
-function loadData(ticker: string): TickerData | null {
+function load<T>(file: string): T | null {
   try {
-    const path = join(process.cwd(), "data", `${ticker}.json`);
-    return JSON.parse(readFileSync(path, "utf8")) as TickerData;
+    return JSON.parse(readFileSync(join(process.cwd(), "data", file), "utf8")) as T;
   } catch {
     return null;
   }
@@ -15,8 +14,12 @@ function loadData(ticker: string): TickerData | null {
 export const revalidate = 3600; // re-read files every hour on Vercel
 
 export default function Page() {
-  const hei  = loadData("hei");
-  const heia = loadData("heia");
-
-  return <Dashboard hei={hei} heia={heia} />;
+  return (
+    <Dashboard
+      hei={load<TickerData>("hei.json")}
+      heia={load<TickerData>("heia.json")}
+      monthlyHei={load<MonthlyData>("monthly-hei.json")}
+      monthlyHeia={load<MonthlyData>("monthly-heia.json")}
+    />
+  );
 }
