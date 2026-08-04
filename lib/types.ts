@@ -34,6 +34,10 @@ export interface MonthlyHolding {
   currentValue: number | null; // USD thousands
   pctOut: number | null;       // % of shares outstanding
   action: MonthlyAction;
+  discretion?: string | null;  // investment discretion: SOLE / DFND / OTR
+  voteSole?: number | null;    // voting authority — sole
+  voteShared?: number | null;  // voting authority — shared
+  voteNone?: number | null;    // voting authority — none
 }
 
 export interface MonthlySummary {

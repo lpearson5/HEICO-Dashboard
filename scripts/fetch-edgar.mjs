@@ -82,7 +82,7 @@ async function getRetry(url, { json = false, tries = 5 } = {}) {
 // ─── Cache ─────────────────────────────────────────────────────────────────────
 // Bump CACHE_VERSION whenever parseInfoTable logic changes, so stale parsed
 // results are discarded and filings are re-parsed on the next run.
-const CACHE_VERSION = 2;
+const CACHE_VERSION = 3;   // bump: added investment-discretion & voting-authority parsing
 
 function loadCache() {
   if (!existsSync(CACHE_PATH)) return { _version: CACHE_VERSION };
@@ -201,10 +201,20 @@ function parseInfoTable(xml) {
     const vm = b.match(/<(?:\w+:)?value>(\d+)</i);
     const shares = sm ? parseInt(sm[1], 10) : 0;
     const value  = vm ? parseInt(vm[1], 10) : 0;
+    // Investment discretion (SOLE/DFND/OTR) and voting authority (Sole/Shared/None).
+    const disc = (b.match(/<(?:\w+:)?investmentDiscretion>([^<]+)</i)?.[1] ?? "").trim().toUpperCase();
+    const voteSole   = parseInt(b.match(/<(?:\w+:)?Sole>(\d+)</i)?.[1]   ?? "0", 10);
+    const voteShared = parseInt(b.match(/<(?:\w+:)?Shared>(\d+)</i)?.[1] ?? "0", 10);
+    const voteNone   = parseInt(b.match(/<(?:\w+:)?None>(\d+)</i)?.[1]   ?? "0", 10);
     // A filing can list a CUSIP across multiple rows (share classes/lots) — sum them.
+    const prev = out[ticker];
     out[ticker] = {
-      shares: (out[ticker]?.shares ?? 0) + shares,
-      value:  (out[ticker]?.value  ?? 0) + value,
+      shares:     (prev?.shares ?? 0) + shares,
+      value:      (prev?.value  ?? 0) + value,
+      discretion: prev?.discretion || disc,        // first non-empty
+      voteSole:   (prev?.voteSole   ?? 0) + voteSole,
+      voteShared: (prev?.voteShared ?? 0) + voteShared,
+      voteNone:   (prev?.voteNone   ?? 0) + voteNone,
     };
   }
   return out;
@@ -497,6 +507,7 @@ async function buildMonthly(allHits, counts, cache, today) {
     for (const [cik, byP] of byCik) {
       const shares = quarters.map(p => byP[p]?.shares ?? null);
       const cur = shares[0], prev = shares[1];
+      const curPos = byP[quarters[0]];
       const netChg = cur != null && prev != null ? cur - prev
         : cur != null ? cur : prev != null ? -prev : null;
       records.push({
@@ -504,9 +515,13 @@ async function buildMonthly(allHits, counts, cache, today) {
         filerCik: cik,
         shares,                                   // [current, -1q, -2q, -3q]
         netChg,
-        currentValue: byP[quarters[0]]?.value ?? null,
+        currentValue: curPos?.value ?? null,
         pctOut: cur != null ? Math.round(cur / outShares * 1e4) / 1e4 * 100 : null,
         action: monthlyAction(cur, prev),
+        discretion: curPos?.discretion ?? null,   // SOLE / DFND / OTR
+        voteSole: curPos?.voteSole ?? null,
+        voteShared: curPos?.voteShared ?? null,
+        voteNone: curPos?.voteNone ?? null,
       });
     }
     records.sort((a, b) => (b.shares[0] ?? -1) - (a.shares[0] ?? -1));

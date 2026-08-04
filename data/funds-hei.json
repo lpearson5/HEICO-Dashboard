@@ -2,14 +2,14 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55148527,
-  "lastUpdated": "2026-08-04T16:32:40.868Z",
+  "lastUpdated": "2026-08-04T17:42:32.003Z",
   "summary": {
     "funds": 430,
-    "totalShares": 18524820,
-    "pctOut": 33.5908,
+    "totalShares": 18523567,
+    "pctOut": 33.588499999999996,
     "newFunds": 37,
     "linkedManagers": 26,
-    "linkedShares": 15997074
+    "linkedShares": 15995821
   },
   "newHolders": [
     {
@@ -950,7 +950,7 @@
     {
       "manager": "Invesco",
       "fundCount": 11,
-      "shares": 761426,
+      "shares": 760173,
       "funds": [
         {
           "fundName": "Invesco Aerospace &amp; Defense ETF",
@@ -978,7 +978,7 @@
         },
         {
           "fundName": "Invesco Bloomberg Pricing Power ETF",
-          "shares": 12136
+          "shares": 10883
         },
         {
           "fundName": "Invesco MSCI USA ETF",
@@ -3470,19 +3470,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Invesco Bloomberg Pricing Power ETF",
-      "registrant": "Invesco Exchange-Traded Self-Indexed Fund Trust",
-      "manager": "Invesco",
-      "cik": "1657201",
-      "shares": 12136,
-      "value": 3876967,
-      "reportDate": "2026-02-28",
-      "priorShares": 12287,
-      "change": -151,
-      "pctOut": 0.022000000000000002,
-      "action": "Sold"
-    },
-    {
       "fundName": "Dunham Focused Large Cap Growth Fund",
       "registrant": "Dunham Funds",
       "manager": "",
@@ -3559,6 +3546,19 @@
       "change": 2088,
       "pctOut": 0.019799999999999998,
       "action": "Bought"
+    },
+    {
+      "fundName": "Invesco Bloomberg Pricing Power ETF",
+      "registrant": "Invesco Exchange-Traded Self-Indexed Fund Trust",
+      "manager": "Invesco",
+      "cik": "1657201",
+      "shares": 10883,
+      "value": 3789243,
+      "reportDate": "2026-05-31",
+      "priorShares": 12136,
+      "change": -1253,
+      "pctOut": 0.0197,
+      "action": "Sold"
     },
     {
       "fundName": "Catholic Responsible Investments Multi-Style US Equity Fund",

@@ -210,6 +210,9 @@ export default function MonthlySnapshot({ data, funds }: { data: MonthlyData | n
         </div>
       </div>
 
+      {/* §9 Investment Discretion & Voting Authority */}
+      <DiscretionSection holdings={data.holdings} />
+
       {/* ── Mutual funds & ETFs (N-PORT) ── */}
       <FundSection funds={funds} search={search} setSearch={setSearch} />
 
@@ -355,6 +358,58 @@ function FundSection({
 
       {/* §10: 13F Managers with Affiliated Funds */}
       <ManagersSection managers={funds.managers} outShares={funds.sharesOutstanding} />
+    </div>
+  );
+}
+
+const DISC_LABEL: Record<string, string> = { SOLE: "Sole", DFND: "Defined", OTR: "Other" };
+
+function DiscretionSection({ holdings }: { holdings: MonthlyHolding[] }) {
+  const [search, setSearch] = useState("");
+  const base = useMemo(() => holdings.filter((h) => h.shares[0] != null), [holdings]);
+  const rows = useMemo(() => {
+    const q = search.trim().toLowerCase();
+    return q ? base.filter((h) => h.filerName.toLowerCase().includes(q)) : base;
+  }, [base, search]);
+  const acc = useMemo<Record<string, (h: MonthlyHolding) => number | string | null>>(() => ({
+    name: (h) => h.filerName, shares: (h) => h.shares[0], disc: (h) => h.discretion ?? "",
+    vs: (h) => h.voteSole ?? 0, vsh: (h) => h.voteShared ?? 0, vn: (h) => h.voteNone ?? 0,
+  }), []);
+  const s = useSort(rows, acc, "shares");
+
+  return (
+    <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+      <div className="px-4 py-3 border-b border-gray-100 flex items-center justify-between gap-3">
+        <span className="text-sm font-semibold text-gray-700">Investment Discretion & Voting Authority</span>
+        <input value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search institution…"
+          className="px-3 py-1.5 text-sm border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-blue-500" />
+      </div>
+      <div className="overflow-x-auto max-h-[70vh]">
+        <table className="w-full text-sm">
+          <thead className="bg-gray-50 border-b border-gray-200 text-xs font-semibold text-gray-500 uppercase tracking-wide sticky top-0">
+            <tr>
+              <SortTh id="name" label="Institution" sort={s} />
+              <SortTh id="shares" label="Shares" sort={s} align="right" />
+              <SortTh id="disc" label="Discretion" sort={s} align="center" />
+              <SortTh id="vs" label="Vote: Sole" sort={s} align="right" />
+              <SortTh id="vsh" label="Shared" sort={s} align="right" />
+              <SortTh id="vn" label="None" sort={s} align="right" />
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-gray-100">
+            {s.sorted.map((h) => (
+              <tr key={h.filerCik} className="hover:bg-gray-50">
+                <td className="px-4 py-2 font-medium text-gray-900 max-w-xs truncate">{h.filerName}</td>
+                <td className="px-4 py-2 text-right tabular-nums text-gray-800">{fmt(h.shares[0])}</td>
+                <td className="px-4 py-2 text-center text-gray-600">{h.discretion ? (DISC_LABEL[h.discretion] ?? h.discretion) : "—"}</td>
+                <td className="px-4 py-2 text-right tabular-nums text-gray-600">{fmt(h.voteSole ?? null)}</td>
+                <td className="px-4 py-2 text-right tabular-nums text-gray-600">{fmt(h.voteShared ?? null)}</td>
+                <td className="px-4 py-2 text-right tabular-nums text-gray-600">{fmt(h.voteNone ?? null)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }

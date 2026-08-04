@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-08-04T16:32:40.868Z",
+  "lastUpdated": "2026-08-04T17:42:32.003Z",
   "holdings": [
     {
       "filerName": "Local Pensions Partnership Investment Ltd",
@@ -615,6 +615,18 @@
       "currentValue": 2596896,
       "action": "Sold",
       "firstSeen": "2026-07-29",
+      "newThisWeek": true
+    },
+    {
+      "filerName": "PRINCIPAL SECURITIES, INC.",
+      "filerCik": "12600",
+      "currentShares": 9824,
+      "priorShares": 9265,
+      "change": 559,
+      "pctChange": 6,
+      "currentValue": 2533739,
+      "action": "Bought",
+      "firstSeen": "2026-08-04",
       "newThisWeek": true
     },
     {
@@ -2778,6 +2790,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "Brooklyn FI, LLC",
+      "filerCik": "1916123",
+      "currentShares": 2,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
+      "currentValue": 489,
+      "action": "New Position",
+      "firstSeen": "2026-08-04",
+      "newThisWeek": true
+    },
+    {
       "filerName": "HIGHLINE WEALTH PARTNERS LLC",
       "filerCik": "2042654",
       "currentShares": 2,
@@ -3234,10 +3258,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Capital Research Global Investors",
-      "filerCik": "1422848",
+      "filerName": "Capital International Investors",
+      "filerCik": "1562230",
       "currentShares": null,
-      "priorShares": 186503,
+      "priorShares": 507773,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -3246,10 +3270,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Capital International Investors",
-      "filerCik": "1562230",
+      "filerName": "Capital Research Global Investors",
+      "filerCik": "1422848",
       "currentShares": null,
-      "priorShares": 507773,
+      "priorShares": 186503,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -3870,10 +3894,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "BROWN, LISLE/CUMMINGS, INC.",
-      "filerCik": "14745",
+      "filerName": "CALIFORNIA PUBLIC EMPLOYEES RETIREMENT SYSTEM",
+      "filerCik": "919079",
       "currentShares": null,
-      "priorShares": 19,
+      "priorShares": 156448,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -3882,10 +3906,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "CALIFORNIA PUBLIC EMPLOYEES RETIREMENT SYSTEM",
-      "filerCik": "919079",
+      "filerName": "BROWN, LISLE/CUMMINGS, INC.",
+      "filerCik": "14745",
       "currentShares": null,
-      "priorShares": 156448,
+      "priorShares": 19,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -4878,10 +4902,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Vanguard Personalized Indexing Management, LLC",
-      "filerCik": "1767306",
+      "filerName": "Universal- Beteiligungs- und Servicegesellschaft mbH",
+      "filerCik": "2057170",
       "currentShares": null,
-      "priorShares": 6812,
+      "priorShares": 38058,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -4890,10 +4914,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Universal- Beteiligungs- und Servicegesellschaft mbH",
-      "filerCik": "2057170",
+      "filerName": "Vanguard Personalized Indexing Management, LLC",
+      "filerCik": "1767306",
       "currentShares": null,
-      "priorShares": 38058,
+      "priorShares": 6812,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5262,18 +5286,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Optiver Holding B.V.",
-      "filerCik": "1859606",
-      "currentShares": null,
-      "priorShares": 973,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "KBC Group NV",
       "filerCik": "1411133",
       "currentShares": null,
@@ -5290,6 +5302,18 @@
       "filerCik": "1909846",
       "currentShares": null,
       "priorShares": 281,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Optiver Holding B.V.",
+      "filerCik": "1859606",
+      "currentShares": null,
+      "priorShares": 973,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5430,10 +5454,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "HUNTINGTON NATIONAL BANK",
-      "filerCik": "49205",
+      "filerName": "AMERIPRISE FINANCIAL INC  (AMP)",
+      "filerCik": "820027",
       "currentShares": null,
-      "priorShares": 43965,
+      "priorShares": 194794,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5442,10 +5466,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "AMERIPRISE FINANCIAL INC  (AMP)",
-      "filerCik": "820027",
+      "filerName": "HUNTINGTON NATIONAL BANK",
+      "filerCik": "49205",
       "currentShares": null,
-      "priorShares": 194794,
+      "priorShares": 43965,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5502,6 +5526,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "NISA INVESTMENT ADVISORS, LLC",
+      "filerCik": "937615",
+      "currentShares": null,
+      "priorShares": 4303,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
       "filerName": "MANUFACTURERS LIFE INSURANCE COMPANY, THE",
       "filerCik": "928047",
       "currentShares": null,
@@ -5518,18 +5554,6 @@
       "filerCik": "1871926",
       "currentShares": null,
       "priorShares": 250317,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "NISA INVESTMENT ADVISORS, LLC",
-      "filerCik": "937615",
-      "currentShares": null,
-      "priorShares": 4303,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6018,10 +6042,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "XTX Topco Ltd",
-      "filerCik": "1828301",
+      "filerName": "ROTHSCHILD INVESTMENT LLC",
+      "filerCik": "85338",
       "currentShares": null,
-      "priorShares": 34087,
+      "priorShares": 204,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6030,10 +6054,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "ROTHSCHILD INVESTMENT LLC",
-      "filerCik": "85338",
+      "filerName": "XTX Topco Ltd",
+      "filerCik": "1828301",
       "currentShares": null,
-      "priorShares": 204,
+      "priorShares": 34087,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7182,10 +7206,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Ilmarinen Mutual Pension Insurance Co",
-      "filerCik": "1661580",
+      "filerName": "Plato Investment Management Ltd",
+      "filerCik": "1984475",
       "currentShares": null,
-      "priorShares": 11000,
+      "priorShares": 4832,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7194,10 +7218,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Plato Investment Management Ltd",
-      "filerCik": "1984475",
+      "filerName": "Ilmarinen Mutual Pension Insurance Co",
+      "filerCik": "1661580",
       "currentShares": null,
-      "priorShares": 4832,
+      "priorShares": 11000,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7746,14 +7770,14 @@
       "newThisWeek": false
     },
     {
-      "filerName": "PRINCIPAL SECURITIES, INC.",
-      "filerCik": "12600",
+      "filerName": "Signature Equity Partners, LLC",
+      "filerCik": "2109813",
       "currentShares": null,
-      "priorShares": 9265,
+      "priorShares": 8,
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Not Filed Yet",
+      "action": "Sell Out",
       "firstSeen": null,
       "newThisWeek": false
     },
@@ -7766,18 +7790,6 @@
       "pctChange": null,
       "currentValue": null,
       "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Signature Equity Partners, LLC",
-      "filerCik": "2109813",
-      "currentShares": null,
-      "priorShares": 8,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
       "firstSeen": null,
       "newThisWeek": false
     },
