@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { Fragment, useMemo, useState } from "react";
 import type { MonthlyData, MonthlyHolding, MonthlyAction, FundData, FundHolder, FundManager } from "@/lib/types";
 
 const ACTION_COLORS: Record<MonthlyAction, string> = {
@@ -296,7 +296,10 @@ function FundSection({
           <div className="overflow-y-auto max-h-80 divide-y divide-gray-100">
             {[...funds.newHolders].sort((a, b) => b.shares - a.shares).map((h, i) => (
               <div key={`${h.cik}-${i}`} className="px-4 py-2 flex items-center justify-between gap-3">
-                <span className="text-sm text-gray-800 truncate">{decode(h.fundName)}{h.manager ? <span className="text-gray-400"> · {h.manager}</span> : null}</span>
+                <span className="text-sm text-gray-800 truncate">
+                  {decode(h.fundName)}
+                  <span className="text-gray-400"> · {decode(h.registrant)}{h.manager ? ` (${h.manager})` : ""}</span>
+                </span>
                 <span className="text-sm tabular-nums text-gray-600 whitespace-nowrap">{fmt(h.shares)}</span>
               </div>
             ))}
@@ -412,14 +415,30 @@ function ManagersSection({ managers, outShares }: { managers: FundManager[]; out
     manager: (m) => m.manager, funds: (m) => m.fundCount, shares: (m) => m.shares,
   }), []);
   const s = useSort(managers ?? [], acc, "shares");
+  const [expanded, setExpanded] = useState<Set<string>>(new Set());
+  const toggle = (k: string) => setExpanded((prev) => {
+    const n = new Set(prev);
+    n.has(k) ? n.delete(k) : n.add(k);
+    return n;
+  });
+  const allExpanded = expanded.size === (managers?.length ?? 0) && (managers?.length ?? 0) > 0;
   if (!managers || managers.length === 0) return null;
+
   return (
     <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
-      <div className="px-4 py-3 border-b border-gray-100">
-        <span className="text-sm font-semibold text-gray-700">13F Managers with Affiliated Funds</span>
-        <p className="text-xs text-gray-500 mt-0.5">Fund families grouped under their parent manager. Funds not matched to a manager are omitted here but still appear in the fund list above.</p>
+      <div className="px-4 py-3 border-b border-gray-100 flex items-center justify-between gap-3">
+        <div>
+          <span className="text-sm font-semibold text-gray-700">13F Managers with Affiliated Funds</span>
+          <p className="text-xs text-gray-500 mt-0.5">Click a manager to see all of its affiliated funds. Funds not matched to a manager still appear in the fund list above.</p>
+        </div>
+        <button
+          onClick={() => setExpanded(allExpanded ? new Set() : new Set(managers.map((m) => m.manager)))}
+          className="px-3 py-1.5 text-xs font-medium rounded-lg border border-gray-300 hover:bg-gray-50 whitespace-nowrap"
+        >
+          {allExpanded ? "Collapse all" : "Expand all"}
+        </button>
       </div>
-      <div className="overflow-x-auto max-h-[60vh]">
+      <div className="overflow-x-auto max-h-[70vh]">
         <table className="w-full text-sm">
           <thead className="bg-gray-50 border-b border-gray-200 text-xs font-semibold text-gray-500 uppercase tracking-wide sticky top-0">
             <tr>
@@ -427,22 +446,31 @@ function ManagersSection({ managers, outShares }: { managers: FundManager[]; out
               <SortTh id="funds" label="# Funds" sort={s} align="right" />
               <SortTh id="shares" label="Total Fund Shares" sort={s} align="right" />
               <th className="px-4 py-2 text-right">% Out</th>
-              <th className="px-4 py-2 text-left">Largest affiliated funds</th>
             </tr>
           </thead>
           <tbody className="divide-y divide-gray-100">
-            {s.sorted.map((m) => (
-              <tr key={m.manager} className="hover:bg-gray-50 align-top">
-                <td className="px-4 py-2 font-medium text-gray-900 whitespace-nowrap">{m.manager}</td>
-                <td className="px-4 py-2 text-right tabular-nums text-gray-700">{m.fundCount}</td>
-                <td className="px-4 py-2 text-right tabular-nums text-gray-900 font-semibold">{fmt(m.shares)}</td>
-                <td className="px-4 py-2 text-right tabular-nums text-gray-600">{(m.shares / outShares * 100).toFixed(2)}%</td>
-                <td className="px-4 py-2 text-gray-500 text-xs">
-                  {m.funds.slice(0, 3).map((f) => `${decode(f.fundName)} (${fmt(f.shares)})`).join(" · ")}
-                  {m.funds.length > 3 ? ` +${m.funds.length - 3} more` : ""}
-                </td>
-              </tr>
-            ))}
+            {s.sorted.map((m) => {
+              const open = expanded.has(m.manager);
+              return (
+                <Fragment key={m.manager}>
+                  <tr className="hover:bg-gray-50 cursor-pointer" onClick={() => toggle(m.manager)}>
+                    <td className="px-4 py-2 font-medium text-gray-900 whitespace-nowrap">
+                      <span className="inline-block w-4 text-gray-400">{open ? "▾" : "▸"}</span>{m.manager}
+                    </td>
+                    <td className="px-4 py-2 text-right tabular-nums text-gray-700">{m.fundCount}</td>
+                    <td className="px-4 py-2 text-right tabular-nums text-gray-900 font-semibold">{fmt(m.shares)}</td>
+                    <td className="px-4 py-2 text-right tabular-nums text-gray-600">{(m.shares / outShares * 100).toFixed(2)}%</td>
+                  </tr>
+                  {open && m.funds.map((f, i) => (
+                    <tr key={`${m.manager}-${i}`} className="bg-gray-50/60">
+                      <td className="pl-12 pr-4 py-1.5 text-gray-600" colSpan={2}>{decode(f.fundName)}</td>
+                      <td className="px-4 py-1.5 text-right tabular-nums text-gray-600">{fmt(f.shares)}</td>
+                      <td className="px-4 py-1.5 text-right tabular-nums text-gray-400">{(f.shares / outShares * 100).toFixed(3)}%</td>
+                    </tr>
+                  ))}
+                </Fragment>
+              );
+            })}
           </tbody>
         </table>
       </div>
