@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-08-04T14:41:00.644Z",
+  "lastUpdated": "2026-08-04T15:31:29.797Z",
   "holdings": [
     {
       "filerName": "Local Pensions Partnership Investment Ltd",
@@ -1401,11 +1401,11 @@
       "filerName": "Crossmark Global Holdings, Inc.",
       "filerCik": "1539204",
       "currentShares": 1597,
-      "priorShares": null,
-      "change": null,
-      "pctChange": null,
+      "priorShares": 1597,
+      "change": 0,
+      "pctChange": 0,
       "currentValue": 411882,
-      "action": "New Position",
+      "action": "No Change",
       "firstSeen": "2026-07-16",
       "newThisWeek": false
     },
@@ -1504,6 +1504,18 @@
       "action": "Bought",
       "firstSeen": "2026-07-27",
       "newThisWeek": false
+    },
+    {
+      "filerName": "Journey Advisory Group, LLC",
+      "filerCik": "1840085",
+      "currentShares": 1219,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
+      "currentValue": 314392,
+      "action": "New Position",
+      "firstSeen": "2026-08-04",
+      "newThisWeek": true
     },
     {
       "filerName": "Trust Point Inc.",
@@ -2622,18 +2634,6 @@
       "newThisWeek": true
     },
     {
-      "filerName": "DiNuzzo Private Wealth, Inc.",
-      "filerCik": "1994563",
-      "currentShares": 6,
-      "priorShares": 6,
-      "change": 0,
-      "pctChange": 0,
-      "currentValue": 1548,
-      "action": "No Change",
-      "firstSeen": "2026-07-10",
-      "newThisWeek": false
-    },
-    {
       "filerName": "CKW FINANCIAL GROUP",
       "filerCik": "1600403",
       "currentShares": 6,
@@ -2643,6 +2643,18 @@
       "currentValue": 2,
       "action": "New Position",
       "firstSeen": "2026-07-27",
+      "newThisWeek": false
+    },
+    {
+      "filerName": "DiNuzzo Private Wealth, Inc.",
+      "filerCik": "1994563",
+      "currentShares": 6,
+      "priorShares": 6,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 1548,
+      "action": "No Change",
+      "firstSeen": "2026-07-10",
       "newThisWeek": false
     },
     {
@@ -3210,10 +3222,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Capital International Investors",
-      "filerCik": "1562230",
+      "filerName": "Capital Research Global Investors",
+      "filerCik": "1422848",
       "currentShares": null,
-      "priorShares": 507773,
+      "priorShares": 186503,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -3222,10 +3234,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Capital Research Global Investors",
-      "filerCik": "1422848",
+      "filerName": "Capital International Investors",
+      "filerCik": "1562230",
       "currentShares": null,
-      "priorShares": 186503,
+      "priorShares": 507773,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -3834,10 +3846,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Bridgewater Associates, LP",
-      "filerCik": "1350694",
+      "filerName": "Utah Retirement Systems",
+      "filerCik": "1548392",
       "currentShares": null,
-      "priorShares": 2924,
+      "priorShares": 12173,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -3846,10 +3858,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Utah Retirement Systems",
-      "filerCik": "1548392",
+      "filerName": "Bridgewater Associates, LP",
+      "filerCik": "1350694",
       "currentShares": null,
-      "priorShares": 12173,
+      "priorShares": 2924,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -4218,10 +4230,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "RITHOLTZ WEALTH MANAGEMENT",
-      "filerCik": "1698218",
+      "filerName": "Summit Trail Advisors, LLC",
+      "filerCik": "1698478",
       "currentShares": null,
-      "priorShares": 8889,
+      "priorShares": 5301,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -4230,10 +4242,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Summit Trail Advisors, LLC",
-      "filerCik": "1698478",
+      "filerName": "RITHOLTZ WEALTH MANAGEMENT",
+      "filerCik": "1698218",
       "currentShares": null,
-      "priorShares": 5301,
+      "priorShares": 8889,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5502,6 +5514,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "NISA INVESTMENT ADVISORS, LLC",
+      "filerCik": "937615",
+      "currentShares": null,
+      "priorShares": 4303,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
       "filerName": "MANUFACTURERS LIFE INSURANCE COMPANY, THE",
       "filerCik": "928047",
       "currentShares": null,
@@ -5518,18 +5542,6 @@
       "filerCik": "1871926",
       "currentShares": null,
       "priorShares": 250317,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "NISA INVESTMENT ADVISORS, LLC",
-      "filerCik": "937615",
-      "currentShares": null,
-      "priorShares": 4303,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5922,10 +5934,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "PRUDENTIAL FINANCIAL INC  (PFH, PRH, PRS, PRU)",
-      "filerCik": "1137774",
+      "filerName": "Qube Research & Technologies Ltd",
+      "filerCik": "1729829",
       "currentShares": null,
-      "priorShares": 2381,
+      "priorShares": 505004,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5934,10 +5946,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Qube Research & Technologies Ltd",
-      "filerCik": "1729829",
+      "filerName": "PRUDENTIAL FINANCIAL INC  (PFH, PRH, PRS, PRU)",
+      "filerCik": "1137774",
       "currentShares": null,
-      "priorShares": 505004,
+      "priorShares": 2381,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6762,10 +6774,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "BRASADA CAPITAL MANAGEMENT, LP",
-      "filerCik": "1643833",
+      "filerName": "Life Cycle Investment Partners Ltd",
+      "filerCik": "2072459",
       "currentShares": null,
-      "priorShares": 47670,
+      "priorShares": 147391,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6774,10 +6786,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Life Cycle Investment Partners Ltd",
-      "filerCik": "2072459",
+      "filerName": "BRASADA CAPITAL MANAGEMENT, LP",
+      "filerCik": "1643833",
       "currentShares": null,
-      "priorShares": 147391,
+      "priorShares": 47670,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6954,10 +6966,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "ArrowMark Colorado Holdings LLC",
-      "filerCik": "1483859",
+      "filerName": "Tortoise Investment Management, LLC",
+      "filerCik": "1599511",
       "currentShares": null,
-      "priorShares": 20551,
+      "priorShares": 2919,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6966,10 +6978,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Tortoise Investment Management, LLC",
-      "filerCik": "1599511",
+      "filerName": "ArrowMark Colorado Holdings LLC",
+      "filerCik": "1483859",
       "currentShares": null,
-      "priorShares": 2919,
+      "priorShares": 20551,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7026,10 +7038,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Machina Capital S.A.S.",
-      "filerCik": "1744373",
+      "filerName": "SOMERVILLE KURT F",
+      "filerCik": "1215208",
       "currentShares": null,
-      "priorShares": 2753,
+      "priorShares": 1474,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7038,10 +7050,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "SOMERVILLE KURT F",
-      "filerCik": "1215208",
+      "filerName": "Machina Capital S.A.S.",
+      "filerCik": "1744373",
       "currentShares": null,
-      "priorShares": 1474,
+      "priorShares": 2753,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7746,18 +7758,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Signature Equity Partners, LLC",
-      "filerCik": "2109813",
-      "currentShares": null,
-      "priorShares": 8,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "HEALTHCARE OF ONTARIO PENSION PLAN TRUST FUND",
       "filerCik": "1535845",
       "currentShares": null,
@@ -7766,6 +7766,18 @@
       "pctChange": null,
       "currentValue": null,
       "action": "Not Filed Yet",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Signature Equity Partners, LLC",
+      "filerCik": "2109813",
+      "currentShares": null,
+      "priorShares": 8,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
       "firstSeen": null,
       "newThisWeek": false
     },

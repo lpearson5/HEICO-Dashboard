@@ -59,3 +59,29 @@ export interface MonthlyData {
   sellouts: MonthlyHolding[];
   holdings: MonthlyHolding[];
 }
+
+// ── Mutual-fund holders (Phase 2: N-PORT) ──
+export type FundAction = "New" | "Bought" | "Sold" | "No Change";
+
+export interface FundHolder {
+  fundName: string;
+  registrant: string;
+  cik: string;
+  shares: number;
+  value: number | null;
+  reportDate: string;          // the fund's N-PORT period-end (funds report on their own calendar)
+  priorShares: number | null;
+  change: number | null;
+  pctOut: number;
+  action: FundAction;
+}
+
+export interface FundData {
+  ticker: string;
+  cusip: string;
+  sharesOutstanding: number;
+  lastUpdated: string;
+  summary: { funds: number; totalShares: number; pctOut: number; newFunds: number };
+  newHolders: FundHolder[];
+  holders: FundHolder[];
+}

@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { MonthlyData, MonthlyHolding, MonthlyAction } from "@/lib/types";
+import type { MonthlyData, MonthlyHolding, MonthlyAction, FundData } from "@/lib/types";
 
 const ACTION_COLORS: Record<MonthlyAction, string> = {
   New:         "bg-blue-100 text-blue-800 border-blue-200",
@@ -37,7 +37,7 @@ function ChangeCell({ n }: { n: number | null }) {
   return <span className={`tabular-nums font-medium ${cls}`}>{fmtSigned(n)}</span>;
 }
 
-export default function MonthlySnapshot({ data }: { data: MonthlyData | null }) {
+export default function MonthlySnapshot({ data, funds }: { data: MonthlyData | null; funds?: FundData | null }) {
   const [search, setSearch] = useState("");
 
   const filtered = useMemo(() => {
@@ -164,10 +164,119 @@ export default function MonthlySnapshot({ data }: { data: MonthlyData | null }) 
         </div>
       </div>
 
+      {/* ── Mutual funds & ETFs (N-PORT) ── */}
+      <FundSection funds={funds} search={search} setSearch={setSearch} />
+
       <p className="text-xs text-gray-400 text-center pb-4">
-        Source: SEC EDGAR 13F-HR filings · % of shares outstanding based on {fmt(data.sharesOutstanding)} shares ·
+        Source: SEC EDGAR 13F-HR (managers) &amp; N-PORT (funds) · % of shares outstanding based on {fmt(data.sharesOutstanding)} shares ·
         Updated {new Date(data.lastUpdated).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
       </p>
+    </div>
+  );
+}
+
+function decode(s: string): string {
+  return s
+    .replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n));
+}
+
+function fmtReportDate(period: string): string {
+  const [y, m] = period.split("-");
+  const mon = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][Number(m)] ?? m;
+  return `${mon} ${y}`;
+}
+
+function FundSection({
+  funds, search, setSearch,
+}: {
+  funds?: FundData | null; search: string; setSearch: (s: string) => void;
+}) {
+  const rows = useMemo(() => {
+    if (!funds) return [];
+    const q = search.trim().toLowerCase();
+    return q ? funds.holders.filter((h) => h.fundName.toLowerCase().includes(q) || h.registrant.toLowerCase().includes(q)) : funds.holders;
+  }, [funds, search]);
+
+  if (!funds) {
+    return (
+      <div className="rounded-xl border border-gray-200 bg-white p-6 text-center text-gray-500 text-sm">
+        Mutual-fund (N-PORT) data will appear here on the next refresh.
+      </div>
+    );
+  }
+
+  return (
+    <div className="space-y-4 pt-2">
+      <div className="border-t border-gray-200 pt-6">
+        <h2 className="text-lg font-bold text-gray-900">Mutual Funds &amp; ETFs</h2>
+        <p className="text-xs text-gray-500">
+          Individual funds holding HEICO, from SEC N-PORT filings. Funds report on their own fiscal calendar, so each row shows that fund’s latest report date.
+        </p>
+      </div>
+
+      {/* Fund KPIs */}
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
+        <div className="rounded-xl border border-gray-200 bg-white p-4 shadow-sm">
+          <div className="text-2xl font-bold text-gray-900 tabular-nums">{funds.summary.funds.toLocaleString()}</div>
+          <div className="text-xs font-medium text-gray-700 mt-1">Funds Holding HEICO</div>
+        </div>
+        <div className="rounded-xl border border-gray-200 bg-white p-4 shadow-sm">
+          <div className="text-2xl font-bold text-gray-900 tabular-nums">{fmt(funds.summary.totalShares)}</div>
+          <div className="text-xs font-medium text-gray-700 mt-1">Shares Held by Funds</div>
+          <div className="text-xs text-gray-400">{funds.summary.pctOut.toFixed(1)}% of shares outstanding</div>
+        </div>
+        <div className="rounded-xl border border-gray-200 bg-white p-4 shadow-sm">
+          <div className="text-2xl font-bold text-blue-700 tabular-nums">{funds.summary.newFunds.toLocaleString()}</div>
+          <div className="text-xs font-medium text-gray-700 mt-1">New Fund Positions</div>
+        </div>
+      </div>
+
+      <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+        <div className="px-4 py-3 border-b border-gray-100 flex items-center justify-between gap-3">
+          <span className="text-sm font-semibold text-gray-700">Fund Holders · {rows.length.toLocaleString()} shown</span>
+          <input
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="Search fund or family…"
+            className="px-3 py-1.5 text-sm border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+        <div className="overflow-x-auto max-h-[70vh]">
+          <table className="w-full text-sm">
+            <thead className="bg-gray-50 border-b border-gray-200 text-xs font-semibold text-gray-500 uppercase tracking-wide sticky top-0">
+              <tr>
+                <th className="px-4 py-2 text-left">Fund</th>
+                <th className="px-4 py-2 text-left">Family</th>
+                <th className="px-4 py-2 text-center">Report</th>
+                <th className="px-4 py-2 text-right">Shares</th>
+                <th className="px-4 py-2 text-right">Chg</th>
+                <th className="px-4 py-2 text-right">% Out</th>
+                <th className="px-4 py-2 text-center">Action</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-gray-100">
+              {rows.map((h, i) => (
+                <tr key={`${h.cik}-${h.fundName}-${i}`} className="hover:bg-gray-50">
+                  <td className="px-4 py-2 font-medium text-gray-900 max-w-xs truncate">{decode(h.fundName)}</td>
+                  <td className="px-4 py-2 text-gray-500 max-w-[10rem] truncate">{decode(h.registrant)}</td>
+                  <td className="px-4 py-2 text-center text-gray-500 whitespace-nowrap">{fmtReportDate(h.reportDate)}</td>
+                  <td className="px-4 py-2 text-right tabular-nums text-gray-800">{fmt(h.shares)}</td>
+                  <td className="px-4 py-2 text-right"><ChangeCell n={h.change} /></td>
+                  <td className="px-4 py-2 text-right tabular-nums text-gray-600">{h.pctOut != null ? `${h.pctOut.toFixed(3)}%` : "—"}</td>
+                  <td className="px-4 py-2 text-center">
+                    <span className={`inline-block px-2 py-0.5 text-xs font-semibold rounded-full border ${
+                      h.action === "New" ? "bg-blue-100 text-blue-800 border-blue-200"
+                      : h.action === "Bought" ? "bg-green-100 text-green-800 border-green-200"
+                      : h.action === "Sold" ? "bg-amber-100 text-amber-800 border-amber-200"
+                      : "bg-gray-100 text-gray-600 border-gray-200"}`}>{h.action}</span>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   );
 }

@@ -8,14 +8,14 @@
     "2025-06-30"
   ],
   "sharesOutstanding": 55148527,
-  "lastUpdated": "2026-08-04T14:41:00.644Z",
+  "lastUpdated": "2026-08-04T15:31:29.797Z",
   "summary": {
-    "institutions": 738,
-    "totalShares": 40924668,
+    "institutions": 740,
+    "totalShares": 40927351,
     "pctOut": 74.21,
-    "newHolders": 99,
-    "sellouts": 118,
-    "bought": 243,
+    "newHolders": 100,
+    "sellouts": 115,
+    "bought": 244,
     "sold": 256,
     "held": 140
   },
@@ -313,6 +313,20 @@
       ],
       "netChg": 32389,
       "currentValue": 8881064,
+      "pctOut": 0.06,
+      "action": "New"
+    },
+    {
+      "filerName": "Stratos Wealth Partners, LTD.",
+      "filerCik": "1612865",
+      "shares": [
+        32142,
+        null,
+        31910,
+        31837
+      ],
+      "netChg": 32142,
+      "currentValue": 8813516,
       "pctOut": 0.06,
       "action": "New"
     },
@@ -1977,7 +1991,7 @@
         null,
         1816,
         1196,
-        765
+        null
       ],
       "netChg": -1816,
       "currentValue": null,
@@ -2064,20 +2078,6 @@
         6684
       ],
       "netChg": -1457,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout"
-    },
-    {
-      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
-      "filerCik": "1510434",
-      "shares": [
-        null,
-        1447,
-        null,
-        null
-      ],
-      "netChg": -1447,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout"
@@ -2195,20 +2195,6 @@
       "action": "Sellout"
     },
     {
-      "filerName": "Coastal Bridge Advisors, LLC",
-      "filerCik": "1665976",
-      "shares": [
-        null,
-        1246,
-        1197,
-        1206
-      ],
-      "netChg": -1246,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout"
-    },
-    {
       "filerName": "Hilltop Holdings Inc.  (HTH)",
       "filerCik": "1265131",
       "shares": [
@@ -2260,20 +2246,6 @@
         null
       ],
       "netChg": -1151,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout"
-    },
-    {
-      "filerName": "Crossmark Global Holdings, Inc.",
-      "filerCik": "1539204",
-      "shares": [
-        null,
-        1141,
-        903,
-        811
-      ],
-      "netChg": -1141,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout"
@@ -4987,14 +4959,14 @@
       "filerCik": "1612865",
       "shares": [
         32142,
-        31973,
+        null,
         31910,
         31837
       ],
-      "netChg": 169,
+      "netChg": 32142,
       "currentValue": 8813516,
       "pctOut": 0.06,
-      "action": "Bought"
+      "action": "New"
     },
     {
       "filerName": "LOS ANGELES CAPITAL MANAGEMENT LLC",
@@ -9645,6 +9617,20 @@
       "action": "Sold"
     },
     {
+      "filerName": "Crossmark Global Holdings, Inc.",
+      "filerCik": "1539204",
+      "shares": [
+        1407,
+        1141,
+        903,
+        811
+      ],
+      "netChg": 266,
+      "currentValue": 385799,
+      "pctOut": 0,
+      "action": "Bought"
+    },
+    {
       "filerName": "OPPENHEIMER & CO INC",
       "filerCik": "822581",
       "shares": [
@@ -9825,6 +9811,20 @@
       "currentValue": 350976,
       "pctOut": 0,
       "action": "No Change"
+    },
+    {
+      "filerName": "Coastal Bridge Advisors, LLC",
+      "filerCik": "1665976",
+      "shares": [
+        1276,
+        1246,
+        1197,
+        1206
+      ],
+      "netChg": 30,
+      "currentValue": 349950,
+      "pctOut": 0,
+      "action": "Bought"
     },
     {
       "filerName": "PensionDanmark Pensionsforsikringsaktieselskab",
@@ -13635,20 +13635,6 @@
       "action": "Sellout"
     },
     {
-      "filerName": "SG Capital Management LLC",
-      "filerCik": "1510099",
-      "shares": [
-        null,
-        null,
-        null,
-        9782
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change"
-    },
-    {
       "filerName": "STONE RUN CAPITAL, LLC",
       "filerCik": "1512746",
       "shares": [
@@ -13656,6 +13642,20 @@
         null,
         35466,
         35481
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change"
+    },
+    {
+      "filerName": "SG Capital Management LLC",
+      "filerCik": "1510099",
+      "shares": [
+        null,
+        null,
+        null,
+        9782
       ],
       "netChg": null,
       "currentValue": null,
@@ -14237,20 +14237,6 @@
       "action": "No Change"
     },
     {
-      "filerName": "Northeast Financial Consultants Inc",
-      "filerCik": "1599863",
-      "shares": [
-        null,
-        null,
-        null,
-        4100
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change"
-    },
-    {
       "filerName": "Fiduciary Group, LLC",
       "filerCik": "1645890",
       "shares": [
@@ -14263,6 +14249,20 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout"
+    },
+    {
+      "filerName": "Northeast Financial Consultants Inc",
+      "filerCik": "1599863",
+      "shares": [
+        null,
+        null,
+        null,
+        4100
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change"
     },
     {
       "filerName": "Fieldview Capital Management, LLC",
@@ -14433,20 +14433,6 @@
       "action": "Sellout"
     },
     {
-      "filerName": "Modus Advisors, LLC",
-      "filerCik": "1799284",
-      "shares": [
-        null,
-        24,
-        null,
-        null
-      ],
-      "netChg": -24,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout"
-    },
-    {
       "filerName": "Founders Capital Management",
       "filerCik": "1704300",
       "shares": [
@@ -14459,6 +14445,20 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change"
+    },
+    {
+      "filerName": "Modus Advisors, LLC",
+      "filerCik": "1799284",
+      "shares": [
+        null,
+        24,
+        null,
+        null
+      ],
+      "netChg": -24,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout"
     },
     {
       "filerName": "Litman Gregory Wealth Management LLC",
@@ -14596,34 +14596,6 @@
         null
       ],
       "netChg": -936,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout"
-    },
-    {
-      "filerName": "Coastal Bridge Advisors, LLC",
-      "filerCik": "1665976",
-      "shares": [
-        null,
-        1246,
-        1197,
-        1206
-      ],
-      "netChg": -1246,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout"
-    },
-    {
-      "filerName": "Aaron Wealth Advisors LLC",
-      "filerCik": "1812198",
-      "shares": [
-        null,
-        1816,
-        1196,
-        765
-      ],
-      "netChg": -1816,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout"
@@ -14993,6 +14965,20 @@
       "action": "Sellout"
     },
     {
+      "filerName": "Aaron Wealth Advisors LLC",
+      "filerCik": "1812198",
+      "shares": [
+        null,
+        1816,
+        1196,
+        null
+      ],
+      "netChg": -1816,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout"
+    },
+    {
       "filerName": "BOOTHBAY FUND MANAGEMENT, LLC",
       "filerCik": "1549230",
       "shares": [
@@ -15058,20 +15044,6 @@
         1309
       ],
       "netChg": -1169,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout"
-    },
-    {
-      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
-      "filerCik": "1510434",
-      "shares": [
-        null,
-        1447,
-        null,
-        null
-      ],
-      "netChg": -1447,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout"
@@ -15245,20 +15217,6 @@
       "action": "No Change"
     },
     {
-      "filerName": "SAGESPRING WEALTH PARTNERS, LLC",
-      "filerCik": "2056425",
-      "shares": [
-        null,
-        799,
-        776,
-        647
-      ],
-      "netChg": -799,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout"
-    },
-    {
       "filerName": "SYNOVUS FINANCIAL CORP  (SNV, SNV-PD, SNV-PE)",
       "filerCik": "18349",
       "shares": [
@@ -15271,6 +15229,20 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change"
+    },
+    {
+      "filerName": "SAGESPRING WEALTH PARTNERS, LLC",
+      "filerCik": "2056425",
+      "shares": [
+        null,
+        799,
+        776,
+        647
+      ],
+      "netChg": -799,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout"
     },
     {
       "filerName": "AIGEN INVESTMENT MANAGEMENT, LP",
@@ -15567,20 +15539,6 @@
       "action": "Sellout"
     },
     {
-      "filerName": "AXXCESS WEALTH MANAGEMENT, LLC",
-      "filerCik": "1911056",
-      "shares": [
-        null,
-        8358,
-        6296,
-        null
-      ],
-      "netChg": -8358,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout"
-    },
-    {
       "filerName": "Principia Wealth Advisory, LLC",
       "filerCik": "2041436",
       "shares": [
@@ -15590,6 +15548,20 @@
         1
       ],
       "netChg": -2,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout"
+    },
+    {
+      "filerName": "AXXCESS WEALTH MANAGEMENT, LLC",
+      "filerCik": "1911056",
+      "shares": [
+        null,
+        8358,
+        6296,
+        null
+      ],
+      "netChg": -8358,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout"
@@ -15887,20 +15859,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change"
-    },
-    {
-      "filerName": "Crossmark Global Holdings, Inc.",
-      "filerCik": "1539204",
-      "shares": [
-        null,
-        1141,
-        903,
-        811
-      ],
-      "netChg": -1141,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout"
     },
     {
       "filerName": "Tortoise Investment Management, LLC",

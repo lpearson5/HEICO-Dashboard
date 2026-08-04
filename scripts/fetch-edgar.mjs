@@ -47,6 +47,11 @@ const SHARES_OUTSTANDING = { HEI: 55_148_527, HEIA: 84_369_872 };
 // Monthly snapshot shows this many quarters of history (current + 3 prior).
 const MONTHLY_QUARTERS = 4;
 
+// Mutual-fund (N-PORT) settings.
+const NPORT_CACHE_PATH = join(DATA_DIR, "nport-cache.json"); // parsed N-PORT filings (committed)
+const NPORT_WINDOW_DAYS = 400;   // look-back for fund filings (captures current + a prior report)
+const NPORT_STALE_DAYS  = 210;   // a fund is a "current" holder if its latest HEICO report is within this
+
 const HEADERS = {
   "User-Agent":      "HEICO-Dashboard/1.0 lpearson@heico.com",
   "Accept-Encoding": "identity",
@@ -433,6 +438,9 @@ async function main() {
   //    complete quarter as "current" (a settled view), unlike the weekly page.
   await buildMonthly(allHits, counts, cache, today);
 
+  // 8. Mutual-fund holders (Phase 2: N-PORT).
+  await buildFunds(today);
+
   console.log("\nDone!");
 }
 
@@ -526,6 +534,171 @@ async function buildMonthly(allHits, counts, cache, today) {
       summary, top10, newHolders: newList, sellouts, holdings: records,
     }, null, 2));
     console.log(`  monthly ${ticker}: ${summary.institutions} holders, ${summary.pctOut.toFixed(2)}% of shares; ${summary.newHolders} new, ${summary.sellouts} sellouts`);
+  }
+}
+
+// ─── Mutual-fund (N-PORT) builder ───────────────────────────────────────────────
+
+function loadNportCache() {
+  if (!existsSync(NPORT_CACHE_PATH)) return {};
+  try { return JSON.parse(readFileSync(NPORT_CACHE_PATH, "utf8")); } catch { return {}; }
+}
+function saveNportCache(c) { mkdirSync(DATA_DIR, { recursive: true }); writeFileSync(NPORT_CACHE_PATH, JSON.stringify(c, null, 2)); }
+
+// Find NPORT-P filings that mention a HEICO CUSIP (last NPORT_WINDOW_DAYS).
+async function searchNport(cusip, today) {
+  const end = today, start = new Date(end.getTime() - NPORT_WINDOW_DAYS * 864e5);
+  const hits = [];
+  let from = 0, total = null;
+  while (true) {
+    const url = `https://efts.sec.gov/LATEST/search-index?q=%22${cusip}%22&forms=NPORT-P`
+      + `&dateRange=custom&startdt=${ymd(start)}&enddt=${ymd(end)}&from=${from}`;
+    const j = await getRetry(url, { json: true });
+    if (!j) { await sleep(3000); continue; }
+    if (total === null) total = j.hits?.total?.value ?? 0;
+    const page = j.hits?.hits ?? [];
+    if (!page.length) break;
+    for (const h of page) {
+      const s = h._source ?? {};
+      hits.push({
+        accession: s.adsh,
+        cik: (s.ciks?.[0] ?? "").replace(/^0+/, "") || "0",
+        regName: (s.display_names?.[0] ?? "Unknown").replace(/\s*\(CIK.*$/i, "").trim(),
+        period: s.period_ending,
+        fileDate: s.file_date,
+        doc: String(h._id).split(":")[1],
+      });
+    }
+    from += page.length;
+    if (from >= total || from >= 9900) break;
+    await sleep(1000);
+  }
+  return hits;
+}
+
+// Parse a fund's N-PORT: identity + HEICO positions.
+function parseNport(xml) {
+  const seriesId   = xml.match(/<seriesId>([^<]+)<\/seriesId>/i)?.[1] ?? null;
+  const seriesName = (xml.match(/<seriesName>([^<]+)<\/seriesName>/i)?.[1] ?? "").trim();
+  const regName    = (xml.match(/<regName>([^<]+)<\/regName>/i)?.[1] ?? "").replace(/&amp;/g, "&").trim();
+  const positions = {};
+  const re = /<invstOrSec>([\s\S]*?)<\/invstOrSec>/gi;
+  let m;
+  while ((m = re.exec(xml)) !== null) {
+    const b = m[1];
+    const cusip = (b.match(/<cusip>([^<]+)<\/cusip>/i)?.[1] ?? "").replace(/[\s-]/g, "");
+    const ticker = Object.keys(CUSIPS).find(t => CUSIPS[t] === cusip);
+    if (!ticker) continue;
+    const shares = Math.round(parseFloat(b.match(/<balance>([^<]+)<\/balance>/i)?.[1] ?? "0"));
+    const value  = Math.round(parseFloat(b.match(/<valUSD>([^<]+)<\/valUSD>/i)?.[1] ?? "0"));
+    out(positions, ticker, shares, value);
+  }
+  return { seriesId, seriesName, regName, positions };
+  function out(o, t, s, v) { o[t] = { shares: (o[t]?.shares ?? 0) + s, value: (o[t]?.value ?? 0) + v }; }
+}
+
+async function fetchNport(h, cache) {
+  const cached = cache[h.accession];
+  if (cached && cached.ok) return cached;
+  const noD = h.accession.replace(/-/g, "");
+  const xml = await getRetry(`https://www.sec.gov/Archives/edgar/data/${h.cik}/${noD}/${h.doc}`);
+  const parsed = xml ? parseNport(xml) : null;
+  const rec = parsed
+    ? { ...parsed, cik: h.cik, period: h.period, fileDate: h.fileDate, ok: true }
+    : { ok: false };
+  if (rec.ok) cache[h.accession] = rec;
+  return rec;
+}
+
+function fundAction(cur, prev) {
+  if (cur != null && prev == null) return "New";
+  if (cur == null) return "No Change";
+  if (prev == null) return "New";
+  if (cur > prev) return "Bought";
+  if (cur < prev) return "Sold";
+  return "No Change";
+}
+
+async function buildFunds(today) {
+  console.log("\nBuilding mutual-fund (N-PORT) holders…");
+  const cache = loadNportCache();
+
+  // 1. Find all N-PORT filings mentioning either HEICO CUSIP.
+  const byAcc = new Map();
+  for (const cusip of Object.values(CUSIPS)) {
+    const hits = await searchNport(cusip, today);
+    console.log(`  N-PORT filings mentioning ${cusip}: ${hits.length}`);
+    for (const h of hits) if (h.accession && h.doc) byAcc.set(h.accession, h);
+    await sleep(1500);
+  }
+  const filings = [...byAcc.values()];
+  const toFetch = filings.filter(h => !cache[h.accession]?.ok).length;
+  console.log(`  unique N-PORT filings: ${filings.length} (${toFetch} to fetch)`);
+
+  // 2. Fetch + parse each (cached).
+  let n = 0;
+  for (const h of filings) {
+    const before = cache[h.accession]?.ok;
+    await fetchNport(h, cache);
+    if (!before) await sleep(300);
+    if (++n % 100 === 0) { saveNportCache(cache); console.log(`  N-PORT fetched ${n}/${filings.length}`); }
+  }
+  saveNportCache(cache);
+
+  // 3. Group filings per fund (seriesId, else registrant+series name).
+  const recs = filings.map(h => cache[h.accession]).filter(r => r && r.ok);
+  const byFund = new Map();
+  for (const r of recs) {
+    const key = r.seriesId || `${r.cik}|${r.seriesName}`;
+    if (!byFund.has(key)) byFund.set(key, []);
+    byFund.get(key).push(r);
+  }
+
+  const staleCut = today.getTime() - NPORT_STALE_DAYS * 864e5;
+
+  for (const ticker of Object.keys(CUSIPS)) {
+    const outShares = SHARES_OUTSTANDING[ticker];
+    const holders = [];
+    for (const [, list] of byFund) {
+      // sort this fund's filings newest first
+      const sorted = [...list].sort((a, b) => (b.period ?? "").localeCompare(a.period ?? ""));
+      const latest = sorted[0];
+      const cur = latest.positions?.[ticker]?.shares ?? null;
+      if (cur == null) continue;                                   // fund doesn't hold this class in latest report
+      if (Date.parse(latest.period) < staleCut) continue;          // stale report → treat as no longer current
+      // prior = this fund's previous report that we have
+      const prevRec = sorted.find(r => r !== latest && r.positions?.[ticker]?.shares != null);
+      const prev = prevRec?.positions?.[ticker]?.shares ?? null;
+      const change = cur != null && prev != null ? cur - prev : null;
+      holders.push({
+        fundName: latest.seriesName || "(unnamed fund)",
+        registrant: latest.regName,
+        cik: latest.cik,
+        shares: cur,
+        value: latest.positions[ticker].value ?? null,
+        reportDate: latest.period,
+        priorShares: prev,
+        change,
+        pctOut: Math.round(cur / outShares * 1e6) / 1e6 * 100,
+        action: fundAction(cur, prev),
+      });
+    }
+    holders.sort((a, b) => b.shares - a.shares);
+    const totalShares = holders.reduce((s, h) => s + h.shares, 0);
+    const summary = {
+      funds: holders.length,
+      totalShares,
+      pctOut: Math.round(totalShares / outShares * 1e6) / 1e6 * 100,
+      newFunds: holders.filter(h => h.action === "New").length,
+    };
+    const newHolders = holders.filter(h => h.action === "New");
+
+    writeFileSync(join(DATA_DIR, `funds-${ticker.toLowerCase()}.json`), JSON.stringify({
+      ticker, cusip: CUSIPS[ticker], sharesOutstanding: outShares,
+      lastUpdated: today.toISOString(),
+      summary, newHolders, holders,
+    }, null, 2));
+    console.log(`  funds ${ticker}: ${summary.funds} funds hold, ${summary.pctOut.toFixed(2)}% of shares, ${summary.newFunds} new`);
   }
 }
 

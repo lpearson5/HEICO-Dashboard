@@ -8,16 +8,16 @@
     "2025-06-30"
   ],
   "sharesOutstanding": 84369872,
-  "lastUpdated": "2026-08-04T14:41:00.644Z",
+  "lastUpdated": "2026-08-04T15:31:29.797Z",
   "summary": {
-    "institutions": 619,
-    "totalShares": 69190933,
+    "institutions": 620,
+    "totalShares": 69192530,
     "pctOut": 82.01,
-    "newHolders": 79,
-    "sellouts": 77,
-    "bought": 256,
-    "sold": 185,
-    "held": 99
+    "newHolders": 77,
+    "sellouts": 76,
+    "bought": 257,
+    "sold": 186,
+    "held": 100
   },
   "top10": [
     {
@@ -1129,34 +1129,6 @@
       "action": "New"
     },
     {
-      "filerName": "HM PAYSON & CO",
-      "filerCik": "928052",
-      "shares": [
-        10,
-        null,
-        5,
-        null
-      ],
-      "netChg": 10,
-      "currentValue": 2115,
-      "pctOut": 0,
-      "action": "New"
-    },
-    {
-      "filerName": "Signature Equity Partners, LLC",
-      "filerCik": "2109813",
-      "shares": [
-        8,
-        null,
-        null,
-        null
-      ],
-      "netChg": 8,
-      "currentValue": 1693,
-      "pctOut": 0,
-      "action": "New"
-    },
-    {
       "filerName": "Vermillion Wealth Management, Inc.",
       "filerCik": "1737012",
       "shares": [
@@ -1616,20 +1588,6 @@
         1488
       ],
       "netChg": -1603,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout"
-    },
-    {
-      "filerName": "Crossmark Global Holdings, Inc.",
-      "filerCik": "1539204",
-      "shares": [
-        null,
-        1597,
-        1125,
-        995
-      ],
-      "netChg": -1597,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout"
@@ -4359,7 +4317,7 @@
         41229,
         41229,
         37109,
-        37016
+        null
       ],
       "netChg": 0,
       "currentValue": 8703030,
@@ -7965,6 +7923,20 @@
       "action": "Bought"
     },
     {
+      "filerName": "Crossmark Global Holdings, Inc.",
+      "filerCik": "1539204",
+      "shares": [
+        1597,
+        1597,
+        1125,
+        995
+      ],
+      "netChg": 0,
+      "currentValue": 337110,
+      "pctOut": 0,
+      "action": "No Change"
+    },
+    {
       "filerName": "FSM Wealth Advisors, LLC",
       "filerCik": "1942548",
       "shares": [
@@ -10517,14 +10489,14 @@
       "filerCik": "928052",
       "shares": [
         10,
-        null,
+        5,
         5,
         null
       ],
-      "netChg": 10,
+      "netChg": 5,
       "currentValue": 2115,
       "pctOut": 0,
-      "action": "New"
+      "action": "Bought"
     },
     {
       "filerName": "Penserra Capital Management LLC",
@@ -10545,14 +10517,14 @@
       "filerCik": "2109813",
       "shares": [
         8,
-        null,
+        10,
         null,
         null
       ],
-      "netChg": 8,
+      "netChg": -2,
       "currentValue": 1693,
       "pctOut": 0,
-      "action": "New"
+      "action": "Sold"
     },
     {
       "filerName": "Ares Financial Consulting, LLC",
@@ -11493,20 +11465,6 @@
       "action": "No Change"
     },
     {
-      "filerName": "AXXCESS WEALTH MANAGEMENT, LLC",
-      "filerCik": "1911056",
-      "shares": [
-        null,
-        4022,
-        5266,
-        5805
-      ],
-      "netChg": -4022,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout"
-    },
-    {
       "filerName": "Principia Wealth Advisory, LLC",
       "filerCik": "2041436",
       "shares": [
@@ -11516,6 +11474,20 @@
         2
       ],
       "netChg": -2,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout"
+    },
+    {
+      "filerName": "AXXCESS WEALTH MANAGEMENT, LLC",
+      "filerCik": "1911056",
+      "shares": [
+        null,
+        4022,
+        5266,
+        5805
+      ],
+      "netChg": -4022,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout"
@@ -11659,20 +11631,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change"
-    },
-    {
-      "filerName": "Crossmark Global Holdings, Inc.",
-      "filerCik": "1539204",
-      "shares": [
-        null,
-        1597,
-        1125,
-        995
-      ],
-      "netChg": -1597,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout"
     },
     {
       "filerName": "Waverly Advisors, LLC",

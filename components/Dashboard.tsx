@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import type { TickerData, Holding, Action, MonthlyData } from "@/lib/types";
+import type { TickerData, Holding, Action, MonthlyData, FundData } from "@/lib/types";
 import MonthlySnapshot from "@/components/MonthlySnapshot";
 
 const ACTION_COLORS: Record<Action, string> = {
@@ -64,11 +64,15 @@ export default function Dashboard({
   heia,
   monthlyHei = null,
   monthlyHeia = null,
+  fundsHei = null,
+  fundsHeia = null,
 }: {
   hei: TickerData | null;
   heia: TickerData | null;
   monthlyHei?: MonthlyData | null;
   monthlyHeia?: MonthlyData | null;
+  fundsHei?: FundData | null;
+  fundsHeia?: FundData | null;
 }) {
   const [view, setView] = useState<"weekly" | "monthly">("weekly");
   const [activeTicker, setActiveTicker] = useState<"HEI" | "HEIA">("HEI");
@@ -81,6 +85,7 @@ export default function Dashboard({
 
   const data = activeTicker === "HEI" ? hei : heia;
   const monthlyData = activeTicker === "HEI" ? monthlyHei : monthlyHeia;
+  const fundsData = activeTicker === "HEI" ? fundsHei : fundsHeia;
 
   const summary = useMemo(() => {
     if (!data) return null;
@@ -237,7 +242,7 @@ export default function Dashboard({
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6">
-        {view === "monthly" && <MonthlySnapshot data={monthlyData} />}
+        {view === "monthly" && <MonthlySnapshot data={monthlyData} funds={fundsData} />}
       </div>
 
       <div className={`max-w-7xl mx-auto px-4 sm:px-6 py-6 space-y-6 ${view === "monthly" ? "hidden" : ""}`}>
