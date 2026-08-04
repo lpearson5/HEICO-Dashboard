@@ -66,6 +66,7 @@ export type FundAction = "New" | "Bought" | "Sold" | "No Change";
 export interface FundHolder {
   fundName: string;
   registrant: string;
+  manager: string;             // parent 13F manager (empty if unmatched)
   cik: string;
   shares: number;
   value: number | null;
@@ -76,12 +77,20 @@ export interface FundHolder {
   action: FundAction;
 }
 
+export interface FundManager {
+  manager: string;
+  fundCount: number;
+  shares: number;
+  funds: { fundName: string; shares: number }[];
+}
+
 export interface FundData {
   ticker: string;
   cusip: string;
   sharesOutstanding: number;
   lastUpdated: string;
-  summary: { funds: number; totalShares: number; pctOut: number; newFunds: number };
+  summary: { funds: number; totalShares: number; pctOut: number; newFunds: number; linkedManagers: number; linkedShares: number };
   newHolders: FundHolder[];
+  managers: FundManager[];
   holders: FundHolder[];
 }

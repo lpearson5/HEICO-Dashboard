@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { MonthlyData, MonthlyHolding, MonthlyAction, FundData } from "@/lib/types";
+import type { MonthlyData, MonthlyHolding, MonthlyAction, FundData, FundHolder, FundManager } from "@/lib/types";
 
 const ACTION_COLORS: Record<MonthlyAction, string> = {
   New:         "bg-blue-100 text-blue-800 border-blue-200",
@@ -37,6 +37,42 @@ function ChangeCell({ n }: { n: number | null }) {
   return <span className={`tabular-nums font-medium ${cls}`}>{fmtSigned(n)}</span>;
 }
 
+// ── Reusable sortable-table helper ──
+type SortState = { key: string; asc: boolean; toggle: (k: string) => void };
+
+function useSort<T>(rows: T[], accessors: Record<string, (t: T) => number | string | null>, initialKey: string): { sorted: T[] } & SortState {
+  const [key, setKey] = useState(initialKey);
+  const [asc, setAsc] = useState(false);
+  const sorted = useMemo(() => {
+    const acc = accessors[key];
+    if (!acc) return rows;
+    return [...rows].sort((a, b) => {
+      const av = acc(a), bv = acc(b);
+      if (av == null && bv == null) return 0;
+      if (av == null) return 1;          // nulls last
+      if (bv == null) return -1;
+      if (typeof av === "string" && typeof bv === "string") return asc ? av.localeCompare(bv) : bv.localeCompare(av);
+      return asc ? (av as number) - (bv as number) : (bv as number) - (av as number);
+    });
+  }, [rows, key, asc, accessors]);
+  const toggle = (k: string) => { if (k === key) setAsc(v => !v); else { setKey(k); setAsc(false); } };
+  return { sorted, key, asc, toggle };
+}
+
+function SortTh({ id, label, sort, align = "left" }: { id: string; label: string; sort: SortState; align?: "left" | "right" | "center" }) {
+  const active = sort.key === id;
+  const a = align === "right" ? "text-right" : align === "center" ? "text-center" : "text-left";
+  return (
+    <th
+      onClick={() => sort.toggle(id)}
+      className={`px-4 py-2 ${a} cursor-pointer select-none hover:bg-gray-100 whitespace-nowrap`}
+    >
+      {label}
+      <span className={`ml-1 ${active ? "text-blue-600" : "text-gray-300"}`}>{active ? (sort.asc ? "↑" : "↓") : "↕"}</span>
+    </th>
+  );
+}
+
 export default function MonthlySnapshot({ data, funds }: { data: MonthlyData | null; funds?: FundData | null }) {
   const [search, setSearch] = useState("");
 
@@ -45,6 +81,13 @@ export default function MonthlySnapshot({ data, funds }: { data: MonthlyData | n
     const q = search.trim().toLowerCase();
     return q ? data.holdings.filter((h) => h.filerName.toLowerCase().includes(q)) : data.holdings;
   }, [data, search]);
+
+  const histAcc = useMemo<Record<string, (h: MonthlyHolding) => number | string | null>>(() => ({
+    name: (h) => h.filerName,
+    q0: (h) => h.shares[0], q1: (h) => h.shares[1], q2: (h) => h.shares[2], q3: (h) => h.shares[3],
+    netChg: (h) => h.netChg, pctOut: (h) => h.pctOut, action: (h) => h.action,
+  }), []);
+  const hist = useSort(filtered, histAcc, "q0");
 
   if (!data) {
     return (
@@ -138,15 +181,15 @@ export default function MonthlySnapshot({ data, funds }: { data: MonthlyData | n
           <table className="w-full text-sm">
             <thead className="bg-gray-50 border-b border-gray-200 text-xs font-semibold text-gray-500 uppercase tracking-wide sticky top-0">
               <tr>
-                <th className="px-4 py-2 text-left">Institution</th>
-                {quarters.map((q) => <th key={q} className="px-4 py-2 text-right whitespace-nowrap">{qLabel(q)}</th>)}
-                <th className="px-4 py-2 text-right">Net Chg</th>
-                <th className="px-4 py-2 text-right">% Out</th>
-                <th className="px-4 py-2 text-center">Action</th>
+                <SortTh id="name" label="Institution" sort={hist} />
+                {quarters.map((q, j) => <SortTh key={q} id={`q${j}`} label={qLabel(q)} sort={hist} align="right" />)}
+                <SortTh id="netChg" label="Net Chg" sort={hist} align="right" />
+                <SortTh id="pctOut" label="% Out" sort={hist} align="right" />
+                <SortTh id="action" label="Action" sort={hist} align="center" />
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
-              {filtered.map((h) => (
+              {hist.sorted.map((h) => (
                 <tr key={h.filerCik} className="hover:bg-gray-50">
                   <td className="px-4 py-2 font-medium text-gray-900 max-w-xs truncate">{h.filerName}</td>
                   {h.shares.map((s, j) => (
@@ -195,8 +238,17 @@ function FundSection({
   const rows = useMemo(() => {
     if (!funds) return [];
     const q = search.trim().toLowerCase();
-    return q ? funds.holders.filter((h) => h.fundName.toLowerCase().includes(q) || h.registrant.toLowerCase().includes(q)) : funds.holders;
+    return q ? funds.holders.filter((h) =>
+      h.fundName.toLowerCase().includes(q) || h.registrant.toLowerCase().includes(q) || h.manager.toLowerCase().includes(q)
+    ) : funds.holders;
   }, [funds, search]);
+
+  const fundAcc = useMemo<Record<string, (h: FundHolder) => number | string | null>>(() => ({
+    fund: (h) => h.fundName, family: (h) => h.registrant, manager: (h) => h.manager || "~",
+    report: (h) => h.reportDate, shares: (h) => h.shares, chg: (h) => h.change,
+    pctOut: (h) => h.pctOut, action: (h) => h.action,
+  }), []);
+  const fundSort = useSort(rows, fundAcc, "shares");
 
   if (!funds) {
     return (
@@ -246,20 +298,20 @@ function FundSection({
           <table className="w-full text-sm">
             <thead className="bg-gray-50 border-b border-gray-200 text-xs font-semibold text-gray-500 uppercase tracking-wide sticky top-0">
               <tr>
-                <th className="px-4 py-2 text-left">Fund</th>
-                <th className="px-4 py-2 text-left">Family</th>
-                <th className="px-4 py-2 text-center">Report</th>
-                <th className="px-4 py-2 text-right">Shares</th>
-                <th className="px-4 py-2 text-right">Chg</th>
-                <th className="px-4 py-2 text-right">% Out</th>
-                <th className="px-4 py-2 text-center">Action</th>
+                <SortTh id="fund" label="Fund" sort={fundSort} />
+                <SortTh id="manager" label="Manager" sort={fundSort} />
+                <SortTh id="report" label="Report" sort={fundSort} align="center" />
+                <SortTh id="shares" label="Shares" sort={fundSort} align="right" />
+                <SortTh id="chg" label="Chg" sort={fundSort} align="right" />
+                <SortTh id="pctOut" label="% Out" sort={fundSort} align="right" />
+                <SortTh id="action" label="Action" sort={fundSort} align="center" />
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
-              {rows.map((h, i) => (
+              {fundSort.sorted.map((h, i) => (
                 <tr key={`${h.cik}-${h.fundName}-${i}`} className="hover:bg-gray-50">
-                  <td className="px-4 py-2 font-medium text-gray-900 max-w-xs truncate">{decode(h.fundName)}</td>
-                  <td className="px-4 py-2 text-gray-500 max-w-[10rem] truncate">{decode(h.registrant)}</td>
+                  <td className="px-4 py-2 font-medium text-gray-900 max-w-xs truncate" title={decode(h.registrant)}>{decode(h.fundName)}</td>
+                  <td className="px-4 py-2 text-gray-500 max-w-[10rem] truncate">{h.manager || <span className="text-gray-300">—</span>}</td>
                   <td className="px-4 py-2 text-center text-gray-500 whitespace-nowrap">{fmtReportDate(h.reportDate)}</td>
                   <td className="px-4 py-2 text-right tabular-nums text-gray-800">{fmt(h.shares)}</td>
                   <td className="px-4 py-2 text-right"><ChangeCell n={h.change} /></td>
@@ -276,6 +328,52 @@ function FundSection({
             </tbody>
           </table>
         </div>
+      </div>
+
+      {/* §10: 13F Managers with Affiliated Funds */}
+      <ManagersSection managers={funds.managers} outShares={funds.sharesOutstanding} />
+    </div>
+  );
+}
+
+function ManagersSection({ managers, outShares }: { managers: FundManager[]; outShares: number }) {
+  const acc = useMemo<Record<string, (m: FundManager) => number | string | null>>(() => ({
+    manager: (m) => m.manager, funds: (m) => m.fundCount, shares: (m) => m.shares,
+  }), []);
+  const s = useSort(managers ?? [], acc, "shares");
+  if (!managers || managers.length === 0) return null;
+  return (
+    <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+      <div className="px-4 py-3 border-b border-gray-100">
+        <span className="text-sm font-semibold text-gray-700">13F Managers with Affiliated Funds</span>
+        <p className="text-xs text-gray-500 mt-0.5">Fund families grouped under their parent manager. Funds not matched to a manager are omitted here but still appear in the fund list above.</p>
+      </div>
+      <div className="overflow-x-auto max-h-[60vh]">
+        <table className="w-full text-sm">
+          <thead className="bg-gray-50 border-b border-gray-200 text-xs font-semibold text-gray-500 uppercase tracking-wide sticky top-0">
+            <tr>
+              <SortTh id="manager" label="Manager" sort={s} />
+              <SortTh id="funds" label="# Funds" sort={s} align="right" />
+              <SortTh id="shares" label="Total Fund Shares" sort={s} align="right" />
+              <th className="px-4 py-2 text-right">% Out</th>
+              <th className="px-4 py-2 text-left">Largest affiliated funds</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-gray-100">
+            {s.sorted.map((m) => (
+              <tr key={m.manager} className="hover:bg-gray-50 align-top">
+                <td className="px-4 py-2 font-medium text-gray-900 whitespace-nowrap">{m.manager}</td>
+                <td className="px-4 py-2 text-right tabular-nums text-gray-700">{m.fundCount}</td>
+                <td className="px-4 py-2 text-right tabular-nums text-gray-900 font-semibold">{fmt(m.shares)}</td>
+                <td className="px-4 py-2 text-right tabular-nums text-gray-600">{(m.shares / outShares * 100).toFixed(2)}%</td>
+                <td className="px-4 py-2 text-gray-500 text-xs">
+                  {m.funds.slice(0, 3).map((f) => `${decode(f.fundName)} (${fmt(f.shares)})`).join(" · ")}
+                  {m.funds.length > 3 ? ` +${m.funds.length - 3} more` : ""}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
     </div>
   );

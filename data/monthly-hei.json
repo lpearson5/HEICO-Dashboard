@@ -8,16 +8,16 @@
     "2025-06-30"
   ],
   "sharesOutstanding": 55148527,
-  "lastUpdated": "2026-08-04T15:31:29.797Z",
+  "lastUpdated": "2026-08-04T16:32:40.868Z",
   "summary": {
-    "institutions": 740,
-    "totalShares": 40927351,
+    "institutions": 739,
+    "totalShares": 40927328,
     "pctOut": 74.21,
-    "newHolders": 100,
-    "sellouts": 115,
-    "bought": 244,
+    "newHolders": 99,
+    "sellouts": 117,
+    "bought": 245,
     "sold": 256,
-    "held": 140
+    "held": 139
   },
   "top10": [
     {
@@ -313,20 +313,6 @@
       ],
       "netChg": 32389,
       "currentValue": 8881064,
-      "pctOut": 0.06,
-      "action": "New"
-    },
-    {
-      "filerName": "Stratos Wealth Partners, LTD.",
-      "filerCik": "1612865",
-      "shares": [
-        32142,
-        null,
-        31910,
-        31837
-      ],
-      "netChg": 32142,
-      "currentValue": 8813516,
       "pctOut": 0.06,
       "action": "New"
     },
@@ -1991,7 +1977,7 @@
         null,
         1816,
         1196,
-        null
+        765
       ],
       "netChg": -1816,
       "currentValue": null,
@@ -2078,6 +2064,20 @@
         6684
       ],
       "netChg": -1457,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout"
+    },
+    {
+      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
+      "filerCik": "1510434",
+      "shares": [
+        null,
+        1447,
+        null,
+        null
+      ],
+      "netChg": -1447,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout"
@@ -2974,6 +2974,20 @@
         null
       ],
       "netChg": -24,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout"
+    },
+    {
+      "filerName": "Beaird Harris Wealth Management, LLC",
+      "filerCik": "1908938",
+      "shares": [
+        null,
+        23,
+        23,
+        23
+      ],
+      "netChg": -23,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout"
@@ -4959,14 +4973,14 @@
       "filerCik": "1612865",
       "shares": [
         32142,
-        null,
+        31973,
         31910,
         31837
       ],
-      "netChg": 32142,
+      "netChg": 169,
       "currentValue": 8813516,
       "pctOut": 0.06,
-      "action": "New"
+      "action": "Bought"
     },
     {
       "filerName": "LOS ANGELES CAPITAL MANAGEMENT LLC",
@@ -7158,7 +7172,7 @@
       "shares": [
         6355,
         6265,
-        null,
+        6265,
         6214
       ],
       "netChg": 90,
@@ -12605,7 +12619,7 @@
         26,
         25,
         19,
-        null
+        19
       ],
       "netChg": 1,
       "currentValue": 7130,
@@ -12637,20 +12651,6 @@
       ],
       "netChg": 0,
       "currentValue": 6581,
-      "pctOut": 0,
-      "action": "No Change"
-    },
-    {
-      "filerName": "Beaird Harris Wealth Management, LLC",
-      "filerCik": "1908938",
-      "shares": [
-        23,
-        23,
-        23,
-        23
-      ],
-      "netChg": 0,
-      "currentValue": 6307,
       "pctOut": 0,
       "action": "No Change"
     },
@@ -13635,20 +13635,6 @@
       "action": "Sellout"
     },
     {
-      "filerName": "STONE RUN CAPITAL, LLC",
-      "filerCik": "1512746",
-      "shares": [
-        null,
-        null,
-        35466,
-        35481
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change"
-    },
-    {
       "filerName": "SG Capital Management LLC",
       "filerCik": "1510099",
       "shares": [
@@ -13656,6 +13642,20 @@
         null,
         null,
         9782
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change"
+    },
+    {
+      "filerName": "STONE RUN CAPITAL, LLC",
+      "filerCik": "1512746",
+      "shares": [
+        null,
+        null,
+        35466,
+        35481
       ],
       "netChg": null,
       "currentValue": null,
@@ -14601,6 +14601,20 @@
       "action": "Sellout"
     },
     {
+      "filerName": "Aaron Wealth Advisors LLC",
+      "filerCik": "1812198",
+      "shares": [
+        null,
+        1816,
+        1196,
+        765
+      ],
+      "netChg": -1816,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout"
+    },
+    {
       "filerName": "Interchange Capital Partners, LLC",
       "filerCik": "1845998",
       "shares": [
@@ -14895,6 +14909,20 @@
       "action": "Sellout"
     },
     {
+      "filerName": "Beaird Harris Wealth Management, LLC",
+      "filerCik": "1908938",
+      "shares": [
+        null,
+        23,
+        23,
+        23
+      ],
+      "netChg": -23,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout"
+    },
+    {
       "filerName": "READYSTATE ASSET MANAGEMENT LP",
       "filerCik": "1900923",
       "shares": [
@@ -14965,20 +14993,6 @@
       "action": "Sellout"
     },
     {
-      "filerName": "Aaron Wealth Advisors LLC",
-      "filerCik": "1812198",
-      "shares": [
-        null,
-        1816,
-        1196,
-        null
-      ],
-      "netChg": -1816,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout"
-    },
-    {
       "filerName": "BOOTHBAY FUND MANAGEMENT, LLC",
       "filerCik": "1549230",
       "shares": [
@@ -15044,6 +15058,20 @@
         1309
       ],
       "netChg": -1169,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout"
+    },
+    {
+      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
+      "filerCik": "1510434",
+      "shares": [
+        null,
+        1447,
+        null,
+        null
+      ],
+      "netChg": -1447,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout"
@@ -15791,6 +15819,20 @@
       "action": "Sellout"
     },
     {
+      "filerName": "TWO SIGMA SECURITIES, LLC",
+      "filerCik": "1450144",
+      "shares": [
+        null,
+        null,
+        1708,
+        614
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change"
+    },
+    {
       "filerName": "HARBOR CAPITAL ADVISORS, INC.",
       "filerCik": "1039128",
       "shares": [
@@ -15817,20 +15859,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout"
-    },
-    {
-      "filerName": "TWO SIGMA SECURITIES, LLC",
-      "filerCik": "1450144",
-      "shares": [
-        null,
-        null,
-        1708,
-        614
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change"
     },
     {
       "filerName": "Parkworth Wealth Management, Inc.",

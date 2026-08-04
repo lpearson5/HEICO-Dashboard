@@ -2,17 +2,20 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84369872,
-  "lastUpdated": "2026-08-04T15:31:29.797Z",
+  "lastUpdated": "2026-08-04T16:32:40.868Z",
   "summary": {
-    "funds": 347,
-    "totalShares": 29380728,
-    "pctOut": 34.8237,
-    "newFunds": 26
+    "funds": 348,
+    "totalShares": 29568219,
+    "pctOut": 35.0459,
+    "newFunds": 26,
+    "linkedManagers": 23,
+    "linkedShares": 25331859
   },
   "newHolders": [
     {
       "fundName": "Brown Advisory Growth Equity Fund",
       "registrant": "Brown Advisory Funds",
+      "manager": "",
       "cik": "1548609",
       "shares": 34636,
       "value": 7311313,
@@ -25,6 +28,7 @@
     {
       "fundName": "iShares MSCI USA Quality GARP ETF",
       "registrant": "iShares Trust",
+      "manager": "BlackRock",
       "cik": "1100663",
       "shares": 18750,
       "value": 3957938,
@@ -37,6 +41,7 @@
     {
       "fundName": "Large Cap Equity Fund",
       "registrant": "Weitz Funds",
+      "manager": "",
       "cik": "1257927",
       "shares": 17000,
       "value": 3588530,
@@ -49,6 +54,7 @@
     {
       "fundName": "College Retirement Equities Fund - Global Equities Account",
       "registrant": "College Retirement Equities Fund",
+      "manager": "",
       "cik": "777535",
       "shares": 16480,
       "value": 3478763,
@@ -61,6 +67,7 @@
     {
       "fundName": "Principal Focused Blue Chip ETF",
       "registrant": "Principal Exchange-Traded Funds",
+      "manager": "Principal",
       "cik": "1572661",
       "shares": 10868,
       "value": 2294126,
@@ -73,6 +80,7 @@
     {
       "fundName": "Conservative Allocation Fund",
       "registrant": "Weitz Funds",
+      "manager": "",
       "cik": "1257927",
       "shares": 7000,
       "value": 1477630,
@@ -85,6 +93,7 @@
     {
       "fundName": "SIIT SMALL/MID CAP FUND",
       "registrant": "SEI INSTITUTIONAL INVESTMENTS TRUST",
+      "manager": "",
       "cik": "939934",
       "shares": 5968,
       "value": 1550546,
@@ -97,6 +106,7 @@
     {
       "fundName": "Thornburg Focus Growth Fund",
       "registrant": "THORNBURG INVESTMENT TRUST",
+      "manager": "",
       "cik": "816153",
       "shares": 5464,
       "value": 1153396,
@@ -109,6 +119,7 @@
     {
       "fundName": "THRIVENT MODERATE ALLOCATION PORTFOLIO",
       "registrant": "Thrivent Series Fund, Inc.",
+      "manager": "",
       "cik": "790166",
       "shares": 3741,
       "value": 789688,
@@ -121,6 +132,7 @@
     {
       "fundName": "THRIVENT MODERATELY AGGRESSIVE ALLOCATION PORTFOLIO",
       "registrant": "Thrivent Series Fund, Inc.",
+      "manager": "",
       "cik": "790166",
       "shares": 3688,
       "value": 778500,
@@ -133,6 +145,7 @@
     {
       "fundName": "Geneva SMID Cap Growth Fund",
       "registrant": "Series Portfolios Trust",
+      "manager": "",
       "cik": "1650149",
       "shares": 3153,
       "value": 819181,
@@ -145,6 +158,7 @@
     {
       "fundName": "Multi-Manager Directional Alternative Strategies Fund",
       "registrant": "COLUMBIA FUNDS SERIES TRUST I",
+      "manager": "Columbia (Ameriprise)",
       "cik": "773757",
       "shares": 1588,
       "value": 331924,
@@ -157,6 +171,7 @@
     {
       "fundName": "Franklin Systematic Style Premia ETF",
       "registrant": "Franklin Templeton ETF Trust",
+      "manager": "Franklin Resources",
       "cik": "1655589",
       "shares": 1347,
       "value": 284338,
@@ -169,6 +184,7 @@
     {
       "fundName": "Harbor Human Capital Factor US Large Cap ETF",
       "registrant": "Harbor ETF Trust",
+      "manager": "",
       "cik": "1860434",
       "shares": 1295,
       "value": 270681,
@@ -181,6 +197,7 @@
     {
       "fundName": "THRIVENT AGGRESSIVE ALLOCATION PORTFOLIO",
       "registrant": "Thrivent Series Fund, Inc.",
+      "manager": "",
       "cik": "790166",
       "shares": 1164,
       "value": 245709,
@@ -193,6 +210,7 @@
     {
       "fundName": "THRIVENT MODERATELY CONSERVATIVE ALLOCATION PORTFOLIO",
       "registrant": "Thrivent Series Fund, Inc.",
+      "manager": "",
       "cik": "790166",
       "shares": 1100,
       "value": 232199,
@@ -205,6 +223,7 @@
     {
       "fundName": "ActivePassive U.S. Equity ETF",
       "registrant": "Trust for Professional Managers",
+      "manager": "",
       "cik": "1141819",
       "shares": 1057,
       "value": 274619,
@@ -217,6 +236,7 @@
     {
       "fundName": "THRIVENT ALL CAP PORTFOLIO",
       "registrant": "Thrivent Series Fund, Inc.",
+      "manager": "",
       "cik": "790166",
       "shares": 972,
       "value": 205179,
@@ -229,6 +249,7 @@
     {
       "fundName": "THRIVENT CONSERVATIVE ALLOCATION FUND",
       "registrant": "Thrivent Mutual Funds",
+      "manager": "",
       "cik": "811869",
       "shares": 266,
       "value": 56150,
@@ -241,6 +262,7 @@
     {
       "fundName": "BlackRock Balanced Fund, Inc.",
       "registrant": "BlackRock Balanced Fund, Inc.",
+      "manager": "BlackRock",
       "cik": "110055",
       "shares": 208,
       "value": 54040,
@@ -253,6 +275,7 @@
     {
       "fundName": "THRIVENT DYNAMIC ALLOCATION FUND",
       "registrant": "Thrivent Mutual Funds",
+      "manager": "",
       "cik": "811869",
       "shares": 194,
       "value": 40550,
@@ -265,6 +288,7 @@
     {
       "fundName": "THRIVENT DYNAMIC ALLOCATION PORTFOLIO",
       "registrant": "Thrivent Series Fund, Inc.",
+      "manager": "",
       "cik": "790166",
       "shares": 173,
       "value": 36519,
@@ -277,6 +301,7 @@
     {
       "fundName": "THRIVENT CONSERVATIVE ALLOCATION PORTFOLIO",
       "registrant": "Thrivent Series Fund, Inc.",
+      "manager": "",
       "cik": "790166",
       "shares": 156,
       "value": 32930,
@@ -289,6 +314,7 @@
     {
       "fundName": "Innovator Equity Managed 10 Buffer ETF",
       "registrant": "Innovator ETFs Trust",
+      "manager": "",
       "cik": "1415726",
       "shares": 84,
       "value": 17558,
@@ -301,6 +327,7 @@
     {
       "fundName": "THRIVENT GLOBAL STOCK PORTFOLIO",
       "registrant": "Thrivent Series Fund, Inc.",
+      "manager": "",
       "cik": "790166",
       "shares": 52,
       "value": 10977,
@@ -313,6 +340,7 @@
     {
       "fundName": "NPF Core Equity ETF",
       "registrant": "Elevation Series Trust",
+      "manager": "",
       "cik": "1936157",
       "shares": 6,
       "value": 1254,
@@ -323,10 +351,906 @@
       "action": "New"
     }
   ],
+  "managers": [
+    {
+      "manager": "Vanguard Group",
+      "fundCount": 19,
+      "shares": 8266553,
+      "funds": [
+        {
+          "fundName": "VANGUARD TOTAL STOCK MARKET INDEX FUND",
+          "shares": 3102563
+        },
+        {
+          "fundName": "VANGUARD MID-CAP INDEX FUND",
+          "shares": 1638221
+        },
+        {
+          "fundName": "VANGUARD GROWTH INDEX FUND",
+          "shares": 935232
+        },
+        {
+          "fundName": "VANGUARD EXTENDED MARKET INDEX FUND",
+          "shares": 825873
+        },
+        {
+          "fundName": "VANGUARD MID-CAP GROWTH INDEX FUND",
+          "shares": 576798
+        },
+        {
+          "fundName": "VANGUARD DIVIDEND APPRECIATION INDEX FUND",
+          "shares": 435566
+        },
+        {
+          "fundName": "VANGUARD EXPLORER FUND",
+          "shares": 229254
+        },
+        {
+          "fundName": "VANGUARD RUSSELL 1000 GROWTH INDEX FUND",
+          "shares": 124124
+        },
+        {
+          "fundName": "VANGUARD INDUSTRIALS INDEX FUND",
+          "shares": 89730
+        },
+        {
+          "fundName": "VANGUARD LARGE-CAP INDEX FUND",
+          "shares": 88964
+        },
+        {
+          "fundName": "VANGUARD BALANCED INDEX FUND",
+          "shares": 52287
+        },
+        {
+          "fundName": "VANGUARD TOTAL WORLD STOCK INDEX FUND",
+          "shares": 51081
+        },
+        {
+          "fundName": "VANGUARD INSTITUTIONAL TOTAL STOCK MARKET INDEX FUND",
+          "shares": 51071
+        },
+        {
+          "fundName": "MID-CAP INDEX PORTFOLIO",
+          "shares": 26159
+        },
+        {
+          "fundName": "VANGUARD TAX-MANAGED BALANCED FUND",
+          "shares": 13066
+        },
+        {
+          "fundName": "VANGUARD RUSSELL 1000 INDEX FUND",
+          "shares": 12091
+        },
+        {
+          "fundName": "VANGUARD RUSSELL 3000 INDEX FUND",
+          "shares": 6177
+        },
+        {
+          "fundName": "VANGUARD U.S. MOMENTUM FACTOR ETF",
+          "shares": 5630
+        },
+        {
+          "fundName": "VANGUARD TAX-MANAGED CAPITAL APPRECIATION FUND",
+          "shares": 2666
+        }
+      ]
+    },
+    {
+      "manager": "Principal",
+      "fundCount": 8,
+      "shares": 6921865,
+      "funds": [
+        {
+          "fundName": "MidCap Fund",
+          "shares": 6152962
+        },
+        {
+          "fundName": "Blue Chip Fund",
+          "shares": 624385
+        },
+        {
+          "fundName": "MidCap Account",
+          "shares": 118864
+        },
+        {
+          "fundName": "LargeCap Growth Account I",
+          "shares": 11037
+        },
+        {
+          "fundName": "Principal Focused Blue Chip ETF",
+          "shares": 10868
+        },
+        {
+          "fundName": "LargeCap Growth Fund I",
+          "shares": 2343
+        },
+        {
+          "fundName": "Blue Chip Account",
+          "shares": 941
+        },
+        {
+          "fundName": "Global Multi-Strategy Fund",
+          "shares": 465
+        }
+      ]
+    },
+    {
+      "manager": "FMR (Fidelity)",
+      "fundCount": 38,
+      "shares": 4959839,
+      "funds": [
+        {
+          "fundName": "Fidelity Magellan Fund",
+          "shares": 1915307
+        },
+        {
+          "fundName": "Select Defense and Aerospace Portfolio",
+          "shares": 690700
+        },
+        {
+          "fundName": "Fidelity Extended Market Index Fund",
+          "shares": 397125
+        },
+        {
+          "fundName": "Strategic Advisers Fidelity U.S. Total Stock Fund",
+          "shares": 351064
+        },
+        {
+          "fundName": "Fidelity Mid Cap Index Fund",
+          "shares": 277757
+        },
+        {
+          "fundName": "Fidelity Growth Strategies Fund",
+          "shares": 147638
+        },
+        {
+          "fundName": "Fidelity Total Market Index Fund",
+          "shares": 137068
+        },
+        {
+          "fundName": "Fidelity Series Total Market Index Fund",
+          "shares": 116929
+        },
+        {
+          "fundName": "Fidelity Large Cap Growth Index Fund",
+          "shares": 106403
+        },
+        {
+          "fundName": "Fidelity Trend Fund",
+          "shares": 104688
+        },
+        {
+          "fundName": "Fidelity Mid Cap Growth Index Fund",
+          "shares": 91594
+        },
+        {
+          "fundName": "Fidelity Advisor Stock Selector Mid Cap Fund",
+          "shares": 88513
+        },
+        {
+          "fundName": "Fidelity Advisor Industrials Fund",
+          "shares": 85200
+        },
+        {
+          "fundName": "Fidelity Enhanced Mid Cap ETF",
+          "shares": 60729
+        },
+        {
+          "fundName": "Strategic Advisers U.S. Total Stock Fund",
+          "shares": 57157
+        },
+        {
+          "fundName": "Fidelity Disciplined Equity Fund",
+          "shares": 52058
+        },
+        {
+          "fundName": "Fidelity ZERO Total Market Index Fund",
+          "shares": 39481
+        },
+        {
+          "fundName": "Fidelity Growth Strategies K6 Fund",
+          "shares": 38362
+        },
+        {
+          "fundName": "Fidelity Enhanced Large Cap Growth ETF",
+          "shares": 32254
+        },
+        {
+          "fundName": "Nomura VIP Mid Cap Growth Series",
+          "shares": 28077
+        },
+        {
+          "fundName": "Fidelity MSCI Industrials Index ETF",
+          "shares": 22480
+        },
+        {
+          "fundName": "Fidelity ZERO Large Cap Index Fund",
+          "shares": 21509
+        },
+        {
+          "fundName": "VIP Industrials Portfolio",
+          "shares": 17900
+        },
+        {
+          "fundName": "Fidelity Magellan K6 Fund",
+          "shares": 17022
+        },
+        {
+          "fundName": "Fidelity Founders Fund",
+          "shares": 15639
+        },
+        {
+          "fundName": "Fidelity Magellan ETF",
+          "shares": 12944
+        },
+        {
+          "fundName": "Fidelity Flex 500 Index Fund",
+          "shares": 10778
+        },
+        {
+          "fundName": "Fidelity Series Large Cap Growth Index Fund",
+          "shares": 6224
+        },
+        {
+          "fundName": "Guardian Select Mid Cap Core VIP Fund",
+          "shares": 6186
+        },
+        {
+          "fundName": "AVIP BlackRock Advantage Large Cap Value Portfolio",
+          "shares": 2427
+        },
+        {
+          "fundName": "AVIP BlackRock Advantage Large Cap Core Portfolio",
+          "shares": 1883
+        },
+        {
+          "fundName": "VIP Total Market Index Portfolio",
+          "shares": 1837
+        },
+        {
+          "fundName": "LVIP Dimensional U.S. Core Equity 1 Fund",
+          "shares": 1685
+        },
+        {
+          "fundName": "AVIP BlackRock Balanced Allocation Portfolio",
+          "shares": 1499
+        },
+        {
+          "fundName": "LVIP Dimensional U.S. Core Equity 2 Fund",
+          "shares": 988
+        },
+        {
+          "fundName": "LVIP JPMorgan Select Mid Cap Value Managed Volatility Fund",
+          "shares": 521
+        },
+        {
+          "fundName": "AVIP AB Mid Cap Core Portfolio",
+          "shares": 190
+        },
+        {
+          "fundName": "Fidelity Enhanced U.S. All-Cap Equity ETF",
+          "shares": 23
+        }
+      ]
+    },
+    {
+      "manager": "BlackRock",
+      "fundCount": 40,
+      "shares": 2525567,
+      "funds": [
+        {
+          "fundName": "iShares U.S. Aerospace &amp; Defense ETF",
+          "shares": 881897
+        },
+        {
+          "fundName": "iShares Russell Mid-Cap Growth ETF",
+          "shares": 503598
+        },
+        {
+          "fundName": "iShares Russell 1000 Growth ETF",
+          "shares": 302369
+        },
+        {
+          "fundName": "iShares Russell Mid-Cap ETF",
+          "shares": 285987
+        },
+        {
+          "fundName": "iShares MSCI USA Momentum Factor ETF",
+          "shares": 105448
+        },
+        {
+          "fundName": "iShares Core S&amp;P Total U.S. Stock Market ETF",
+          "shares": 103452
+        },
+        {
+          "fundName": "iShares Russell 1000 ETF",
+          "shares": 53260
+        },
+        {
+          "fundName": "iShares Disciplined Volatility Equity Active ETF",
+          "shares": 41462
+        },
+        {
+          "fundName": "iShares Morningstar Mid-Cap Growth ETF",
+          "shares": 38401
+        },
+        {
+          "fundName": "iShares MSCI ACWI ETF",
+          "shares": 23928
+        },
+        {
+          "fundName": "iShares Russell 3000 ETF",
+          "shares": 20240
+        },
+        {
+          "fundName": "iShares U.S. Industrials ETF",
+          "shares": 18878
+        },
+        {
+          "fundName": "iShares MSCI USA Quality GARP ETF",
+          "shares": 18750
+        },
+        {
+          "fundName": "BlackRock Sustainable Aware Advantage Large Cap Core Fund",
+          "shares": 17460
+        },
+        {
+          "fundName": "iShares Russell Mid-Cap Index Fund",
+          "shares": 13020
+        },
+        {
+          "fundName": "BlackRock Advantage Large Cap Value Fund",
+          "shares": 10924
+        },
+        {
+          "fundName": "Global Atlantic BlackRock Disciplined Mid Cap Growth Portfolio",
+          "shares": 9963
+        },
+        {
+          "fundName": "BlackRock Advantage Large Cap Growth Fund",
+          "shares": 9391
+        },
+        {
+          "fundName": "iShares Morningstar Mid-Cap ETF",
+          "shares": 8345
+        },
+        {
+          "fundName": "iShares Morningstar Growth ETF",
+          "shares": 7282
+        },
+        {
+          "fundName": "iShares Core Dividend Growth ETF",
+          "shares": 7173
+        },
+        {
+          "fundName": "iShares MSCI USA Equal Weighted ETF",
+          "shares": 6887
+        },
+        {
+          "fundName": "iShares MSCI World ETF",
+          "shares": 6313
+        },
+        {
+          "fundName": "BlackRock Tactical Opportunities Fund",
+          "shares": 5310
+        },
+        {
+          "fundName": "iShares Total U.S. Stock Market Index Fund",
+          "shares": 4764
+        },
+        {
+          "fundName": "Global Atlantic BlackRock Disciplined Core Portfolio",
+          "shares": 3867
+        },
+        {
+          "fundName": "iShares Dow Jones U.S. ETF",
+          "shares": 3349
+        },
+        {
+          "fundName": "Global Atlantic BlackRock Disciplined Value Portfolio",
+          "shares": 2285
+        },
+        {
+          "fundName": "BlackRock Advantage Large Cap Core Portfolio",
+          "shares": 2252
+        },
+        {
+          "fundName": "BlackRock Advantage Large Cap Core V.I. Fund",
+          "shares": 2150
+        },
+        {
+          "fundName": "iShares MSCI USA Size Factor ETF",
+          "shares": 1656
+        },
+        {
+          "fundName": "iShares Morningstar U.S. Equity ETF",
+          "shares": 1495
+        },
+        {
+          "fundName": "BlackRock Advantage Large Cap Value V.I. Fund",
+          "shares": 1392
+        },
+        {
+          "fundName": "Global Atlantic BlackRock Disciplined Growth Portfolio",
+          "shares": 818
+        },
+        {
+          "fundName": "iShares U.S. Large Cap Premium Income Active ETF",
+          "shares": 762
+        },
+        {
+          "fundName": "BlackRock Managed Volatility V.I. Fund",
+          "shares": 474
+        },
+        {
+          "fundName": "iShares MSCI Kokusai ETF",
+          "shares": 239
+        },
+        {
+          "fundName": "BlackRock Balanced Fund, Inc.",
+          "shares": 208
+        },
+        {
+          "fundName": "iShares Enhanced Large Cap Core Active ETF",
+          "shares": 85
+        },
+        {
+          "fundName": "iShares U.S. Industry Rotation Active ETF",
+          "shares": 33
+        }
+      ]
+    },
+    {
+      "manager": "JPMorgan",
+      "fundCount": 6,
+      "shares": 1010720,
+      "funds": [
+        {
+          "fundName": "JPMorgan Mid Cap Growth Fund",
+          "shares": 681723
+        },
+        {
+          "fundName": "JNL/JPMorgan MidCap Growth Fund",
+          "shares": 187491
+        },
+        {
+          "fundName": "JPMorgan Mid Cap Equity Fund",
+          "shares": 94521
+        },
+        {
+          "fundName": "SA JPMorgan Mid-Cap Growth Portfolio",
+          "shares": 37029
+        },
+        {
+          "fundName": "JPMORGAN BETABUILDERS U.S. EQUITY ETF",
+          "shares": 9724
+        },
+        {
+          "fundName": "JPMorgan Fundamental Data Science Mid Core ETF",
+          "shares": 232
+        }
+      ]
+    },
+    {
+      "manager": "Capital Group (American Funds)",
+      "fundCount": 3,
+      "shares": 428006,
+      "funds": [
+        {
+          "fundName": "Growth Fund of America",
+          "shares": 303153
+        },
+        {
+          "fundName": "American Funds Global Insight Fund",
+          "shares": 122045
+        },
+        {
+          "fundName": "Capital Group U.S. Equity Fund",
+          "shares": 2808
+        }
+      ]
+    },
+    {
+      "manager": "Hartford",
+      "fundCount": 2,
+      "shares": 279572,
+      "funds": [
+        {
+          "fundName": "THE HARTFORD MIDCAP FUND",
+          "shares": 233173
+        },
+        {
+          "fundName": "HARTFORD MIDCAP HLS FUND",
+          "shares": 46399
+        }
+      ]
+    },
+    {
+      "manager": "Baron Capital",
+      "fundCount": 4,
+      "shares": 203958,
+      "funds": [
+        {
+          "fundName": "Baron Partners Fund",
+          "shares": 116875
+        },
+        {
+          "fundName": "Baron Durable Advantage Fund",
+          "shares": 63732
+        },
+        {
+          "fundName": "Baron First Principles ETF",
+          "shares": 22747
+        },
+        {
+          "fundName": "Baron Global Durable Advantage ETF",
+          "shares": 604
+        }
+      ]
+    },
+    {
+      "manager": "Dimensional",
+      "fundCount": 12,
+      "shares": 181194,
+      "funds": [
+        {
+          "fundName": "Dimensional U.S. Core Equity 2 ETF",
+          "shares": 43675
+        },
+        {
+          "fundName": "U.S. CORE EQUITY 2 PORTFOLIO",
+          "shares": 39491
+        },
+        {
+          "fundName": "U.S. CORE EQUITY 1 PORTFOLIO",
+          "shares": 34159
+        },
+        {
+          "fundName": "Dimensional U.S. Equity Market ETF",
+          "shares": 23029
+        },
+        {
+          "fundName": "Dimensional US Core Equity Market ETF",
+          "shares": 15418
+        },
+        {
+          "fundName": "U.S. Sustainability Core 1 Portfolio",
+          "shares": 11151
+        },
+        {
+          "fundName": "U.S. Large Cap Equity Portfolio",
+          "shares": 4226
+        },
+        {
+          "fundName": "Dimensional US Sustainability Core 1 ETF",
+          "shares": 2633
+        },
+        {
+          "fundName": "Dimensional US Core Equity 1 ETF",
+          "shares": 2597
+        },
+        {
+          "fundName": "U.S. Social Core Equity 2 Portfolio",
+          "shares": 2448
+        },
+        {
+          "fundName": "JNL/DFA U.S. Core Equity Fund",
+          "shares": 1564
+        },
+        {
+          "fundName": "AZL DFA U.S. Core Equity Fund",
+          "shares": 803
+        }
+      ]
+    },
+    {
+      "manager": "Nuveen (TIAA)",
+      "fundCount": 5,
+      "shares": 172100,
+      "funds": [
+        {
+          "fundName": "Nuveen Equity Index Fund",
+          "shares": 63483
+        },
+        {
+          "fundName": "Nuveen Quant Mid Cap Growth Fund",
+          "shares": 60680
+        },
+        {
+          "fundName": "Nuveen Large Cap Growth Index Fund",
+          "shares": 45465
+        },
+        {
+          "fundName": "TIAA Separate Account VA-1 - Stock Index Account",
+          "shares": 1471
+        },
+        {
+          "fundName": "Nuveen Life Stock Index Fund",
+          "shares": 1001
+        }
+      ]
+    },
+    {
+      "manager": "Columbia (Ameriprise)",
+      "fundCount": 3,
+      "shares": 159917,
+      "funds": [
+        {
+          "fundName": "CTIVP - Principal Large Cap Growth Fund",
+          "shares": 119010
+        },
+        {
+          "fundName": "Multi-Manager Large Cap Growth Strategies Fund",
+          "shares": 39319
+        },
+        {
+          "fundName": "Multi-Manager Directional Alternative Strategies Fund",
+          "shares": 1588
+        }
+      ]
+    },
+    {
+      "manager": "Franklin Resources",
+      "fundCount": 3,
+      "shares": 36335,
+      "funds": [
+        {
+          "fundName": "Franklin U.S. Mid Cap Multifactor Index ETF",
+          "shares": 32832
+        },
+        {
+          "fundName": "Franklin U.S. Equity Index ETF",
+          "shares": 2156
+        },
+        {
+          "fundName": "Franklin Systematic Style Premia ETF",
+          "shares": 1347
+        }
+      ]
+    },
+    {
+      "manager": "Goldman Sachs",
+      "fundCount": 5,
+      "shares": 34593,
+      "funds": [
+        {
+          "fundName": "Goldman Sachs U.S. Tax-Managed Equity Fund",
+          "shares": 16693
+        },
+        {
+          "fundName": "Goldman Sachs ActiveBeta(R) U.S. Large Cap Equity ETF",
+          "shares": 11666
+        },
+        {
+          "fundName": "Goldman Sachs MarketBeta U.S. 1000 Equity ETF",
+          "shares": 2595
+        },
+        {
+          "fundName": "Goldman Sachs Absolute Return Tracker Fund",
+          "shares": 2313
+        },
+        {
+          "fundName": "Goldman Sachs MarketBeta(R) Russell 1000 Growth Equity ETF",
+          "shares": 1326
+        }
+      ]
+    },
+    {
+      "manager": "Invesco",
+      "fundCount": 4,
+      "shares": 31765,
+      "funds": [
+        {
+          "fundName": "Invesco MSCI USA ETF",
+          "shares": 13138
+        },
+        {
+          "fundName": "Invesco MSCI North America Climate ETF",
+          "shares": 12104
+        },
+        {
+          "fundName": "Invesco MSCI Global Climate 500 ETF",
+          "shares": 5598
+        },
+        {
+          "fundName": "Invesco Russell 1000 Dynamic Multifactor ETF",
+          "shares": 925
+        }
+      ]
+    },
+    {
+      "manager": "State Street",
+      "fundCount": 6,
+      "shares": 27297,
+      "funds": [
+        {
+          "fundName": "STATE STREET SMALL/MID CAP EQUITY INDEX PORTFOLIO",
+          "shares": 26084
+        },
+        {
+          "fundName": "State Street Total Return V.I.S. Fund",
+          "shares": 451
+        },
+        {
+          "fundName": "State Street Balanced Index Fund",
+          "shares": 402
+        },
+        {
+          "fundName": "State Street(R) SPDR(R) MSCI USA StrategicFactors(SM) ETF",
+          "shares": 286
+        },
+        {
+          "fundName": "State Street(R) SPDR(R) Russell 1000 Momentum Focus ETF",
+          "shares": 54
+        },
+        {
+          "fundName": "State Street(R) SPDR(R) MSCI World StrategicFactors(SM) ETF",
+          "shares": 20
+        }
+      ]
+    },
+    {
+      "manager": "John Hancock",
+      "fundCount": 3,
+      "shares": 26819,
+      "funds": [
+        {
+          "fundName": "John Hancock Multifactor Mid Cap ETF",
+          "shares": 23313
+        },
+        {
+          "fundName": "John Hancock Multifactor Large Cap ETF",
+          "shares": 2132
+        },
+        {
+          "fundName": "Total Stock Market Index Trust",
+          "shares": 1374
+        }
+      ]
+    },
+    {
+      "manager": "Morgan Stanley",
+      "fundCount": 7,
+      "shares": 26588,
+      "funds": [
+        {
+          "fundName": "Morgan Stanley Pathway Large Cap Equity ETF",
+          "shares": 25315
+        },
+        {
+          "fundName": "Parametric Hedged Equity ETF",
+          "shares": 497
+        },
+        {
+          "fundName": "Transamerica Morgan Stanley Global Allocation VP",
+          "shares": 338
+        },
+        {
+          "fundName": "Global Strategist Portfolio",
+          "shares": 240
+        },
+        {
+          "fundName": "Parametric Equity Plus ETF",
+          "shares": 150
+        },
+        {
+          "fundName": "Global Strategist Portfolio",
+          "shares": 33
+        },
+        {
+          "fundName": "Permanence Portfolio",
+          "shares": 15
+        }
+      ]
+    },
+    {
+      "manager": "T. Rowe Price",
+      "fundCount": 5,
+      "shares": 20861,
+      "funds": [
+        {
+          "fundName": "T. Rowe Price Extended Equity Market Index Fund",
+          "shares": 10093
+        },
+        {
+          "fundName": "T. Rowe Price Mid-Cap Index Fund",
+          "shares": 6228
+        },
+        {
+          "fundName": "T. Rowe Price Total Equity Market Index Fund",
+          "shares": 3795
+        },
+        {
+          "fundName": "SA T. Rowe Price Allocation Moderately Aggressive Portfolio",
+          "shares": 724
+        },
+        {
+          "fundName": "T. Rowe Price Active Core U.S. Equity ETF",
+          "shares": 21
+        }
+      ]
+    },
+    {
+      "manager": "Voya",
+      "fundCount": 3,
+      "shares": 7320,
+      "funds": [
+        {
+          "fundName": "Voya RussellTM Mid Cap Index Portfolio",
+          "shares": 3744
+        },
+        {
+          "fundName": "VOYA RUSSELLTM MID CAP GROWTH INDEX PORTFOLIO",
+          "shares": 1853
+        },
+        {
+          "fundName": "Voya VACS Index Series MC Portfolio",
+          "shares": 1723
+        }
+      ]
+    },
+    {
+      "manager": "WisdomTree",
+      "fundCount": 2,
+      "shares": 5862,
+      "funds": [
+        {
+          "fundName": "WisdomTree U.S. LargeCap Dividend Fund",
+          "shares": 4656
+        },
+        {
+          "fundName": "WisdomTree U.S. Total Dividend Fund",
+          "shares": 1206
+        }
+      ]
+    },
+    {
+      "manager": "American Century",
+      "fundCount": 3,
+      "shares": 2918,
+      "funds": [
+        {
+          "fundName": "Avantis U.S. Mid Cap Equity ETF",
+          "shares": 2411
+        },
+        {
+          "fundName": "Avantis U.S. Large Cap Equity ETF",
+          "shares": 504
+        },
+        {
+          "fundName": "Avantis Total Equity Markets ETF",
+          "shares": 3
+        }
+      ]
+    },
+    {
+      "manager": "Northern Trust",
+      "fundCount": 1,
+      "shares": 1630,
+      "funds": [
+        {
+          "fundName": "FlexShares Morningstar US Market Factor Tilt Index Fund",
+          "shares": 1630
+        }
+      ]
+    },
+    {
+      "manager": "PGIM (Prudential)",
+      "fundCount": 1,
+      "shares": 580,
+      "funds": [
+        {
+          "fundName": "PSF Global Portfolio",
+          "shares": 580
+        }
+      ]
+    }
+  ],
   "holders": [
     {
       "fundName": "MidCap Fund",
       "registrant": "Principal Funds, Inc",
+      "manager": "Principal",
       "cik": "898745",
       "shares": 6152962,
       "value": 1286092117,
@@ -339,6 +1263,7 @@
     {
       "fundName": "VANGUARD TOTAL STOCK MARKET INDEX FUND",
       "registrant": "VANGUARD INDEX FUNDS",
+      "manager": "Vanguard Group",
       "cik": "36405",
       "shares": 3102563,
       "value": 654920024,
@@ -351,6 +1276,7 @@
     {
       "fundName": "Fidelity Magellan Fund",
       "registrant": "Fidelity Magellan Fund",
+      "manager": "FMR (Fidelity)",
       "cik": "61397",
       "shares": 1915307,
       "value": 404302155,
@@ -363,6 +1289,7 @@
     {
       "fundName": "VANGUARD MID-CAP INDEX FUND",
       "registrant": "VANGUARD INDEX FUNDS",
+      "manager": "Vanguard Group",
       "cik": "36405",
       "shares": 1638221,
       "value": 345812071,
@@ -375,6 +1302,7 @@
     {
       "fundName": "VANGUARD GROWTH INDEX FUND",
       "registrant": "VANGUARD INDEX FUNDS",
+      "manager": "Vanguard Group",
       "cik": "36405",
       "shares": 935232,
       "value": 197418123,
@@ -387,6 +1315,7 @@
     {
       "fundName": "iShares U.S. Aerospace &amp; Defense ETF",
       "registrant": "iShares Trust",
+      "manager": "BlackRock",
       "cik": "1100663",
       "shares": 881897,
       "value": 186159638,
@@ -399,6 +1328,7 @@
     {
       "fundName": "VANGUARD EXTENDED MARKET INDEX FUND",
       "registrant": "VANGUARD INDEX FUNDS",
+      "manager": "Vanguard Group",
       "cik": "36405",
       "shares": 825873,
       "value": 174333532,
@@ -411,6 +1341,7 @@
     {
       "fundName": "Select Defense and Aerospace Portfolio",
       "registrant": "Fidelity Select Portfolios",
+      "manager": "FMR (Fidelity)",
       "cik": "320351",
       "shares": 690700,
       "value": 179450767,
@@ -423,6 +1354,7 @@
     {
       "fundName": "JPMorgan Mid Cap Growth Fund",
       "registrant": "JPMorgan Trust II",
+      "manager": "JPMorgan",
       "cik": "763852",
       "shares": 681723,
       "value": 143904908,
@@ -435,6 +1367,7 @@
     {
       "fundName": "Blue Chip Fund",
       "registrant": "Principal Funds, Inc",
+      "manager": "Principal",
       "cik": "898745",
       "shares": 624385,
       "value": 162221467,
@@ -447,6 +1380,7 @@
     {
       "fundName": "VANGUARD MID-CAP GROWTH INDEX FUND",
       "registrant": "VANGUARD INDEX FUNDS",
+      "manager": "Vanguard Group",
       "cik": "36405",
       "shares": 576798,
       "value": 121756290,
@@ -459,6 +1393,7 @@
     {
       "fundName": "iShares Russell Mid-Cap Growth ETF",
       "registrant": "iShares Trust",
+      "manager": "BlackRock",
       "cik": "1100663",
       "shares": 503598,
       "value": 106304502,
@@ -471,6 +1406,7 @@
     {
       "fundName": "VANGUARD DIVIDEND APPRECIATION INDEX FUND",
       "registrant": "VANGUARD SPECIALIZED FUNDS",
+      "manager": "Vanguard Group",
       "cik": "734383",
       "shares": 435566,
       "value": 91042005,
@@ -483,6 +1419,7 @@
     {
       "fundName": "Fidelity Extended Market Index Fund",
       "registrant": "Fidelity Concord Street Trust",
+      "manager": "FMR (Fidelity)",
       "cik": "819118",
       "shares": 397125,
       "value": 103177046,
@@ -495,6 +1432,7 @@
     {
       "fundName": "Strategic Advisers Fidelity U.S. Total Stock Fund",
       "registrant": "Fidelity Rutland Square Trust II",
+      "manager": "FMR (Fidelity)",
       "cik": "1364924",
       "shares": 351064,
       "value": 91209938,
@@ -507,6 +1445,7 @@
     {
       "fundName": "ALGER SPECTRA FUND",
       "registrant": "ALGER FUNDS II",
+      "manager": "",
       "cik": "92751",
       "shares": 343395,
       "value": 71776423,
@@ -519,6 +1458,7 @@
     {
       "fundName": "Virtus KAR Mid-Cap Core Fund",
       "registrant": "Virtus Equity Trust",
+      "manager": "",
       "cik": "34273",
       "shares": 333049,
       "value": 70303313,
@@ -531,6 +1471,7 @@
     {
       "fundName": "Growth Fund of America",
       "registrant": "Growth Fund of America",
+      "manager": "Capital Group (American Funds)",
       "cik": "44201",
       "shares": 303153,
       "value": 78762181,
@@ -543,6 +1484,7 @@
     {
       "fundName": "iShares Russell 1000 Growth ETF",
       "registrant": "iShares Trust",
+      "manager": "BlackRock",
       "cik": "1100663",
       "shares": 302369,
       "value": 63827072,
@@ -555,6 +1497,7 @@
     {
       "fundName": "iShares Russell Mid-Cap ETF",
       "registrant": "iShares Trust",
+      "manager": "BlackRock",
       "cik": "1100663",
       "shares": 285987,
       "value": 60368996,
@@ -567,6 +1510,7 @@
     {
       "fundName": "AVE MARIA GROWTH FUND",
       "registrant": "Schwartz Investment Trust",
+      "manager": "",
       "cik": "891160",
       "shares": 278590,
       "value": 58807563,
@@ -579,6 +1523,7 @@
     {
       "fundName": "Fidelity Mid Cap Index Fund",
       "registrant": "Fidelity Salem Street Trust",
+      "manager": "FMR (Fidelity)",
       "cik": "35315",
       "shares": 277757,
       "value": 58056768,
@@ -591,6 +1536,7 @@
     {
       "fundName": "Nomura Mid Cap Growth Fund",
       "registrant": "IVY FUNDS",
+      "manager": "",
       "cik": "883622",
       "shares": 251439,
       "value": 53076259,
@@ -603,6 +1549,7 @@
     {
       "fundName": "BBR ALO Fund, LLC.",
       "registrant": "BBR ALO Fund, LLC.",
+      "manager": "",
       "cik": "1811114",
       "shares": 245302,
       "value": 51780807,
@@ -615,6 +1562,7 @@
     {
       "fundName": "THE HARTFORD MIDCAP FUND",
       "registrant": "HARTFORD MUTUAL FUNDS, INC",
+      "manager": "Hartford",
       "cik": "1006415",
       "shares": 233173,
       "value": 48737820,
@@ -627,6 +1575,7 @@
     {
       "fundName": "VANGUARD EXPLORER FUND",
       "registrant": "VANGUARD EXPLORER FUND",
+      "manager": "Vanguard Group",
       "cik": "34066",
       "shares": 229254,
       "value": 47918671,
@@ -639,6 +1588,7 @@
     {
       "fundName": "ALGER FOCUS EQUITY FUND",
       "registrant": "ALGER INSTITUTIONAL FUNDS",
+      "manager": "",
       "cik": "911415",
       "shares": 227208,
       "value": 47491016,
@@ -649,8 +1599,22 @@
       "action": "Bought"
     },
     {
+      "fundName": "JNL/JPMorgan MidCap Growth Fund",
+      "registrant": "JNL Series Trust",
+      "manager": "JPMorgan",
+      "cik": "933691",
+      "shares": 187491,
+      "value": 39577475,
+      "reportDate": "2026-03-31",
+      "priorShares": 192472,
+      "change": -4981,
+      "pctOut": 0.2222,
+      "action": "Sold"
+    },
+    {
       "fundName": "American Mutual Fund",
       "registrant": "American Mutual Fund",
+      "manager": "",
       "cik": "5506",
       "shares": 175566,
       "value": 36696805,
@@ -663,6 +1627,7 @@
     {
       "fundName": "FAM DIVIDEND FOCUS FUND",
       "registrant": "Fenimore Asset Management Trust",
+      "manager": "",
       "cik": "797136",
       "shares": 166705,
       "value": 35189758,
@@ -675,6 +1640,7 @@
     {
       "fundName": "Multi Cap Equity Fund",
       "registrant": "Weitz Funds",
+      "manager": "",
       "cik": "1257927",
       "shares": 159880,
       "value": 33749069,
@@ -687,6 +1653,7 @@
     {
       "fundName": "Column Mid Cap Select Fund",
       "registrant": "Trust for Professional Managers",
+      "manager": "",
       "cik": "1141819",
       "shares": 150506,
       "value": 39102964,
@@ -699,6 +1666,7 @@
     {
       "fundName": "Fidelity Growth Strategies Fund",
       "registrant": "Fidelity Mt. Vernon Street Trust",
+      "manager": "FMR (Fidelity)",
       "cik": "707823",
       "shares": 147638,
       "value": 38357829,
@@ -711,6 +1679,7 @@
     {
       "fundName": "Fidelity Total Market Index Fund",
       "registrant": "Fidelity Concord Street Trust",
+      "manager": "FMR (Fidelity)",
       "cik": "819118",
       "shares": 137068,
       "value": 35611637,
@@ -723,6 +1692,7 @@
     {
       "fundName": "Allspring Opportunity Fund",
       "registrant": "ALLSPRING FUNDS TRUST",
+      "manager": "",
       "cik": "1081400",
       "shares": 127407,
       "value": 26894344,
@@ -735,6 +1705,7 @@
     {
       "fundName": "AVE MARIA RISING DIVIDEND FUND",
       "registrant": "Schwartz Investment Trust",
+      "manager": "",
       "cik": "891160",
       "shares": 125000,
       "value": 26386250,
@@ -747,6 +1718,7 @@
     {
       "fundName": "VANGUARD RUSSELL 1000 GROWTH INDEX FUND",
       "registrant": "VANGUARD SCOTTSDALE FUNDS",
+      "manager": "Vanguard Group",
       "cik": "1021882",
       "shares": 124124,
       "value": 32248656,
@@ -759,6 +1731,7 @@
     {
       "fundName": "American Funds Global Insight Fund",
       "registrant": "American Funds Global Insight Fund",
+      "manager": "Capital Group (American Funds)",
       "cik": "1785347",
       "shares": 122045,
       "value": 25509846,
@@ -771,6 +1744,7 @@
     {
       "fundName": "CTIVP - Principal Large Cap Growth Fund",
       "registrant": "Columbia Funds Variable Series Trust II",
+      "manager": "Columbia (Ameriprise)",
       "cik": "1413032",
       "shares": 119010,
       "value": 25121821,
@@ -783,6 +1757,7 @@
     {
       "fundName": "MidCap Account",
       "registrant": "Principal Variable Contract Funds, Inc",
+      "manager": "Principal",
       "cik": "12601",
       "shares": 118864,
       "value": 25091002,
@@ -795,6 +1770,7 @@
     {
       "fundName": "Fidelity Series Total Market Index Fund",
       "registrant": "Fidelity Concord Street Trust",
+      "manager": "FMR (Fidelity)",
       "cik": "819118",
       "shares": 116929,
       "value": 30379323,
@@ -807,6 +1783,7 @@
     {
       "fundName": "Baron Partners Fund",
       "registrant": "BARON SELECT FUNDS",
+      "manager": "Baron Capital",
       "cik": "1217673",
       "shares": 116875,
       "value": 24671144,
@@ -819,6 +1796,7 @@
     {
       "fundName": "Fidelity Large Cap Growth Index Fund",
       "registrant": "Fidelity Salem Street Trust",
+      "manager": "FMR (Fidelity)",
       "cik": "35315",
       "shares": 106403,
       "value": 22240355,
@@ -831,6 +1809,7 @@
     {
       "fundName": "iShares MSCI USA Momentum Factor ETF",
       "registrant": "iShares Trust",
+      "manager": "BlackRock",
       "cik": "1100663",
       "shares": 105448,
       "value": 22040741,
@@ -843,6 +1822,7 @@
     {
       "fundName": "Fidelity Trend Fund",
       "registrant": "Fidelity Trend Fund",
+      "manager": "FMR (Fidelity)",
       "cik": "35402",
       "shares": 104688,
       "value": 22098590,
@@ -855,6 +1835,7 @@
     {
       "fundName": "iShares Core S&amp;P Total U.S. Stock Market ETF",
       "registrant": "iShares Trust",
+      "manager": "BlackRock",
       "cik": "1100663",
       "shares": 103452,
       "value": 21837683,
@@ -867,6 +1848,7 @@
     {
       "fundName": "JPMorgan Mid Cap Equity Fund",
       "registrant": "JPMorgan Trust I",
+      "manager": "JPMorgan",
       "cik": "1217286",
       "shares": 94521,
       "value": 19952438,
@@ -879,6 +1861,7 @@
     {
       "fundName": "Fidelity Mid Cap Growth Index Fund",
       "registrant": "Fidelity Salem Street Trust",
+      "manager": "FMR (Fidelity)",
       "cik": "35315",
       "shares": 91594,
       "value": 19334577,
@@ -891,6 +1874,7 @@
     {
       "fundName": "VANGUARD INDUSTRIALS INDEX FUND",
       "registrant": "VANGUARD WORLD FUND",
+      "manager": "Vanguard Group",
       "cik": "52848",
       "shares": 89730,
       "value": 23312751,
@@ -903,6 +1887,7 @@
     {
       "fundName": "VANGUARD LARGE-CAP INDEX FUND",
       "registrant": "VANGUARD INDEX FUNDS",
+      "manager": "Vanguard Group",
       "cik": "36405",
       "shares": 88964,
       "value": 18779411,
@@ -915,6 +1900,7 @@
     {
       "fundName": "Fidelity Advisor Stock Selector Mid Cap Fund",
       "registrant": "Fidelity Advisor Series I",
+      "manager": "FMR (Fidelity)",
       "cik": "722574",
       "shares": 88513,
       "value": 22996563,
@@ -927,6 +1913,7 @@
     {
       "fundName": "Fidelity Advisor Industrials Fund",
       "registrant": "Fidelity Advisor Series VII",
+      "manager": "FMR (Fidelity)",
       "cik": "315700",
       "shares": 85200,
       "value": 17808504,
@@ -939,6 +1926,7 @@
     {
       "fundName": "BBH Select Mid Cap ETF",
       "registrant": "BBH Trust",
+      "manager": "",
       "cik": "1342947",
       "shares": 83294,
       "value": 17410112,
@@ -951,6 +1939,7 @@
     {
       "fundName": "Bridge Builder Small/Mid Cap Growth Fund",
       "registrant": "Bridge Builder Trust",
+      "manager": "",
       "cik": "1567101",
       "shares": 82117,
       "value": 17334078,
@@ -963,6 +1952,7 @@
     {
       "fundName": "JNL Multi-Manager Small Cap Growth Fund",
       "registrant": "JNL Series Trust",
+      "manager": "",
       "cik": "933691",
       "shares": 73849,
       "value": 15588785,
@@ -975,6 +1965,7 @@
     {
       "fundName": "ALGER CAPITAL APPRECIATION INSTITUTIONAL FUND",
       "registrant": "ALGER INSTITUTIONAL FUNDS",
+      "manager": "",
       "cik": "911415",
       "shares": 69694,
       "value": 14567440,
@@ -987,6 +1978,7 @@
     {
       "fundName": "Blackstone Alternative Multi-Strategy Fund",
       "registrant": "Blackstone Alternative Investment Funds",
+      "manager": "",
       "cik": "1557794",
       "shares": 68000,
       "value": 14354120,
@@ -999,6 +1991,7 @@
     {
       "fundName": "Baron Durable Advantage Fund",
       "registrant": "BARON INVESTMENT FUNDS TRUST (f/k/a BARON ASSET FUND)",
+      "manager": "Baron Capital",
       "cik": "810902",
       "shares": 63732,
       "value": 13453188,
@@ -1011,6 +2004,7 @@
     {
       "fundName": "Nuveen Equity Index Fund",
       "registrant": "TIAA-CREF Funds",
+      "manager": "Nuveen (TIAA)",
       "cik": "1084380",
       "shares": 63483,
       "value": 13269217,
@@ -1023,6 +2017,7 @@
     {
       "fundName": "Fidelity Enhanced Mid Cap ETF",
       "registrant": "Fidelity Covington Trust",
+      "manager": "FMR (Fidelity)",
       "cik": "945908",
       "shares": 60729,
       "value": 12819285,
@@ -1035,6 +2030,7 @@
     {
       "fundName": "Nuveen Quant Mid Cap Growth Fund",
       "registrant": "TIAA-CREF Funds",
+      "manager": "Nuveen (TIAA)",
       "cik": "1084380",
       "shares": 60680,
       "value": 12683334,
@@ -1047,6 +2043,7 @@
     {
       "fundName": "CONESTOGA SMID CAP FUND",
       "registrant": "Conestoga Funds",
+      "manager": "",
       "cik": "1175813",
       "shares": 58000,
       "value": 12243220,
@@ -1059,6 +2056,7 @@
     {
       "fundName": "Mid Cap Growth Stock Portfolio",
       "registrant": "NORTHWESTERN MUTUAL SERIES FUND INC",
+      "manager": "",
       "cik": "742212",
       "shares": 57914,
       "value": 12225066,
@@ -1071,6 +2069,7 @@
     {
       "fundName": "Strategic Advisers U.S. Total Stock Fund",
       "registrant": "Fidelity Rutland Square Trust II",
+      "manager": "FMR (Fidelity)",
       "cik": "1364924",
       "shares": 57157,
       "value": 14849960,
@@ -1083,6 +2082,7 @@
     {
       "fundName": "iShares Russell 1000 ETF",
       "registrant": "iShares Trust",
+      "manager": "BlackRock",
       "cik": "1100663",
       "shares": 53260,
       "value": 11242653,
@@ -1095,6 +2095,7 @@
     {
       "fundName": "VANGUARD BALANCED INDEX FUND",
       "registrant": "VANGUARD VALLEY FORGE FUNDS",
+      "manager": "Vanguard Group",
       "cik": "889519",
       "shares": 52287,
       "value": 11037263,
@@ -1107,6 +2108,7 @@
     {
       "fundName": "Fidelity Disciplined Equity Fund",
       "registrant": "Fidelity Capital Trust",
+      "manager": "FMR (Fidelity)",
       "cik": "275309",
       "shares": 52058,
       "value": 10881163,
@@ -1119,6 +2121,7 @@
     {
       "fundName": "ALGER CAPITAL APPRECIATION FUND",
       "registrant": "ALGER FUNDS",
+      "manager": "",
       "cik": "3521",
       "shares": 51989,
       "value": 10866741,
@@ -1131,6 +2134,7 @@
     {
       "fundName": "DF DENT MIDCAP GROWTH FUND",
       "registrant": "FORUM FUNDS",
+      "manager": "",
       "cik": "315774",
       "shares": 51418,
       "value": 10853826,
@@ -1143,6 +2147,7 @@
     {
       "fundName": "VANGUARD TOTAL WORLD STOCK INDEX FUND",
       "registrant": "VANGUARD INTERNATIONAL EQUITY INDEX FUNDS",
+      "manager": "Vanguard Group",
       "cik": "857489",
       "shares": 51081,
       "value": 10676951,
@@ -1155,6 +2160,7 @@
     {
       "fundName": "VANGUARD INSTITUTIONAL TOTAL STOCK MARKET INDEX FUND",
       "registrant": "VANGUARD INSTITUTIONAL INDEX FUNDS",
+      "manager": "Vanguard Group",
       "cik": "862084",
       "shares": 51071,
       "value": 10780577,
@@ -1167,6 +2173,7 @@
     {
       "fundName": "Nationwide Geneva Mid Cap Growth Fund",
       "registrant": "Nationwide Mutual Funds",
+      "manager": "",
       "cik": "1048702",
       "shares": 47171,
       "value": 9859682,
@@ -1179,6 +2186,7 @@
     {
       "fundName": "HARTFORD MIDCAP HLS FUND",
       "registrant": "HARTFORD SERIES FUND INC",
+      "manager": "Hartford",
       "cik": "1053425",
       "shares": 46399,
       "value": 9794365,
@@ -1191,6 +2199,7 @@
     {
       "fundName": "Nuveen Large Cap Growth Index Fund",
       "registrant": "TIAA-CREF Funds",
+      "manager": "Nuveen (TIAA)",
       "cik": "1084380",
       "shares": 45465,
       "value": 9503094,
@@ -1203,6 +2212,7 @@
     {
       "fundName": "Large Cap Index Master Portfolio",
       "registrant": "Master Investment Portfolio",
+      "manager": "",
       "cik": "915092",
       "shares": 44875,
       "value": 9472664,
@@ -1215,6 +2225,7 @@
     {
       "fundName": "Dimensional U.S. Core Equity 2 ETF",
       "registrant": "Dimensional ETF Trust",
+      "manager": "Dimensional",
       "cik": "1816125",
       "shares": 43675,
       "value": 9128949,
@@ -1227,6 +2238,7 @@
     {
       "fundName": "College Retirement Equities Fund - Total Global Stock Account",
       "registrant": "College Retirement Equities Fund",
+      "manager": "",
       "cik": "777535",
       "shares": 42427,
       "value": 8955915,
@@ -1239,6 +2251,7 @@
     {
       "fundName": "iShares Disciplined Volatility Equity Active ETF",
       "registrant": "BlackRock ETF Trust",
+      "manager": "BlackRock",
       "cik": "1761055",
       "shares": 41462,
       "value": 8666387,
@@ -1251,6 +2264,7 @@
     {
       "fundName": "AVE MARIA VALUE FUND",
       "registrant": "Schwartz Investment Trust",
+      "manager": "",
       "cik": "891160",
       "shares": 40000,
       "value": 8443600,
@@ -1263,6 +2277,7 @@
     {
       "fundName": "U.S. CORE EQUITY 2 PORTFOLIO",
       "registrant": "DFA INVESTMENT DIMENSIONS GROUP INC",
+      "manager": "Dimensional",
       "cik": "355437",
       "shares": 39491,
       "value": 8254409,
@@ -1275,6 +2290,7 @@
     {
       "fundName": "Fidelity ZERO Total Market Index Fund",
       "registrant": "Fidelity Concord Street Trust",
+      "manager": "FMR (Fidelity)",
       "cik": "819118",
       "shares": 39481,
       "value": 8252319,
@@ -1287,6 +2303,7 @@
     {
       "fundName": "Multi-Manager Large Cap Growth Strategies Fund",
       "registrant": "COLUMBIA FUNDS SERIES TRUST I",
+      "manager": "Columbia (Ameriprise)",
       "cik": "773757",
       "shares": 39319,
       "value": 8299848,
@@ -1299,6 +2316,7 @@
     {
       "fundName": "Alger Concentrated Equity ETF",
       "registrant": "Alger ETF Trust",
+      "manager": "",
       "cik": "1807486",
       "shares": 38430,
       "value": 8112189,
@@ -1311,6 +2329,7 @@
     {
       "fundName": "iShares Morningstar Mid-Cap Growth ETF",
       "registrant": "iShares Trust",
+      "manager": "BlackRock",
       "cik": "1100663",
       "shares": 38401,
       "value": 8026577,
@@ -1323,6 +2342,7 @@
     {
       "fundName": "Fidelity Growth Strategies K6 Fund",
       "registrant": "Fidelity Mt. Vernon Street Trust",
+      "manager": "FMR (Fidelity)",
       "cik": "707823",
       "shares": 38362,
       "value": 9966831,
@@ -1335,6 +2355,7 @@
     {
       "fundName": "Victory Growth Fund",
       "registrant": "Victory Portfolios III",
+      "manager": "",
       "cik": "908695",
       "shares": 37701,
       "value": 7880263,
@@ -1347,6 +2368,7 @@
     {
       "fundName": "American Beacon Stephens Mid-Cap Growth Fund",
       "registrant": "AMERICAN BEACON FUNDS",
+      "manager": "",
       "cik": "809593",
       "shares": 37693,
       "value": 7956615,
@@ -1359,6 +2381,7 @@
     {
       "fundName": "SA JPMorgan Mid-Cap Growth Portfolio",
       "registrant": "SUNAMERICA SERIES TRUST",
+      "manager": "JPMorgan",
       "cik": "892538",
       "shares": 37029,
       "value": 7739802,
@@ -1371,6 +2394,7 @@
     {
       "fundName": "Victory Aggressive Growth Fund",
       "registrant": "Victory Portfolios III",
+      "manager": "",
       "cik": "908695",
       "shares": 35980,
       "value": 7520540,
@@ -1383,6 +2407,7 @@
     {
       "fundName": "DF DENT PREMIER GROWTH FUND",
       "registrant": "FORUM FUNDS",
+      "manager": "",
       "cik": "315774",
       "shares": 35957,
       "value": 7590163,
@@ -1395,6 +2420,7 @@
     {
       "fundName": "Brown Advisory Growth Equity Fund",
       "registrant": "Brown Advisory Funds",
+      "manager": "",
       "cik": "1548609",
       "shares": 34636,
       "value": 7311313,
@@ -1407,6 +2433,7 @@
     {
       "fundName": "U.S. CORE EQUITY 1 PORTFOLIO",
       "registrant": "DFA INVESTMENT DIMENSIONS GROUP INC",
+      "manager": "Dimensional",
       "cik": "355437",
       "shares": 34159,
       "value": 7139914,
@@ -1419,6 +2446,7 @@
     {
       "fundName": "Franklin U.S. Mid Cap Multifactor Index ETF",
       "registrant": "Franklin Templeton ETF Trust",
+      "manager": "Franklin Resources",
       "cik": "1655589",
       "shares": 32832,
       "value": 6930507,
@@ -1431,6 +2459,7 @@
     {
       "fundName": "Fidelity Enhanced Large Cap Growth ETF",
       "registrant": "Fidelity Covington Trust",
+      "manager": "FMR (Fidelity)",
       "cik": "945908",
       "shares": 32254,
       "value": 6808497,
@@ -1443,6 +2472,7 @@
     {
       "fundName": "Bridge Builder Tax Managed Small/Mid Cap Fund",
       "registrant": "Bridge Builder Trust",
+      "manager": "",
       "cik": "1567101",
       "shares": 28189,
       "value": 5950416,
@@ -1455,6 +2485,7 @@
     {
       "fundName": "Nomura VIP Mid Cap Growth Series",
       "registrant": "Ivy Variable Insurance Portfolios",
+      "manager": "FMR (Fidelity)",
       "cik": "810016",
       "shares": 28077,
       "value": 5926774,
@@ -1467,6 +2498,7 @@
     {
       "fundName": "Column Mid Cap Fund",
       "registrant": "Trust for Professional Managers",
+      "manager": "",
       "cik": "1141819",
       "shares": 27088,
       "value": 7037733,
@@ -1479,6 +2511,7 @@
     {
       "fundName": "Buffalo Mid Cap Discovery Fund",
       "registrant": "Buffalo Funds",
+      "manager": "",
       "cik": "1135300",
       "shares": 26600,
       "value": 5614994,
@@ -1491,6 +2524,7 @@
     {
       "fundName": "MID-CAP INDEX PORTFOLIO",
       "registrant": "VANGUARD VARIABLE INSURANCE FUNDS",
+      "manager": "Vanguard Group",
       "cik": "857490",
       "shares": 26159,
       "value": 5521903,
@@ -1503,6 +2537,7 @@
     {
       "fundName": "STATE STREET SMALL/MID CAP EQUITY INDEX PORTFOLIO",
       "registrant": "STATE STREET INSTITUTIONAL INVESTMENT TRUST",
+      "manager": "State Street",
       "cik": "1107414",
       "shares": 26084,
       "value": 5506072,
@@ -1515,6 +2550,7 @@
     {
       "fundName": "Alger Capital Appreciation Portfolio",
       "registrant": "ALGER PORTFOLIOS",
+      "manager": "",
       "cik": "832566",
       "shares": 25518,
       "value": 5386595,
@@ -1527,6 +2563,7 @@
     {
       "fundName": "Morgan Stanley Pathway Large Cap Equity ETF",
       "registrant": "MORGAN STANLEY PATHWAY FUNDS",
+      "manager": "Morgan Stanley",
       "cik": "875186",
       "shares": 25315,
       "value": 6577090,
@@ -1539,6 +2576,7 @@
     {
       "fundName": "Vulcan Value Partners Fund",
       "registrant": "Elevation Series Trust",
+      "manager": "",
       "cik": "1936157",
       "shares": 24873,
       "value": 5198954,
@@ -1551,6 +2589,7 @@
     {
       "fundName": "iShares MSCI ACWI ETF",
       "registrant": "iShares Trust",
+      "manager": "BlackRock",
       "cik": "1100663",
       "shares": 23928,
       "value": 5001431,
@@ -1563,6 +2602,7 @@
     {
       "fundName": "John Hancock Multifactor Mid Cap ETF",
       "registrant": "John Hancock Exchange-Traded Fund Trust",
+      "manager": "John Hancock",
       "cik": "1478482",
       "shares": 23313,
       "value": 4921141,
@@ -1575,6 +2615,7 @@
     {
       "fundName": "DF DENT SMALL CAP GROWTH FUND",
       "registrant": "FORUM FUNDS",
+      "manager": "",
       "cik": "315774",
       "shares": 23125,
       "value": 4881456,
@@ -1587,6 +2628,7 @@
     {
       "fundName": "Dimensional U.S. Equity Market ETF",
       "registrant": "Dimensional ETF Trust",
+      "manager": "Dimensional",
       "cik": "1816125",
       "shares": 23029,
       "value": 4813522,
@@ -1599,6 +2641,7 @@
     {
       "fundName": "Baron First Principles ETF",
       "registrant": "Baron ETF Trust",
+      "manager": "Baron Capital",
       "cik": "2081199",
       "shares": 22747,
       "value": 4801664,
@@ -1611,6 +2654,7 @@
     {
       "fundName": "Fidelity MSCI Industrials Index ETF",
       "registrant": "FIDELITY COVINGTON TRUST",
+      "manager": "FMR (Fidelity)",
       "cik": "945908",
       "shares": 22480,
       "value": 4698770,
@@ -1623,6 +2667,7 @@
     {
       "fundName": "Fidelity ZERO Large Cap Index Fund",
       "registrant": "Fidelity Concord Street Trust",
+      "manager": "FMR (Fidelity)",
       "cik": "819118",
       "shares": 21509,
       "value": 4495811,
@@ -1635,6 +2680,7 @@
     {
       "fundName": "Pro-Blend Maximum Term Series",
       "registrant": "Manning & Napier Fund, Inc.",
+      "manager": "",
       "cik": "751173",
       "shares": 20438,
       "value": 4271951,
@@ -1647,6 +2693,7 @@
     {
       "fundName": "iShares Russell 3000 ETF",
       "registrant": "iShares Trust",
+      "manager": "BlackRock",
       "cik": "1100663",
       "shares": 20240,
       "value": 4272462,
@@ -1659,6 +2706,7 @@
     {
       "fundName": "Alger Mid Cap 40 ETF",
       "registrant": "Alger ETF Trust",
+      "manager": "",
       "cik": "1807486",
       "shares": 20047,
       "value": 4231721,
@@ -1671,6 +2719,7 @@
     {
       "fundName": "Optimum Large Cap Growth Fund",
       "registrant": "Optimum Fund Trust",
+      "manager": "",
       "cik": "1227523",
       "shares": 19516,
       "value": 4119632,
@@ -1683,6 +2732,7 @@
     {
       "fundName": "iShares U.S. Industrials ETF",
       "registrant": "iShares Trust",
+      "manager": "BlackRock",
       "cik": "1100663",
       "shares": 18878,
       "value": 3945880,
@@ -1695,6 +2745,7 @@
     {
       "fundName": "iShares MSCI USA Quality GARP ETF",
       "registrant": "iShares Trust",
+      "manager": "BlackRock",
       "cik": "1100663",
       "shares": 18750,
       "value": 3957938,
@@ -1707,6 +2758,7 @@
     {
       "fundName": "Victory 500 Index Fund",
       "registrant": "Victory Portfolios III",
+      "manager": "",
       "cik": "908695",
       "shares": 17904,
       "value": 3742294,
@@ -1719,6 +2771,7 @@
     {
       "fundName": "VIP Industrials Portfolio",
       "registrant": "Variable Insurance Products Fund IV",
+      "manager": "FMR (Fidelity)",
       "cik": "720318",
       "shares": 17900,
       "value": 3778511,
@@ -1731,6 +2784,7 @@
     {
       "fundName": "BlackRock Sustainable Aware Advantage Large Cap Core Fund",
       "registrant": "BlackRock Funds",
+      "manager": "BlackRock",
       "cik": "844779",
       "shares": 17460,
       "value": 4536283,
@@ -1743,6 +2797,7 @@
     {
       "fundName": "Fidelity Magellan K6 Fund",
       "registrant": "Fidelity Magellan Fund",
+      "manager": "FMR (Fidelity)",
       "cik": "61397",
       "shares": 17022,
       "value": 3593174,
@@ -1755,6 +2810,7 @@
     {
       "fundName": "Large Cap Equity Fund",
       "registrant": "Weitz Funds",
+      "manager": "",
       "cik": "1257927",
       "shares": 17000,
       "value": 3588530,
@@ -1767,6 +2823,7 @@
     {
       "fundName": "Direxion Daily Aerospace &amp; Defense Bull 3X Shares",
       "registrant": "Direxion Shares ETF Trust",
+      "manager": "",
       "cik": "1424958",
       "shares": 16893,
       "value": 3530975,
@@ -1779,6 +2836,7 @@
     {
       "fundName": "Six Circles Managed Equity Portfolio U.S. Unconstrained Fund",
       "registrant": "SIX CIRCLES TRUST",
+      "manager": "",
       "cik": "1724826",
       "shares": 16829,
       "value": 3552434,
@@ -1791,6 +2849,7 @@
     {
       "fundName": "Goldman Sachs U.S. Tax-Managed Equity Fund",
       "registrant": "Goldman Sachs Trust",
+      "manager": "Goldman Sachs",
       "cik": "822977",
       "shares": 16693,
       "value": 3523725,
@@ -1803,6 +2862,7 @@
     {
       "fundName": "College Retirement Equities Fund - Global Equities Account",
       "registrant": "College Retirement Equities Fund",
+      "manager": "",
       "cik": "777535",
       "shares": 16480,
       "value": 3478763,
@@ -1815,6 +2875,7 @@
     {
       "fundName": "Fidelity Founders Fund",
       "registrant": "Fidelity Concord Street Trust",
+      "manager": "FMR (Fidelity)",
       "cik": "819118",
       "shares": 15639,
       "value": 3268864,
@@ -1827,6 +2888,7 @@
     {
       "fundName": "Dimensional US Core Equity Market ETF",
       "registrant": "Dimensional ETF Trust",
+      "manager": "Dimensional",
       "cik": "1816125",
       "shares": 15418,
       "value": 3222670,
@@ -1839,6 +2901,7 @@
     {
       "fundName": "Nationwide Large Cap Equity Portfolio",
       "registrant": "Nationwide Mutual Funds",
+      "manager": "",
       "cik": "1048702",
       "shares": 14300,
       "value": 2988986,
@@ -1851,6 +2914,7 @@
     {
       "fundName": "Azzad Ethical Fund",
       "registrant": "AZZAD FUNDS",
+      "manager": "",
       "cik": "1031008",
       "shares": 13683,
       "value": 2888344,
@@ -1863,6 +2927,7 @@
     {
       "fundName": "Invesco MSCI USA ETF",
       "registrant": "Invesco Exchange-Traded Fund Trust II",
+      "manager": "Invesco",
       "cik": "1378872",
       "shares": 13138,
       "value": 3413384,
@@ -1875,6 +2940,7 @@
     {
       "fundName": "VANGUARD TAX-MANAGED BALANCED FUND",
       "registrant": "VANGUARD TAX-MANAGED FUNDS",
+      "manager": "Vanguard Group",
       "cik": "923202",
       "shares": 13066,
       "value": 2758102,
@@ -1887,6 +2953,7 @@
     {
       "fundName": "iShares Russell Mid-Cap Index Fund",
       "registrant": "BlackRock Funds",
+      "manager": "BlackRock",
       "cik": "844779",
       "shares": 13020,
       "value": 2721440,
@@ -1899,6 +2966,7 @@
     {
       "fundName": "Fidelity Magellan ETF",
       "registrant": "Fidelity Covington Trust",
+      "manager": "FMR (Fidelity)",
       "cik": "945908",
       "shares": 12944,
       "value": 2705555,
@@ -1911,6 +2979,7 @@
     {
       "fundName": "Pro-Blend Extended Term Series",
       "registrant": "Manning & Napier Fund, Inc.",
+      "manager": "",
       "cik": "751173",
       "shares": 12942,
       "value": 2705137,
@@ -1923,6 +2992,7 @@
     {
       "fundName": "SIMT Large Cap Growth Fund",
       "registrant": "SEI INSTITUTIONAL MANAGED TRUST",
+      "manager": "",
       "cik": "804239",
       "shares": 12728,
       "value": 2686754,
@@ -1935,6 +3005,7 @@
     {
       "fundName": "Victory Growth &amp; Income Fund",
       "registrant": "Victory Portfolios III",
+      "manager": "",
       "cik": "908695",
       "shares": 12635,
       "value": 2640968,
@@ -1947,6 +3018,7 @@
     {
       "fundName": "Invesco MSCI North America Climate ETF",
       "registrant": "Invesco Exchange-Traded Fund Trust II",
+      "manager": "Invesco",
       "cik": "1378872",
       "shares": 12104,
       "value": 3144740,
@@ -1959,6 +3031,7 @@
     {
       "fundName": "VANGUARD RUSSELL 1000 INDEX FUND",
       "registrant": "VANGUARD SCOTTSDALE FUNDS",
+      "manager": "Vanguard Group",
       "cik": "1021882",
       "shares": 12091,
       "value": 3141363,
@@ -1971,6 +3044,7 @@
     {
       "fundName": "SIIT EXTENDED MARKET INDEX FUND",
       "registrant": "SEI INSTITUTIONAL INVESTMENTS TRUST",
+      "manager": "",
       "cik": "939934",
       "shares": 11882,
       "value": 3087062,
@@ -1983,6 +3057,7 @@
     {
       "fundName": "Goldman Sachs ActiveBeta(R) U.S. Large Cap Equity ETF",
       "registrant": "Goldman Sachs ETF Trust",
+      "manager": "Goldman Sachs",
       "cik": "1479026",
       "shares": 11666,
       "value": 2801123,
@@ -1995,6 +3070,7 @@
     {
       "fundName": "Victory RS Growth Fund",
       "registrant": "Victory Portfolios",
+      "manager": "",
       "cik": "802716",
       "shares": 11430,
       "value": 2412759,
@@ -2007,6 +3083,7 @@
     {
       "fundName": "U.S. Sustainability Core 1 Portfolio",
       "registrant": "DFA INVESTMENT DIMENSIONS GROUP INC",
+      "manager": "Dimensional",
       "cik": "355437",
       "shares": 11151,
       "value": 2330782,
@@ -2019,6 +3096,7 @@
     {
       "fundName": "PRAXIS VALUE INDEX FUND",
       "registrant": "Praxis Mutual Funds",
+      "manager": "",
       "cik": "912900",
       "shares": 11050,
       "value": 2332545,
@@ -2031,6 +3109,7 @@
     {
       "fundName": "LargeCap Growth Account I",
       "registrant": "Principal Variable Contract Funds, Inc",
+      "manager": "Principal",
       "cik": "12601",
       "shares": 11037,
       "value": 2329800,
@@ -2043,6 +3122,7 @@
     {
       "fundName": "Allspring VT Opportunity Fund",
       "registrant": "Allspring VARIABLE TRUST",
+      "manager": "",
       "cik": "1081402",
       "shares": 11037,
       "value": 2329800,
@@ -2055,6 +3135,7 @@
     {
       "fundName": "BlackRock Advantage Large Cap Value Fund",
       "registrant": "BlackRock Large Cap Series Funds, Inc.",
+      "manager": "BlackRock",
       "cik": "1097077",
       "shares": 10924,
       "value": 2838164,
@@ -2067,6 +3148,7 @@
     {
       "fundName": "Six Circles U.S. Unconstrained Equity Fund",
       "registrant": "SIX CIRCLES TRUST",
+      "manager": "",
       "cik": "1724826",
       "shares": 10870,
       "value": 2294548,
@@ -2079,6 +3161,7 @@
     {
       "fundName": "Principal Focused Blue Chip ETF",
       "registrant": "Principal Exchange-Traded Funds",
+      "manager": "Principal",
       "cik": "1572661",
       "shares": 10868,
       "value": 2294126,
@@ -2091,6 +3174,7 @@
     {
       "fundName": "Fidelity Flex 500 Index Fund",
       "registrant": "Fidelity Concord Street Trust",
+      "manager": "FMR (Fidelity)",
       "cik": "819118",
       "shares": 10778,
       "value": 2800232,
@@ -2103,6 +3187,7 @@
     {
       "fundName": "MoA Mid Cap Growth Fund",
       "registrant": "MoA Funds Corp",
+      "manager": "",
       "cik": "795259",
       "shares": 10133,
       "value": 2138975,
@@ -2115,6 +3200,7 @@
     {
       "fundName": "T. Rowe Price Extended Equity Market Index Fund",
       "registrant": "T. ROWE PRICE INDEX TRUST, INC.",
+      "manager": "T. Rowe Price",
       "cik": "858581",
       "shares": 10093,
       "value": 2130531,
@@ -2127,6 +3213,7 @@
     {
       "fundName": "Global Atlantic BlackRock Disciplined Mid Cap Growth Portfolio",
       "registrant": "Forethought Variable Insurance Trust",
+      "manager": "BlackRock",
       "cik": "1580353",
       "shares": 9963,
       "value": 2103090,
@@ -2139,6 +3226,7 @@
     {
       "fundName": "JPMORGAN BETABUILDERS U.S. EQUITY ETF",
       "registrant": "J.P. Morgan Exchange-Traded Fund Trust",
+      "manager": "JPMorgan",
       "cik": "1485894",
       "shares": 9724,
       "value": 2032510,
@@ -2151,6 +3239,7 @@
     {
       "fundName": "BlackRock Advantage Large Cap Growth Fund",
       "registrant": "BlackRock Funds",
+      "manager": "BlackRock",
       "cik": "844779",
       "shares": 9391,
       "value": 2439876,
@@ -2163,6 +3252,7 @@
     {
       "fundName": "EQ/Common Stock Index Portfolio",
       "registrant": "EQ Advisors Trust",
+      "manager": "",
       "cik": "1027263",
       "shares": 8945,
       "value": 1888200,
@@ -2175,6 +3265,7 @@
     {
       "fundName": "Penn Series Mid Cap Growth Fund",
       "registrant": "Penn Series Funds Inc",
+      "manager": "",
       "cik": "702340",
       "shares": 8881,
       "value": 1874690,
@@ -2187,6 +3278,7 @@
     {
       "fundName": "iShares Morningstar Mid-Cap ETF",
       "registrant": "iShares Trust",
+      "manager": "BlackRock",
       "cik": "1100663",
       "shares": 8345,
       "value": 1744272,
@@ -2199,6 +3291,7 @@
     {
       "fundName": "Argent Mid Cap ETF",
       "registrant": "EA Series Trust",
+      "manager": "",
       "cik": "1592900",
       "shares": 8014,
       "value": 2082117,
@@ -2211,6 +3304,7 @@
     {
       "fundName": "JNL/Mellon Industrials Sector Fund",
       "registrant": "JNL Series Trust",
+      "manager": "",
       "cik": "933691",
       "shares": 7569,
       "value": 1597740,
@@ -2223,6 +3317,7 @@
     {
       "fundName": "iShares Morningstar Growth ETF",
       "registrant": "iShares Trust",
+      "manager": "BlackRock",
       "cik": "1100663",
       "shares": 7282,
       "value": 1522084,
@@ -2235,6 +3330,7 @@
     {
       "fundName": "Diversified Equity Master Portfolio",
       "registrant": "Master Investment Portfolio",
+      "manager": "",
       "cik": "915092",
       "shares": 7201,
       "value": 1520059,
@@ -2247,6 +3343,7 @@
     {
       "fundName": "iShares Core Dividend Growth ETF",
       "registrant": "iShares Trust",
+      "manager": "BlackRock",
       "cik": "1100663",
       "shares": 7173,
       "value": 1499300,
@@ -2259,6 +3356,7 @@
     {
       "fundName": "Conservative Allocation Fund",
       "registrant": "Weitz Funds",
+      "manager": "",
       "cik": "1257927",
       "shares": 7000,
       "value": 1477630,
@@ -2271,6 +3369,7 @@
     {
       "fundName": "iShares MSCI USA Equal Weighted ETF",
       "registrant": "iShares, Inc.",
+      "manager": "BlackRock",
       "cik": "930667",
       "shares": 6887,
       "value": 1789311,
@@ -2283,6 +3382,7 @@
     {
       "fundName": "Virtus KAR Mid-Cap ETF",
       "registrant": "Virtus ETF Trust II",
+      "manager": "",
       "cik": "1648403",
       "shares": 6848,
       "value": 1431369,
@@ -2295,6 +3395,7 @@
     {
       "fundName": "EQ/Large Cap Growth Index Portfolio",
       "registrant": "EQ Advisors Trust",
+      "manager": "",
       "cik": "1027263",
       "shares": 6702,
       "value": 1414725,
@@ -2307,6 +3408,7 @@
     {
       "fundName": "Pro-Blend Moderate Term Series",
       "registrant": "Manning & Napier Fund, Inc.",
+      "manager": "",
       "cik": "751173",
       "shares": 6683,
       "value": 1396881,
@@ -2319,6 +3421,7 @@
     {
       "fundName": "Innovator Equity Managed Floor ETF",
       "registrant": "Innovator ETFs Trust",
+      "manager": "",
       "cik": "1415726",
       "shares": 6595,
       "value": 1378487,
@@ -2331,6 +3434,7 @@
     {
       "fundName": "iShares MSCI World ETF",
       "registrant": "iShares, Inc.",
+      "manager": "BlackRock",
       "cik": "930667",
       "shares": 6313,
       "value": 1640181,
@@ -2343,6 +3447,7 @@
     {
       "fundName": "Large Company Growth Portfolio",
       "registrant": "Wilshire Mutual Funds Inc",
+      "manager": "",
       "cik": "890453",
       "shares": 6296,
       "value": 1329023,
@@ -2355,6 +3460,7 @@
     {
       "fundName": "BNY Mellon US Large Cap Core Equity ETF",
       "registrant": "BNY Mellon ETF Trust",
+      "manager": "",
       "cik": "1493580",
       "shares": 6287,
       "value": 1314109,
@@ -2367,6 +3473,7 @@
     {
       "fundName": "T. Rowe Price Mid-Cap Index Fund",
       "registrant": "T. ROWE PRICE INDEX TRUST, INC.",
+      "manager": "T. Rowe Price",
       "cik": "858581",
       "shares": 6228,
       "value": 1314669,
@@ -2379,6 +3486,7 @@
     {
       "fundName": "Fidelity Series Large Cap Growth Index Fund",
       "registrant": "Fidelity Salem Street Trust",
+      "manager": "FMR (Fidelity)",
       "cik": "35315",
       "shares": 6224,
       "value": 1300940,
@@ -2391,6 +3499,7 @@
     {
       "fundName": "Guardian Select Mid Cap Core VIP Fund",
       "registrant": "Guardian Variable Products Trust",
+      "manager": "FMR (Fidelity)",
       "cik": "1668512",
       "shares": 6186,
       "value": 1305803,
@@ -2403,6 +3512,7 @@
     {
       "fundName": "VANGUARD RUSSELL 3000 INDEX FUND",
       "registrant": "VANGUARD SCOTTSDALE FUNDS",
+      "manager": "Vanguard Group",
       "cik": "1021882",
       "shares": 6177,
       "value": 1604846,
@@ -2415,6 +3525,7 @@
     {
       "fundName": "Venerable Mid Cap Index Fund",
       "registrant": "Venerable Variable Insurance Trust",
+      "manager": "",
       "cik": "1995745",
       "shares": 6004,
       "value": 1267384,
@@ -2427,6 +3538,7 @@
     {
       "fundName": "SIIT SMALL/MID CAP FUND",
       "registrant": "SEI INSTITUTIONAL INVESTMENTS TRUST",
+      "manager": "",
       "cik": "939934",
       "shares": 5968,
       "value": 1550546,
@@ -2439,6 +3551,7 @@
     {
       "fundName": "JNL/Mellon U.S. Stock Market Index Fund",
       "registrant": "JNL Series Trust",
+      "manager": "",
       "cik": "933691",
       "shares": 5879,
       "value": 1240998,
@@ -2451,6 +3564,7 @@
     {
       "fundName": "VANGUARD U.S. MOMENTUM FACTOR ETF",
       "registrant": "VANGUARD WELLINGTON FUND",
+      "manager": "Vanguard Group",
       "cik": "105563",
       "shares": 5630,
       "value": 1351819,
@@ -2463,6 +3577,7 @@
     {
       "fundName": "Invesco MSCI Global Climate 500 ETF",
       "registrant": "Invesco Exchange-Traded Fund Trust II",
+      "manager": "Invesco",
       "cik": "1378872",
       "shares": 5598,
       "value": 1170094,
@@ -2475,6 +3590,7 @@
     {
       "fundName": "Thornburg Focus Growth Fund",
       "registrant": "THORNBURG INVESTMENT TRUST",
+      "manager": "",
       "cik": "816153",
       "shares": 5464,
       "value": 1153396,
@@ -2487,6 +3603,7 @@
     {
       "fundName": "BlackRock Tactical Opportunities Fund",
       "registrant": "BlackRock Funds",
+      "manager": "BlackRock",
       "cik": "844779",
       "shares": 5310,
       "value": 1109896,
@@ -2499,6 +3616,7 @@
     {
       "fundName": "Equity Series",
       "registrant": "Manning & Napier Fund, Inc.",
+      "manager": "",
       "cik": "751173",
       "shares": 5275,
       "value": 1102581,
@@ -2511,6 +3629,7 @@
     {
       "fundName": "EQ/Large Cap Growth Managed Volatility Portfolio",
       "registrant": "EQ Advisors Trust",
+      "manager": "",
       "cik": "1027263",
       "shares": 5164,
       "value": 1090069,
@@ -2523,6 +3642,7 @@
     {
       "fundName": "iShares Total U.S. Stock Market Index Fund",
       "registrant": "BlackRock Funds",
+      "manager": "BlackRock",
       "cik": "844779",
       "shares": 4764,
       "value": 995771,
@@ -2535,6 +3655,7 @@
     {
       "fundName": "WisdomTree U.S. LargeCap Dividend Fund",
       "registrant": "WisdomTree Trust",
+      "manager": "WisdomTree",
       "cik": "1350487",
       "shares": 4656,
       "value": 982835,
@@ -2547,6 +3668,7 @@
     {
       "fundName": "U.S. Large Cap Equity Portfolio",
       "registrant": "DFA INVESTMENT DIMENSIONS GROUP INC",
+      "manager": "Dimensional",
       "cik": "355437",
       "shares": 4226,
       "value": 883319,
@@ -2559,6 +3681,7 @@
     {
       "fundName": "BNY Mellon Mid Cap Multi-Strategy Fund",
       "registrant": "BNY MELLON FUNDS TRUST",
+      "manager": "",
       "cik": "1111565",
       "shares": 4139,
       "value": 993815,
@@ -2571,6 +3694,7 @@
     {
       "fundName": "Global Atlantic BlackRock Disciplined Core Portfolio",
       "registrant": "Forethought Variable Insurance Trust",
+      "manager": "BlackRock",
       "cik": "1580353",
       "shares": 3867,
       "value": 816285,
@@ -2583,6 +3707,7 @@
     {
       "fundName": "T. Rowe Price Total Equity Market Index Fund",
       "registrant": "T. ROWE PRICE INDEX TRUST, INC.",
+      "manager": "T. Rowe Price",
       "cik": "858581",
       "shares": 3795,
       "value": 801087,
@@ -2595,6 +3720,7 @@
     {
       "fundName": "Voya RussellTM Mid Cap Index Portfolio",
       "registrant": "Voya VARIABLE PORTFOLIOS INC",
+      "manager": "Voya",
       "cik": "1015965",
       "shares": 3744,
       "value": 790321,
@@ -2607,6 +3733,7 @@
     {
       "fundName": "THRIVENT MODERATE ALLOCATION PORTFOLIO",
       "registrant": "Thrivent Series Fund, Inc.",
+      "manager": "",
       "cik": "790166",
       "shares": 3741,
       "value": 789688,
@@ -2619,6 +3746,7 @@
     {
       "fundName": "THRIVENT MODERATELY AGGRESSIVE ALLOCATION PORTFOLIO",
       "registrant": "Thrivent Series Fund, Inc.",
+      "manager": "",
       "cik": "790166",
       "shares": 3688,
       "value": 778500,
@@ -2631,6 +3759,7 @@
     {
       "fundName": "iMGP Small Company Fund",
       "registrant": "LITMAN GREGORY FUNDS TRUST",
+      "manager": "",
       "cik": "1020425",
       "shares": 3447,
       "value": 727627,
@@ -2643,6 +3772,7 @@
     {
       "fundName": "Alger Dynamic Opportunities Fund",
       "registrant": "ALGER FUNDS II",
+      "manager": "",
       "cik": "92751",
       "shares": 3424,
       "value": 715684,
@@ -2655,6 +3785,7 @@
     {
       "fundName": "Pro-Blend Conservative Term Series",
       "registrant": "Manning & Napier Fund, Inc.",
+      "manager": "",
       "cik": "751173",
       "shares": 3374,
       "value": 705233,
@@ -2667,6 +3798,7 @@
     {
       "fundName": "iShares Dow Jones U.S. ETF",
       "registrant": "iShares Trust",
+      "manager": "BlackRock",
       "cik": "1100663",
       "shares": 3349,
       "value": 700008,
@@ -2679,6 +3811,7 @@
     {
       "fundName": "1290 VT GAMCO Small Company Value Portfolio",
       "registrant": "EQ Advisors Trust",
+      "manager": "",
       "cik": "1027263",
       "shares": 3300,
       "value": 696597,
@@ -2691,6 +3824,7 @@
     {
       "fundName": "Geneva SMID Cap Growth Fund",
       "registrant": "Series Portfolios Trust",
+      "manager": "",
       "cik": "1650149",
       "shares": 3153,
       "value": 819181,
@@ -2703,6 +3837,7 @@
     {
       "fundName": "SIIT LARGE CAP FUND",
       "registrant": "SEI INSTITUTIONAL INVESTMENTS TRUST",
+      "manager": "",
       "cik": "939934",
       "shares": 3073,
       "value": 798396,
@@ -2715,6 +3850,7 @@
     {
       "fundName": "Victory RS Mid Cap Growth Fund",
       "registrant": "Victory Portfolios",
+      "manager": "",
       "cik": "802716",
       "shares": 2920,
       "value": 616383,
@@ -2727,6 +3863,7 @@
     {
       "fundName": "Capital Group U.S. Equity Fund",
       "registrant": "Capital Group U.S. Equity Fund",
+      "manager": "Capital Group (American Funds)",
       "cik": "1785360",
       "shares": 2808,
       "value": 586928,
@@ -2739,6 +3876,7 @@
     {
       "fundName": "PD Large-Cap Growth Index Portfolio",
       "registrant": "PACIFIC SELECT FUND",
+      "manager": "",
       "cik": "813900",
       "shares": 2756,
       "value": 581764,
@@ -2751,6 +3889,7 @@
     {
       "fundName": "Touchstone Strategic Trust-Touchstone Dynamic Large Cap Growth Fund",
       "registrant": "Touchstone Strategic Trust",
+      "manager": "",
       "cik": "711080",
       "shares": 2705,
       "value": 570998,
@@ -2763,6 +3902,7 @@
     {
       "fundName": "VANGUARD TAX-MANAGED CAPITAL APPRECIATION FUND",
       "registrant": "VANGUARD TAX-MANAGED FUNDS",
+      "manager": "Vanguard Group",
       "cik": "923202",
       "shares": 2666,
       "value": 562766,
@@ -2775,6 +3915,7 @@
     {
       "fundName": "Dimensional US Sustainability Core 1 ETF",
       "registrant": "Dimensional ETF Trust",
+      "manager": "Dimensional",
       "cik": "1816125",
       "shares": 2633,
       "value": 550350,
@@ -2787,6 +3928,7 @@
     {
       "fundName": "THRIVENT MODERATELY AGGRESSIVE ALLOCATION FUND",
       "registrant": "Thrivent Mutual Funds",
+      "manager": "",
       "cik": "811869",
       "shares": 2616,
       "value": 546796,
@@ -2799,6 +3941,7 @@
     {
       "fundName": "The Institutional U.S. Equity Portfolio",
       "registrant": "HC Capital Trust",
+      "manager": "",
       "cik": "934563",
       "shares": 2604,
       "value": 549678,
@@ -2811,6 +3954,7 @@
     {
       "fundName": "Dimensional US Core Equity 1 ETF",
       "registrant": "Dimensional ETF Trust",
+      "manager": "Dimensional",
       "cik": "1816125",
       "shares": 2597,
       "value": 542825,
@@ -2823,6 +3967,7 @@
     {
       "fundName": "Goldman Sachs MarketBeta U.S. 1000 Equity ETF",
       "registrant": "Goldman Sachs ETF Trust II",
+      "manager": "Goldman Sachs",
       "cik": "1882879",
       "shares": 2595,
       "value": 674207,
@@ -2835,6 +3980,7 @@
     {
       "fundName": "Systematic Growth Fund",
       "registrant": "VALIC Co I",
+      "manager": "",
       "cik": "719423",
       "shares": 2552,
       "value": 663035,
@@ -2847,6 +3993,7 @@
     {
       "fundName": "MOA ALL AMERICA FUND",
       "registrant": "MoA Funds Corp",
+      "manager": "",
       "cik": "795259",
       "shares": 2535,
       "value": 535113,
@@ -2859,6 +4006,7 @@
     {
       "fundName": "Global X Guru Index ETF",
       "registrant": "GLOBAL X FUNDS",
+      "manager": "",
       "cik": "1432353",
       "shares": 2476,
       "value": 517534,
@@ -2871,6 +4019,7 @@
     {
       "fundName": "U.S. Social Core Equity 2 Portfolio",
       "registrant": "DFA INVESTMENT DIMENSIONS GROUP INC",
+      "manager": "Dimensional",
       "cik": "355437",
       "shares": 2448,
       "value": 511681,
@@ -2883,6 +4032,7 @@
     {
       "fundName": "AVIP BlackRock Advantage Large Cap Value Portfolio",
       "registrant": "AuguStar Variable Insurance Products Fund Inc",
+      "manager": "FMR (Fidelity)",
       "cik": "315754",
       "shares": 2427,
       "value": 512315,
@@ -2895,6 +4045,7 @@
     {
       "fundName": "Avantis U.S. Mid Cap Equity ETF",
       "registrant": "American Century ETF Trust",
+      "manager": "American Century",
       "cik": "1710607",
       "shares": 2411,
       "value": 626402,
@@ -2907,6 +4058,7 @@
     {
       "fundName": "Federated Hermes Global Allocation Fund",
       "registrant": "Federated Hermes Global Allocation Fund",
+      "manager": "",
       "cik": "13386",
       "shares": 2350,
       "value": 610554,
@@ -2919,6 +4071,7 @@
     {
       "fundName": "LargeCap Growth Fund I",
       "registrant": "Principal Funds, Inc",
+      "manager": "Principal",
       "cik": "898745",
       "shares": 2343,
       "value": 489734,
@@ -2931,6 +4084,7 @@
     {
       "fundName": "Goldman Sachs Absolute Return Tracker Fund",
       "registrant": "GOLDMAN SACHS TRUST",
+      "manager": "Goldman Sachs",
       "cik": "822977",
       "shares": 2313,
       "value": 488251,
@@ -2943,6 +4097,7 @@
     {
       "fundName": "Global Atlantic BlackRock Disciplined Value Portfolio",
       "registrant": "Forethought Variable Insurance Trust",
+      "manager": "BlackRock",
       "cik": "1580353",
       "shares": 2285,
       "value": 482341,
@@ -2955,6 +4110,7 @@
     {
       "fundName": "BlackRock Advantage Large Cap Core Portfolio",
       "registrant": "BlackRock Series Fund, Inc.",
+      "manager": "BlackRock",
       "cik": "319108",
       "shares": 2252,
       "value": 475375,
@@ -2967,6 +4123,7 @@
     {
       "fundName": "Wasatch U.S. Select Fund",
       "registrant": "WASATCH FUNDS TRUST",
+      "manager": "",
       "cik": "806633",
       "shares": 2248,
       "value": 474530,
@@ -2979,6 +4136,7 @@
     {
       "fundName": "Barrons 400 ETF",
       "registrant": "ALPS ETF TRUST",
+      "manager": "",
       "cik": "1414040",
       "shares": 2225,
       "value": 578077,
@@ -2991,6 +4149,7 @@
     {
       "fundName": "SIIT LARGE CAP INDEX FUND",
       "registrant": "SEI INSTITUTIONAL INVESTMENTS TRUST",
+      "manager": "",
       "cik": "939934",
       "shares": 2221,
       "value": 577038,
@@ -3003,6 +4162,7 @@
     {
       "fundName": "Franklin U.S. Equity Index ETF",
       "registrant": "Franklin Templeton ETF Trust",
+      "manager": "Franklin Resources",
       "cik": "1655589",
       "shares": 2156,
       "value": 455110,
@@ -3015,6 +4175,7 @@
     {
       "fundName": "BlackRock Advantage Large Cap Core V.I. Fund",
       "registrant": "BlackRock Variable Series Funds, Inc.",
+      "manager": "BlackRock",
       "cik": "355916",
       "shares": 2150,
       "value": 453844,
@@ -3027,6 +4188,7 @@
     {
       "fundName": "John Hancock Multifactor Large Cap ETF",
       "registrant": "John Hancock Exchange-Traded Fund Trust",
+      "manager": "John Hancock",
       "cik": "1478482",
       "shares": 2132,
       "value": 450044,
@@ -3039,6 +4201,7 @@
     {
       "fundName": "Praxis Impact Large Cap Value ETF",
       "registrant": "Praxis Funds",
+      "manager": "",
       "cik": "912900",
       "shares": 2128,
       "value": 449200,
@@ -3051,6 +4214,7 @@
     {
       "fundName": "Wasatch Global Select Fund",
       "registrant": "WASATCH FUNDS TRUST",
+      "manager": "",
       "cik": "806633",
       "shares": 2054,
       "value": 433579,
@@ -3063,6 +4227,7 @@
     {
       "fundName": "Multimanager Aggressive Equity Portfolio",
       "registrant": "EQ Advisors Trust",
+      "manager": "",
       "cik": "1027263",
       "shares": 2020,
       "value": 426402,
@@ -3075,6 +4240,7 @@
     {
       "fundName": "Growth Equity Index Fund",
       "registrant": "GuideStone Funds",
+      "manager": "",
       "cik": "1131013",
       "shares": 1925,
       "value": 406348,
@@ -3087,6 +4253,7 @@
     {
       "fundName": "THRIVENT MODERATE ALLOCATION FUND",
       "registrant": "Thrivent Mutual Funds",
+      "manager": "",
       "cik": "811869",
       "shares": 1894,
       "value": 395884,
@@ -3099,6 +4266,7 @@
     {
       "fundName": "AVIP BlackRock Advantage Large Cap Core Portfolio",
       "registrant": "AuguStar Variable Insurance Products Fund Inc",
+      "manager": "FMR (Fidelity)",
       "cik": "315754",
       "shares": 1883,
       "value": 397482,
@@ -3111,6 +4279,7 @@
     {
       "fundName": "VOYA RUSSELLTM MID CAP GROWTH INDEX PORTFOLIO",
       "registrant": "Voya VARIABLE PORTFOLIOS INC",
+      "manager": "Voya",
       "cik": "1015965",
       "shares": 1853,
       "value": 391150,
@@ -3123,6 +4292,7 @@
     {
       "fundName": "VIP Total Market Index Portfolio",
       "registrant": "Variable Insurance Products Fund II",
+      "manager": "FMR (Fidelity)",
       "cik": "831016",
       "shares": 1837,
       "value": 387772,
@@ -3135,6 +4305,7 @@
     {
       "fundName": "PD Mid-Cap Index Portfolio",
       "registrant": "PACIFIC SELECT FUND",
+      "manager": "",
       "cik": "813900",
       "shares": 1746,
       "value": 368563,
@@ -3147,6 +4318,7 @@
     {
       "fundName": "Voya VACS Index Series MC Portfolio",
       "registrant": "Voya VARIABLE PORTFOLIOS INC",
+      "manager": "Voya",
       "cik": "1015965",
       "shares": 1723,
       "value": 363708,
@@ -3159,6 +4331,7 @@
     {
       "fundName": "LVIP Dimensional U.S. Core Equity 1 Fund",
       "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
+      "manager": "FMR (Fidelity)",
       "cik": "914036",
       "shares": 1685,
       "value": 355687,
@@ -3171,6 +4344,7 @@
     {
       "fundName": "iShares MSCI USA Size Factor ETF",
       "registrant": "iShares Trust",
+      "manager": "BlackRock",
       "cik": "1100663",
       "shares": 1656,
       "value": 346137,
@@ -3183,6 +4357,7 @@
     {
       "fundName": "FlexShares Morningstar US Market Factor Tilt Index Fund",
       "registrant": "FlexShares Trust",
+      "manager": "Northern Trust",
       "cik": "1491978",
       "shares": 1630,
       "value": 340703,
@@ -3195,6 +4370,7 @@
     {
       "fundName": "THRIVENT AGGRESSIVE ALLOCATION FUND",
       "registrant": "Thrivent Mutual Funds",
+      "manager": "",
       "cik": "811869",
       "shares": 1610,
       "value": 336522,
@@ -3207,6 +4383,7 @@
     {
       "fundName": "Multi-Manager Directional Alternative Strategies Fund",
       "registrant": "COLUMBIA FUNDS SERIES TRUST I",
+      "manager": "Columbia (Ameriprise)",
       "cik": "773757",
       "shares": 1588,
       "value": 331924,
@@ -3219,6 +4396,7 @@
     {
       "fundName": "JNL/DFA U.S. Core Equity Fund",
       "registrant": "JNL Series Trust",
+      "manager": "Dimensional",
       "cik": "933691",
       "shares": 1564,
       "value": 330145,
@@ -3231,6 +4409,7 @@
     {
       "fundName": "AVIP BlackRock Balanced Allocation Portfolio",
       "registrant": "AuguStar Variable Insurance Products Fund Inc",
+      "manager": "FMR (Fidelity)",
       "cik": "315754",
       "shares": 1499,
       "value": 316424,
@@ -3243,6 +4422,7 @@
     {
       "fundName": "iShares Morningstar U.S. Equity ETF",
       "registrant": "iShares Trust",
+      "manager": "BlackRock",
       "cik": "1100663",
       "shares": 1495,
       "value": 312485,
@@ -3255,6 +4435,7 @@
     {
       "fundName": "TIAA Separate Account VA-1 - Stock Index Account",
       "registrant": "TIAA Separate Account VA-1",
+      "manager": "Nuveen (TIAA)",
       "cik": "923524",
       "shares": 1471,
       "value": 310513,
@@ -3267,6 +4448,7 @@
     {
       "fundName": "AZL Russell 1000 Growth Index Fund",
       "registrant": "Allianz Variable Insurance Products Trust",
+      "manager": "",
       "cik": "1091439",
       "shares": 1462,
       "value": 308614,
@@ -3279,6 +4461,7 @@
     {
       "fundName": "SIMT LARGE CAP INDEX FUND",
       "registrant": "SEI INSTITUTIONAL MANAGED TRUST",
+      "manager": "",
       "cik": "804239",
       "shares": 1400,
       "value": 295526,
@@ -3291,6 +4474,7 @@
     {
       "fundName": "BlackRock Advantage Large Cap Value V.I. Fund",
       "registrant": "BlackRock Variable Series Funds, Inc.",
+      "manager": "BlackRock",
       "cik": "355916",
       "shares": 1392,
       "value": 293837,
@@ -3303,6 +4487,7 @@
     {
       "fundName": "Total Stock Market Index Trust",
       "registrant": "John Hancock Variable Insurance Trust",
+      "manager": "John Hancock",
       "cik": "756913",
       "shares": 1374,
       "value": 290038,
@@ -3315,6 +4500,7 @@
     {
       "fundName": "Strive 500 ETF",
       "registrant": "EA Series Trust",
+      "manager": "",
       "cik": "1592900",
       "shares": 1370,
       "value": 289193,
@@ -3327,6 +4513,7 @@
     {
       "fundName": "Virtus KAR Small-Mid Cap Growth Fund",
       "registrant": "Virtus Equity Trust",
+      "manager": "",
       "cik": "34273",
       "shares": 1350,
       "value": 284972,
@@ -3339,6 +4526,7 @@
     {
       "fundName": "Franklin Systematic Style Premia ETF",
       "registrant": "Franklin Templeton ETF Trust",
+      "manager": "Franklin Resources",
       "cik": "1655589",
       "shares": 1347,
       "value": 284338,
@@ -3351,6 +4539,7 @@
     {
       "fundName": "Goldman Sachs MarketBeta(R) Russell 1000 Growth Equity ETF",
       "registrant": "Goldman Sachs ETF Trust",
+      "manager": "Goldman Sachs",
       "cik": "1479026",
       "shares": 1326,
       "value": 344508,
@@ -3363,6 +4552,7 @@
     {
       "fundName": "Harbor Human Capital Factor US Large Cap ETF",
       "registrant": "Harbor ETF Trust",
+      "manager": "",
       "cik": "1860434",
       "shares": 1295,
       "value": 270681,
@@ -3375,6 +4565,7 @@
     {
       "fundName": "SA Multi-Managed Mid Cap Growth Portfolio",
       "registrant": "SEASONS SERIES TRUST",
+      "manager": "",
       "cik": "1003239",
       "shares": 1280,
       "value": 270195,
@@ -3387,6 +4578,7 @@
     {
       "fundName": "TCW Transform 500 ETF",
       "registrant": "TCW ETF Trust",
+      "manager": "",
       "cik": "1831313",
       "shares": 1280,
       "value": 267546,
@@ -3399,6 +4591,7 @@
     {
       "fundName": "AB All Market Total Return Portfolio",
       "registrant": "AB PORTFOLIOS",
+      "manager": "",
       "cik": "812015",
       "shares": 1247,
       "value": 299417,
@@ -3411,6 +4604,7 @@
     {
       "fundName": "WisdomTree U.S. Total Dividend Fund",
       "registrant": "WisdomTree Trust",
+      "manager": "WisdomTree",
       "cik": "1350487",
       "shares": 1206,
       "value": 254575,
@@ -3423,6 +4617,7 @@
     {
       "fundName": "THRIVENT AGGRESSIVE ALLOCATION PORTFOLIO",
       "registrant": "Thrivent Series Fund, Inc.",
+      "manager": "",
       "cik": "790166",
       "shares": 1164,
       "value": 245709,
@@ -3435,6 +4630,7 @@
     {
       "fundName": "THRIVENT MODERATELY CONSERVATIVE ALLOCATION PORTFOLIO",
       "registrant": "Thrivent Series Fund, Inc.",
+      "manager": "",
       "cik": "790166",
       "shares": 1100,
       "value": 232199,
@@ -3447,6 +4643,7 @@
     {
       "fundName": "ActivePassive U.S. Equity ETF",
       "registrant": "Trust for Professional Managers",
+      "manager": "",
       "cik": "1141819",
       "shares": 1057,
       "value": 274619,
@@ -3459,6 +4656,7 @@
     {
       "fundName": "Nuveen Life Stock Index Fund",
       "registrant": "TIAA-CREF Life Funds",
+      "manager": "Nuveen (TIAA)",
       "cik": "1068204",
       "shares": 1001,
       "value": 211301,
@@ -3471,6 +4669,7 @@
     {
       "fundName": "LVIP Dimensional U.S. Core Equity 2 Fund",
       "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
+      "manager": "FMR (Fidelity)",
       "cik": "914036",
       "shares": 988,
       "value": 208557,
@@ -3483,6 +4682,7 @@
     {
       "fundName": "THRIVENT ALL CAP PORTFOLIO",
       "registrant": "Thrivent Series Fund, Inc.",
+      "manager": "",
       "cik": "790166",
       "shares": 972,
       "value": 205179,
@@ -3495,6 +4695,7 @@
     {
       "fundName": "Blue Chip Account",
       "registrant": "Principal Variable Contract Funds, Inc",
+      "manager": "Principal",
       "cik": "12601",
       "shares": 941,
       "value": 198636,
@@ -3507,6 +4708,7 @@
     {
       "fundName": "Invesco Russell 1000 Dynamic Multifactor ETF",
       "registrant": "Invesco Exchange-Traded Self-Indexed Fund Trust",
+      "manager": "Invesco",
       "cik": "1657201",
       "shares": 925,
       "value": 240324,
@@ -3519,6 +4721,7 @@
     {
       "fundName": "Growth Fund",
       "registrant": "VALIC Co I",
+      "manager": "",
       "cik": "719423",
       "shares": 909,
       "value": 236167,
@@ -3531,6 +4734,7 @@
     {
       "fundName": "JNL/Mellon World Index Fund",
       "registrant": "JNL Series Trust",
+      "manager": "",
       "cik": "933691",
       "shares": 820,
       "value": 173094,
@@ -3543,6 +4747,7 @@
     {
       "fundName": "Global Atlantic BlackRock Disciplined Growth Portfolio",
       "registrant": "Forethought Variable Insurance Trust",
+      "manager": "BlackRock",
       "cik": "1580353",
       "shares": 818,
       "value": 172672,
@@ -3555,6 +4760,7 @@
     {
       "fundName": "Point Bridge America First ETF",
       "registrant": "ETF Series Solutions",
+      "manager": "",
       "cik": "1540305",
       "shares": 808,
       "value": 170561,
@@ -3567,6 +4773,7 @@
     {
       "fundName": "AZL DFA U.S. Core Equity Fund",
       "registrant": "Allianz Variable Insurance Products Trust",
+      "manager": "Dimensional",
       "cik": "1091439",
       "shares": 803,
       "value": 169505,
@@ -3579,6 +4786,7 @@
     {
       "fundName": "Brown Advisory Mid-Cap Growth Fund",
       "registrant": "Brown Advisory Funds",
+      "manager": "",
       "cik": "1548609",
       "shares": 782,
       "value": 165072,
@@ -3591,6 +4799,7 @@
     {
       "fundName": "Alger Concentrated Equity Fund",
       "registrant": "ALGER FUNDS",
+      "manager": "",
       "cik": "3521",
       "shares": 779,
       "value": 162827,
@@ -3603,6 +4812,7 @@
     {
       "fundName": "iShares U.S. Large Cap Premium Income Active ETF",
       "registrant": "BlackRock ETF Trust",
+      "manager": "BlackRock",
       "cik": "1761055",
       "shares": 762,
       "value": 160851,
@@ -3615,6 +4825,7 @@
     {
       "fundName": "The U.S. Equity Portfolio",
       "registrant": "HC Capital Trust",
+      "manager": "",
       "cik": "934563",
       "shares": 728,
       "value": 153674,
@@ -3627,6 +4838,7 @@
     {
       "fundName": "Xtrackers MSCI Kokusai Equity ETF",
       "registrant": "DBX ETF Trust",
+      "manager": "",
       "cik": "1503123",
       "shares": 725,
       "value": 188362,
@@ -3639,6 +4851,7 @@
     {
       "fundName": "SA T. Rowe Price Allocation Moderately Aggressive Portfolio",
       "registrant": "SUNAMERICA SERIES TRUST",
+      "manager": "T. Rowe Price",
       "cik": "892538",
       "shares": 724,
       "value": 151330,
@@ -3651,6 +4864,7 @@
     {
       "fundName": "Xtrackers Russell US Multifactor ETF",
       "registrant": "DBX ETF Trust",
+      "manager": "",
       "cik": "1503123",
       "shares": 678,
       "value": 176151,
@@ -3663,6 +4877,7 @@
     {
       "fundName": "Wilmington Large-Cap Strategy Fund",
       "registrant": "Wilmington Funds",
+      "manager": "",
       "cik": "830744",
       "shares": 652,
       "value": 136281,
@@ -3675,6 +4890,7 @@
     {
       "fundName": "Multi-Asset Strategy Fund",
       "registrant": "RUSSELL INVESTMENT CO",
+      "manager": "",
       "cik": "351601",
       "shares": 621,
       "value": 129801,
@@ -3687,6 +4903,7 @@
     {
       "fundName": "Baron Global Durable Advantage ETF",
       "registrant": "Baron ETF Trust",
+      "manager": "Baron Capital",
       "cik": "2081199",
       "shares": 604,
       "value": 127498,
@@ -3699,6 +4916,7 @@
     {
       "fundName": "PSF Global Portfolio",
       "registrant": "Prudential Series Fund",
+      "manager": "PGIM (Prudential)",
       "cik": "711175",
       "shares": 580,
       "value": 122432,
@@ -3711,6 +4929,7 @@
     {
       "fundName": "Aristotle Small/Mid Cap Equity Fund",
       "registrant": "Aristotle Fund Series Trust",
+      "manager": "",
       "cik": "1959372",
       "shares": 565,
       "value": 119266,
@@ -3723,6 +4942,7 @@
     {
       "fundName": "AB US Equity ETF",
       "registrant": "AB Active ETFs, Inc.",
+      "manager": "",
       "cik": "1496608",
       "shares": 560,
       "value": 145494,
@@ -3735,6 +4955,7 @@
     {
       "fundName": "SA U.S. Core Market Fund",
       "registrant": "SA FUNDS INVESTMENT TRUST",
+      "manager": "",
       "cik": "1075065",
       "shares": 530,
       "value": 111878,
@@ -3747,6 +4968,7 @@
     {
       "fundName": "LVIP JPMorgan Select Mid Cap Value Managed Volatility Fund",
       "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
+      "manager": "FMR (Fidelity)",
       "cik": "914036",
       "shares": 521,
       "value": 109978,
@@ -3759,6 +4981,7 @@
     {
       "fundName": "Avantis U.S. Large Cap Equity ETF",
       "registrant": "American Century ETF Trust",
+      "manager": "American Century",
       "cik": "1710607",
       "shares": 504,
       "value": 130944,
@@ -3771,6 +4994,7 @@
     {
       "fundName": "Parametric Hedged Equity ETF",
       "registrant": "Morgan Stanley ETF Trust",
+      "manager": "Morgan Stanley",
       "cik": "1676326",
       "shares": 497,
       "value": 104912,
@@ -3783,6 +5007,7 @@
     {
       "fundName": "BlackRock Managed Volatility V.I. Fund",
       "registrant": "BlackRock Variable Series Funds, Inc.",
+      "manager": "BlackRock",
       "cik": "355916",
       "shares": 474,
       "value": 100057,
@@ -3795,6 +5020,7 @@
     {
       "fundName": "Global Multi-Strategy Fund",
       "registrant": "Principal Funds, Inc",
+      "manager": "Principal",
       "cik": "898745",
       "shares": 465,
       "value": 111651,
@@ -3807,6 +5033,7 @@
     {
       "fundName": "Longboard Fund",
       "registrant": "NORTHERN LIGHTS FUND TRUST II",
+      "manager": "",
       "cik": "1518042",
       "shares": 451,
       "value": 108290,
@@ -3819,6 +5046,7 @@
     {
       "fundName": "State Street Total Return V.I.S. Fund",
       "registrant": "STATE STREET VARIABLE INSURANCE SERIES FUNDS INC",
+      "manager": "State Street",
       "cik": "746687",
       "shares": 451,
       "value": 95202,
@@ -3831,6 +5059,7 @@
     {
       "fundName": "SIMT Mid-Cap Fund",
       "registrant": "SEI INSTITUTIONAL MANAGED TRUST",
+      "manager": "",
       "cik": "804239",
       "shares": 437,
       "value": 92246,
@@ -3843,6 +5072,7 @@
     {
       "fundName": "Knights of Columbus U.S. ALL CAP INDEX FUND",
       "registrant": "ADVISORS' INNER CIRCLE III",
+      "manager": "",
       "cik": "1593547",
       "shares": 415,
       "value": 86743,
@@ -3855,6 +5085,7 @@
     {
       "fundName": "THRIVENT MODERATELY CONSERVATIVE ALLOCATION FUND",
       "registrant": "Thrivent Mutual Funds",
+      "manager": "",
       "cik": "811869",
       "shares": 412,
       "value": 86116,
@@ -3867,6 +5098,7 @@
     {
       "fundName": "Destinations Small-Mid Cap Equity Fund",
       "registrant": "Brinker Capital Destinations Trust",
+      "manager": "",
       "cik": "1688680",
       "shares": 411,
       "value": 106782,
@@ -3879,6 +5111,7 @@
     {
       "fundName": "Symmetry Panoramic US Equity Fund",
       "registrant": "Symmetry Panoramic Trust",
+      "manager": "",
       "cik": "1736078",
       "shares": 408,
       "value": 106002,
@@ -3891,6 +5124,7 @@
     {
       "fundName": "State Street Balanced Index Fund",
       "registrant": "STATE STREET INSTITUTIONAL INVESTMENT TRUST",
+      "manager": "State Street",
       "cik": "1107414",
       "shares": 402,
       "value": 84858,
@@ -3903,6 +5137,7 @@
     {
       "fundName": "AMT Diversified Equity Fund",
       "registrant": "ADVISER MANAGED TRUST",
+      "manager": "",
       "cik": "1502608",
       "shares": 356,
       "value": 74411,
@@ -3915,6 +5150,7 @@
     {
       "fundName": "Transamerica Morgan Stanley Global Allocation VP",
       "registrant": "TRANSAMERICA SERIES TRUST",
+      "manager": "Morgan Stanley",
       "cik": "778207",
       "shares": 338,
       "value": 71348,
@@ -3927,6 +5163,7 @@
     {
       "fundName": "Praxis Impact Large Cap Growth ETF",
       "registrant": "Praxis Funds",
+      "manager": "",
       "cik": "912900",
       "shares": 321,
       "value": 67760,
@@ -3939,6 +5176,7 @@
     {
       "fundName": "AZL MSCI Global Equity Index Fund",
       "registrant": "Allianz Variable Insurance Products Trust",
+      "manager": "",
       "cik": "1091439",
       "shares": 317,
       "value": 66916,
@@ -3951,6 +5189,7 @@
     {
       "fundName": "Wilshire 5000 Index Fund",
       "registrant": "Wilshire Mutual Funds Inc",
+      "manager": "",
       "cik": "890453",
       "shares": 296,
       "value": 62483,
@@ -3963,6 +5202,7 @@
     {
       "fundName": "State Street(R) SPDR(R) MSCI USA StrategicFactors(SM) ETF",
       "registrant": "SPDR SERIES TRUST",
+      "manager": "State Street",
       "cik": "1064642",
       "shares": 286,
       "value": 60372,
@@ -3975,6 +5215,7 @@
     {
       "fundName": "Strive 1000 Growth ETF",
       "registrant": "EA Series Trust",
+      "manager": "",
       "cik": "1592900",
       "shares": 283,
       "value": 59738,
@@ -3987,6 +5228,7 @@
     {
       "fundName": "Symmetry Panoramic Global Equity Fund",
       "registrant": "Symmetry Panoramic Trust",
+      "manager": "",
       "cik": "1736078",
       "shares": 280,
       "value": 72747,
@@ -3999,6 +5241,7 @@
     {
       "fundName": "Six Circles Managed Equity Portfolio International Unconstrained Fund",
       "registrant": "SIX CIRCLES TRUST",
+      "manager": "",
       "cik": "1724826",
       "shares": 280,
       "value": 59105,
@@ -4011,6 +5254,7 @@
     {
       "fundName": "Virtus U.S. Dividend ETF",
       "registrant": "Virtus ETF Trust II",
+      "manager": "",
       "cik": "1648403",
       "shares": 276,
       "value": 57690,
@@ -4023,6 +5267,7 @@
     {
       "fundName": "Innovator Equity Managed 100 Buffer ETF",
       "registrant": "Innovator ETFs Trust",
+      "manager": "",
       "cik": "1415726",
       "shares": 267,
       "value": 55808,
@@ -4035,6 +5280,7 @@
     {
       "fundName": "THRIVENT CONSERVATIVE ALLOCATION FUND",
       "registrant": "Thrivent Mutual Funds",
+      "manager": "",
       "cik": "811869",
       "shares": 266,
       "value": 56150,
@@ -4047,6 +5293,7 @@
     {
       "fundName": "Strive 1000 Dividend Growth ETF",
       "registrant": "EA Series Trust",
+      "manager": "",
       "cik": "1592900",
       "shares": 247,
       "value": 52139,
@@ -4059,6 +5306,7 @@
     {
       "fundName": "Defiance Large Cap ex-Mag 7 ETF",
       "registrant": "Tidal Trust II",
+      "manager": "",
       "cik": "1924868",
       "shares": 247,
       "value": 64173,
@@ -4071,6 +5319,7 @@
     {
       "fundName": "Global Strategist Portfolio",
       "registrant": "MORGAN STANLEY INSTITUTIONAL FUND TRUST",
+      "manager": "Morgan Stanley",
       "cik": "741375",
       "shares": 240,
       "value": 50662,
@@ -4083,6 +5332,7 @@
     {
       "fundName": "iShares MSCI Kokusai ETF",
       "registrant": "iShares Trust",
+      "manager": "BlackRock",
       "cik": "1100663",
       "shares": 239,
       "value": 49956,
@@ -4095,6 +5345,7 @@
     {
       "fundName": "JPMorgan Fundamental Data Science Mid Core ETF",
       "registrant": "J.P. Morgan Exchange-Traded Fund Trust",
+      "manager": "JPMorgan",
       "cik": "1485894",
       "shares": 232,
       "value": 48973,
@@ -4107,6 +5358,7 @@
     {
       "fundName": "Bridge Builder Large Cap Growth Fund",
       "registrant": "Bridge Builder Trust",
+      "manager": "",
       "cik": "1567101",
       "shares": 227,
       "value": 47917,
@@ -4119,6 +5371,7 @@
     {
       "fundName": "Multifactor U.S. Equity Fund",
       "registrant": "RUSSELL INVESTMENT CO",
+      "manager": "",
       "cik": "351601",
       "shares": 218,
       "value": 45566,
@@ -4131,6 +5384,7 @@
     {
       "fundName": "BlackRock Balanced Fund, Inc.",
       "registrant": "BlackRock Balanced Fund, Inc.",
+      "manager": "BlackRock",
       "cik": "110055",
       "shares": 208,
       "value": 54040,
@@ -4143,6 +5397,7 @@
     {
       "fundName": "THRIVENT DYNAMIC ALLOCATION FUND",
       "registrant": "Thrivent Mutual Funds",
+      "manager": "",
       "cik": "811869",
       "shares": 194,
       "value": 40550,
@@ -4155,6 +5410,7 @@
     {
       "fundName": "AVIP AB Mid Cap Core Portfolio",
       "registrant": "AuguStar Variable Insurance Products Fund Inc",
+      "manager": "FMR (Fidelity)",
       "cik": "315754",
       "shares": 190,
       "value": 40107,
@@ -4167,6 +5423,7 @@
     {
       "fundName": "Global X Adaptive U.S. Risk Management ETF",
       "registrant": "GLOBAL X FUNDS",
+      "manager": "",
       "cik": "1432353",
       "shares": 179,
       "value": 46506,
@@ -4179,6 +5436,7 @@
     {
       "fundName": "THRIVENT DYNAMIC ALLOCATION PORTFOLIO",
       "registrant": "Thrivent Series Fund, Inc.",
+      "manager": "",
       "cik": "790166",
       "shares": 173,
       "value": 36519,
@@ -4191,6 +5449,7 @@
     {
       "fundName": "E*TRADE No Fee Large Cap Index Fund",
       "registrant": "E Trade Trust",
+      "manager": "",
       "cik": "2048903",
       "shares": 160,
       "value": 33443,
@@ -4203,6 +5462,7 @@
     {
       "fundName": "Longview Advantage ETF",
       "registrant": "RBB Fund Trust",
+      "manager": "",
       "cik": "1618627",
       "shares": 160,
       "value": 41570,
@@ -4215,6 +5475,7 @@
     {
       "fundName": "THRIVENT CONSERVATIVE ALLOCATION PORTFOLIO",
       "registrant": "Thrivent Series Fund, Inc.",
+      "manager": "",
       "cik": "790166",
       "shares": 156,
       "value": 32930,
@@ -4227,6 +5488,7 @@
     {
       "fundName": "Parametric Equity Plus ETF",
       "registrant": "Morgan Stanley ETF Trust",
+      "manager": "Morgan Stanley",
       "cik": "1676326",
       "shares": 150,
       "value": 31664,
@@ -4239,6 +5501,7 @@
     {
       "fundName": "AB Dynamic Asset Allocation Portfolio",
       "registrant": "AB VARIABLE PRODUCTS SERIES FUND, INC.",
+      "manager": "",
       "cik": "825316",
       "shares": 138,
       "value": 29130,
@@ -4251,6 +5514,7 @@
     {
       "fundName": "The ESG Growth Portfolio",
       "registrant": "HC Capital Trust",
+      "manager": "",
       "cik": "934563",
       "shares": 120,
       "value": 25331,
@@ -4263,6 +5527,7 @@
     {
       "fundName": "iShares Enhanced Large Cap Core Active ETF",
       "registrant": "BlackRock ETF Trust",
+      "manager": "BlackRock",
       "cik": "1761055",
       "shares": 85,
       "value": 17767,
@@ -4275,6 +5540,7 @@
     {
       "fundName": "Innovator Equity Managed 10 Buffer ETF",
       "registrant": "Innovator ETFs Trust",
+      "manager": "",
       "cik": "1415726",
       "shares": 84,
       "value": 17558,
@@ -4287,6 +5553,7 @@
     {
       "fundName": "The Catholic SRI Growth Portfolio",
       "registrant": "HC Capital Trust",
+      "manager": "",
       "cik": "934563",
       "shares": 78,
       "value": 16465,
@@ -4299,6 +5566,7 @@
     {
       "fundName": "E*TRADE No Fee Total Market Index Fund",
       "registrant": "E Trade Trust",
+      "manager": "",
       "cik": "2048903",
       "shares": 71,
       "value": 14840,
@@ -4311,6 +5579,7 @@
     {
       "fundName": "Cambria US EW ETF",
       "registrant": "EA Series Trust",
+      "manager": "",
       "cik": "1592900",
       "shares": 70,
       "value": 18187,
@@ -4323,6 +5592,7 @@
     {
       "fundName": "THRIVENT GLOBAL STOCK FUND",
       "registrant": "Thrivent Mutual Funds",
+      "manager": "",
       "cik": "811869",
       "shares": 66,
       "value": 13795,
@@ -4335,6 +5605,7 @@
     {
       "fundName": "State Street(R) SPDR(R) Russell 1000 Momentum Focus ETF",
       "registrant": "SPDR SERIES TRUST",
+      "manager": "State Street",
       "cik": "1064642",
       "shares": 54,
       "value": 11399,
@@ -4347,6 +5618,7 @@
     {
       "fundName": "THRIVENT GLOBAL STOCK PORTFOLIO",
       "registrant": "Thrivent Series Fund, Inc.",
+      "manager": "",
       "cik": "790166",
       "shares": 52,
       "value": 10977,
@@ -4359,6 +5631,7 @@
     {
       "fundName": "iShares U.S. Industry Rotation Active ETF",
       "registrant": "BlackRock ETF Trust",
+      "manager": "BlackRock",
       "cik": "1761055",
       "shares": 33,
       "value": 8401,
@@ -4371,6 +5644,7 @@
     {
       "fundName": "Global Strategist Portfolio",
       "registrant": "MORGAN STANLEY VARIABLE INSURANCE FUND INC.",
+      "manager": "Morgan Stanley",
       "cik": "1011378",
       "shares": 33,
       "value": 6966,
@@ -4383,6 +5657,7 @@
     {
       "fundName": "Fidelity Enhanced U.S. All-Cap Equity ETF",
       "registrant": "Fidelity Covington Trust",
+      "manager": "FMR (Fidelity)",
       "cik": "945908",
       "shares": 23,
       "value": 4855,
@@ -4395,6 +5670,7 @@
     {
       "fundName": "T. Rowe Price Active Core U.S. Equity ETF",
       "registrant": "T. Rowe Price Exchange-Traded Funds, Inc.",
+      "manager": "T. Rowe Price",
       "cik": "1795351",
       "shares": 21,
       "value": 4433,
@@ -4407,6 +5683,7 @@
     {
       "fundName": "State Street(R) SPDR(R) MSCI World StrategicFactors(SM) ETF",
       "registrant": "SPDR INDEX SHARES FUNDS",
+      "manager": "State Street",
       "cik": "1168164",
       "shares": 20,
       "value": 4222,
@@ -4419,6 +5696,7 @@
     {
       "fundName": "Permanence Portfolio",
       "registrant": "MORGAN STANLEY INSTITUTIONAL FUND INC",
+      "manager": "Morgan Stanley",
       "cik": "836487",
       "shares": 15,
       "value": 3166,
@@ -4431,6 +5709,7 @@
     {
       "fundName": "Innovator Equity Premium Income - Daily PutWrite ETF",
       "registrant": "Innovator ETFs Trust",
+      "manager": "",
       "cik": "1415726",
       "shares": 9,
       "value": 1881,
@@ -4443,6 +5722,7 @@
     {
       "fundName": "Vox Populi ETF",
       "registrant": "Advisors Series Trust",
+      "manager": "",
       "cik": "1027596",
       "shares": 9,
       "value": 1881,
@@ -4455,6 +5735,7 @@
     {
       "fundName": "NPF Core Equity ETF",
       "registrant": "Elevation Series Trust",
+      "manager": "",
       "cik": "1936157",
       "shares": 6,
       "value": 1254,
@@ -4467,6 +5748,7 @@
     {
       "fundName": "Global X U.S. 500 ETF",
       "registrant": "GLOBAL X FUNDS",
+      "manager": "",
       "cik": "1432353",
       "shares": 5,
       "value": 1299,
@@ -4479,6 +5761,7 @@
     {
       "fundName": "Avantis Total Equity Markets ETF",
       "registrant": "American Century ETF Trust",
+      "manager": "American Century",
       "cik": "1710607",
       "shares": 3,
       "value": 779,

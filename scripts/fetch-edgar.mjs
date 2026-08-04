@@ -610,6 +610,49 @@ async function fetchNport(h, cache) {
   return rec;
 }
 
+// Curated fund-family → 13F manager map (major families cover most fund AUM).
+// Matched against the fund's registrant and series name; unmatched funds get "".
+const FAMILY_TO_MANAGER = [
+  [/vanguard/i, "Vanguard Group"],
+  [/fidelity|FMR|strategic advisers|VIP /i, "FMR (Fidelity)"],
+  [/blackrock|ishares/i, "BlackRock"],
+  [/growth fund of america|american funds|capital group|capital world|capital research|washington mutual investors|new perspective|europacific|amcap|investment company of america|fundamental investors|new economy|smallcap world|new world fund|capital income builder|income fund of america/i, "Capital Group (American Funds)"],
+  [/SPDR|state street/i, "State Street"],
+  [/T\.? Rowe/i, "T. Rowe Price"],
+  [/JPMorgan|J\.?P\.? Morgan/i, "JPMorgan"],
+  [/invesco/i, "Invesco"],
+  [/dimensional|DFA /i, "Dimensional"],
+  [/geode/i, "Geode Capital"],
+  [/baron/i, "Baron Capital"],
+  [/nuveen|TIAA/i, "Nuveen (TIAA)"],
+  [/franklin|templeton/i, "Franklin Resources"],
+  [/morgan stanley|eaton vance|calvert|parametric/i, "Morgan Stanley"],
+  [/columbia/i, "Columbia (Ameriprise)"],
+  [/janus/i, "Janus Henderson"],
+  [/neuberger/i, "Neuberger Berman"],
+  [/northern (funds|trust|inst)|flexshares/i, "Northern Trust"],
+  [/goldman sachs/i, "Goldman Sachs"],
+  [/schwab/i, "Charles Schwab"],
+  [/voya/i, "Voya"],
+  [/PGIM|prudential/i, "PGIM (Prudential)"],
+  [/principal/i, "Principal"],
+  [/wisdomtree/i, "WisdomTree"],
+  [/first trust/i, "First Trust"],
+  [/\bARK\b/i, "ARK Invest"],
+  [/hartford/i, "Hartford"],
+  [/MFS |massachusetts financial/i, "MFS"],
+  [/putnam/i, "Putnam"],
+  [/john hancock/i, "John Hancock"],
+  [/lord abbett/i, "Lord Abbett"],
+  [/dodge & cox|dodge &amp; cox/i, "Dodge & Cox"],
+  [/american century/i, "American Century"],
+];
+function resolveManager(registrant, fundName) {
+  const hay = `${registrant} ${fundName}`;
+  for (const [re, mgr] of FAMILY_TO_MANAGER) if (re.test(hay)) return mgr;
+  return "";
+}
+
 function fundAction(cur, prev) {
   if (cur != null && prev == null) return "New";
   if (cur == null) return "No Change";
@@ -670,9 +713,11 @@ async function buildFunds(today) {
       const prevRec = sorted.find(r => r !== latest && r.positions?.[ticker]?.shares != null);
       const prev = prevRec?.positions?.[ticker]?.shares ?? null;
       const change = cur != null && prev != null ? cur - prev : null;
+      const fundName = latest.seriesName || "(unnamed fund)";
       holders.push({
-        fundName: latest.seriesName || "(unnamed fund)",
+        fundName,
         registrant: latest.regName,
+        manager: resolveManager(latest.regName, fundName),
         cik: latest.cik,
         shares: cur,
         value: latest.positions[ticker].value ?? null,
@@ -685,18 +730,33 @@ async function buildFunds(today) {
     }
     holders.sort((a, b) => b.shares - a.shares);
     const totalShares = holders.reduce((s, h) => s + h.shares, 0);
+
+    // §10: 13F managers with their affiliated funds.
+    const mgrMap = new Map();
+    for (const h of holders) {
+      if (!h.manager) continue;
+      if (!mgrMap.has(h.manager)) mgrMap.set(h.manager, { manager: h.manager, fundCount: 0, shares: 0, funds: [] });
+      const g = mgrMap.get(h.manager);
+      g.fundCount++; g.shares += h.shares; g.funds.push({ fundName: h.fundName, shares: h.shares });
+    }
+    const managers = [...mgrMap.values()].sort((a, b) => b.shares - a.shares);
+    managers.forEach(g => g.funds.sort((a, b) => b.shares - a.shares));
+    const linkedShares = managers.reduce((s, g) => s + g.shares, 0);
+
     const summary = {
       funds: holders.length,
       totalShares,
       pctOut: Math.round(totalShares / outShares * 1e6) / 1e6 * 100,
       newFunds: holders.filter(h => h.action === "New").length,
+      linkedManagers: managers.length,
+      linkedShares,
     };
     const newHolders = holders.filter(h => h.action === "New");
 
     writeFileSync(join(DATA_DIR, `funds-${ticker.toLowerCase()}.json`), JSON.stringify({
       ticker, cusip: CUSIPS[ticker], sharesOutstanding: outShares,
       lastUpdated: today.toISOString(),
-      summary, newHolders, holders,
+      summary, newHolders, managers, holders,
     }, null, 2));
     console.log(`  funds ${ticker}: ${summary.funds} funds hold, ${summary.pctOut.toFixed(2)}% of shares, ${summary.newFunds} new`);
   }
