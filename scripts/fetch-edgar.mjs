@@ -824,11 +824,15 @@ async function buildFunds(today) {
 // ─── §12/§13: Peer reports ───────────────────────────────────────────────────────
 
 const PEERS = [
-  { name: "RTX Corp.",             ticker: "RTX", cusip: "75513E101" },
-  { name: "Boeing Co.",            ticker: "BA",  cusip: "097023105" },
-  { name: "Howmet Aerospace",      ticker: "HWM", cusip: "443201108" },
-  { name: "TransDigm Group",       ticker: "TDG", cusip: "893641100" },
-  { name: "Teledyne Technologies", ticker: "TDY", cusip: "879360105" },
+  { name: "RTX Corp.",             ticker: "RTX",  cusip: "75513E101" },
+  { name: "Boeing Co.",            ticker: "BA",   cusip: "097023105" },
+  { name: "Howmet Aerospace",      ticker: "HWM",  cusip: "443201108" },
+  { name: "TransDigm Group",       ticker: "TDG",  cusip: "893641100" },
+  { name: "Teledyne Technologies", ticker: "TDY",  cusip: "879360105" },
+  { name: "Loar Holdings",         ticker: "LOAR", cusip: "53947R105" },
+  { name: "Arxis Inc.",            ticker: "ARXS", cusip: "04339D105" },
+  { name: "VSE Corp.",             ticker: "VSEC", cusip: "918284100" },
+  { name: "FTAI Aviation",         ticker: "FTAI", cusip: "G3730V105" },
 ];
 const PEER_CACHE_PATH = join(DATA_DIR, "peer-cache.json");
 
@@ -888,31 +892,41 @@ async function buildPeerReports(today) {
     // §12 — top 13F holders (from candidate mega-managers, most recent settled quarter).
     // Narrow window (~1 quarter) so widely-held peers don't truncate at the 10k cap.
     const hits13 = await searchCusip(peer.cusip, 165);
-    const curQ = mostRecentCompleteQuarterEnd(today);
-    const want13 = new Map();
-    for (const h of hits13) {
-      if (h.period !== curQ || !candidateCiks.has(h.cik) || !h.accession || !h.doc) continue;
-      const prev = want13.get(h.cik);
-      if (!prev || (h.fileDate ?? "") > (prev.fileDate ?? "")) want13.set(h.cik, h);
+    let curQ = mostRecentCompleteQuarterEnd(today);
+    // Recent IPOs weren't public in the settled quarter — fall back to their latest period.
+    const periodsPresent = new Set(hits13.filter(h => h.accession && h.period).map(h => h.period));
+    if (!periodsPresent.has(curQ)) {
+      curQ = [...periodsPresent].filter(p => p <= mostRecentQuarterEnd(today)).sort((a, b) => b.localeCompare(a))[0] ?? curQ;
     }
+    const dedup13 = new Map();
+    for (const h of hits13) {
+      if (h.period !== curQ || !h.accession || !h.doc) continue;
+      const prev = dedup13.get(h.cik);
+      if (!prev || (h.fileDate ?? "") > (prev.fileDate ?? "")) dedup13.set(h.cik, h);
+    }
+    // Small company → fetch every holder for an exact top-20; large-cap → mega-managers only.
+    const small13 = dedup13.size <= 1200;
+    const targets13 = [...dedup13.values()].filter(h => small13 || candidateCiks.has(h.cik));
     const top13F = [];
-    for (const h of want13.values()) {
+    for (const h of targets13) {
       const pos = await fetchParse(h, peer.cusip, false);
       if (pos) top13F.push({ filer: h.name, shares: pos.shares, value: pos.value });
     }
     top13F.sort((a, b) => b.value - a.value);
 
-    // §13 — top mutual-fund holders (from large fund families)
+    // §13 — top mutual-fund holders
     const hitsN = await searchNport(peer.cusip, today);
-    const wantN = new Map();
+    const dedupN = new Map();
     for (const h of hitsN) {
-      if (!resolveManager(h.regName, "") || !h.accession || !h.doc) continue;   // big families only
+      if (!h.accession || !h.doc) continue;
       const key = `${h.cik}|${h.doc}`;
-      const prev = wantN.get(key);
-      if (!prev || (h.fileDate ?? "") > (prev.fileDate ?? "")) wantN.set(key, h);
+      const prev = dedupN.get(key);
+      if (!prev || (h.fileDate ?? "") > (prev.fileDate ?? "")) dedupN.set(key, h);
     }
+    const smallN = dedupN.size <= 1200;
+    const targetsN = [...dedupN.values()].filter(h => smallN || resolveManager(h.regName, ""));
     const topFunds = [];
-    for (const h of wantN.values()) {
+    for (const h of targetsN) {
       const pos = await fetchParse(h, peer.cusip, true);
       if (pos) topFunds.push({ fund: h.regName, manager: resolveManager(h.regName, ""), shares: pos.shares, value: pos.value });
     }
