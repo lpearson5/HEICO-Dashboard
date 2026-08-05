@@ -149,7 +149,7 @@ export default function MonthlySnapshot({ data, funds, beneficial, peers }: { da
               {data.top10.map((h, i) => (
                 <tr key={h.filerCik} className="hover:bg-gray-50">
                   <td className="px-4 py-2 text-gray-400 tabular-nums">{i + 1}</td>
-                  <td className="px-4 py-2 font-medium text-gray-900 max-w-xs truncate">{h.filerName}</td>
+                  <td className="px-4 py-2 font-medium text-gray-900 max-w-xs truncate">{h.filerName} <span className="text-[10px] text-gray-400 tabular-nums font-normal">CIK {h.filerCik}</span></td>
                   {h.shares.map((s, j) => (
                     <td key={j} className={`px-4 py-2 text-right tabular-nums ${j === 0 ? "text-gray-900 font-semibold" : "text-gray-500"}`}>{fmt(s)}</td>
                   ))}
@@ -169,6 +169,9 @@ export default function MonthlySnapshot({ data, funds, beneficial, peers }: { da
         <ListCard title={`Sold Out — 13F Institutions (${data.sellouts.length})`} accent="text-red-700"
           rows={data.sellouts} valueOf={(h) => h.shares[1]} />
       </div>
+      <p className="text-xs text-gray-500 -mt-2">
+        Note: large firms often file under several separate SEC entities (e.g. <b>Two Sigma Investments, LP</b> vs <b>Two Sigma Advisers, LP</b>, or the Vanguard entities). Similar names with different actions are distinct filers — each with its own CIK shown — not duplicates.
+      </p>
 
       {/* Full history */}
       <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
@@ -195,7 +198,7 @@ export default function MonthlySnapshot({ data, funds, beneficial, peers }: { da
             <tbody className="divide-y divide-gray-100">
               {hist.sorted.map((h) => (
                 <tr key={h.filerCik} className="hover:bg-gray-50">
-                  <td className="px-4 py-2 font-medium text-gray-900 max-w-xs truncate">{h.filerName}</td>
+                  <td className="px-4 py-2 font-medium text-gray-900 max-w-xs truncate">{h.filerName} <span className="text-[10px] text-gray-400 tabular-nums font-normal">CIK {h.filerCik}</span></td>
                   {h.shares.map((s, j) => (
                     <td key={j} className={`px-4 py-2 text-right tabular-nums ${j === 0 ? "text-gray-700" : "text-gray-400"}`}>{fmt(s)}</td>
                   ))}
@@ -426,7 +429,7 @@ function DiscretionSection({ holdings }: { holdings: MonthlyHolding[] }) {
           <tbody className="divide-y divide-gray-100">
             {s.sorted.map((h) => (
               <tr key={h.filerCik} className="hover:bg-gray-50">
-                <td className="px-4 py-2 font-medium text-gray-900 max-w-xs truncate">{h.filerName}</td>
+                <td className="px-4 py-2 font-medium text-gray-900 max-w-xs truncate">{h.filerName} <span className="text-[10px] text-gray-400 tabular-nums font-normal">CIK {h.filerCik}</span></td>
                 <td className="px-4 py-2 text-right tabular-nums text-gray-800">{fmt(h.shares[0])}</td>
                 <td className="px-4 py-2 text-center text-gray-600">{h.discretion ? (DISC_LABEL[h.discretion] ?? h.discretion) : "—"}</td>
                 <td className="px-4 py-2 text-right tabular-nums text-gray-600">{fmt(h.voteSole ?? null)}</td>
@@ -758,7 +761,9 @@ function ListCard({
           <div className="px-4 py-6 text-center text-gray-400 text-sm">None this quarter.</div>
         ) : rows.map((h) => (
           <div key={h.filerCik} className="px-4 py-2 flex items-center justify-between gap-3">
-            <span className="text-sm text-gray-800 truncate">{h.filerName}</span>
+            <span className="text-sm text-gray-800 truncate">
+              {h.filerName}<span className="text-[10px] text-gray-400 tabular-nums"> · CIK {h.filerCik}</span>
+            </span>
             <span className="text-sm tabular-nums text-gray-600 whitespace-nowrap">{fmt(valueOf(h))}</span>
           </div>
         ))}
