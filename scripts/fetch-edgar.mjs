@@ -1015,9 +1015,12 @@ async function buildBeneficialOwners(today) {
     let shares = null, pct = null;
     if (html) {
       const txt = html.replace(/<[^>]+>/g, " ").replace(/&#160;|&nbsp;/g, " ").replace(/\s+/g, " ");
-      // Skip the "row (9)/(11)" references; grab the first 4+ digit number / N.N% after the label.
-      shares = txt.match(/AGGREGATE AMOUNT BENEFICIALLY OWNED(?:\s+BY\s+EACH\s+REPORTING\s+PERSON)?[\s\S]{0,60}?([\d,]{4,})/i)?.[1]?.replace(/,/g, "");
-      pct = txt.match(/PERCENT OF CLASS[\s\S]{0,140}?(\d{1,2}(?:\.\d+)?)\s*%/i)?.[1];
+      // Handles the standard cover, Fidelity's "(a) Amount beneficially owned: N",
+      // and percents written without a "%" sign ("…Row (9) 11.7").
+      shares = (txt.match(/AGGREGATE AMOUNT BENEFICIALLY OWNED(?:\s+BY\s+EACH\s+REPORTING\s+PERSON)?[\s\S]{0,60}?([\d,]{4,})/i)?.[1]
+             ?? txt.match(/amount beneficially owned[:\s()a-z]{0,20}?([\d,]{4,})/i)?.[1])?.replace(/,/g, "");
+      pct = txt.match(/PERCENT OF CLASS[\s\S]{0,140}?(\d{1,2}(?:\.\d+)?)\s*%/i)?.[1]
+         ?? txt.match(/percent of class[\s\S]{0,60}?row\s*\(?\d+\)?\s+(\d{1,2}(?:\.\d+)?)/i)?.[1];
     }
     filers.push({
       filer: rec.filer, form: rec.form, fileDate: rec.fileDate,

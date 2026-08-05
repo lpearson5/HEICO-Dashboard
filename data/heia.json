@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-08-05T14:30:17.008Z",
+  "lastUpdated": "2026-08-05T15:17:38.494Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -208,6 +208,18 @@
       "action": "Bought",
       "firstSeen": "2026-07-29",
       "newThisWeek": false
+    },
+    {
+      "filerName": "FIFTH THIRD BANCORP  (FITB, FITBI, FITBM, FITBO, FITBP)",
+      "filerCik": "35527",
+      "currentShares": 45310,
+      "priorShares": 53260,
+      "change": -7950,
+      "pctChange": -14.9,
+      "currentValue": 11685896,
+      "action": "Sold",
+      "firstSeen": "2026-08-05",
+      "newThisWeek": true
     },
     {
       "filerName": "CITIGROUP INC  (C, C-PN, C-PR)",
@@ -954,6 +966,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "Janney Montgomery Scott LLC",
+      "filerCik": "1329948",
+      "currentShares": 4324,
+      "priorShares": 3812,
+      "change": 512,
+      "pctChange": 13.4,
+      "currentValue": 1115,
+      "action": "Bought",
+      "firstSeen": "2026-08-05",
+      "newThisWeek": true
+    },
+    {
       "filerName": "Caprock Group, LLC",
       "filerCik": "1610769",
       "currentShares": 4267,
@@ -1374,6 +1398,18 @@
       "newThisWeek": true
     },
     {
+      "filerName": "Cynosure Group, LLC",
+      "filerCik": "1763409",
+      "currentShares": 1979,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
+      "currentValue": 510404,
+      "action": "New Position",
+      "firstSeen": "2026-08-05",
+      "newThisWeek": true
+    },
+    {
       "filerName": "FINANCIAL CONSULATE, INC",
       "filerCik": "1624510",
       "currentShares": 1923,
@@ -1528,6 +1564,18 @@
       "action": "Sold",
       "firstSeen": "2026-07-14",
       "newThisWeek": false
+    },
+    {
+      "filerName": "KBC Group NV",
+      "filerCik": "1411133",
+      "currentShares": 1493,
+      "priorShares": 1493,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 385,
+      "action": "No Change",
+      "firstSeen": "2026-08-05",
+      "newThisWeek": true
     },
     {
       "filerName": "MGO ONE SEVEN LLC",
@@ -2409,11 +2457,11 @@
       "filerName": "Ascentis Wealth Management, LLC",
       "filerCik": "2032602",
       "currentShares": 60,
-      "priorShares": null,
-      "change": null,
-      "pctChange": null,
+      "priorShares": 60,
+      "change": 0,
+      "pctChange": 0,
       "currentValue": 15474,
-      "action": "New Position",
+      "action": "No Change",
       "firstSeen": "2026-07-30",
       "newThisWeek": true
     },
@@ -3390,10 +3438,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Capital International Investors",
-      "filerCik": "1562230",
+      "filerName": "Capital Research Global Investors",
+      "filerCik": "1422848",
       "currentShares": null,
-      "priorShares": 507773,
+      "priorShares": 186503,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -3402,10 +3450,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Capital Research Global Investors",
-      "filerCik": "1422848",
+      "filerName": "Capital International Investors",
+      "filerCik": "1562230",
       "currentShares": null,
-      "priorShares": 186503,
+      "priorShares": 507773,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -4386,10 +4434,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Summit Trail Advisors, LLC",
-      "filerCik": "1698478",
+      "filerName": "RITHOLTZ WEALTH MANAGEMENT",
+      "filerCik": "1698218",
       "currentShares": null,
-      "priorShares": 5301,
+      "priorShares": 8889,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -4398,10 +4446,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "RITHOLTZ WEALTH MANAGEMENT",
-      "filerCik": "1698218",
+      "filerName": "Summit Trail Advisors, LLC",
+      "filerCik": "1698478",
       "currentShares": null,
-      "priorShares": 8889,
+      "priorShares": 5301,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5010,10 +5058,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Universal- Beteiligungs- und Servicegesellschaft mbH",
-      "filerCik": "2057170",
+      "filerName": "Vanguard Personalized Indexing Management, LLC",
+      "filerCik": "1767306",
       "currentShares": null,
-      "priorShares": 38058,
+      "priorShares": 6812,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5022,10 +5070,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Vanguard Personalized Indexing Management, LLC",
-      "filerCik": "1767306",
+      "filerName": "Universal- Beteiligungs- und Servicegesellschaft mbH",
+      "filerCik": "2057170",
       "currentShares": null,
-      "priorShares": 6812,
+      "priorShares": 38058,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5382,10 +5430,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "KBC Group NV",
-      "filerCik": "1411133",
+      "filerName": "Optiver Holding B.V.",
+      "filerCik": "1859606",
       "currentShares": null,
-      "priorShares": 1493,
+      "priorShares": 973,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5398,18 +5446,6 @@
       "filerCik": "1909846",
       "currentShares": null,
       "priorShares": 281,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Optiver Holding B.V.",
-      "filerCik": "1859606",
-      "currentShares": null,
-      "priorShares": 973,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5622,6 +5658,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "NISA INVESTMENT ADVISORS, LLC",
+      "filerCik": "937615",
+      "currentShares": null,
+      "priorShares": 4303,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
       "filerName": "MANUFACTURERS LIFE INSURANCE COMPANY, THE",
       "filerCik": "928047",
       "currentShares": null,
@@ -5638,18 +5686,6 @@
       "filerCik": "1871926",
       "currentShares": null,
       "priorShares": 250317,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "NISA INVESTMENT ADVISORS, LLC",
-      "filerCik": "937615",
-      "currentShares": null,
-      "priorShares": 4303,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5778,10 +5814,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "STIFEL FINANCIAL CORP  (SF, SFB, SF-PB, SF-PC, SF-PD)",
-      "filerCik": "720672",
+      "filerName": "Invesco Ltd.  (IVZ)",
+      "filerCik": "914208",
       "currentShares": null,
-      "priorShares": 232093,
+      "priorShares": 93535,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5790,10 +5826,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Invesco Ltd.  (IVZ)",
-      "filerCik": "914208",
+      "filerName": "STIFEL FINANCIAL CORP  (SF, SFB, SF-PB, SF-PC, SF-PD)",
+      "filerCik": "720672",
       "currentShares": null,
-      "priorShares": 93535,
+      "priorShares": 232093,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5902,18 +5938,6 @@
       "filerCik": "1759654",
       "currentShares": null,
       "priorShares": 50540,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Janney Montgomery Scott LLC",
-      "filerCik": "1329948",
-      "currentShares": null,
-      "priorShares": 3812,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6138,10 +6162,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "ROTHSCHILD INVESTMENT LLC",
-      "filerCik": "85338",
+      "filerName": "XTX Topco Ltd",
+      "filerCik": "1828301",
       "currentShares": null,
-      "priorShares": 204,
+      "priorShares": 34087,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6150,10 +6174,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "XTX Topco Ltd",
-      "filerCik": "1828301",
+      "filerName": "ROTHSCHILD INVESTMENT LLC",
+      "filerCik": "85338",
       "currentShares": null,
-      "priorShares": 34087,
+      "priorShares": 204,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6346,18 +6370,6 @@
       "filerCik": "19617",
       "currentShares": null,
       "priorShares": 1158226,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "FIFTH THIRD BANCORP  (FITB, FITBI, FITBM, FITBO, FITBP)",
-      "filerCik": "35527",
-      "currentShares": null,
-      "priorShares": 53260,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7326,18 +7338,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Clark Wealth Partners",
-      "filerCik": "2107657",
-      "currentShares": null,
-      "priorShares": 78,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "MUFG Securities EMEA plc",
       "filerCik": "1597694",
       "currentShares": null,
@@ -7346,6 +7346,18 @@
       "pctChange": null,
       "currentValue": null,
       "action": "Not Filed Yet",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Clark Wealth Partners",
+      "filerCik": "2107657",
+      "currentShares": null,
+      "priorShares": 78,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
       "firstSeen": null,
       "newThisWeek": false
     },
