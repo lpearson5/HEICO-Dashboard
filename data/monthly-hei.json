@@ -7,17 +7,17 @@
     "2025-09-30",
     "2025-06-30"
   ],
-  "sharesOutstanding": 55148527,
-  "lastUpdated": "2026-08-05T01:19:32.759Z",
+  "sharesOutstanding": 55170957,
+  "lastUpdated": "2026-08-05T14:30:17.008Z",
   "summary": {
     "institutions": 740,
     "totalShares": 40927351,
-    "pctOut": 74.21,
-    "newHolders": 100,
+    "pctOut": 74.18,
+    "newHolders": 99,
     "sellouts": 115,
     "bought": 245,
     "sold": 256,
-    "held": 139
+    "held": 140
   },
   "top10": [
     {
@@ -49,7 +49,7 @@
       ],
       "netChg": 2224891,
       "currentValue": 729875529,
-      "pctOut": 4.83,
+      "pctOut": 4.82,
       "action": "Bought",
       "discretion": "DFND",
       "voteSole": 2661686,
@@ -1495,24 +1495,6 @@
       "action": "New",
       "discretion": "DFND",
       "voteSole": 340,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "ATWOOD & PALMER INC",
-      "filerCik": "1044929",
-      "shares": [
-        300,
-        null,
-        300,
-        300
-      ],
-      "netChg": 300,
-      "currentValue": 82260,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 300,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -4105,7 +4087,7 @@
       ],
       "netChg": 2224891,
       "currentValue": 729875529,
-      "pctOut": 4.83,
+      "pctOut": 4.82,
       "action": "Bought",
       "discretion": "DFND",
       "voteSole": 2661686,
@@ -4519,7 +4501,7 @@
       ],
       "netChg": -11000,
       "currentValue": 88483517,
-      "pctOut": 0.59,
+      "pctOut": 0.58,
       "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 322697,
@@ -12470,7 +12452,7 @@
       "shares": [
         1323,
         1483,
-        643,
+        null,
         655
       ],
       "netChg": -160,
@@ -12573,24 +12555,6 @@
       "voteNone": 1298
     },
     {
-      "filerName": "Yorktown Management & Research Co Inc",
-      "filerCik": "1313559",
-      "shares": [
-        1280,
-        1280,
-        1280,
-        1280
-      ],
-      "netChg": 0,
-      "currentValue": 350976,
-      "pctOut": 0,
-      "action": "No Change",
-      "discretion": "SOLE",
-      "voteSole": 1280,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
       "filerName": "TFB Advisors LLC",
       "filerCik": "1965201",
       "shares": [
@@ -12607,6 +12571,24 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 1280
+    },
+    {
+      "filerName": "Yorktown Management & Research Co Inc",
+      "filerCik": "1313559",
+      "shares": [
+        1280,
+        1280,
+        1280,
+        1280
+      ],
+      "netChg": 0,
+      "currentValue": 350976,
+      "pctOut": 0,
+      "action": "No Change",
+      "discretion": "SOLE",
+      "voteSole": 1280,
+      "voteShared": 0,
+      "voteNone": 0
     },
     {
       "filerName": "Coastal Bridge Advisors, LLC",
@@ -14881,14 +14863,14 @@
       "filerCik": "1044929",
       "shares": [
         300,
-        null,
+        300,
         300,
         300
       ],
-      "netChg": 300,
+      "netChg": 0,
       "currentValue": 82260,
       "pctOut": 0,
-      "action": "New",
+      "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 300,
       "voteShared": 0,
@@ -17523,13 +17505,13 @@
       "voteNone": null
     },
     {
-      "filerName": "SG Capital Management LLC",
-      "filerCik": "1510099",
+      "filerName": "STONE RUN CAPITAL, LLC",
+      "filerCik": "1512746",
       "shares": [
         null,
         null,
-        null,
-        9782
+        35466,
+        35481
       ],
       "netChg": null,
       "currentValue": null,
@@ -17541,13 +17523,13 @@
       "voteNone": null
     },
     {
-      "filerName": "STONE RUN CAPITAL, LLC",
-      "filerCik": "1512746",
+      "filerName": "SG Capital Management LLC",
+      "filerCik": "1510099",
       "shares": [
         null,
         null,
-        35466,
-        35481
+        null,
+        9782
       ],
       "netChg": null,
       "currentValue": null,
@@ -18063,24 +18045,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Encompass More Asset Management",
-      "filerCik": "2011218",
-      "shares": [
-        null,
-        640,
-        681,
-        694
-      ],
-      "netChg": -640,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Dynasty Wealth Management, LLC",
       "filerCik": "1727599",
       "shares": [
@@ -18093,6 +18057,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Encompass More Asset Management",
+      "filerCik": "2011218",
+      "shares": [
+        null,
+        640,
+        681,
+        694
+      ],
+      "netChg": -640,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19359,24 +19341,6 @@
       "voteNone": null
     },
     {
-      "filerName": "TOWNSQUARE CAPITAL LLC",
-      "filerCik": "1761755",
-      "shares": [
-        null,
-        null,
-        null,
-        635
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "GF FUND MANAGEMENT CO. LTD.",
       "filerCik": "2057060",
       "shares": [
@@ -19389,6 +19353,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "TOWNSQUARE CAPITAL LLC",
+      "filerCik": "1761755",
+      "shares": [
+        null,
+        null,
+        null,
+        635
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19557,24 +19539,6 @@
       "voteNone": null
     },
     {
-      "filerName": "SYNOVUS FINANCIAL CORP  (SNV, SNV-PD, SNV-PE)",
-      "filerCik": "18349",
-      "shares": [
-        null,
-        null,
-        1925,
-        1925
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "SAGESPRING WEALTH PARTNERS, LLC",
       "filerCik": "2056425",
       "shares": [
@@ -19587,6 +19551,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "SYNOVUS FINANCIAL CORP  (SNV, SNV-PD, SNV-PE)",
+      "filerCik": "18349",
+      "shares": [
+        null,
+        null,
+        1925,
+        1925
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,

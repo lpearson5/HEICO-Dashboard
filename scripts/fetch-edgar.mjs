@@ -40,8 +40,8 @@ const NEW_WINDOW_DAYS = 7;
 const CUSIPS = { HEI: "422806109", HEIA: "422806208" };
 
 // HEICO shares outstanding by class, for "% of shares outstanding".
-// Source: latest 10-Q cover (also shown on the Vickers monthly report).
-// TODO: automate from SEC XBRL; refresh when HEICO reports new share counts.
+// These are FALLBACK defaults; each run fetches the live counts from HEICO's
+// latest 10-Q/10-K cover (see getSharesOutstanding) and overrides these.
 const SHARES_OUTSTANDING = { HEI: 55_148_527, HEIA: 84_369_872 };
 
 // Monthly snapshot shows this many quarters of history (current + 3 prior).
@@ -309,12 +309,42 @@ async function hasFiledCurrent(cik, period, cache) {
   return filed;
 }
 
+// Live shares outstanding by class, parsed from HEICO's latest 10-Q/10-K cover.
+// Falls back to SHARES_OUTSTANDING defaults if the fetch/parse fails.
+async function getSharesOutstanding() {
+  try {
+    const sub = await getRetry("https://data.sec.gov/submissions/CIK0000046619.json", { json: true });
+    const f = sub?.filings?.recent;
+    if (!f) return {};
+    let acc, doc;
+    for (let i = 0; i < f.form.length; i++) {
+      if (f.form[i] === "10-Q" || f.form[i] === "10-K") { acc = f.accessionNumber[i]; doc = f.primaryDocument[i]; break; }
+    }
+    if (!acc) return {};
+    const html = await getRetry(`https://www.sec.gov/Archives/edgar/data/46619/${acc.replace(/-/g, "")}/${doc}`);
+    if (!html) return {};
+    const txt = html.replace(/<[^>]+>/g, " ").replace(/&#160;|&nbsp;/g, " ").replace(/\s+/g, " ");
+    const out = {};
+    for (const m of txt.matchAll(/(Class A )?Common Stock[\s\S]{0,40}?par value\s+([\d,]{6,})\s*shares/gi)) {
+      const n = parseInt(m[2].replace(/,/g, ""), 10);
+      if (m[1]) out.HEIA = n; else out.HEI = n;
+    }
+    return out;
+  } catch { return {}; }
+}
+
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
   console.log("=== HEICO 13F Fetch (full-text search) ===");
   mkdirSync(DATA_DIR, { recursive: true });
   const cache = loadCache();
+
+  // Live shares outstanding (for "% of shares outstanding" everywhere).
+  const liveShares = await getSharesOutstanding();
+  if (liveShares.HEI)  SHARES_OUTSTANDING.HEI  = liveShares.HEI;
+  if (liveShares.HEIA) SHARES_OUTSTANDING.HEIA = liveShares.HEIA;
+  console.log(`Shares outstanding: HEI ${SHARES_OUTSTANDING.HEI.toLocaleString()}, HEI.A ${SHARES_OUTSTANDING.HEIA.toLocaleString()}${liveShares.HEI ? " (live)" : " (fallback)"}`);
 
   // 1. Find every HEICO 13F filing via full-text search.
   console.log("Searching EDGAR full-text index…");
