@@ -8,16 +8,16 @@
     "2025-06-30"
   ],
   "sharesOutstanding": 55148527,
-  "lastUpdated": "2026-08-05T13:00:20.661Z",
+  "lastUpdated": "2026-08-05T01:19:32.759Z",
   "summary": {
     "institutions": 740,
     "totalShares": 40927351,
     "pctOut": 74.21,
     "newHolders": 100,
     "sellouts": 115,
-    "bought": 244,
+    "bought": 245,
     "sold": 256,
-    "held": 140
+    "held": 139
   },
   "top10": [
     {
@@ -1499,6 +1499,24 @@
       "voteNone": 0
     },
     {
+      "filerName": "ATWOOD & PALMER INC",
+      "filerCik": "1044929",
+      "shares": [
+        300,
+        null,
+        300,
+        300
+      ],
+      "netChg": 300,
+      "currentValue": 82260,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 300,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "Bayforest Capital Ltd",
       "filerCik": "2048423",
       "shares": [
@@ -1819,24 +1837,6 @@
       "action": "New",
       "discretion": "SOLE",
       "voteSole": 22,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "Morse Asset Management, Inc",
-      "filerCik": "1705711",
-      "shares": [
-        16,
-        null,
-        15,
-        null
-      ],
-      "netChg": 16,
-      "currentValue": 4387,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 16,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -9194,7 +9194,7 @@
       "shares": [
         6355,
         6265,
-        6265,
+        null,
         6214
       ],
       "netChg": 90,
@@ -11751,7 +11751,7 @@
         1867,
         1867,
         1867,
-        null
+        1900
       ],
       "netChg": 0,
       "currentValue": 511931,
@@ -12573,24 +12573,6 @@
       "voteNone": 1298
     },
     {
-      "filerName": "TFB Advisors LLC",
-      "filerCik": "1965201",
-      "shares": [
-        1280,
-        1413,
-        1400,
-        1331
-      ],
-      "netChg": -133,
-      "currentValue": 350976,
-      "pctOut": 0,
-      "action": "Sold",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 1280
-    },
-    {
       "filerName": "Yorktown Management & Research Co Inc",
       "filerCik": "1313559",
       "shares": [
@@ -12607,6 +12589,24 @@
       "voteSole": 1280,
       "voteShared": 0,
       "voteNone": 0
+    },
+    {
+      "filerName": "TFB Advisors LLC",
+      "filerCik": "1965201",
+      "shares": [
+        1280,
+        1413,
+        1400,
+        1331
+      ],
+      "netChg": -133,
+      "currentValue": 350976,
+      "pctOut": 0,
+      "action": "Sold",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 1280
     },
     {
       "filerName": "Coastal Bridge Advisors, LLC",
@@ -14881,14 +14881,14 @@
       "filerCik": "1044929",
       "shares": [
         300,
-        300,
+        null,
         300,
         300
       ],
-      "netChg": 0,
+      "netChg": 300,
       "currentValue": 82260,
       "pctOut": 0,
-      "action": "No Change",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 300,
       "voteShared": 0,
@@ -16501,14 +16501,14 @@
       "filerCik": "1705711",
       "shares": [
         16,
-        null,
+        15,
         15,
         null
       ],
-      "netChg": 16,
+      "netChg": 1,
       "currentValue": 4387,
       "pctOut": 0,
-      "action": "New",
+      "action": "Bought",
       "discretion": "SOLE",
       "voteSole": 16,
       "voteShared": 0,
@@ -18063,24 +18063,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Dynasty Wealth Management, LLC",
-      "filerCik": "1727599",
-      "shares": [
-        null,
-        null,
-        null,
-        636
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Encompass More Asset Management",
       "filerCik": "2011218",
       "shares": [
@@ -18093,6 +18075,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Dynasty Wealth Management, LLC",
+      "filerCik": "1727599",
+      "shares": [
+        null,
+        null,
+        null,
+        636
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19359,24 +19359,6 @@
       "voteNone": null
     },
     {
-      "filerName": "GF FUND MANAGEMENT CO. LTD.",
-      "filerCik": "2057060",
-      "shares": [
-        null,
-        3884,
-        3884,
-        11177
-      ],
-      "netChg": -3884,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "TOWNSQUARE CAPITAL LLC",
       "filerCik": "1761755",
       "shares": [
@@ -19389,6 +19371,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "GF FUND MANAGEMENT CO. LTD.",
+      "filerCik": "2057060",
+      "shares": [
+        null,
+        3884,
+        3884,
+        11177
+      ],
+      "netChg": -3884,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19971,24 +19971,6 @@
       "voteNone": null
     },
     {
-      "filerName": "AXXCESS WEALTH MANAGEMENT, LLC",
-      "filerCik": "1911056",
-      "shares": [
-        null,
-        8358,
-        6296,
-        null
-      ],
-      "netChg": -8358,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Principia Wealth Advisory, LLC",
       "filerCik": "2041436",
       "shares": [
@@ -19998,6 +19980,24 @@
         1
       ],
       "netChg": -2,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "AXXCESS WEALTH MANAGEMENT, LLC",
+      "filerCik": "1911056",
+      "shares": [
+        null,
+        8358,
+        6296,
+        null
+      ],
+      "netChg": -8358,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
