@@ -2,15 +2,15 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84369872,
-  "lastUpdated": "2026-08-05T00:08:14.135Z",
+  "lastUpdated": "2026-08-05T13:00:20.661Z",
   "summary": {
-    "funds": 348,
-    "totalShares": 29568219,
-    "pctOut": 35.0459,
+    "funds": 347,
+    "totalShares": 29380728,
+    "pctOut": 34.8237,
     "newFunds": 26,
-    "sellouts": 32,
+    "sellouts": 33,
     "linkedManagers": 23,
-    "linkedShares": 25331859
+    "linkedShares": 25144368
   },
   "newHolders": [
     {
@@ -359,6 +359,13 @@
       "manager": "Invesco",
       "lastShares": 4532953,
       "lastReport": "2025-07-31"
+    },
+    {
+      "fundName": "JNL/JPMorgan MidCap Growth Fund",
+      "registrant": "JNL Series Trust",
+      "manager": "JPMorgan",
+      "lastShares": 192472,
+      "lastReport": "2025-12-31"
     },
     {
       "fundName": "BBH Select Series Mid Cap Fund",
@@ -1029,16 +1036,12 @@
     },
     {
       "manager": "JPMorgan",
-      "fundCount": 6,
-      "shares": 1010720,
+      "fundCount": 5,
+      "shares": 823229,
       "funds": [
         {
           "fundName": "JPMorgan Mid Cap Growth Fund",
           "shares": 681723
-        },
-        {
-          "fundName": "JNL/JPMorgan MidCap Growth Fund",
-          "shares": 187491
         },
         {
           "fundName": "JPMorgan Mid Cap Equity Fund",
@@ -1824,19 +1827,6 @@
       "change": 43485,
       "pctOut": 0.2693,
       "action": "Bought"
-    },
-    {
-      "fundName": "JNL/JPMorgan MidCap Growth Fund",
-      "registrant": "JNL Series Trust",
-      "manager": "JPMorgan",
-      "cik": "933691",
-      "shares": 187491,
-      "value": 39577475,
-      "reportDate": "2026-03-31",
-      "priorShares": 192472,
-      "change": -4981,
-      "pctOut": 0.2222,
-      "action": "Sold"
     },
     {
       "fundName": "American Mutual Fund",

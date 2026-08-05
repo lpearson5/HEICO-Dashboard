@@ -25837,7 +25837,9 @@
     "1911726|2026-06-30": true,
     "866780|2026-06-30": true,
     "2109813|2026-06-30": true,
-    "1730960|2026-06-30": true
+    "1730960|2026-06-30": true,
+    "1269978|2026-06-30": true,
+    "1019754|2026-06-30": true
   },
   "0001661140-26-000001": {
     "cik": "1661140",
@@ -79959,6 +79961,70 @@
         "value": 1987933875,
         "discretion": "DFND",
         "voteSole": 7707810,
+        "voteShared": 0,
+        "voteNone": 0
+      }
+    },
+    "ok": true
+  },
+  "0002080880-26-000017": {
+    "cik": "2060412",
+    "name": "111 Capital",
+    "period": "2026-06-30",
+    "positions": {
+      "HEI": {
+        "shares": 979,
+        "value": 348710,
+        "discretion": "SOLE",
+        "voteSole": 979,
+        "voteShared": 0,
+        "voteNone": 0
+      },
+      "HEIA": {
+        "shares": 1203,
+        "value": 310266,
+        "discretion": "SOLE",
+        "voteSole": 1203,
+        "voteShared": 0,
+        "voteNone": 0
+      }
+    },
+    "ok": true
+  },
+  "0001628280-26-052820": {
+    "cik": "1963355",
+    "name": "Caitong International Asset Management Co., Ltd",
+    "period": "2026-06-30",
+    "positions": {
+      "HEIA": {
+        "shares": 89,
+        "value": 22954,
+        "discretion": "SOLE",
+        "voteSole": 0,
+        "voteShared": 0,
+        "voteNone": 89
+      },
+      "HEI": {
+        "shares": 152,
+        "value": 54141,
+        "discretion": "SOLE",
+        "voteSole": 0,
+        "voteShared": 0,
+        "voteNone": 152
+      }
+    },
+    "ok": true
+  },
+  "0001896148-26-000004": {
+    "cik": "1896148",
+    "name": "R Squared Ltd",
+    "period": "2026-06-30",
+    "positions": {
+      "HEIA": {
+        "shares": 842,
+        "value": 217160,
+        "discretion": "SOLE",
+        "voteSole": 842,
         "voteShared": 0,
         "voteNone": 0
       }
