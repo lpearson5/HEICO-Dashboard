@@ -162,11 +162,11 @@ export default function MonthlySnapshot({ data, funds, beneficial, peers }: { da
         </div>
       </div>
 
-      {/* New holders & Sellouts */}
+      {/* New holders & Sellouts (13F) */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <ListCard title={`New Holders (${data.newHolders.length})`} accent="text-blue-700"
+        <ListCard title={`New Holders — 13F Institutions (${data.newHolders.length})`} accent="text-blue-700"
           rows={data.newHolders} valueOf={(h) => h.shares[0]} />
-        <ListCard title={`Sold Out (${data.sellouts.length})`} accent="text-red-700"
+        <ListCard title={`Sold Out — 13F Institutions (${data.sellouts.length})`} accent="text-red-700"
           rows={data.sellouts} valueOf={(h) => h.shares[1]} />
       </div>
 
