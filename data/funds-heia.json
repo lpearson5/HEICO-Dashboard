@@ -2,15 +2,15 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84488320,
-  "lastUpdated": "2026-08-05T15:17:38.494Z",
+  "lastUpdated": "2026-08-06T13:02:11.317Z",
   "summary": {
     "funds": 348,
-    "totalShares": 29568219,
+    "totalShares": 29568182,
     "pctOut": 34.9968,
     "newFunds": 26,
     "sellouts": 32,
     "linkedManagers": 23,
-    "linkedShares": 25331859
+    "linkedShares": 25331822
   },
   "newHolders": [
     {
@@ -704,7 +704,7 @@
     {
       "manager": "FMR (Fidelity)",
       "fundCount": 38,
-      "shares": 4959839,
+      "shares": 4959802,
       "funds": [
         {
           "fundName": "Fidelity Magellan Fund",
@@ -848,7 +848,7 @@
         },
         {
           "fundName": "LVIP JPMorgan Select Mid Cap Value Managed Volatility Fund",
-          "shares": 521
+          "shares": 484
         },
         {
           "fundName": "AVIP AB Mid Cap Core Portfolio",
@@ -4561,8 +4561,8 @@
       "manager": "FMR (Fidelity)",
       "cik": "914036",
       "shares": 1685,
-      "value": 355687,
-      "reportDate": "2026-03-31",
+      "value": 434578,
+      "reportDate": "2026-06-30",
       "priorShares": 1685,
       "change": 0,
       "pctOut": 0.002,
@@ -4899,8 +4899,8 @@
       "manager": "FMR (Fidelity)",
       "cik": "914036",
       "shares": 988,
-      "value": 208557,
-      "reportDate": "2026-03-31",
+      "value": 254815,
+      "reportDate": "2026-06-30",
       "priorShares": 988,
       "change": 0,
       "pctOut": 0.0012000000000000001,
@@ -5193,19 +5193,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "LVIP JPMorgan Select Mid Cap Value Managed Volatility Fund",
-      "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
-      "manager": "FMR (Fidelity)",
-      "cik": "914036",
-      "shares": 521,
-      "value": 109978,
-      "reportDate": "2026-03-31",
-      "priorShares": 570,
-      "change": -49,
-      "pctOut": 0.0006000000000000001,
-      "action": "Sold"
-    },
-    {
       "fundName": "Avantis U.S. Large Cap Equity ETF",
       "registrant": "American Century ETF Trust",
       "manager": "American Century",
@@ -5228,6 +5215,19 @@
       "reportDate": "2026-03-31",
       "priorShares": 613,
       "change": -116,
+      "pctOut": 0.0006000000000000001,
+      "action": "Sold"
+    },
+    {
+      "fundName": "LVIP JPMorgan Select Mid Cap Value Managed Volatility Fund",
+      "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
+      "manager": "FMR (Fidelity)",
+      "cik": "914036",
+      "shares": 484,
+      "value": 124828,
+      "reportDate": "2026-06-30",
+      "priorShares": 521,
+      "change": -37,
       "pctOut": 0.0006000000000000001,
       "action": "Sold"
     },

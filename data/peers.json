@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T15:17:38.494Z",
+  "lastUpdated": "2026-08-06T13:02:11.317Z",
   "peers": [
     {
       "name": "RTX Corp.",
@@ -1098,12 +1098,6 @@
           "value": 166247603
         },
         {
-          "fund": "VANGUARD INSTITUTIONAL INDEX FUNDS",
-          "manager": "Vanguard Group",
-          "shares": 264924,
-          "value": 160281669
-        },
-        {
           "fund": "JP MORGAN FLEMING MUTUAL FUND GROUP INC",
           "manager": "JPMorgan",
           "shares": 210741,
@@ -1138,6 +1132,12 @@
           "manager": "Vanguard Group",
           "shares": 143130,
           "value": 92440511
+        },
+        {
+          "fund": "T. Rowe Price International Funds, Inc.",
+          "manager": "T. Rowe Price",
+          "shares": 142275,
+          "value": 91888309
         }
       ]
     },
@@ -1394,6 +1394,11 @@
           "value": 1205730
         },
         {
+          "filer": "Renaissance Capital LLC",
+          "shares": 22098,
+          "value": 1019602
+        },
+        {
           "filer": "Sumitomo Mitsui Trust Group, Inc.",
           "shares": 15612,
           "value": 720338
@@ -1402,6 +1407,11 @@
           "filer": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
           "shares": 13900,
           "value": 641346
+        },
+        {
+          "filer": "Russell Investments Group, Ltd.",
+          "shares": 13070,
+          "value": 603049
         },
         {
           "filer": "TEXAS PERMANENT SCHOOL FUND CORP",
@@ -1449,6 +1459,11 @@
           "value": 4614
         },
         {
+          "filer": "Parallel Advisors, LLC",
+          "shares": 100,
+          "value": 4614
+        },
+        {
           "filer": "SBI Securities Co., Ltd.",
           "shares": 94,
           "value": 4337
@@ -1457,21 +1472,6 @@
           "filer": "Marquette Asset Management, LLC",
           "shares": 75,
           "value": 3461
-        },
-        {
-          "filer": "North Star Investment Management Corp.",
-          "shares": 28,
-          "value": 1292
-        },
-        {
-          "filer": "EverSource Wealth Advisors, LLC",
-          "shares": 14,
-          "value": 646
-        },
-        {
-          "filer": "Avion Wealth",
-          "shares": 66,
-          "value": 3
         }
       ],
       "topFunds": [
@@ -1578,6 +1578,12 @@
           "value": 2173983
         },
         {
+          "fund": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
+          "manager": "",
+          "shares": 44314,
+          "value": 2044648
+        },
+        {
           "fund": "Capital Group Equity ETF Trust I",
           "manager": "Capital Group (American Funds)",
           "shares": 44587,
@@ -1586,14 +1592,8 @@
         {
           "fund": "FIDELITY SECURITIES FUND",
           "manager": "FMR (Fidelity)",
-          "shares": 53400,
-          "value": 1869000
-        },
-        {
-          "fund": "FIDELITY CONCORD STREET TRUST",
-          "manager": "FMR (Fidelity)",
-          "shares": 36957,
-          "value": 1660478
+          "shares": 48300,
+          "value": 1690500
         }
       ]
     },

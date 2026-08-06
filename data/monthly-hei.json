@@ -8,14 +8,14 @@
     "2025-06-30"
   ],
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-05T15:17:38.494Z",
+  "lastUpdated": "2026-08-06T13:02:11.317Z",
   "summary": {
     "institutions": 740,
     "totalShares": 40927351,
     "pctOut": 74.18,
-    "newHolders": 100,
-    "sellouts": 115,
-    "bought": 244,
+    "newHolders": 99,
+    "sellouts": 116,
+    "bought": 245,
     "sold": 256,
     "held": 140
   },
@@ -1823,24 +1823,6 @@
       "voteNone": 0
     },
     {
-      "filerName": "Morse Asset Management, Inc",
-      "filerCik": "1705711",
-      "shares": [
-        16,
-        null,
-        15,
-        null
-      ],
-      "netChg": 16,
-      "currentValue": 4387,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 16,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
       "filerName": "Owl Creek Wealth Partners LLC",
       "filerCik": "2133805",
       "shares": [
@@ -2662,6 +2644,24 @@
         6684
       ],
       "netChg": -1457,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
+      "filerCik": "1510434",
+      "shares": [
+        null,
+        1447,
+        null,
+        null
+      ],
+      "netChg": -1447,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -7916,7 +7916,7 @@
       "shares": [
         12991,
         15753,
-        null,
+        19429,
         19429
       ],
       "netChg": -2762,
@@ -12573,24 +12573,6 @@
       "voteNone": 1298
     },
     {
-      "filerName": "Yorktown Management & Research Co Inc",
-      "filerCik": "1313559",
-      "shares": [
-        1280,
-        1280,
-        1280,
-        1280
-      ],
-      "netChg": 0,
-      "currentValue": 350976,
-      "pctOut": 0,
-      "action": "No Change",
-      "discretion": "SOLE",
-      "voteSole": 1280,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
       "filerName": "TFB Advisors LLC",
       "filerCik": "1965201",
       "shares": [
@@ -12607,6 +12589,24 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 1280
+    },
+    {
+      "filerName": "Yorktown Management & Research Co Inc",
+      "filerCik": "1313559",
+      "shares": [
+        1280,
+        1280,
+        1280,
+        1280
+      ],
+      "netChg": 0,
+      "currentValue": 350976,
+      "pctOut": 0,
+      "action": "No Change",
+      "discretion": "SOLE",
+      "voteSole": 1280,
+      "voteShared": 0,
+      "voteNone": 0
     },
     {
       "filerName": "Coastal Bridge Advisors, LLC",
@@ -16501,14 +16501,14 @@
       "filerCik": "1705711",
       "shares": [
         16,
-        null,
+        15,
         15,
         null
       ],
-      "netChg": 16,
+      "netChg": 1,
       "currentValue": 4387,
       "pctOut": 0,
-      "action": "New",
+      "action": "Bought",
       "discretion": "SOLE",
       "voteSole": 16,
       "voteShared": 0,
@@ -18027,24 +18027,6 @@
       "voteNone": null
     },
     {
-      "filerName": "FORTE CAPITAL LLC /ADV",
-      "filerCik": "1022314",
-      "shares": [
-        null,
-        null,
-        null,
-        1512
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "TOBAM",
       "filerCik": "1527488",
       "shares": [
@@ -18070,6 +18052,24 @@
         null,
         null,
         636
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "FORTE CAPITAL LLC /ADV",
+      "filerCik": "1022314",
+      "shares": [
+        null,
+        null,
+        null,
+        1512
       ],
       "netChg": null,
       "currentValue": null,
@@ -19305,24 +19305,6 @@
       "voteNone": null
     },
     {
-      "filerName": "HighPoint Advisor Group LLC",
-      "filerCik": "1616034",
-      "shares": [
-        null,
-        1169,
-        1162,
-        1309
-      ],
-      "netChg": -1169,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "WINNOW WEALTH LLC",
       "filerCik": "2079687",
       "shares": [
@@ -19341,6 +19323,24 @@
       "voteNone": null
     },
     {
+      "filerName": "HighPoint Advisor Group LLC",
+      "filerCik": "1616034",
+      "shares": [
+        null,
+        1169,
+        1162,
+        1309
+      ],
+      "netChg": -1169,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "UniSuper Management Pty Ltd",
       "filerCik": "1989400",
       "shares": [
@@ -19350,6 +19350,24 @@
         700
       ],
       "netChg": -700,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
+      "filerCik": "1510434",
+      "shares": [
+        null,
+        1447,
+        null,
+        null
+      ],
+      "netChg": -1447,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -20817,24 +20835,6 @@
       "voteNone": null
     },
     {
-      "filerName": "OPTIMA CAPITAL LLC",
-      "filerCik": "2070972",
-      "shares": [
-        null,
-        2,
-        null,
-        null
-      ],
-      "netChg": -2,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Orion Porfolio Solutions, LLC",
       "filerCik": "1360533",
       "shares": [
@@ -20844,6 +20844,24 @@
         1647
       ],
       "netChg": -1646,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "OPTIMA CAPITAL LLC",
+      "filerCik": "2070972",
+      "shares": [
+        null,
+        2,
+        null,
+        null
+      ],
+      "netChg": -2,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
