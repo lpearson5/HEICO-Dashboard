@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T13:02:11.317Z",
+  "lastUpdated": "2026-08-07T11:51:57.865Z",
   "peers": [
     {
       "name": "RTX Corp.",
@@ -1098,6 +1098,12 @@
           "value": 166247603
         },
         {
+          "fund": "VANGUARD INSTITUTIONAL INDEX FUNDS",
+          "manager": "Vanguard Group",
+          "shares": 264924,
+          "value": 160281669
+        },
+        {
           "fund": "JP MORGAN FLEMING MUTUAL FUND GROUP INC",
           "manager": "JPMorgan",
           "shares": 210741,
@@ -1132,12 +1138,6 @@
           "manager": "Vanguard Group",
           "shares": 143130,
           "value": 92440511
-        },
-        {
-          "fund": "T. Rowe Price International Funds, Inc.",
-          "manager": "T. Rowe Price",
-          "shares": 142275,
-          "value": 91888309
         }
       ]
     },
@@ -1379,9 +1379,24 @@
           "value": 72843282
         },
         {
+          "filer": "Temasek Holdings (Private) Ltd",
+          "shares": 1373801,
+          "value": 63387178
+        },
+        {
+          "filer": "TimesSquare Capital Management, LLC",
+          "shares": 280121,
+          "value": 12924783
+        },
+        {
           "filer": "TD ASSET MANAGEMENT INC",
           "shares": 143676,
           "value": 6629211
+        },
+        {
+          "filer": "Mitsubishi UFJ Asset Management Co., Ltd.",
+          "shares": 97400,
+          "value": 4494036
         },
         {
           "filer": "Walleye Capital LLC",
@@ -1394,9 +1409,19 @@
           "value": 1205730
         },
         {
+          "filer": "IMC-Chicago, LLC",
+          "shares": 24841,
+          "value": 1146164
+        },
+        {
           "filer": "Renaissance Capital LLC",
           "shares": 22098,
           "value": 1019602
+        },
+        {
+          "filer": "Bank of New York Mellon Corp  (BNY, BNY-PK)",
+          "shares": 20100,
+          "value": 927424
         },
         {
           "filer": "Sumitomo Mitsui Trust Group, Inc.",
@@ -1417,6 +1442,11 @@
           "filer": "TEXAS PERMANENT SCHOOL FUND CORP",
           "shares": 10000,
           "value": 461400
+        },
+        {
+          "filer": "State of Wyoming",
+          "shares": 8936,
+          "value": 412307
         },
         {
           "filer": "Daiwa Securities Group Inc.  (DSECF, DSEEY)",
@@ -1442,36 +1472,6 @@
           "filer": "FIFTH THIRD BANCORP  (FITB, FITB-PA, FITB-PI, FITB-PK, FITB-PM)",
           "shares": 713,
           "value": 32893
-        },
-        {
-          "filer": "SOA Wealth Advisors, LLC.",
-          "shares": 600,
-          "value": 27684
-        },
-        {
-          "filer": "FIRST HORIZON CORP  (FHN, FHN-PE, FHN-PF, FHN-PH)",
-          "shares": 115,
-          "value": 5306
-        },
-        {
-          "filer": "City State Bank",
-          "shares": 100,
-          "value": 4614
-        },
-        {
-          "filer": "Parallel Advisors, LLC",
-          "shares": 100,
-          "value": 4614
-        },
-        {
-          "filer": "SBI Securities Co., Ltd.",
-          "shares": 94,
-          "value": 4337
-        },
-        {
-          "filer": "Marquette Asset Management, LLC",
-          "shares": 75,
-          "value": 3461
         }
       ],
       "topFunds": [

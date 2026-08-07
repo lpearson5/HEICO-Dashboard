@@ -8,16 +8,16 @@
     "2025-06-30"
   ],
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-06T13:02:11.317Z",
+  "lastUpdated": "2026-08-07T11:51:57.865Z",
   "summary": {
     "institutions": 740,
     "totalShares": 40927351,
     "pctOut": 74.18,
-    "newHolders": 99,
+    "newHolders": 101,
     "sellouts": 116,
     "bought": 245,
-    "sold": 256,
-    "held": 140
+    "sold": 255,
+    "held": 139
   },
   "top10": [
     {
@@ -525,6 +525,24 @@
       "voteSole": 14629,
       "voteShared": 0,
       "voteNone": 0
+    },
+    {
+      "filerName": "AMJ Financial Wealth Management",
+      "filerCik": "1801585",
+      "shares": [
+        13651,
+        null,
+        34752,
+        35220
+      ],
+      "netChg": 13651,
+      "currentValue": 3743104,
+      "pctOut": 0.02,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 12282,
+      "voteShared": 0,
+      "voteNone": 1369
     },
     {
       "filerName": "Pekao Towarzystwo Funduszy Inwestycyjnych S.A.",
@@ -1623,6 +1641,24 @@
       "voteSole": 87,
       "voteShared": 0,
       "voteNone": 0
+    },
+    {
+      "filerName": "Westside Investment Management, Inc.",
+      "filerCik": "1538383",
+      "shares": [
+        86,
+        null,
+        86,
+        43
+      ],
+      "netChg": 86,
+      "currentValue": 23372,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 86
     },
     {
       "filerName": "Richardson Capital Management LLC",
@@ -7807,14 +7843,14 @@
       "filerCik": "1801585",
       "shares": [
         13651,
-        13790,
+        null,
         34752,
         35220
       ],
-      "netChg": -139,
+      "netChg": 13651,
       "currentValue": 3743104,
       "pctOut": 0.02,
-      "action": "Sold",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 12282,
       "voteShared": 0,
@@ -15493,14 +15529,14 @@
       "filerCik": "1538383",
       "shares": [
         86,
-        86,
+        null,
         86,
         43
       ],
-      "netChg": 0,
+      "netChg": 86,
       "currentValue": 23372,
       "pctOut": 0,
-      "action": "No Change",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -17847,24 +17883,6 @@
       "voteNone": null
     },
     {
-      "filerName": "IFG Advisors, LLC",
-      "filerCik": "1783412",
-      "shares": [
-        null,
-        723,
-        774,
-        774
-      ],
-      "netChg": -723,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Artemis Investment Management LLP",
       "filerCik": "1535385",
       "shares": [
@@ -17877,6 +17895,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "IFG Advisors, LLC",
+      "filerCik": "1783412",
+      "shares": [
+        null,
+        723,
+        774,
+        774
+      ],
+      "netChg": -723,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19305,24 +19341,6 @@
       "voteNone": null
     },
     {
-      "filerName": "WINNOW WEALTH LLC",
-      "filerCik": "2079687",
-      "shares": [
-        null,
-        1,
-        7,
-        null
-      ],
-      "netChg": -1,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "HighPoint Advisor Group LLC",
       "filerCik": "1616034",
       "shares": [
@@ -19332,6 +19350,24 @@
         1309
       ],
       "netChg": -1169,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "WINNOW WEALTH LLC",
+      "filerCik": "2079687",
+      "shares": [
+        null,
+        1,
+        7,
+        null
+      ],
+      "netChg": -1,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -19377,24 +19413,6 @@
       "voteNone": null
     },
     {
-      "filerName": "TOWNSQUARE CAPITAL LLC",
-      "filerCik": "1761755",
-      "shares": [
-        null,
-        null,
-        null,
-        635
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "GF FUND MANAGEMENT CO. LTD.",
       "filerCik": "2057060",
       "shares": [
@@ -19407,6 +19425,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "TOWNSQUARE CAPITAL LLC",
+      "filerCik": "1761755",
+      "shares": [
+        null,
+        null,
+        null,
+        635
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -20385,24 +20421,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Transce3nd, LLC",
-      "filerCik": "2023570",
-      "shares": [
-        null,
-        null,
-        null,
-        14
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Tortoise Investment Management, LLC",
       "filerCik": "1599511",
       "shares": [
@@ -20469,24 +20487,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Kingsview Wealth Management, LLC",
-      "filerCik": "1791965",
-      "shares": [
-        null,
-        null,
-        null,
-        937
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
