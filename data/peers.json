@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T11:51:57.865Z",
+  "lastUpdated": "2026-08-08T11:35:55.807Z",
   "peers": [
     {
       "name": "RTX Corp.",
@@ -1374,6 +1374,11 @@
       "ticker": "ARXS",
       "top13F": [
         {
+          "filer": "BlackRock, Inc.  (BLK)",
+          "shares": 2196658,
+          "value": 101353800
+        },
+        {
           "filer": "MASSACHUSETTS FINANCIAL SERVICES CO /MA/",
           "shares": 1536450,
           "value": 72843282
@@ -1439,6 +1444,11 @@
           "value": 603049
         },
         {
+          "filer": "LPL Financial LLC",
+          "shares": 10616,
+          "value": 489822
+        },
+        {
           "filer": "TEXAS PERMANENT SCHOOL FUND CORP",
           "shares": 10000,
           "value": 461400
@@ -1449,6 +1459,11 @@
           "value": 412307
         },
         {
+          "filer": "VICTORY CAPITAL MANAGEMENT INC",
+          "shares": 7694,
+          "value": 355001
+        },
+        {
           "filer": "Daiwa Securities Group Inc.  (DSECF, DSEEY)",
           "shares": 6067,
           "value": 279931
@@ -1457,21 +1472,6 @@
           "filer": "Yorktown Management & Research Co Inc",
           "shares": 5700,
           "value": 262998
-        },
-        {
-          "filer": "Tranquility Partners, LLC",
-          "shares": 4440,
-          "value": 204862
-        },
-        {
-          "filer": "OPPENHEIMER ASSET MANAGEMENT INC.",
-          "shares": 4367,
-          "value": 201493
-        },
-        {
-          "filer": "FIFTH THIRD BANCORP  (FITB, FITB-PA, FITB-PI, FITB-PK, FITB-PM)",
-          "shares": 713,
-          "value": 32893
         }
       ],
       "topFunds": [
@@ -1592,8 +1592,8 @@
         {
           "fund": "FIDELITY SECURITIES FUND",
           "manager": "FMR (Fidelity)",
-          "shares": 48300,
-          "value": 1690500
+          "shares": 53400,
+          "value": 1869000
         }
       ]
     },
