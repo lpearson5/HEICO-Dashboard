@@ -8,13 +8,13 @@
     "2025-06-30"
   ],
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-08T11:35:55.807Z",
+  "lastUpdated": "2026-08-09T11:36:55.163Z",
   "summary": {
     "institutions": 739,
-    "totalShares": 40927250,
+    "totalShares": 40926141,
     "pctOut": 74.18,
     "newHolders": 100,
-    "sellouts": 117,
+    "sellouts": 116,
     "bought": 245,
     "sold": 255,
     "held": 139
@@ -1823,6 +1823,24 @@
       "voteNone": 0
     },
     {
+      "filerName": "COUNTRY TRUST BANK",
+      "filerCik": "1209324",
+      "shares": [
+        18,
+        null,
+        18,
+        18
+      ],
+      "netChg": 18,
+      "currentValue": 4936,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 18,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "Owl Creek Wealth Partners LLC",
       "filerCik": "2133805",
       "shares": [
@@ -1911,24 +1929,6 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 5
-    },
-    {
-      "filerName": "ELEVATION WEALTH PARTNERS, LLC",
-      "filerCik": "1976256",
-      "shares": [
-        4,
-        null,
-        11,
-        null
-      ],
-      "netChg": 4,
-      "currentValue": 1097,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 4
     },
     {
       "filerName": "Vermillion Wealth Management, Inc.",
@@ -2605,7 +2605,7 @@
         null,
         1588,
         7795,
-        6079
+        null
       ],
       "netChg": -1588,
       "currentValue": null,
@@ -2806,6 +2806,24 @@
         1593
       ],
       "netChg": -1289,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "EVERGREEN CAPITAL MANAGEMENT LLC",
+      "filerCik": "1260824",
+      "shares": [
+        null,
+        1287,
+        1210,
+        1121
+      ],
+      "netChg": -1287,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -3355,24 +3373,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Abel Hall, LLC",
-      "filerCik": "2013339",
-      "shares": [
-        null,
-        666,
-        null,
-        null
-      ],
-      "netChg": -666,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Essex Bank",
       "filerCik": "1752212",
       "shares": [
@@ -3652,24 +3652,6 @@
         null
       ],
       "netChg": -115,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "NBC SECURITIES, INC.",
-      "filerCik": "791540",
-      "shares": [
-        null,
-        101,
-        101,
-        101
-      ],
-      "netChg": -101,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -4766,7 +4748,7 @@
       "shares": [
         206753,
         134746,
-        60401,
+        null,
         7109
       ],
       "netChg": 72007,
@@ -12861,24 +12843,6 @@
       "voteNone": 0
     },
     {
-      "filerName": "EVERGREEN CAPITAL MANAGEMENT LLC",
-      "filerCik": "1260824",
-      "shares": [
-        1210,
-        1287,
-        null,
-        1121
-      ],
-      "netChg": -77,
-      "currentValue": 331782,
-      "pctOut": 0,
-      "action": "Sold",
-      "discretion": "OTR",
-      "voteSole": 0,
-      "voteShared": 1210,
-      "voteNone": 0
-    },
-    {
       "filerName": "QUADRANT CAPITAL GROUP LLC",
       "filerCik": "1650717",
       "shares": [
@@ -14091,7 +14055,7 @@
         823,
         719,
         719,
-        723
+        null
       ],
       "netChg": 104,
       "currentValue": 225667,
@@ -15417,6 +15381,24 @@
       "voteNone": 30
     },
     {
+      "filerName": "NBC SECURITIES, INC.",
+      "filerCik": "791540",
+      "shares": [
+        101,
+        101,
+        101,
+        101
+      ],
+      "netChg": 0,
+      "currentValue": 27843,
+      "pctOut": 0,
+      "action": "No Change",
+      "discretion": "SOLE",
+      "voteSole": 101,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "Costello Asset Management, INC",
       "filerCik": "1760145",
       "shares": [
@@ -16429,14 +16411,14 @@
       "filerCik": "1209324",
       "shares": [
         18,
-        18,
+        null,
         18,
         18
       ],
-      "netChg": 0,
+      "netChg": 18,
       "currentValue": 4936,
       "pctOut": 0,
-      "action": "No Change",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 18,
       "voteShared": 0,
@@ -17023,14 +17005,14 @@
       "filerCik": "1976256",
       "shares": [
         4,
-        null,
+        24,
         11,
         null
       ],
-      "netChg": 4,
+      "netChg": -20,
       "currentValue": 1097,
       "pctOut": 0,
-      "action": "New",
+      "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -19323,24 +19305,6 @@
       "voteNone": null
     },
     {
-      "filerName": "WINNOW WEALTH LLC",
-      "filerCik": "2079687",
-      "shares": [
-        null,
-        1,
-        7,
-        null
-      ],
-      "netChg": -1,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "HighPoint Advisor Group LLC",
       "filerCik": "1616034",
       "shares": [
@@ -19359,15 +19323,15 @@
       "voteNone": null
     },
     {
-      "filerName": "UniSuper Management Pty Ltd",
-      "filerCik": "1989400",
+      "filerName": "WINNOW WEALTH LLC",
+      "filerCik": "2079687",
       "shares": [
         null,
-        700,
-        700,
-        700
+        1,
+        7,
+        null
       ],
-      "netChg": -700,
+      "netChg": -1,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -19386,6 +19350,24 @@
         null
       ],
       "netChg": -1447,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "UniSuper Management Pty Ltd",
+      "filerCik": "1989400",
+      "shares": [
+        null,
+        700,
+        700,
+        700
+      ],
+      "netChg": -700,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -19449,24 +19431,6 @@
       "voteNone": null
     },
     {
-      "filerName": "V-Square Quantitative Management LLC",
-      "filerCik": "1943239",
-      "shares": [
-        null,
-        115,
-        null,
-        null
-      ],
-      "netChg": -115,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Legato Capital Management LLC",
       "filerCik": "1442641",
       "shares": [
@@ -19476,6 +19440,24 @@
         null
       ],
       "netChg": -1077,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "V-Square Quantitative Management LLC",
+      "filerCik": "1943239",
+      "shares": [
+        null,
+        115,
+        null,
+        null
+      ],
+      "netChg": -115,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -19683,42 +19665,6 @@
       "voteNone": null
     },
     {
-      "filerName": "FOX RUN MANAGEMENT, L.L.C.",
-      "filerCik": "1533457",
-      "shares": [
-        null,
-        1588,
-        7795,
-        6079
-      ],
-      "netChg": -1588,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Abel Hall, LLC",
-      "filerCik": "2013339",
-      "shares": [
-        null,
-        666,
-        null,
-        null
-      ],
-      "netChg": -666,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Independent Advisor Alliance",
       "filerCik": "1696899",
       "shares": [
@@ -19749,6 +19695,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "FOX RUN MANAGEMENT, L.L.C.",
+      "filerCik": "1533457",
+      "shares": [
+        null,
+        1588,
+        7795,
+        null
+      ],
+      "netChg": -1588,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -20745,6 +20709,24 @@
       "voteNone": null
     },
     {
+      "filerName": "EVERGREEN CAPITAL MANAGEMENT LLC",
+      "filerCik": "1260824",
+      "shares": [
+        null,
+        1287,
+        1210,
+        1121
+      ],
+      "netChg": -1287,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "CAPSTONE INVESTMENT ADVISORS, LLC",
       "filerCik": "1426196",
       "shares": [
@@ -20952,24 +20934,6 @@
         null
       ],
       "netChg": -200,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "NBC SECURITIES, INC.",
-      "filerCik": "791540",
-      "shares": [
-        null,
-        101,
-        101,
-        101
-      ],
-      "netChg": -101,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",

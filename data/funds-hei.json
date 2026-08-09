@@ -2,13 +2,13 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-08T11:35:55.807Z",
+  "lastUpdated": "2026-08-09T11:36:55.163Z",
   "summary": {
-    "funds": 417,
-    "totalShares": 18662138,
-    "pctOut": 33.826,
+    "funds": 416,
+    "totalShares": 18638461,
+    "pctOut": 33.7831,
     "newFunds": 36,
-    "sellouts": 53,
+    "sellouts": 54,
     "linkedManagers": 26,
     "linkedShares": 15988288
   },
@@ -488,6 +488,13 @@
       "registrant": "AIM Variable Insurance Funds (Invesco Variable Insurance Funds)",
       "manager": "Invesco",
       "lastShares": 27945,
+      "lastReport": "2025-12-31"
+    },
+    {
+      "fundName": "Alger Large Cap Growth Portfolio",
+      "registrant": "ALGER PORTFOLIOS",
+      "manager": "",
+      "lastShares": 27777,
       "lastReport": "2025-12-31"
     },
     {
@@ -3337,19 +3344,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Alger Large Cap Growth Portfolio",
-      "registrant": "ALGER PORTFOLIOS",
-      "manager": "",
-      "cik": "832566",
-      "shares": 23677,
-      "value": 6492233,
-      "reportDate": "2026-03-31",
-      "priorShares": 27777,
-      "change": -4100,
-      "pctOut": 0.0429,
-      "action": "Sold"
-    },
-    {
       "fundName": "Invesco Dorsey Wright Industrials Momentum ETF",
       "registrant": "Invesco Exchange-Traded Fund Trust",
       "manager": "Invesco",
@@ -3669,10 +3663,10 @@
       "shares": 15159,
       "value": 4091717,
       "reportDate": "2026-04-30",
-      "priorShares": 15270,
-      "change": -111,
+      "priorShares": 12845,
+      "change": 2314,
       "pctOut": 0.0275,
-      "action": "Sold"
+      "action": "Bought"
     },
     {
       "fundName": "First Trust Industrials/Producer Durables AlphaDEX Fund",

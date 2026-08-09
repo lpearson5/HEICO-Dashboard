@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-08-08T11:35:55.807Z",
+  "lastUpdated": "2026-08-09T11:36:55.163Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -1665,11 +1665,11 @@
       "filerName": "EVERGREEN CAPITAL MANAGEMENT LLC",
       "filerCik": "1260824",
       "currentShares": 2697,
-      "priorShares": 1210,
-      "change": 1487,
-      "pctChange": 122.9,
+      "priorShares": null,
+      "change": null,
+      "pctChange": null,
       "currentValue": 960645,
-      "action": "Bought",
+      "action": "New Position",
       "firstSeen": "2026-07-23",
       "newThisWeek": false
     },
@@ -2560,6 +2560,18 @@
       "action": "New Position",
       "firstSeen": "2026-08-05",
       "newThisWeek": true
+    },
+    {
+      "filerName": "Baker Avenue Asset Management, LP",
+      "filerCik": "1432529",
+      "currentShares": 954,
+      "priorShares": 1306,
+      "change": -352,
+      "pctChange": -27,
+      "currentValue": 339805,
+      "action": "Sold",
+      "firstSeen": "2026-07-28",
+      "newThisWeek": false
     },
     {
       "filerName": "Florida Trust Wealth Management Co",
@@ -3510,14 +3522,14 @@
       "newThisWeek": true
     },
     {
-      "filerName": "LANARK FINANCIAL, INC.",
+      "filerName": "NBC SECURITIES, INC.",
       "filerCik": "791540",
       "currentShares": 101,
-      "priorShares": null,
-      "change": null,
-      "pctChange": null,
+      "priorShares": 101,
+      "change": 0,
+      "pctChange": 0,
       "currentValue": 36169,
-      "action": "New Position",
+      "action": "No Change",
       "firstSeen": "2026-07-21",
       "newThisWeek": false
     },
@@ -6138,10 +6150,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "WORLDQUANT MILLENNIUM ADVISORS LLC",
-      "filerCik": "1745981",
+      "filerName": "CenterBook Partners LP",
+      "filerCik": "1872738",
       "currentShares": null,
-      "priorShares": 66439,
+      "priorShares": 1123,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6150,10 +6162,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "CenterBook Partners LP",
-      "filerCik": "1872738",
+      "filerName": "WORLDQUANT MILLENNIUM ADVISORS LLC",
+      "filerCik": "1745981",
       "currentShares": null,
-      "priorShares": 1123,
+      "priorShares": 66439,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6438,10 +6450,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Red Tortoise LLC",
-      "filerCik": "1910488",
+      "filerName": "Inscription Capital, LLC",
+      "filerCik": "1767868",
       "currentShares": null,
-      "priorShares": 49,
+      "priorShares": 2025,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6450,10 +6462,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Inscription Capital, LLC",
-      "filerCik": "1767868",
+      "filerName": "Red Tortoise LLC",
+      "filerCik": "1910488",
       "currentShares": null,
-      "priorShares": 2025,
+      "priorShares": 49,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6642,18 +6654,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Baker Avenue Asset Management, LP",
-      "filerCik": "1432529",
-      "currentShares": null,
-      "priorShares": 1306,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "AVIVA PLC",
       "filerCik": "1140022",
       "currentShares": null,
@@ -6714,6 +6714,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "Freestone Grove Partners LP",
+      "filerCik": "2007591",
+      "currentShares": null,
+      "priorShares": 112201,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
       "filerName": "Aster Capital Management (DIFC) Ltd",
       "filerCik": "2040915",
       "currentShares": null,
@@ -6742,18 +6754,6 @@
       "filerCik": "884414",
       "currentShares": null,
       "priorShares": 2628,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Freestone Grove Partners LP",
-      "filerCik": "2007591",
-      "currentShares": null,
-      "priorShares": 112201,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6906,10 +6906,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Bridgewater Associates, LP",
-      "filerCik": "1350694",
+      "filerName": "Utah Retirement Systems",
+      "filerCik": "1548392",
       "currentShares": null,
-      "priorShares": 17524,
+      "priorShares": 6890,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6918,10 +6918,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Utah Retirement Systems",
-      "filerCik": "1548392",
+      "filerName": "Bridgewater Associates, LP",
+      "filerCik": "1350694",
       "currentShares": null,
-      "priorShares": 6890,
+      "priorShares": 17524,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7038,18 +7038,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "DZ BANK AG Deutsche Zentral Genossenschafts Bank, Frankfurt am Main",
-      "filerCik": "1694217",
-      "currentShares": null,
-      "priorShares": 15308,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "CENTAURUS FINANCIAL, INC.",
       "filerCik": "891943",
       "currentShares": null,
@@ -7066,6 +7054,18 @@
       "filerCik": "1456670",
       "currentShares": null,
       "priorShares": 13294,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
+      "filerName": "DZ BANK AG Deutsche Zentral Genossenschafts Bank, Frankfurt am Main",
+      "filerCik": "1694217",
+      "currentShares": null,
+      "priorShares": 15308,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7422,10 +7422,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "PICTON MAHONEY ASSET MANAGEMENT",
-      "filerCik": "1539041",
+      "filerName": "COLDSTREAM CAPITAL MANAGEMENT INC",
+      "filerCik": "1082339",
       "currentShares": null,
-      "priorShares": 1248,
+      "priorShares": 2435,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -7434,10 +7434,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "COLDSTREAM CAPITAL MANAGEMENT INC",
-      "filerCik": "1082339",
+      "filerName": "PICTON MAHONEY ASSET MANAGEMENT",
+      "filerCik": "1539041",
       "currentShares": null,
-      "priorShares": 2435,
+      "priorShares": 1248,
       "change": null,
       "pctChange": null,
       "currentValue": null,
