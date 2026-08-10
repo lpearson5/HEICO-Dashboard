@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-05T15:17:38.494Z",
+  "lastUpdated": "2026-08-10T19:22:13.261Z",
   "summary": {
-    "funds": 415,
-    "totalShares": 18657853,
-    "pctOut": 33.8183,
+    "funds": 416,
+    "totalShares": 18638461,
+    "pctOut": 33.7831,
     "newFunds": 36,
-    "sellouts": 55,
+    "sellouts": 54,
     "linkedManagers": 26,
-    "linkedShares": 16001072
+    "linkedShares": 15988288
   },
   "newHolders": [
     {
@@ -491,6 +491,13 @@
       "lastReport": "2025-12-31"
     },
     {
+      "fundName": "Alger Large Cap Growth Portfolio",
+      "registrant": "ALGER PORTFOLIOS",
+      "manager": "",
+      "lastShares": 27777,
+      "lastReport": "2025-12-31"
+    },
+    {
       "fundName": "Goldman Sachs Large Cap Growth Insights Fund",
       "registrant": "Goldman Sachs Trust",
       "manager": "Goldman Sachs",
@@ -503,13 +510,6 @@
       "manager": "PGIM (Prudential)",
       "lastShares": 18500,
       "lastReport": "2025-06-30"
-    },
-    {
-      "fundName": "SIMT Tax-Managed Large Cap Fund",
-      "registrant": "SEI INSTITUTIONAL MANAGED TRUST",
-      "manager": "",
-      "lastShares": 17061,
-      "lastReport": "2025-12-31"
     },
     {
       "fundName": "WisdomTree U.S. Quality Dividend Growth Fund",
@@ -538,13 +538,6 @@
       "manager": "",
       "lastShares": 9400,
       "lastReport": "2025-06-30"
-    },
-    {
-      "fundName": "LVIP Blended Large Cap Growth Managed Volatility Fund",
-      "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
-      "manager": "FMR (Fidelity)",
-      "lastShares": 8844,
-      "lastReport": "2025-12-31"
     },
     {
       "fundName": "AST Aggressive Asset Allocation Portfolio",
@@ -1002,8 +995,8 @@
     },
     {
       "manager": "FMR (Fidelity)",
-      "fundCount": 40,
-      "shares": 2242120,
+      "fundCount": 41,
+      "shares": 2229336,
       "funds": [
         {
           "fundName": "Fidelity Advisor International Capital Appreciation Fund",
@@ -1054,12 +1047,12 @@
           "shares": 51843
         },
         {
-          "fundName": "LVIP T. Rowe Price Structured Mid-Cap Growth Fund",
-          "shares": 50519
-        },
-        {
           "fundName": "Fidelity Enhanced Large Cap Core ETF",
           "shares": 50359
+        },
+        {
+          "fundName": "LVIP T. Rowe Price Structured Mid-Cap Growth Fund",
+          "shares": 39117
         },
         {
           "fundName": "VIP International Capital Appreciation Portfolio",
@@ -1075,15 +1068,11 @@
         },
         {
           "fundName": "LVIP American Century Capital Appreciation Fund",
-          "shares": 16681
+          "shares": 16836
         },
         {
           "fundName": "Fidelity MSCI Industrials Index ETF",
           "shares": 13045
-        },
-        {
-          "fundName": "LVIP Blended Mid Cap Managed Volatility Fund",
-          "shares": 12074
         },
         {
           "fundName": "Fidelity ZERO Large Cap Index Fund",
@@ -1096,6 +1085,10 @@
         {
           "fundName": "LVIP American Century Ultra(R) Fund",
           "shares": 9905
+        },
+        {
+          "fundName": "LVIP Blended Mid Cap Managed Volatility Fund",
+          "shares": 8978
         },
         {
           "fundName": "AZL Fidelity Institutional Asset Management Multi-Strategy Fund",
@@ -1123,11 +1116,15 @@
         },
         {
           "fundName": "LVIP American Century Select Mid Cap Managed Volatility Fund",
-          "shares": 3061
+          "shares": 3064
         },
         {
           "fundName": "Strategic Advisers U.S. Total Stock Fund",
           "shares": 1815
+        },
+        {
+          "fundName": "LVIP Blended Large Cap Growth Managed Volatility Fund",
+          "shares": 1678
         },
         {
           "fundName": "LVIP Dimensional U.S. Core Equity 1 Fund",
@@ -1147,7 +1144,7 @@
         },
         {
           "fundName": "LVIP Dimensional U.S. Core Equity 2 Fund",
-          "shares": 828
+          "shares": 706
         },
         {
           "fundName": "Fidelity Dynamic Buffered Equity ETF",
@@ -2853,19 +2850,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "LVIP T. Rowe Price Structured Mid-Cap Growth Fund",
-      "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
-      "manager": "FMR (Fidelity)",
-      "cik": "914036",
-      "shares": 50519,
-      "value": 13852310,
-      "reportDate": "2026-03-31",
-      "priorShares": 48428,
-      "change": 2091,
-      "pctOut": 0.0916,
-      "action": "Bought"
-    },
-    {
       "fundName": "Fidelity Enhanced Large Cap Core ETF",
       "registrant": "Fidelity Covington Trust",
       "manager": "FMR (Fidelity)",
@@ -2993,6 +2977,19 @@
       "priorShares": 63950,
       "change": -23901,
       "pctOut": 0.0726,
+      "action": "Sold"
+    },
+    {
+      "fundName": "LVIP T. Rowe Price Structured Mid-Cap Growth Fund",
+      "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
+      "manager": "FMR (Fidelity)",
+      "cik": "914036",
+      "shares": 39117,
+      "value": 13933084,
+      "reportDate": "2026-06-30",
+      "priorShares": 50519,
+      "change": -11402,
+      "pctOut": 0.0709,
       "action": "Sold"
     },
     {
@@ -3347,19 +3344,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Alger Large Cap Growth Portfolio",
-      "registrant": "ALGER PORTFOLIOS",
-      "manager": "",
-      "cik": "832566",
-      "shares": 23677,
-      "value": 6492233,
-      "reportDate": "2026-03-31",
-      "priorShares": 27777,
-      "change": -4100,
-      "pctOut": 0.0429,
-      "action": "Sold"
-    },
-    {
       "fundName": "Invesco Dorsey Wright Industrials Momentum ETF",
       "registrant": "Invesco Exchange-Traded Fund Trust",
       "manager": "Invesco",
@@ -3581,6 +3565,32 @@
       "action": "No Change"
     },
     {
+      "fundName": "SIMT Tax-Managed Large Cap Fund",
+      "registrant": "SEI INSTITUTIONAL MANAGED TRUST",
+      "manager": "",
+      "cik": "804239",
+      "shares": 17061,
+      "value": 4678126,
+      "reportDate": "2026-03-31",
+      "priorShares": 17061,
+      "change": 0,
+      "pctOut": 0.030899999999999997,
+      "action": "No Change"
+    },
+    {
+      "fundName": "LVIP American Century Capital Appreciation Fund",
+      "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
+      "manager": "FMR (Fidelity)",
+      "cik": "914036",
+      "shares": 16836,
+      "value": 5996815,
+      "reportDate": "2026-06-30",
+      "priorShares": 16681,
+      "change": 155,
+      "pctOut": 0.0305,
+      "action": "Bought"
+    },
+    {
       "fundName": "Virtus Silvant Mid-Cap Growth Fund",
       "registrant": "Virtus Investment Trust",
       "manager": "",
@@ -3592,19 +3602,6 @@
       "change": null,
       "pctOut": 0.030400000000000003,
       "action": "New"
-    },
-    {
-      "fundName": "LVIP American Century Capital Appreciation Fund",
-      "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
-      "manager": "FMR (Fidelity)",
-      "cik": "914036",
-      "shares": 16681,
-      "value": 4573930,
-      "reportDate": "2026-03-31",
-      "priorShares": 16677,
-      "change": 4,
-      "pctOut": 0.0302,
-      "action": "Bought"
     },
     {
       "fundName": "VALUE LINE ASSET ALLOCATION FUND INC",
@@ -3841,19 +3838,6 @@
       "action": "New"
     },
     {
-      "fundName": "LVIP Blended Mid Cap Managed Volatility Fund",
-      "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
-      "manager": "FMR (Fidelity)",
-      "cik": "914036",
-      "shares": 12074,
-      "value": 3310691,
-      "reportDate": "2026-03-31",
-      "priorShares": 12304,
-      "change": -230,
-      "pctOut": 0.021900000000000003,
-      "action": "Sold"
-    },
-    {
       "fundName": "Goldman Sachs Equal Weight U.S. Large Cap Equity ETF",
       "registrant": "Goldman Sachs ETF Trust",
       "manager": "Goldman Sachs",
@@ -4002,8 +3986,8 @@
       "manager": "FMR (Fidelity)",
       "cik": "914036",
       "shares": 9905,
-      "value": 2715951,
-      "reportDate": "2026-03-31",
+      "value": 3528062,
+      "reportDate": "2026-06-30",
       "priorShares": 9905,
       "change": 0,
       "pctOut": 0.018000000000000002,
@@ -4138,6 +4122,19 @@
       "change": 594,
       "pctOut": 0.016300000000000002,
       "action": "Bought"
+    },
+    {
+      "fundName": "LVIP Blended Mid Cap Managed Volatility Fund",
+      "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
+      "manager": "FMR (Fidelity)",
+      "cik": "914036",
+      "shares": 8978,
+      "value": 3197874,
+      "reportDate": "2026-06-30",
+      "priorShares": 12074,
+      "change": -3096,
+      "pctOut": 0.016300000000000002,
+      "action": "Sold"
     },
     {
       "fundName": "Direxion Daily Aerospace &amp; Defense Bull 3X Shares",
@@ -5080,13 +5077,13 @@
       "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
       "manager": "FMR (Fidelity)",
       "cik": "914036",
-      "shares": 3061,
-      "value": 839326,
-      "reportDate": "2026-03-31",
-      "priorShares": 3196,
-      "change": -135,
-      "pctOut": 0.0055000000000000005,
-      "action": "Sold"
+      "shares": 3064,
+      "value": 1091366,
+      "reportDate": "2026-06-30",
+      "priorShares": 3061,
+      "change": 3,
+      "pctOut": 0.0056,
+      "action": "Bought"
     },
     {
       "fundName": "EQ/Large Cap Growth Managed Volatility Portfolio",
@@ -5492,6 +5489,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "LVIP Blended Large Cap Growth Managed Volatility Fund",
+      "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
+      "manager": "FMR (Fidelity)",
+      "cik": "914036",
+      "shares": 1678,
+      "value": 597687,
+      "reportDate": "2026-06-30",
+      "priorShares": 8844,
+      "change": -7166,
+      "pctOut": 0.003,
+      "action": "Sold"
+    },
+    {
       "fundName": "Morgan Stanley Pathway Large Cap Equity ETF",
       "registrant": "MORGAN STANLEY PATHWAY FUNDS",
       "manager": "Morgan Stanley",
@@ -5744,12 +5754,12 @@
       "manager": "FMR (Fidelity)",
       "cik": "914036",
       "shares": 1216,
-      "value": 333427,
-      "reportDate": "2026-03-31",
-      "priorShares": 1379,
-      "change": -163,
+      "value": 433127,
+      "reportDate": "2026-06-30",
+      "priorShares": 1216,
+      "change": 0,
       "pctOut": 0.0022,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Multimanager Aggressive Equity Portfolio",
@@ -6116,19 +6126,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "LVIP Dimensional U.S. Core Equity 2 Fund",
-      "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
-      "manager": "FMR (Fidelity)",
-      "cik": "914036",
-      "shares": 828,
-      "value": 227038,
-      "reportDate": "2026-03-31",
-      "priorShares": 828,
-      "change": 0,
-      "pctOut": 0.0015,
-      "action": "No Change"
-    },
-    {
       "fundName": "AZL Russell 1000 Growth Index Fund",
       "registrant": "Allianz Variable Insurance Products Trust",
       "manager": "",
@@ -6218,6 +6215,19 @@
       "change": 45,
       "pctOut": 0.0013,
       "action": "Bought"
+    },
+    {
+      "fundName": "LVIP Dimensional U.S. Core Equity 2 Fund",
+      "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
+      "manager": "FMR (Fidelity)",
+      "cik": "914036",
+      "shares": 706,
+      "value": 251470,
+      "reportDate": "2026-06-30",
+      "priorShares": 828,
+      "change": -122,
+      "pctOut": 0.0013,
+      "action": "Sold"
     },
     {
       "fundName": "TCW Transform 500 ETF",
@@ -7208,6 +7218,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Sector Rotation Fund",
+      "registrant": "Meeder Funds",
+      "manager": "",
+      "cik": "702435",
+      "shares": 45,
+      "value": 16029,
+      "reportDate": "2026-06-30",
+      "priorShares": 37,
+      "change": 8,
+      "pctOut": 0.00009999999999999999,
+      "action": "Bought"
+    },
+    {
       "fundName": "SA T. Rowe Price Allocation Moderately Aggressive Portfolio",
       "registrant": "SUNAMERICA SERIES TRUST",
       "manager": "T. Rowe Price",
@@ -7258,19 +7281,6 @@
       "change": 0,
       "pctOut": 0.00009999999999999999,
       "action": "No Change"
-    },
-    {
-      "fundName": "Sector Rotation Fund",
-      "registrant": "Meeder Funds",
-      "manager": "",
-      "cik": "702435",
-      "shares": 37,
-      "value": 10145,
-      "reportDate": "2026-03-31",
-      "priorShares": 15,
-      "change": 22,
-      "pctOut": 0.00009999999999999999,
-      "action": "Bought"
     },
     {
       "fundName": "WisdomTree 500 Digital Fund",

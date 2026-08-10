@@ -1,15 +1,10 @@
 {
-  "lastUpdated": "2026-08-05T15:17:38.494Z",
+  "lastUpdated": "2026-08-10T19:22:13.261Z",
   "peers": [
     {
       "name": "RTX Corp.",
       "ticker": "RTX",
       "top13F": [
-        {
-          "filer": "BlackRock, Inc.  (BLK)",
-          "shares": 109050751,
-          "value": 21035890013
-        },
         {
           "filer": "STATE STREET CORP  (STT, STT-PG)",
           "shares": 92589262,
@@ -61,11 +56,6 @@
           "value": 4291009129
         },
         {
-          "filer": "FMR LLC",
-          "shares": 13160765,
-          "value": 2538711690
-        },
-        {
           "filer": "NORTHERN TRUST CORP  (NTRS, NTRSO)",
           "shares": 12123723,
           "value": 2338666167
@@ -104,6 +94,16 @@
           "filer": "WELLS FARGO & COMPANY/MN  (WFC, WFCNP, WFC-PA, WFC-PC, WFC-PD, WFC-PL, WFC-PY, WFC-PZ)",
           "shares": 8816965,
           "value": 1700792508
+        },
+        {
+          "filer": "UBS AM, a distinct business unit of UBS ASSET MANAGEMENT AMERICAS LLC",
+          "shares": 8282583,
+          "value": 1597710263
+        },
+        {
+          "filer": "DIMENSIONAL FUND ADVISORS LP",
+          "shares": 7649112,
+          "value": 1475296393
         }
       ],
       "topFunds": [
@@ -1374,14 +1374,34 @@
       "ticker": "ARXS",
       "top13F": [
         {
+          "filer": "BlackRock, Inc.  (BLK)",
+          "shares": 2196658,
+          "value": 101353800
+        },
+        {
           "filer": "MASSACHUSETTS FINANCIAL SERVICES CO /MA/",
           "shares": 1536450,
           "value": 72843282
         },
         {
+          "filer": "Temasek Holdings (Private) Ltd",
+          "shares": 1373801,
+          "value": 63387178
+        },
+        {
+          "filer": "TimesSquare Capital Management, LLC",
+          "shares": 280121,
+          "value": 12924783
+        },
+        {
           "filer": "TD ASSET MANAGEMENT INC",
           "shares": 143676,
           "value": 6629211
+        },
+        {
+          "filer": "Mitsubishi UFJ Asset Management Co., Ltd.",
+          "shares": 97400,
+          "value": 4494036
         },
         {
           "filer": "Walleye Capital LLC",
@@ -1394,6 +1414,21 @@
           "value": 1205730
         },
         {
+          "filer": "IMC-Chicago, LLC",
+          "shares": 24841,
+          "value": 1146164
+        },
+        {
+          "filer": "Renaissance Capital LLC",
+          "shares": 22098,
+          "value": 1019602
+        },
+        {
+          "filer": "Bank of New York Mellon Corp  (BNY, BNY-PK)",
+          "shares": 20100,
+          "value": 927424
+        },
+        {
           "filer": "Sumitomo Mitsui Trust Group, Inc.",
           "shares": 15612,
           "value": 720338
@@ -1404,9 +1439,29 @@
           "value": 641346
         },
         {
+          "filer": "Russell Investments Group, Ltd.",
+          "shares": 13070,
+          "value": 603049
+        },
+        {
+          "filer": "LPL Financial LLC",
+          "shares": 10616,
+          "value": 489822
+        },
+        {
           "filer": "TEXAS PERMANENT SCHOOL FUND CORP",
           "shares": 10000,
           "value": 461400
+        },
+        {
+          "filer": "State of Wyoming",
+          "shares": 8936,
+          "value": 412307
+        },
+        {
+          "filer": "VICTORY CAPITAL MANAGEMENT INC",
+          "shares": 7694,
+          "value": 355001
         },
         {
           "filer": "Daiwa Securities Group Inc.  (DSECF, DSEEY)",
@@ -1417,61 +1472,6 @@
           "filer": "Yorktown Management & Research Co Inc",
           "shares": 5700,
           "value": 262998
-        },
-        {
-          "filer": "Tranquility Partners, LLC",
-          "shares": 4440,
-          "value": 204862
-        },
-        {
-          "filer": "OPPENHEIMER ASSET MANAGEMENT INC.",
-          "shares": 4367,
-          "value": 201493
-        },
-        {
-          "filer": "FIFTH THIRD BANCORP  (FITB, FITB-PA, FITB-PI, FITB-PK, FITB-PM)",
-          "shares": 713,
-          "value": 32893
-        },
-        {
-          "filer": "SOA Wealth Advisors, LLC.",
-          "shares": 600,
-          "value": 27684
-        },
-        {
-          "filer": "FIRST HORIZON CORP  (FHN, FHN-PE, FHN-PF, FHN-PH)",
-          "shares": 115,
-          "value": 5306
-        },
-        {
-          "filer": "City State Bank",
-          "shares": 100,
-          "value": 4614
-        },
-        {
-          "filer": "SBI Securities Co., Ltd.",
-          "shares": 94,
-          "value": 4337
-        },
-        {
-          "filer": "Marquette Asset Management, LLC",
-          "shares": 75,
-          "value": 3461
-        },
-        {
-          "filer": "North Star Investment Management Corp.",
-          "shares": 28,
-          "value": 1292
-        },
-        {
-          "filer": "EverSource Wealth Advisors, LLC",
-          "shares": 14,
-          "value": 646
-        },
-        {
-          "filer": "Avion Wealth",
-          "shares": 66,
-          "value": 3
         }
       ],
       "topFunds": [
@@ -1578,6 +1578,12 @@
           "value": 2173983
         },
         {
+          "fund": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
+          "manager": "",
+          "shares": 44314,
+          "value": 2044648
+        },
+        {
           "fund": "Capital Group Equity ETF Trust I",
           "manager": "Capital Group (American Funds)",
           "shares": 44587,
@@ -1588,12 +1594,6 @@
           "manager": "FMR (Fidelity)",
           "shares": 53400,
           "value": 1869000
-        },
-        {
-          "fund": "FIDELITY CONCORD STREET TRUST",
-          "manager": "FMR (Fidelity)",
-          "shares": 36957,
-          "value": 1660478
         }
       ]
     },
