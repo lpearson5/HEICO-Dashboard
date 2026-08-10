@@ -8,16 +8,16 @@
     "2025-06-30"
   ],
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-09T11:36:55.163Z",
+  "lastUpdated": "2026-08-10T11:54:04.199Z",
   "summary": {
-    "institutions": 739,
-    "totalShares": 40926141,
+    "institutions": 740,
+    "totalShares": 40927351,
     "pctOut": 74.18,
     "newHolders": 100,
-    "sellouts": 116,
-    "bought": 245,
-    "sold": 255,
-    "held": 139
+    "sellouts": 115,
+    "bought": 244,
+    "sold": 256,
+    "held": 140
   },
   "top10": [
     {
@@ -1589,6 +1589,24 @@
       "voteNone": 112
     },
     {
+      "filerName": "CULLEN/FROST BANKERS, INC.  (CFR, CFR-PB)",
+      "filerCik": "39263",
+      "shares": [
+        104,
+        null,
+        20,
+        20
+      ],
+      "netChg": 104,
+      "currentValue": 28517,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "DFND",
+      "voteSole": 74,
+      "voteShared": 0,
+      "voteNone": 30
+    },
+    {
       "filerName": "Cassaday & Co Wealth Management LLC",
       "filerCik": "1963612",
       "shares": [
@@ -1819,24 +1837,6 @@
       "action": "New",
       "discretion": "SOLE",
       "voteSole": 22,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "COUNTRY TRUST BANK",
-      "filerCik": "1209324",
-      "shares": [
-        18,
-        null,
-        18,
-        18
-      ],
-      "netChg": 18,
-      "currentValue": 4936,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 18,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -2806,24 +2806,6 @@
         1593
       ],
       "netChg": -1289,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "EVERGREEN CAPITAL MANAGEMENT LLC",
-      "filerCik": "1260824",
-      "shares": [
-        null,
-        1287,
-        1210,
-        1121
-      ],
-      "netChg": -1287,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -4748,7 +4730,7 @@
       "shares": [
         206753,
         134746,
-        null,
+        60401,
         7109
       ],
       "netChg": 72007,
@@ -12843,6 +12825,24 @@
       "voteNone": 0
     },
     {
+      "filerName": "EVERGREEN CAPITAL MANAGEMENT LLC",
+      "filerCik": "1260824",
+      "shares": [
+        1210,
+        1287,
+        1210,
+        1121
+      ],
+      "netChg": -77,
+      "currentValue": 331782,
+      "pctOut": 0,
+      "action": "Sold",
+      "discretion": "OTR",
+      "voteSole": 0,
+      "voteShared": 1210,
+      "voteNone": 0
+    },
+    {
       "filerName": "QUADRANT CAPITAL GROUP LLC",
       "filerCik": "1650717",
       "shares": [
@@ -13191,7 +13191,7 @@
         1068,
         1068,
         1068,
-        1068
+        null
       ],
       "netChg": 0,
       "currentValue": 292846,
@@ -13803,7 +13803,7 @@
         899,
         899,
         902,
-        897
+        null
       ],
       "netChg": 0,
       "currentValue": 246507,
@@ -14055,7 +14055,7 @@
         823,
         719,
         719,
-        null
+        723
       ],
       "netChg": 104,
       "currentValue": 225667,
@@ -15367,14 +15367,14 @@
       "filerCik": "39263",
       "shares": [
         104,
-        20,
+        null,
         20,
         20
       ],
-      "netChg": 84,
+      "netChg": 104,
       "currentValue": 28517,
       "pctOut": 0,
-      "action": "Bought",
+      "action": "New",
       "discretion": "DFND",
       "voteSole": 74,
       "voteShared": 0,
@@ -16411,14 +16411,14 @@
       "filerCik": "1209324",
       "shares": [
         18,
-        null,
+        18,
         18,
         18
       ],
-      "netChg": 18,
+      "netChg": 0,
       "currentValue": 4936,
       "pctOut": 0,
-      "action": "New",
+      "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 18,
       "voteShared": 0,
@@ -18063,24 +18063,6 @@
       "voteNone": null
     },
     {
-      "filerName": "FORTE CAPITAL LLC /ADV",
-      "filerCik": "1022314",
-      "shares": [
-        null,
-        null,
-        null,
-        1512
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Encompass More Asset Management",
       "filerCik": "2011218",
       "shares": [
@@ -18093,6 +18075,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "FORTE CAPITAL LLC /ADV",
+      "filerCik": "1022314",
+      "shares": [
+        null,
+        null,
+        null,
+        1512
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19305,24 +19305,6 @@
       "voteNone": null
     },
     {
-      "filerName": "HighPoint Advisor Group LLC",
-      "filerCik": "1616034",
-      "shares": [
-        null,
-        1169,
-        1162,
-        1309
-      ],
-      "netChg": -1169,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "WINNOW WEALTH LLC",
       "filerCik": "2079687",
       "shares": [
@@ -19341,15 +19323,15 @@
       "voteNone": null
     },
     {
-      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
-      "filerCik": "1510434",
+      "filerName": "HighPoint Advisor Group LLC",
+      "filerCik": "1616034",
       "shares": [
         null,
-        1447,
-        null,
-        null
+        1169,
+        1162,
+        1309
       ],
-      "netChg": -1447,
+      "netChg": -1169,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -19368,6 +19350,24 @@
         700
       ],
       "netChg": -700,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
+      "filerCik": "1510434",
+      "shares": [
+        null,
+        1447,
+        null,
+        null
+      ],
+      "netChg": -1447,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -19431,24 +19431,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Legato Capital Management LLC",
-      "filerCik": "1442641",
-      "shares": [
-        null,
-        1077,
-        null,
-        null
-      ],
-      "netChg": -1077,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "V-Square Quantitative Management LLC",
       "filerCik": "1943239",
       "shares": [
@@ -19458,6 +19440,24 @@
         null
       ],
       "netChg": -115,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Legato Capital Management LLC",
+      "filerCik": "1442641",
+      "shares": [
+        null,
+        1077,
+        null,
+        null
+      ],
+      "netChg": -1077,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -19636,24 +19636,6 @@
         null,
         null,
         131
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Inspire Investing, LLC",
-      "filerCik": "1670139",
-      "shares": [
-        null,
-        null,
-        null,
-        2775
       ],
       "netChg": null,
       "currentValue": null,
@@ -20700,24 +20682,6 @@
         null
       ],
       "netChg": -4,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "EVERGREEN CAPITAL MANAGEMENT LLC",
-      "filerCik": "1260824",
-      "shares": [
-        null,
-        1287,
-        1210,
-        1121
-      ],
-      "netChg": -1287,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
