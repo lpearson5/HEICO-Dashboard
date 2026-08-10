@@ -82,7 +82,7 @@ async function getRetry(url, { json = false, tries = 5 } = {}) {
 // ─── Cache ─────────────────────────────────────────────────────────────────────
 // Bump CACHE_VERSION whenever parseInfoTable logic changes, so stale parsed
 // results are discarded and filings are re-parsed on the next run.
-const CACHE_VERSION = 3;   // bump: added investment-discretion & voting-authority parsing
+const CACHE_VERSION = 4;   // bump: attribute-tolerant infoTable parsing (xmlns on <infoTable>); store fileDate
 
 function loadCache() {
   if (!existsSync(CACHE_PATH)) return { _version: CACHE_VERSION };
@@ -185,28 +185,32 @@ function pickPeriods(allHits, today) {
 
 function parseInfoTable(xml) {
   const out = {};
-  const re  = /<(?:\w+:)?infoTable>([\s\S]*?)<\/(?:\w+:)?infoTable>/gi;
+  // Attribute-tolerant tags: some filers put an xmlns (or other attributes) on
+  // <infoTable> and inner elements, and some wrap text in CDATA. Match either.
+  const re  = /<(?:\w+:)?infoTable(?:\s[^>]*)?>([\s\S]*?)<\/(?:\w+:)?infoTable>/gi;
+  const tag = (b, name) => {
+    const m2 = b.match(new RegExp(`<(?:\\w+:)?${name}(?:\\s[^>]*)?>\\s*(?:<!\\[CDATA\\[)?\\s*([^<\\]]*?)\\s*(?:\\]\\]>)?\\s*<`, "i"));
+    return m2 ? m2[1] : null;
+  };
   let m;
   while ((m = re.exec(xml)) !== null) {
     const b  = m[1];
-    const cm = b.match(/<(?:\w+:)?cusip>([^<]+)</i);
-    if (!cm) continue;
-    const cusip = cm[1].replace(/[\s-]/g, "");
+    const cmRaw = tag(b, "cusip");
+    if (cmRaw == null) continue;
+    const cusip = cmRaw.replace(/[\s-]/g, "");
     const ticker = Object.keys(CUSIPS).find(t => CUSIPS[t] === cusip);
     if (!ticker) continue;
     // Exclude option positions (PUT/CALL): they list contracts under the same
     // CUSIP and would inflate the share count. Count actual shares only.
-    const pc = (b.match(/<(?:\w+:)?putCall>([^<]+)</i)?.[1] ?? "").trim().toUpperCase();
+    const pc = (tag(b, "putCall") ?? "").trim().toUpperCase();
     if (pc === "PUT" || pc === "CALL") continue;
-    const sm = b.match(/<(?:\w+:)?sshPrnamt>(\d+)</i);
-    const vm = b.match(/<(?:\w+:)?value>(\d+)</i);
-    const shares = sm ? parseInt(sm[1], 10) : 0;
-    const value  = vm ? parseInt(vm[1], 10) : 0;
+    const shares = parseInt((tag(b, "sshPrnamt") ?? "0").replace(/,/g, ""), 10) || 0;
+    const value  = parseInt((tag(b, "value")     ?? "0").replace(/,/g, ""), 10) || 0;
     // Investment discretion (SOLE/DFND/OTR) and voting authority (Sole/Shared/None).
-    const disc = (b.match(/<(?:\w+:)?investmentDiscretion>([^<]+)</i)?.[1] ?? "").trim().toUpperCase();
-    const voteSole   = parseInt(b.match(/<(?:\w+:)?Sole>(\d+)</i)?.[1]   ?? "0", 10);
-    const voteShared = parseInt(b.match(/<(?:\w+:)?Shared>(\d+)</i)?.[1] ?? "0", 10);
-    const voteNone   = parseInt(b.match(/<(?:\w+:)?None>(\d+)</i)?.[1]   ?? "0", 10);
+    const disc = (tag(b, "investmentDiscretion") ?? "").trim().toUpperCase();
+    const voteSole   = parseInt((tag(b, "Sole")   ?? "0").replace(/,/g, ""), 10) || 0;
+    const voteShared = parseInt((tag(b, "Shared") ?? "0").replace(/,/g, ""), 10) || 0;
+    const voteNone   = parseInt((tag(b, "None")   ?? "0").replace(/,/g, ""), 10) || 0;
     // A filing can list a CUSIP across multiple rows (share classes/lots) — sum them.
     const prev = out[ticker];
     out[ticker] = {
@@ -225,12 +229,18 @@ async function fetchFiling(h, cache) {
   // Reuse cache only for successful fetches; retry past failures (filings are
   // immutable, so a success never needs re-fetching).
   const cached = cache[h.accession];
-  if (cached && cached.ok) return cached;
+  if (cached && cached.ok) {
+    // Backfill fields on older cache records so the durability union (below) can
+    // dedupe by filing date even for filings first seen before this was tracked.
+    if (cached.fileDate == null && h.fileDate) cached.fileDate = h.fileDate;
+    if (cached.name == null && h.name) cached.name = h.name;
+    return cached;
+  }
   const noD = h.accession.replace(/-/g, "");
   const url = `https://www.sec.gov/Archives/edgar/data/${h.cik}/${noD}/${h.doc}`;
   const xml = await getRetry(url);
   const positions = xml ? parseInfoTable(xml) : {};
-  const rec = { cik: h.cik, name: h.name, period: h.period, positions, ok: !!xml };
+  const rec = { cik: h.cik, name: h.name, period: h.period, fileDate: h.fileDate ?? null, positions, ok: !!xml };
   if (rec.ok) cache[h.accession] = rec;   // don't persist failures
   return rec;
 }
@@ -367,13 +377,24 @@ async function main() {
   // 3. Collect the relevant filings (dedupe per cik+period, latest filing wins).
   const nameByCik = new Map();
   const want = new Map(); // key `${cik}|${period}` -> hit
-  for (const h of allHits) {
-    if (h.period !== current && h.period !== prior) continue;
-    if (!h.accession || !h.doc) continue;
-    nameByCik.set(h.cik, h.name);
+  const consider = (h) => {
+    if (h.period !== current && h.period !== prior) return;
+    if (!h.accession) return;
+    if (h.name) nameByCik.set(h.cik, h.name);
     const key = `${h.cik}|${h.period}`;
     const prev = want.get(key);
     if (!prev || (h.fileDate ?? "") > (prev.fileDate ?? "")) want.set(key, h);
+  };
+  for (const h of allHits) if (h.doc) consider(h);
+  // Durability: EDGAR's full-text index is eventually-consistent and intermittently
+  // omits filings we've already discovered — without this, a real holder silently
+  // vanishes from the dashboard on any day the search happens to drop them. The
+  // scan-cache is our durable record of every filing ever seen, so fold it in.
+  // (latest filing per cik+period still wins, so amendments and refilings apply.)
+  for (const [accession, rec] of Object.entries(cache)) {
+    if (accession.startsWith("_") || !rec || !rec.ok) continue;
+    consider({ accession, cik: rec.cik, name: rec.name, period: rec.period,
+               fileDate: rec.fileDate ?? "", doc: null });
   }
   const filings = [...want.values()];
   const toFetch = filings.filter(h => !cache[h.accession]);
@@ -417,7 +438,9 @@ async function main() {
     for (const h of filings) {
       const rec = cache[h.accession];
       const pos = rec?.positions?.[ticker];
-      if (!pos) continue;
+      // A filing that lists the CUSIP with 0 shares is not a holder (Vickers omits
+      // these too) — skip so they don't surface as phantom "New Position" rows.
+      if (!pos || !(pos.shares > 0)) continue;
       if (h.period === current) curByCik.set(h.cik, pos);
       else if (h.period === prior) priByCik.set(h.cik, pos);
     }
