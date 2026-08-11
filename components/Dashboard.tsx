@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import type { TickerData, Holding, Action, MonthlyData, FundData, BeneficialData, PeersData, PricesData } from "@/lib/types";
 import MonthlySnapshot from "@/components/MonthlySnapshot";
 import MarketPerformance from "@/components/MarketPerformance";
+import OwnershipAnalytics from "@/components/OwnershipAnalytics";
 
 const ACTION_COLORS: Record<Action, string> = {
   "New Position":  "bg-blue-100 text-blue-800 border-blue-200",
@@ -255,7 +256,10 @@ export default function Dashboard({
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6">
-        {view === "monthly" && <MonthlySnapshot data={monthlyData} funds={fundsData} beneficial={beneficial} peers={peers} />}
+        {view === "monthly" && <>
+          <OwnershipAnalytics data={monthlyData} beneficial={beneficial} />
+          <MonthlySnapshot data={monthlyData} funds={fundsData} beneficial={beneficial} peers={peers} />
+        </>}
         {view === "markets" && <MarketPerformance initial={prices} />}
       </div>
 
