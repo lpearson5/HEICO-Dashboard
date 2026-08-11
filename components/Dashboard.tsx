@@ -81,7 +81,7 @@ export default function Dashboard({
   peers?: PeersData | null;
   prices?: PricesData | null;
 }) {
-  const [view, setView] = useState<"weekly" | "monthly">("weekly");
+  const [view, setView] = useState<"weekly" | "monthly" | "markets">("weekly");
   const [activeTicker, setActiveTicker] = useState<"HEI" | "HEIA">("HEI");
   const [actionFilter, setActionFilter] = useState<Action | "All">("All");
   const [largeOnly, setLargeOnly] = useState(false);
@@ -202,19 +202,25 @@ export default function Dashboard({
             <div>
               <h1 className="text-2xl font-bold text-gray-900">HEICO Institutional Ownership</h1>
               <p className="text-sm text-gray-500 mt-0.5">
-                {view === "weekly"
-                  ? <>{data.currentPeriod} vs {data.priorPeriod} · Weekly 13F tracker</>
-                  : <>Monthly ownership snapshot · SEC EDGAR 13F-HR</>}
-                {" · "}Updated {new Date(data.lastUpdated).toLocaleDateString("en-US", {
-                  month: "short", day: "numeric", year: "numeric",
-                })}
+                {view === "markets" ? (
+                  <>HEICO, peers &amp; indices · Live prices &amp; performance</>
+                ) : (
+                  <>
+                    {view === "weekly"
+                      ? <>{data.currentPeriod} vs {data.priorPeriod} · Weekly 13F tracker</>
+                      : <>Monthly ownership snapshot · SEC EDGAR 13F-HR</>}
+                    {" · "}Updated {new Date(data.lastUpdated).toLocaleDateString("en-US", {
+                      month: "short", day: "numeric", year: "numeric",
+                    })}
+                  </>
+                )}
               </p>
             </div>
 
             <div className="flex flex-wrap items-center gap-2 self-start sm:self-auto">
               {/* Weekly / Monthly view tabs */}
               <div className="flex rounded-lg border border-gray-300 overflow-hidden">
-                {([["weekly", "Weekly"], ["monthly", "Monthly"]] as const).map(([v, label]) => (
+                {([["weekly", "Weekly"], ["monthly", "Monthly"], ["markets", "Markets & Performance"]] as const).map(([v, label]) => (
                   <button
                     key={v}
                     onClick={() => setView(v)}
@@ -250,12 +256,10 @@ export default function Dashboard({
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6">
         {view === "monthly" && <MonthlySnapshot data={monthlyData} funds={fundsData} beneficial={beneficial} peers={peers} />}
+        {view === "markets" && <MarketPerformance initial={prices} />}
       </div>
 
-      <div className={`max-w-7xl mx-auto px-4 sm:px-6 py-6 space-y-6 ${view === "monthly" ? "hidden" : ""}`}>
-
-        {/* Markets & performance (price, peers, indices) */}
-        <MarketPerformance prices={prices} />
+      <div className={`max-w-7xl mx-auto px-4 sm:px-6 py-6 space-y-6 ${view !== "weekly" ? "hidden" : ""}`}>
 
         {/* Summary cards */}
         {summary && (

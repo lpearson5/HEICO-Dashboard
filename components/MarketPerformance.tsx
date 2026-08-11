@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { PricesData, PriceRow } from "@/lib/types";
 
 // Colorblind-aware line colors. HEI/HEI-A and the S&P are emphasized; peers use
@@ -204,13 +204,46 @@ function PerfTable({ rows, label }: { rows: PriceRow[]; label: string }) {
   );
 }
 
-export default function MarketPerformance({ prices }: { prices: PricesData | null }) {
-  if (!prices || !prices.main?.length) return null;
+export default function MarketPerformance({ initial }: { initial: PricesData | null }) {
+  // Seed from the committed daily snapshot for instant paint, then pull live.
+  const [prices, setPrices] = useState<PricesData | null>(initial);
+  const [live, setLive] = useState(false);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const r = await fetch("/api/prices", { cache: "no-store" });
+        if (!r.ok) throw new Error("bad status");
+        const d = await r.json();
+        if (!cancelled && d?.main?.length) { setPrices(d); setLive(d.live !== false); }
+      } catch {
+        /* keep the seeded snapshot */
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
+    })();
+    return () => { cancelled = true; };
+  }, []);
+
+  if (!prices || !prices.main?.length) {
+    return <div className="rounded-xl border border-gray-200 bg-white p-8 text-center text-sm text-gray-400">Loading market data…</div>;
+  }
+
+  const stamp = (() => {
+    const d = new Date(prices.asOf ?? prices.asOfDate);
+    return isNaN(d.getTime()) ? prices.asOfDate : d.toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+  })();
+
   return (
     <div className="space-y-4">
       <div className="flex items-center justify-between">
-        <h2 className="text-lg font-semibold text-gray-900">Markets & Performance</h2>
-        <span className="text-xs text-gray-400">End-of-day · {prices.asOfDate}</span>
+        <h2 className="text-lg font-semibold text-gray-900">Markets &amp; Performance</h2>
+        <span className="flex items-center gap-1.5 text-xs text-gray-400">
+          <span className={`inline-block h-2 w-2 rounded-full ${loading ? "bg-amber-400 animate-pulse" : live ? "bg-green-500" : "bg-gray-300"}`} />
+          {loading ? "Updating…" : live ? "Live" : "End of day"} · {stamp}
+        </span>
       </div>
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
         {prices.main.map((r) => <HeicoCard key={r.key ?? r.symbol} r={r} />)}
@@ -220,7 +253,7 @@ export default function MarketPerformance({ prices }: { prices: PricesData | nul
         <PerfTable rows={prices.peers} label="Peer" />
         <PerfTable rows={prices.indices} label="Index" />
       </div>
-      <p className="text-[11px] text-gray-400">Price data: Yahoo Finance (end-of-day). For reference only — not investment advice.</p>
+      <p className="text-[11px] text-gray-400">Live prices via Yahoo Finance (refreshed on load, ~1-min cache). For reference only — not investment advice.</p>
     </div>
   );
 }
