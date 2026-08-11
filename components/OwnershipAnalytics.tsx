@@ -50,10 +50,10 @@ export default function OwnershipAnalytics({
 
     // Concentration bands as % of shares outstanding.
     const bands = [
-      { label: "Top 5", v: cPct(sumN(5)), color: "#1d4ed8" },
-      { label: "6–10", v: cPct(sumN(10) - sumN(5)), color: "#3b82f6" },
-      { label: "11–25", v: cPct(sumN(25) - sumN(10)), color: "#93c5fd" },
-      { label: "Other institutions", v: cPct(totalInst - sumN(25)), color: "#dbeafe" },
+      { label: "5 largest holders", v: cPct(sumN(5)), color: "#1d4ed8" },
+      { label: "Holders #6–10", v: cPct(sumN(10) - sumN(5)), color: "#3b82f6" },
+      { label: "Holders #11–25", v: cPct(sumN(25) - sumN(10)), color: "#93c5fd" },
+      { label: "All other institutions", v: cPct(totalInst - sumN(25)), color: "#dbeafe" },
     ];
     const instPct = cPct(totalInst);
     const otherFloat = Math.max(0, 100 - instPct);
@@ -128,25 +128,31 @@ export default function OwnershipAnalytics({
 
       {/* Concentration bar */}
       <div className="rounded-xl border border-gray-200 bg-white p-4 shadow-sm">
-        <div className="mb-2 text-sm font-semibold text-gray-700">Shareholder concentration <span className="font-normal text-gray-400">· % of shares outstanding</span></div>
-        <div className="flex h-6 w-full overflow-hidden rounded-md">
+        <div className="mb-1 text-sm font-semibold text-gray-700">How HEICO&apos;s shares are held</div>
+        <p className="mb-3 text-xs text-gray-500">
+          Every HEICO share, split by who owns it. Each blue block is a group of the largest institutional holders; the grey block is everyone else.
+        </p>
+        <div className="flex h-7 w-full overflow-hidden rounded-md">
           {analytics.bands.map((b) => (
-            <div key={b.label} className="h-full" style={{ width: `${b.v}%`, backgroundColor: b.color }} title={`${b.label}: ${pctFmt(b.v)}`} />
+            <div key={b.label} className="h-full" style={{ width: `${b.v}%`, backgroundColor: b.color }} title={`${b.label}: ${pctFmt(b.v)} of shares outstanding`} />
           ))}
-          <div className="h-full flex-1 bg-gray-100" title={`Retail / unidentified: ${pctFmt(analytics.otherFloat)}`} />
+          <div className="h-full flex-1 bg-gray-100" title={`Retail, insiders & other: ${pctFmt(analytics.otherFloat)}`} />
         </div>
         <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-xs text-gray-500">
           {analytics.bands.map((b) => (
             <span key={b.label} className="flex items-center gap-1.5">
               <span className="inline-block h-2.5 w-2.5 rounded-sm" style={{ backgroundColor: b.color }} />
-              {b.label} {pctFmt(b.v)}
+              {b.label} — {pctFmt(b.v)}
             </span>
           ))}
           <span className="flex items-center gap-1.5">
             <span className="inline-block h-2.5 w-2.5 rounded-sm bg-gray-100 ring-1 ring-inset ring-gray-200" />
-            Retail / unidentified {pctFmt(analytics.otherFloat)}
+            Retail, insiders &amp; other — {pctFmt(analytics.otherFloat)}
           </span>
         </div>
+        <p className="mt-3 border-t border-gray-100 pt-3 text-xs text-gray-600">
+          In plain terms: HEICO&apos;s <b>5 largest institutions own {pctFmt(analytics.top5)}</b> of the company, and the top 25 own {pctFmt(analytics.top25)}. Institutions hold {pctFmt(analytics.instPct)} in total; the remaining <b>{pctFmt(analytics.otherFloat)}</b> sits with retail investors, insiders (e.g. the Mendelson family), and holders too small to file 13F reports. A high top‑10 share can be a vulnerability — a few big holders selling can move the stock.
+        </p>
       </div>
 
       {/* Shareholders by size + net flow */}
