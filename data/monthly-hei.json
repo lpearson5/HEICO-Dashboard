@@ -8,16 +8,16 @@
     "2025-06-30"
   ],
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-10T19:22:13.261Z",
+  "lastUpdated": "2026-08-11T11:50:24.352Z",
   "summary": {
     "institutions": 741,
     "totalShares": 41006126,
     "pctOut": 74.33,
-    "newHolders": 100,
+    "newHolders": 99,
     "sellouts": 116,
     "bought": 246,
     "sold": 257,
-    "held": 138
+    "held": 139
   },
   "top10": [
     {
@@ -1589,24 +1589,6 @@
       "voteNone": 112
     },
     {
-      "filerName": "CULLEN/FROST BANKERS, INC.  (CFR, CFR-PB)",
-      "filerCik": "39263",
-      "shares": [
-        104,
-        null,
-        20,
-        20
-      ],
-      "netChg": 104,
-      "currentValue": 28517,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "DFND",
-      "voteSole": 74,
-      "voteShared": 0,
-      "voteNone": 30
-    },
-    {
       "filerName": "Cassaday & Co Wealth Management LLC",
       "filerCik": "1963612",
       "shares": [
@@ -1893,24 +1875,6 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 7
-    },
-    {
-      "filerName": "Bruce G. Allen Investments, LLC",
-      "filerCik": "2005409",
-      "shares": [
-        6,
-        null,
-        6,
-        8
-      ],
-      "netChg": 6,
-      "currentValue": 1645,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 6,
-      "voteShared": 0,
-      "voteNone": 0
     },
     {
       "filerName": "Key Capital Management, INC",
@@ -2298,7 +2262,7 @@
       "shares": [
         null,
         4970,
-        null,
+        26226,
         null
       ],
       "netChg": -4970,
@@ -2623,7 +2587,7 @@
         null,
         1588,
         7795,
-        null
+        6079
       ],
       "netChg": -1588,
       "currentValue": null,
@@ -3364,6 +3328,24 @@
         800
       ],
       "netChg": -678,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Abel Hall, LLC",
+      "filerCik": "2013339",
+      "shares": [
+        null,
+        666,
+        null,
+        null
+      ],
+      "netChg": -666,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -9554,7 +9536,7 @@
       "shares": [
         5613,
         5613,
-        null,
+        5613,
         5613
       ],
       "netChg": 0,
@@ -13227,7 +13209,7 @@
         1068,
         1068,
         1068,
-        null
+        1068
       ],
       "netChg": 0,
       "currentValue": 292846,
@@ -13839,7 +13821,7 @@
         899,
         899,
         902,
-        null
+        897
       ],
       "netChg": 0,
       "currentValue": 246507,
@@ -15421,14 +15403,14 @@
       "filerCik": "39263",
       "shares": [
         104,
-        null,
+        20,
         20,
         20
       ],
-      "netChg": 104,
+      "netChg": 84,
       "currentValue": 28517,
       "pctOut": 0,
-      "action": "New",
+      "action": "Bought",
       "discretion": "DFND",
       "voteSole": 74,
       "voteShared": 0,
@@ -16915,14 +16897,14 @@
       "filerCik": "2005409",
       "shares": [
         6,
-        null,
+        6,
         6,
         8
       ],
-      "netChg": 6,
+      "netChg": 0,
       "currentValue": 1645,
       "pctOut": 0,
-      "action": "New",
+      "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 6,
       "voteShared": 0,
@@ -18284,7 +18266,7 @@
       "shares": [
         null,
         4970,
-        null,
+        26226,
         null
       ],
       "netChg": -4970,
@@ -18585,24 +18567,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Founders Capital Management",
-      "filerCik": "1704300",
-      "shares": [
-        null,
-        null,
-        null,
-        619
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Modus Advisors, LLC",
       "filerCik": "1799284",
       "shares": [
@@ -18621,6 +18585,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Founders Capital Management",
+      "filerCik": "1704300",
+      "shares": [
+        null,
+        null,
+        null,
+        619
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Litman Gregory Wealth Management LLC",
       "filerCik": "1551867",
       "shares": [
@@ -18630,24 +18612,6 @@
         null
       ],
       "netChg": -4,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "SIMON QUICK ADVISORS, LLC",
-      "filerCik": "1692038",
-      "shares": [
-        null,
-        731,
-        652,
-        616
-      ],
-      "netChg": -731,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -18684,6 +18648,24 @@
         null
       ],
       "netChg": -83,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "SIMON QUICK ADVISORS, LLC",
+      "filerCik": "1692038",
+      "shares": [
+        null,
+        731,
+        652,
+        616
+      ],
+      "netChg": -731,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -19341,24 +19323,6 @@
       "voteNone": null
     },
     {
-      "filerName": "WINNOW WEALTH LLC",
-      "filerCik": "2079687",
-      "shares": [
-        null,
-        1,
-        7,
-        null
-      ],
-      "netChg": -1,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "HighPoint Advisor Group LLC",
       "filerCik": "1616034",
       "shares": [
@@ -19368,6 +19332,24 @@
         1309
       ],
       "netChg": -1169,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "WINNOW WEALTH LLC",
+      "filerCik": "2079687",
+      "shares": [
+        null,
+        1,
+        7,
+        null
+      ],
+      "netChg": -1,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -19683,6 +19665,60 @@
       "voteNone": null
     },
     {
+      "filerName": "Inspire Investing, LLC",
+      "filerCik": "1670139",
+      "shares": [
+        null,
+        null,
+        null,
+        2775
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "FOX RUN MANAGEMENT, L.L.C.",
+      "filerCik": "1533457",
+      "shares": [
+        null,
+        1588,
+        7795,
+        6079
+      ],
+      "netChg": -1588,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Abel Hall, LLC",
+      "filerCik": "2013339",
+      "shares": [
+        null,
+        666,
+        null,
+        null
+      ],
+      "netChg": -666,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Independent Advisor Alliance",
       "filerCik": "1696899",
       "shares": [
@@ -19713,24 +19749,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "FOX RUN MANAGEMENT, L.L.C.",
-      "filerCik": "1533457",
-      "shares": [
-        null,
-        1588,
-        7795,
-        null
-      ],
-      "netChg": -1588,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,

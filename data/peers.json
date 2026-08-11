@@ -1,10 +1,15 @@
 {
-  "lastUpdated": "2026-08-10T19:22:13.261Z",
+  "lastUpdated": "2026-08-11T11:50:24.352Z",
   "peers": [
     {
       "name": "RTX Corp.",
       "ticker": "RTX",
       "top13F": [
+        {
+          "filer": "BlackRock, Inc.  (BLK)",
+          "shares": 109050751,
+          "value": 21035890013
+        },
         {
           "filer": "STATE STREET CORP  (STT, STT-PG)",
           "shares": 92589262,
@@ -56,6 +61,11 @@
           "value": 4291009129
         },
         {
+          "filer": "FMR LLC",
+          "shares": 13160765,
+          "value": 2538711690
+        },
+        {
           "filer": "NORTHERN TRUST CORP  (NTRS, NTRSO)",
           "shares": 12123723,
           "value": 2338666167
@@ -94,16 +104,6 @@
           "filer": "WELLS FARGO & COMPANY/MN  (WFC, WFCNP, WFC-PA, WFC-PC, WFC-PD, WFC-PL, WFC-PY, WFC-PZ)",
           "shares": 8816965,
           "value": 1700792508
-        },
-        {
-          "filer": "UBS AM, a distinct business unit of UBS ASSET MANAGEMENT AMERICAS LLC",
-          "shares": 8282583,
-          "value": 1597710263
-        },
-        {
-          "filer": "DIMENSIONAL FUND ADVISORS LP",
-          "shares": 7649112,
-          "value": 1475296393
         }
       ],
       "topFunds": [
