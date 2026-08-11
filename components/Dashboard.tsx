@@ -1,8 +1,9 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import type { TickerData, Holding, Action, MonthlyData, FundData, BeneficialData, PeersData } from "@/lib/types";
+import type { TickerData, Holding, Action, MonthlyData, FundData, BeneficialData, PeersData, PricesData } from "@/lib/types";
 import MonthlySnapshot from "@/components/MonthlySnapshot";
+import MarketPerformance from "@/components/MarketPerformance";
 
 const ACTION_COLORS: Record<Action, string> = {
   "New Position":  "bg-blue-100 text-blue-800 border-blue-200",
@@ -68,6 +69,7 @@ export default function Dashboard({
   fundsHeia = null,
   beneficial = null,
   peers = null,
+  prices = null,
 }: {
   hei: TickerData | null;
   heia: TickerData | null;
@@ -77,6 +79,7 @@ export default function Dashboard({
   fundsHeia?: FundData | null;
   beneficial?: BeneficialData | null;
   peers?: PeersData | null;
+  prices?: PricesData | null;
 }) {
   const [view, setView] = useState<"weekly" | "monthly">("weekly");
   const [activeTicker, setActiveTicker] = useState<"HEI" | "HEIA">("HEI");
@@ -250,6 +253,9 @@ export default function Dashboard({
       </div>
 
       <div className={`max-w-7xl mx-auto px-4 sm:px-6 py-6 space-y-6 ${view === "monthly" ? "hidden" : ""}`}>
+
+        {/* Markets & performance (price, peers, indices) */}
+        <MarketPerformance prices={prices} />
 
         {/* Summary cards */}
         {summary && (

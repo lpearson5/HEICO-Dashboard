@@ -1,7 +1,7 @@
 import { readFileSync } from "fs";
 import { join } from "path";
 import Dashboard from "@/components/Dashboard";
-import type { TickerData, MonthlyData, FundData, BeneficialData, PeersData } from "@/lib/types";
+import type { TickerData, MonthlyData, FundData, BeneficialData, PeersData, PricesData } from "@/lib/types";
 
 function load<T>(file: string): T | null {
   try {
@@ -24,6 +24,7 @@ export default function Page() {
       fundsHeia={load<FundData>("funds-heia.json")}
       beneficial={load<BeneficialData>("beneficial-owners.json")}
       peers={load<PeersData>("peers.json")}
+      prices={load<PricesData>("prices.json")}
     />
   );
 }

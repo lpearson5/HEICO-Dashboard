@@ -1,0 +1,5 @@
+# Generated data files: never attempt a line-level 3-way merge. Git's text merge
+# can silently interleave/duplicate JSON array entries when two branches both
+# changed them (as happened with a `merge -X ours`), corrupting the data. Marking
+# them -merge makes git keep our version and flag a conflict instead of blending.
+data/*.json -merge

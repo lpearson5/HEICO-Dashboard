@@ -136,3 +136,28 @@ export interface PeersData {
   lastUpdated: string;
   peers: Peer[];
 }
+
+// ── Market prices & performance (Yahoo chart feed) ──
+export interface PriceRow {
+  key?: string;
+  symbol: string;
+  name: string;
+  last: number;
+  asOfDate: string;
+  prevClose: number;
+  dayPct: number | null;
+  weekPct: number | null;
+  ytdPct: number | null;
+  high52: number;
+  low52: number;
+  volume: number;
+  avgVol: number | null;
+}
+export interface PricesData {
+  asOf: string;
+  asOfDate: string;
+  main: PriceRow[];
+  peers: PriceRow[];
+  indices: PriceRow[];
+  series: { labels: string[] } & Record<string, (number | null)[]>;
+}
