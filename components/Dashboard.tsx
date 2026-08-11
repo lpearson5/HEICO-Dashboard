@@ -1,10 +1,11 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import type { TickerData, Holding, Action, MonthlyData, FundData, BeneficialData, PeersData, PricesData } from "@/lib/types";
+import type { TickerData, Holding, Action, MonthlyData, FundData, BeneficialData, PeersData, PricesData, GeographyData } from "@/lib/types";
 import MonthlySnapshot from "@/components/MonthlySnapshot";
 import MarketPerformance from "@/components/MarketPerformance";
 import OwnershipAnalytics from "@/components/OwnershipAnalytics";
+import GeographicOwnership from "@/components/GeographicOwnership";
 
 const ACTION_COLORS: Record<Action, string> = {
   "New Position":  "bg-blue-100 text-blue-800 border-blue-200",
@@ -71,6 +72,8 @@ export default function Dashboard({
   beneficial = null,
   peers = null,
   prices = null,
+  geoHei = null,
+  geoHeia = null,
 }: {
   hei: TickerData | null;
   heia: TickerData | null;
@@ -81,6 +84,8 @@ export default function Dashboard({
   beneficial?: BeneficialData | null;
   peers?: PeersData | null;
   prices?: PricesData | null;
+  geoHei?: GeographyData | null;
+  geoHeia?: GeographyData | null;
 }) {
   const [view, setView] = useState<"weekly" | "monthly" | "markets">("weekly");
   const [activeTicker, setActiveTicker] = useState<"HEI" | "HEIA">("HEI");
@@ -94,6 +99,7 @@ export default function Dashboard({
   const data = activeTicker === "HEI" ? hei : heia;
   const monthlyData = activeTicker === "HEI" ? monthlyHei : monthlyHeia;
   const fundsData = activeTicker === "HEI" ? fundsHei : fundsHeia;
+  const geoData = activeTicker === "HEI" ? geoHei : geoHeia;
 
   const summary = useMemo(() => {
     if (!data) return null;
@@ -258,6 +264,7 @@ export default function Dashboard({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6">
         {view === "monthly" && <>
           <OwnershipAnalytics data={monthlyData} beneficial={beneficial} />
+          <GeographicOwnership data={geoData} />
           <MonthlySnapshot data={monthlyData} funds={fundsData} beneficial={beneficial} peers={peers} />
         </>}
         {view === "markets" && <MarketPerformance initial={prices} />}

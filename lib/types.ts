@@ -161,3 +161,17 @@ export interface PricesData {
   indices: PriceRow[];
   series: { labels: string[] } & Record<string, (number | null)[]>;
 }
+
+// ── Geographic ownership (EDGAR filer locations) ──
+export interface GeoRegion { name: string; shares: number; holders: number; pct: number }
+export interface GeographyData {
+  ticker: string;
+  asOf: string;
+  coverage: { resolvedHolders: number; requested: number; sharesCovered: number; totalInstitutional: number; pctOfInstitutional: number };
+  usPct: number;
+  intlPct: number;
+  unknownPct: number;
+  states: GeoRegion[];
+  countries: GeoRegion[];
+  metros: GeoRegion[];
+}
