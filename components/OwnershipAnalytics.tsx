@@ -63,6 +63,33 @@ export default function OwnershipAnalytics({
     for (const h of sorted) if (isPassive(h.name)) passive += h.shares;
     const passivePct = totalInst ? (passive / totalInst) * 100 : 0;
 
+    // Net institutional flow this quarter (sum of quarter-over-quarter changes).
+    let netFlow = 0, buyers = 0, sellers = 0;
+    for (const h of data.holdings) {
+      const nc = h.netChg;
+      if (nc == null) continue;
+      netFlow += nc;
+      if (nc > 0) buyers++; else if (nc < 0) sellers++;
+    }
+
+    // Shareholders by position size.
+    const SIZE = [
+      { label: "≥ 5M shares", min: 5_000_000, color: "#1e3a8a" },
+      { label: "1M – 5M", min: 1_000_000, color: "#2563eb" },
+      { label: "250K – 1M", min: 250_000, color: "#60a5fa" },
+      { label: "50K – 250K", min: 50_000, color: "#bfdbfe" },
+      { label: "< 50K", min: 0, color: "#eff6ff" },
+    ];
+    const buckets = SIZE.map((s) => ({ ...s, holders: 0, shares: 0 }));
+    for (const h of sorted) {
+      const b = buckets.find((x) => h.shares >= x.min);
+      if (b) { b.holders++; b.shares += h.shares; }
+    }
+    const sizeBuckets = buckets.map((b) => ({
+      label: b.label, color: b.color, holders: b.holders, shares: b.shares,
+      pct: totalInst ? Math.round((b.shares / totalInst) * 1000) / 10 : 0,
+    }));
+
     return {
       institutions: sorted.length,
       instPct,
@@ -73,6 +100,7 @@ export default function OwnershipAnalytics({
       otherFloat,
       passivePct,
       activePct: 100 - passivePct,
+      netFlow, buyers, sellers, sizeBuckets,
     };
   }, [data]);
 
@@ -118,6 +146,29 @@ export default function OwnershipAnalytics({
             <span className="inline-block h-2.5 w-2.5 rounded-sm bg-gray-100 ring-1 ring-inset ring-gray-200" />
             Retail / unidentified {pctFmt(analytics.otherFloat)}
           </span>
+        </div>
+      </div>
+
+      {/* Shareholders by size + net flow */}
+      <div className="rounded-xl border border-gray-200 bg-white p-4 shadow-sm">
+        <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
+          <span className="text-sm font-semibold text-gray-700">Shareholders by size <span className="font-normal text-gray-400">· % of institutional shares</span></span>
+          <span className={`text-xs font-medium ${analytics.netFlow >= 0 ? "text-green-600" : "text-red-600"}`}>
+            Net flow this quarter: {analytics.netFlow >= 0 ? "+" : ""}{numFmt(analytics.netFlow)} sh · {analytics.buyers} buyers / {analytics.sellers} sellers
+          </span>
+        </div>
+        <div className="flex h-6 w-full overflow-hidden rounded-md ring-1 ring-inset ring-gray-200">
+          {analytics.sizeBuckets.map((b) => b.pct > 0 && (
+            <div key={b.label} className="h-full" style={{ width: `${b.pct}%`, backgroundColor: b.color }} title={`${b.label}: ${b.holders} holders, ${pctFmt(b.pct)}`} />
+          ))}
+        </div>
+        <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-xs text-gray-500">
+          {analytics.sizeBuckets.map((b) => (
+            <span key={b.label} className="flex items-center gap-1.5">
+              <span className="inline-block h-2.5 w-2.5 rounded-sm ring-1 ring-inset ring-gray-200" style={{ backgroundColor: b.color }} />
+              {b.label}: {b.holders} · {pctFmt(b.pct)}
+            </span>
+          ))}
         </div>
       </div>
 
