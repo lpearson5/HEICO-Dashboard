@@ -2,11 +2,11 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-11T11:50:24.352Z",
+  "lastUpdated": "2026-08-12T11:53:53.370Z",
   "summary": {
     "funds": 417,
-    "totalShares": 18662138,
-    "pctOut": 33.826,
+    "totalShares": 18659844,
+    "pctOut": 33.8219,
     "newFunds": 36,
     "sellouts": 53,
     "linkedManagers": 26,
@@ -3669,10 +3669,10 @@
       "shares": 15159,
       "value": 4091717,
       "reportDate": "2026-04-30",
-      "priorShares": 12845,
-      "change": 2314,
+      "priorShares": 15270,
+      "change": -111,
       "pctOut": 0.0275,
-      "action": "Bought"
+      "action": "Sold"
     },
     {
       "fundName": "First Trust Industrials/Producer Durables AlphaDEX Fund",
@@ -3802,19 +3802,6 @@
       "priorShares": 12092,
       "change": 953,
       "pctOut": 0.0236,
-      "action": "Bought"
-    },
-    {
-      "fundName": "Mid-Cap Growth Portfolio",
-      "registrant": "PACIFIC SELECT FUND",
-      "manager": "",
-      "cik": "813900",
-      "shares": 12375,
-      "value": 3393225,
-      "reportDate": "2026-03-31",
-      "priorShares": 8390,
-      "change": 3985,
-      "pctOut": 0.0224,
       "action": "Bought"
     },
     {
@@ -3959,6 +3946,19 @@
       "change": 0,
       "pctOut": 0.018699999999999998,
       "action": "No Change"
+    },
+    {
+      "fundName": "Mid-Cap Growth Portfolio",
+      "registrant": "PACIFIC SELECT FUND",
+      "manager": "",
+      "cik": "813900",
+      "shares": 10218,
+      "value": 3639549,
+      "reportDate": "2026-06-30",
+      "priorShares": 12375,
+      "change": -2157,
+      "pctOut": 0.0185,
+      "action": "Sold"
     },
     {
       "fundName": "TCW Durable Growth ETF",
@@ -5573,19 +5573,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "PD Large-Cap Growth Index Portfolio",
-      "registrant": "PACIFIC SELECT FUND",
-      "manager": "",
-      "cik": "813900",
-      "shares": 1483,
-      "value": 406639,
-      "reportDate": "2026-03-31",
-      "priorShares": 1483,
-      "change": 0,
-      "pctOut": 0.0026999999999999997,
-      "action": "No Change"
-    },
-    {
       "fundName": "JNL/RAFI Fundamental U.S. Small Cap Fund",
       "registrant": "JNL Series Trust",
       "manager": "",
@@ -5623,6 +5610,19 @@
       "change": null,
       "pctOut": 0.0026,
       "action": "New"
+    },
+    {
+      "fundName": "PD Large-Cap Growth Index Portfolio",
+      "registrant": "PACIFIC SELECT FUND",
+      "manager": "",
+      "cik": "813900",
+      "shares": 1375,
+      "value": 489761,
+      "reportDate": "2026-06-30",
+      "priorShares": 1483,
+      "change": -108,
+      "pctOut": 0.0025,
+      "action": "Sold"
     },
     {
       "fundName": "Sustainable Aware Equity Fund",
@@ -6028,19 +6028,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "PD Mid-Cap Index Portfolio",
-      "registrant": "PACIFIC SELECT FUND",
-      "manager": "",
-      "cik": "813900",
-      "shares": 971,
-      "value": 266248,
-      "reportDate": "2026-03-31",
-      "priorShares": 931,
-      "change": 40,
-      "pctOut": 0.0018,
-      "action": "Bought"
-    },
-    {
       "fundName": "iShares MSCI USA Size Factor ETF",
       "registrant": "iShares Trust",
       "manager": "BlackRock",
@@ -6050,6 +6037,19 @@
       "reportDate": "2026-04-30",
       "priorShares": 968,
       "change": -13,
+      "pctOut": 0.0017,
+      "action": "Sold"
+    },
+    {
+      "fundName": "PD Mid-Cap Index Portfolio",
+      "registrant": "PACIFIC SELECT FUND",
+      "manager": "",
+      "cik": "813900",
+      "shares": 942,
+      "value": 335531,
+      "reportDate": "2026-06-30",
+      "priorShares": 971,
+      "change": -29,
       "pctOut": 0.0017,
       "action": "Sold"
     },
