@@ -409,14 +409,6 @@ export default function Dashboard({
                             {lm.dir === "up" ? "▲" : "▼"} 1M+
                           </span>
                         )}
-                        {h.newThisWeek && (
-                          <span
-                            className="ml-2 inline-block px-1.5 py-0.5 text-[10px] font-bold rounded align-middle bg-teal-600 text-white"
-                            title={h.firstSeen ? `13F filed within the last 7 days (on ${h.firstSeen})` : "13F filed within the last 7 days"}
-                          >
-                            JUST FILED
-                          </span>
-                        )}
                       </td>
                       <td className="px-4 py-3 text-center">
                         {hasFiled(h) ? (
