@@ -348,9 +348,9 @@ export default function Dashboard({
                   ? "bg-teal-600 text-white border-teal-600"
                   : "bg-teal-50 text-teal-700 border-teal-300 hover:border-teal-400"
               }`}
-              title="Investors new to the list or changed within the last 7 days"
+              title="Holders whose most recent 13F was filed within the last 7 days (new positions and changes alike)"
             >
-              🆕 New This Week ({newCount})
+              🆕 Filed in Last 7 Days ({newCount})
             </button>
           </div>
         </div>
@@ -412,9 +412,9 @@ export default function Dashboard({
                         {h.newThisWeek && (
                           <span
                             className="ml-2 inline-block px-1.5 py-0.5 text-[10px] font-bold rounded align-middle bg-teal-600 text-white"
-                            title={h.firstSeen ? `New/changed this week (since ${h.firstSeen})` : "New this week"}
+                            title={h.firstSeen ? `13F filed within the last 7 days (on ${h.firstSeen})` : "13F filed within the last 7 days"}
                           >
-                            NEW
+                            FILED 7D
                           </span>
                         )}
                       </td>
