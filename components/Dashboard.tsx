@@ -414,7 +414,7 @@ export default function Dashboard({
                             className="ml-2 inline-block px-1.5 py-0.5 text-[10px] font-bold rounded align-middle bg-teal-600 text-white"
                             title={h.firstSeen ? `13F filed within the last 7 days (on ${h.firstSeen})` : "13F filed within the last 7 days"}
                           >
-                            FILED 7D
+                            JUST FILED
                           </span>
                         )}
                       </td>
