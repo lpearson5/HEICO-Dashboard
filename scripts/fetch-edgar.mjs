@@ -263,8 +263,17 @@ function buildHoldings(ticker, curByCik, priByCik, nameByCik, filedSet) {
   for (const cik of new Set([...curByCik.keys(), ...priByCik.keys()])) {
     const curSh = curByCik.get(cik)?.shares ?? null;
     const priSh = priByCik.get(cik)?.shares ?? null;
-    const change    = curSh != null && priSh != null ? curSh - priSh : null;
-    const pctChange = change != null && priSh ? Math.round(change / priSh * 1000) / 10 : null;
+    // A brand-new position (held nothing last quarter -> a stake now) is treated
+    // as +100%: the entire position is newly added. Show the amount added (= the
+    // current shares) as the change so new buys are easy to track and sort,
+    // rather than a blank "—".
+    const isNewPosition = curSh != null && priSh == null;
+    const change = isNewPosition
+      ? curSh
+      : (curSh != null && priSh != null ? curSh - priSh : null);
+    const pctChange = isNewPosition
+      ? 100
+      : (change != null && priSh ? Math.round(change / priSh * 1000) / 10 : null);
     holdings.push({
       filerName:     nameByCik.get(cik) ?? "Unknown",
       filerCik:      cik,
