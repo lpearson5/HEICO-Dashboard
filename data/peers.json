@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T11:53:53.370Z",
+  "lastUpdated": "2026-08-13T11:54:27.206Z",
   "peers": [
     {
       "name": "RTX Corp.",
@@ -654,12 +654,6 @@
           "value": 314254334
         },
         {
-          "fund": "T. Rowe Price Dividend Growth Fund, Inc.",
-          "manager": "T. Rowe Price",
-          "shares": 1507571,
-          "value": 309082206
-        },
-        {
           "fund": "Fidelity Rutland Square Trust II",
           "manager": "FMR (Fidelity)",
           "shares": 1149089,
@@ -670,6 +664,12 @@
           "manager": "",
           "shares": 1177882,
           "value": 286272441
+        },
+        {
+          "fund": "T. Rowe Price Dividend Growth Fund, Inc.",
+          "manager": "T. Rowe Price",
+          "shares": 1217076,
+          "value": 280487335
         },
         {
           "fund": "BLACKROCK FUNDS",
@@ -1374,6 +1374,16 @@
       "ticker": "ARXS",
       "top13F": [
         {
+          "filer": "Capital International Investors",
+          "shares": 3603927,
+          "value": 166285192
+        },
+        {
+          "filer": "Capital Research Global Investors",
+          "shares": 3595083,
+          "value": 165877130
+        },
+        {
           "filer": "BlackRock, Inc.  (BLK)",
           "shares": 2196658,
           "value": 101353800
@@ -1384,6 +1394,11 @@
           "value": 72843282
         },
         {
+          "filer": "Capital World Investors",
+          "shares": 1449131,
+          "value": 66862904
+        },
+        {
           "filer": "Temasek Holdings (Private) Ltd",
           "shares": 1373801,
           "value": 63387178
@@ -1392,6 +1407,21 @@
           "filer": "NORGES BANK",
           "shares": 1250000,
           "value": 57675000
+        },
+        {
+          "filer": "JPMORGAN CHASE & CO  (JPM, AMJB, VYLD, JPM-PC, JPM-PD, JPM-PJ, JPM-PK, JPM-PL, JPM-PM)",
+          "shares": 787487,
+          "value": 36324268
+        },
+        {
+          "filer": "FEDERATED HERMES, INC.  (FHI)",
+          "shares": 570000,
+          "value": 26299800
+        },
+        {
+          "filer": "GEODE CAPITAL MANAGEMENT, LLC",
+          "shares": 533222,
+          "value": 24615946
         },
         {
           "filer": "TimesSquare Capital Management, LLC",
@@ -1442,36 +1472,6 @@
           "filer": "Bank of New York Mellon Corp  (BNY, BNY-PK)",
           "shares": 20100,
           "value": 927424
-        },
-        {
-          "filer": "Sumitomo Mitsui Trust Group, Inc.",
-          "shares": 15612,
-          "value": 720338
-        },
-        {
-          "filer": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
-          "shares": 13900,
-          "value": 641346
-        },
-        {
-          "filer": "Russell Investments Group, Ltd.",
-          "shares": 13070,
-          "value": 603049
-        },
-        {
-          "filer": "LPL Financial LLC",
-          "shares": 10616,
-          "value": 489822
-        },
-        {
-          "filer": "TEXAS PERMANENT SCHOOL FUND CORP",
-          "shares": 10000,
-          "value": 461400
-        },
-        {
-          "filer": "State of Wyoming",
-          "shares": 8936,
-          "value": 412307
         }
       ],
       "topFunds": [
