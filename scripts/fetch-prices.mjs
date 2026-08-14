@@ -135,6 +135,7 @@ async function main() {
     sym === "HEI" ? "HEI" : sym === "HEI-A" ? "HEI/A" :
     (PEERS.find((p) => p.symbol === sym)?.name) ?? INDICES.find((i) => i.symbol === sym)?.name ?? sym;
   const series = { labels };
+  const priceSeries = {};
   for (const sym of seriesSymbols) {
     const pts = charts[sym]?.pts ?? [];
     const byDate = new Map(pts.map((p) => [p.date, p.close]));
@@ -142,11 +143,16 @@ async function main() {
     let base = null;
     for (let k = pts.length - 1; k >= 0; k--) { if (pts[k].date < `${curYear}-01-01`) { base = pts[k].close; break; } }
     if (base == null) base = pts.find((p) => p.date >= `${curYear}-01-01`)?.close ?? null;
-    let lastVal = null;
+    let idx = null, price = null;
     series[nameOf(sym)] = labels.map((d) => {
       const c = byDate.get(d);
-      if (c != null && base) lastVal = Math.round((c / base) * 1000) / 10;
-      return lastVal; // carry forward across any missing dates
+      if (c != null && base) idx = Math.round((c / base) * 1000) / 10;
+      return idx; // carry forward across any missing dates
+    });
+    priceSeries[nameOf(sym)] = labels.map((d) => {
+      const c = byDate.get(d);
+      if (c != null) price = Math.round(c * 100) / 100;
+      return price;
     });
   }
 
@@ -157,6 +163,7 @@ async function main() {
     peers: peersOut,
     indices: indicesOut,
     series,
+    priceSeries,
   };
   writeFileSync(join(DATA_DIR, "prices.json"), JSON.stringify(out, null, 2));
   console.log(`prices.json written: ${mainOut.length} HEICO, ${peersOut.length} peers, ${indicesOut.length} indices, ${labels.length} YTD points.`);

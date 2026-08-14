@@ -19,7 +19,7 @@ const LINE_COLORS: Record<string, string> = {
   "VSE Corp": "#ca9161",
   "FTAI Aviation": "#949494",
 };
-const DEFAULT_ON = ["HEI", "HEI/A", "S&P 500"];
+const DEFAULT_ON = ["HEI", "HEI/A"];
 
 function pctClass(n: number | null | undefined): string {
   if (n == null) return "text-gray-400";
@@ -74,15 +74,19 @@ function HeicoCard({ r }: { r: PriceRow }) {
 
 function ComparisonChart({ data }: { data: PricesData }) {
   const [on, setOn] = useState<Set<string>>(new Set(DEFAULT_ON));
+  const [mode, setMode] = useState<"price" | "pct">("price");
+  const hasPrice = !!data.priceSeries && Object.keys(data.priceSeries).length > 0;
+  const activeMode: "price" | "pct" = mode === "price" && hasPrice ? "price" : "pct";
+  const dataset = activeMode === "price" ? (data.priceSeries as Record<string, (number | null)[]>) : data.series;
   const lines = Object.keys(data.series).filter((k) => k !== "labels");
   const labels = data.series.labels;
-  const W = 820, H = 340, PL = 44, PR = 12, PT = 14, PB = 24;
+  const W = 820, H = 340, PL = 52, PR = 12, PT = 14, PB = 24;
 
   const { paths, yMin, yMax, ticks } = useMemo(() => {
     const visible = lines.filter((l) => on.has(l));
     let lo = Infinity, hi = -Infinity;
-    for (const l of visible) for (const v of data.series[l]) if (v != null) { lo = Math.min(lo, v); hi = Math.max(hi, v); }
-    if (!isFinite(lo)) { lo = 90; hi = 110; }
+    for (const l of visible) for (const v of (dataset[l] ?? [])) if (v != null) { lo = Math.min(lo, v); hi = Math.max(hi, v); }
+    if (!isFinite(lo)) { lo = 0; hi = 100; }
     const pad = (hi - lo) * 0.08 || 2;
     lo -= pad; hi += pad;
     const n = labels.length || 1;
@@ -91,27 +95,39 @@ function ComparisonChart({ data }: { data: PricesData }) {
     const paths: Record<string, string> = {};
     for (const l of visible) {
       let d = ""; let started = false;
-      data.series[l].forEach((v, i) => {
+      (dataset[l] ?? []).forEach((v, i) => {
         if (v == null) return;
         d += `${started ? "L" : "M"}${x(i).toFixed(1)},${y(v).toFixed(1)} `;
         started = true;
       });
       paths[l] = d;
     }
-    const tickVals = [lo, (lo + hi) / 2, hi];
-    const ticks = tickVals.map((v) => ({ v, y: y(v) }));
+    const ticks = [lo, (lo + hi) / 2, hi].map((v) => ({ v, y: y(v) }));
     return { paths, yMin: lo, yMax: hi, ticks };
-  }, [on, data, labels.length]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [on, dataset, labels.length]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const baseY = useMemo(() => {
-    const y = (v: number) => PT + (1 - (v - yMin) / (yMax - yMin)) * (H - PT - PB);
-    return y(100);
-  }, [yMin, yMax]);
+  const baseY = PT + (1 - (100 - yMin) / (yMax - yMin)) * (H - PT - PB);
+  const fmtTick = (v: number) => activeMode === "price" ? `$${v.toFixed(0)}` : v.toFixed(0);
 
   return (
     <div className="rounded-xl border border-gray-200 bg-white p-4 shadow-sm">
-      <div className="mb-2 flex items-center justify-between">
-        <span className="text-sm font-semibold text-gray-700">Year-to-date price performance <span className="font-normal text-gray-400">· indexed to 100 at Jan 1</span></span>
+      <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
+        <span className="text-sm font-semibold text-gray-700">
+          {activeMode === "price"
+            ? <>Share price <span className="font-normal text-gray-400">· actual closing price (USD)</span></>
+            : <>Relative performance <span className="font-normal text-gray-400">· indexed to 100 at Jan 1</span></>}
+        </span>
+        <div className="flex overflow-hidden rounded-lg border border-gray-300 text-xs">
+          {([["price", "$ Price"], ["pct", "% Change"]] as const).map(([m, label]) => (
+            <button
+              key={m}
+              onClick={() => setMode(m)}
+              className={`px-2.5 py-1 font-medium transition-colors ${activeMode === m ? "bg-gray-900 text-white" : "bg-white text-gray-600 hover:bg-gray-50"}`}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
       </div>
       <div className="overflow-x-auto">
         <svg viewBox={`0 0 ${W} ${H}`} className="w-full" style={{ minWidth: 560 }}>
@@ -119,11 +135,11 @@ function ComparisonChart({ data }: { data: PricesData }) {
           {ticks.map((t, i) => (
             <g key={i}>
               <line x1={PL} y1={t.y} x2={W - PR} y2={t.y} stroke="#f1f5f9" />
-              <text x={PL - 6} y={t.y + 3} textAnchor="end" fontSize="10" fill="#94a3b8">{t.v.toFixed(0)}</text>
+              <text x={PL - 6} y={t.y + 3} textAnchor="end" fontSize="10" fill="#94a3b8">{fmtTick(t.v)}</text>
             </g>
           ))}
-          {/* baseline at 100 */}
-          {baseY > PT && baseY < H - PB && (
+          {/* baseline at 100 (relative mode only) */}
+          {activeMode === "pct" && baseY > PT && baseY < H - PB && (
             <line x1={PL} y1={baseY} x2={W - PR} y2={baseY} stroke="#cbd5e1" strokeDasharray="3 3" />
           )}
           {/* x end labels */}
@@ -147,6 +163,9 @@ function ComparisonChart({ data }: { data: PricesData }) {
           ))}
         </svg>
       </div>
+      {activeMode === "price" && lines.filter((l) => on.has(l)).length > 2 && (
+        <p className="mt-1 text-[11px] text-amber-600">Tip: tickers at very different price levels are easier to compare in “% Change”.</p>
+      )}
       {/* legend / toggles */}
       <div className="mt-2 flex flex-wrap gap-1.5">
         {lines.map((l) => {

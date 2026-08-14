@@ -159,7 +159,8 @@ export interface PricesData {
   main: PriceRow[];
   peers: PriceRow[];
   indices: PriceRow[];
-  series: { labels: string[] } & Record<string, (number | null)[]>;
+  series: { labels: string[] } & Record<string, (number | null)[]>; // indexed to 100 at Jan 1
+  priceSeries?: Record<string, (number | null)[]>;                   // actual closing prices ($), aligned to series.labels
 }
 
 // ── Geographic ownership (EDGAR filer locations) ──

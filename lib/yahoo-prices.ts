@@ -101,17 +101,23 @@ export async function fetchPrices(): Promise<PricesData> {
     sym === "HEI" ? "HEI" : sym === "HEI-A" ? "HEI/A" :
     (PEERS.find((p) => p.symbol === sym)?.name) ?? INDICES.find((i) => i.symbol === sym)?.name ?? sym;
   const series = { labels } as PricesData["series"];
+  const priceSeries: Record<string, (number | null)[]> = {};
   for (const sym of seriesSymbols) {
     const pts = charts[sym]?.pts ?? [];
     const byDate = new Map(pts.map((p) => [p.date, p.close]));
     let base: number | null = null;
     for (let k = pts.length - 1; k >= 0; k--) { if (pts[k].date < `${curYear}-01-01`) { base = pts[k].close; break; } }
     if (base == null) base = pts.find((p) => p.date >= `${curYear}-01-01`)?.close ?? null;
-    let lastVal: number | null = null;
+    let idx: number | null = null, price: number | null = null;
     series[nameOf(sym)] = labels.map((d) => {
       const c = byDate.get(d);
-      if (c != null && base) lastVal = Math.round((c / base) * 1000) / 10;
-      return lastVal;
+      if (c != null && base) idx = Math.round((c / base) * 1000) / 10;
+      return idx;
+    });
+    priceSeries[nameOf(sym)] = labels.map((d) => {
+      const c = byDate.get(d);
+      if (c != null) price = Math.round(c * 100) / 100;
+      return price;
     });
   }
 
@@ -122,5 +128,6 @@ export async function fetchPrices(): Promise<PricesData> {
     peers: peersOut,
     indices: indicesOut,
     series,
+    priceSeries,
   };
 }
