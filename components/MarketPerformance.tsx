@@ -82,10 +82,14 @@ function ComparisonChart({ data }: { data: PricesData }) {
   const labels = data.series.labels;
   const W = 820, H = 340, PL = 52, PR = 12, PT = 14, PB = 24;
 
+  // In "% Change" mode the stored values are indexed to 100 (100 = Jan 1); show
+  // them as an actual percentage change from the start (100 -> 0%, 119 -> +19%).
+  const tv = (v: number) => (activeMode === "pct" ? v - 100 : v);
+
   const { paths, yMin, yMax, ticks } = useMemo(() => {
     const visible = lines.filter((l) => on.has(l));
     let lo = Infinity, hi = -Infinity;
-    for (const l of visible) for (const v of (dataset[l] ?? [])) if (v != null) { lo = Math.min(lo, v); hi = Math.max(hi, v); }
+    for (const l of visible) for (const v of (dataset[l] ?? [])) if (v != null) { lo = Math.min(lo, tv(v)); hi = Math.max(hi, tv(v)); }
     if (!isFinite(lo)) { lo = 0; hi = 100; }
     const pad = (hi - lo) * 0.08 || 2;
     lo -= pad; hi += pad;
@@ -97,17 +101,19 @@ function ComparisonChart({ data }: { data: PricesData }) {
       let d = ""; let started = false;
       (dataset[l] ?? []).forEach((v, i) => {
         if (v == null) return;
-        d += `${started ? "L" : "M"}${x(i).toFixed(1)},${y(v).toFixed(1)} `;
+        d += `${started ? "L" : "M"}${x(i).toFixed(1)},${y(tv(v)).toFixed(1)} `;
         started = true;
       });
       paths[l] = d;
     }
     const ticks = [lo, (lo + hi) / 2, hi].map((v) => ({ v, y: y(v) }));
     return { paths, yMin: lo, yMax: hi, ticks };
-  }, [on, dataset, labels.length]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [on, dataset, labels.length, activeMode]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const baseY = PT + (1 - (100 - yMin) / (yMax - yMin)) * (H - PT - PB);
-  const fmtTick = (v: number) => activeMode === "price" ? `$${v.toFixed(0)}` : v.toFixed(0);
+  // Baseline sits at 0% (relative mode) — the Jan 1 starting level.
+  const baseY = PT + (1 - (0 - yMin) / (yMax - yMin)) * (H - PT - PB);
+  const fmtTick = (v: number) =>
+    activeMode === "price" ? `$${v.toFixed(0)}` : `${v > 0 ? "+" : ""}${v.toFixed(0)}%`;
 
   return (
     <div className="rounded-xl border border-gray-200 bg-white p-4 shadow-sm">
