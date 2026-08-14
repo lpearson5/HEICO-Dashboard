@@ -2,13 +2,13 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-13T11:54:27.206Z",
+  "lastUpdated": "2026-08-14T11:51:03.674Z",
   "summary": {
-    "funds": 417,
-    "totalShares": 18659844,
-    "pctOut": 33.8219,
+    "funds": 418,
+    "totalShares": 18661686,
+    "pctOut": 33.8252,
     "newFunds": 36,
-    "sellouts": 53,
+    "sellouts": 52,
     "linkedManagers": 26,
     "linkedShares": 15988288
   },
@@ -685,13 +685,6 @@
       "manager": "Goldman Sachs",
       "lastShares": 812,
       "lastReport": "2025-10-31"
-    },
-    {
-      "fundName": "WBI BullBear Quality 3000 ETF",
-      "registrant": "Absolute Shares Trust",
-      "manager": "",
-      "lastShares": 743,
-      "lastReport": "2025-12-31"
     },
     {
       "fundName": "BlackRock SMID-Cap Growth Equity Fund",
@@ -3669,10 +3662,10 @@
       "shares": 15159,
       "value": 4091717,
       "reportDate": "2026-04-30",
-      "priorShares": 15270,
-      "change": -111,
+      "priorShares": 14186,
+      "change": 973,
       "pctOut": 0.0275,
-      "action": "Sold"
+      "action": "Bought"
     },
     {
       "fundName": "First Trust Industrials/Producer Durables AlphaDEX Fund",
@@ -5376,6 +5369,19 @@
       "change": -78,
       "pctOut": 0.0034,
       "action": "Sold"
+    },
+    {
+      "fundName": "WBI BullBear Quality 3000 ETF",
+      "registrant": "Absolute Shares Trust",
+      "manager": "",
+      "cik": "1591939",
+      "shares": 1842,
+      "value": 656102,
+      "reportDate": "2026-06-30",
+      "priorShares": 743,
+      "change": 1099,
+      "pctOut": 0.0033000000000000004,
+      "action": "Bought"
     },
     {
       "fundName": "Strategic Advisers U.S. Total Stock Fund",
