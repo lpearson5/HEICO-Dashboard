@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T11:51:03.674Z",
+  "lastUpdated": "2026-08-15T11:27:13.565Z",
   "peers": [
     {
       "name": "RTX Corp.",
@@ -46,6 +46,11 @@
           "value": 4959905533
         },
         {
+          "filer": "BANK OF AMERICA CORP /DE/  (BAC, BAC-PB, BAC-PE, BAC-PK, BAC-PL, BAC-PM, BAC-PN, BAC-PO, BAC-PP, BAC-PQ, BAC-PS, BML-PG, BML-PL)",
+          "shares": 24345900,
+          "value": 4619147636
+        },
+        {
           "filer": "Fisher Asset Management, LLC",
           "shares": 22872255,
           "value": 4339553116
@@ -66,9 +71,29 @@
           "value": 2283364881
         },
         {
+          "filer": "Invesco Ltd.  (IVZ)",
+          "shares": 11230174,
+          "value": 2130700914
+        },
+        {
           "filer": "UBS Group AG  (UBS)",
           "shares": 10787134,
           "value": 2046642934
+        },
+        {
+          "filer": "Sixth Street Partners Management Company, L.P.",
+          "shares": 10579505,
+          "value": 2007251091
+        },
+        {
+          "filer": "CHARLES SCHWAB INVESTMENT MANAGEMENT INC",
+          "shares": 10579505,
+          "value": 2007251091
+        },
+        {
+          "filer": "GOLDMAN SACHS GROUP INC  (GS, GSCE, GS-PA, GS-PC, GS-PD)",
+          "shares": 10210678,
+          "value": 1937271960
         },
         {
           "filer": "Capital World Investors",
@@ -79,31 +104,6 @@
           "filer": "FMR LLC",
           "shares": 9868869,
           "value": 1872420616
-        },
-        {
-          "filer": "UBS AM, a distinct business unit of UBS ASSET MANAGEMENT AMERICAS LLC",
-          "shares": 8693939,
-          "value": 1649501045
-        },
-        {
-          "filer": "DIMENSIONAL FUND ADVISORS LP",
-          "shares": 7882549,
-          "value": 1495446342
-        },
-        {
-          "filer": "Amundi",
-          "shares": 7768207,
-          "value": 1473861914
-        },
-        {
-          "filer": "Bank of New York Mellon Corp  (BNY, BNY-PK)",
-          "shares": 7675415,
-          "value": 1456256436
-        },
-        {
-          "filer": "VANGUARD FIDUCIARY TRUST CO",
-          "shares": 7561686,
-          "value": 1434678685
         }
       ],
       "topFunds": [
@@ -148,6 +148,12 @@
           "manager": "Capital Group (American Funds)",
           "shares": 9186947,
           "value": 1617545758
+        },
+        {
+          "fund": "VANGUARD INSTITUTIONAL INDEX FUNDS",
+          "manager": "Vanguard Group",
+          "shares": 7568345,
+          "value": 1459933751
         },
         {
           "fund": "SELECT SECTOR SPDR TRUST",
@@ -220,12 +226,6 @@
           "manager": "Franklin Resources",
           "shares": 2450000,
           "value": 472605000
-        },
-        {
-          "fund": "AMERICAN FUNDS GLOBAL BALANCED FUND",
-          "manager": "Capital Group (American Funds)",
-          "shares": 2478600,
-          "value": 436407102
         }
       ]
     },
@@ -269,6 +269,11 @@
           "value": 2903833784
         },
         {
+          "filer": "BANK OF AMERICA CORP /DE/  (BAC, BAC-PB, BAC-PE, BAC-PK, BAC-PL, BAC-PM, BAC-PN, BAC-PO, BAC-PP, BAC-PQ, BAC-PS, BML-PG, BML-PL)",
+          "shares": 11295389,
+          "value": 2445113028
+        },
+        {
           "filer": "MORGAN STANLEY  (MS, MS-PA, MS-PE, MS-PF, MS-PI, MS-PK, MS-PL, MS-PO, MS-PP, MS-PQ)",
           "shares": 10816366,
           "value": 2341419384
@@ -289,9 +294,29 @@
           "value": 1310867894
         },
         {
+          "filer": "ROYAL BANK OF CANADA  (RY, RYLBF)",
+          "shares": 5351819,
+          "value": 1158510000
+        },
+        {
+          "filer": "Invesco Ltd.  (IVZ)",
+          "shares": 5206763,
+          "value": 1127107940
+        },
+        {
           "filer": "UBS Group AG  (UBS)",
           "shares": 4899591,
           "value": 1060614464
+        },
+        {
+          "filer": "Sixth Street Partners Management Company, L.P.",
+          "shares": 4577642,
+          "value": 990922164
+        },
+        {
+          "filer": "CHARLES SCHWAB INVESTMENT MANAGEMENT INC",
+          "shares": 4577642,
+          "value": 990922164
         },
         {
           "filer": "VANGUARD FIDUCIARY TRUST CO",
@@ -307,31 +332,6 @@
           "filer": "JPMORGAN CHASE & CO  (JPM, AMJB, VYLD, JPM-PC, JPM-PD, JPM-PJ, JPM-PK, JPM-PL, JPM-PM)",
           "shares": 4238780,
           "value": 910024064
-        },
-        {
-          "filer": "Bank of New York Mellon Corp  (BNY, BNY-PK)",
-          "shares": 3454348,
-          "value": 747762926
-        },
-        {
-          "filer": "UBS AM, a distinct business unit of UBS ASSET MANAGEMENT AMERICAS LLC",
-          "shares": 3091370,
-          "value": 669188864
-        },
-        {
-          "filer": "DEUTSCHE BANK AG\\",
-          "shares": 2492058,
-          "value": 539455796
-        },
-        {
-          "filer": "Neuberger Berman Group LLC",
-          "shares": 2346066,
-          "value": 507628587
-        },
-        {
-          "filer": "Swiss National Bank",
-          "shares": 2105477,
-          "value": 455772606
         }
       ],
       "topFunds": [
@@ -492,6 +492,11 @@
           "value": 4143749364
         },
         {
+          "filer": "BANK OF AMERICA CORP /DE/  (BAC, BAC-PB, BAC-PE, BAC-PK, BAC-PL, BAC-PM, BAC-PN, BAC-PO, BAC-PP, BAC-PQ, BAC-PS, BML-PG, BML-PL)",
+          "shares": 10290881,
+          "value": 2766806323
+        },
+        {
           "filer": "GEODE CAPITAL MANAGEMENT, LLC",
           "shares": 9509195,
           "value": 2556742072
@@ -500,6 +505,11 @@
           "filer": "NORGES BANK",
           "shares": 7895313,
           "value": 2122733853
+        },
+        {
+          "filer": "Invesco Ltd.  (IVZ)",
+          "shares": 6851793,
+          "value": 1842173192
         },
         {
           "filer": "MORGAN STANLEY  (MS, MS-PA, MS-PE, MS-PF, MS-PI, MS-PK, MS-PL, MS-PO, MS-PP, MS-PQ)",
@@ -522,6 +532,11 @@
           "value": 1006009594
         },
         {
+          "filer": "GOLDMAN SACHS GROUP INC  (GS, GSCE, GS-PA, GS-PC, GS-PD)",
+          "shares": 3539035,
+          "value": 951505017
+        },
+        {
           "filer": "AMERICAN CENTURY COMPANIES INC",
           "shares": 3285142,
           "value": 883243314
@@ -532,34 +547,19 @@
           "value": 826660616
         },
         {
+          "filer": "CITADEL ADVISORS LLC",
+          "shares": 2819959,
+          "value": 758174177
+        },
+        {
           "filer": "Capital Research Global Investors",
           "shares": 2440644,
           "value": 656188005
         },
         {
-          "filer": "VANGUARD FIDUCIARY TRUST CO",
-          "shares": 2298770,
-          "value": 618047302
-        },
-        {
-          "filer": "DEUTSCHE BANK AG\\",
-          "shares": 2015152,
-          "value": 541793767
-        },
-        {
-          "filer": "VOYA INVESTMENT MANAGEMENT LLC",
-          "shares": 1955671,
-          "value": 525801979
-        },
-        {
-          "filer": "SCHRODER INVESTMENT MANAGEMENT GROUP",
-          "shares": 1691498,
-          "value": 454285619
-        },
-        {
-          "filer": "UBS Group AG  (UBS)",
-          "shares": 1454121,
-          "value": 390954972
+          "filer": "Sixth Street Partners Management Company, L.P.",
+          "shares": 2402889,
+          "value": 646040737
         }
       ],
       "topFunds": [
@@ -740,6 +740,11 @@
           "value": 1453967875
         },
         {
+          "filer": "Soroban Capital Partners LP",
+          "shares": 898197,
+          "value": 1196434332
+        },
+        {
           "filer": "MORGAN STANLEY  (MS, MS-PA, MS-PE, MS-PF, MS-PI, MS-PK, MS-PL, MS-PO, MS-PP, MS-PQ)",
           "shares": 872559,
           "value": 1162285936
@@ -755,9 +760,19 @@
           "value": 1041296961
         },
         {
+          "filer": "WINDACRE PARTNERSHIP LLC",
+          "shares": 684100,
+          "value": 911248564
+        },
+        {
           "filer": "UBS Group AG  (UBS)",
           "shares": 606686,
           "value": 808130019
+        },
+        {
+          "filer": "Invesco Ltd.  (IVZ)",
+          "shares": 479551,
+          "value": 638781315
         },
         {
           "filer": "NORTHERN TRUST CORP  (NTRS, NTRSO)",
@@ -765,29 +780,14 @@
           "value": 622785979
         },
         {
-          "filer": "Stockbridge Partners LLC",
-          "shares": 434281,
-          "value": 578479663
+          "filer": "Sixth Street Partners Management Company, L.P.",
+          "shares": 442904,
+          "value": 589965844
         },
         {
-          "filer": "UBS AM, a distinct business unit of UBS ASSET MANAGEMENT AMERICAS LLC",
-          "shares": 354105,
-          "value": 471682025
-        },
-        {
-          "filer": "Bank of New York Mellon Corp  (BNY, BNY-PK)",
-          "shares": 318749,
-          "value": 424587119
-        },
-        {
-          "filer": "VANGUARD FIDUCIARY TRUST CO",
-          "shares": 317808,
-          "value": 423332968
-        },
-        {
-          "filer": "EDGEWOOD MANAGEMENT LLC",
-          "shares": 278240,
-          "value": 370626810
+          "filer": "CHARLES SCHWAB INVESTMENT MANAGEMENT INC",
+          "shares": 442904,
+          "value": 589965844
         }
       ],
       "topFunds": [
@@ -948,6 +948,16 @@
           "value": 1075600995
         },
         {
+          "filer": "Jupiter Topco LLC",
+          "shares": 1540313,
+          "value": 1027236923
+        },
+        {
+          "filer": "Aristotle Capital Management, LLC",
+          "shares": 1515404,
+          "value": 1010671891
+        },
+        {
           "filer": "GEODE CAPITAL MANAGEMENT, LLC",
           "shares": 1317273,
           "value": 877611194
@@ -966,6 +976,16 @@
           "filer": "NORGES BANK",
           "shares": 826081,
           "value": 550913419
+        },
+        {
+          "filer": "Invesco Ltd.  (IVZ)",
+          "shares": 651535,
+          "value": 434508692
+        },
+        {
+          "filer": "BANK OF AMERICA CORP /DE/  (BAC, BAC-PB, BAC-PE, BAC-PK, BAC-PL, BAC-PM, BAC-PN, BAC-PO, BAC-PP, BAC-PQ, BAC-PS, BML-PG, BML-PL)",
+          "shares": 610193,
+          "value": 406937501
         },
         {
           "filer": "UBS AM, a distinct business unit of UBS ASSET MANAGEMENT AMERICAS LLC",
@@ -996,26 +1016,6 @@
           "filer": "DIMENSIONAL FUND ADVISORS LP",
           "shares": 411112,
           "value": 274075476
-        },
-        {
-          "filer": "EARNEST PARTNERS LLC",
-          "shares": 382444,
-          "value": 255051904
-        },
-        {
-          "filer": "Maren Capital LLC",
-          "shares": 376928,
-          "value": 251373283
-        },
-        {
-          "filer": "Artisan Partners Limited Partnership",
-          "shares": 347178,
-          "value": 231533243
-        },
-        {
-          "filer": "Mariner, LLC",
-          "shares": 317467,
-          "value": 211586606
         }
       ],
       "topFunds": [
@@ -1156,9 +1156,19 @@
           "value": 709682218
         },
         {
+          "filer": "WELLINGTON MANAGEMENT GROUP LLP",
+          "shares": 4063339,
+          "value": 327545758
+        },
+        {
           "filer": "WASATCH ADVISORS LP",
           "shares": 3241786,
           "value": 261320369
+        },
+        {
+          "filer": "BAMCO INC /NY/",
+          "shares": 2523332,
+          "value": 203405793
         },
         {
           "filer": "STATE STREET CORP  (STT, STT-PG)",
@@ -1201,6 +1211,11 @@
           "value": 76257589
         },
         {
+          "filer": "Invesco Ltd.  (IVZ)",
+          "shares": 883388,
+          "value": 71209906
+        },
+        {
           "filer": "DIMENSIONAL FUND ADVISORS LP",
           "shares": 864595,
           "value": 69690714
@@ -1216,6 +1231,11 @@
           "value": 64373131
         },
         {
+          "filer": "GOLDMAN SACHS GROUP INC  (GS, GSCE, GS-PA, GS-PC, GS-PD)",
+          "shares": 746596,
+          "value": 60183104
+        },
+        {
           "filer": "Artisan Partners Limited Partnership",
           "shares": 737570,
           "value": 59455518
@@ -1224,26 +1244,6 @@
           "filer": "GENEVA CAPITAL MANAGEMENT LLC",
           "shares": 719088,
           "value": 57965678
-        },
-        {
-          "filer": "Bank of New York Mellon Corp  (BNY, BNY-PK)",
-          "shares": 707403,
-          "value": 57023760
-        },
-        {
-          "filer": "GEODE CAPITAL MANAGEMENT, LLC",
-          "shares": 658166,
-          "value": 53069422
-        },
-        {
-          "filer": "NORGES BANK",
-          "shares": 558181,
-          "value": 44994970
-        },
-        {
-          "filer": "GILDER GAGNON HOWE & CO LLC",
-          "shares": 366256,
-          "value": 29523896
         }
       ],
       "topFunds": [
@@ -1374,6 +1374,11 @@
       "ticker": "ARXS",
       "top13F": [
         {
+          "filer": "Jupiter Topco LLC",
+          "shares": 4516959,
+          "value": 208412569
+        },
+        {
           "filer": "Capital International Investors",
           "shares": 3603927,
           "value": 166285192
@@ -1384,6 +1389,11 @@
           "value": 165877130
         },
         {
+          "filer": "AMERIPRISE FINANCIAL INC  (AMP)",
+          "shares": 2656793,
+          "value": 122585601
+        },
+        {
           "filer": "BlackRock, Inc.  (BLK)",
           "shares": 2196658,
           "value": 101353800
@@ -1392,6 +1402,16 @@
           "filer": "VANGUARD CAPITAL MANAGEMENT LLC",
           "shares": 1862985,
           "value": 85958128
+        },
+        {
+          "filer": "Invesco Ltd.  (IVZ)",
+          "shares": 1833104,
+          "value": 84579419
+        },
+        {
+          "filer": "CITADEL ADVISORS LLC",
+          "shares": 1608151,
+          "value": 74200087
         },
         {
           "filer": "MASSACHUSETTS FINANCIAL SERVICES CO /MA/",
@@ -1409,6 +1429,11 @@
           "value": 66862904
         },
         {
+          "filer": "RAYMOND JAMES FINANCIAL INC  (RJF)",
+          "shares": 1413325,
+          "value": 65210770
+        },
+        {
           "filer": "Temasek Holdings (Private) Ltd",
           "shares": 1373801,
           "value": 63387178
@@ -1417,6 +1442,11 @@
           "filer": "FMR LLC",
           "shares": 1296283,
           "value": 59810498
+        },
+        {
+          "filer": "ARES MANAGEMENT LLC",
+          "shares": 1254547,
+          "value": 57884799
         },
         {
           "filer": "NORGES BANK",
@@ -1429,49 +1459,19 @@
           "value": 49164431
         },
         {
+          "filer": "BAMCO INC /NY/",
+          "shares": 982805,
+          "value": 45346623
+        },
+        {
           "filer": "JPMORGAN CHASE & CO  (JPM, AMJB, VYLD, JPM-PC, JPM-PD, JPM-PJ, JPM-PK, JPM-PL, JPM-PM)",
           "shares": 787487,
           "value": 36324268
         },
         {
-          "filer": "UBS Group AG  (UBS)",
-          "shares": 592683,
-          "value": 27346394
-        },
-        {
-          "filer": "FEDERATED HERMES, INC.  (FHI)",
-          "shares": 570000,
-          "value": 26299800
-        },
-        {
-          "filer": "GEODE CAPITAL MANAGEMENT, LLC",
-          "shares": 533222,
-          "value": 24615946
-        },
-        {
-          "filer": "Clearbridge Investments, LLC",
-          "shares": 500710,
-          "value": 23102759
-        },
-        {
-          "filer": "Ghisallo Capital Management LLC",
-          "shares": 500000,
-          "value": 23070000
-        },
-        {
-          "filer": "FRANKLIN RESOURCES INC  (BEN)",
-          "shares": 484692,
-          "value": 22363689
-        },
-        {
-          "filer": "DRIEHAUS CAPITAL MANAGEMENT LLC",
-          "shares": 480898,
-          "value": 22188634
-        },
-        {
-          "filer": "HEALTHCARE OF ONTARIO PENSION PLAN TRUST FUND",
-          "shares": 324042,
-          "value": 14951298
+          "filer": "Holocene Advisors, LP",
+          "shares": 677045,
+          "value": 31238856
         }
       ],
       "topFunds": [
@@ -1504,12 +1504,6 @@
           "manager": "MFS",
           "shares": 228896,
           "value": 10284297
-        },
-        {
-          "fund": "COLUMBIA FUNDS SERIES TRUST",
-          "manager": "Columbia (Ameriprise)",
-          "shares": 227297,
-          "value": 10212454
         },
         {
           "fund": "BLACKROCK LARGE CAP SERIES FUNDS, INC.",
@@ -1546,6 +1540,12 @@
           "manager": "Principal",
           "shares": 128600,
           "value": 4501000
+        },
+        {
+          "fund": "COLUMBIA FUNDS SERIES TRUST",
+          "manager": "Columbia (Ameriprise)",
+          "shares": 99633,
+          "value": 4476511
         },
         {
           "fund": "MFS SERIES TRUST X",
@@ -1592,8 +1592,8 @@
         {
           "fund": "FIDELITY SECURITIES FUND",
           "manager": "FMR (Fidelity)",
-          "shares": 48300,
-          "value": 1690500
+          "shares": 53400,
+          "value": 1869000
         }
       ]
     },
@@ -1622,6 +1622,11 @@
           "value": 235007909
         },
         {
+          "filer": "Durable Capital Partners LP",
+          "shares": 980310,
+          "value": 224000835
+        },
+        {
           "filer": "Capital Research Global Investors",
           "shares": 829201,
           "value": 189472429
@@ -1630,6 +1635,11 @@
           "filer": "UBS Group AG  (UBS)",
           "shares": 824499,
           "value": 188398023
+        },
+        {
+          "filer": "DENDUR CAPITAL LP",
+          "shares": 821400,
+          "value": 187689900
         },
         {
           "filer": "GEODE CAPITAL MANAGEMENT, LLC",
@@ -1642,9 +1652,19 @@
           "value": 184089426
         },
         {
+          "filer": "SAMLYN CAPITAL, LLC",
+          "shares": 647205,
+          "value": 147886343
+        },
+        {
           "filer": "Neuberger Berman Group LLC",
           "shares": 631452,
           "value": 144286674
+        },
+        {
+          "filer": "Invesco Ltd.  (IVZ)",
+          "shares": 620296,
+          "value": 141737637
         },
         {
           "filer": "FULLER & THALER ASSET MANAGEMENT, INC.",
@@ -1662,6 +1682,11 @@
           "value": 117484875
         },
         {
+          "filer": "AMERIPRISE FINANCIAL INC  (AMP)",
+          "shares": 478078,
+          "value": 109241523
+        },
+        {
           "filer": "Artisan Partners Limited Partnership",
           "shares": 453393,
           "value": 103600301
@@ -1675,31 +1700,6 @@
           "filer": "JENNISON ASSOCIATES LLC",
           "shares": 390312,
           "value": 89186299
-        },
-        {
-          "filer": "FRANKLIN RESOURCES INC  (BEN)",
-          "shares": 369885,
-          "value": 84518724
-        },
-        {
-          "filer": "Hood River Capital Management LLC",
-          "shares": 330182,
-          "value": 75446587
-        },
-        {
-          "filer": "NORTHERN TRUST CORP  (NTRS, NTRSO)",
-          "shares": 327743,
-          "value": 74889278
-        },
-        {
-          "filer": "EMERALD ADVISERS, LLC",
-          "shares": 323152,
-          "value": 73840232
-        },
-        {
-          "filer": "JPMORGAN CHASE & CO  (JPM, AMJB, VYLD, JPM-PC, JPM-PD, JPM-PJ, JPM-PK, JPM-PL, JPM-PM)",
-          "shares": 296885,
-          "value": 66840047
         }
       ],
       "topFunds": [
@@ -1860,9 +1860,19 @@
           "value": 970646715
         },
         {
+          "filer": "DZ BANK AG Deutsche Zentral Genossenschafts Bank, Frankfurt am Main",
+          "shares": 3143073,
+          "value": 850295539
+        },
+        {
           "filer": "STATE STREET CORP  (STT, STT-PG)",
           "shares": 3083589,
           "value": 834203332
+        },
+        {
+          "filer": "Rubric Capital Management LP",
+          "shares": 3000000,
+          "value": 811590000
         },
         {
           "filer": "WESTFIELD CAPITAL MANAGEMENT CO LP",
@@ -1875,14 +1885,29 @@
           "value": 782097262
         },
         {
+          "filer": "WELLINGTON MANAGEMENT GROUP LLP",
+          "shares": 2326754,
+          "value": 629456759
+        },
+        {
           "filer": "GEODE CAPITAL MANAGEMENT, LLC",
           "shares": 1998027,
           "value": 539090284
         },
         {
+          "filer": "GOLDMAN SACHS GROUP INC  (GS, GSCE, GS-PA, GS-PC, GS-PD)",
+          "shares": 1959422,
+          "value": 530082316
+        },
+        {
           "filer": "NORGES BANK",
           "shares": 1280959,
           "value": 346537838
+        },
+        {
+          "filer": "FRONTIER CAPITAL MANAGEMENT CO LLC",
+          "shares": 1183492,
+          "value": 320170153
         },
         {
           "filer": "MORGAN STANLEY  (MS, MS-PA, MS-PE, MS-PF, MS-PI, MS-PK, MS-PL, MS-PO, MS-PP, MS-PQ)",
@@ -1895,39 +1920,14 @@
           "value": 272168881
         },
         {
-          "filer": "UBS Group AG  (UBS)",
-          "shares": 889675,
-          "value": 240683778
+          "filer": "Sixth Street Partners Management Company, L.P.",
+          "shares": 902149,
+          "value": 244058369
         },
         {
-          "filer": "WASHINGTON STATE INVESTMENT BOARD",
-          "shares": 787815,
-          "value": 213127592
-        },
-        {
-          "filer": "DIMENSIONAL FUND ADVISORS LP",
-          "shares": 696349,
-          "value": 188327183
-        },
-        {
-          "filer": "VANGUARD FIDUCIARY TRUST CO",
-          "shares": 662648,
-          "value": 179266163
-        },
-        {
-          "filer": "NORTHERN TRUST CORP  (NTRS, NTRSO)",
-          "shares": 622986,
-          "value": 168536403
-        },
-        {
-          "filer": "Temasek Holdings (Private) Ltd",
-          "shares": 567875,
-          "value": 153627224
-        },
-        {
-          "filer": "Artisan Partners Limited Partnership",
-          "shares": 510787,
-          "value": 138183239
+          "filer": "CHARLES SCHWAB INVESTMENT MANAGEMENT INC",
+          "shares": 902149,
+          "value": 244058369
         }
       ],
       "topFunds": [

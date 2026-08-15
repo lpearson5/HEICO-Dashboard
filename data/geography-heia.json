@@ -1,224 +1,224 @@
 {
   "ticker": "HEIA",
-  "asOf": "2026-08-14T12:23:37.369Z",
+  "asOf": "2026-08-15T11:53:55.696Z",
   "coverage": {
     "resolvedHolders": 300,
     "requested": 300,
-    "sharesCovered": 52239837,
-    "totalInstitutional": 52372559,
-    "pctOfInstitutional": 99.7
+    "sharesCovered": 69352146,
+    "totalInstitutional": 69794315,
+    "pctOfInstitutional": 99.4
   },
-  "usPct": 86.5,
-  "intlPct": 7.8,
-  "unknownPct": 5.6,
+  "usPct": 85.7,
+  "intlPct": 8.9,
+  "unknownPct": 5.5,
   "states": [
     {
       "name": "NY",
-      "shares": 10365140,
-      "holders": 31,
-      "pct": 19.8
+      "shares": 14404931,
+      "holders": 42,
+      "pct": 20.8
     },
     {
       "name": "MA",
-      "shares": 9224015,
-      "holders": 16,
-      "pct": 17.7
+      "shares": 9659724,
+      "holders": 17,
+      "pct": 13.9
     },
     {
       "name": "PA",
-      "shares": 8759785,
-      "holders": 12,
-      "pct": 16.8
+      "shares": 9392602,
+      "holders": 11,
+      "pct": 13.5
     },
     {
       "name": "IA",
       "shares": 7729441,
       "holders": 4,
-      "pct": 14.8
+      "pct": 11.1
     },
     {
       "name": "CA",
-      "shares": 2166477,
-      "holders": 22,
-      "pct": 4.1
+      "shares": 3288548,
+      "holders": 21,
+      "pct": 4.7
     },
     {
       "name": "IL",
-      "shares": 1838784,
-      "holders": 15,
-      "pct": 3.5
+      "shares": 2908006,
+      "holders": 12,
+      "pct": 4.2
     },
     {
-      "name": "TX",
-      "shares": 957692,
-      "holders": 7,
-      "pct": 1.8
+      "name": "WI",
+      "shares": 2324587,
+      "holders": 3,
+      "pct": 3.4
     },
     {
       "name": "NC",
-      "shares": 598546,
+      "shares": 1749244,
+      "holders": 7,
+      "pct": 2.5
+    },
+    {
+      "name": "CT",
+      "shares": 1111801,
+      "holders": 7,
+      "pct": 1.6
+    },
+    {
+      "name": "TX",
+      "shares": 967869,
       "holders": 5,
-      "pct": 1.1
+      "pct": 1.4
     },
     {
-      "name": "VA",
-      "shares": 489956,
-      "holders": 5,
-      "pct": 0.9
+      "name": "MD",
+      "shares": 945682,
+      "holders": 4,
+      "pct": 1.4
     },
     {
-      "name": "NJ",
-      "shares": 471598,
-      "holders": 11,
-      "pct": 0.9
-    },
-    {
-      "name": "MI",
-      "shares": 470281,
-      "holders": 3,
-      "pct": 0.9
-    },
-    {
-      "name": "NE",
-      "shares": 450298,
-      "holders": 2,
-      "pct": 0.9
+      "name": "FL",
+      "shares": 817759,
+      "holders": 7,
+      "pct": 1.2
     }
   ],
   "countries": [
     {
       "name": "United Kingdom",
-      "shares": 1729200,
-      "holders": 9,
-      "pct": 3.3
-    },
-    {
-      "name": "France",
-      "shares": 366758,
-      "holders": 5,
-      "pct": 0.7
-    },
-    {
-      "name": "Ontario, Canada",
-      "shares": 344222,
-      "holders": 7,
-      "pct": 0.7
+      "shares": 2530476,
+      "holders": 13,
+      "pct": 3.6
     },
     {
       "name": "Quebec, Canada",
-      "shares": 340832,
-      "holders": 3,
-      "pct": 0.7
+      "shares": 1076080,
+      "holders": 4,
+      "pct": 1.6
+    },
+    {
+      "name": "Ontario, Canada",
+      "shares": 586893,
+      "holders": 6,
+      "pct": 0.8
+    },
+    {
+      "name": "France",
+      "shares": 364311,
+      "holders": 4,
+      "pct": 0.5
     },
     {
       "name": "Switzerland",
       "shares": 294438,
       "holders": 3,
-      "pct": 0.6
+      "pct": 0.4
     },
     {
       "name": "Japan",
-      "shares": 279936,
-      "holders": 8,
-      "pct": 0.5
+      "shares": 276552,
+      "holders": 7,
+      "pct": 0.4
+    },
+    {
+      "name": "Canada (Federal Level)",
+      "shares": 252059,
+      "holders": 1,
+      "pct": 0.4
     },
     {
       "name": "Sweden",
       "shares": 168121,
       "holders": 4,
-      "pct": 0.3
+      "pct": 0.2
     },
     {
       "name": "Germany",
       "shares": 152911,
       "holders": 3,
-      "pct": 0.3
+      "pct": 0.2
     },
     {
       "name": "Australia",
       "shares": 136797,
       "holders": 5,
-      "pct": 0.3
-    },
-    {
-      "name": "Netherlands",
-      "shares": 98267,
-      "holders": 3,
       "pct": 0.2
     }
   ],
   "metros": [
     {
       "name": "New York, NY",
-      "shares": 9436776,
-      "holders": 25,
-      "pct": 18.1
+      "shares": 13482122,
+      "holders": 38,
+      "pct": 19.4
     },
     {
       "name": "Boston, MA",
-      "shares": 9126679,
-      "holders": 10,
-      "pct": 17.5
+      "shares": 9567661,
+      "holders": 13,
+      "pct": 13.8
     },
     {
       "name": "Malvern, PA",
       "shares": 8567373,
       "holders": 4,
-      "pct": 16.4
+      "pct": 12.4
     },
     {
       "name": "Des Moines, IA",
       "shares": 7717635,
       "holders": 2,
-      "pct": 14.8
+      "pct": 11.1
     },
     {
       "name": "Chicago, IL",
-      "shares": 1779936,
+      "shares": 2860209,
       "holders": 9,
-      "pct": 3.4
+      "pct": 4.1
     },
     {
       "name": "London (United Kingdom)",
-      "shares": 1679814,
-      "holders": 7,
-      "pct": 3.2
+      "shares": 2481090,
+      "holders": 11,
+      "pct": 3.6
+    },
+    {
+      "name": "Madison, WI",
+      "shares": 2118107,
+      "holders": 1,
+      "pct": 3.1
     },
     {
       "name": "Los Angeles, CA",
-      "shares": 1572490,
-      "holders": 7,
-      "pct": 3
-    },
-    {
-      "name": "Omaha, NE",
-      "shares": 450298,
-      "holders": 2,
-      "pct": 0.9
-    },
-    {
-      "name": "Plymouth, MI",
-      "shares": 443590,
-      "holders": 1,
-      "pct": 0.8
-    },
-    {
-      "name": "Fairport, NY",
-      "shares": 438559,
-      "holders": 1,
-      "pct": 0.8
+      "shares": 1568347,
+      "holders": 6,
+      "pct": 2.3
     },
     {
       "name": "Charlotte, NC",
-      "shares": 436080,
-      "holders": 4,
-      "pct": 0.8
+      "shares": 1554675,
+      "holders": 5,
+      "pct": 2.2
     },
     {
-      "name": "Cobleskill, NY",
-      "shares": 433480,
-      "holders": 1,
-      "pct": 0.8
+      "name": "Montreal (Quebec, Canada)",
+      "shares": 1067414,
+      "holders": 3,
+      "pct": 1.5
+    },
+    {
+      "name": "Greenwich, CT",
+      "shares": 989115,
+      "holders": 3,
+      "pct": 1.4
+    },
+    {
+      "name": "Baltimore, MD",
+      "shares": 940875,
+      "holders": 3,
+      "pct": 1.4
     }
   ]
 }

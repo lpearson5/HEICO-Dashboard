@@ -1,22 +1,6 @@
 {
-  "lastUpdated": "2026-08-14T11:51:03.674Z",
+  "lastUpdated": "2026-08-15T11:27:13.565Z",
   "filers": [
-    {
-      "filer": "PRINCIPAL GLOBAL INVESTORS",
-      "form": "SC 13G/A",
-      "fileDate": "2024-02-13",
-      "shares": 9776413,
-      "pctClass": 11.7,
-      "url": "https://www.sec.gov/Archives/edgar/data/769734/000112632824000067/PGI_13GA_422806208_202312.txt"
-    },
-    {
-      "filer": "BlackRock Inc.  (BLK)",
-      "form": "SC 13G/A",
-      "fileDate": "2024-01-24",
-      "shares": 4994785,
-      "pctClass": 9.1,
-      "url": "https://www.sec.gov/Archives/edgar/data/1364742/000108636424002698/us4228061093_012424.txt"
-    },
     {
       "filer": "FMR LLC",
       "form": "SC 13G/A",
@@ -26,20 +10,36 @@
       "url": "https://www.sec.gov/Archives/edgar/data/315066/000031506624001266/filing.txt"
     },
     {
-      "filer": "Capital World Investors",
-      "form": "SC 13G/A",
-      "fileDate": "2024-11-13",
-      "shares": 4093780,
-      "pctClass": 7.5,
-      "url": "https://www.sec.gov/Archives/edgar/data/1422849/000142284924000095/SEC13G_Filing.htm"
-    },
-    {
       "filer": "VANGUARD GROUP INC",
       "form": "SC 13G/A",
       "fileDate": "2024-02-13",
-      "shares": 3620693,
-      "pctClass": 6.62,
+      "shares": null,
+      "pctClass": null,
       "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924021101/tv01099-heicocorp.htm"
+    },
+    {
+      "filer": "Capital World Investors",
+      "form": "SC 13G/A",
+      "fileDate": "2024-11-13",
+      "shares": null,
+      "pctClass": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1422849/000142284924000095/SEC13G_Filing.htm"
+    },
+    {
+      "filer": "BlackRock Inc.  (BLK)",
+      "form": "SC 13G/A",
+      "fileDate": "2024-01-24",
+      "shares": null,
+      "pctClass": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1364742/000108636424002698/us4228061093_012424.txt"
+    },
+    {
+      "filer": "PRINCIPAL GLOBAL INVESTORS",
+      "form": "SC 13G/A",
+      "fileDate": "2024-02-13",
+      "shares": null,
+      "pctClass": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/769734/000112632824000067/PGI_13GA_422806208_202312.txt"
     }
   ]
 }
