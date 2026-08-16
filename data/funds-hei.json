@@ -2,11 +2,11 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-15T11:27:13.565Z",
+  "lastUpdated": "2026-08-16T11:26:32.176Z",
   "summary": {
     "funds": 418,
-    "totalShares": 18661686,
-    "pctOut": 33.8252,
+    "totalShares": 18650576,
+    "pctOut": 33.805099999999996,
     "newFunds": 36,
     "sellouts": 52,
     "linkedManagers": 26,
@@ -2745,19 +2745,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Baird Mid Cap Growth Fund",
-      "registrant": "Baird Funds Inc",
-      "manager": "",
-      "cik": "1282693",
-      "shares": 55237,
-      "value": 15145985,
-      "reportDate": "2026-03-31",
-      "priorShares": 66168,
-      "change": -10931,
-      "pctOut": 0.1001,
-      "action": "Sold"
-    },
-    {
       "fundName": "Fidelity Enhanced Large Cap Growth ETF",
       "registrant": "Fidelity Covington Trust",
       "manager": "FMR (Fidelity)",
@@ -2938,6 +2925,19 @@
       "change": 0,
       "pctOut": 0.08009999999999999,
       "action": "No Change"
+    },
+    {
+      "fundName": "Baird Mid Cap Growth Fund",
+      "registrant": "Baird Funds Inc",
+      "manager": "",
+      "cik": "1282693",
+      "shares": 44127,
+      "value": 15717596,
+      "reportDate": "2026-06-30",
+      "priorShares": 55237,
+      "change": -11110,
+      "pctOut": 0.08,
+      "action": "Sold"
     },
     {
       "fundName": "VANGUARD TOTAL WORLD STOCK INDEX FUND",

@@ -2,15 +2,15 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84488320,
-  "lastUpdated": "2026-08-15T11:27:13.565Z",
+  "lastUpdated": "2026-08-16T11:26:32.176Z",
   "summary": {
     "funds": 349,
-    "totalShares": 29588508,
-    "pctOut": 35.0208,
+    "totalShares": 29588208,
+    "pctOut": 35.0205,
     "newFunds": 26,
     "sellouts": 32,
     "linkedManagers": 23,
-    "linkedShares": 25344864
+    "linkedShares": 25344564
   },
   "newHolders": [
     {
@@ -704,7 +704,7 @@
     {
       "manager": "FMR (Fidelity)",
       "fundCount": 38,
-      "shares": 4959802,
+      "shares": 4959502,
       "funds": [
         {
           "fundName": "Fidelity Magellan Fund",
@@ -820,7 +820,7 @@
         },
         {
           "fundName": "Guardian Select Mid Cap Core VIP Fund",
-          "shares": 6186
+          "shares": 5886
         },
         {
           "fundName": "AVIP BlackRock Advantage Large Cap Value Portfolio",
@@ -3724,19 +3724,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Guardian Select Mid Cap Core VIP Fund",
-      "registrant": "Guardian Variable Products Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "1668512",
-      "shares": 6186,
-      "value": 1305803,
-      "reportDate": "2026-03-31",
-      "priorShares": 6746,
-      "change": -560,
-      "pctOut": 0.0073,
-      "action": "Sold"
-    },
-    {
       "fundName": "VANGUARD RUSSELL 3000 INDEX FUND",
       "registrant": "VANGUARD SCOTTSDALE FUNDS",
       "manager": "Vanguard Group",
@@ -3774,6 +3761,19 @@
       "change": null,
       "pctOut": 0.0071,
       "action": "New"
+    },
+    {
+      "fundName": "Guardian Select Mid Cap Core VIP Fund",
+      "registrant": "Guardian Variable Products Trust",
+      "manager": "FMR (Fidelity)",
+      "cik": "1668512",
+      "shares": 5886,
+      "value": 1518058,
+      "reportDate": "2026-06-30",
+      "priorShares": 6186,
+      "change": -300,
+      "pctOut": 0.006999999999999999,
+      "action": "Sold"
     },
     {
       "fundName": "JNL/Mellon U.S. Stock Market Index Fund",
