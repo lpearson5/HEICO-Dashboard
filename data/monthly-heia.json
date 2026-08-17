@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84488320,
-  "lastUpdated": "2026-08-16T11:26:32.176Z",
+  "lastUpdated": "2026-08-17T11:33:10.731Z",
   "summary": {
-    "institutions": 655,
-    "totalShares": 69795758,
-    "pctOut": 82.61,
-    "newHolders": 108,
-    "sellouts": 75,
-    "bought": 248,
-    "sold": 210,
+    "institutions": 659,
+    "totalShares": 69807124,
+    "pctOut": 82.62,
+    "newHolders": 110,
+    "sellouts": 73,
+    "bought": 251,
+    "sold": 209,
     "held": 89
   },
   "top10": [
@@ -1139,6 +1139,24 @@
       "voteNone": 920
     },
     {
+      "filerName": "Proficio Capital Partners LLC",
+      "filerCik": "1654175",
+      "shares": [
+        913,
+        null,
+        null,
+        null
+      ],
+      "netChg": 913,
+      "currentValue": 235473,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 913,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "Azimuth Capital Investment Management LLC",
       "filerCik": "1942364",
       "shares": [
@@ -2075,6 +2093,24 @@
       "voteNone": 2
     },
     {
+      "filerName": "Highland Investment Advisors LLC",
+      "filerCik": "2149882",
+      "shares": [
+        2,
+        null,
+        null,
+        null
+      ],
+      "netChg": 2,
+      "currentValue": 516,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 2,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "Navigoe, LLC",
       "filerCik": "2056100",
       "shares": [
@@ -2545,24 +2581,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Empowered Funds, LLC",
-      "filerCik": "1592828",
-      "shares": [
-        null,
-        10056,
-        10012,
-        6311
-      ],
-      "netChg": -10056,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Trexquant Investment LP",
       "filerCik": "1633445",
       "shares": [
@@ -2815,15 +2833,15 @@
       "voteNone": null
     },
     {
-      "filerName": "MASTERINVEST Kapitalanlage GmbH",
-      "filerCik": "2075029",
+      "filerName": "SIGNATURE ESTATE & INVESTMENT ADVISORS LLC",
+      "filerCik": "1079935",
       "shares": [
         null,
-        1060,
-        null,
-        null
+        1183,
+        1145,
+        1360
       ],
-      "netChg": -1060,
+      "netChg": -1183,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -2833,13 +2851,13 @@
       "voteNone": null
     },
     {
-      "filerName": "UNITED CAPITAL FINANCIAL ADVISORS, LLC",
-      "filerCik": "1463217",
+      "filerName": "MASTERINVEST Kapitalanlage GmbH",
+      "filerCik": "2075029",
       "shares": [
         null,
         1060,
-        890,
-        891
+        null,
+        null
       ],
       "netChg": -1060,
       "currentValue": null,
@@ -3130,24 +3148,6 @@
         78
       ],
       "netChg": -78,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Transamerica Financial Advisors, LLC",
-      "filerCik": "1502149",
-      "shares": [
-        null,
-        68,
-        30,
-        38
-      ],
-      "netChg": -68,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -5127,7 +5127,7 @@
         120673,
         117128,
         119242,
-        null
+        108311
       ],
       "netChg": 3545,
       "currentValue": 31122773,
@@ -7713,6 +7713,24 @@
       "voteNone": 0
     },
     {
+      "filerName": "Empowered Funds, LLC",
+      "filerCik": "1592828",
+      "shares": [
+        10245,
+        10056,
+        10012,
+        6311
+      ],
+      "netChg": 189,
+      "currentValue": 2640957,
+      "pctOut": 0.01,
+      "action": "Bought",
+      "discretion": "OTR",
+      "voteSole": 10245,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "DekaBank Deutsche Girozentrale",
       "filerCik": "1456228",
       "shares": [
@@ -9987,7 +10005,7 @@
         2853,
         2931,
         3177,
-        3177
+        null
       ],
       "netChg": -78,
       "currentValue": 735817,
@@ -11493,6 +11511,24 @@
       "voteNone": 1150
     },
     {
+      "filerName": "UNITED CAPITAL FINANCIAL ADVISORS, LLC",
+      "filerCik": "1463217",
+      "shares": [
+        1166,
+        1060,
+        890,
+        891
+      ],
+      "netChg": 106,
+      "currentValue": 300785,
+      "pctOut": 0,
+      "action": "Bought",
+      "discretion": "DFND",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 1166
+    },
+    {
       "filerName": "Leonteq Securities AG",
       "filerCik": "1535950",
       "shares": [
@@ -11725,24 +11761,6 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 1057
-    },
-    {
-      "filerName": "SIGNATURE ESTATE & INVESTMENT ADVISORS LLC",
-      "filerCik": "1079935",
-      "shares": [
-        1055,
-        1183,
-        1145,
-        1360
-      ],
-      "netChg": -128,
-      "currentValue": 272095,
-      "pctOut": 0,
-      "action": "Sold",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 1055
     },
     {
       "filerName": "IFC Advisors LLC",
@@ -12013,6 +12031,24 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 920
+    },
+    {
+      "filerName": "Proficio Capital Partners LLC",
+      "filerCik": "1654175",
+      "shares": [
+        913,
+        null,
+        null,
+        null
+      ],
+      "netChg": 913,
+      "currentValue": 235473,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 913,
+      "voteShared": 0,
+      "voteNone": 0
     },
     {
       "filerName": "Azimuth Capital Investment Management LLC",
@@ -13172,7 +13208,7 @@
       "shares": [
         169,
         162,
-        154,
+        null,
         154
       ],
       "netChg": 7,
@@ -13525,6 +13561,24 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 96
+    },
+    {
+      "filerName": "Transamerica Financial Advisors, LLC",
+      "filerCik": "1502149",
+      "shares": [
+        95,
+        68,
+        30,
+        38
+      ],
+      "netChg": 27,
+      "currentValue": 24517,
+      "pctOut": 0,
+      "action": "Bought",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 95
     },
     {
       "filerName": "Salomon & Ludwin, LLC",
@@ -15075,6 +15129,24 @@
       "voteNone": 2
     },
     {
+      "filerName": "Highland Investment Advisors LLC",
+      "filerCik": "2149882",
+      "shares": [
+        2,
+        null,
+        null,
+        null
+      ],
+      "netChg": 2,
+      "currentValue": 516,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 2,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "Nemes Rush Group LLC",
       "filerCik": "1982273",
       "shares": [
@@ -16227,24 +16299,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Empowered Funds, LLC",
-      "filerCik": "1592828",
-      "shares": [
-        null,
-        10056,
-        10012,
-        6311
-      ],
-      "netChg": -10056,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "HARBOR INVESTMENT ADVISORY, LLC",
       "filerCik": "1468792",
       "shares": [
@@ -16326,24 +16380,6 @@
         null
       ],
       "netChg": -6,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "UNITED CAPITAL FINANCIAL ADVISORS, LLC",
-      "filerCik": "1463217",
-      "shares": [
-        null,
-        1060,
-        890,
-        891
-      ],
-      "netChg": -1060,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -16509,24 +16545,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Transamerica Financial Advisors, LLC",
-      "filerCik": "1502149",
-      "shares": [
-        null,
-        68,
-        30,
-        38
-      ],
-      "netChg": -68,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -17445,6 +17463,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "SIGNATURE ESTATE & INVESTMENT ADVISORS LLC",
+      "filerCik": "1079935",
+      "shares": [
+        null,
+        1183,
+        1145,
+        1360
+      ],
+      "netChg": -1183,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
