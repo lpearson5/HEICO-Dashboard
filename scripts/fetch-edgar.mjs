@@ -204,13 +204,23 @@ function parseInfoTable(xml) {
     // CUSIP and would inflate the share count. Count actual shares only.
     const pc = (tag(b, "putCall") ?? "").trim().toUpperCase();
     if (pc === "PUT" || pc === "CALL") continue;
-    const shares = parseInt((tag(b, "sshPrnamt") ?? "0").replace(/,/g, ""), 10) || 0;
+    let   shares = parseInt((tag(b, "sshPrnamt") ?? "0").replace(/,/g, ""), 10) || 0;
     const value  = parseInt((tag(b, "value")     ?? "0").replace(/,/g, ""), 10) || 0;
     // Investment discretion (SOLE/DFND/OTR) and voting authority (Sole/Shared/None).
     const disc = (tag(b, "investmentDiscretion") ?? "").trim().toUpperCase();
     const voteSole   = parseInt((tag(b, "Sole")   ?? "0").replace(/,/g, ""), 10) || 0;
     const voteShared = parseInt((tag(b, "Shared") ?? "0").replace(/,/g, ""), 10) || 0;
     const voteNone   = parseInt((tag(b, "None")   ?? "0").replace(/,/g, ""), 10) || 0;
+    // Guard against a filer data-entry error where the share count is mistakenly
+    // set equal to the dollar value. 13F value is reported in whole dollars, so for
+    // any stock above ~$1 the shares can never legitimately equal the value. When
+    // they do, and the voting-authority total gives a different (real) count, trust
+    // the voting total. (e.g. Diamant's Q1-2026 HEICO filing: sshPrnamt=value=763,647
+    // but voting authority = the true 2,785 shares.)
+    const voteTotal = voteSole + voteShared + voteNone;
+    if (shares > 0 && shares === value && voteTotal > 0 && voteTotal !== shares) {
+      shares = voteTotal;
+    }
     // A filing can list a CUSIP across multiple rows (share classes/lots) — sum them.
     const prev = out[ticker];
     out[ticker] = {
