@@ -2,11 +2,11 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-18T11:32:15.682Z",
+  "lastUpdated": "2026-08-19T11:32:10.539Z",
   "summary": {
     "funds": 418,
-    "totalShares": 18650576,
-    "pctOut": 33.805099999999996,
+    "totalShares": 18594576,
+    "pctOut": 33.7036,
     "newFunds": 36,
     "sellouts": 52,
     "linkedManagers": 26,
@@ -2212,19 +2212,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "VALUE LINE MID CAP FOCUSED FUND, INC.",
-      "registrant": "Value Line Mid Cap Focused Fund, Inc.",
-      "manager": "",
-      "cik": "102756",
-      "shares": 306297,
-      "value": 83986637,
-      "reportDate": "2026-03-31",
-      "priorShares": 317297,
-      "change": -11000,
-      "pctOut": 0.5551999999999999,
-      "action": "Sold"
-    },
-    {
       "fundName": "iShares Russell Mid-Cap Growth ETF",
       "registrant": "iShares Trust",
       "manager": "BlackRock",
@@ -2235,6 +2222,19 @@
       "priorShares": 294272,
       "change": -9116,
       "pctOut": 0.5169,
+      "action": "Sold"
+    },
+    {
+      "fundName": "VALUE LINE MID CAP FOCUSED FUND, INC.",
+      "registrant": "Value Line Mid Cap Focused Fund, Inc.",
+      "manager": "",
+      "cik": "102756",
+      "shares": 250297,
+      "value": 89153288,
+      "reportDate": "2026-06-30",
+      "priorShares": 306297,
+      "change": -56000,
+      "pctOut": 0.45370000000000005,
       "action": "Sold"
     },
     {
@@ -3608,8 +3608,8 @@
       "manager": "",
       "cik": "904170",
       "shares": 16400,
-      "value": 4496880,
-      "reportDate": "2026-03-31",
+      "value": 5841516,
+      "reportDate": "2026-06-30",
       "priorShares": 16400,
       "change": 0,
       "pctOut": 0.0297,
