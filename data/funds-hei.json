@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-19T11:32:10.539Z",
+  "lastUpdated": "2026-08-20T11:33:58.561Z",
   "summary": {
     "funds": 418,
-    "totalShares": 18594576,
-    "pctOut": 33.7036,
-    "newFunds": 36,
-    "sellouts": 52,
+    "totalShares": 18572709,
+    "pctOut": 33.663900000000005,
+    "newFunds": 37,
+    "sellouts": 53,
     "linkedManagers": 26,
-    "linkedShares": 15988288
+    "linkedShares": 15953496
   },
   "newHolders": [
     {
@@ -154,6 +154,19 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.022000000000000002,
+      "action": "New"
+    },
+    {
+      "fundName": "Growth Stock Portfolio",
+      "registrant": "NORTHWESTERN MUTUAL SERIES FUND INC",
+      "manager": "",
+      "cik": "742212",
+      "shares": 11100,
+      "value": 3953709,
+      "reportDate": "2026-06-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0201,
       "action": "New"
     },
     {
@@ -483,6 +496,13 @@
     }
   ],
   "sellouts": [
+    {
+      "fundName": "State Street(R) SPDR(R) S&amp;P Kensho New Economies Composite ETF",
+      "registrant": "SPDR SERIES TRUST",
+      "manager": "State Street",
+      "lastShares": 34669,
+      "lastReport": "2025-12-31"
+    },
     {
       "fundName": "Invesco V.I. Discovery Mid Cap Growth Fund",
       "registrant": "AIM Variable Insurance Funds (Invesco Variable Insurance Funds)",
@@ -1358,16 +1378,12 @@
     },
     {
       "manager": "State Street",
-      "fundCount": 11,
-      "shares": 688366,
+      "fundCount": 10,
+      "shares": 653574,
       "funds": [
         {
           "fundName": "State Street(R) SPDR(R) S&amp;P(R) Aerospace &amp; Defense ETF",
           "shares": 624312
-        },
-        {
-          "fundName": "State Street(R) SPDR(R) S&amp;P Kensho New Economies Composite ETF",
-          "shares": 34792
         },
         {
           "fundName": "STATE STREET SMALL/MID CAP EQUITY INDEX PORTFOLIO",
@@ -3083,19 +3099,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "State Street(R) SPDR(R) S&amp;P Kensho New Economies Composite ETF",
-      "registrant": "SPDR SERIES TRUST",
-      "manager": "State Street",
-      "cik": "1064642",
-      "shares": 34792,
-      "value": 9539966,
-      "reportDate": "2026-03-31",
-      "priorShares": 34669,
-      "change": 123,
-      "pctOut": 0.0631,
-      "action": "Bought"
-    },
-    {
       "fundName": "VY(R) T. ROWE PRICE DIVERSIFIED MID CAP GROWTH PORTFOLIO",
       "registrant": "Voya Partners Inc",
       "manager": "T. Rowe Price",
@@ -3863,6 +3866,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Growth Stock Portfolio",
+      "registrant": "NORTHWESTERN MUTUAL SERIES FUND INC",
+      "manager": "",
+      "cik": "742212",
+      "shares": 11100,
+      "value": 3953709,
+      "reportDate": "2026-06-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0201,
+      "action": "New"
+    },
+    {
       "fundName": "Goldman Sachs ActiveBeta(R) U.S. Large Cap Equity ETF",
       "registrant": "Goldman Sachs ETF Trust",
       "manager": "Goldman Sachs",
@@ -4162,6 +4178,19 @@
       "action": "New"
     },
     {
+      "fundName": "RMB SMID Cap Fund",
+      "registrant": "RMB Investors Trust",
+      "manager": "",
+      "cik": "30126",
+      "shares": 8572,
+      "value": 3053261,
+      "reportDate": "2026-06-30",
+      "priorShares": 6747,
+      "change": 1825,
+      "pctOut": 0.0155,
+      "action": "Bought"
+    },
+    {
       "fundName": "Bridge Builder Tax Managed Small/Mid Cap Fund",
       "registrant": "Bridge Builder Trust",
       "manager": "",
@@ -4353,19 +4382,6 @@
       "reportDate": "2026-03-31",
       "priorShares": 6954,
       "change": -200,
-      "pctOut": 0.012199999999999999,
-      "action": "Sold"
-    },
-    {
-      "fundName": "RMB SMID Cap Fund",
-      "registrant": "RMB Investors Trust",
-      "manager": "",
-      "cik": "30126",
-      "shares": 6747,
-      "value": 1850027,
-      "reportDate": "2026-03-31",
-      "priorShares": 7013,
-      "change": -266,
       "pctOut": 0.012199999999999999,
       "action": "Sold"
     },

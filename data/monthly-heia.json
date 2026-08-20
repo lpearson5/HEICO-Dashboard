@@ -8,13 +8,13 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84488320,
-  "lastUpdated": "2026-08-19T11:32:10.539Z",
+  "lastUpdated": "2026-08-20T11:33:58.561Z",
   "summary": {
-    "institutions": 664,
-    "totalShares": 69947690,
+    "institutions": 666,
+    "totalShares": 69949684,
     "pctOut": 82.78999999999999,
-    "newHolders": 109,
-    "sellouts": 67,
+    "newHolders": 111,
+    "sellouts": 66,
     "bought": 253,
     "sold": 212,
     "held": 90
@@ -217,6 +217,24 @@
       "action": "New",
       "discretion": "SOLE",
       "voteSole": 1376894,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "Port Capital LLC",
+      "filerCik": "1729212",
+      "shares": [
+        804484,
+        null,
+        860156,
+        856191
+      ],
+      "netChg": 804484,
+      "currentValue": 207484468,
+      "pctOut": 0.95,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 804484,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -811,6 +829,24 @@
       "action": "New",
       "discretion": "SOLE",
       "voteSole": 1979,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "TRANSCEND CAPITAL ADVISORS, LLC",
+      "filerCik": "1776082",
+      "shares": [
+        1845,
+        null,
+        null,
+        null
+      ],
+      "netChg": 1845,
+      "currentValue": 475881,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 1845,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -2941,24 +2977,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Harvest Fund Management Co., Ltd",
-      "filerCik": "1694126",
-      "shares": [
-        null,
-        139,
-        2835,
-        2835
-      ],
-      "netChg": -139,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Atlantic Union Bankshares Corp  (AUB, AUB-PA)",
       "filerCik": "883948",
       "shares": [
@@ -3631,14 +3649,14 @@
       "filerCik": "1729212",
       "shares": [
         804484,
-        826086,
+        null,
         860156,
         856191
       ],
-      "netChg": -21602,
+      "netChg": 804484,
       "currentValue": 207484468,
       "pctOut": 0.95,
-      "action": "Sold",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 804484,
       "voteShared": 0,
@@ -7824,17 +7842,17 @@
       "filerName": "MERCER GLOBAL ADVISORS INC /ADV",
       "filerCik": "853758",
       "shares": [
-        9620,
+        9634,
         4937,
         3594,
         2446
       ],
-      "netChg": 4683,
-      "currentValue": 2480968,
+      "netChg": 4697,
+      "currentValue": 2484579,
       "pctOut": 0.01,
       "action": "Bought",
       "discretion": "SOLE",
-      "voteSole": 1924,
+      "voteSole": 1938,
       "voteShared": 0,
       "voteNone": 7695
     },
@@ -10593,6 +10611,24 @@
       "voteNone": 0
     },
     {
+      "filerName": "TRANSCEND CAPITAL ADVISORS, LLC",
+      "filerCik": "1776082",
+      "shares": [
+        1845,
+        null,
+        null,
+        null
+      ],
+      "netChg": 1845,
+      "currentValue": 475881,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 1845,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "Kera Capital Partners, Inc.",
       "filerCik": "2040353",
       "shares": [
@@ -11502,7 +11538,7 @@
         1161
       ],
       "netChg": 0,
-      "currentValue": 245075,
+      "currentValue": 299433,
       "pctOut": 0,
       "action": "No Change",
       "discretion": "SOLE",
@@ -13327,6 +13363,24 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 142
+    },
+    {
+      "filerName": "Harvest Fund Management Co., Ltd",
+      "filerCik": "1694126",
+      "shares": [
+        135,
+        139,
+        2835,
+        2835
+      ],
+      "netChg": -4,
+      "currentValue": 35,
+      "pctOut": 0,
+      "action": "Sold",
+      "discretion": "SOLE",
+      "voteSole": 35,
+      "voteShared": 0,
+      "voteNone": 0
     },
     {
       "filerName": "Rossby Financial, LCC",
@@ -15687,24 +15741,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Harvest Fund Management Co., Ltd",
-      "filerCik": "1694126",
-      "shares": [
-        null,
-        139,
-        2835,
-        2835
-      ],
-      "netChg": -139,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "FORSTA AP-FONDEN",
       "filerCik": "1603328",
       "shares": [
@@ -15831,13 +15867,13 @@
       "voteNone": null
     },
     {
-      "filerName": "PharVision Advisers, LLC",
-      "filerCik": "1898824",
+      "filerName": "Capital World Investors",
+      "filerCik": "1422849",
       "shares": [
         null,
         null,
-        null,
-        1674
+        311861,
+        310502
       ],
       "netChg": null,
       "currentValue": null,
@@ -15849,13 +15885,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Capital World Investors",
-      "filerCik": "1422849",
+      "filerName": "PharVision Advisers, LLC",
+      "filerCik": "1898824",
       "shares": [
         null,
         null,
-        311861,
-        310502
+        null,
+        1674
       ],
       "netChg": null,
       "currentValue": null,
@@ -16437,6 +16473,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Trexquant Investment LP",
+      "filerCik": "1633445",
+      "shares": [
+        null,
+        9237,
+        30817,
+        null
+      ],
+      "netChg": -9237,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -17361,13 +17415,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Alberta Investment Management Corp",
-      "filerCik": "1463559",
+      "filerName": "Accredited Wealth Management, LLC",
+      "filerCik": "2056519",
       "shares": [
         null,
         null,
-        1100,
-        1100
+        null,
+        799
       ],
       "netChg": null,
       "currentValue": null,
@@ -17379,13 +17433,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Accredited Wealth Management, LLC",
-      "filerCik": "2056519",
+      "filerName": "Alberta Investment Management Corp",
+      "filerCik": "1463559",
       "shares": [
         null,
         null,
-        null,
-        799
+        1100,
+        1100
       ],
       "netChg": null,
       "currentValue": null,
@@ -17901,13 +17955,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Point72 (DIFC) Ltd",
-      "filerCik": "2017863",
+      "filerName": "TUCKER ASSET MANAGEMENT LLC",
+      "filerCik": "1870012",
       "shares": [
         null,
         null,
-        null,
-        5932
+        12,
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -17919,13 +17973,13 @@
       "voteNone": null
     },
     {
-      "filerName": "TUCKER ASSET MANAGEMENT LLC",
-      "filerCik": "1870012",
+      "filerName": "Point72 (DIFC) Ltd",
+      "filerCik": "2017863",
       "shares": [
         null,
         null,
-        12,
-        null
+        null,
+        5932
       ],
       "netChg": null,
       "currentValue": null,
@@ -17982,24 +18036,6 @@
         null
       ],
       "netChg": -8,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Trexquant Investment LP",
-      "filerCik": "1633445",
-      "shares": [
-        null,
-        9237,
-        30817,
-        null
-      ],
-      "netChg": -9237,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",

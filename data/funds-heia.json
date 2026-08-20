@@ -2,11 +2,11 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84488320,
-  "lastUpdated": "2026-08-19T11:32:10.539Z",
+  "lastUpdated": "2026-08-20T11:33:58.561Z",
   "summary": {
     "funds": 349,
-    "totalShares": 29588208,
-    "pctOut": 35.0205,
+    "totalShares": 29599196,
+    "pctOut": 35.033500000000004,
     "newFunds": 26,
     "sellouts": 32,
     "linkedManagers": 23,
@@ -2203,6 +2203,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "Mid Cap Growth Stock Portfolio",
+      "registrant": "NORTHWESTERN MUTUAL SERIES FUND INC",
+      "manager": "",
+      "cik": "742212",
+      "shares": 68902,
+      "value": 17770515,
+      "reportDate": "2026-06-30",
+      "priorShares": 57914,
+      "change": 10988,
+      "pctOut": 0.0816,
+      "action": "Bought"
+    },
+    {
       "fundName": "Blackstone Alternative Multi-Strategy Fund",
       "registrant": "Blackstone Alternative Investment Funds",
       "manager": "",
@@ -2278,19 +2291,6 @@
       "priorShares": 68000,
       "change": -10000,
       "pctOut": 0.0686,
-      "action": "Sold"
-    },
-    {
-      "fundName": "Mid Cap Growth Stock Portfolio",
-      "registrant": "NORTHWESTERN MUTUAL SERIES FUND INC",
-      "manager": "",
-      "cik": "742212",
-      "shares": 57914,
-      "value": 12225066,
-      "reportDate": "2026-03-31",
-      "priorShares": 58306,
-      "change": -392,
-      "pctOut": 0.06849999999999999,
       "action": "Sold"
     },
     {

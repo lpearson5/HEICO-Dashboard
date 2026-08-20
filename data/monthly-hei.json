@@ -8,16 +8,16 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-19T11:32:10.539Z",
+  "lastUpdated": "2026-08-20T11:33:58.561Z",
   "summary": {
-    "institutions": 766,
-    "totalShares": 43719880,
-    "pctOut": 79.24,
+    "institutions": 767,
+    "totalShares": 43708212,
+    "pctOut": 79.22,
     "newHolders": 120,
-    "sellouts": 95,
+    "sellouts": 94,
     "bought": 254,
-    "sold": 261,
-    "held": 131
+    "sold": 260,
+    "held": 133
   },
   "top10": [
     {
@@ -2635,6 +2635,24 @@
       "voteNone": null
     },
     {
+      "filerName": "K.J. Harrison & Partners Inc",
+      "filerCik": "1418359",
+      "shares": [
+        null,
+        12300,
+        12300,
+        13340
+      ],
+      "netChg": -12300,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Twin Tree Management, LP",
       "filerCik": "1535588",
       "shares": [
@@ -3571,24 +3589,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Harvest Fund Management Co., Ltd",
-      "filerCik": "1694126",
-      "shares": [
-        null,
-        227,
-        1629,
-        1629
-      ],
-      "netChg": -227,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Andra AP-fonden",
       "filerCik": "1535452",
       "shares": [
@@ -3634,24 +3634,6 @@
         null
       ],
       "netChg": -112,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Costello Asset Management, INC",
-      "filerCik": "1760145",
-      "shares": [
-        null,
-        100,
-        100,
-        100
-      ],
-      "netChg": -100,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -8001,24 +7983,6 @@
       "voteNone": 0
     },
     {
-      "filerName": "K.J. Harrison & Partners Inc",
-      "filerCik": "1418359",
-      "shares": [
-        12000,
-        12300,
-        12300,
-        13340
-      ],
-      "netChg": -300,
-      "currentValue": 4274280,
-      "pctOut": 0.02,
-      "action": "Sold",
-      "discretion": "SOLE",
-      "voteSole": 12000,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
       "filerName": "Hennion & Walsh Asset Management, Inc.",
       "filerCik": "1861642",
       "shares": [
@@ -8096,7 +8060,7 @@
       "shares": [
         11303,
         7569,
-        164036,
+        null,
         116437
       ],
       "netChg": 3734,
@@ -8799,7 +8763,7 @@
         7840,
         12991,
         15753,
-        19429
+        null
       ],
       "netChg": -5151,
       "currentValue": 2792530,
@@ -9516,17 +9480,17 @@
       "filerName": "MERCER GLOBAL ADVISORS INC /ADV",
       "filerCik": "853758",
       "shares": [
-        5319,
+        5326,
         6052,
         8122,
         5915
       ],
-      "netChg": -733,
-      "currentValue": 1894672,
+      "netChg": -726,
+      "currentValue": 1897165,
       "pctOut": 0.01,
       "action": "Sold",
       "discretion": "SOLE",
-      "voteSole": 348,
+      "voteSole": 355,
       "voteShared": 0,
       "voteNone": 4971
     },
@@ -15525,6 +15489,24 @@
       "voteNone": 0
     },
     {
+      "filerName": "Harvest Fund Management Co., Ltd",
+      "filerCik": "1694126",
+      "shares": [
+        225,
+        227,
+        1629,
+        1629
+      ],
+      "netChg": -2,
+      "currentValue": 80,
+      "pctOut": 0,
+      "action": "Sold",
+      "discretion": "SOLE",
+      "voteSole": 80,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "Miller Capital Partners, Inc.",
       "filerCik": "2111377",
       "shares": [
@@ -15915,6 +15897,24 @@
       "currentValue": 35619,
       "pctOut": 0,
       "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 100
+    },
+    {
+      "filerName": "Costello Asset Management, INC",
+      "filerCik": "1760145",
+      "shares": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "netChg": 0,
+      "currentValue": 35619,
+      "pctOut": 0,
+      "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -16880,7 +16880,7 @@
       "shares": [
         16,
         16,
-        15,
+        null,
         15
       ],
       "netChg": 0,
@@ -18459,6 +18459,24 @@
       "voteNone": null
     },
     {
+      "filerName": "K.J. Harrison & Partners Inc",
+      "filerCik": "1418359",
+      "shares": [
+        null,
+        12300,
+        12300,
+        13340
+      ],
+      "netChg": -12300,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "TOBAM",
       "filerCik": "1527488",
       "shares": [
@@ -18729,24 +18747,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Silicon Valley Capital Partners",
-      "filerCik": "1673633",
-      "shares": [
-        null,
-        71,
-        71,
-        71
-      ],
-      "netChg": -71,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Optimize Financial Inc",
       "filerCik": "2033266",
       "shares": [
@@ -18765,15 +18765,15 @@
       "voteNone": null
     },
     {
-      "filerName": "Ghisallo Capital Management LLC",
-      "filerCik": "1825214",
+      "filerName": "Silicon Valley Capital Partners",
+      "filerCik": "1673633",
       "shares": [
         null,
-        90000,
-        null,
-        null
+        71,
+        71,
+        71
       ],
-      "netChg": -90000,
+      "netChg": -71,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -18792,6 +18792,24 @@
         2949
       ],
       "netChg": -2985,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Ghisallo Capital Management LLC",
+      "filerCik": "1825214",
+      "shares": [
+        null,
+        90000,
+        null,
+        null
+      ],
+      "netChg": -90000,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -18945,12 +18963,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Integrated Quantitative Investments LLC",
-      "filerCik": "2046834",
+      "filerName": "Reyes Financial Architecture, Inc.",
+      "filerCik": "2047201",
       "shares": [
         null,
         null,
-        4211,
+        8,
         null
       ],
       "netChg": null,
@@ -18963,12 +18981,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Reyes Financial Architecture, Inc.",
-      "filerCik": "2047201",
+      "filerName": "Integrated Quantitative Investments LLC",
+      "filerCik": "2046834",
       "shares": [
         null,
         null,
-        8,
+        4211,
         null
       ],
       "netChg": null,
@@ -19377,18 +19395,18 @@
       "voteNone": null
     },
     {
-      "filerName": "Harvest Fund Management Co., Ltd",
-      "filerCik": "1694126",
+      "filerName": "FineMark National Bank & Trust",
+      "filerCik": "1537720",
       "shares": [
         null,
-        227,
-        1629,
-        1629
+        null,
+        1396,
+        1396
       ],
-      "netChg": -227,
+      "netChg": null,
       "currentValue": null,
       "pctOut": null,
-      "action": "Sellout",
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19402,24 +19420,6 @@
         null,
         40,
         40
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "FineMark National Bank & Trust",
-      "filerCik": "1537720",
-      "shares": [
-        null,
-        null,
-        1396,
-        1396
       ],
       "netChg": null,
       "currentValue": null,
@@ -19773,13 +19773,13 @@
       "voteNone": null
     },
     {
-      "filerName": "GF FUND MANAGEMENT CO. LTD.",
-      "filerCik": "2057060",
+      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
+      "filerCik": "1510434",
       "shares": [
         null,
         null,
-        3884,
-        3884
+        1447,
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -19791,13 +19791,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
-      "filerCik": "1510434",
+      "filerName": "GF FUND MANAGEMENT CO. LTD.",
+      "filerCik": "2057060",
       "shares": [
         null,
         null,
-        1447,
-        null
+        3884,
+        3884
       ],
       "netChg": null,
       "currentValue": null,
@@ -19863,24 +19863,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Costello Asset Management, INC",
-      "filerCik": "1760145",
-      "shares": [
-        null,
-        100,
-        100,
-        100
-      ],
-      "netChg": -100,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Legato Capital Management LLC",
       "filerCik": "1442641",
       "shares": [
@@ -19899,13 +19881,13 @@
       "voteNone": null
     },
     {
-      "filerName": "PharVision Advisers, LLC",
-      "filerCik": "1898824",
+      "filerName": "Dakota Wealth Management",
+      "filerCik": "1631353",
       "shares": [
         null,
         null,
-        null,
-        664
+        5190,
+        5060
       ],
       "netChg": null,
       "currentValue": null,
@@ -19917,13 +19899,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Dakota Wealth Management",
-      "filerCik": "1631353",
+      "filerName": "PharVision Advisers, LLC",
+      "filerCik": "1898824",
       "shares": [
         null,
         null,
-        5190,
-        5060
+        null,
+        664
       ],
       "netChg": null,
       "currentValue": null,
@@ -21255,7 +21237,7 @@
         null,
         null,
         518,
-        769
+        null
       ],
       "netChg": null,
       "currentValue": null,
