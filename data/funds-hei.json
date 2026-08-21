@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-20T11:33:58.561Z",
+  "lastUpdated": "2026-08-21T11:33:23.631Z",
   "summary": {
-    "funds": 418,
-    "totalShares": 18572709,
-    "pctOut": 33.663900000000005,
-    "newFunds": 37,
-    "sellouts": 53,
+    "funds": 420,
+    "totalShares": 18629250,
+    "pctOut": 33.766400000000004,
+    "newFunds": 38,
+    "sellouts": 52,
     "linkedManagers": 26,
-    "linkedShares": 15953496
+    "linkedShares": 16010037
   },
   "newHolders": [
     {
@@ -89,6 +89,19 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.0433,
+      "action": "New"
+    },
+    {
+      "fundName": "Empower T. Rowe Price Mid Cap Growth Fund",
+      "registrant": "EMPOWER FUNDS, INC.",
+      "manager": "T. Rowe Price",
+      "cik": "356476",
+      "shares": 21749,
+      "value": 7746776,
+      "reportDate": "2026-06-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0394,
       "action": "New"
     },
     {
@@ -496,13 +509,6 @@
     }
   ],
   "sellouts": [
-    {
-      "fundName": "State Street(R) SPDR(R) S&amp;P Kensho New Economies Composite ETF",
-      "registrant": "SPDR SERIES TRUST",
-      "manager": "State Street",
-      "lastShares": 34669,
-      "lastReport": "2025-12-31"
-    },
     {
       "fundName": "Invesco V.I. Discovery Mid Cap Growth Fund",
       "registrant": "AIM Variable Insurance Funds (Invesco Variable Insurance Funds)",
@@ -1378,12 +1384,16 @@
     },
     {
       "manager": "State Street",
-      "fundCount": 10,
-      "shares": 653574,
+      "fundCount": 11,
+      "shares": 688366,
       "funds": [
         {
           "fundName": "State Street(R) SPDR(R) S&amp;P(R) Aerospace &amp; Defense ETF",
           "shares": 624312
+        },
+        {
+          "fundName": "State Street(R) SPDR(R) S&amp;P Kensho New Economies Composite ETF",
+          "shares": 34792
         },
         {
           "fundName": "STATE STREET SMALL/MID CAP EQUITY INDEX PORTFOLIO",
@@ -1597,6 +1607,61 @@
       ]
     },
     {
+      "manager": "T. Rowe Price",
+      "fundCount": 12,
+      "shares": 235359,
+      "funds": [
+        {
+          "fundName": "T. Rowe Price Diversified Mid-Cap Growth Fund, Inc.",
+          "shares": 159415
+        },
+        {
+          "fundName": "VY(R) T. ROWE PRICE DIVERSIFIED MID CAP GROWTH PORTFOLIO",
+          "shares": 33340
+        },
+        {
+          "fundName": "Empower T. Rowe Price Mid Cap Growth Fund",
+          "shares": 21749
+        },
+        {
+          "fundName": "T. Rowe Price Spectrum Moderate Growth Allocation Fund",
+          "shares": 5100
+        },
+        {
+          "fundName": "T. Rowe Price Extended Equity Market Index Fund",
+          "shares": 4795
+        },
+        {
+          "fundName": "T. Rowe Price Tax-Efficient Equity Fund",
+          "shares": 4000
+        },
+        {
+          "fundName": "T. Rowe Price Mid-Cap Index Fund",
+          "shares": 3527
+        },
+        {
+          "fundName": "T. Rowe Price Spectrum Moderate Allocation Fund",
+          "shares": 2000
+        },
+        {
+          "fundName": "T. Rowe Price Spectrum Conservative Allocation Fund",
+          "shares": 1300
+        },
+        {
+          "fundName": "SA T. Rowe Price VCP Balanced Portfolio",
+          "shares": 71
+        },
+        {
+          "fundName": "SA T. Rowe Price Allocation Moderately Aggressive Portfolio",
+          "shares": 45
+        },
+        {
+          "fundName": "T. Rowe Price Global Allocation Fund",
+          "shares": 17
+        }
+      ]
+    },
+    {
       "manager": "Voya",
       "fundCount": 10,
       "shares": 225403,
@@ -1640,57 +1705,6 @@
         {
           "fundName": "Voya VACS Series LCC Fund",
           "shares": 48
-        }
-      ]
-    },
-    {
-      "manager": "T. Rowe Price",
-      "fundCount": 11,
-      "shares": 213610,
-      "funds": [
-        {
-          "fundName": "T. Rowe Price Diversified Mid-Cap Growth Fund, Inc.",
-          "shares": 159415
-        },
-        {
-          "fundName": "VY(R) T. ROWE PRICE DIVERSIFIED MID CAP GROWTH PORTFOLIO",
-          "shares": 33340
-        },
-        {
-          "fundName": "T. Rowe Price Spectrum Moderate Growth Allocation Fund",
-          "shares": 5100
-        },
-        {
-          "fundName": "T. Rowe Price Extended Equity Market Index Fund",
-          "shares": 4795
-        },
-        {
-          "fundName": "T. Rowe Price Tax-Efficient Equity Fund",
-          "shares": 4000
-        },
-        {
-          "fundName": "T. Rowe Price Mid-Cap Index Fund",
-          "shares": 3527
-        },
-        {
-          "fundName": "T. Rowe Price Spectrum Moderate Allocation Fund",
-          "shares": 2000
-        },
-        {
-          "fundName": "T. Rowe Price Spectrum Conservative Allocation Fund",
-          "shares": 1300
-        },
-        {
-          "fundName": "SA T. Rowe Price VCP Balanced Portfolio",
-          "shares": 71
-        },
-        {
-          "fundName": "SA T. Rowe Price Allocation Moderately Aggressive Portfolio",
-          "shares": 45
-        },
-        {
-          "fundName": "T. Rowe Price Global Allocation Fund",
-          "shares": 17
         }
       ]
     },
@@ -3099,6 +3113,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "State Street(R) SPDR(R) S&amp;P Kensho New Economies Composite ETF",
+      "registrant": "SPDR SERIES TRUST",
+      "manager": "State Street",
+      "cik": "1064642",
+      "shares": 34792,
+      "value": 9539966,
+      "reportDate": "2026-03-31",
+      "priorShares": 34669,
+      "change": 123,
+      "pctOut": 0.0631,
+      "action": "Bought"
+    },
+    {
       "fundName": "VY(R) T. ROWE PRICE DIVERSIFIED MID CAP GROWTH PORTFOLIO",
       "registrant": "Voya Partners Inc",
       "manager": "T. Rowe Price",
@@ -3383,6 +3410,19 @@
       "change": -7165,
       "pctOut": 0.0402,
       "action": "Sold"
+    },
+    {
+      "fundName": "Empower T. Rowe Price Mid Cap Growth Fund",
+      "registrant": "EMPOWER FUNDS, INC.",
+      "manager": "T. Rowe Price",
+      "cik": "356476",
+      "shares": 21749,
+      "value": 7746776,
+      "reportDate": "2026-06-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0394,
+      "action": "New"
     },
     {
       "fundName": "Fidelity ZERO Total Market Index Fund",
@@ -4601,8 +4641,8 @@
       "shares": 4921,
       "value": 1349338,
       "reportDate": "2026-03-31",
-      "priorShares": 4297,
-      "change": 624,
+      "priorShares": 3897,
+      "change": 1024,
       "pctOut": 0.0089,
       "action": "Bought"
     },

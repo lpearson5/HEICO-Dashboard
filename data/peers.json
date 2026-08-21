@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T11:33:58.561Z",
+  "lastUpdated": "2026-08-21T11:33:23.631Z",
   "peers": [
     {
       "name": "RTX Corp.",
@@ -19,11 +19,6 @@
           "filer": "VANGUARD CAPITAL MANAGEMENT LLC",
           "shares": 87947095,
           "value": 16686202335
-        },
-        {
-          "filer": "Capital Research Global Investors",
-          "shares": 52346255,
-          "value": 9931589851
         },
         {
           "filer": "JPMORGAN CHASE & CO  (JPM, AMJB, VYLD, JPM-PC, JPM-PD, JPM-PJ, JPM-PK, JPM-PL, JPM-PM)",
@@ -104,6 +99,11 @@
           "filer": "FMR LLC",
           "shares": 9868869,
           "value": 1872420616
+        },
+        {
+          "filer": "WELLS FARGO & COMPANY/MN  (WFC, WFCNP, WFC-PA, WFC-PC, WFC-PD, WFC-PL, WFC-PY, WFC-PZ)",
+          "shares": 8800226,
+          "value": 1669666796
         }
       ],
       "topFunds": [
@@ -1536,6 +1536,12 @@
           "value": 6585839
         },
         {
+          "fund": "EMPOWER FUNDS, INC.",
+          "manager": "",
+          "shares": 108192,
+          "value": 4991979
+        },
+        {
           "fund": "PRINCIPAL FUNDS, INC.",
           "manager": "Principal",
           "shares": 128600,
@@ -1588,12 +1594,6 @@
           "manager": "Capital Group (American Funds)",
           "shares": 44587,
           "value": 2003294
-        },
-        {
-          "fund": "FIDELITY SECURITIES FUND",
-          "manager": "FMR (Fidelity)",
-          "shares": 53400,
-          "value": 1869000
         }
       ]
     },
