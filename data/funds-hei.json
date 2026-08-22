@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-21T11:33:23.631Z",
+  "lastUpdated": "2026-08-22T11:28:00.841Z",
   "summary": {
-    "funds": 420,
-    "totalShares": 18629250,
-    "pctOut": 33.766400000000004,
-    "newFunds": 38,
+    "funds": 421,
+    "totalShares": 18545450,
+    "pctOut": 33.6145,
+    "newFunds": 39,
     "sellouts": 52,
     "linkedManagers": 26,
-    "linkedShares": 16010037
+    "linkedShares": 15929868
   },
   "newHolders": [
     {
@@ -398,6 +398,19 @@
       "shares": 126,
       "value": 34010,
       "reportDate": "2026-04-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.00019999999999999998,
+      "action": "New"
+    },
+    {
+      "fundName": "First Trust RBA Deglobalization ETF",
+      "registrant": "First Trust Exchange-Traded Fund VI",
+      "manager": "First Trust",
+      "cik": "1552740",
+      "shares": 123,
+      "value": 43811,
+      "reportDate": "2026-06-30",
       "priorShares": null,
       "change": null,
       "pctOut": 0.00019999999999999998,
@@ -878,7 +891,7 @@
     {
       "manager": "Capital Group (American Funds)",
       "fundCount": 10,
-      "shares": 4071137,
+      "shares": 4068999,
       "funds": [
         {
           "fundName": "Growth Fund of America",
@@ -910,7 +923,7 @@
         },
         {
           "fundName": "American Funds U.S. Small &amp; Mid Cap Equity Fund",
-          "shares": 5926
+          "shares": 3788
         },
         {
           "fundName": "Capital Group U.S. Equity Fund",
@@ -1530,7 +1543,7 @@
     {
       "manager": "Morgan Stanley",
       "fundCount": 18,
-      "shares": 250229,
+      "shares": 250430,
       "funds": [
         {
           "fundName": "Eaton Vance Tax-Managed Diversified Equity Income Fund",
@@ -1574,7 +1587,7 @@
         },
         {
           "fundName": "Calvert US Large-Cap Core Responsible Index ETF",
-          "shares": 1754
+          "shares": 1803
         },
         {
           "fundName": "Morgan Stanley Pathway Large Cap Equity ETF",
@@ -1582,23 +1595,23 @@
         },
         {
           "fundName": "Calvert US Mid-Cap Core Responsible Index ETF",
-          "shares": 888
+          "shares": 985
         },
         {
           "fundName": "Parametric Hedged Equity ETF",
-          "shares": 721
+          "shares": 766
         },
         {
           "fundName": "Transamerica Morgan Stanley Global Allocation VP",
           "shares": 194
         },
         {
-          "fundName": "Global Strategist Portfolio",
-          "shares": 138
+          "fundName": "Parametric Equity Plus ETF",
+          "shares": 144
         },
         {
-          "fundName": "Parametric Equity Plus ETF",
-          "shares": 136
+          "fundName": "Global Strategist Portfolio",
+          "shares": 140
         },
         {
           "fundName": "Global Strategist Portfolio",
@@ -1664,11 +1677,11 @@
     {
       "manager": "Voya",
       "fundCount": 10,
-      "shares": 225403,
+      "shares": 222636,
       "funds": [
         {
           "fundName": "Voya Large Cap Growth Portfolio",
-          "shares": 111454
+          "shares": 108841
         },
         {
           "fundName": "VOYA MIDCAP OPPORTUNITIES PORTFOLIO",
@@ -1692,7 +1705,7 @@
         },
         {
           "fundName": "Voya Balanced Income Portfolio",
-          "shares": 1345
+          "shares": 1191
         },
         {
           "fundName": "VOYA RUSSELLTM MID CAP GROWTH INDEX PORTFOLIO",
@@ -1705,37 +1718,6 @@
         {
           "fundName": "Voya VACS Series LCC Fund",
           "shares": 48
-        }
-      ]
-    },
-    {
-      "manager": "First Trust",
-      "fundCount": 6,
-      "shares": 209568,
-      "funds": [
-        {
-          "fundName": "First Trust Indxx Aerospace &amp; Defense ETF",
-          "shares": 175036
-        },
-        {
-          "fundName": "First Trust Industrials/Producer Durables AlphaDEX Fund",
-          "shares": 15097
-        },
-        {
-          "fundName": "First Trust Large Cap Core AlphaDEX Fund",
-          "shares": 7469
-        },
-        {
-          "fundName": "First Trust Large Cap Growth AlphaDEX Fund",
-          "shares": 7168
-        },
-        {
-          "fundName": "First Trust Dorsey Wright Momentum &amp; Low Volatility ETF",
-          "shares": 3440
-        },
-        {
-          "fundName": "First Trust Multi Cap Growth AlphaDEX Fund",
-          "shares": 1358
         }
       ]
     },
@@ -1775,6 +1757,41 @@
         {
           "fundName": "Nuveen Nasdaq 100 Dynamic Overwrite Fund",
           "shares": 584
+        }
+      ]
+    },
+    {
+      "manager": "First Trust",
+      "fundCount": 7,
+      "shares": 134103,
+      "funds": [
+        {
+          "fundName": "First Trust Indxx Aerospace &amp; Defense ETF",
+          "shares": 99448
+        },
+        {
+          "fundName": "First Trust Industrials/Producer Durables AlphaDEX Fund",
+          "shares": 15097
+        },
+        {
+          "fundName": "First Trust Large Cap Core AlphaDEX Fund",
+          "shares": 7469
+        },
+        {
+          "fundName": "First Trust Large Cap Growth AlphaDEX Fund",
+          "shares": 7168
+        },
+        {
+          "fundName": "First Trust Dorsey Wright Momentum &amp; Low Volatility ETF",
+          "shares": 3440
+        },
+        {
+          "fundName": "First Trust Multi Cap Growth AlphaDEX Fund",
+          "shares": 1358
+        },
+        {
+          "fundName": "First Trust RBA Deglobalization ETF",
+          "shares": 123
         }
       ]
     },
@@ -2385,19 +2402,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "First Trust Indxx Aerospace &amp; Defense ETF",
-      "registrant": "First Trust Exchange-Traded Fund",
-      "manager": "First Trust",
-      "cik": "1329377",
-      "shares": 175036,
-      "value": 47994871,
-      "reportDate": "2026-03-31",
-      "priorShares": 165238,
-      "change": 9798,
-      "pctOut": 0.3173,
-      "action": "Bought"
-    },
-    {
       "fundName": "iShares Russell 1000 Growth ETF",
       "registrant": "iShares Trust",
       "manager": "BlackRock",
@@ -2545,12 +2549,12 @@
       "registrant": "Voya Investors Trust",
       "manager": "Voya",
       "cik": "837276",
-      "shares": 111454,
-      "value": 30560687,
-      "reportDate": "2026-03-31",
-      "priorShares": 111750,
-      "change": -296,
-      "pctOut": 0.202,
+      "shares": 108841,
+      "value": 38768076,
+      "reportDate": "2026-06-30",
+      "priorShares": 111454,
+      "change": -2613,
+      "pctOut": 0.1973,
       "action": "Sold"
     },
     {
@@ -2590,6 +2594,19 @@
       "priorShares": 131800,
       "change": -30500,
       "pctOut": 0.18359999999999999,
+      "action": "Sold"
+    },
+    {
+      "fundName": "First Trust Indxx Aerospace &amp; Defense ETF",
+      "registrant": "First Trust Exchange-Traded Fund",
+      "manager": "First Trust",
+      "cik": "1329377",
+      "shares": 99448,
+      "value": 35422383,
+      "reportDate": "2026-06-30",
+      "priorShares": 175036,
+      "change": -75588,
+      "pctOut": 0.1803,
       "action": "Sold"
     },
     {
@@ -3516,19 +3533,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "AdvisorShares Focused Equity ETF",
-      "registrant": "AdvisorShares Trust",
-      "manager": "",
-      "cik": "1408970",
-      "shares": 19865,
-      "value": 5446983,
-      "reportDate": "2026-03-31",
-      "priorShares": 21797,
-      "change": -1932,
-      "pctOut": 0.036000000000000004,
-      "action": "Sold"
-    },
-    {
       "fundName": "Eaton Vance Risk-Managed Diversified Equity Income Fund",
       "registrant": "Eaton Vance Risk-Managed Diversified Equity Income Fund",
       "manager": "Morgan Stanley",
@@ -3657,6 +3661,19 @@
       "change": 0,
       "pctOut": 0.0297,
       "action": "No Change"
+    },
+    {
+      "fundName": "AdvisorShares Focused Equity ETF",
+      "registrant": "AdvisorShares Trust",
+      "manager": "",
+      "cik": "1408970",
+      "shares": 16234,
+      "value": 5782388,
+      "reportDate": "2026-06-30",
+      "priorShares": 19865,
+      "change": -3631,
+      "pctOut": 0.0294,
+      "action": "Sold"
     },
     {
       "fundName": "VANGUARD BALANCED INDEX FUND",
@@ -4465,19 +4482,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "American Funds U.S. Small &amp; Mid Cap Equity Fund",
-      "registrant": "American Funds U.S. Small & Mid Cap Equity Fund",
-      "manager": "Capital Group (American Funds)",
-      "cik": "2026099",
-      "shares": 5926,
-      "value": 2063315,
-      "reportDate": "2026-05-31",
-      "priorShares": 3788,
-      "change": 2138,
-      "pctOut": 0.0107,
-      "action": "Bought"
-    },
-    {
       "fundName": "Nuveen S&amp;P 500 Dynamic Overwrite Fund",
       "registrant": "Nuveen S&P 500 Dynamic Overwrite Fund",
       "manager": "Nuveen (TIAA)",
@@ -4641,8 +4645,8 @@
       "shares": 4921,
       "value": 1349338,
       "reportDate": "2026-03-31",
-      "priorShares": 3897,
-      "change": 1024,
+      "priorShares": 4297,
+      "change": 624,
       "pctOut": 0.0089,
       "action": "Bought"
     },
@@ -4892,6 +4896,19 @@
       "change": -182,
       "pctOut": 0.0069,
       "action": "Sold"
+    },
+    {
+      "fundName": "American Funds U.S. Small &amp; Mid Cap Equity Fund",
+      "registrant": "American Funds U.S. Small & Mid Cap Equity Fund",
+      "manager": "Capital Group (American Funds)",
+      "cik": "2026099",
+      "shares": 3788,
+      "value": 1210114,
+      "reportDate": "2026-02-28",
+      "priorShares": 1513,
+      "change": 2275,
+      "pctOut": 0.0069,
+      "action": "Bought"
     },
     {
       "fundName": "iShares MSCI World ETF",
@@ -5453,6 +5470,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Calvert US Large-Cap Core Responsible Index ETF",
+      "registrant": "Morgan Stanley ETF Trust",
+      "manager": "Morgan Stanley",
+      "cik": "1676326",
+      "shares": 1803,
+      "value": 642211,
+      "reportDate": "2026-06-30",
+      "priorShares": 1754,
+      "change": 49,
+      "pctOut": 0.0033000000000000004,
+      "action": "Bought"
+    },
+    {
       "fundName": "Gotham Absolute Return Fund",
       "registrant": "FundVantage Trust",
       "manager": "",
@@ -5490,19 +5520,6 @@
       "change": null,
       "pctOut": 0.0031999999999999997,
       "action": "New"
-    },
-    {
-      "fundName": "Calvert US Large-Cap Core Responsible Index ETF",
-      "registrant": "Morgan Stanley ETF Trust",
-      "manager": "Morgan Stanley",
-      "cik": "1676326",
-      "shares": 1754,
-      "value": 480947,
-      "reportDate": "2026-03-31",
-      "priorShares": 1654,
-      "change": 100,
-      "pctOut": 0.0031999999999999997,
-      "action": "Bought"
     },
     {
       "fundName": "DAC 3D Dividend Growth ETF",
@@ -5726,19 +5743,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Voya Balanced Income Portfolio",
-      "registrant": "Voya Investors Trust",
-      "manager": "Voya",
-      "cik": "837276",
-      "shares": 1345,
-      "value": 368799,
-      "reportDate": "2026-03-31",
-      "priorShares": 1656,
-      "change": -311,
-      "pctOut": 0.0024000000000000002,
-      "action": "Sold"
-    },
-    {
       "fundName": "LargeCap Growth Fund I",
       "registrant": "Principal Funds, Inc",
       "manager": "Principal",
@@ -5880,6 +5884,19 @@
       "change": 495,
       "pctOut": 0.0022,
       "action": "Bought"
+    },
+    {
+      "fundName": "Voya Balanced Income Portfolio",
+      "registrant": "Voya Investors Trust",
+      "manager": "Voya",
+      "cik": "837276",
+      "shares": 1191,
+      "value": 424222,
+      "reportDate": "2026-06-30",
+      "priorShares": 1345,
+      "change": -154,
+      "pctOut": 0.0022,
+      "action": "Sold"
     },
     {
       "fundName": "Fidelity Hedged Equity Fund",
@@ -6077,6 +6094,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Calvert US Mid-Cap Core Responsible Index ETF",
+      "registrant": "Morgan Stanley ETF Trust",
+      "manager": "Morgan Stanley",
+      "cik": "1676326",
+      "shares": 985,
+      "value": 350847,
+      "reportDate": "2026-06-30",
+      "priorShares": 888,
+      "change": 97,
+      "pctOut": 0.0018,
+      "action": "Bought"
+    },
+    {
       "fundName": "Voya VACS Index Series MC Portfolio",
       "registrant": "Voya VARIABLE PORTFOLIOS INC",
       "manager": "Voya",
@@ -6127,19 +6157,6 @@
       "change": 141,
       "pctOut": 0.0017,
       "action": "Bought"
-    },
-    {
-      "fundName": "Calvert US Mid-Cap Core Responsible Index ETF",
-      "registrant": "Morgan Stanley ETF Trust",
-      "manager": "Morgan Stanley",
-      "cik": "1676326",
-      "shares": 888,
-      "value": 243490,
-      "reportDate": "2026-03-31",
-      "priorShares": 916,
-      "change": -28,
-      "pctOut": 0.0015999999999999999,
-      "action": "Sold"
     },
     {
       "fundName": "iShares Morningstar U.S. Equity ETF",
@@ -6246,6 +6263,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "Parametric Hedged Equity ETF",
+      "registrant": "Morgan Stanley ETF Trust",
+      "manager": "Morgan Stanley",
+      "cik": "1676326",
+      "shares": 766,
+      "value": 272842,
+      "reportDate": "2026-06-30",
+      "priorShares": 721,
+      "change": 45,
+      "pctOut": 0.0014,
+      "action": "Bought"
+    },
+    {
       "fundName": "Goldman Sachs MarketBeta(R) Russell 1000 Growth Equity ETF",
       "registrant": "Goldman Sachs ETF Trust",
       "manager": "Goldman Sachs",
@@ -6257,19 +6287,6 @@
       "change": 48,
       "pctOut": 0.0014,
       "action": "Bought"
-    },
-    {
-      "fundName": "Parametric Hedged Equity ETF",
-      "registrant": "Morgan Stanley ETF Trust",
-      "manager": "Morgan Stanley",
-      "cik": "1676326",
-      "shares": 721,
-      "value": 197698,
-      "reportDate": "2026-03-31",
-      "priorShares": 890,
-      "change": -169,
-      "pctOut": 0.0013,
-      "action": "Sold"
     },
     {
       "fundName": "BlackRock Sustainable Aware Advantage Large Cap Core Fund",
@@ -7013,6 +7030,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Parametric Equity Plus ETF",
+      "registrant": "Morgan Stanley ETF Trust",
+      "manager": "Morgan Stanley",
+      "cik": "1676326",
+      "shares": 144,
+      "value": 51291,
+      "reportDate": "2026-06-30",
+      "priorShares": 136,
+      "change": 8,
+      "pctOut": 0.00030000000000000003,
+      "action": "Bought"
+    },
+    {
       "fundName": "AVIP AB Mid Cap Core Portfolio",
       "registrant": "AuguStar Variable Insurance Products Fund Inc",
       "manager": "FMR (Fidelity)",
@@ -7030,26 +7060,13 @@
       "registrant": "MORGAN STANLEY INSTITUTIONAL FUND TRUST",
       "manager": "Morgan Stanley",
       "cik": "741375",
-      "shares": 138,
-      "value": 37840,
-      "reportDate": "2026-03-31",
-      "priorShares": 149,
-      "change": -11,
+      "shares": 140,
+      "value": 49867,
+      "reportDate": "2026-06-30",
+      "priorShares": 138,
+      "change": 2,
       "pctOut": 0.00030000000000000003,
-      "action": "Sold"
-    },
-    {
-      "fundName": "Parametric Equity Plus ETF",
-      "registrant": "Morgan Stanley ETF Trust",
-      "manager": "Morgan Stanley",
-      "cik": "1676326",
-      "shares": 136,
-      "value": 37291,
-      "reportDate": "2026-03-31",
-      "priorShares": 136,
-      "change": 0,
-      "pctOut": 0.00019999999999999998,
-      "action": "No Change"
+      "action": "Bought"
     },
     {
       "fundName": "Innovator Equity Managed 10 Buffer ETF",
@@ -7059,6 +7076,19 @@
       "shares": 126,
       "value": 34010,
       "reportDate": "2026-04-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.00019999999999999998,
+      "action": "New"
+    },
+    {
+      "fundName": "First Trust RBA Deglobalization ETF",
+      "registrant": "First Trust Exchange-Traded Fund VI",
+      "manager": "First Trust",
+      "cik": "1552740",
+      "shares": 123,
+      "value": 43811,
+      "reportDate": "2026-06-30",
       "priorShares": null,
       "change": null,
       "pctOut": 0.00019999999999999998,
@@ -7395,12 +7425,12 @@
       "manager": "Morgan Stanley",
       "cik": "1011378",
       "shares": 19,
-      "value": 5210,
-      "reportDate": "2026-03-31",
-      "priorShares": 22,
-      "change": -3,
+      "value": 6768,
+      "reportDate": "2026-06-30",
+      "priorShares": 19,
+      "change": 0,
       "pctOut": 0,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "T. Rowe Price Global Allocation Fund",

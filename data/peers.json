@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T11:33:23.631Z",
+  "lastUpdated": "2026-08-22T11:28:00.841Z",
   "peers": [
     {
       "name": "RTX Corp.",
@@ -19,6 +19,11 @@
           "filer": "VANGUARD CAPITAL MANAGEMENT LLC",
           "shares": 87947095,
           "value": 16686202335
+        },
+        {
+          "filer": "Capital Research Global Investors",
+          "shares": 52346255,
+          "value": 9931589851
         },
         {
           "filer": "JPMORGAN CHASE & CO  (JPM, AMJB, VYLD, JPM-PC, JPM-PD, JPM-PJ, JPM-PK, JPM-PL, JPM-PM)",
@@ -99,11 +104,6 @@
           "filer": "FMR LLC",
           "shares": 9868869,
           "value": 1872420616
-        },
-        {
-          "filer": "WELLS FARGO & COMPANY/MN  (WFC, WFCNP, WFC-PA, WFC-PC, WFC-PD, WFC-PL, WFC-PY, WFC-PZ)",
-          "shares": 8800226,
-          "value": 1669666796
         }
       ],
       "topFunds": [
@@ -1524,6 +1524,12 @@
           "value": 7780605
         },
         {
+          "fund": "Voya INVESTORS TRUST",
+          "manager": "Voya",
+          "shares": 150115,
+          "value": 6926306
+        },
+        {
           "fund": "GOLDMAN SACHS TRUST",
           "manager": "Goldman Sachs",
           "shares": 148799,
@@ -1588,12 +1594,6 @@
           "manager": "",
           "shares": 44314,
           "value": 2044648
-        },
-        {
-          "fund": "Capital Group Equity ETF Trust I",
-          "manager": "Capital Group (American Funds)",
-          "shares": 44587,
-          "value": 2003294
         }
       ]
     },

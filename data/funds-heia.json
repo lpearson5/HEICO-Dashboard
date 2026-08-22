@@ -2,15 +2,15 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84488320,
-  "lastUpdated": "2026-08-21T11:33:23.631Z",
+  "lastUpdated": "2026-08-22T11:28:00.841Z",
   "summary": {
     "funds": 349,
-    "totalShares": 29599196,
+    "totalShares": 29599237,
     "pctOut": 35.033500000000004,
     "newFunds": 26,
     "sellouts": 32,
     "linkedManagers": 23,
-    "linkedShares": 25344564
+    "linkedShares": 25344605
   },
   "newHolders": [
     {
@@ -1338,7 +1338,7 @@
     {
       "manager": "Morgan Stanley",
       "fundCount": 7,
-      "shares": 26588,
+      "shares": 26629,
       "funds": [
         {
           "fundName": "Morgan Stanley Pathway Large Cap Equity ETF",
@@ -1346,7 +1346,7 @@
         },
         {
           "fundName": "Parametric Hedged Equity ETF",
-          "shares": 497
+          "shares": 532
         },
         {
           "fundName": "Transamerica Morgan Stanley Global Allocation VP",
@@ -1354,19 +1354,19 @@
         },
         {
           "fundName": "Global Strategist Portfolio",
-          "shares": 240
+          "shares": 239
         },
         {
           "fundName": "Parametric Equity Plus ETF",
-          "shares": 150
+          "shares": 159
         },
         {
           "fundName": "Global Strategist Portfolio",
-          "shares": 33
+          "shares": 32
         },
         {
           "fundName": "Permanence Portfolio",
-          "shares": 15
+          "shares": 14
         }
       ]
     },
@@ -2741,8 +2741,8 @@
       "manager": "",
       "cik": "1135300",
       "shares": 26600,
-      "value": 5614994,
-      "reportDate": "2026-03-31",
+      "value": 6860406,
+      "reportDate": "2026-06-30",
       "priorShares": 26600,
       "change": 0,
       "pctOut": 0.0315,
@@ -5193,6 +5193,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "Parametric Hedged Equity ETF",
+      "registrant": "Morgan Stanley ETF Trust",
+      "manager": "Morgan Stanley",
+      "cik": "1676326",
+      "shares": 532,
+      "value": 137208,
+      "reportDate": "2026-06-30",
+      "priorShares": 497,
+      "change": 35,
+      "pctOut": 0.0006000000000000001,
+      "action": "Bought"
+    },
+    {
       "fundName": "SA U.S. Core Market Fund",
       "registrant": "SA FUNDS INVESTMENT TRUST",
       "manager": "",
@@ -5217,19 +5230,6 @@
       "change": 17,
       "pctOut": 0.0006000000000000001,
       "action": "Bought"
-    },
-    {
-      "fundName": "Parametric Hedged Equity ETF",
-      "registrant": "Morgan Stanley ETF Trust",
-      "manager": "Morgan Stanley",
-      "cik": "1676326",
-      "shares": 497,
-      "value": 104912,
-      "reportDate": "2026-03-31",
-      "priorShares": 613,
-      "change": -116,
-      "pctOut": 0.0006000000000000001,
-      "action": "Sold"
     },
     {
       "fundName": "LVIP JPMorgan Select Mid Cap Value Managed Volatility Fund",
@@ -5557,19 +5557,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Global Strategist Portfolio",
-      "registrant": "MORGAN STANLEY INSTITUTIONAL FUND TRUST",
-      "manager": "Morgan Stanley",
-      "cik": "741375",
-      "shares": 240,
-      "value": 50662,
-      "reportDate": "2026-03-31",
-      "priorShares": 257,
-      "change": -17,
-      "pctOut": 0.00030000000000000003,
-      "action": "Sold"
-    },
-    {
       "fundName": "iShares MSCI Kokusai ETF",
       "registrant": "iShares Trust",
       "manager": "BlackRock",
@@ -5581,6 +5568,19 @@
       "change": 0,
       "pctOut": 0.00030000000000000003,
       "action": "No Change"
+    },
+    {
+      "fundName": "Global Strategist Portfolio",
+      "registrant": "MORGAN STANLEY INSTITUTIONAL FUND TRUST",
+      "manager": "Morgan Stanley",
+      "cik": "741375",
+      "shares": 239,
+      "value": 61640,
+      "reportDate": "2026-06-30",
+      "priorShares": 240,
+      "change": -1,
+      "pctOut": 0.00030000000000000003,
+      "action": "Sold"
     },
     {
       "fundName": "JPMorgan Fundamental Data Science Mid Core ETF",
@@ -5713,6 +5713,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "Parametric Equity Plus ETF",
+      "registrant": "Morgan Stanley ETF Trust",
+      "manager": "Morgan Stanley",
+      "cik": "1676326",
+      "shares": 159,
+      "value": 41008,
+      "reportDate": "2026-06-30",
+      "priorShares": 150,
+      "change": 9,
+      "pctOut": 0.00019999999999999998,
+      "action": "Bought"
+    },
+    {
       "fundName": "THRIVENT CONSERVATIVE ALLOCATION PORTFOLIO",
       "registrant": "Thrivent Series Fund, Inc.",
       "manager": "",
@@ -5724,19 +5737,6 @@
       "change": null,
       "pctOut": 0.00019999999999999998,
       "action": "New"
-    },
-    {
-      "fundName": "Parametric Equity Plus ETF",
-      "registrant": "Morgan Stanley ETF Trust",
-      "manager": "Morgan Stanley",
-      "cik": "1676326",
-      "shares": 150,
-      "value": 31664,
-      "reportDate": "2026-03-31",
-      "priorShares": 150,
-      "change": 0,
-      "pctOut": 0.00019999999999999998,
-      "action": "No Change"
     },
     {
       "fundName": "AB Dynamic Asset Allocation Portfolio",
@@ -5886,11 +5886,11 @@
       "registrant": "MORGAN STANLEY VARIABLE INSURANCE FUND INC.",
       "manager": "Morgan Stanley",
       "cik": "1011378",
-      "shares": 33,
-      "value": 6966,
-      "reportDate": "2026-03-31",
-      "priorShares": 37,
-      "change": -4,
+      "shares": 32,
+      "value": 8253,
+      "reportDate": "2026-06-30",
+      "priorShares": 33,
+      "change": -1,
       "pctOut": 0,
       "action": "Sold"
     },
@@ -5938,11 +5938,11 @@
       "registrant": "MORGAN STANLEY INSTITUTIONAL FUND INC",
       "manager": "Morgan Stanley",
       "cik": "836487",
-      "shares": 15,
-      "value": 3166,
-      "reportDate": "2026-03-31",
-      "priorShares": 22,
-      "change": -7,
+      "shares": 14,
+      "value": 3611,
+      "reportDate": "2026-06-30",
+      "priorShares": 15,
+      "change": -1,
       "pctOut": 0,
       "action": "Sold"
     },

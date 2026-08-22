@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84488320,
-  "lastUpdated": "2026-08-21T11:33:23.631Z",
+  "lastUpdated": "2026-08-22T11:28:00.841Z",
   "summary": {
-    "institutions": 666,
-    "totalShares": 69949684,
-    "pctOut": 82.78999999999999,
+    "institutions": 665,
+    "totalShares": 69511125,
+    "pctOut": 82.27,
     "newHolders": 111,
-    "sellouts": 66,
-    "bought": 253,
-    "sold": 212,
+    "sellouts": 67,
+    "bought": 251,
+    "sold": 213,
     "held": 90
   },
   "top10": [
@@ -217,24 +217,6 @@
       "action": "New",
       "discretion": "SOLE",
       "voteSole": 1376894,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "Port Capital LLC",
-      "filerCik": "1729212",
-      "shares": [
-        804484,
-        null,
-        860156,
-        856191
-      ],
-      "netChg": 804484,
-      "currentValue": 207484468,
-      "pctOut": 0.95,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 804484,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -1895,6 +1877,24 @@
       "voteNone": 0
     },
     {
+      "filerName": "Hughes Financial Services, LLC",
+      "filerCik": "2054465",
+      "shares": [
+        12,
+        null,
+        6,
+        null
+      ],
+      "netChg": 12,
+      "currentValue": 3095,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 12,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "Barnes Dennig Private Wealth Management LLC",
       "filerCik": "2058270",
       "shares": [
@@ -2202,6 +2202,24 @@
     }
   ],
   "sellouts": [
+    {
+      "filerName": "MANNING & NAPIER ADVISORS LLC",
+      "filerCik": "62039",
+      "shares": [
+        null,
+        353872,
+        226583,
+        242332
+      ],
+      "netChg": -353872,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
     {
       "filerName": "JANUS HENDERSON GROUP PLC  (JHG)",
       "filerCik": "1274173",
@@ -3649,14 +3667,14 @@
       "filerCik": "1729212",
       "shares": [
         804484,
-        null,
+        826086,
         860156,
         856191
       ],
-      "netChg": 804484,
+      "netChg": -21602,
       "currentValue": 207484468,
       "pctOut": 0.95,
-      "action": "New",
+      "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 804484,
       "voteShared": 0,
@@ -3949,24 +3967,6 @@
       "voteSole": 443590,
       "voteShared": 0,
       "voteNone": 0
-    },
-    {
-      "filerName": "MANNING & NAPIER ADVISORS LLC",
-      "filerCik": "62039",
-      "shares": [
-        438559,
-        353872,
-        226583,
-        242332
-      ],
-      "netChg": 84687,
-      "currentValue": 113108765,
-      "pctOut": 0.52,
-      "action": "Bought",
-      "discretion": "SOLE",
-      "voteSole": 400162,
-      "voteShared": 0,
-      "voteNone": 38397
     },
     {
       "filerName": "FENIMORE ASSET MANAGEMENT INC",
@@ -14647,14 +14647,14 @@
       "filerCik": "2054465",
       "shares": [
         12,
-        2,
+        null,
         6,
         null
       ],
-      "netChg": 10,
+      "netChg": 12,
       "currentValue": 3095,
       "pctOut": 0,
-      "action": "Bought",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 12,
       "voteShared": 0,
@@ -14721,7 +14721,7 @@
         11,
         11,
         1,
-        1
+        null
       ],
       "netChg": 0,
       "currentValue": 2897,
@@ -15717,6 +15717,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "MANNING & NAPIER ADVISORS LLC",
+      "filerCik": "62039",
+      "shares": [
+        null,
+        353872,
+        226583,
+        242332
+      ],
+      "netChg": -353872,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -16893,13 +16911,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Makaira Partners LLC",
-      "filerCik": "1540866",
+      "filerName": "Broadcrest Asset Management, LLC",
+      "filerCik": "1749585",
       "shares": [
         null,
         null,
-        2171,
-        2171
+        null,
+        40000
       ],
       "netChg": null,
       "currentValue": null,
@@ -16911,13 +16929,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Broadcrest Asset Management, LLC",
-      "filerCik": "1749585",
+      "filerName": "Makaira Partners LLC",
+      "filerCik": "1540866",
       "shares": [
         null,
         null,
-        null,
-        40000
+        2171,
+        2171
       ],
       "netChg": null,
       "currentValue": null,
@@ -17415,13 +17433,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Alberta Investment Management Corp",
-      "filerCik": "1463559",
+      "filerName": "Accredited Wealth Management, LLC",
+      "filerCik": "2056519",
       "shares": [
         null,
         null,
-        1100,
-        1100
+        null,
+        799
       ],
       "netChg": null,
       "currentValue": null,
@@ -17433,13 +17451,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Accredited Wealth Management, LLC",
-      "filerCik": "2056519",
+      "filerName": "Alberta Investment Management Corp",
+      "filerCik": "1463559",
       "shares": [
         null,
         null,
-        null,
-        799
+        1100,
+        1100
       ],
       "netChg": null,
       "currentValue": null,
