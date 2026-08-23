@@ -8,14 +8,14 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84488320,
-  "lastUpdated": "2026-08-22T11:28:00.841Z",
+  "lastUpdated": "2026-08-23T11:28:17.724Z",
   "summary": {
-    "institutions": 665,
-    "totalShares": 69511125,
-    "pctOut": 82.27,
-    "newHolders": 111,
-    "sellouts": 67,
-    "bought": 251,
+    "institutions": 666,
+    "totalShares": 69949684,
+    "pctOut": 82.78999999999999,
+    "newHolders": 110,
+    "sellouts": 66,
+    "bought": 253,
     "sold": 213,
     "held": 90
   },
@@ -1288,7 +1288,7 @@
       "shares": [
         852,
         null,
-        997,
+        null,
         1038
       ],
       "netChg": 852,
@@ -1877,24 +1877,6 @@
       "voteNone": 0
     },
     {
-      "filerName": "Hughes Financial Services, LLC",
-      "filerCik": "2054465",
-      "shares": [
-        12,
-        null,
-        6,
-        null
-      ],
-      "netChg": 12,
-      "currentValue": 3095,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 12,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
       "filerName": "Barnes Dennig Private Wealth Management LLC",
       "filerCik": "2058270",
       "shares": [
@@ -2202,24 +2184,6 @@
     }
   ],
   "sellouts": [
-    {
-      "filerName": "MANNING & NAPIER ADVISORS LLC",
-      "filerCik": "62039",
-      "shares": [
-        null,
-        353872,
-        226583,
-        242332
-      ],
-      "netChg": -353872,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
     {
       "filerName": "JANUS HENDERSON GROUP PLC  (JHG)",
       "filerCik": "1274173",
@@ -3967,6 +3931,24 @@
       "voteSole": 443590,
       "voteShared": 0,
       "voteNone": 0
+    },
+    {
+      "filerName": "MANNING & NAPIER ADVISORS LLC",
+      "filerCik": "62039",
+      "shares": [
+        438559,
+        353872,
+        226583,
+        242332
+      ],
+      "netChg": 84687,
+      "currentValue": 113108765,
+      "pctOut": 0.52,
+      "action": "Bought",
+      "discretion": "SOLE",
+      "voteSole": 400162,
+      "voteShared": 0,
+      "voteNone": 38397
     },
     {
       "filerName": "FENIMORE ASSET MANAGEMENT INC",
@@ -12218,7 +12200,7 @@
       "shares": [
         852,
         null,
-        997,
+        null,
         1038
       ],
       "netChg": 852,
@@ -13694,7 +13676,7 @@
       "shares": [
         89,
         2,
-        46,
+        null,
         61
       ],
       "netChg": 87,
@@ -14647,14 +14629,14 @@
       "filerCik": "2054465",
       "shares": [
         12,
-        null,
+        2,
         6,
         null
       ],
-      "netChg": 12,
+      "netChg": 10,
       "currentValue": 3095,
       "pctOut": 0,
-      "action": "New",
+      "action": "Bought",
       "discretion": "SOLE",
       "voteSole": 12,
       "voteShared": 0,
@@ -14721,7 +14703,7 @@
         11,
         11,
         1,
-        null
+        1
       ],
       "netChg": 0,
       "currentValue": 2897,
@@ -15717,24 +15699,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "MANNING & NAPIER ADVISORS LLC",
-      "filerCik": "62039",
-      "shares": [
-        null,
-        353872,
-        226583,
-        242332
-      ],
-      "netChg": -353872,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,

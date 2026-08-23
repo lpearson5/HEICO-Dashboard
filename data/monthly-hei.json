@@ -8,14 +8,14 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-22T11:28:00.841Z",
+  "lastUpdated": "2026-08-23T11:28:17.724Z",
   "summary": {
     "institutions": 771,
     "totalShares": 43722012,
     "pctOut": 79.25,
-    "newHolders": 121,
+    "newHolders": 123,
     "sellouts": 91,
-    "bought": 254,
+    "bought": 252,
     "sold": 262,
     "held": 134
   },
@@ -977,6 +977,24 @@
       "voteNone": 1210
     },
     {
+      "filerName": "Prime Capital Investment Advisors, LLC",
+      "filerCik": "1731446",
+      "shares": [
+        1210,
+        null,
+        1203,
+        1196
+      ],
+      "netChg": 1210,
+      "currentValue": 430990,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 1210
+    },
+    {
       "filerName": "Frec Markets, Inc.",
       "filerCik": "2111359",
       "shares": [
@@ -1173,6 +1191,24 @@
       "voteSole": 936,
       "voteShared": 0,
       "voteNone": 0
+    },
+    {
+      "filerName": "Vise Technologies, Inc.",
+      "filerCik": "1812090",
+      "shares": [
+        924,
+        null,
+        765,
+        652
+      ],
+      "netChg": 924,
+      "currentValue": 329125,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 924
     },
     {
       "filerName": "Mariner, LLC",
@@ -1667,7 +1703,7 @@
         610,
         null,
         1415,
-        1415
+        null
       ],
       "netChg": 610,
       "currentValue": 217276,
@@ -12649,14 +12685,14 @@
       "filerCik": "1731446",
       "shares": [
         1210,
-        1202,
+        null,
         1203,
         1196
       ],
-      "netChg": 8,
+      "netChg": 1210,
       "currentValue": 430990,
       "pctOut": 0,
-      "action": "Bought",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -13603,14 +13639,14 @@
       "filerCik": "1812090",
       "shares": [
         924,
-        765,
+        null,
         765,
         652
       ],
-      "netChg": 159,
+      "netChg": 924,
       "currentValue": 329125,
       "pctOut": 0,
-      "action": "Bought",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -14739,7 +14775,7 @@
         610,
         null,
         1415,
-        1415
+        null
       ],
       "netChg": 610,
       "currentValue": 217276,
@@ -19053,24 +19089,6 @@
       "voteNone": null
     },
     {
-      "filerName": "MQS Management LLC",
-      "filerCik": "1759395",
-      "shares": [
-        null,
-        890,
-        null,
-        837
-      ],
-      "netChg": -890,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Modus Advisors, LLC",
       "filerCik": "1799284",
       "shares": [
@@ -19083,6 +19101,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "MQS Management LLC",
+      "filerCik": "1759395",
+      "shares": [
+        null,
+        890,
+        null,
+        837
+      ],
+      "netChg": -890,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19413,13 +19449,13 @@
       "voteNone": null
     },
     {
-      "filerName": "West Branch Capital LLC",
-      "filerCik": "1738723",
+      "filerName": "FineMark National Bank & Trust",
+      "filerCik": "1537720",
       "shares": [
         null,
         null,
-        40,
-        40
+        1396,
+        1396
       ],
       "netChg": null,
       "currentValue": null,
@@ -19431,13 +19467,13 @@
       "voteNone": null
     },
     {
-      "filerName": "FineMark National Bank & Trust",
-      "filerCik": "1537720",
+      "filerName": "West Branch Capital LLC",
+      "filerCik": "1738723",
       "shares": [
         null,
         null,
-        1396,
-        1396
+        40,
+        40
       ],
       "netChg": null,
       "currentValue": null,
@@ -19773,13 +19809,13 @@
       "voteNone": null
     },
     {
-      "filerName": "GF FUND MANAGEMENT CO. LTD.",
-      "filerCik": "2057060",
+      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
+      "filerCik": "1510434",
       "shares": [
         null,
         null,
-        3884,
-        3884
+        1447,
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -19791,13 +19827,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
-      "filerCik": "1510434",
+      "filerName": "GF FUND MANAGEMENT CO. LTD.",
+      "filerCik": "2057060",
       "shares": [
         null,
         null,
-        1447,
-        null
+        3884,
+        3884
       ],
       "netChg": null,
       "currentValue": null,
@@ -19845,12 +19881,12 @@
       "voteNone": null
     },
     {
-      "filerName": "V-Square Quantitative Management LLC",
-      "filerCik": "1943239",
+      "filerName": "Legato Capital Management LLC",
+      "filerCik": "1442641",
       "shares": [
         null,
         null,
-        115,
+        1077,
         null
       ],
       "netChg": null,
@@ -19863,12 +19899,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Legato Capital Management LLC",
-      "filerCik": "1442641",
+      "filerName": "V-Square Quantitative Management LLC",
+      "filerCik": "1943239",
       "shares": [
         null,
         null,
-        1077,
+        115,
         null
       ],
       "netChg": null,

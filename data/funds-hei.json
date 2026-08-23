@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-22T11:28:00.841Z",
+  "lastUpdated": "2026-08-23T11:28:17.724Z",
   "summary": {
     "funds": 421,
-    "totalShares": 18545450,
-    "pctOut": 33.6145,
+    "totalShares": 18547588,
+    "pctOut": 33.6184,
     "newFunds": 39,
     "sellouts": 52,
     "linkedManagers": 26,
-    "linkedShares": 15929868
+    "linkedShares": 15932006
   },
   "newHolders": [
     {
@@ -891,7 +891,7 @@
     {
       "manager": "Capital Group (American Funds)",
       "fundCount": 10,
-      "shares": 4068999,
+      "shares": 4071137,
       "funds": [
         {
           "fundName": "Growth Fund of America",
@@ -923,7 +923,7 @@
         },
         {
           "fundName": "American Funds U.S. Small &amp; Mid Cap Equity Fund",
-          "shares": 3788
+          "shares": 5926
         },
         {
           "fundName": "Capital Group U.S. Equity Fund",
@@ -4482,6 +4482,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "American Funds U.S. Small &amp; Mid Cap Equity Fund",
+      "registrant": "American Funds U.S. Small & Mid Cap Equity Fund",
+      "manager": "Capital Group (American Funds)",
+      "cik": "2026099",
+      "shares": 5926,
+      "value": 2063315,
+      "reportDate": "2026-05-31",
+      "priorShares": 3788,
+      "change": 2138,
+      "pctOut": 0.0107,
+      "action": "Bought"
+    },
+    {
       "fundName": "Nuveen S&amp;P 500 Dynamic Overwrite Fund",
       "registrant": "Nuveen S&P 500 Dynamic Overwrite Fund",
       "manager": "Nuveen (TIAA)",
@@ -4896,19 +4909,6 @@
       "change": -182,
       "pctOut": 0.0069,
       "action": "Sold"
-    },
-    {
-      "fundName": "American Funds U.S. Small &amp; Mid Cap Equity Fund",
-      "registrant": "American Funds U.S. Small & Mid Cap Equity Fund",
-      "manager": "Capital Group (American Funds)",
-      "cik": "2026099",
-      "shares": 3788,
-      "value": 1210114,
-      "reportDate": "2026-02-28",
-      "priorShares": 1513,
-      "change": 2275,
-      "pctOut": 0.0069,
-      "action": "Bought"
     },
     {
       "fundName": "iShares MSCI World ETF",
@@ -5438,8 +5438,8 @@
       "shares": 1855,
       "value": 592598,
       "reportDate": "2026-02-28",
-      "priorShares": 1933,
-      "change": -78,
+      "priorShares": 1896,
+      "change": -41,
       "pctOut": 0.0034,
       "action": "Sold"
     },
