@@ -11,8 +11,8 @@
   "lastUpdated": "2026-08-24T11:36:05.469Z",
   "summary": {
     "institutions": 666,
-    "totalShares": 93848544,
-    "pctOut": 111.08,
+    "totalShares": 69605489,
+    "pctOut": 82.38,
     "newHolders": 111,
     "sellouts": 66,
     "bought": 252,
@@ -20,24 +20,6 @@
     "held": 90
   },
   "top10": [
-    {
-      "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
-      "filerCik": "1081019",
-      "shares": [
-        24337419,
-        87544,
-        90012,
-        98457
-      ],
-      "netChg": 24249875,
-      "currentValue": 94364,
-      "pctOut": 28.810000000000002,
-      "action": "Bought",
-      "discretion": "SOLE",
-      "voteSole": 24337419,
-      "voteShared": 0,
-      "voteNone": 0
-    },
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
       "filerCik": "1126328",
@@ -199,6 +181,24 @@
       "voteSole": 1332819,
       "voteShared": 0,
       "voteNone": 81500
+    },
+    {
+      "filerName": "NORGES BANK",
+      "filerCik": "1374170",
+      "shares": [
+        1376894,
+        null,
+        1368250,
+        null
+      ],
+      "netChg": 1376894,
+      "currentValue": 355114732,
+      "pctOut": 1.63,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 1376894,
+      "voteShared": 0,
+      "voteNone": 0
     }
   ],
   "newHolders": [
@@ -3396,14 +3396,14 @@
       "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
       "filerCik": "1081019",
       "shares": [
-        24337419,
+        94364,
         87544,
         90012,
         98457
       ],
-      "netChg": 24249875,
-      "currentValue": 94364,
-      "pctOut": 28.810000000000002,
+      "netChg": 6820,
+      "currentValue": 24337419,
+      "pctOut": 0.11,
       "action": "Bought",
       "discretion": "SOLE",
       "voteSole": 24337419,

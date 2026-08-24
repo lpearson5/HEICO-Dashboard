@@ -11,8 +11,8 @@
   "lastUpdated": "2026-08-24T11:36:05.469Z",
   "summary": {
     "institutions": 771,
-    "totalShares": 70152987,
-    "pctOut": 127.16000000000001,
+    "totalShares": 43783326,
+    "pctOut": 79.36,
     "newHolders": 122,
     "sellouts": 91,
     "bought": 255,
@@ -20,24 +20,6 @@
     "held": 134
   },
   "top10": [
-    {
-      "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
-      "filerCik": "1081019",
-      "shares": [
-        26443902,
-        84691,
-        86485,
-        78623
-      ],
-      "netChg": 26359211,
-      "currentValue": 74241,
-      "pctOut": 47.93,
-      "action": "Bought",
-      "discretion": "SOLE",
-      "voteSole": 26443902,
-      "voteShared": 0,
-      "voteNone": 0
-    },
     {
       "filerName": "BlackRock, Inc.  (BLK)",
       "filerCik": "2012383",
@@ -199,6 +181,24 @@
       "voteSole": 1290319,
       "voteShared": 0,
       "voteNone": 79684
+    },
+    {
+      "filerName": "MORGAN STANLEY  (MS, MS-PA, MS-PE, MS-PF, MS-PI, MS-PK, MS-PL, MS-PO, MS-PP, MS-PQ)",
+      "filerCik": "895421",
+      "shares": [
+        1185945,
+        1024012,
+        1058393,
+        1013305
+      ],
+      "netChg": 161933,
+      "currentValue": 422423095,
+      "pctOut": 2.15,
+      "action": "Bought",
+      "discretion": "DFND",
+      "voteSole": 845863,
+      "voteShared": 0,
+      "voteNone": 340082
     }
   ],
   "newHolders": [
@@ -4044,15 +4044,15 @@
       "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
       "filerCik": "1081019",
       "shares": [
-        26443902,
+        74241,
         84691,
         86485,
         78623
       ],
-      "netChg": 26359211,
-      "currentValue": 74241,
-      "pctOut": 47.93,
-      "action": "Bought",
+      "netChg": -10450,
+      "currentValue": 26443902,
+      "pctOut": 0.13,
+      "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 26443902,
       "voteShared": 0,
