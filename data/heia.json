@@ -3,8 +3,20 @@
   "cusip": "422806208",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-08-23T11:28:17.724Z",
+  "lastUpdated": "2026-08-24T11:36:05.469Z",
   "holdings": [
+    {
+      "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
+      "filerCik": "1081019",
+      "currentShares": 24337419,
+      "priorShares": 87544,
+      "change": 24249875,
+      "pctChange": 27700.2,
+      "currentValue": 94364,
+      "action": "Bought",
+      "firstSeen": "2026-08-24",
+      "newThisWeek": true
+    },
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
       "filerCik": "1126328",
@@ -1659,7 +1671,7 @@
       "currentValue": 12725210,
       "action": "Bought",
       "firstSeen": "2026-08-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Banco Santander, S.A.  (SAN, BCDRF)",
@@ -1683,7 +1695,7 @@
       "currentValue": 12170773,
       "action": "Sold",
       "firstSeen": "2026-08-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Zurcher Kantonalbank (Zurich Cantonalbank)",
@@ -2271,7 +2283,7 @@
       "currentValue": 5596389,
       "action": "Sold",
       "firstSeen": "2026-08-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "ING GROEP NV  (ING, INGVF)",
@@ -2871,7 +2883,7 @@
       "currentValue": 2640957,
       "action": "Bought",
       "firstSeen": "2026-08-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "DekaBank Deutsche Girozentrale",
@@ -5415,7 +5427,7 @@
       "currentValue": 300785,
       "action": "Bought",
       "firstSeen": "2026-08-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Leonteq Securities AG",
@@ -5559,7 +5571,7 @@
       "currentValue": 273385,
       "action": "No Change",
       "firstSeen": "2026-08-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "LEAVELL INVESTMENT MANAGEMENT, INC.",
@@ -5787,7 +5799,7 @@
       "currentValue": 235473,
       "action": "New Position",
       "firstSeen": "2026-08-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Azimuth Capital Investment Management LLC",
@@ -6831,7 +6843,7 @@
       "currentValue": 24517,
       "action": "Bought",
       "firstSeen": "2026-08-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "MCF Advisors LLC",
@@ -8190,18 +8202,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Freestone Grove Partners LP",
-      "filerCik": "2007591",
-      "currentShares": null,
-      "priorShares": 14178,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
-      "firstSeen": "2026-08-14",
-      "newThisWeek": false
-    },
-    {
       "filerName": "Robeco Institutional Asset Management B.V.",
       "filerCik": "1418773",
       "currentShares": null,
@@ -8211,6 +8211,18 @@
       "currentValue": null,
       "action": "Sell Out",
       "firstSeen": "2026-07-21",
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Freestone Grove Partners LP",
+      "filerCik": "2007591",
+      "currentShares": null,
+      "priorShares": 14178,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
+      "firstSeen": "2026-08-14",
       "newThisWeek": false
     },
     {
@@ -8391,18 +8403,6 @@
       "currentValue": null,
       "action": "Sell Out",
       "firstSeen": "2026-08-14",
-      "newThisWeek": false
-    },
-    {
-      "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
-      "filerCik": "1081019",
-      "currentShares": null,
-      "priorShares": 87544,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
       "newThisWeek": false
     },
     {

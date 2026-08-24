@@ -8,18 +8,36 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-23T11:28:17.724Z",
+  "lastUpdated": "2026-08-24T11:36:05.469Z",
   "summary": {
     "institutions": 771,
-    "totalShares": 43722012,
-    "pctOut": 79.25,
-    "newHolders": 123,
+    "totalShares": 70152987,
+    "pctOut": 127.16000000000001,
+    "newHolders": 122,
     "sellouts": 91,
-    "bought": 252,
-    "sold": 262,
+    "bought": 255,
+    "sold": 260,
     "held": 134
   },
   "top10": [
+    {
+      "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
+      "filerCik": "1081019",
+      "shares": [
+        26443902,
+        84691,
+        86485,
+        78623
+      ],
+      "netChg": 26359211,
+      "currentValue": 74241,
+      "pctOut": 47.93,
+      "action": "Bought",
+      "discretion": "SOLE",
+      "voteSole": 26443902,
+      "voteShared": 0,
+      "voteNone": 0
+    },
     {
       "filerName": "BlackRock, Inc.  (BLK)",
       "filerCik": "2012383",
@@ -181,24 +199,6 @@
       "voteSole": 1290319,
       "voteShared": 0,
       "voteNone": 79684
-    },
-    {
-      "filerName": "MORGAN STANLEY  (MS, MS-PA, MS-PE, MS-PF, MS-PI, MS-PK, MS-PL, MS-PO, MS-PP, MS-PQ)",
-      "filerCik": "895421",
-      "shares": [
-        1185945,
-        1024012,
-        1058393,
-        1013305
-      ],
-      "netChg": 161933,
-      "currentValue": 422423095,
-      "pctOut": 2.15,
-      "action": "Bought",
-      "discretion": "DFND",
-      "voteSole": 845863,
-      "voteShared": 0,
-      "voteNone": 340082
     }
   ],
   "newHolders": [
@@ -425,7 +425,7 @@
         20523,
         null,
         3033,
-        1755
+        null
       ],
       "netChg": 20523,
       "currentValue": 7310087,
@@ -977,24 +977,6 @@
       "voteNone": 1210
     },
     {
-      "filerName": "Prime Capital Investment Advisors, LLC",
-      "filerCik": "1731446",
-      "shares": [
-        1210,
-        null,
-        1203,
-        1196
-      ],
-      "netChg": 1210,
-      "currentValue": 430990,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 1210
-    },
-    {
       "filerName": "Frec Markets, Inc.",
       "filerCik": "2111359",
       "shares": [
@@ -1083,6 +1065,24 @@
       "voteSole": 1056,
       "voteShared": 0,
       "voteNone": 0
+    },
+    {
+      "filerName": "Mutual Advisors, LLC",
+      "filerCik": "1694080",
+      "shares": [
+        1053,
+        null,
+        1181,
+        1138
+      ],
+      "netChg": 1053,
+      "currentValue": 375123,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 1053
     },
     {
       "filerName": "CIBC WORLD MARKET INC.",
@@ -1191,24 +1191,6 @@
       "voteSole": 936,
       "voteShared": 0,
       "voteNone": 0
-    },
-    {
-      "filerName": "Vise Technologies, Inc.",
-      "filerCik": "1812090",
-      "shares": [
-        924,
-        null,
-        765,
-        652
-      ],
-      "netChg": 924,
-      "currentValue": 329125,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 924
     },
     {
       "filerName": "Mariner, LLC",
@@ -1703,7 +1685,7 @@
         610,
         null,
         1415,
-        null
+        1415
       ],
       "netChg": 610,
       "currentValue": 217276,
@@ -2455,24 +2437,6 @@
       "voteNone": null
     },
     {
-      "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
-      "filerCik": "1081019",
-      "shares": [
-        null,
-        84691,
-        86485,
-        78623
-      ],
-      "netChg": -84691,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Qube Research & Technologies Ltd",
       "filerCik": "1729829",
       "shares": [
@@ -2626,6 +2590,24 @@
         10782
       ],
       "netChg": -17524,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Numerai GP LLC",
+      "filerCik": "1668527",
+      "shares": [
+        null,
+        16243,
+        22765,
+        24799
+      ],
+      "netChg": -16243,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -4058,6 +4040,24 @@
     }
   ],
   "holdings": [
+    {
+      "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
+      "filerCik": "1081019",
+      "shares": [
+        26443902,
+        84691,
+        86485,
+        78623
+      ],
+      "netChg": 26359211,
+      "currentValue": 74241,
+      "pctOut": 47.93,
+      "action": "Bought",
+      "discretion": "SOLE",
+      "voteSole": 26443902,
+      "voteShared": 0,
+      "voteNone": 0
+    },
     {
       "filerName": "BlackRock, Inc.  (BLK)",
       "filerCik": "2012383",
@@ -7161,7 +7161,7 @@
         20523,
         null,
         3033,
-        1755
+        null
       ],
       "netChg": 20523,
       "currentValue": 7310087,
@@ -7871,24 +7871,6 @@
       "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 13068,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "Numerai GP LLC",
-      "filerCik": "1668527",
-      "shares": [
-        12927,
-        16243,
-        22765,
-        24799
-      ],
-      "netChg": -3316,
-      "currentValue": 4604468,
-      "pctOut": 0.02,
-      "action": "Sold",
-      "discretion": "SOLE",
-      "voteSole": 12927,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -12685,14 +12667,14 @@
       "filerCik": "1731446",
       "shares": [
         1210,
-        null,
+        1202,
         1203,
         1196
       ],
-      "netChg": 1210,
+      "netChg": 8,
       "currentValue": 430990,
       "pctOut": 0,
-      "action": "New",
+      "action": "Bought",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -13171,14 +13153,14 @@
       "filerCik": "1694080",
       "shares": [
         1053,
-        1132,
+        null,
         1181,
         1138
       ],
-      "netChg": -79,
+      "netChg": 1053,
       "currentValue": 375123,
       "pctOut": 0,
-      "action": "Sold",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -13639,14 +13621,14 @@
       "filerCik": "1812090",
       "shares": [
         924,
-        null,
+        765,
         765,
         652
       ],
-      "netChg": 924,
+      "netChg": 159,
       "currentValue": 329125,
       "pctOut": 0,
-      "action": "New",
+      "action": "Bought",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -14775,7 +14757,7 @@
         610,
         null,
         1415,
-        null
+        1415
       ],
       "netChg": 610,
       "currentValue": 217276,
@@ -18675,13 +18657,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Moran Wealth Management, LLC",
-      "filerCik": "1965334",
+      "filerName": "Longboard Asset Management, LP",
+      "filerCik": "2045792",
       "shares": [
         null,
         null,
-        1308,
-        1974
+        null,
+        785
       ],
       "netChg": null,
       "currentValue": null,
@@ -18693,13 +18675,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Longboard Asset Management, LP",
-      "filerCik": "2045792",
+      "filerName": "Moran Wealth Management, LLC",
+      "filerCik": "1965334",
       "shares": [
         null,
         null,
-        null,
-        785
+        1308,
+        1974
       ],
       "netChg": null,
       "currentValue": null,
@@ -19089,24 +19071,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Modus Advisors, LLC",
-      "filerCik": "1799284",
-      "shares": [
-        null,
-        null,
-        24,
-        null
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "MQS Management LLC",
       "filerCik": "1759395",
       "shares": [
@@ -19119,6 +19083,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Modus Advisors, LLC",
+      "filerCik": "1799284",
+      "shares": [
+        null,
+        null,
+        24,
+        null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19611,6 +19593,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Numerai GP LLC",
+      "filerCik": "1668527",
+      "shares": [
+        null,
+        16243,
+        22765,
+        24799
+      ],
+      "netChg": -16243,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Bridgefront Capital, LLC",
       "filerCik": "1725690",
       "shares": [
@@ -19809,12 +19809,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
-      "filerCik": "1510434",
+      "filerName": "GF FUND MANAGEMENT CO. LTD.",
+      "filerCik": "2057060",
       "shares": [
         null,
         null,
-        1447,
+        3884,
         null
       ],
       "netChg": null,
@@ -19827,13 +19827,13 @@
       "voteNone": null
     },
     {
-      "filerName": "GF FUND MANAGEMENT CO. LTD.",
-      "filerCik": "2057060",
+      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
+      "filerCik": "1510434",
       "shares": [
         null,
         null,
-        3884,
-        3884
+        1447,
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -19881,12 +19881,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Legato Capital Management LLC",
-      "filerCik": "1442641",
+      "filerName": "V-Square Quantitative Management LLC",
+      "filerCik": "1943239",
       "shares": [
         null,
         null,
-        1077,
+        115,
         null
       ],
       "netChg": null,
@@ -19899,12 +19899,12 @@
       "voteNone": null
     },
     {
-      "filerName": "V-Square Quantitative Management LLC",
-      "filerCik": "1943239",
+      "filerName": "Legato Capital Management LLC",
+      "filerCik": "1442641",
       "shares": [
         null,
         null,
-        115,
+        1077,
         null
       ],
       "netChg": null,
@@ -20223,24 +20223,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Legacy Wealth Managment, LLC/ID",
-      "filerCik": "2045082",
-      "shares": [
-        null,
-        15,
-        15,
-        15
-      ],
-      "netChg": -15,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "JENNISON ASSOCIATES LLC",
       "filerCik": "53417",
       "shares": [
@@ -20268,6 +20250,24 @@
         2275
       ],
       "netChg": -14629,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Legacy Wealth Managment, LLC/ID",
+      "filerCik": "2045082",
+      "shares": [
+        null,
+        15,
+        15,
+        15
+      ],
+      "netChg": -15,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -20439,13 +20439,13 @@
       "voteNone": null
     },
     {
-      "filerName": "VALLEY NATIONAL ADVISERS INC",
-      "filerCik": "773411",
+      "filerName": "Groupe la Francaise",
+      "filerCik": "2056088",
       "shares": [
         null,
         null,
-        350,
-        350
+        null,
+        15
       ],
       "netChg": null,
       "currentValue": null,
@@ -20457,13 +20457,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Groupe la Francaise",
-      "filerCik": "2056088",
+      "filerName": "VALLEY NATIONAL ADVISERS INC",
+      "filerCik": "773411",
       "shares": [
         null,
         null,
-        null,
-        15
+        350,
+        350
       ],
       "netChg": null,
       "currentValue": null,
@@ -20500,24 +20500,6 @@
         null,
         154,
         null
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Principia Wealth Advisory, LLC",
-      "filerCik": "2041436",
-      "shares": [
-        null,
-        null,
-        2,
-        3
       ],
       "netChg": null,
       "currentValue": null,
@@ -20577,6 +20559,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Principia Wealth Advisory, LLC",
+      "filerCik": "2041436",
+      "shares": [
+        null,
+        null,
+        2,
+        3
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -21477,24 +21477,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
-      "filerCik": "1081019",
-      "shares": [
-        null,
-        84691,
-        86485,
-        78623
-      ],
-      "netChg": -84691,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,

@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-23T11:28:17.724Z",
+  "lastUpdated": "2026-08-24T11:36:05.469Z",
   "summary": {
     "funds": 421,
-    "totalShares": 18547588,
-    "pctOut": 33.6184,
+    "totalShares": 18547742,
+    "pctOut": 33.618700000000004,
     "newFunds": 39,
     "sellouts": 52,
     "linkedManagers": 26,
-    "linkedShares": 15932006
+    "linkedShares": 15932160
   },
   "newHolders": [
     {
@@ -1677,7 +1677,7 @@
     {
       "manager": "Voya",
       "fundCount": 10,
-      "shares": 222636,
+      "shares": 222790,
       "funds": [
         {
           "fundName": "Voya Large Cap Growth Portfolio",
@@ -1705,7 +1705,7 @@
         },
         {
           "fundName": "Voya Balanced Income Portfolio",
-          "shares": 1191
+          "shares": 1345
         },
         {
           "fundName": "VOYA RUSSELLTM MID CAP GROWTH INDEX PORTFOLIO",
@@ -5743,6 +5743,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Voya Balanced Income Portfolio",
+      "registrant": "Voya Investors Trust",
+      "manager": "Voya",
+      "cik": "837276",
+      "shares": 1345,
+      "value": 368799,
+      "reportDate": "2026-03-31",
+      "priorShares": 1656,
+      "change": -311,
+      "pctOut": 0.0024000000000000002,
+      "action": "Sold"
+    },
+    {
       "fundName": "LargeCap Growth Fund I",
       "registrant": "Principal Funds, Inc",
       "manager": "Principal",
@@ -5884,19 +5897,6 @@
       "change": 495,
       "pctOut": 0.0022,
       "action": "Bought"
-    },
-    {
-      "fundName": "Voya Balanced Income Portfolio",
-      "registrant": "Voya Investors Trust",
-      "manager": "Voya",
-      "cik": "837276",
-      "shares": 1191,
-      "value": 424222,
-      "reportDate": "2026-06-30",
-      "priorShares": 1345,
-      "change": -154,
-      "pctOut": 0.0022,
-      "action": "Sold"
     },
     {
       "fundName": "Fidelity Hedged Equity Fund",
