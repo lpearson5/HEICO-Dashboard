@@ -205,21 +205,32 @@ function parseInfoTable(xml) {
     const pc = (tag(b, "putCall") ?? "").trim().toUpperCase();
     if (pc === "PUT" || pc === "CALL") continue;
     let   shares = parseInt((tag(b, "sshPrnamt") ?? "0").replace(/,/g, ""), 10) || 0;
-    const value  = parseInt((tag(b, "value")     ?? "0").replace(/,/g, ""), 10) || 0;
+    let   value  = parseInt((tag(b, "value")     ?? "0").replace(/,/g, ""), 10) || 0;
     // Investment discretion (SOLE/DFND/OTR) and voting authority (Sole/Shared/None).
     const disc = (tag(b, "investmentDiscretion") ?? "").trim().toUpperCase();
-    const voteSole   = parseInt((tag(b, "Sole")   ?? "0").replace(/,/g, ""), 10) || 0;
+    let   voteSole   = parseInt((tag(b, "Sole")   ?? "0").replace(/,/g, ""), 10) || 0;
     const voteShared = parseInt((tag(b, "Shared") ?? "0").replace(/,/g, ""), 10) || 0;
     const voteNone   = parseInt((tag(b, "None")   ?? "0").replace(/,/g, ""), 10) || 0;
-    // Guard against a filer data-entry error where the share count is mistakenly
-    // set equal to the dollar value. 13F value is reported in whole dollars, so for
-    // any stock above ~$1 the shares can never legitimately equal the value. When
-    // they do, and the voting-authority total gives a different (real) count, trust
-    // the voting total. (e.g. Diamant's Q1-2026 HEICO filing: sshPrnamt=value=763,647
-    // but voting authority = the true 2,785 shares.)
+    // Guards against two filer data-entry errors. 13F value is reported in whole
+    // dollars, so for any stock above ~$1 the value must exceed the share count.
     const voteTotal = voteSole + voteShared + voteNone;
     if (shares > 0 && shares === value && voteTotal > 0 && voteTotal !== shares) {
+      // (1) share count mistakenly set equal to the dollar value; trust voting total.
+      // e.g. Diamant Q1-2026: sshPrnamt=value=763,647 but voting = the true 2,785.
       shares = voteTotal;
+    } else if (shares > 0 && value > 0 && value < shares &&
+               SHARES_OUTSTANDING[ticker] && shares > SHARES_OUTSTANDING[ticker] * 0.2) {
+      // (2) value and shares columns transposed: the share field holds an implausible
+      // count (>20% of the entire company — no 13F holder of HEICO is remotely that
+      // large) while the smaller value field is the real share count. Swap them back.
+      // NB: many filers legitimately report value in $1000s, which also makes value <
+      // shares WITHOUT any transposition — so the >20%-of-shares-outstanding test is
+      // what distinguishes a real swap. e.g. CalSTRS Q2-2026: sshPrnamt=26,443,902
+      // (the dollar value) but only 74,241 shares.
+      const wrongShares = shares;
+      shares = value;
+      value = wrongShares;
+      if (voteSole === wrongShares) voteSole = shares; // voting field carried the value too
     }
     // A filing can list a CUSIP across multiple rows (share classes/lots) — sum them.
     const prev = out[ticker];
