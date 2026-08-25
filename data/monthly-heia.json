@@ -8,14 +8,14 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84488320,
-  "lastUpdated": "2026-08-24T11:36:05.469Z",
+  "lastUpdated": "2026-08-25T11:35:21.568Z",
   "summary": {
-    "institutions": 666,
-    "totalShares": 69605489,
-    "pctOut": 82.38,
-    "newHolders": 111,
-    "sellouts": 66,
-    "bought": 252,
+    "institutions": 667,
+    "totalShares": 70044048,
+    "pctOut": 82.89999999999999,
+    "newHolders": 110,
+    "sellouts": 65,
+    "bought": 254,
     "sold": 213,
     "held": 90
   },
@@ -1288,7 +1288,7 @@
       "shares": [
         852,
         null,
-        997,
+        null,
         1038
       ],
       "netChg": 852,
@@ -1877,24 +1877,6 @@
       "voteNone": 0
     },
     {
-      "filerName": "Hughes Financial Services, LLC",
-      "filerCik": "2054465",
-      "shares": [
-        12,
-        null,
-        6,
-        null
-      ],
-      "netChg": 12,
-      "currentValue": 3095,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 12,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
       "filerName": "Barnes Dennig Private Wealth Management LLC",
       "filerCik": "2058270",
       "shares": [
@@ -2202,24 +2184,6 @@
     }
   ],
   "sellouts": [
-    {
-      "filerName": "MANNING & NAPIER ADVISORS LLC",
-      "filerCik": "62039",
-      "shares": [
-        null,
-        353872,
-        226583,
-        242332
-      ],
-      "netChg": -353872,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
     {
       "filerName": "JANUS HENDERSON GROUP PLC  (JHG)",
       "filerCik": "1274173",
@@ -3393,24 +3357,6 @@
   ],
   "holdings": [
     {
-      "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
-      "filerCik": "1081019",
-      "shares": [
-        94364,
-        87544,
-        90012,
-        98457
-      ],
-      "netChg": 6820,
-      "currentValue": 24337419,
-      "pctOut": 0.11,
-      "action": "Bought",
-      "discretion": "SOLE",
-      "voteSole": 24337419,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
       "filerCik": "1126328",
       "shares": [
@@ -3967,6 +3913,24 @@
       "voteSole": 443590,
       "voteShared": 0,
       "voteNone": 0
+    },
+    {
+      "filerName": "MANNING & NAPIER ADVISORS LLC",
+      "filerCik": "62039",
+      "shares": [
+        438559,
+        353872,
+        226583,
+        242332
+      ],
+      "netChg": 84687,
+      "currentValue": 113108765,
+      "pctOut": 0.52,
+      "action": "Bought",
+      "discretion": "SOLE",
+      "voteSole": 400162,
+      "voteShared": 0,
+      "voteNone": 38397
     },
     {
       "filerName": "FENIMORE ASSET MANAGEMENT INC",
@@ -5171,6 +5135,24 @@
       "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 94520,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
+      "filerCik": "1081019",
+      "shares": [
+        94364,
+        87544,
+        90012,
+        98457
+      ],
+      "netChg": 6820,
+      "currentValue": 24337419,
+      "pctOut": 0.11,
+      "action": "Bought",
+      "discretion": "SOLE",
+      "voteSole": 94364,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -12218,7 +12200,7 @@
       "shares": [
         852,
         null,
-        997,
+        null,
         1038
       ],
       "netChg": 852,
@@ -14647,14 +14629,14 @@
       "filerCik": "2054465",
       "shares": [
         12,
-        null,
+        2,
         6,
         null
       ],
-      "netChg": 12,
+      "netChg": 10,
       "currentValue": 3095,
       "pctOut": 0,
-      "action": "New",
+      "action": "Bought",
       "discretion": "SOLE",
       "voteSole": 12,
       "voteShared": 0,
@@ -14721,7 +14703,7 @@
         11,
         11,
         1,
-        null
+        1
       ],
       "netChg": 0,
       "currentValue": 2897,
@@ -15723,24 +15705,6 @@
       "voteNone": null
     },
     {
-      "filerName": "MANNING & NAPIER ADVISORS LLC",
-      "filerCik": "62039",
-      "shares": [
-        null,
-        353872,
-        226583,
-        242332
-      ],
-      "netChg": -353872,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "ASR Vermogensbeheer N.V.",
       "filerCik": "1916757",
       "shares": [
@@ -16101,6 +16065,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Principia Wealth Advisory, LLC",
+      "filerCik": "2041436",
+      "shares": [
+        null,
+        null,
+        2,
+        1
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "BROWN, LISLE/CUMMINGS, INC.",
       "filerCik": "14745",
       "shares": [
@@ -16149,24 +16131,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Principia Wealth Advisory, LLC",
-      "filerCik": "2041436",
-      "shares": [
-        null,
-        null,
-        2,
-        1
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -17379,24 +17343,6 @@
       "voteNone": null
     },
     {
-      "filerName": "NICOLET ADVISORY SERVICES, LLC",
-      "filerCik": "1775863",
-      "shares": [
-        null,
-        null,
-        1611,
-        1320
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "BALLAST ADVISORS LLC",
       "filerCik": "1803415",
       "shares": [
@@ -17415,13 +17361,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Accredited Wealth Management, LLC",
-      "filerCik": "2056519",
+      "filerName": "NICOLET ADVISORY SERVICES, LLC",
+      "filerCik": "1775863",
       "shares": [
         null,
         null,
-        null,
-        799
+        1611,
+        1320
       ],
       "netChg": null,
       "currentValue": null,
@@ -17440,6 +17386,24 @@
         null,
         1100,
         1100
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Accredited Wealth Management, LLC",
+      "filerCik": "2056519",
+      "shares": [
+        null,
+        null,
+        null,
+        799
       ],
       "netChg": null,
       "currentValue": null,

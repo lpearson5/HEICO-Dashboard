@@ -3,20 +3,8 @@
   "cusip": "422806208",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-08-24T11:36:05.469Z",
+  "lastUpdated": "2026-08-25T11:35:21.568Z",
   "holdings": [
-    {
-      "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
-      "filerCik": "1081019",
-      "currentShares": 94364,
-      "priorShares": 87544,
-      "change": 6820,
-      "pctChange": 7.8,
-      "currentValue": 24337419,
-      "action": "Bought",
-      "firstSeen": "2026-08-24",
-      "newThisWeek": true
-    },
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
       "filerCik": "1126328",
@@ -1206,6 +1194,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
+      "filerCik": "1081019",
+      "currentShares": 94364,
+      "priorShares": 87544,
+      "change": 6820,
+      "pctChange": 7.8,
+      "currentValue": 24337419,
+      "action": "Bought",
+      "firstSeen": "2026-08-24",
+      "newThisWeek": true
+    },
+    {
       "filerName": "PUBLIC EMPLOYEES RETIREMENT ASSOCIATION OF COLORADO",
       "filerCik": "315297",
       "currentShares": 93572,
@@ -1563,7 +1563,7 @@
       "currentValue": 19675005,
       "action": "Sold",
       "firstSeen": "2026-08-18",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "APG Asset Management N.V.",
@@ -2583,7 +2583,7 @@
       "currentValue": 3854,
       "action": "Bought",
       "firstSeen": "2026-08-18",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "CREDIT AGRICOLE S A",
@@ -5199,7 +5199,7 @@
       "currentValue": 362880,
       "action": "Bought",
       "firstSeen": "2026-08-18",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "CAISSE DE DEPOT ET PLACEMENT DU QUEBEC",
@@ -5451,7 +5451,7 @@
       "currentValue": 299433,
       "action": "No Change",
       "firstSeen": "2026-08-18",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "OARSMAN CAPITAL, INC.",

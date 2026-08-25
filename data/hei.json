@@ -3,20 +3,8 @@
   "cusip": "422806109",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-08-24T11:36:05.469Z",
+  "lastUpdated": "2026-08-25T11:35:21.568Z",
   "holdings": [
-    {
-      "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
-      "filerCik": "1081019",
-      "currentShares": 74241,
-      "priorShares": 84691,
-      "change": -10450,
-      "pctChange": -12.3,
-      "currentValue": 26443902,
-      "action": "Sold",
-      "firstSeen": "2026-08-24",
-      "newThisWeek": true
-    },
     {
       "filerName": "BlackRock, Inc.  (BLK)",
       "filerCik": "2012383",
@@ -963,7 +951,7 @@
       "currentValue": 29744184,
       "action": "New Position",
       "firstSeen": "2026-08-18",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "One Madison Group LLC",
@@ -1012,6 +1000,18 @@
       "action": "Sold",
       "firstSeen": "2026-07-28",
       "newThisWeek": false
+    },
+    {
+      "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
+      "filerCik": "1081019",
+      "currentShares": 74241,
+      "priorShares": 84691,
+      "change": -10450,
+      "pctChange": -12.3,
+      "currentValue": 26443902,
+      "action": "Sold",
+      "firstSeen": "2026-08-24",
+      "newThisWeek": true
     },
     {
       "filerName": "Baird Financial Group, Inc.",
@@ -2991,7 +2991,7 @@
       "currentValue": 3062145,
       "action": "New Position",
       "firstSeen": "2026-08-18",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "COMMERCE BANK",
@@ -4095,7 +4095,7 @@
       "currentValue": 1280385,
       "action": "Bought",
       "firstSeen": "2026-08-18",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Total Wealth Planning & Management, Inc.",
@@ -8247,7 +8247,7 @@
       "currentValue": 14245,
       "action": "New Position",
       "firstSeen": "2026-08-18",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Princeton Global Asset Management LLC",
@@ -9198,18 +9198,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Seneschal Advisors, LLC",
-      "filerCik": "2039659",
-      "currentShares": 1,
-      "priorShares": 1,
-      "change": 0,
-      "pctChange": 0,
-      "currentValue": 357,
-      "action": "No Change",
-      "firstSeen": "2026-08-14",
-      "newThisWeek": false
-    },
-    {
       "filerName": "Downshift Financial, LLC",
       "filerCik": "2118380",
       "currentShares": 1,
@@ -9219,6 +9207,18 @@
       "currentValue": 356,
       "action": "New Position",
       "firstSeen": "2026-08-13",
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Seneschal Advisors, LLC",
+      "filerCik": "2039659",
+      "currentShares": 1,
+      "priorShares": 1,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 357,
+      "action": "No Change",
+      "firstSeen": "2026-08-14",
       "newThisWeek": false
     },
     {
@@ -9822,10 +9822,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Key Capital Management, INC",
-      "filerCik": "2107249",
+      "filerName": "Elequin Capital, LP",
+      "filerCik": "1810873",
       "currentShares": null,
-      "priorShares": 5,
+      "priorShares": 1,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -9834,10 +9834,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Elequin Capital, LP",
-      "filerCik": "1810873",
+      "filerName": "Key Capital Management, INC",
+      "filerCik": "2107249",
       "currentShares": null,
-      "priorShares": 1,
+      "priorShares": 5,
       "change": null,
       "pctChange": null,
       "currentValue": null,

@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-24T11:36:05.469Z",
+  "lastUpdated": "2026-08-25T11:35:21.568Z",
   "summary": {
-    "institutions": 771,
-    "totalShares": 43783326,
-    "pctOut": 79.36,
-    "newHolders": 122,
-    "sellouts": 91,
-    "bought": 255,
-    "sold": 260,
+    "institutions": 772,
+    "totalShares": 43796253,
+    "pctOut": 79.38,
+    "newHolders": 121,
+    "sellouts": 90,
+    "bought": 254,
+    "sold": 263,
     "held": 134
   },
   "top10": [
@@ -425,7 +425,7 @@
         20523,
         null,
         3033,
-        null
+        1755
       ],
       "netChg": 20523,
       "currentValue": 7310087,
@@ -1065,24 +1065,6 @@
       "voteSole": 1056,
       "voteShared": 0,
       "voteNone": 0
-    },
-    {
-      "filerName": "Mutual Advisors, LLC",
-      "filerCik": "1694080",
-      "shares": [
-        1053,
-        null,
-        1181,
-        1138
-      ],
-      "netChg": 1053,
-      "currentValue": 375123,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 1053
     },
     {
       "filerName": "CIBC WORLD MARKET INC.",
@@ -2599,24 +2581,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Numerai GP LLC",
-      "filerCik": "1668527",
-      "shares": [
-        null,
-        16243,
-        22765,
-        24799
-      ],
-      "netChg": -16243,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Tredje AP-fonden",
       "filerCik": "1650290",
       "shares": [
@@ -4040,24 +4004,6 @@
     }
   ],
   "holdings": [
-    {
-      "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
-      "filerCik": "1081019",
-      "shares": [
-        74241,
-        84691,
-        86485,
-        78623
-      ],
-      "netChg": -10450,
-      "currentValue": 26443902,
-      "pctOut": 0.13,
-      "action": "Sold",
-      "discretion": "SOLE",
-      "voteSole": 26443902,
-      "voteShared": 0,
-      "voteNone": 0
-    },
     {
       "filerName": "BlackRock, Inc.  (BLK)",
       "filerCik": "2012383",
@@ -5549,6 +5495,24 @@
       "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 75000,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
+      "filerCik": "1081019",
+      "shares": [
+        74241,
+        84691,
+        86485,
+        78623
+      ],
+      "netChg": -10450,
+      "currentValue": 26443902,
+      "pctOut": 0.13,
+      "action": "Sold",
+      "discretion": "SOLE",
+      "voteSole": 74241,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -7161,7 +7125,7 @@
         20523,
         null,
         3033,
-        null
+        1755
       ],
       "netChg": 20523,
       "currentValue": 7310087,
@@ -7871,6 +7835,24 @@
       "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 13068,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "Numerai GP LLC",
+      "filerCik": "1668527",
+      "shares": [
+        12927,
+        16243,
+        22765,
+        24799
+      ],
+      "netChg": -3316,
+      "currentValue": 4604468,
+      "pctOut": 0.02,
+      "action": "Sold",
+      "discretion": "SOLE",
+      "voteSole": 12927,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -13153,14 +13135,14 @@
       "filerCik": "1694080",
       "shares": [
         1053,
-        null,
+        1132,
         1181,
         1138
       ],
-      "netChg": 1053,
+      "netChg": -79,
       "currentValue": 375123,
       "pctOut": 0,
-      "action": "New",
+      "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -18783,24 +18765,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Optimize Financial Inc",
-      "filerCik": "2033266",
-      "shares": [
-        null,
-        1157,
-        998,
-        986
-      ],
-      "netChg": -1157,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Silicon Valley Capital Partners",
       "filerCik": "1673633",
       "shares": [
@@ -18810,6 +18774,24 @@
         71
       ],
       "netChg": -71,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Optimize Financial Inc",
+      "filerCik": "2033266",
+      "shares": [
+        null,
+        1157,
+        998,
+        986
+      ],
+      "netChg": -1157,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -19593,24 +19575,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Numerai GP LLC",
-      "filerCik": "1668527",
-      "shares": [
-        null,
-        16243,
-        22765,
-        24799
-      ],
-      "netChg": -16243,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Bridgefront Capital, LLC",
       "filerCik": "1725690",
       "shares": [
@@ -19809,12 +19773,12 @@
       "voteNone": null
     },
     {
-      "filerName": "GF FUND MANAGEMENT CO. LTD.",
-      "filerCik": "2057060",
+      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
+      "filerCik": "1510434",
       "shares": [
         null,
         null,
-        3884,
+        1447,
         null
       ],
       "netChg": null,
@@ -19827,13 +19791,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
-      "filerCik": "1510434",
+      "filerName": "GF FUND MANAGEMENT CO. LTD.",
+      "filerCik": "2057060",
       "shares": [
         null,
         null,
-        1447,
-        null
+        3884,
+        3884
       ],
       "netChg": null,
       "currentValue": null,
@@ -19881,12 +19845,12 @@
       "voteNone": null
     },
     {
-      "filerName": "V-Square Quantitative Management LLC",
-      "filerCik": "1943239",
+      "filerName": "Legato Capital Management LLC",
+      "filerCik": "1442641",
       "shares": [
         null,
         null,
-        115,
+        1077,
         null
       ],
       "netChg": null,
@@ -19899,12 +19863,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Legato Capital Management LLC",
-      "filerCik": "1442641",
+      "filerName": "V-Square Quantitative Management LLC",
+      "filerCik": "1943239",
       "shares": [
         null,
         null,
-        1077,
+        115,
         null
       ],
       "netChg": null,
@@ -20061,24 +20025,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Key Capital Management, INC",
-      "filerCik": "2107249",
-      "shares": [
-        null,
-        5,
-        null,
-        null
-      ],
-      "netChg": -5,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Elequin Capital, LP",
       "filerCik": "1810873",
       "shares": [
@@ -20088,6 +20034,24 @@
         null
       ],
       "netChg": -1,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Key Capital Management, INC",
+      "filerCik": "2107249",
+      "shares": [
+        null,
+        5,
+        null,
+        null
+      ],
+      "netChg": -5,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -20223,6 +20187,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Legacy Wealth Managment, LLC/ID",
+      "filerCik": "2045082",
+      "shares": [
+        null,
+        15,
+        15,
+        15
+      ],
+      "netChg": -15,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "JENNISON ASSOCIATES LLC",
       "filerCik": "53417",
       "shares": [
@@ -20250,24 +20232,6 @@
         2275
       ],
       "netChg": -14629,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Legacy Wealth Managment, LLC/ID",
-      "filerCik": "2045082",
-      "shares": [
-        null,
-        15,
-        15,
-        15
-      ],
-      "netChg": -15,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -20511,6 +20475,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Principia Wealth Advisory, LLC",
+      "filerCik": "2041436",
+      "shares": [
+        null,
+        null,
+        2,
+        3
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "BROWN, LISLE/CUMMINGS, INC.",
       "filerCik": "14745",
       "shares": [
@@ -20559,24 +20541,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Principia Wealth Advisory, LLC",
-      "filerCik": "2041436",
-      "shares": [
-        null,
-        null,
-        2,
-        3
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
