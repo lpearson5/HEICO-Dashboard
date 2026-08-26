@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T11:35:21.568Z",
+  "lastUpdated": "2026-08-26T11:36:37.421Z",
   "peers": [
     {
       "name": "RTX Corp.",
@@ -114,6 +114,12 @@
           "value": 4653133800
         },
         {
+          "fund": "iSHARES TRUST",
+          "manager": "BlackRock",
+          "shares": 18524360,
+          "value": 3514626823
+        },
+        {
           "fund": "SPDR S&P 500 ETF TRUST  (SPY)",
           "manager": "State Street",
           "shares": 15632618,
@@ -136,12 +142,6 @@
           "manager": "Vanguard Group",
           "shares": 12416217,
           "value": 2395088259
-        },
-        {
-          "fund": "iSHARES TRUST",
-          "manager": "BlackRock",
-          "shares": 11281516,
-          "value": 2140442031
         },
         {
           "fund": "AMERICAN MUTUAL FUND",
@@ -336,6 +336,12 @@
       ],
       "topFunds": [
         {
+          "fund": "iSHARES TRUST",
+          "manager": "BlackRock",
+          "shares": 10843069,
+          "value": 2347199146
+        },
+        {
           "fund": "GROWTH FUND OF AMERICA",
           "manager": "Capital Group (American Funds)",
           "shares": 9444408,
@@ -364,12 +370,6 @@
           "manager": "FMR (Fidelity)",
           "shares": 6327307,
           "value": 1462557013
-        },
-        {
-          "fund": "iSHARES TRUST",
-          "manager": "BlackRock",
-          "shares": 5936383,
-          "value": 1285048828
         },
         {
           "fund": "MFS SERIES TRUST I",
@@ -582,12 +582,6 @@
           "value": 702808050
         },
         {
-          "fund": "iSHARES TRUST",
-          "manager": "BlackRock",
-          "shares": 2416042,
-          "value": 649577052
-        },
-        {
           "fund": "AMCAP FUND",
           "manager": "Capital Group (American Funds)",
           "shares": 2271452,
@@ -682,6 +676,12 @@
           "manager": "American Century",
           "shares": 928000,
           "value": 225541120
+        },
+        {
+          "fund": "John Hancock Funds III",
+          "manager": "John Hancock",
+          "shares": 869295,
+          "value": 200337726
         }
       ]
     },
@@ -840,12 +840,6 @@
           "value": 684244189
         },
         {
-          "fund": "iSHARES TRUST",
-          "manager": "BlackRock",
-          "shares": 497195,
-          "value": 662283628
-        },
-        {
           "fund": "FIDELITY MAGELLAN FUND",
           "manager": "FMR (Fidelity)",
           "shares": 397526,
@@ -910,6 +904,12 @@
           "manager": "FMR (Fidelity)",
           "shares": 161403,
           "value": 230409239
+        },
+        {
+          "fund": "AMERICAN FUNDS INSURANCE SERIES",
+          "manager": "Capital Group (American Funds)",
+          "shares": 149304,
+          "value": 173037364
         }
       ]
     },
@@ -936,6 +936,11 @@
           "filer": "STATE STREET CORP  (STT, STT-PG)",
           "shares": 2265326,
           "value": 1510745909
+        },
+        {
+          "filer": "FIL Ltd",
+          "shares": 1834853,
+          "value": 1223663466
         },
         {
           "filer": "DODGE & COX",
@@ -1011,11 +1016,6 @@
           "filer": "DIMENSIONAL FUND ADVISORS LP",
           "shares": 411112,
           "value": 274075476
-        },
-        {
-          "filer": "SEI INVESTMENTS CO  (SEIC)",
-          "shares": 408516,
-          "value": 272439388
         }
       ],
       "topFunds": [
@@ -1092,6 +1092,12 @@
           "value": 166247603
         },
         {
+          "fund": "VANGUARD INSTITUTIONAL INDEX FUNDS",
+          "manager": "Vanguard Group",
+          "shares": 264924,
+          "value": 160281669
+        },
+        {
           "fund": "JP MORGAN FLEMING MUTUAL FUND GROUP INC",
           "manager": "JPMorgan",
           "shares": 210741,
@@ -1132,12 +1138,6 @@
           "manager": "T. Rowe Price",
           "shares": 142275,
           "value": 91888309
-        },
-        {
-          "fund": "Value Line Mid Cap Focused Fund, Inc.",
-          "manager": "",
-          "shares": 116500,
-          "value": 77693850
         }
       ]
     },
@@ -1332,12 +1332,6 @@
           "value": 31117121
         },
         {
-          "fund": "iSHARES TRUST",
-          "manager": "BlackRock",
-          "shares": 359992,
-          "value": 29018955
-        },
-        {
           "fund": "AB DISCOVERY GROWTH FUND, INC.",
           "manager": "",
           "shares": 384936,
@@ -1366,6 +1360,12 @@
           "manager": "",
           "shares": 343272,
           "value": 19666053
+        },
+        {
+          "fund": "JANUS INVESTMENT FUND",
+          "manager": "Janus Henderson",
+          "shares": 328054,
+          "value": 18794214
         }
       ]
     },
@@ -1542,6 +1542,12 @@
           "value": 6585839
         },
         {
+          "fund": "EQ ADVISORS TRUST",
+          "manager": "",
+          "shares": 124399,
+          "value": 5739770
+        },
+        {
           "fund": "EMPOWER FUNDS, INC.",
           "manager": "",
           "shares": 108192,
@@ -1578,22 +1584,16 @@
           "value": 3816009
         },
         {
+          "fund": "AIM VARIABLE INSURANCE FUNDS (INVESCO VARIABLE INSURANCE FUNDS)",
+          "manager": "Invesco",
+          "shares": 65425,
+          "value": 3018710
+        },
+        {
           "fund": "AIM INTERNATIONAL MUTUAL FUNDS (INVESCO INTERNATIONAL MUTUAL FUNDS)",
           "manager": "Invesco",
           "shares": 84101,
           "value": 2943535
-        },
-        {
-          "fund": "FIDELITY MT VERNON STREET TRUST",
-          "manager": "FMR (Fidelity)",
-          "shares": 56900,
-          "value": 2556517
-        },
-        {
-          "fund": "American Funds U.S. Small & Mid Cap Equity Fund",
-          "manager": "Capital Group (American Funds)",
-          "shares": 48386,
-          "value": 2173983
         }
       ]
     },
@@ -1740,16 +1740,16 @@
           "value": 67040038
         },
         {
-          "fund": "iSHARES TRUST",
-          "manager": "BlackRock",
-          "shares": 284551,
-          "value": 65019904
-        },
-        {
           "fund": "Capitol Series Trust",
           "manager": "",
           "shares": 349500,
           "value": 64447800
+        },
+        {
+          "fund": "iSHARES TRUST",
+          "manager": "BlackRock",
+          "shares": 252129,
+          "value": 57611477
         },
         {
           "fund": "T. Rowe Price Small-Cap Value Fund, Inc.",

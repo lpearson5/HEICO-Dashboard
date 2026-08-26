@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-08-25T11:35:21.568Z",
+  "lastUpdated": "2026-08-26T11:36:37.421Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -3651,7 +3651,7 @@
       "currentValue": 1897165,
       "action": "Sold",
       "firstSeen": "2026-08-19",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "AG2R LA MONDIALE GESTION D'ACTIFS",
@@ -6375,7 +6375,7 @@
       "currentValue": 333394,
       "action": "New Position",
       "firstSeen": "2026-08-19",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Lifeworks Advisors, LLC",
@@ -9198,18 +9198,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Downshift Financial, LLC",
-      "filerCik": "2118380",
-      "currentShares": 1,
-      "priorShares": null,
-      "change": 1,
-      "pctChange": 100,
-      "currentValue": 356,
-      "action": "New Position",
-      "firstSeen": "2026-08-13",
-      "newThisWeek": false
-    },
-    {
       "filerName": "Seneschal Advisors, LLC",
       "filerCik": "2039659",
       "currentShares": 1,
@@ -9219,6 +9207,18 @@
       "currentValue": 357,
       "action": "No Change",
       "firstSeen": "2026-08-14",
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Downshift Financial, LLC",
+      "filerCik": "2118380",
+      "currentShares": 1,
+      "priorShares": null,
+      "change": 1,
+      "pctChange": 100,
+      "currentValue": 356,
+      "action": "New Position",
+      "firstSeen": "2026-08-13",
       "newThisWeek": false
     },
     {
@@ -9822,18 +9822,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Elequin Capital, LP",
-      "filerCik": "1810873",
-      "currentShares": null,
-      "priorShares": 1,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "Key Capital Management, INC",
       "filerCik": "2107249",
       "currentShares": null,
@@ -9846,10 +9834,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Dynamic Technology Lab Private Ltd",
-      "filerCik": "1535387",
+      "filerName": "Elequin Capital, LP",
+      "filerCik": "1810873",
       "currentShares": null,
-      "priorShares": 2152,
+      "priorShares": 1,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -9862,6 +9850,18 @@
       "filerCik": "2109367",
       "currentShares": null,
       "priorShares": 1,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Dynamic Technology Lab Private Ltd",
+      "filerCik": "1535387",
+      "currentShares": null,
+      "priorShares": 2152,
       "change": null,
       "pctChange": null,
       "currentValue": null,

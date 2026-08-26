@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55170957,
-  "lastUpdated": "2026-08-25T11:35:21.568Z",
+  "lastUpdated": "2026-08-26T11:36:37.421Z",
   "summary": {
     "funds": 423,
-    "totalShares": 18348026,
-    "pctOut": 33.2567,
-    "newFunds": 42,
-    "sellouts": 53,
+    "totalShares": 18329263,
+    "pctOut": 33.222699999999996,
+    "newFunds": 41,
+    "sellouts": 51,
     "linkedManagers": 26,
-    "linkedShares": 15730392
+    "linkedShares": 15708526
   },
   "newHolders": [
     {
@@ -352,19 +352,6 @@
       "action": "New"
     },
     {
-      "fundName": "1290 VT SmartBeta Equity ESG Portfolio",
-      "registrant": "EQ Advisors Trust",
-      "manager": "",
-      "cik": "1027263",
-      "shares": 1410,
-      "value": 386622,
-      "reportDate": "2026-03-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0026,
-      "action": "New"
-    },
-    {
       "fundName": "T. Rowe Price Spectrum Conservative Allocation Fund",
       "registrant": "T. ROWE PRICE SPECTRUM FUNDS II, INC.",
       "manager": "T. Rowe Price",
@@ -695,13 +682,6 @@
       "lastReport": "2025-06-30"
     },
     {
-      "fundName": "JNL/RAFI Fundamental U.S. Small Cap Fund",
-      "registrant": "JNL Series Trust",
-      "manager": "",
-      "lastShares": 1618,
-      "lastReport": "2025-12-31"
-    },
-    {
       "fundName": "AST Quantitative Modeling Portfolio",
       "registrant": "Advanced Series Trust",
       "manager": "",
@@ -791,13 +771,6 @@
       "manager": "",
       "lastShares": 565,
       "lastReport": "2025-06-30"
-    },
-    {
-      "fundName": "Goldman Sachs Global Managed Beta Fund",
-      "registrant": "GOLDMAN SACHS TRUST",
-      "manager": "Goldman Sachs",
-      "lastShares": 508,
-      "lastReport": "2025-05-31"
     },
     {
       "fundName": "Janus Henderson Adaptive Risk Managed U.S. Equity Fund",
@@ -1242,7 +1215,7 @@
     {
       "manager": "BlackRock",
       "fundCount": 37,
-      "shares": 1939893,
+      "shares": 1919981,
       "funds": [
         {
           "fundName": "BlackRock Mid-Cap Growth Equity Portfolio",
@@ -1254,15 +1227,15 @@
         },
         {
           "fundName": "iShares Russell Mid-Cap Growth ETF",
-          "shares": 285156
+          "shares": 251710
+        },
+        {
+          "fundName": "iShares Russell Mid-Cap ETF",
+          "shares": 174978
         },
         {
           "fundName": "iShares Russell 1000 Growth ETF",
           "shares": 162725
-        },
-        {
-          "fundName": "iShares Russell Mid-Cap ETF",
-          "shares": 162578
         },
         {
           "fundName": "iShares MSCI USA Momentum Factor ETF",
@@ -1274,7 +1247,7 @@
         },
         {
           "fundName": "iShares Core S&amp;P Total U.S. Stock Market ETF",
-          "shares": 47272
+          "shares": 48360
         },
         {
           "fundName": "iShares Russell 1000 ETF",
@@ -1346,7 +1319,7 @@
         },
         {
           "fundName": "BlackRock Systematic Multi-Strategy Fund",
-          "shares": 1098
+          "shares": 1143
         },
         {
           "fundName": "iShares MSCI USA Size Factor ETF",
@@ -1382,7 +1355,7 @@
         },
         {
           "fundName": "BlackRock Advantage Large Cap Core V.I. Fund",
-          "shares": 96
+          "shares": 97
         },
         {
           "fundName": "Global Atlantic BlackRock Disciplined Growth Portfolio",
@@ -1499,7 +1472,7 @@
     {
       "manager": "Charles Schwab",
       "fundCount": 12,
-      "shares": 580859,
+      "shares": 579071,
       "funds": [
         {
           "fundName": "Schwab U.S. Large-Cap Growth ETF",
@@ -1539,7 +1512,7 @@
         },
         {
           "fundName": "Schwab Select Large Cap Growth Fund",
-          "shares": 10322
+          "shares": 8534
         },
         {
           "fundName": "Schwab 1000 Index ETF",
@@ -2104,16 +2077,12 @@
     },
     {
       "manager": "Principal",
-      "fundCount": 2,
-      "shares": 1490,
+      "fundCount": 1,
+      "shares": 1324,
       "funds": [
         {
           "fundName": "LargeCap Growth Fund I",
           "shares": 1324
-        },
-        {
-          "fundName": "LargeCap Growth Account I",
-          "shares": 166
         }
       ]
     },
@@ -2317,12 +2286,12 @@
       "registrant": "iShares Trust",
       "manager": "BlackRock",
       "cik": "1100663",
-      "shares": 285156,
-      "value": 78189775,
-      "reportDate": "2026-03-31",
-      "priorShares": 294272,
-      "change": -9116,
-      "pctOut": 0.5169,
+      "shares": 251710,
+      "value": 89656585,
+      "reportDate": "2026-06-30",
+      "priorShares": 285156,
+      "change": -33446,
+      "pctOut": 0.4562,
       "action": "Sold"
     },
     {
@@ -2456,6 +2425,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "iShares Russell Mid-Cap ETF",
+      "registrant": "iShares Trust",
+      "manager": "BlackRock",
+      "cik": "1100663",
+      "shares": 174978,
+      "value": 62325414,
+      "reportDate": "2026-06-30",
+      "priorShares": 162578,
+      "change": 12400,
+      "pctOut": 0.3172,
+      "action": "Bought"
+    },
+    {
       "fundName": "iShares Russell 1000 Growth ETF",
       "registrant": "iShares Trust",
       "manager": "BlackRock",
@@ -2467,19 +2449,6 @@
       "change": -8420,
       "pctOut": 0.2949,
       "action": "Sold"
-    },
-    {
-      "fundName": "iShares Russell Mid-Cap ETF",
-      "registrant": "iShares Trust",
-      "manager": "BlackRock",
-      "cik": "1100663",
-      "shares": 162578,
-      "value": 44578888,
-      "reportDate": "2026-03-31",
-      "priorShares": 158059,
-      "change": 4519,
-      "pctOut": 0.2947,
-      "action": "Bought"
     },
     {
       "fundName": "T. Rowe Price Diversified Mid-Cap Growth Fund, Inc.",
@@ -2591,12 +2560,12 @@
       "manager": "",
       "cik": "1027263",
       "shares": 120400,
-      "value": 33013680,
-      "reportDate": "2026-03-31",
-      "priorShares": 120700,
-      "change": -300,
+      "value": 42885276,
+      "reportDate": "2026-06-30",
+      "priorShares": 120400,
+      "change": 0,
       "pctOut": 0.2182,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Voya Large Cap Growth Portfolio",
@@ -2928,12 +2897,12 @@
       "registrant": "iShares Trust",
       "manager": "BlackRock",
       "cik": "1100663",
-      "shares": 47272,
-      "value": 12961982,
-      "reportDate": "2026-03-31",
-      "priorShares": 44366,
-      "change": 2906,
-      "pctOut": 0.0857,
+      "shares": 48360,
+      "value": 17225348,
+      "reportDate": "2026-06-30",
+      "priorShares": 47272,
+      "change": 1088,
+      "pctOut": 0.0877,
       "action": "Bought"
     },
     {
@@ -3319,8 +3288,8 @@
       "manager": "",
       "cik": "915092",
       "shares": 25870,
-      "value": 7093554,
-      "reportDate": "2026-03-31",
+      "value": 9214635,
+      "reportDate": "2026-06-30",
       "priorShares": 25870,
       "change": 0,
       "pctOut": 0.046900000000000004,
@@ -4029,19 +3998,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Schwab Select Large Cap Growth Fund",
-      "registrant": "LAUDUS TRUST",
-      "manager": "Charles Schwab",
-      "cik": "832545",
-      "shares": 10322,
-      "value": 2830292,
-      "reportDate": "2026-03-31",
-      "priorShares": 10322,
-      "change": 0,
-      "pctOut": 0.018699999999999998,
-      "action": "No Change"
-    },
-    {
       "fundName": "Mid-Cap Growth Portfolio",
       "registrant": "PACIFIC SELECT FUND",
       "manager": "",
@@ -4274,6 +4230,19 @@
       "change": 1825,
       "pctOut": 0.0155,
       "action": "Bought"
+    },
+    {
+      "fundName": "Schwab Select Large Cap Growth Fund",
+      "registrant": "LAUDUS TRUST",
+      "manager": "Charles Schwab",
+      "cik": "832545",
+      "shares": 8534,
+      "value": 3039725,
+      "reportDate": "2026-06-30",
+      "priorShares": 10322,
+      "change": -1788,
+      "pctOut": 0.0155,
+      "action": "Sold"
     },
     {
       "fundName": "Bridge Builder Tax Managed Small/Mid Cap Fund",
@@ -4614,19 +4583,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Federated Hermes Kaufmann Fund II",
-      "registrant": "Federated Hermes Insurance Series",
-      "manager": "",
-      "cik": "912577",
-      "shares": 5143,
-      "value": 1410211,
-      "reportDate": "2026-03-31",
-      "priorShares": 6157,
-      "change": -1014,
-      "pctOut": 0.0093,
-      "action": "Sold"
-    },
-    {
       "fundName": "T. Rowe Price Spectrum Moderate Growth Allocation Fund",
       "registrant": "T. ROWE PRICE SPECTRUM FUNDS II, INC.",
       "manager": "T. Rowe Price",
@@ -4645,12 +4601,12 @@
       "manager": "",
       "cik": "1027263",
       "shares": 5041,
-      "value": 1382242,
-      "reportDate": "2026-03-31",
-      "priorShares": 6941,
-      "change": -1900,
+      "value": 1795554,
+      "reportDate": "2026-06-30",
+      "priorShares": 5041,
+      "change": 0,
       "pctOut": 0.0091,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "OAK HARVEST LONG/SHORT HEDGED EQUITY",
@@ -4715,6 +4671,19 @@
       "priorShares": 4695,
       "change": 100,
       "pctOut": 0.0087,
+      "action": "Bought"
+    },
+    {
+      "fundName": "Multimanager Aggressive Equity Portfolio",
+      "registrant": "EQ Advisors Trust",
+      "manager": "",
+      "cik": "1027263",
+      "shares": 4618,
+      "value": 1644885,
+      "reportDate": "2026-06-30",
+      "priorShares": 1200,
+      "change": 3418,
+      "pctOut": 0.0084,
       "action": "Bought"
     },
     {
@@ -4794,6 +4763,19 @@
       "change": 1963,
       "pctOut": 0.0073,
       "action": "Bought"
+    },
+    {
+      "fundName": "Federated Hermes Kaufmann Fund II",
+      "registrant": "Federated Hermes Insurance Series",
+      "manager": "",
+      "cik": "912577",
+      "shares": 4024,
+      "value": 1433309,
+      "reportDate": "2026-06-30",
+      "priorShares": 5143,
+      "change": -1119,
+      "pctOut": 0.0073,
+      "action": "Sold"
     },
     {
       "fundName": "iShares MSCI USA Equal Weighted ETF",
@@ -4943,11 +4925,11 @@
       "registrant": "EQ Advisors Trust",
       "manager": "",
       "cik": "1027263",
-      "shares": 3794,
-      "value": 1040315,
-      "reportDate": "2026-03-31",
-      "priorShares": 3976,
-      "change": -182,
+      "shares": 3781,
+      "value": 1346754,
+      "reportDate": "2026-06-30",
+      "priorShares": 3794,
+      "change": -13,
       "pctOut": 0.0069,
       "action": "Sold"
     },
@@ -5087,8 +5069,8 @@
       "manager": "",
       "cik": "934563",
       "shares": 3456,
-      "value": 947635,
-      "reportDate": "2026-03-31",
+      "value": 1230993,
+      "reportDate": "2026-06-30",
       "priorShares": 3456,
       "change": 0,
       "pctOut": 0.0063,
@@ -5212,19 +5194,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "EQ/Large Cap Growth Managed Volatility Portfolio",
-      "registrant": "EQ Advisors Trust",
-      "manager": "",
-      "cik": "1027263",
-      "shares": 3024,
-      "value": 829181,
-      "reportDate": "2026-03-31",
-      "priorShares": 2691,
-      "change": 333,
-      "pctOut": 0.0055000000000000005,
-      "action": "Bought"
-    },
-    {
       "fundName": "Rainwater Equity ETF",
       "registrant": "EA Series Trust",
       "manager": "",
@@ -5235,6 +5204,19 @@
       "priorShares": 4330,
       "change": -1399,
       "pctOut": 0.0053,
+      "action": "Sold"
+    },
+    {
+      "fundName": "EQ/Large Cap Growth Managed Volatility Portfolio",
+      "registrant": "EQ Advisors Trust",
+      "manager": "",
+      "cik": "1027263",
+      "shares": 2869,
+      "value": 1021909,
+      "reportDate": "2026-06-30",
+      "priorShares": 3024,
+      "change": -155,
+      "pctOut": 0.0052,
       "action": "Sold"
     },
     {
@@ -5550,19 +5532,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "The Institutional U.S. Equity Portfolio",
-      "registrant": "HC Capital Trust",
-      "manager": "",
-      "cik": "934563",
-      "shares": 1786,
-      "value": 489721,
-      "reportDate": "2026-03-31",
-      "priorShares": 1722,
-      "change": 64,
-      "pctOut": 0.0031999999999999997,
-      "action": "Bought"
-    },
-    {
       "fundName": "AAM Transformers ETF",
       "registrant": "ETF Series Solutions",
       "manager": "",
@@ -5641,6 +5610,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Applied Finance Valuation Large Cap ETF",
+      "registrant": "ETF Opportunities Trust",
+      "manager": "",
+      "cik": "1771146",
+      "shares": 1662,
+      "value": 591988,
+      "reportDate": "2026-06-30",
+      "priorShares": 929,
+      "change": 733,
+      "pctOut": 0.003,
+      "action": "Bought"
+    },
+    {
       "fundName": "Morgan Stanley Pathway Large Cap Equity ETF",
       "registrant": "MORGAN STANLEY PATHWAY FUNDS",
       "manager": "Morgan Stanley",
@@ -5706,6 +5688,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "JNL/RAFI Fundamental U.S. Small Cap Fund",
+      "registrant": "JNL Series Trust",
+      "manager": "",
+      "cik": "933691",
+      "shares": 1473,
+      "value": 403897,
+      "reportDate": "2026-03-31",
+      "priorShares": 1618,
+      "change": -145,
+      "pctOut": 0.0026999999999999997,
+      "action": "Sold"
+    },
+    {
       "fundName": "Goldman Sachs MarketBeta U.S. 1000 Equity ETF",
       "registrant": "Goldman Sachs ETF Trust II",
       "manager": "Goldman Sachs",
@@ -5724,12 +5719,12 @@
       "manager": "",
       "cik": "1027263",
       "shares": 1410,
-      "value": 386622,
-      "reportDate": "2026-03-31",
-      "priorShares": null,
-      "change": null,
+      "value": 502228,
+      "reportDate": "2026-06-30",
+      "priorShares": 1410,
+      "change": 0,
       "pctOut": 0.0026,
-      "action": "New"
+      "action": "No Change"
     },
     {
       "fundName": "PD Large-Cap Growth Index Portfolio",
@@ -5875,19 +5870,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "Multimanager Aggressive Equity Portfolio",
-      "registrant": "EQ Advisors Trust",
-      "manager": "",
-      "cik": "1027263",
-      "shares": 1200,
-      "value": 329040,
-      "reportDate": "2026-03-31",
-      "priorShares": 600,
-      "change": 600,
-      "pctOut": 0.0022,
-      "action": "Bought"
-    },
-    {
       "fundName": "Invesco Russell 1000 Equal Weight ETF",
       "registrant": "Invesco Exchange-Traded Fund Trust II",
       "manager": "Invesco",
@@ -5979,6 +5961,19 @@
       "action": "New"
     },
     {
+      "fundName": "BlackRock Systematic Multi-Strategy Fund",
+      "registrant": "BlackRock Funds IV",
+      "manager": "BlackRock",
+      "cik": "1738074",
+      "shares": 1143,
+      "value": 407125,
+      "reportDate": "2026-06-30",
+      "priorShares": 1098,
+      "change": 45,
+      "pctOut": 0.0021,
+      "action": "Bought"
+    },
+    {
       "fundName": "Fidelity Yield Enhanced Equity ETF",
       "registrant": "Fidelity Greenwood Street Trust",
       "manager": "FMR (Fidelity)",
@@ -6003,19 +5998,6 @@
       "change": 35,
       "pctOut": 0.002,
       "action": "Bought"
-    },
-    {
-      "fundName": "BlackRock Systematic Multi-Strategy Fund",
-      "registrant": "BlackRock Funds IV",
-      "manager": "BlackRock",
-      "cik": "1738074",
-      "shares": 1098,
-      "value": 301072,
-      "reportDate": "2026-03-31",
-      "priorShares": 1174,
-      "change": -76,
-      "pctOut": 0.002,
-      "action": "Sold"
     },
     {
       "fundName": "VANGUARD TAX-MANAGED BALANCED FUND",
@@ -6174,19 +6156,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Applied Finance Valuation Large Cap ETF",
-      "registrant": "ETF Opportunities Trust",
-      "manager": "",
-      "cik": "1771146",
-      "shares": 929,
-      "value": 254732,
-      "reportDate": "2026-03-31",
-      "priorShares": 788,
-      "change": 141,
-      "pctOut": 0.0017,
-      "action": "Bought"
-    },
-    {
       "fundName": "VOYA RUSSELLTM MID CAP GROWTH INDEX PORTFOLIO",
       "registrant": "Voya VARIABLE PORTFOLIOS INC",
       "manager": "Voya",
@@ -6252,19 +6221,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "AZL Russell 1000 Growth Index Fund",
-      "registrant": "Allianz Variable Insurance Products Trust",
-      "manager": "",
-      "cik": "1091439",
-      "shares": 827,
-      "value": 226763,
-      "reportDate": "2026-03-31",
-      "priorShares": 880,
-      "change": -53,
-      "pctOut": 0.0015,
-      "action": "Sold"
-    },
-    {
       "fundName": "Growth Equity Index Fund",
       "registrant": "GuideStone Funds",
       "manager": "",
@@ -6302,6 +6258,32 @@
       "change": 0,
       "pctOut": 0.0015,
       "action": "No Change"
+    },
+    {
+      "fundName": "AZL Russell 1000 Growth Index Fund",
+      "registrant": "Allianz Variable Insurance Products Trust",
+      "manager": "",
+      "cik": "1091439",
+      "shares": 773,
+      "value": 275335,
+      "reportDate": "2026-06-30",
+      "priorShares": 827,
+      "change": -54,
+      "pctOut": 0.0014,
+      "action": "Sold"
+    },
+    {
+      "fundName": "The Institutional U.S. Equity Portfolio",
+      "registrant": "HC Capital Trust",
+      "manager": "",
+      "cik": "934563",
+      "shares": 770,
+      "value": 274266,
+      "reportDate": "2026-06-30",
+      "priorShares": 1786,
+      "change": -1016,
+      "pctOut": 0.0014,
+      "action": "Sold"
     },
     {
       "fundName": "Parametric Hedged Equity ETF",
@@ -6504,12 +6486,12 @@
       "manager": "Dimensional",
       "cik": "1091439",
       "shares": 570,
-      "value": 156294,
-      "reportDate": "2026-03-31",
-      "priorShares": 633,
-      "change": -63,
+      "value": 203028,
+      "reportDate": "2026-06-30",
+      "priorShares": 570,
+      "change": 0,
       "pctOut": 0.001,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "WisdomTree Global Defense Fund",
@@ -6668,19 +6650,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Diversified Equity Master Portfolio",
-      "registrant": "Master Investment Portfolio",
-      "manager": "",
-      "cik": "915092",
-      "shares": 396,
-      "value": 108583,
-      "reportDate": "2026-03-31",
-      "priorShares": 272,
-      "change": 124,
-      "pctOut": 0.0007,
-      "action": "Bought"
-    },
-    {
       "fundName": "Longboard Fund",
       "registrant": "NORTHERN LIGHTS FUND TRUST II",
       "manager": "",
@@ -6738,12 +6707,12 @@
       "manager": "BlackRock",
       "cik": "1398078",
       "shares": 332,
-      "value": 91034,
-      "reportDate": "2026-03-31",
-      "priorShares": 171,
-      "change": 161,
+      "value": 118255,
+      "reportDate": "2026-06-30",
+      "priorShares": 332,
+      "change": 0,
       "pctOut": 0.0006000000000000001,
-      "action": "Bought"
+      "action": "No Change"
     },
     {
       "fundName": "Wilmington Global Alpha Equities Fund",
@@ -6820,6 +6789,19 @@
       "reportDate": "2026-04-30",
       "priorShares": 474,
       "change": -171,
+      "pctOut": 0.0005,
+      "action": "Sold"
+    },
+    {
+      "fundName": "Diversified Equity Alpha Master Portfolio",
+      "registrant": "Master Investment Portfolio",
+      "manager": "",
+      "cik": "915092",
+      "shares": 293,
+      "value": 104364,
+      "reportDate": "2026-06-30",
+      "priorShares": 396,
+      "change": -103,
       "pctOut": 0.0005,
       "action": "Sold"
     },
@@ -6928,19 +6910,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "AZL MSCI Global Equity Index Fund",
-      "registrant": "Allianz Variable Insurance Products Trust",
-      "manager": "",
-      "cik": "1091439",
-      "shares": 206,
-      "value": 56485,
-      "reportDate": "2026-03-31",
-      "priorShares": 206,
-      "change": 0,
-      "pctOut": 0.00039999999999999996,
-      "action": "No Change"
-    },
-    {
       "fundName": "AMT Diversified Equity Fund",
       "registrant": "ADVISER MANAGED TRUST",
       "manager": "",
@@ -7006,19 +6975,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "LargeCap Growth Account I",
-      "registrant": "Principal Variable Contract Funds, Inc",
-      "manager": "Principal",
-      "cik": "12601",
-      "shares": 166,
-      "value": 45517,
-      "reportDate": "2026-03-31",
-      "priorShares": 93,
-      "change": 73,
-      "pctOut": 0.00030000000000000003,
-      "action": "Bought"
-    },
-    {
       "fundName": "Strive 1000 Dividend Growth ETF",
       "registrant": "EA Series Trust",
       "manager": "",
@@ -7069,6 +7025,19 @@
       "change": 67,
       "pctOut": 0.00030000000000000003,
       "action": "Bought"
+    },
+    {
+      "fundName": "AZL MSCI Global Equity Index Fund",
+      "registrant": "Allianz Variable Insurance Products Trust",
+      "manager": "",
+      "cik": "1091439",
+      "shares": 145,
+      "value": 51648,
+      "reportDate": "2026-06-30",
+      "priorShares": 206,
+      "change": -61,
+      "pctOut": 0.00030000000000000003,
+      "action": "Sold"
     },
     {
       "fundName": "Parametric Equity Plus ETF",
@@ -7154,8 +7123,8 @@
       "manager": "BlackRock",
       "cik": "319108",
       "shares": 106,
-      "value": 29065,
-      "reportDate": "2026-03-31",
+      "value": 37756,
+      "reportDate": "2026-06-30",
       "priorShares": 106,
       "change": 0,
       "pctOut": 0.00019999999999999998,
@@ -7173,6 +7142,19 @@
       "change": null,
       "pctOut": 0.00019999999999999998,
       "action": "New"
+    },
+    {
+      "fundName": "BlackRock Advantage Large Cap Core V.I. Fund",
+      "registrant": "BlackRock Variable Series Funds, Inc.",
+      "manager": "BlackRock",
+      "cik": "355916",
+      "shares": 97,
+      "value": 34550,
+      "reportDate": "2026-06-30",
+      "priorShares": 96,
+      "change": 1,
+      "pctOut": 0.00019999999999999998,
+      "action": "Bought"
     },
     {
       "fundName": "Global X Adaptive U.S. Risk Management ETF",
@@ -7196,19 +7178,6 @@
       "value": 26597,
       "reportDate": "2026-03-31",
       "priorShares": 97,
-      "change": 0,
-      "pctOut": 0.00019999999999999998,
-      "action": "No Change"
-    },
-    {
-      "fundName": "BlackRock Advantage Large Cap Core V.I. Fund",
-      "registrant": "BlackRock Variable Series Funds, Inc.",
-      "manager": "BlackRock",
-      "cik": "355916",
-      "shares": 96,
-      "value": 26323,
-      "reportDate": "2026-03-31",
-      "priorShares": 96,
       "change": 0,
       "pctOut": 0.00019999999999999998,
       "action": "No Change"
@@ -7323,8 +7292,8 @@
       "manager": "",
       "cik": "934563",
       "shares": 53,
-      "value": 14533,
-      "reportDate": "2026-03-31",
+      "value": 18878,
+      "reportDate": "2026-06-30",
       "priorShares": 53,
       "change": 0,
       "pctOut": 0.00009999999999999999,
@@ -7414,12 +7383,12 @@
       "manager": "",
       "cik": "934563",
       "shares": 41,
-      "value": 11242,
-      "reportDate": "2026-03-31",
-      "priorShares": 48,
-      "change": -7,
+      "value": 14604,
+      "reportDate": "2026-06-30",
+      "priorShares": 41,
+      "change": 0,
       "pctOut": 0.00009999999999999999,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Global Atlantic BlackRock Disciplined Growth Portfolio",
