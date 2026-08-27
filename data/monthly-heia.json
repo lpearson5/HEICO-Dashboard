@@ -7,16 +7,16 @@
     "2025-12-31",
     "2025-09-30"
   ],
-  "sharesOutstanding": 84488320,
-  "lastUpdated": "2026-08-26T11:36:37.421Z",
+  "sharesOutstanding": 84515758,
+  "lastUpdated": "2026-08-27T20:58:56.001Z",
   "summary": {
-    "institutions": 667,
-    "totalShares": 70044048,
-    "pctOut": 82.89999999999999,
-    "newHolders": 110,
+    "institutions": 668,
+    "totalShares": 70043092,
+    "pctOut": 82.88,
+    "newHolders": 112,
     "sellouts": 65,
     "bought": 254,
-    "sold": 213,
+    "sold": 212,
     "held": 90
   },
   "top10": [
@@ -67,7 +67,7 @@
       ],
       "netChg": -543227,
       "currentValue": 1236654874,
-      "pctOut": 5.680000000000001,
+      "pctOut": 5.67,
       "action": "Sold",
       "discretion": "DFND",
       "voteSole": 3447163,
@@ -85,7 +85,7 @@
       ],
       "netChg": 10774,
       "currentValue": 1058228974,
-      "pctOut": 4.859999999999999,
+      "pctOut": 4.8500000000000005,
       "action": "Bought",
       "discretion": "DFND",
       "voteSole": 0,
@@ -103,7 +103,7 @@
       ],
       "netChg": 27329,
       "currentValue": 1021121656,
-      "pctOut": 4.6899999999999995,
+      "pctOut": 4.68,
       "action": "Bought",
       "discretion": "DFND",
       "voteSole": 0,
@@ -217,6 +217,42 @@
       "action": "New",
       "discretion": "SOLE",
       "voteSole": 1376894,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "Local Pensions Partnership Investment Ltd",
+      "filerCik": "1698810",
+      "shares": [
+        1242970,
+        null,
+        1264905,
+        1282905
+      ],
+      "netChg": 1242970,
+      "currentValue": 320443880,
+      "pctOut": 1.47,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 1242970
+    },
+    {
+      "filerName": "Port Capital LLC",
+      "filerCik": "1729212",
+      "shares": [
+        804484,
+        null,
+        860156,
+        856191
+      ],
+      "netChg": 804484,
+      "currentValue": 207484468,
+      "pctOut": 0.95,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 804484,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -3403,7 +3439,7 @@
       ],
       "netChg": -543227,
       "currentValue": 1236654874,
-      "pctOut": 5.680000000000001,
+      "pctOut": 5.67,
       "action": "Sold",
       "discretion": "DFND",
       "voteSole": 3447163,
@@ -3421,7 +3457,7 @@
       ],
       "netChg": 10774,
       "currentValue": 1058228974,
-      "pctOut": 4.859999999999999,
+      "pctOut": 4.8500000000000005,
       "action": "Bought",
       "discretion": "DFND",
       "voteSole": 0,
@@ -3439,7 +3475,7 @@
       ],
       "netChg": 27329,
       "currentValue": 1021121656,
-      "pctOut": 4.6899999999999995,
+      "pctOut": 4.68,
       "action": "Bought",
       "discretion": "DFND",
       "voteSole": 0,
@@ -3541,14 +3577,14 @@
       "filerCik": "1698810",
       "shares": [
         1242970,
-        1414810,
+        null,
         1264905,
         1282905
       ],
-      "netChg": -171840,
+      "netChg": 1242970,
       "currentValue": 320443880,
       "pctOut": 1.47,
-      "action": "Sold",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -3613,14 +3649,14 @@
       "filerCik": "1729212",
       "shares": [
         804484,
-        826086,
+        null,
         860156,
         856191
       ],
-      "netChg": -21602,
+      "netChg": 804484,
       "currentValue": 207484468,
       "pctOut": 0.95,
-      "action": "Sold",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 804484,
       "voteShared": 0,
@@ -3907,7 +3943,7 @@
       ],
       "netChg": 0,
       "currentValue": 114406297,
-      "pctOut": 0.53,
+      "pctOut": 0.52,
       "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 443590,
@@ -4447,7 +4483,7 @@
       ],
       "netChg": -178,
       "currentValue": 51210000,
-      "pctOut": 0.24,
+      "pctOut": 0.22999999999999998,
       "action": "Sold",
       "discretion": "DFND",
       "voteSole": 193398,
@@ -5844,19 +5880,19 @@
       "filerName": "Corient Private Wealth LP",
       "filerCik": "1948780",
       "shares": [
-        49340,
+        48382,
         21124,
         9318,
         9322
       ],
-      "netChg": 28216,
-      "currentValue": 12725210,
+      "netChg": 27258,
+      "currentValue": 12478390,
       "pctOut": 0.06,
       "action": "Bought",
-      "discretion": "SOLE",
-      "voteSole": 8346,
-      "voteShared": 2428,
-      "voteNone": 38571
+      "discretion": "OTR",
+      "voteSole": 7229,
+      "voteShared": 2396,
+      "voteNone": 38757
     },
     {
       "filerName": "Banco Santander, S.A.  (SAN, BCDRF)",
@@ -15129,6 +15165,24 @@
       "voteNone": 2
     },
     {
+      "filerName": "Principia Wealth Advisory, LLC",
+      "filerCik": "2041436",
+      "shares": [
+        2,
+        8,
+        2,
+        1
+      ],
+      "netChg": -6,
+      "currentValue": 516,
+      "pctOut": 0,
+      "action": "Sold",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 2
+    },
+    {
       "filerName": "Brooklyn FI, LLC",
       "filerCik": "1916123",
       "shares": [
@@ -15849,13 +15903,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Capital World Investors",
-      "filerCik": "1422849",
+      "filerName": "PharVision Advisers, LLC",
+      "filerCik": "1898824",
       "shares": [
         null,
         null,
-        311861,
-        310502
+        null,
+        1674
       ],
       "netChg": null,
       "currentValue": null,
@@ -15867,13 +15921,13 @@
       "voteNone": null
     },
     {
-      "filerName": "PharVision Advisers, LLC",
-      "filerCik": "1898824",
+      "filerName": "Capital World Investors",
+      "filerCik": "1422849",
       "shares": [
         null,
         null,
-        null,
-        1674
+        311861,
+        310502
       ],
       "netChg": null,
       "currentValue": null,
@@ -16113,24 +16167,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Principia Wealth Advisory, LLC",
-      "filerCik": "2041436",
-      "shares": [
-        null,
-        null,
-        2,
-        1
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -17343,24 +17379,6 @@
       "voteNone": null
     },
     {
-      "filerName": "BALLAST ADVISORS LLC",
-      "filerCik": "1803415",
-      "shares": [
-        null,
-        14,
-        null,
-        null
-      ],
-      "netChg": -14,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "NICOLET ADVISORY SERVICES, LLC",
       "filerCik": "1775863",
       "shares": [
@@ -17379,18 +17397,18 @@
       "voteNone": null
     },
     {
-      "filerName": "Alberta Investment Management Corp",
-      "filerCik": "1463559",
+      "filerName": "BALLAST ADVISORS LLC",
+      "filerCik": "1803415",
       "shares": [
         null,
+        14,
         null,
-        1100,
-        1100
+        null
       ],
-      "netChg": null,
+      "netChg": -14,
       "currentValue": null,
       "pctOut": null,
-      "action": "No Change",
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -17404,6 +17422,24 @@
         null,
         null,
         799
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Alberta Investment Management Corp",
+      "filerCik": "1463559",
+      "shares": [
+        null,
+        null,
+        1100,
+        1100
       ],
       "netChg": null,
       "currentValue": null,
@@ -17541,24 +17577,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Clark Wealth Partners",
-      "filerCik": "2107657",
-      "shares": [
-        null,
-        78,
-        78,
-        78
-      ],
-      "netChg": -78,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "CORE WEALTH ADVISORS, LLC",
       "filerCik": "2110114",
       "shares": [
@@ -17571,6 +17589,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Clark Wealth Partners",
+      "filerCik": "2107657",
+      "shares": [
+        null,
+        78,
+        78,
+        78
+      ],
+      "netChg": -78,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,

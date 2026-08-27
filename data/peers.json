@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T11:36:37.421Z",
+  "lastUpdated": "2026-08-27T20:58:56.001Z",
   "peers": [
     {
       "name": "RTX Corp.",
@@ -114,12 +114,6 @@
           "value": 4653133800
         },
         {
-          "fund": "iSHARES TRUST",
-          "manager": "BlackRock",
-          "shares": 18524360,
-          "value": 3514626823
-        },
-        {
           "fund": "SPDR S&P 500 ETF TRUST  (SPY)",
           "manager": "State Street",
           "shares": 15632618,
@@ -132,16 +126,16 @@
           "value": 2926586945
         },
         {
-          "fund": "INVESTMENT CO OF AMERICA",
-          "manager": "",
-          "shares": 12674017,
-          "value": 2444817879
-        },
-        {
           "fund": "VANGUARD INDEX FUNDS",
           "manager": "Vanguard Group",
           "shares": 12416217,
           "value": 2395088259
+        },
+        {
+          "fund": "INVESTMENT CO OF AMERICA",
+          "manager": "",
+          "shares": 11907338,
+          "value": 2259179239
         },
         {
           "fund": "AMERICAN MUTUAL FUND",
@@ -180,16 +174,16 @@
           "value": 990444560
         },
         {
-          "fund": "AMERICAN FUNDS FUNDAMENTAL INVESTORS",
-          "manager": "Capital Group (American Funds)",
-          "shares": 4789934,
-          "value": 923978269
-        },
-        {
           "fund": "CAPITAL WORLD GROWTH & INCOME FUND",
           "manager": "Capital Group (American Funds)",
           "shares": 5031485,
           "value": 903956595
+        },
+        {
+          "fund": "AMERICAN FUNDS INSURANCE SERIES",
+          "manager": "Capital Group (American Funds)",
+          "shares": 3891439,
+          "value": 738322721
         },
         {
           "fund": "JPMORGAN TRUST II",
@@ -210,22 +204,28 @@
           "value": 680892176
         },
         {
-          "fund": "AMERICAN FUNDS INSURANCE SERIES",
-          "manager": "Capital Group (American Funds)",
-          "shares": 3470489,
-          "value": 669457328
-        },
-        {
           "fund": "AMERICAN BALANCED FUND",
           "manager": "",
           "shares": 2964651,
-          "value": 571881178
+          "value": 562483234
         },
         {
           "fund": "FIDELITY SELECT PORTFOLIOS",
           "manager": "FMR (Fidelity)",
           "shares": 2769100,
           "value": 497496506
+        },
+        {
+          "fund": "AMERICAN FUNDS FUNDAMENTAL INVESTORS",
+          "manager": "Capital Group (American Funds)",
+          "shares": 2605176,
+          "value": 494280042
+        },
+        {
+          "fund": "FRANKLIN MANAGED TRUST",
+          "manager": "Franklin Resources",
+          "shares": 2450000,
+          "value": 464838500
         }
       ]
     },
@@ -336,12 +336,6 @@
       ],
       "topFunds": [
         {
-          "fund": "iSHARES TRUST",
-          "manager": "BlackRock",
-          "shares": 10843069,
-          "value": 2347199146
-        },
-        {
           "fund": "GROWTH FUND OF AMERICA",
           "manager": "Capital Group (American Funds)",
           "shares": 9444408,
@@ -372,6 +366,12 @@
           "value": 1462557013
         },
         {
+          "fund": "AMERICAN BALANCED FUND",
+          "manager": "",
+          "shares": 6168857,
+          "value": 1335372475
+        },
+        {
           "fund": "MFS SERIES TRUST I",
           "manager": "MFS",
           "shares": 5353903,
@@ -384,10 +384,10 @@
           "value": 1212793323
         },
         {
-          "fund": "AMERICAN BALANCED FUND",
-          "manager": "",
-          "shares": 4941753,
-          "value": 983557100
+          "fund": "AMERICAN FUNDS FUNDAMENTAL INVESTORS",
+          "manager": "Capital Group (American Funds)",
+          "shares": 4989805,
+          "value": 1080143088
         },
         {
           "fund": "VANGUARD INSTITUTIONAL INDEX FUNDS",
@@ -408,16 +408,22 @@
           "value": 763537794
         },
         {
-          "fund": "AMERICAN FUNDS FUNDAMENTAL INVESTORS",
-          "manager": "Capital Group (American Funds)",
-          "shares": 3172791,
-          "value": 631480593
+          "fund": "INVESTMENT CO OF AMERICA",
+          "manager": "",
+          "shares": 3306396,
+          "value": 715735542
         },
         {
           "fund": "HARBOR FUNDS",
           "manager": "",
           "shares": 2246085,
           "value": 514420848
+        },
+        {
+          "fund": "NEW PERSPECTIVE FUND",
+          "manager": "Capital Group (American Funds)",
+          "shares": 2104460,
+          "value": 455552456
         },
         {
           "fund": "BLACKROCK EQUITY DIVIDEND FUND",
@@ -435,13 +441,7 @@
           "fund": "JANUS INVESTMENT FUND",
           "manager": "Janus Henderson",
           "shares": 1951587,
-          "value": 388424361
-        },
-        {
-          "fund": "NEW PERSPECTIVE FUND",
-          "manager": "Capital Group (American Funds)",
-          "shares": 1861234,
-          "value": 370441403
+          "value": 422460038
         },
         {
           "fund": "FIDELITY SECURITIES FUND",
@@ -573,13 +573,19 @@
           "fund": "JANUS INVESTMENT FUND",
           "manager": "Janus Henderson",
           "shares": 3169674,
-          "value": 730483070
+          "value": 852198552
         },
         {
           "fund": "VANGUARD INDEX FUNDS",
           "manager": "Vanguard Group",
           "shares": 3049588,
           "value": 702808050
+        },
+        {
+          "fund": "COLLEGE RETIREMENT EQUITIES FUND",
+          "manager": "",
+          "shares": 2228647,
+          "value": 599194032
         },
         {
           "fund": "AMCAP FUND",
@@ -606,12 +612,6 @@
           "value": 518341644
         },
         {
-          "fund": "COLLEGE RETIREMENT EQUITIES FUND",
-          "manager": "",
-          "shares": 2196965,
-          "value": 506312554
-        },
-        {
           "fund": "MFS SERIES TRUST II",
           "manager": "MFS",
           "shares": 1897166,
@@ -624,16 +624,16 @@
           "value": 442268104
         },
         {
+          "fund": "T. Rowe Price Growth Stock Fund, Inc.",
+          "manager": "T. Rowe Price",
+          "shares": 1611294,
+          "value": 433212505
+        },
+        {
           "fund": "NEW PERSPECTIVE FUND",
           "manager": "Capital Group (American Funds)",
           "shares": 2160849,
           "value": 424023399
-        },
-        {
-          "fund": "T. Rowe Price Growth Stock Fund, Inc.",
-          "manager": "T. Rowe Price",
-          "shares": 1731190,
-          "value": 398970047
         },
         {
           "fund": "JPMORGAN TRUST II",
@@ -644,8 +644,8 @@
         {
           "fund": "T. Rowe Price Equity Funds, Inc.",
           "manager": "T. Rowe Price",
-          "shares": 1363596,
-          "value": 314254334
+          "shares": 1146652,
+          "value": 308288857
         },
         {
           "fund": "Fidelity Rutland Square Trust II",
@@ -654,16 +654,16 @@
           "value": 296752234
         },
         {
+          "fund": "T. Rowe Price Dividend Growth Fund, Inc.",
+          "manager": "T. Rowe Price",
+          "shares": 1097147,
+          "value": 294978942
+        },
+        {
           "fund": "Federated Hermes Equity Funds",
           "manager": "",
           "shares": 1177882,
           "value": 286272441
-        },
-        {
-          "fund": "T. Rowe Price Dividend Growth Fund, Inc.",
-          "manager": "T. Rowe Price",
-          "shares": 1217076,
-          "value": 280487335
         },
         {
           "fund": "BLACKROCK FUNDS",
@@ -672,16 +672,16 @@
           "value": 263779391
         },
         {
+          "fund": "John Hancock Funds III",
+          "manager": "John Hancock",
+          "shares": 871213,
+          "value": 234234327
+        },
+        {
           "fund": "AMERICAN CENTURY MUTUAL FUNDS, INC.",
           "manager": "American Century",
           "shares": 928000,
           "value": 225541120
-        },
-        {
-          "fund": "John Hancock Funds III",
-          "manager": "John Hancock",
-          "shares": 869295,
-          "value": 200337726
         }
       ]
     },
@@ -794,8 +794,8 @@
         {
           "fund": "AMERICAN FUNDS FUNDAMENTAL INVESTORS",
           "manager": "Capital Group (American Funds)",
-          "shares": 2881772,
-          "value": 3339858477
+          "shares": 2774272,
+          "value": 3695441275
         },
         {
           "fund": "GROWTH FUND OF AMERICA",
@@ -812,8 +812,8 @@
         {
           "fund": "AMERICAN BALANCED FUND",
           "manager": "",
-          "shares": 1474445,
-          "value": 1708822777
+          "shares": 1447133,
+          "value": 1927639041
         },
         {
           "fund": "FIDELITY CONCORD STREET TRUST",
@@ -836,8 +836,8 @@
         {
           "fund": "NEW PERSPECTIVE FUND",
           "manager": "Capital Group (American Funds)",
-          "shares": 590395,
-          "value": 684244189
+          "shares": 489326,
+          "value": 651801805
         },
         {
           "fund": "FIDELITY MAGELLAN FUND",
@@ -864,16 +864,16 @@
           "value": 492546714
         },
         {
+          "fund": "INVESTMENT CO OF AMERICA",
+          "manager": "",
+          "shares": 329817,
+          "value": 439329437
+        },
+        {
           "fund": "PRINCIPAL FUNDS, INC.",
           "manager": "Principal",
           "shares": 330522,
           "value": 415902443
-        },
-        {
-          "fund": "INVESTMENT CO OF AMERICA",
-          "manager": "",
-          "shares": 329817,
-          "value": 382244710
         },
         {
           "fund": "VANGUARD INSTITUTIONAL INDEX FUNDS",
@@ -909,7 +909,7 @@
           "fund": "AMERICAN FUNDS INSURANCE SERIES",
           "manager": "Capital Group (American Funds)",
           "shares": 149304,
-          "value": 173037364
+          "value": 198878900
         }
       ]
     },
@@ -936,11 +936,6 @@
           "filer": "STATE STREET CORP  (STT, STT-PG)",
           "shares": 2265326,
           "value": 1510745909
-        },
-        {
-          "filer": "FIL Ltd",
-          "shares": 1834853,
-          "value": 1223663466
         },
         {
           "filer": "DODGE & COX",
@@ -1016,6 +1011,11 @@
           "filer": "DIMENSIONAL FUND ADVISORS LP",
           "shares": 411112,
           "value": 274075476
+        },
+        {
+          "filer": "SEI INVESTMENTS CO  (SEIC)",
+          "shares": 408516,
+          "value": 272439388
         }
       ],
       "topFunds": [
@@ -1028,8 +1028,8 @@
         {
           "fund": "JANUS INVESTMENT FUND",
           "manager": "Janus Henderson",
-          "shares": 881987,
-          "value": 533610955
+          "shares": 848267,
+          "value": 565709262
         },
         {
           "fund": "FIDELITY CONCORD STREET TRUST",
@@ -1056,6 +1056,12 @@
           "value": 276126207
         },
         {
+          "fund": "T. Rowe Price Growth Stock Fund, Inc.",
+          "manager": "T. Rowe Price",
+          "shares": 329550,
+          "value": 219776895
+        },
+        {
           "fund": "VANGUARD INDEX FUNDS",
           "manager": "Vanguard Group",
           "shares": 352205,
@@ -1068,22 +1074,16 @@
           "value": 213021601
         },
         {
-          "fund": "T. Rowe Price Growth Stock Fund, Inc.",
+          "fund": "T. Rowe Price All-Cap Opportunities Fund, Inc.",
           "manager": "T. Rowe Price",
-          "shares": 341216,
-          "value": 206439092
+          "shares": 307280,
+          "value": 204925032
         },
         {
           "fund": "T. Rowe Price U.S. Large-Cap Core Fund, Inc.",
           "manager": "T. Rowe Price",
           "shares": 318165,
           "value": 186457417
-        },
-        {
-          "fund": "T. Rowe Price New Horizons Fund, Inc.",
-          "manager": "T. Rowe Price",
-          "shares": 293169,
-          "value": 177370177
         },
         {
           "fund": "INVESCO EXCHANGE-TRADED FUND TRUST",
@@ -1098,6 +1098,12 @@
           "value": 160281669
         },
         {
+          "fund": "T. Rowe Price New Horizons Fund, Inc.",
+          "manager": "T. Rowe Price",
+          "shares": 231841,
+          "value": 154614763
+        },
+        {
           "fund": "JP MORGAN FLEMING MUTUAL FUND GROUP INC",
           "manager": "JPMorgan",
           "shares": 210741,
@@ -1108,12 +1114,6 @@
           "manager": "JPMorgan",
           "shares": 208381,
           "value": 126072589
-        },
-        {
-          "fund": "T. Rowe Price All-Cap Opportunities Fund, Inc.",
-          "manager": "T. Rowe Price",
-          "shares": 199560,
-          "value": 120735796
         },
         {
           "fund": "VIRTUS EQUITY TRUST",
@@ -1248,22 +1248,28 @@
       ],
       "topFunds": [
         {
+          "fund": "AMERICAN FUNDS FUNDAMENTAL INVESTORS",
+          "manager": "Capital Group (American Funds)",
+          "shares": 2870001,
+          "value": 231350781
+        },
+        {
           "fund": "GROWTH FUND OF AMERICA",
           "manager": "Capital Group (American Funds)",
           "shares": 2650504,
           "value": 170904498
         },
         {
-          "fund": "AMERICAN FUNDS FUNDAMENTAL INVESTORS",
-          "manager": "Capital Group (American Funds)",
-          "shares": 2870001,
-          "value": 164422357
-        },
-        {
           "fund": "SMALLCAP WORLD FUND INC",
           "manager": "Capital Group (American Funds)",
           "shares": 1840381,
-          "value": 105435427
+          "value": 148353112
+        },
+        {
+          "fund": "T. Rowe Price Small-Cap Stock Fund, Inc.",
+          "manager": "T. Rowe Price",
+          "shares": 1695616,
+          "value": 136683606
         },
         {
           "fund": "SPDR SERIES TRUST",
@@ -1272,16 +1278,16 @@
           "value": 98032127
         },
         {
-          "fund": "T. Rowe Price Small-Cap Stock Fund, Inc.",
+          "fund": "T. Rowe Price Equity Funds, Inc.",
           "manager": "T. Rowe Price",
-          "shares": 1523302,
-          "value": 87269972
+          "shares": 904724,
+          "value": 72929802
         },
         {
-          "fund": "AMERICAN FUNDS INSURANCE SERIES",
+          "fund": "NEW PERSPECTIVE FUND",
           "manager": "Capital Group (American Funds)",
-          "shares": 881215,
-          "value": 50484807
+          "shares": 832968,
+          "value": 67145550
         },
         {
           "fund": "Federated Hermes Equity Funds",
@@ -1294,18 +1300,6 @@
           "manager": "Invesco",
           "shares": 557008,
           "value": 48487546
-        },
-        {
-          "fund": "NEW PERSPECTIVE FUND",
-          "manager": "Capital Group (American Funds)",
-          "shares": 832968,
-          "value": 47720737
-        },
-        {
-          "fund": "T. Rowe Price Equity Funds, Inc.",
-          "manager": "T. Rowe Price",
-          "shares": 823746,
-          "value": 47192408
         },
         {
           "fund": "JPMorgan Trust I",
@@ -1332,6 +1326,18 @@
           "value": 31117121
         },
         {
+          "fund": "JANUS INVESTMENT FUND",
+          "manager": "Janus Henderson",
+          "shares": 339784,
+          "value": 27389988
+        },
+        {
+          "fund": "Manager Directed Portfolios",
+          "manager": "",
+          "shares": 329113,
+          "value": 26529799
+        },
+        {
           "fund": "AB DISCOVERY GROWTH FUND, INC.",
           "manager": "",
           "shares": 384936,
@@ -1356,16 +1362,10 @@
           "value": 23392844
         },
         {
-          "fund": "Manager Directed Portfolios",
-          "manager": "",
-          "shares": 343272,
-          "value": 19666053
-        },
-        {
-          "fund": "JANUS INVESTMENT FUND",
-          "manager": "Janus Henderson",
-          "shares": 328054,
-          "value": 18794214
+          "fund": "T. Rowe Price New Horizons Fund, Inc.",
+          "manager": "T. Rowe Price",
+          "shares": 285168,
+          "value": 22987392
         }
       ]
     },
@@ -1476,6 +1476,48 @@
       ],
       "topFunds": [
         {
+          "fund": "SMALLCAP WORLD FUND INC",
+          "manager": "Capital Group (American Funds)",
+          "shares": 8057300,
+          "value": 371763822
+        },
+        {
+          "fund": "JANUS INVESTMENT FUND",
+          "manager": "Janus Henderson",
+          "shares": 1937365,
+          "value": 89390021
+        },
+        {
+          "fund": "T. Rowe Price Capital Appreciation Fund, Inc.",
+          "manager": "T. Rowe Price",
+          "shares": 1509323,
+          "value": 69640163
+        },
+        {
+          "fund": "T. Rowe Price Mid-Cap Growth Fund, Inc.",
+          "manager": "T. Rowe Price",
+          "shares": 1255977,
+          "value": 57950779
+        },
+        {
+          "fund": "CARILLON SERIES TRUST",
+          "manager": "",
+          "shares": 931304,
+          "value": 42970367
+        },
+        {
+          "fund": "T. Rowe Price All-Cap Opportunities Fund, Inc.",
+          "manager": "T. Rowe Price",
+          "shares": 911617,
+          "value": 42062008
+        },
+        {
+          "fund": "T. Rowe Price New Horizons Fund, Inc.",
+          "manager": "T. Rowe Price",
+          "shares": 562255,
+          "value": 25942446
+        },
+        {
           "fund": "VANGUARD EXPLORER FUND",
           "manager": "Vanguard Group",
           "shares": 629127,
@@ -1494,10 +1536,28 @@
           "value": 19950000
         },
         {
+          "fund": "T. Rowe Price Exchange-Traded Funds, Inc.",
+          "manager": "T. Rowe Price",
+          "shares": 427082,
+          "value": 19705563
+        },
+        {
+          "fund": "Bridge Builder Trust",
+          "manager": "",
+          "shares": 330637,
+          "value": 15255591
+        },
+        {
           "fund": "AIM INVESTMENT FUNDS (INVESCO INVESTMENT FUNDS)",
           "manager": "Invesco",
           "shares": 434444,
           "value": 15205540
+        },
+        {
+          "fund": "AB DISCOVERY GROWTH FUND, INC.",
+          "manager": "",
+          "shares": 319698,
+          "value": 14750866
         },
         {
           "fund": "MFS SERIES TRUST I",
@@ -1512,16 +1572,16 @@
           "value": 9511771
         },
         {
-          "fund": "BLACKROCK FUNDS",
-          "manager": "BlackRock",
-          "shares": 182121,
-          "value": 8182697
-        },
-        {
           "fund": "FRANKLIN STRATEGIC SERIES",
           "manager": "Franklin Resources",
           "shares": 222303,
           "value": 7780605
+        },
+        {
+          "fund": "JANUS ASPEN SERIES",
+          "manager": "Janus Henderson",
+          "shares": 155484,
+          "value": 7174032
         },
         {
           "fund": "Voya INVESTORS TRUST",
@@ -1534,66 +1594,6 @@
           "manager": "Goldman Sachs",
           "shares": 148799,
           "value": 6685539
-        },
-        {
-          "fund": "COLUMBIA FUNDS SERIES TRUST I",
-          "manager": "Columbia (Ameriprise)",
-          "shares": 146580,
-          "value": 6585839
-        },
-        {
-          "fund": "EQ ADVISORS TRUST",
-          "manager": "",
-          "shares": 124399,
-          "value": 5739770
-        },
-        {
-          "fund": "EMPOWER FUNDS, INC.",
-          "manager": "",
-          "shares": 108192,
-          "value": 4991979
-        },
-        {
-          "fund": "PRINCIPAL FUNDS, INC.",
-          "manager": "Principal",
-          "shares": 128600,
-          "value": 4501000
-        },
-        {
-          "fund": "COLUMBIA FUNDS SERIES TRUST",
-          "manager": "Columbia (Ameriprise)",
-          "shares": 99633,
-          "value": 4476511
-        },
-        {
-          "fund": "MFS SERIES TRUST X",
-          "manager": "MFS",
-          "shares": 92393,
-          "value": 4151217
-        },
-        {
-          "fund": "NEUBERGER BERMAN ALTERNATIVE FUNDS",
-          "manager": "Neuberger Berman",
-          "shares": 113300,
-          "value": 3965500
-        },
-        {
-          "fund": "MFS VARIABLE INSURANCE TRUST",
-          "manager": "MFS",
-          "shares": 82705,
-          "value": 3816009
-        },
-        {
-          "fund": "AIM VARIABLE INSURANCE FUNDS (INVESCO VARIABLE INSURANCE FUNDS)",
-          "manager": "Invesco",
-          "shares": 65425,
-          "value": 3018710
-        },
-        {
-          "fund": "AIM INTERNATIONAL MUTUAL FUNDS (INVESCO INTERNATIONAL MUTUAL FUNDS)",
-          "manager": "Invesco",
-          "shares": 84101,
-          "value": 2943535
         }
       ]
     },
@@ -1706,14 +1706,14 @@
         {
           "fund": "SMALLCAP WORLD FUND INC",
           "manager": "Capital Group (American Funds)",
-          "shares": 1594772,
-          "value": 294075957
+          "shares": 1573736,
+          "value": 359598676
         },
         {
           "fund": "T. Rowe Price Small-Cap Stock Fund, Inc.",
           "manager": "T. Rowe Price",
-          "shares": 859800,
-          "value": 158547120
+          "shares": 740295,
+          "value": 169157408
         },
         {
           "fund": "SPDR SERIES TRUST",
@@ -1722,16 +1722,16 @@
           "value": 155337822
         },
         {
-          "fund": "T. Rowe Price New Horizons Fund, Inc.",
-          "manager": "T. Rowe Price",
-          "shares": 487998,
-          "value": 89986831
-        },
-        {
           "fund": "T. Rowe Price Equity Funds, Inc.",
           "manager": "T. Rowe Price",
-          "shares": 461472,
-          "value": 85095437
+          "shares": 400198,
+          "value": 91445243
+        },
+        {
+          "fund": "Capitol Series Trust",
+          "manager": "",
+          "shares": 361600,
+          "value": 82625600
         },
         {
           "fund": "AIM COUNSELOR SERIES TRUST (INVESCO COUNSELOR SERIES TRUST)",
@@ -1740,28 +1740,22 @@
           "value": 67040038
         },
         {
-          "fund": "Capitol Series Trust",
-          "manager": "",
-          "shares": 349500,
-          "value": 64447800
-        },
-        {
-          "fund": "iSHARES TRUST",
-          "manager": "BlackRock",
-          "shares": 252129,
-          "value": 57611477
-        },
-        {
-          "fund": "T. Rowe Price Small-Cap Value Fund, Inc.",
+          "fund": "T. Rowe Price New Horizons Fund, Inc.",
           "manager": "T. Rowe Price",
-          "shares": 269904,
-          "value": 49770298
+          "shares": 232482,
+          "value": 53122137
         },
         {
           "fund": "PUTNAM FUNDS TRUST",
           "manager": "Putnam",
-          "shares": 252910,
-          "value": 46636604
+          "shares": 231510,
+          "value": 52900035
+        },
+        {
+          "fund": "T. Rowe Price Small-Cap Value Fund, Inc.",
+          "manager": "T. Rowe Price",
+          "shares": 202475,
+          "value": 46265538
         },
         {
           "fund": "COLUMBIA ACORN TRUST",
@@ -1770,16 +1764,28 @@
           "value": 41290664
         },
         {
+          "fund": "Manager Directed Portfolios",
+          "manager": "",
+          "shares": 158202,
+          "value": 36149157
+        },
+        {
           "fund": "PRUDENTIAL JENNISON SMALL CO FUND, INC.",
           "manager": "PGIM (Prudential)",
-          "shares": 180467,
-          "value": 33278115
+          "shares": 154691,
+          "value": 35346894
         },
         {
           "fund": "ARTISAN PARTNERS FUNDS INC",
           "manager": "",
           "shares": 178618,
           "value": 32937159
+        },
+        {
+          "fund": "MARSICO INVESTMENT FUND",
+          "manager": "",
+          "shares": 136795,
+          "value": 31257658
         },
         {
           "fund": "VANGUARD INDEX FUNDS",
@@ -1800,12 +1806,6 @@
           "value": 29755457
         },
         {
-          "fund": "Manager Directed Portfolios",
-          "manager": "",
-          "shares": 159252,
-          "value": 29366069
-        },
-        {
           "fund": "VANGUARD TAX-MANAGED FUNDS",
           "manager": "Vanguard Group",
           "shares": 157710,
@@ -1814,14 +1814,14 @@
         {
           "fund": "T. Rowe Price Integrated Equity Funds, Inc.",
           "manager": "T. Rowe Price",
-          "shares": 126931,
-          "value": 23406076
+          "shares": 99831,
+          "value": 22811384
         },
         {
-          "fund": "MARSICO INVESTMENT FUND",
+          "fund": "FINANCIAL INVESTORS TRUST",
           "manager": "",
-          "shares": 123980,
-          "value": 22861912
+          "shares": 118807,
+          "value": 20396786
         }
       ]
     },
@@ -1974,22 +1974,22 @@
           "value": 42661113
         },
         {
-          "fund": "Columbia Funds Variable Series Trust II",
-          "manager": "Columbia (Ameriprise)",
-          "shares": 185160,
-          "value": 30895798
-        },
-        {
           "fund": "Bridge Builder Trust",
           "manager": "",
           "shares": 125504,
-          "value": 30748480
+          "value": 33952597
         },
         {
           "fund": "TOUCHSTONE STRATEGIC TRUST",
           "manager": "",
-          "shares": 114252,
-          "value": 27991740
+          "shares": 119284,
+          "value": 32269901
+        },
+        {
+          "fund": "Columbia Funds Variable Series Trust II",
+          "manager": "Columbia (Ameriprise)",
+          "shares": 185160,
+          "value": 30895798
         },
         {
           "fund": "VANGUARD INTERNATIONAL EQUITY INDEX FUNDS",
@@ -2014,6 +2014,12 @@
           "manager": "Vanguard Group",
           "shares": 57703,
           "value": 14137235
+        },
+        {
+          "fund": "Six Circles Trust",
+          "manager": "",
+          "shares": 48821,
+          "value": 13207545
         },
         {
           "fund": "VANGUARD INSTITUTIONAL INDEX FUNDS",
@@ -2044,12 +2050,6 @@
           "manager": "Columbia (Ameriprise)",
           "shares": 53904,
           "value": 8994421
-        },
-        {
-          "fund": "VANGUARD VARIABLE INSURANCE FUNDS",
-          "manager": "Vanguard Group",
-          "shares": 31913,
-          "value": 7818685
         }
       ]
     }

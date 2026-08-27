@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-08-26T11:36:37.421Z",
+  "lastUpdated": "2026-08-27T20:58:56.001Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -692,14 +692,14 @@
     {
       "filerName": "Corient Private Wealth LP",
       "filerCik": "1948780",
-      "currentShares": 130879,
+      "currentShares": 130644,
       "priorShares": 166382,
-      "change": -35503,
-      "pctChange": -21.3,
-      "currentValue": 46617873,
+      "change": -35738,
+      "pctChange": -21.5,
+      "currentValue": 46534180,
       "action": "Sold",
-      "firstSeen": "2026-08-17",
-      "newThisWeek": false
+      "firstSeen": "2026-08-27",
+      "newThisWeek": true
     },
     {
       "filerName": "HRT FINANCIAL LP",
@@ -5874,6 +5874,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "Optimize Financial Inc",
+      "filerCik": "2033266",
+      "currentShares": 1153,
+      "priorShares": 1157,
+      "change": -4,
+      "pctChange": -0.3,
+      "currentValue": 410687,
+      "action": "Sold",
+      "firstSeen": "2026-08-27",
+      "newThisWeek": true
+    },
+    {
       "filerName": "HB Wealth Management, LLC",
       "filerCik": "1911253",
       "currentShares": 1145,
@@ -5931,7 +5943,7 @@
       "currentValue": 399645,
       "action": "Sold",
       "firstSeen": "2026-08-20",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "SYON CAPITAL LLC",
@@ -7047,7 +7059,7 @@
       "currentValue": 233708,
       "action": "New Position",
       "firstSeen": "2026-08-20",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "nVerses Capital, LLC",
@@ -7683,7 +7695,7 @@
       "currentValue": 80,
       "action": "Sold",
       "firstSeen": "2026-08-20",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Miller Capital Partners, Inc.",
@@ -8487,7 +8499,7 @@
       "currentValue": 7836,
       "action": "No Change",
       "firstSeen": "2026-08-20",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "RAFFA WEALTH MANAGEMENT, LLC",
@@ -8908,6 +8920,18 @@
       "action": "New Position",
       "firstSeen": "2026-08-13",
       "newThisWeek": false
+    },
+    {
+      "filerName": "Principia Wealth Advisory, LLC",
+      "filerCik": "2041436",
+      "currentShares": 6,
+      "priorShares": 4,
+      "change": 2,
+      "pctChange": 50,
+      "currentValue": 2137,
+      "action": "Bought",
+      "firstSeen": "2026-08-26",
+      "newThisWeek": true
     },
     {
       "filerName": "Bruce G. Allen Investments, LLC",
@@ -9438,18 +9462,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "LODESTAR PRIVATE ASSET MANAGEMENT LLC",
-      "filerCik": "1963040",
-      "currentShares": null,
-      "priorShares": 1300,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "AustralianSuper Pty Ltd",
       "filerCik": "1694164",
       "currentShares": null,
@@ -9462,6 +9474,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "LODESTAR PRIVATE ASSET MANAGEMENT LLC",
+      "filerCik": "1963040",
+      "currentShares": null,
+      "priorShares": 1300,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
       "filerName": "Twin Tree Management, LP",
       "filerCik": "1535588",
       "currentShares": null,
@@ -9471,18 +9495,6 @@
       "currentValue": null,
       "action": "Sell Out",
       "firstSeen": "2026-08-12",
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Optimize Financial Inc",
-      "filerCik": "2033266",
-      "currentShares": null,
-      "priorShares": 1157,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
       "newThisWeek": false
     },
     {
@@ -9582,18 +9594,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "BEESE FULMER INVESTMENT MANAGEMENT, INC.",
-      "filerCik": "911274",
-      "currentShares": null,
-      "priorShares": 1303,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "Financiere des Professionnels - Fonds d'investissement inc.",
       "filerCik": "1996846",
       "currentShares": null,
@@ -9610,6 +9610,18 @@
       "filerCik": "1768099",
       "currentShares": null,
       "priorShares": 2949,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
+      "filerName": "BEESE FULMER INVESTMENT MANAGEMENT, INC.",
+      "filerCik": "911274",
+      "currentShares": null,
+      "priorShares": 1303,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -9822,10 +9834,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Key Capital Management, INC",
-      "filerCik": "2107249",
+      "filerName": "Elequin Capital, LP",
+      "filerCik": "1810873",
       "currentShares": null,
-      "priorShares": 5,
+      "priorShares": 1,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -9834,10 +9846,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Elequin Capital, LP",
-      "filerCik": "1810873",
+      "filerName": "Key Capital Management, INC",
+      "filerCik": "2107249",
       "currentShares": null,
-      "priorShares": 1,
+      "priorShares": 5,
       "change": null,
       "pctChange": null,
       "currentValue": null,
