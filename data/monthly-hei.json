@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-08-27T20:58:56.001Z",
+  "lastUpdated": "2026-08-28T21:22:10.345Z",
   "summary": {
     "institutions": 773,
-    "totalShares": 43765823,
-    "pctOut": 79.23,
-    "newHolders": 121,
+    "totalShares": 43796950,
+    "pctOut": 79.28,
+    "newHolders": 122,
     "sellouts": 90,
-    "bought": 254,
-    "sold": 264,
+    "bought": 255,
+    "sold": 262,
     "held": 134
   },
   "top10": [
@@ -307,6 +307,24 @@
       "action": "New",
       "discretion": "SOLE",
       "voteSole": 45469,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "Bank Julius Baer & Co. Ltd, Zurich",
+      "filerCik": "1544599",
+      "shares": [
+        40525,
+        null,
+        47450,
+        54556
+      ],
+      "netChg": 40525,
+      "currentValue": 14472713,
+      "pctOut": 0.06999999999999999,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 40525,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -1667,7 +1685,7 @@
         610,
         null,
         1415,
-        null
+        1415
       ],
       "netChg": 610,
       "currentValue": 217276,
@@ -2554,24 +2572,6 @@
         null
       ],
       "netChg": -19265,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "SAWGRASS ASSET MANAGEMENT LLC",
-      "filerCik": "1105467",
-      "shares": [
-        null,
-        18893,
-        19362,
-        20446
-      ],
-      "netChg": -18893,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -3544,6 +3544,24 @@
         167
       ],
       "netChg": -378,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "OSTERWEIS CAPITAL MANAGEMENT INC",
+      "filerCik": "1007524",
+      "shares": [
+        null,
+        344,
+        531,
+        531
+      ],
+      "netChg": -344,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -6043,14 +6061,14 @@
       "filerCik": "1544599",
       "shares": [
         40525,
-        43917,
+        null,
         47450,
         54556
       ],
-      "netChg": -3392,
+      "netChg": 40525,
       "currentValue": 14472713,
       "pctOut": 0.06999999999999999,
-      "action": "Sold",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 40525,
       "voteShared": 0,
@@ -6469,6 +6487,24 @@
       "voteSole": 20623,
       "voteShared": 0,
       "voteNone": 11450
+    },
+    {
+      "filerName": "SAWGRASS ASSET MANAGEMENT LLC",
+      "filerCik": "1105467",
+      "shares": [
+        31354,
+        18893,
+        19362,
+        20446
+      ],
+      "netChg": 12461,
+      "currentValue": 11167981,
+      "pctOut": 0.06,
+      "action": "Bought",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 31354
     },
     {
       "filerName": "MANUFACTURERS LIFE INSURANCE COMPANY, THE",
@@ -8979,7 +9015,7 @@
         6558,
         6564,
         6571,
-        null
+        1567
       ],
       "netChg": -6,
       "currentValue": 2335894,
@@ -14739,7 +14775,7 @@
         610,
         null,
         1415,
-        null
+        1415
       ],
       "netChg": 610,
       "currentValue": 217276,
@@ -15487,24 +15523,6 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 231
-    },
-    {
-      "filerName": "OSTERWEIS CAPITAL MANAGEMENT INC",
-      "filerCik": "1007524",
-      "shares": [
-        227,
-        344,
-        531,
-        531
-      ],
-      "netChg": -117,
-      "currentValue": 80855,
-      "pctOut": 0,
-      "action": "Sold",
-      "discretion": "SOLE",
-      "voteSole": 227,
-      "voteShared": 0,
-      "voteNone": 0
     },
     {
       "filerName": "Harvest Fund Management Co., Ltd",
@@ -16312,7 +16330,7 @@
       "pctOut": 0,
       "action": "Bought",
       "discretion": "SOLE",
-      "voteSole": 45,
+      "voteSole": 0,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -16916,7 +16934,7 @@
       "shares": [
         16,
         16,
-        15,
+        null,
         15
       ],
       "netChg": 0,
@@ -18351,24 +18369,6 @@
       "voteNone": null
     },
     {
-      "filerName": "SAWGRASS ASSET MANAGEMENT LLC",
-      "filerCik": "1105467",
-      "shares": [
-        null,
-        18893,
-        19362,
-        20446
-      ],
-      "netChg": -18893,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Artemis Investment Management LLP",
       "filerCik": "1535385",
       "shares": [
@@ -18453,24 +18453,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Berbice Capital Management LLC",
-      "filerCik": "2051605",
-      "shares": [
-        null,
-        null,
-        null,
-        100
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -18855,6 +18837,24 @@
       "voteNone": null
     },
     {
+      "filerName": "OSTERWEIS CAPITAL MANAGEMENT INC",
+      "filerCik": "1007524",
+      "shares": [
+        null,
+        344,
+        531,
+        531
+      ],
+      "netChg": -344,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Knollwood Investment Advisory, LLC",
       "filerCik": "1999346",
       "shares": [
@@ -19017,24 +19017,6 @@
       "voteNone": null
     },
     {
-      "filerName": "ABC ARBITRAGE SA",
-      "filerCik": "2049221",
-      "shares": [
-        null,
-        7276,
-        null,
-        null
-      ],
-      "netChg": -7276,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Cornerstone Wealth Group, LLC",
       "filerCik": "1774879",
       "shares": [
@@ -19047,6 +19029,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "ABC ARBITRAGE SA",
+      "filerCik": "2049221",
+      "shares": [
+        null,
+        7276,
+        null,
+        null
+      ],
+      "netChg": -7276,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19742,7 +19742,7 @@
       "shares": [
         null,
         null,
-        1182,
+        null,
         1501
       ],
       "netChg": null,
@@ -19863,24 +19863,6 @@
       "voteNone": null
     },
     {
-      "filerName": "V-Square Quantitative Management LLC",
-      "filerCik": "1943239",
-      "shares": [
-        null,
-        null,
-        115,
-        null
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Legato Capital Management LLC",
       "filerCik": "1442641",
       "shares": [
@@ -19899,13 +19881,13 @@
       "voteNone": null
     },
     {
-      "filerName": "PharVision Advisers, LLC",
-      "filerCik": "1898824",
+      "filerName": "V-Square Quantitative Management LLC",
+      "filerCik": "1943239",
       "shares": [
         null,
         null,
-        null,
-        664
+        115,
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -19924,6 +19906,24 @@
         null,
         5190,
         5060
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "PharVision Advisers, LLC",
+      "filerCik": "1898824",
+      "shares": [
+        null,
+        null,
+        null,
+        664
       ],
       "netChg": null,
       "currentValue": null,
@@ -19971,13 +19971,13 @@
       "voteNone": null
     },
     {
-      "filerName": "SYNOVUS FINANCIAL CORP  (SNV, SNV-PD, SNV-PE)",
-      "filerCik": "18349",
+      "filerName": "HighPoint Advisor Group LLC",
+      "filerCik": "1616034",
       "shares": [
         null,
         null,
-        null,
-        1925
+        1169,
+        1162
       ],
       "netChg": null,
       "currentValue": null,
@@ -19989,13 +19989,13 @@
       "voteNone": null
     },
     {
-      "filerName": "HighPoint Advisor Group LLC",
-      "filerCik": "1616034",
+      "filerName": "SYNOVUS FINANCIAL CORP  (SNV, SNV-PD, SNV-PE)",
+      "filerCik": "18349",
       "shares": [
         null,
         null,
-        1169,
-        1162
+        null,
+        1925
       ],
       "netChg": null,
       "currentValue": null,
@@ -20817,24 +20817,6 @@
       "voteNone": null
     },
     {
-      "filerName": "HARBOR CAPITAL ADVISORS, INC.",
-      "filerCik": "1039128",
-      "shares": [
-        null,
-        null,
-        680,
-        680
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Capula Management Ltd",
       "filerCik": "1557017",
       "shares": [
@@ -20847,6 +20829,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "HARBOR CAPITAL ADVISORS, INC.",
+      "filerCik": "1039128",
+      "shares": [
+        null,
+        null,
+        680,
+        680
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -20979,24 +20979,6 @@
       "voteNone": null
     },
     {
-      "filerName": "JANUS HENDERSON GROUP PLC  (JHG)",
-      "filerCik": "1274173",
-      "shares": [
-        null,
-        3911,
-        4337,
-        3371
-      ],
-      "netChg": -3911,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Virtu Financial LLC",
       "filerCik": "1533964",
       "shares": [
@@ -21009,6 +20991,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "JANUS HENDERSON GROUP PLC  (JHG)",
+      "filerCik": "1274173",
+      "shares": [
+        null,
+        3911,
+        4337,
+        3371
+      ],
+      "netChg": -3911,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,

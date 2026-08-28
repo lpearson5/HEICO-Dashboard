@@ -8,16 +8,16 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-08-27T20:58:56.001Z",
+  "lastUpdated": "2026-08-28T21:22:10.345Z",
   "summary": {
-    "institutions": 668,
-    "totalShares": 70043092,
-    "pctOut": 82.88,
-    "newHolders": 112,
-    "sellouts": 65,
+    "institutions": 667,
+    "totalShares": 70040759,
+    "pctOut": 82.87,
+    "newHolders": 111,
+    "sellouts": 66,
     "bought": 254,
-    "sold": 212,
-    "held": 90
+    "sold": 213,
+    "held": 89
   },
   "top10": [
     {
@@ -217,42 +217,6 @@
       "action": "New",
       "discretion": "SOLE",
       "voteSole": 1376894,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "Local Pensions Partnership Investment Ltd",
-      "filerCik": "1698810",
-      "shares": [
-        1242970,
-        null,
-        1264905,
-        1282905
-      ],
-      "netChg": 1242970,
-      "currentValue": 320443880,
-      "pctOut": 1.47,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 1242970
-    },
-    {
-      "filerName": "Port Capital LLC",
-      "filerCik": "1729212",
-      "shares": [
-        804484,
-        null,
-        860156,
-        856191
-      ],
-      "netChg": 804484,
-      "currentValue": 207484468,
-      "pctOut": 0.95,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 804484,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -1697,6 +1661,24 @@
       "voteNone": 0
     },
     {
+      "filerName": "FARMERS & MERCHANTS INVESTMENTS INC",
+      "filerCik": "1259969",
+      "shares": [
+        61,
+        null,
+        null,
+        null
+      ],
+      "netChg": 61,
+      "currentValue": 15733,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 61,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "EDMOND DE ROTHSCHILD HOLDING S.A.",
       "filerCik": "1649647",
       "shares": [
@@ -2707,6 +2689,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Private Wealth Group, LLC",
+      "filerCik": "1512780",
+      "shares": [
+        null,
+        2333,
+        2333,
+        2333
+      ],
+      "netChg": -2333,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "PICTON MAHONEY ASSET MANAGEMENT",
       "filerCik": "1539041",
       "shares": [
@@ -3577,14 +3577,14 @@
       "filerCik": "1698810",
       "shares": [
         1242970,
-        null,
+        1414810,
         1264905,
         1282905
       ],
-      "netChg": 1242970,
+      "netChg": -171840,
       "currentValue": 320443880,
       "pctOut": 1.47,
-      "action": "New",
+      "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -3649,14 +3649,14 @@
       "filerCik": "1729212",
       "shares": [
         804484,
-        null,
+        826086,
         860156,
         856191
       ],
-      "netChg": 804484,
+      "netChg": -21602,
       "currentValue": 207484468,
       "pctOut": 0.95,
-      "action": "New",
+      "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 804484,
       "voteShared": 0,
@@ -10269,24 +10269,6 @@
       "voteNone": 605
     },
     {
-      "filerName": "Private Wealth Group, LLC",
-      "filerCik": "1512780",
-      "shares": [
-        2333,
-        2333,
-        2333,
-        2333
-      ],
-      "netChg": 0,
-      "currentValue": 601704,
-      "pctOut": 0,
-      "action": "No Change",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 2333
-    },
-    {
       "filerName": "Arkadios Wealth Advisors",
       "filerCik": "1800798",
       "shares": [
@@ -13855,14 +13837,14 @@
       "filerCik": "1259969",
       "shares": [
         61,
-        129,
+        null,
         null,
         null
       ],
-      "netChg": -68,
+      "netChg": 61,
       "currentValue": 15733,
       "pctOut": 0,
-      "action": "Sold",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 61,
       "voteShared": 0,
@@ -15903,13 +15885,13 @@
       "voteNone": null
     },
     {
-      "filerName": "PharVision Advisers, LLC",
-      "filerCik": "1898824",
+      "filerName": "Capital World Investors",
+      "filerCik": "1422849",
       "shares": [
         null,
         null,
-        null,
-        1674
+        311861,
+        310502
       ],
       "netChg": null,
       "currentValue": null,
@@ -15921,13 +15903,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Capital World Investors",
-      "filerCik": "1422849",
+      "filerName": "PharVision Advisers, LLC",
+      "filerCik": "1898824",
       "shares": [
         null,
         null,
-        311861,
-        310502
+        null,
+        1674
       ],
       "netChg": null,
       "currentValue": null,
@@ -16407,24 +16389,6 @@
       "voteNone": null
     },
     {
-      "filerName": "JANUS HENDERSON GROUP PLC  (JHG)",
-      "filerCik": "1274173",
-      "shares": [
-        null,
-        164169,
-        164169,
-        164018
-      ],
-      "netChg": -164169,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Virtu Financial LLC",
       "filerCik": "1533964",
       "shares": [
@@ -16437,6 +16401,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "JANUS HENDERSON GROUP PLC  (JHG)",
+      "filerCik": "1274173",
+      "shares": [
+        null,
+        164169,
+        164169,
+        164018
+      ],
+      "netChg": -164169,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -16893,13 +16875,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Broadcrest Asset Management, LLC",
-      "filerCik": "1749585",
+      "filerName": "Makaira Partners LLC",
+      "filerCik": "1540866",
       "shares": [
         null,
         null,
-        null,
-        40000
+        2171,
+        2171
       ],
       "netChg": null,
       "currentValue": null,
@@ -16911,13 +16893,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Makaira Partners LLC",
-      "filerCik": "1540866",
+      "filerName": "Broadcrest Asset Management, LLC",
+      "filerCik": "1749585",
       "shares": [
         null,
         null,
-        2171,
-        2171
+        null,
+        40000
       ],
       "netChg": null,
       "currentValue": null,
@@ -16995,6 +16977,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Private Wealth Group, LLC",
+      "filerCik": "1512780",
+      "shares": [
+        null,
+        2333,
+        2333,
+        2333
+      ],
+      "netChg": -2333,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -17379,24 +17379,6 @@
       "voteNone": null
     },
     {
-      "filerName": "NICOLET ADVISORY SERVICES, LLC",
-      "filerCik": "1775863",
-      "shares": [
-        null,
-        null,
-        1611,
-        1320
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "BALLAST ADVISORS LLC",
       "filerCik": "1803415",
       "shares": [
@@ -17409,6 +17391,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "NICOLET ADVISORY SERVICES, LLC",
+      "filerCik": "1775863",
+      "shares": [
+        null,
+        null,
+        1611,
+        1320
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
