@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-08-28T21:22:10.345Z",
+  "lastUpdated": "2026-08-29T15:35:37.649Z",
   "summary": {
-    "funds": 450,
-    "totalShares": 20207637,
-    "pctOut": 36.580400000000004,
-    "newFunds": 63,
-    "sellouts": 53,
+    "funds": 438,
+    "totalShares": 19861740,
+    "pctOut": 35.9543,
+    "newFunds": 61,
+    "sellouts": 64,
     "linkedManagers": 26,
-    "linkedShares": 17385045
+    "linkedShares": 17054162
   },
   "newHolders": [
     {
@@ -180,19 +180,6 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.049600000000000005,
-      "action": "New"
-    },
-    {
-      "fundName": "Invesco Dorsey Wright Momentum ETF",
-      "registrant": "Invesco Exchange-Traded Fund Trust",
-      "manager": "Invesco",
-      "cik": "1209466",
-      "shares": 23874,
-      "value": 7900145,
-      "reportDate": "2026-01-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.043199999999999995,
       "action": "New"
     },
     {
@@ -612,19 +599,6 @@
       "action": "New"
     },
     {
-      "fundName": "AAM Transformers ETF",
-      "registrant": "ETF Series Solutions",
-      "manager": "",
-      "cik": "1540305",
-      "shares": 1763,
-      "value": 583394,
-      "reportDate": "2026-01-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0031999999999999997,
-      "action": "New"
-    },
-    {
       "fundName": "T. Rowe Price Spectrum Conservative Allocation Fund",
       "registrant": "T. ROWE PRICE SPECTRUM FUNDS II, INC.",
       "manager": "T. Rowe Price",
@@ -835,6 +809,20 @@
   ],
   "sellouts": [
     {
+      "fundName": "Invesco Discovery Mid Cap Growth Fund",
+      "registrant": "AIM Investment Funds (Invesco Investment Funds)",
+      "manager": "Invesco",
+      "lastShares": 209375,
+      "lastReport": "2026-01-31"
+    },
+    {
+      "fundName": "Invesco Global Opportunities Fund",
+      "registrant": "AIM International Mutual Funds (Invesco International Mutual Funds)",
+      "manager": "Invesco",
+      "lastShares": 40049,
+      "lastReport": "2026-01-31"
+    },
+    {
       "fundName": "Invesco V.I. Discovery Mid Cap Growth Fund",
       "registrant": "AIM Variable Insurance Funds (Invesco Variable Insurance Funds)",
       "manager": "Invesco",
@@ -847,6 +835,20 @@
       "manager": "Goldman Sachs",
       "lastShares": 27706,
       "lastReport": "2025-10-31"
+    },
+    {
+      "fundName": "Invesco Dorsey Wright Momentum ETF",
+      "registrant": "Invesco Exchange-Traded Fund Trust",
+      "manager": "Invesco",
+      "lastShares": 23874,
+      "lastReport": "2026-01-31"
+    },
+    {
+      "fundName": "Invesco Dorsey Wright Industrials Momentum ETF",
+      "registrant": "Invesco Exchange-Traded Fund Trust",
+      "manager": "Invesco",
+      "lastShares": 22827,
+      "lastReport": "2026-01-31"
     },
     {
       "fundName": "AST PGIM Aggressive Multi-Asset Portfolio",
@@ -863,6 +865,13 @@
       "lastReport": "2025-09-30"
     },
     {
+      "fundName": "First Trust Industrials/Producer Durables AlphaDEX Fund",
+      "registrant": "First Trust Exchange-Traded AlphaDEX Fund",
+      "manager": "First Trust",
+      "lastShares": 15097,
+      "lastReport": "2026-01-31"
+    },
+    {
       "fundName": "AST Balanced Asset Allocation Portfolio",
       "registrant": "Advanced Series Trust",
       "manager": "",
@@ -877,6 +886,20 @@
       "lastReport": "2025-12-31"
     },
     {
+      "fundName": "Catholic Responsible Investments Multi-Style US Equity Fund",
+      "registrant": "Catholic Responsible Investments Funds",
+      "manager": "",
+      "lastShares": 10726,
+      "lastReport": "2026-01-31"
+    },
+    {
+      "fundName": "Schwab Fundamental U.S. Small Company Index Fund",
+      "registrant": "SCHWAB CAPITAL TRUST",
+      "manager": "Charles Schwab",
+      "lastShares": 10421,
+      "lastReport": "2026-01-31"
+    },
+    {
       "fundName": "AST Multi-Asset Diversified Portfolio",
       "registrant": "Advanced Series Trust",
       "manager": "",
@@ -889,6 +912,13 @@
       "manager": "",
       "lastShares": 8500,
       "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "First Trust Large Cap Core AlphaDEX Fund",
+      "registrant": "First Trust Exchange-Traded AlphaDEX Fund",
+      "manager": "First Trust",
+      "lastShares": 7469,
+      "lastReport": "2026-01-31"
     },
     {
       "fundName": "MidCap Growth Fund III",
@@ -975,11 +1005,25 @@
       "lastReport": "2025-06-30"
     },
     {
+      "fundName": "AAM Transformers ETF",
+      "registrant": "ETF Series Solutions",
+      "manager": "",
+      "lastShares": 1763,
+      "lastReport": "2026-01-31"
+    },
+    {
       "fundName": "AST Quantitative Modeling Portfolio",
       "registrant": "Advanced Series Trust",
       "manager": "",
       "lastShares": 1600,
       "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "Sustainable Aware Equity Fund",
+      "registrant": "RUSSELL INVESTMENT CO",
+      "manager": "",
+      "lastShares": 1368,
+      "lastReport": "2026-01-31"
     },
     {
       "fundName": "Adaptive Core ETF",
@@ -1017,6 +1061,13 @@
       "lastReport": "2025-06-30"
     },
     {
+      "fundName": "Optimize Strategy Index ETF",
+      "registrant": "Advisor Managed Portfolios",
+      "manager": "",
+      "lastShares": 998,
+      "lastReport": "2025-12-31"
+    },
+    {
       "fundName": "Multi-Manager Growth Strategies Fund",
       "registrant": "Columbia Funds Series Trust I",
       "manager": "Columbia (Ameriprise)",
@@ -1043,13 +1094,6 @@
       "manager": "Goldman Sachs",
       "lastShares": 812,
       "lastReport": "2025-10-31"
-    },
-    {
-      "fundName": "BlackRock SMID-Cap Growth Equity Fund",
-      "registrant": "BlackRock Funds",
-      "manager": "BlackRock",
-      "lastShares": 739,
-      "lastReport": "2025-05-30"
     },
     {
       "fundName": "Alger Weatherbie Enduring Growth ETF",
@@ -1169,6 +1213,13 @@
       "manager": "Janus Henderson",
       "lastShares": 31,
       "lastReport": "2025-10-31"
+    },
+    {
+      "fundName": "iShares U.S. Industry Rotation Active ETF",
+      "registrant": "BlackRock ETF Trust",
+      "manager": "BlackRock",
+      "lastShares": 19,
+      "lastReport": "2026-01-31"
     },
     {
       "fundName": "FIIG ESG STOCK PLAN FOR RETIREMENT",
@@ -1522,8 +1573,8 @@
     },
     {
       "manager": "BlackRock",
-      "fundCount": 37,
-      "shares": 1928094,
+      "fundCount": 36,
+      "shares": 1928075,
       "funds": [
         {
           "fundName": "BlackRock Mid-Cap Growth Equity Portfolio",
@@ -1668,10 +1719,6 @@
         {
           "fundName": "Global Atlantic BlackRock Disciplined Growth Portfolio",
           "shares": 39
-        },
-        {
-          "fundName": "iShares U.S. Industry Rotation Active ETF",
-          "shares": 19
         }
       ]
     },
@@ -1799,57 +1846,6 @@
       ]
     },
     {
-      "manager": "Invesco",
-      "fundCount": 11,
-      "shares": 760173,
-      "funds": [
-        {
-          "fundName": "Invesco Aerospace &amp; Defense ETF",
-          "shares": 367144
-        },
-        {
-          "fundName": "Invesco Discovery Mid Cap Growth Fund",
-          "shares": 209375
-        },
-        {
-          "fundName": "Invesco Large Cap Growth ETF",
-          "shares": 71685
-        },
-        {
-          "fundName": "Invesco Global Opportunities Fund",
-          "shares": 40049
-        },
-        {
-          "fundName": "Invesco Dorsey Wright Momentum ETF",
-          "shares": 23874
-        },
-        {
-          "fundName": "Invesco Dorsey Wright Industrials Momentum ETF",
-          "shares": 22827
-        },
-        {
-          "fundName": "Invesco Bloomberg Pricing Power ETF",
-          "shares": 10883
-        },
-        {
-          "fundName": "Invesco MSCI USA ETF",
-          "shares": 7645
-        },
-        {
-          "fundName": "Invesco RAFI US 1000 ETF",
-          "shares": 3955
-        },
-        {
-          "fundName": "Invesco Dividend AchieversTM ETF",
-          "shares": 1537
-        },
-        {
-          "fundName": "Invesco Russell 1000 Equal Weight ETF",
-          "shares": 1199
-        }
-      ]
-    },
-    {
       "manager": "State Street",
       "fundCount": 12,
       "shares": 617541,
@@ -1906,8 +1902,8 @@
     },
     {
       "manager": "Charles Schwab",
-      "fundCount": 12,
-      "shares": 579071,
+      "fundCount": 11,
+      "shares": 566898,
       "funds": [
         {
           "fundName": "Schwab U.S. Large-Cap Growth ETF",
@@ -1942,10 +1938,6 @@
           "shares": 15159
         },
         {
-          "fundName": "Schwab Fundamental U.S. Small Company Index Fund",
-          "shares": 12173
-        },
-        {
           "fundName": "Schwab Select Large Cap Growth Fund",
           "shares": 8534
         },
@@ -1956,6 +1948,41 @@
         {
           "fundName": "Schwab Fundamental U.S. Broad Market ETF",
           "shares": 472
+        }
+      ]
+    },
+    {
+      "manager": "Invesco",
+      "fundCount": 7,
+      "shares": 464048,
+      "funds": [
+        {
+          "fundName": "Invesco Aerospace &amp; Defense ETF",
+          "shares": 367144
+        },
+        {
+          "fundName": "Invesco Large Cap Growth ETF",
+          "shares": 71685
+        },
+        {
+          "fundName": "Invesco Bloomberg Pricing Power ETF",
+          "shares": 10883
+        },
+        {
+          "fundName": "Invesco MSCI USA ETF",
+          "shares": 7645
+        },
+        {
+          "fundName": "Invesco RAFI US 1000 ETF",
+          "shares": 3955
+        },
+        {
+          "fundName": "Invesco Dividend AchieversTM ETF",
+          "shares": 1537
+        },
+        {
+          "fundName": "Invesco Russell 1000 Equal Weight ETF",
+          "shares": 1199
         }
       ]
     },
@@ -2179,41 +2206,6 @@
       ]
     },
     {
-      "manager": "First Trust",
-      "fundCount": 7,
-      "shares": 134103,
-      "funds": [
-        {
-          "fundName": "First Trust Indxx Aerospace &amp; Defense ETF",
-          "shares": 99448
-        },
-        {
-          "fundName": "First Trust Industrials/Producer Durables AlphaDEX Fund",
-          "shares": 15097
-        },
-        {
-          "fundName": "First Trust Large Cap Core AlphaDEX Fund",
-          "shares": 7469
-        },
-        {
-          "fundName": "First Trust Large Cap Growth AlphaDEX Fund",
-          "shares": 7168
-        },
-        {
-          "fundName": "First Trust Dorsey Wright Momentum &amp; Low Volatility ETF",
-          "shares": 3440
-        },
-        {
-          "fundName": "First Trust Multi Cap Growth AlphaDEX Fund",
-          "shares": 1358
-        },
-        {
-          "fundName": "First Trust RBA Deglobalization ETF",
-          "shares": 123
-        }
-      ]
-    },
-    {
       "manager": "Dimensional",
       "fundCount": 12,
       "shares": 121178,
@@ -2265,6 +2257,33 @@
         {
           "fundName": "AZL DFA U.S. Core Equity Fund",
           "shares": 570
+        }
+      ]
+    },
+    {
+      "manager": "First Trust",
+      "fundCount": 5,
+      "shares": 111537,
+      "funds": [
+        {
+          "fundName": "First Trust Indxx Aerospace &amp; Defense ETF",
+          "shares": 99448
+        },
+        {
+          "fundName": "First Trust Large Cap Growth AlphaDEX Fund",
+          "shares": 7168
+        },
+        {
+          "fundName": "First Trust Dorsey Wright Momentum &amp; Low Volatility ETF",
+          "shares": 3440
+        },
+        {
+          "fundName": "First Trust Multi Cap Growth AlphaDEX Fund",
+          "shares": 1358
+        },
+        {
+          "fundName": "First Trust RBA Deglobalization ETF",
+          "shares": 123
         }
       ]
     },
@@ -2772,19 +2791,6 @@
       "priorShares": 210804,
       "change": -1314,
       "pctOut": 0.3792,
-      "action": "Sold"
-    },
-    {
-      "fundName": "Invesco Discovery Mid Cap Growth Fund",
-      "registrant": "AIM Investment Funds (Invesco Investment Funds)",
-      "manager": "Invesco",
-      "cik": "826644",
-      "shares": 209375,
-      "value": 69284281,
-      "reportDate": "2026-01-31",
-      "priorShares": 276870,
-      "change": -67495,
-      "pctOut": 0.379,
       "action": "Sold"
     },
     {
@@ -3477,19 +3483,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Invesco Global Opportunities Fund",
-      "registrant": "AIM International Mutual Funds (Invesco International Mutual Funds)",
-      "manager": "Invesco",
-      "cik": "880859",
-      "shares": 40049,
-      "value": 13252615,
-      "reportDate": "2026-01-31",
-      "priorShares": 63950,
-      "change": -23901,
-      "pctOut": 0.0725,
-      "action": "Sold"
-    },
-    {
       "fundName": "LVIP T. Rowe Price Structured Mid-Cap Growth Fund",
       "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
       "manager": "FMR (Fidelity)",
@@ -3880,19 +3873,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "Invesco Dorsey Wright Momentum ETF",
-      "registrant": "Invesco Exchange-Traded Fund Trust",
-      "manager": "Invesco",
-      "cik": "1209466",
-      "shares": 23874,
-      "value": 7900145,
-      "reportDate": "2026-01-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.043199999999999995,
-      "action": "New"
-    },
-    {
       "fundName": "Stock Portfolio",
       "registrant": "Stock Portfolio",
       "manager": "",
@@ -3917,19 +3897,6 @@
       "change": 16204,
       "pctOut": 0.0428,
       "action": "Bought"
-    },
-    {
-      "fundName": "Invesco Dorsey Wright Industrials Momentum ETF",
-      "registrant": "Invesco Exchange-Traded Fund Trust",
-      "manager": "Invesco",
-      "cik": "1209466",
-      "shares": 22827,
-      "value": 7553683,
-      "reportDate": "2026-01-31",
-      "priorShares": 38042,
-      "change": -15215,
-      "pctOut": 0.0413,
-      "action": "Sold"
     },
     {
       "fundName": "VOYA LARGE-CAP GROWTH FUND",
@@ -4348,19 +4315,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "First Trust Industrials/Producer Durables AlphaDEX Fund",
-      "registrant": "First Trust Exchange-Traded AlphaDEX Fund",
-      "manager": "First Trust",
-      "cik": "1383496",
-      "shares": 15097,
-      "value": 4995748,
-      "reportDate": "2026-01-31",
-      "priorShares": 26668,
-      "change": -11571,
-      "pctOut": 0.0273,
-      "action": "Sold"
-    },
-    {
       "fundName": "STATE STREET SMALL/MID CAP EQUITY INDEX PORTFOLIO",
       "registrant": "STATE STREET INSTITUTIONAL INVESTMENT TRUST",
       "manager": "State Street",
@@ -4504,19 +4458,6 @@
       "action": "New"
     },
     {
-      "fundName": "Schwab Fundamental U.S. Small Company Index Fund",
-      "registrant": "SCHWAB CAPITAL TRUST",
-      "manager": "Charles Schwab",
-      "cik": "904333",
-      "shares": 12173,
-      "value": 3285736,
-      "reportDate": "2026-04-30",
-      "priorShares": 10421,
-      "change": 1752,
-      "pctOut": 0.022000000000000002,
-      "action": "Bought"
-    },
-    {
       "fundName": "Dunham Focused Large Cap Growth Fund",
       "registrant": "Dunham Funds",
       "manager": "",
@@ -4632,19 +4573,6 @@
       "change": -1253,
       "pctOut": 0.0197,
       "action": "Sold"
-    },
-    {
-      "fundName": "Catholic Responsible Investments Multi-Style US Equity Fund",
-      "registrant": "Catholic Responsible Investments Funds",
-      "manager": "",
-      "cik": "1872555",
-      "shares": 10726,
-      "value": 3549341,
-      "reportDate": "2026-01-31",
-      "priorShares": 10283,
-      "change": 443,
-      "pctOut": 0.0194,
-      "action": "Bought"
     },
     {
       "fundName": "SA Fidelity Institutional AM International Growth Portfolio",
@@ -4983,19 +4911,6 @@
       "change": 0,
       "pctOut": 0.0137,
       "action": "No Change"
-    },
-    {
-      "fundName": "First Trust Large Cap Core AlphaDEX Fund",
-      "registrant": "First Trust Exchange-Traded AlphaDEX Fund",
-      "manager": "First Trust",
-      "cik": "1383496",
-      "shares": 7469,
-      "value": 2471567,
-      "reportDate": "2026-01-31",
-      "priorShares": 7527,
-      "change": -58,
-      "pctOut": 0.0135,
-      "action": "Sold"
     },
     {
       "fundName": "iShares Russell Mid-Cap Index Fund",
@@ -6233,19 +6148,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "AAM Transformers ETF",
-      "registrant": "ETF Series Solutions",
-      "manager": "",
-      "cik": "1540305",
-      "shares": 1763,
-      "value": 583394,
-      "reportDate": "2026-01-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0031999999999999997,
-      "action": "New"
-    },
-    {
       "fundName": "DAC 3D Dividend Growth ETF",
       "registrant": "EA Series Trust",
       "manager": "",
@@ -6467,19 +6369,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Sustainable Aware Equity Fund",
-      "registrant": "RUSSELL INVESTMENT CO",
-      "manager": "",
-      "cik": "351601",
-      "shares": 1368,
-      "value": 452685,
-      "reportDate": "2026-01-31",
-      "priorShares": 1173,
-      "change": 195,
-      "pctOut": 0.0025,
-      "action": "Bought"
-    },
-    {
       "fundName": "First Trust Multi Cap Growth AlphaDEX Fund",
       "registrant": "First Trust Exchange-Traded AlphaDEX Fund",
       "manager": "First Trust",
@@ -6673,19 +6562,6 @@
       "change": -33,
       "pctOut": 0.0021,
       "action": "Sold"
-    },
-    {
-      "fundName": "Optimize Strategy Index ETF",
-      "registrant": "Advisor Managed Portfolios",
-      "manager": "",
-      "cik": "1970751",
-      "shares": 1157,
-      "value": 317249,
-      "reportDate": "2026-03-31",
-      "priorShares": 998,
-      "change": 159,
-      "pctOut": 0.0021,
-      "action": "Bought"
     },
     {
       "fundName": "ALPS Equal Sector Weight ETF",
@@ -8141,19 +8017,6 @@
       "priorShares": 21,
       "change": 11,
       "pctOut": 0.00009999999999999999,
-      "action": "Bought"
-    },
-    {
-      "fundName": "iShares U.S. Industry Rotation Active ETF",
-      "registrant": "BlackRock ETF Trust",
-      "manager": "BlackRock",
-      "cik": "1761055",
-      "shares": 19,
-      "value": 6287,
-      "reportDate": "2026-01-31",
-      "priorShares": 17,
-      "change": 2,
-      "pctOut": 0,
       "action": "Bought"
     },
     {

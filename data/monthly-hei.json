@@ -8,13 +8,13 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-08-28T21:22:10.345Z",
+  "lastUpdated": "2026-08-29T15:35:37.649Z",
   "summary": {
-    "institutions": 773,
-    "totalShares": 43796950,
-    "pctOut": 79.28,
-    "newHolders": 122,
-    "sellouts": 90,
+    "institutions": 772,
+    "totalShares": 43779757,
+    "pctOut": 79.25,
+    "newHolders": 121,
+    "sellouts": 91,
     "bought": 255,
     "sold": 262,
     "held": 134
@@ -307,24 +307,6 @@
       "action": "New",
       "discretion": "SOLE",
       "voteSole": 45469,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "Bank Julius Baer & Co. Ltd, Zurich",
-      "filerCik": "1544599",
-      "shares": [
-        40525,
-        null,
-        47450,
-        54556
-      ],
-      "netChg": 40525,
-      "currentValue": 14472713,
-      "pctOut": 0.06999999999999999,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 40525,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -2653,6 +2635,24 @@
       "voteNone": null
     },
     {
+      "filerName": "K.J. Harrison & Partners Inc",
+      "filerCik": "1418359",
+      "shares": [
+        null,
+        12300,
+        12300,
+        13340
+      ],
+      "netChg": -12300,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Twin Tree Management, LP",
       "filerCik": "1535588",
       "shares": [
@@ -2752,6 +2752,24 @@
         6426
       ],
       "netChg": -6297,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Summit Trail Advisors, LLC",
+      "filerCik": "1698478",
+      "shares": [
+        null,
+        6195,
+        6518,
+        6367
+      ],
+      "netChg": -6195,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -3544,24 +3562,6 @@
         167
       ],
       "netChg": -378,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "OSTERWEIS CAPITAL MANAGEMENT INC",
-      "filerCik": "1007524",
-      "shares": [
-        null,
-        344,
-        531,
-        531
-      ],
-      "netChg": -344,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -6061,14 +6061,14 @@
       "filerCik": "1544599",
       "shares": [
         40525,
-        null,
+        43917,
         47450,
         54556
       ],
-      "netChg": 40525,
+      "netChg": -3392,
       "currentValue": 14472713,
       "pctOut": 0.06999999999999999,
-      "action": "New",
+      "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 40525,
       "voteShared": 0,
@@ -7965,24 +7965,6 @@
       "voteNone": 0
     },
     {
-      "filerName": "K.J. Harrison & Partners Inc",
-      "filerCik": "1418359",
-      "shares": [
-        12000,
-        12300,
-        12300,
-        13340
-      ],
-      "netChg": -300,
-      "currentValue": 4274280,
-      "pctOut": 0.02,
-      "action": "Sold",
-      "discretion": "SOLE",
-      "voteSole": 12000,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
       "filerName": "Hennion & Walsh Asset Management, Inc.",
       "filerCik": "1861642",
       "shares": [
@@ -9437,24 +9419,6 @@
       "action": "Bought",
       "discretion": "SOLE",
       "voteSole": 5440,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "Summit Trail Advisors, LLC",
-      "filerCik": "1698478",
-      "shares": [
-        5420,
-        6195,
-        6518,
-        6367
-      ],
-      "netChg": -775,
-      "currentValue": 1930551,
-      "pctOut": 0.01,
-      "action": "Sold",
-      "discretion": "SOLE",
-      "voteSole": 5420,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -15525,6 +15489,24 @@
       "voteNone": 231
     },
     {
+      "filerName": "OSTERWEIS CAPITAL MANAGEMENT INC",
+      "filerCik": "1007524",
+      "shares": [
+        227,
+        344,
+        531,
+        531
+      ],
+      "netChg": -117,
+      "currentValue": 80855,
+      "pctOut": 0,
+      "action": "Sold",
+      "discretion": "SOLE",
+      "voteSole": 227,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "Harvest Fund Management Co., Ltd",
       "filerCik": "1694126",
       "shares": [
@@ -18459,6 +18441,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Berbice Capital Management LLC",
+      "filerCik": "2051605",
+      "shares": [
+        null,
+        null,
+        null,
+        100
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Goodman Advisory Group, LLC",
       "filerCik": "1864123",
       "shares": [
@@ -18507,6 +18507,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "K.J. Harrison & Partners Inc",
+      "filerCik": "1418359",
+      "shares": [
+        null,
+        12300,
+        12300,
+        13340
+      ],
+      "netChg": -12300,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -18828,24 +18846,6 @@
         null
       ],
       "netChg": -90000,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "OSTERWEIS CAPITAL MANAGEMENT INC",
-      "filerCik": "1007524",
-      "shares": [
-        null,
-        344,
-        531,
-        531
-      ],
-      "netChg": -344,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -19742,7 +19742,7 @@
       "shares": [
         null,
         null,
-        null,
+        1182,
         1501
       ],
       "netChg": null,
@@ -19863,12 +19863,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Legato Capital Management LLC",
-      "filerCik": "1442641",
+      "filerName": "V-Square Quantitative Management LLC",
+      "filerCik": "1943239",
       "shares": [
         null,
         null,
-        1077,
+        115,
         null
       ],
       "netChg": null,
@@ -19881,12 +19881,12 @@
       "voteNone": null
     },
     {
-      "filerName": "V-Square Quantitative Management LLC",
-      "filerCik": "1943239",
+      "filerName": "Legato Capital Management LLC",
+      "filerCik": "1442641",
       "shares": [
         null,
         null,
-        115,
+        1077,
         null
       ],
       "netChg": null,
@@ -20817,15 +20817,15 @@
       "voteNone": null
     },
     {
-      "filerName": "Capula Management Ltd",
-      "filerCik": "1557017",
+      "filerName": "Summit Trail Advisors, LLC",
+      "filerCik": "1698478",
       "shares": [
         null,
-        3773,
-        null,
-        null
+        6195,
+        6518,
+        6367
       ],
-      "netChg": -3773,
+      "netChg": -6195,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -20847,6 +20847,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Capula Management Ltd",
+      "filerCik": "1557017",
+      "shares": [
+        null,
+        3773,
+        null,
+        null
+      ],
+      "netChg": -3773,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,

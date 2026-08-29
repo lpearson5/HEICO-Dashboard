@@ -2,15 +2,15 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-08-28T21:22:10.345Z",
+  "lastUpdated": "2026-08-29T15:35:37.649Z",
   "summary": {
-    "funds": 353,
-    "totalShares": 29614758,
+    "funds": 352,
+    "totalShares": 29614725,
     "pctOut": 35.0405,
     "newFunds": 18,
-    "sellouts": 31,
+    "sellouts": 32,
     "linkedManagers": 23,
-    "linkedShares": 25354806
+    "linkedShares": 25354773
   },
   "newHolders": [
     {
@@ -460,6 +460,13 @@
       "lastReport": "2025-11-30"
     },
     {
+      "fundName": "iShares U.S. Industry Rotation Active ETF",
+      "registrant": "BlackRock ETF Trust",
+      "manager": "BlackRock",
+      "lastShares": 33,
+      "lastReport": "2026-01-31"
+    },
+    {
       "fundName": "ARS Core Equity Portfolio ETF",
       "registrant": "EA Series Trust",
       "manager": "",
@@ -755,8 +762,8 @@
     },
     {
       "manager": "BlackRock",
-      "fundCount": 40,
-      "shares": 2382939,
+      "fundCount": 39,
+      "shares": 2382906,
       "funds": [
         {
           "fundName": "iShares U.S. Aerospace &amp; Defense ETF",
@@ -913,10 +920,6 @@
         {
           "fundName": "iShares Enhanced Large Cap Core Active ETF",
           "shares": 85
-        },
-        {
-          "fundName": "iShares U.S. Industry Rotation Active ETF",
-          "shares": 33
         }
       ]
     },
@@ -5773,19 +5776,6 @@
       "change": -104,
       "pctOut": 0.00009999999999999999,
       "action": "Sold"
-    },
-    {
-      "fundName": "iShares U.S. Industry Rotation Active ETF",
-      "registrant": "BlackRock ETF Trust",
-      "manager": "BlackRock",
-      "cik": "1761055",
-      "shares": 33,
-      "value": 8401,
-      "reportDate": "2026-01-31",
-      "priorShares": 23,
-      "change": 10,
-      "pctOut": 0,
-      "action": "Bought"
     },
     {
       "fundName": "Global Strategist Portfolio",
