@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-08-29T15:35:37.649Z",
+  "lastUpdated": "2026-08-30T15:19:02.085Z",
   "summary": {
-    "institutions": 772,
-    "totalShares": 43779757,
-    "pctOut": 79.25,
-    "newHolders": 121,
-    "sellouts": 91,
-    "bought": 255,
-    "sold": 262,
+    "institutions": 773,
+    "totalShares": 43768207,
+    "pctOut": 79.23,
+    "newHolders": 123,
+    "sellouts": 89,
+    "bought": 253,
+    "sold": 263,
     "held": 134
   },
   "top10": [
@@ -307,6 +307,24 @@
       "action": "New",
       "discretion": "SOLE",
       "voteSole": 45469,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "Bank Julius Baer & Co. Ltd, Zurich",
+      "filerCik": "1544599",
+      "shares": [
+        40525,
+        null,
+        47450,
+        54556
+      ],
+      "netChg": 40525,
+      "currentValue": 14472713,
+      "pctOut": 0.06999999999999999,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 40525,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -966,6 +984,24 @@
         null,
         null,
         null
+      ],
+      "netChg": 1210,
+      "currentValue": 430990,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 1210
+    },
+    {
+      "filerName": "Prime Capital Investment Advisors, LLC",
+      "filerCik": "1731446",
+      "shares": [
+        1210,
+        null,
+        1203,
+        1196
       ],
       "netChg": 1210,
       "currentValue": 430990,
@@ -2545,6 +2581,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Amova Asset Management Americas, Inc.",
+      "filerCik": "1480751",
+      "shares": [
+        null,
+        27049,
+        14964,
+        15710
+      ],
+      "netChg": -27049,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Atika Capital Management LLC",
       "filerCik": "1599731",
       "shares": [
@@ -2626,24 +2680,6 @@
         2275
       ],
       "netChg": -14629,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "K.J. Harrison & Partners Inc",
-      "filerCik": "1418359",
-      "shares": [
-        null,
-        12300,
-        12300,
-        13340
-      ],
-      "netChg": -12300,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -2761,24 +2797,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Summit Trail Advisors, LLC",
-      "filerCik": "1698478",
-      "shares": [
-        null,
-        6195,
-        6518,
-        6367
-      ],
-      "netChg": -6195,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "CAXTON ASSOCIATES LLP",
       "filerCik": "2051323",
       "shares": [
@@ -2824,24 +2842,6 @@
         null
       ],
       "netChg": -5133,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Oak Harvest Investment Services",
-      "filerCik": "1839430",
-      "shares": [
-        null,
-        5000,
-        3000,
-        null
-      ],
-      "netChg": -5000,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -6061,14 +6061,14 @@
       "filerCik": "1544599",
       "shares": [
         40525,
-        43917,
+        null,
         47450,
         54556
       ],
-      "netChg": -3392,
+      "netChg": 40525,
       "currentValue": 14472713,
       "pctOut": 0.06999999999999999,
-      "action": "Sold",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 40525,
       "voteShared": 0,
@@ -6631,24 +6631,6 @@
       "voteSole": 29371,
       "voteShared": 0,
       "voteNone": 0
-    },
-    {
-      "filerName": "Amova Asset Management Americas, Inc.",
-      "filerCik": "1480751",
-      "shares": [
-        28970,
-        27049,
-        14964,
-        15710
-      ],
-      "netChg": 1921,
-      "currentValue": 10317086,
-      "pctOut": 0.05,
-      "action": "Bought",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 28970
     },
     {
       "filerName": "Sumitomo Mitsui DS Asset Management Company, Ltd",
@@ -7961,6 +7943,24 @@
       "action": "Bought",
       "discretion": "SOLE",
       "voteSole": 12254,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "K.J. Harrison & Partners Inc",
+      "filerCik": "1418359",
+      "shares": [
+        12000,
+        12300,
+        12300,
+        13340
+      ],
+      "netChg": -300,
+      "currentValue": 4274280,
+      "pctOut": 0.02,
+      "action": "Sold",
+      "discretion": "SOLE",
+      "voteSole": 12000,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -9423,6 +9423,24 @@
       "voteNone": 0
     },
     {
+      "filerName": "Summit Trail Advisors, LLC",
+      "filerCik": "1698478",
+      "shares": [
+        5420,
+        6195,
+        6518,
+        6367
+      ],
+      "netChg": -775,
+      "currentValue": 1930551,
+      "pctOut": 0.01,
+      "action": "Sold",
+      "discretion": "SOLE",
+      "voteSole": 5420,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "MOODY LYNN LIEBERSON & WALKER, LLC",
       "filerCik": "938592",
       "shares": [
@@ -9645,7 +9663,7 @@
         4613,
         5041,
         6430,
-        6354
+        null
       ],
       "netChg": -428,
       "currentValue": 1643,
@@ -12631,14 +12649,14 @@
       "filerCik": "1731446",
       "shares": [
         1210,
-        1202,
+        null,
         1203,
         1196
       ],
-      "netChg": 8,
+      "netChg": 1210,
       "currentValue": 430990,
       "pctOut": 0,
-      "action": "Bought",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -16916,7 +16934,7 @@
       "shares": [
         16,
         16,
-        null,
+        15,
         15
       ],
       "netChg": 0,
@@ -18513,33 +18531,15 @@
       "voteNone": null
     },
     {
-      "filerName": "K.J. Harrison & Partners Inc",
-      "filerCik": "1418359",
+      "filerName": "Amova Asset Management Americas, Inc.",
+      "filerCik": "1480751",
       "shares": [
         null,
-        12300,
-        12300,
-        13340
+        27049,
+        14964,
+        15710
       ],
-      "netChg": -12300,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Oak Harvest Investment Services",
-      "filerCik": "1839430",
-      "shares": [
-        null,
-        5000,
-        3000,
-        null
-      ],
-      "netChg": -5000,
+      "netChg": -27049,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -18556,6 +18556,24 @@
         null,
         null,
         4
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Oak Harvest Investment Services",
+      "filerCik": "1839430",
+      "shares": [
+        null,
+        null,
+        3000,
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -19629,13 +19647,13 @@
       "voteNone": null
     },
     {
-      "filerName": "PineBridge Investments, L.P.",
-      "filerCik": "1531721",
+      "filerName": "DT Investment Partners, LLC",
+      "filerCik": "1537621",
       "shares": [
         null,
         null,
-        null,
-        6095
+        66,
+        66
       ],
       "netChg": null,
       "currentValue": null,
@@ -19647,13 +19665,13 @@
       "voteNone": null
     },
     {
-      "filerName": "DT Investment Partners, LLC",
-      "filerCik": "1537621",
+      "filerName": "PineBridge Investments, L.P.",
+      "filerCik": "1531721",
       "shares": [
         null,
         null,
-        66,
-        66
+        null,
+        6095
       ],
       "netChg": null,
       "currentValue": null,
@@ -19742,7 +19760,7 @@
       "shares": [
         null,
         null,
-        1182,
+        null,
         1501
       ],
       "netChg": null,
@@ -19773,13 +19791,13 @@
       "voteNone": null
     },
     {
-      "filerName": "WINNOW WEALTH LLC",
-      "filerCik": "2079687",
+      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
+      "filerCik": "1510434",
       "shares": [
         null,
         null,
-        1,
-        7
+        1447,
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -19791,13 +19809,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
-      "filerCik": "1510434",
+      "filerName": "WINNOW WEALTH LLC",
+      "filerCik": "2079687",
       "shares": [
         null,
         null,
-        1447,
-        null
+        1,
+        7
       ],
       "netChg": null,
       "currentValue": null,
@@ -19863,12 +19881,12 @@
       "voteNone": null
     },
     {
-      "filerName": "V-Square Quantitative Management LLC",
-      "filerCik": "1943239",
+      "filerName": "Legato Capital Management LLC",
+      "filerCik": "1442641",
       "shares": [
         null,
         null,
-        115,
+        1077,
         null
       ],
       "netChg": null,
@@ -19881,12 +19899,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Legato Capital Management LLC",
-      "filerCik": "1442641",
+      "filerName": "V-Square Quantitative Management LLC",
+      "filerCik": "1943239",
       "shares": [
         null,
         null,
-        1077,
+        115,
         null
       ],
       "netChg": null,
@@ -20043,24 +20061,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Elequin Capital, LP",
-      "filerCik": "1810873",
-      "shares": [
-        null,
-        1,
-        null,
-        null
-      ],
-      "netChg": -1,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Key Capital Management, INC",
       "filerCik": "2107249",
       "shares": [
@@ -20070,6 +20070,24 @@
         null
       ],
       "netChg": -5,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Elequin Capital, LP",
+      "filerCik": "1810873",
+      "shares": [
+        null,
+        1,
+        null,
+        null
+      ],
+      "netChg": -1,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -20808,24 +20826,6 @@
         null
       ],
       "netChg": -6564,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Summit Trail Advisors, LLC",
-      "filerCik": "1698478",
-      "shares": [
-        null,
-        6195,
-        6518,
-        6367
-      ],
-      "netChg": -6195,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",

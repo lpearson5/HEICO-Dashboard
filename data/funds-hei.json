@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-08-29T15:35:37.649Z",
+  "lastUpdated": "2026-08-30T15:19:02.085Z",
   "summary": {
-    "funds": 438,
-    "totalShares": 19861740,
-    "pctOut": 35.9543,
+    "funds": 440,
+    "totalShares": 19875224,
+    "pctOut": 35.9787,
     "newFunds": 61,
-    "sellouts": 64,
+    "sellouts": 62,
     "linkedManagers": 26,
-    "linkedShares": 17054162
+    "linkedShares": 17066489
   },
   "newHolders": [
     {
@@ -893,13 +893,6 @@
       "lastReport": "2026-01-31"
     },
     {
-      "fundName": "Schwab Fundamental U.S. Small Company Index Fund",
-      "registrant": "SCHWAB CAPITAL TRUST",
-      "manager": "Charles Schwab",
-      "lastShares": 10421,
-      "lastReport": "2026-01-31"
-    },
-    {
       "fundName": "AST Multi-Asset Diversified Portfolio",
       "registrant": "Advanced Series Trust",
       "manager": "",
@@ -1059,13 +1052,6 @@
       "manager": "",
       "lastShares": 1063,
       "lastReport": "2025-06-30"
-    },
-    {
-      "fundName": "Optimize Strategy Index ETF",
-      "registrant": "Advisor Managed Portfolios",
-      "manager": "",
-      "lastShares": 998,
-      "lastReport": "2025-12-31"
     },
     {
       "fundName": "Multi-Manager Growth Strategies Fund",
@@ -1902,8 +1888,8 @@
     },
     {
       "manager": "Charles Schwab",
-      "fundCount": 11,
-      "shares": 566898,
+      "fundCount": 12,
+      "shares": 579071,
       "funds": [
         {
           "fundName": "Schwab U.S. Large-Cap Growth ETF",
@@ -1936,6 +1922,10 @@
         {
           "fundName": "Schwab U.S. Large-Cap Growth Index Fund",
           "shares": 15159
+        },
+        {
+          "fundName": "Schwab Fundamental U.S. Small Company Index Fund",
+          "shares": 12173
         },
         {
           "fundName": "Schwab Select Large Cap Growth Fund",
@@ -2107,7 +2097,7 @@
     {
       "manager": "Voya",
       "fundCount": 11,
-      "shares": 224667,
+      "shares": 224821,
       "funds": [
         {
           "fundName": "Voya Large Cap Growth Portfolio",
@@ -2139,7 +2129,7 @@
         },
         {
           "fundName": "Voya Balanced Income Portfolio",
-          "shares": 1191
+          "shares": 1345
         },
         {
           "fundName": "Voya VACS Index Series MC Portfolio",
@@ -4458,6 +4448,19 @@
       "action": "New"
     },
     {
+      "fundName": "Schwab Fundamental U.S. Small Company Index Fund",
+      "registrant": "SCHWAB CAPITAL TRUST",
+      "manager": "Charles Schwab",
+      "cik": "904333",
+      "shares": 12173,
+      "value": 3285736,
+      "reportDate": "2026-04-30",
+      "priorShares": 10421,
+      "change": 1752,
+      "pctOut": 0.022000000000000002,
+      "action": "Bought"
+    },
+    {
       "fundName": "Dunham Focused Large Cap Growth Fund",
       "registrant": "Dunham Funds",
       "manager": "",
@@ -6395,6 +6398,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Voya Balanced Income Portfolio",
+      "registrant": "Voya Investors Trust",
+      "manager": "Voya",
+      "cik": "837276",
+      "shares": 1345,
+      "value": 368799,
+      "reportDate": "2026-03-31",
+      "priorShares": 1656,
+      "change": -311,
+      "pctOut": 0.0024000000000000002,
+      "action": "Sold"
+    },
+    {
       "fundName": "LargeCap Growth Fund I",
       "registrant": "Principal Funds, Inc",
       "manager": "Principal",
@@ -6512,19 +6528,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Voya Balanced Income Portfolio",
-      "registrant": "Voya Investors Trust",
-      "manager": "Voya",
-      "cik": "837276",
-      "shares": 1191,
-      "value": 424222,
-      "reportDate": "2026-06-30",
-      "priorShares": 1345,
-      "change": -154,
-      "pctOut": 0.0022,
-      "action": "Sold"
-    },
-    {
       "fundName": "DWS Small Mid Cap Growth VIP",
       "registrant": "DEUTSCHE DWS VARIABLE SERIES II",
       "manager": "",
@@ -6562,6 +6565,19 @@
       "change": -33,
       "pctOut": 0.0021,
       "action": "Sold"
+    },
+    {
+      "fundName": "Optimize Strategy Index ETF",
+      "registrant": "Advisor Managed Portfolios",
+      "manager": "",
+      "cik": "1970751",
+      "shares": 1157,
+      "value": 317249,
+      "reportDate": "2026-03-31",
+      "priorShares": 998,
+      "change": 159,
+      "pctOut": 0.0021,
+      "action": "Bought"
     },
     {
       "fundName": "ALPS Equal Sector Weight ETF",
