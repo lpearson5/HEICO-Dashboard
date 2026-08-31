@@ -2,43 +2,17 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-08-30T15:19:02.085Z",
+  "lastUpdated": "2026-08-31T17:59:46.247Z",
   "summary": {
     "funds": 352,
-    "totalShares": 29614725,
-    "pctOut": 35.0405,
-    "newFunds": 18,
+    "totalShares": 29627151,
+    "pctOut": 35.0552,
+    "newFunds": 16,
     "sellouts": 32,
     "linkedManagers": 23,
-    "linkedShares": 25354773
+    "linkedShares": 25354820
   },
   "newHolders": [
-    {
-      "fundName": "Large Cap Equity Fund",
-      "registrant": "Weitz Funds",
-      "manager": "",
-      "cik": "1257927",
-      "shares": 17000,
-      "value": 3588530,
-      "reportDate": "2026-03-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0201,
-      "action": "New"
-    },
-    {
-      "fundName": "Conservative Allocation Fund",
-      "registrant": "Weitz Funds",
-      "manager": "",
-      "cik": "1257927",
-      "shares": 7000,
-      "value": 1477630,
-      "reportDate": "2026-03-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0083,
-      "action": "New"
-    },
     {
       "fundName": "SEI Select Small Cap ETF",
       "registrant": "SEI EXCHANGE TRADED FUNDS",
@@ -1315,15 +1289,15 @@
     {
       "manager": "WisdomTree",
       "fundCount": 2,
-      "shares": 5862,
+      "shares": 5909,
       "funds": [
         {
           "fundName": "WisdomTree U.S. LargeCap Dividend Fund",
-          "shares": 4656
+          "shares": 4700
         },
         {
           "fundName": "WisdomTree U.S. Total Dividend Fund",
-          "shares": 1206
+          "shares": 1209
         }
       ]
     },
@@ -1753,21 +1727,21 @@
       "manager": "",
       "cik": "797136",
       "shares": 166705,
-      "value": 35189758,
-      "reportDate": "2026-03-31",
+      "value": 42994887,
+      "reportDate": "2026-06-30",
       "priorShares": 166705,
       "change": 0,
       "pctOut": 0.1972,
       "action": "No Change"
     },
     {
-      "fundName": "Multi Cap Equity Fund",
+      "fundName": "Weitz Multi Cap Equity Fund",
       "registrant": "Weitz Funds",
       "manager": "",
       "cik": "1257927",
       "shares": 159880,
-      "value": 33749069,
-      "reportDate": "2026-03-31",
+      "value": 41234651,
+      "reportDate": "2026-06-30",
       "priorShares": 159880,
       "change": 0,
       "pctOut": 0.1892,
@@ -2619,6 +2593,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Weitz Large Cap Equity Fund",
+      "registrant": "Weitz Funds",
+      "manager": "",
+      "cik": "1257927",
+      "shares": 32500,
+      "value": 8382075,
+      "reportDate": "2026-06-30",
+      "priorShares": 17000,
+      "change": 15500,
+      "pctOut": 0.0385,
+      "action": "Bought"
+    },
+    {
       "fundName": "Column Mid Cap Fund",
       "registrant": "Trust for Professional Managers",
       "manager": "",
@@ -2944,19 +2931,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Large Cap Equity Fund",
-      "registrant": "Weitz Funds",
-      "manager": "",
-      "cik": "1257927",
-      "shares": 17000,
-      "value": 3588530,
-      "reportDate": "2026-03-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0201,
-      "action": "New"
-    },
-    {
       "fundName": "Direxion Daily Aerospace &amp; Defense Bull 3X Shares",
       "registrant": "Direxion Shares ETF Trust",
       "manager": "",
@@ -3256,19 +3230,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "PRAXIS VALUE INDEX FUND",
-      "registrant": "Praxis Mutual Funds",
-      "manager": "",
-      "cik": "912900",
-      "shares": 11050,
-      "value": 2332545,
-      "reportDate": "2026-03-31",
-      "priorShares": 2720,
-      "change": 8330,
-      "pctOut": 0.0131,
-      "action": "Bought"
-    },
-    {
       "fundName": "BlackRock Advantage Large Cap Value Fund",
       "registrant": "BlackRock Large Cap Series Funds, Inc.",
       "manager": "BlackRock",
@@ -3399,6 +3360,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "PRAXIS VALUE INDEX FUND",
+      "registrant": "Praxis Mutual Funds",
+      "manager": "",
+      "cik": "912900",
+      "shares": 7929,
+      "value": 2044968,
+      "reportDate": "2026-06-30",
+      "priorShares": 11050,
+      "change": -3121,
+      "pctOut": 0.009399999999999999,
+      "action": "Sold"
+    },
+    {
       "fundName": "Penn Series Mid Cap Growth Fund",
       "registrant": "Penn Series Funds Inc",
       "manager": "",
@@ -3438,17 +3412,17 @@
       "action": "Bought"
     },
     {
-      "fundName": "Conservative Allocation Fund",
+      "fundName": "Weitz Conservative Allocation Fund",
       "registrant": "Weitz Funds",
       "manager": "",
       "cik": "1257927",
       "shares": 7000,
-      "value": 1477630,
-      "reportDate": "2026-03-31",
-      "priorShares": null,
-      "change": null,
+      "value": 1805370,
+      "reportDate": "2026-06-30",
+      "priorShares": 7000,
+      "change": 0,
       "pctOut": 0.0083,
-      "action": "New"
+      "action": "No Change"
     },
     {
       "fundName": "iShares MSCI USA Equal Weighted ETF",
@@ -3767,12 +3741,12 @@
       "registrant": "WisdomTree Trust",
       "manager": "WisdomTree",
       "cik": "1350487",
-      "shares": 4656,
-      "value": 982835,
-      "reportDate": "2026-03-31",
-      "priorShares": 3746,
-      "change": 910,
-      "pctOut": 0.0055000000000000005,
+      "shares": 4700,
+      "value": 1212177,
+      "reportDate": "2026-06-30",
+      "priorShares": 4656,
+      "change": 44,
+      "pctOut": 0.0056,
       "action": "Bought"
     },
     {
@@ -4755,13 +4729,13 @@
       "registrant": "WisdomTree Trust",
       "manager": "WisdomTree",
       "cik": "1350487",
-      "shares": 1206,
-      "value": 254575,
-      "reportDate": "2026-03-31",
-      "priorShares": 1212,
-      "change": -6,
+      "shares": 1209,
+      "value": 311813,
+      "reportDate": "2026-06-30",
+      "priorShares": 1206,
+      "change": 3,
       "pctOut": 0.0014,
-      "action": "Sold"
+      "action": "Bought"
     },
     {
       "fundName": "SA Multi-Managed Mid Cap Growth Portfolio",

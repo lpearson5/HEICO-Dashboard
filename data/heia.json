@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-08-30T15:19:02.085Z",
+  "lastUpdated": "2026-08-31T17:59:46.247Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -1203,7 +1203,7 @@
       "currentValue": 24337419,
       "action": "Bought",
       "firstSeen": "2026-08-24",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "PUBLIC EMPLOYEES RETIREMENT ASSOCIATION OF COLORADO",
@@ -6762,18 +6762,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "FNY Investment Advisers, LLC",
-      "filerCik": "1742998",
-      "currentShares": 102,
-      "priorShares": null,
-      "change": 102,
-      "pctChange": 100,
-      "currentValue": 26,
-      "action": "New Position",
-      "firstSeen": "2026-07-08",
-      "newThisWeek": false
-    },
-    {
       "filerName": "Quent Capital, LLC",
       "filerCik": "1912338",
       "currentShares": 102,
@@ -6783,6 +6771,18 @@
       "currentValue": 26307,
       "action": "Bought",
       "firstSeen": "2026-08-07",
+      "newThisWeek": false
+    },
+    {
+      "filerName": "FNY Investment Advisers, LLC",
+      "filerCik": "1742998",
+      "currentShares": 102,
+      "priorShares": null,
+      "change": 102,
+      "pctChange": 100,
+      "currentValue": 26,
+      "action": "New Position",
+      "firstSeen": "2026-07-08",
       "newThisWeek": false
     },
     {

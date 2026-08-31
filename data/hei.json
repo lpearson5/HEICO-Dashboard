@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-08-30T15:19:02.085Z",
+  "lastUpdated": "2026-08-31T17:59:46.247Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -1011,7 +1011,7 @@
       "currentValue": 26443902,
       "action": "Sold",
       "firstSeen": "2026-08-24",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Baird Financial Group, Inc.",
@@ -9450,6 +9450,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "Oak Harvest Investment Services",
+      "filerCik": "1839430",
+      "currentShares": null,
+      "priorShares": 5000,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
       "filerName": "AustralianSuper Pty Ltd",
       "filerCik": "1694164",
       "currentShares": null,
@@ -10110,10 +10122,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Y-Intercept (Hong Kong) Ltd",
-      "filerCik": "1772875",
+      "filerName": "Key FInancial Inc",
+      "filerCik": "1801720",
       "currentShares": null,
-      "priorShares": 14724,
+      "priorShares": 40,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -10122,10 +10134,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Key FInancial Inc",
-      "filerCik": "1801720",
+      "filerName": "Y-Intercept (Hong Kong) Ltd",
+      "filerCik": "1772875",
       "currentShares": null,
-      "priorShares": 40,
+      "priorShares": 14724,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -10330,18 +10342,6 @@
       "filerCik": "1696615",
       "currentShares": null,
       "priorShares": 49,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Oak Harvest Investment Services",
-      "filerCik": "1839430",
-      "currentShares": null,
-      "priorShares": 5000,
       "change": null,
       "pctChange": null,
       "currentValue": null,

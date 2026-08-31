@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-08-30T15:19:02.085Z",
+  "lastUpdated": "2026-08-31T17:59:46.247Z",
   "summary": {
     "funds": 440,
-    "totalShares": 19875224,
-    "pctOut": 35.9787,
-    "newFunds": 61,
+    "totalShares": 19876582,
+    "pctOut": 35.9812,
+    "newFunds": 59,
     "sellouts": 62,
     "linkedManagers": 26,
-    "linkedShares": 17066489
+    "linkedShares": 17069063
   },
   "newHolders": [
     {
@@ -664,19 +664,6 @@
       "action": "New"
     },
     {
-      "fundName": "WisdomTree U.S. Adaptive Moving Average Fund",
-      "registrant": "WisdomTree Trust",
-      "manager": "WisdomTree",
-      "cik": "1350487",
-      "shares": 188,
-      "value": 51550,
-      "reportDate": "2026-03-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.00030000000000000003,
-      "action": "New"
-    },
-    {
       "fundName": "Innovator Equity Managed 10 Buffer ETF",
       "registrant": "Innovator ETFs Trust",
       "manager": "",
@@ -788,19 +775,6 @@
       "shares": 16,
       "value": 4319,
       "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0,
-      "action": "New"
-    },
-    {
-      "fundName": "WisdomTree Efficient U.S. Plus International Equity Fund",
-      "registrant": "WisdomTree Trust",
-      "manager": "WisdomTree",
-      "cik": "1350487",
-      "shares": 4,
-      "value": 1097,
-      "reportDate": "2026-03-31",
       "priorShares": null,
       "change": null,
       "pctOut": 0,
@@ -2097,7 +2071,7 @@
     {
       "manager": "Voya",
       "fundCount": 11,
-      "shares": 224821,
+      "shares": 224667,
       "funds": [
         {
           "fundName": "Voya Large Cap Growth Portfolio",
@@ -2129,7 +2103,7 @@
         },
         {
           "fundName": "Voya Balanced Income Portfolio",
-          "shares": 1345
+          "shares": 1191
         },
         {
           "fundName": "Voya VACS Index Series MC Portfolio",
@@ -2348,19 +2322,19 @@
     {
       "manager": "WisdomTree",
       "fundCount": 10,
-      "shares": 33858,
+      "shares": 36586,
       "funds": [
         {
           "fundName": "WisdomTree U.S. Quality Growth Fund",
-          "shares": 26202
+          "shares": 28908
         },
         {
           "fundName": "WisdomTree U.S. Efficient Core Fund",
-          "shares": 2540
+          "shares": 2537
         },
         {
           "fundName": "WisdomTree U.S. LargeCap Dividend Fund",
-          "shares": 2347
+          "shares": 2369
         },
         {
           "fundName": "WisdomTree Efficient Gold Plus Equity Strategy Fund",
@@ -2368,27 +2342,27 @@
         },
         {
           "fundName": "WisdomTree U.S. LargeCap Fund",
-          "shares": 666
-        },
-        {
-          "fundName": "WisdomTree Global Defense Fund",
-          "shares": 567
-        },
-        {
-          "fundName": "WisdomTree U.S. Total Dividend Fund",
-          "shares": 322
+          "shares": 690
         },
         {
           "fundName": "WisdomTree U.S. Adaptive Moving Average Fund",
-          "shares": 188
+          "shares": 365
+        },
+        {
+          "fundName": "WisdomTree U.S. Total Dividend Fund",
+          "shares": 323
+        },
+        {
+          "fundName": "WisdomTree Global Defense Fund",
+          "shares": 305
+        },
+        {
+          "fundName": "WisdomTree Efficient U.S. Plus International Equity Fund",
+          "shares": 67
         },
         {
           "fundName": "WisdomTree 500 Digital Fund",
           "shares": 35
-        },
-        {
-          "fundName": "WisdomTree Efficient U.S. Plus International Equity Fund",
-          "shares": 4
         }
       ]
     },
@@ -3642,6 +3616,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "WisdomTree U.S. Quality Growth Fund",
+      "registrant": "WisdomTree Trust",
+      "manager": "WisdomTree",
+      "cik": "1350487",
+      "shares": 28908,
+      "value": 10296741,
+      "reportDate": "2026-06-30",
+      "priorShares": 26202,
+      "change": 2706,
+      "pctOut": 0.0523,
+      "action": "Bought"
+    },
+    {
       "fundName": "T. Rowe Price Institutional Mid-Cap Equity Growth Fund",
       "registrant": "T. Rowe Price Equity Funds, Inc.",
       "manager": "T. Rowe Price",
@@ -3743,19 +3730,6 @@
       "priorShares": 16795,
       "change": 9552,
       "pctOut": 0.0477,
-      "action": "Bought"
-    },
-    {
-      "fundName": "WisdomTree U.S. Quality Growth Fund",
-      "registrant": "WisdomTree Trust",
-      "manager": "WisdomTree",
-      "cik": "1350487",
-      "shares": 26202,
-      "value": 7184588,
-      "reportDate": "2026-03-31",
-      "priorShares": 24846,
-      "change": 1356,
-      "pctOut": 0.0474,
       "action": "Bought"
     },
     {
@@ -4643,19 +4617,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Gabelli Dividend &amp; Income Trust",
-      "registrant": "Gabelli Dividend & Income Trust",
-      "manager": "",
-      "cik": "1260729",
-      "shares": 10000,
-      "value": 2742000,
-      "reportDate": "2026-03-31",
-      "priorShares": 10000,
-      "change": 0,
-      "pctOut": 0.0181,
-      "action": "No Change"
-    },
-    {
       "fundName": "LVIP American Century Ultra(R) Fund",
       "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
       "manager": "FMR (Fidelity)",
@@ -4771,6 +4732,19 @@
       "change": 594,
       "pctOut": 0.016300000000000002,
       "action": "Bought"
+    },
+    {
+      "fundName": "Gabelli Dividend &amp; Income Trust",
+      "registrant": "Gabelli Dividend & Income Trust",
+      "manager": "",
+      "cik": "1260729",
+      "shares": 9000,
+      "value": 3205710,
+      "reportDate": "2026-06-30",
+      "priorShares": 10000,
+      "change": -1000,
+      "pctOut": 0.016300000000000002,
+      "action": "Sold"
     },
     {
       "fundName": "LVIP Blended Mid Cap Managed Volatility Fund",
@@ -5350,8 +5324,8 @@
       "manager": "",
       "cik": "912900",
       "shares": 4380,
-      "value": 1200996,
-      "reportDate": "2026-03-31",
+      "value": 1560112,
+      "reportDate": "2026-06-30",
       "priorShares": 4380,
       "change": 0,
       "pctOut": 0.007899999999999999,
@@ -5506,22 +5480,9 @@
       "manager": "",
       "cik": "912900",
       "shares": 3838,
-      "value": 1052380,
-      "reportDate": "2026-03-31",
+      "value": 1367057,
+      "reportDate": "2026-06-30",
       "priorShares": 3838,
-      "change": 0,
-      "pctOut": 0.0069,
-      "action": "No Change"
-    },
-    {
-      "fundName": "The Gabelli Asset Fund",
-      "registrant": "Gabelli Asset Fund",
-      "manager": "",
-      "cik": "783898",
-      "shares": 3800,
-      "value": 1041960,
-      "reportDate": "2026-03-31",
-      "priorShares": 3800,
       "change": 0,
       "pctOut": 0.0069,
       "action": "No Change"
@@ -5761,6 +5722,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "The Gabelli Asset Fund",
+      "registrant": "Gabelli Asset Fund",
+      "manager": "",
+      "cik": "783898",
+      "shares": 3200,
+      "value": 1139808,
+      "reportDate": "2026-06-30",
+      "priorShares": 3800,
+      "change": -600,
+      "pctOut": 0.0058,
+      "action": "Sold"
+    },
+    {
       "fundName": "Neuberger Disrupters ETF",
       "registrant": "Neuberger Berman ETF Trust",
       "manager": "Neuberger Berman",
@@ -5895,11 +5869,11 @@
       "registrant": "WisdomTree Trust",
       "manager": "WisdomTree",
       "cik": "1350487",
-      "shares": 2540,
-      "value": 696468,
-      "reportDate": "2026-03-31",
-      "priorShares": 2555,
-      "change": -15,
+      "shares": 2537,
+      "value": 903654,
+      "reportDate": "2026-06-30",
+      "priorShares": 2540,
+      "change": -3,
       "pctOut": 0.0046,
       "action": "Sold"
     },
@@ -5934,12 +5908,12 @@
       "registrant": "WisdomTree Trust",
       "manager": "WisdomTree",
       "cik": "1350487",
-      "shares": 2347,
-      "value": 643547,
-      "reportDate": "2026-03-31",
-      "priorShares": 2343,
-      "change": 4,
-      "pctOut": 0.0042,
+      "shares": 2369,
+      "value": 843814,
+      "reportDate": "2026-06-30",
+      "priorShares": 2347,
+      "change": 22,
+      "pctOut": 0.0043,
       "action": "Bought"
     },
     {
@@ -6268,6 +6242,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Gabelli Commercial Aerospace and Defense Fund",
+      "registrant": "Gabelli ETFs Trust",
+      "manager": "",
+      "cik": "1748425",
+      "shares": 1580,
+      "value": 562780,
+      "reportDate": "2026-06-30",
+      "priorShares": 1196,
+      "change": 384,
+      "pctOut": 0.0029,
+      "action": "Bought"
+    },
+    {
       "fundName": "Strategic Allocation: Aggressive Fund",
       "registrant": "American Century Strategic Asset Allocations Inc",
       "manager": "American Century",
@@ -6398,19 +6385,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Voya Balanced Income Portfolio",
-      "registrant": "Voya Investors Trust",
-      "manager": "Voya",
-      "cik": "837276",
-      "shares": 1345,
-      "value": 368799,
-      "reportDate": "2026-03-31",
-      "priorShares": 1656,
-      "change": -311,
-      "pctOut": 0.0024000000000000002,
-      "action": "Sold"
-    },
-    {
       "fundName": "LargeCap Growth Fund I",
       "registrant": "Principal Funds, Inc",
       "manager": "Principal",
@@ -6515,17 +6489,17 @@
       "action": "Bought"
     },
     {
-      "fundName": "Gabelli Commercial Aerospace and Defense Fund",
-      "registrant": "Gabelli ETFs Trust",
-      "manager": "",
-      "cik": "1748425",
-      "shares": 1196,
-      "value": 327943,
-      "reportDate": "2026-03-31",
-      "priorShares": 701,
-      "change": 495,
+      "fundName": "Voya Balanced Income Portfolio",
+      "registrant": "Voya Investors Trust",
+      "manager": "Voya",
+      "cik": "837276",
+      "shares": 1191,
+      "value": 424222,
+      "reportDate": "2026-06-30",
+      "priorShares": 1345,
+      "change": -154,
       "pctOut": 0.0022,
-      "action": "Bought"
+      "action": "Sold"
     },
     {
       "fundName": "DWS Small Mid Cap Growth VIP",
@@ -6983,6 +6957,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "WisdomTree U.S. LargeCap Fund",
+      "registrant": "WisdomTree Trust",
+      "manager": "WisdomTree",
+      "cik": "1350487",
+      "shares": 690,
+      "value": 245771,
+      "reportDate": "2026-06-30",
+      "priorShares": 666,
+      "change": 24,
+      "pctOut": 0.0012000000000000001,
+      "action": "Bought"
+    },
+    {
       "fundName": "Strive 500 ETF",
       "registrant": "EA Series Trust",
       "manager": "",
@@ -7007,19 +6994,6 @@
       "change": 0,
       "pctOut": 0.0012000000000000001,
       "action": "No Change"
-    },
-    {
-      "fundName": "WisdomTree U.S. LargeCap Fund",
-      "registrant": "WisdomTree Trust",
-      "manager": "WisdomTree",
-      "cik": "1350487",
-      "shares": 666,
-      "value": 182617,
-      "reportDate": "2026-03-31",
-      "priorShares": 652,
-      "change": 14,
-      "pctOut": 0.0012000000000000001,
-      "action": "Bought"
     },
     {
       "fundName": "Schroders Global Multi-Asset Portfolio",
@@ -7111,19 +7085,6 @@
       "change": 0,
       "pctOut": 0.001,
       "action": "No Change"
-    },
-    {
-      "fundName": "WisdomTree Global Defense Fund",
-      "registrant": "WisdomTree Trust",
-      "manager": "WisdomTree",
-      "cik": "1350487",
-      "shares": 567,
-      "value": 155471,
-      "reportDate": "2026-03-31",
-      "priorShares": 299,
-      "change": 268,
-      "pctOut": 0.001,
-      "action": "Bought"
     },
     {
       "fundName": "Transamerica Large Value Opportunities",
@@ -7308,6 +7269,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "WisdomTree U.S. Adaptive Moving Average Fund",
+      "registrant": "WisdomTree Trust",
+      "manager": "WisdomTree",
+      "cik": "1350487",
+      "shares": 365,
+      "value": 130009,
+      "reportDate": "2026-06-30",
+      "priorShares": 188,
+      "change": 177,
+      "pctOut": 0.0007,
+      "action": "Bought"
+    },
+    {
       "fundName": "Strategic Allocation: Conservative Fund",
       "registrant": "American Century Strategic Asset Allocations Inc",
       "manager": "American Century",
@@ -7360,6 +7334,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "WisdomTree U.S. Total Dividend Fund",
+      "registrant": "WisdomTree Trust",
+      "manager": "WisdomTree",
+      "cik": "1350487",
+      "shares": 323,
+      "value": 115049,
+      "reportDate": "2026-06-30",
+      "priorShares": 322,
+      "change": 1,
+      "pctOut": 0.0006000000000000001,
+      "action": "Bought"
+    },
+    {
       "fundName": "Xtrackers Russell US Multifactor ETF",
       "registrant": "DBX ETF Trust",
       "manager": "",
@@ -7373,19 +7360,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "WisdomTree U.S. Total Dividend Fund",
-      "registrant": "WisdomTree Trust",
-      "manager": "WisdomTree",
-      "cik": "1350487",
-      "shares": 322,
-      "value": 88292,
-      "reportDate": "2026-03-31",
-      "priorShares": 324,
-      "change": -2,
-      "pctOut": 0.0006000000000000001,
-      "action": "Sold"
-    },
-    {
       "fundName": "Gotham Enhanced Return Fund",
       "registrant": "FundVantage Trust",
       "manager": "",
@@ -7395,6 +7369,19 @@
       "reportDate": "2026-03-31",
       "priorShares": 353,
       "change": -41,
+      "pctOut": 0.0006000000000000001,
+      "action": "Sold"
+    },
+    {
+      "fundName": "WisdomTree Global Defense Fund",
+      "registrant": "WisdomTree Trust",
+      "manager": "WisdomTree",
+      "cik": "1350487",
+      "shares": 305,
+      "value": 108638,
+      "reportDate": "2026-06-30",
+      "priorShares": 567,
+      "change": -262,
       "pctOut": 0.0006000000000000001,
       "action": "Sold"
     },
@@ -7566,19 +7553,6 @@
       "change": 28,
       "pctOut": 0.00030000000000000003,
       "action": "Bought"
-    },
-    {
-      "fundName": "WisdomTree U.S. Adaptive Moving Average Fund",
-      "registrant": "WisdomTree Trust",
-      "manager": "WisdomTree",
-      "cik": "1350487",
-      "shares": 188,
-      "value": 51550,
-      "reportDate": "2026-03-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.00030000000000000003,
-      "action": "New"
     },
     {
       "fundName": "Wilshire 5000 Index Fund",
@@ -7867,6 +7841,19 @@
       "action": "New"
     },
     {
+      "fundName": "WisdomTree Efficient U.S. Plus International Equity Fund",
+      "registrant": "WisdomTree Trust",
+      "manager": "WisdomTree",
+      "cik": "1350487",
+      "shares": 67,
+      "value": 23865,
+      "reportDate": "2026-06-30",
+      "priorShares": 4,
+      "change": 63,
+      "pctOut": 0.00009999999999999999,
+      "action": "Bought"
+    },
+    {
       "fundName": "Virtus Global Allocation Fund",
       "registrant": "Virtus Strategy Trust",
       "manager": "",
@@ -8015,8 +8002,8 @@
       "manager": "WisdomTree",
       "cik": "1859001",
       "shares": 35,
-      "value": 9597,
-      "reportDate": "2026-03-31",
+      "value": 12467,
+      "reportDate": "2026-06-30",
       "priorShares": 35,
       "change": 0,
       "pctOut": 0.00009999999999999999,
@@ -8138,19 +8125,6 @@
       "change": 0,
       "pctOut": 0,
       "action": "No Change"
-    },
-    {
-      "fundName": "WisdomTree Efficient U.S. Plus International Equity Fund",
-      "registrant": "WisdomTree Trust",
-      "manager": "WisdomTree",
-      "cik": "1350487",
-      "shares": 4,
-      "value": 1097,
-      "reportDate": "2026-03-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0,
-      "action": "New"
     },
     {
       "fundName": "Global X U.S. 500 ETF",

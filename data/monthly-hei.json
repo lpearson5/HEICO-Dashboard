@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-08-30T15:19:02.085Z",
+  "lastUpdated": "2026-08-31T17:59:46.247Z",
   "summary": {
-    "institutions": 773,
-    "totalShares": 43768207,
-    "pctOut": 79.23,
-    "newHolders": 123,
+    "institutions": 774,
+    "totalShares": 43797177,
+    "pctOut": 79.28,
+    "newHolders": 122,
     "sellouts": 89,
-    "bought": 253,
-    "sold": 263,
+    "bought": 254,
+    "sold": 264,
     "held": 134
   },
   "top10": [
@@ -307,24 +307,6 @@
       "action": "New",
       "discretion": "SOLE",
       "voteSole": 45469,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "Bank Julius Baer & Co. Ltd, Zurich",
-      "filerCik": "1544599",
-      "shares": [
-        40525,
-        null,
-        47450,
-        54556
-      ],
-      "netChg": 40525,
-      "currentValue": 14472713,
-      "pctOut": 0.06999999999999999,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 40525,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -2581,24 +2563,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Amova Asset Management Americas, Inc.",
-      "filerCik": "1480751",
-      "shares": [
-        null,
-        27049,
-        14964,
-        15710
-      ],
-      "netChg": -27049,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Atika Capital Management LLC",
       "filerCik": "1599731",
       "shares": [
@@ -2842,6 +2806,24 @@
         null
       ],
       "netChg": -5133,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Oak Harvest Investment Services",
+      "filerCik": "1839430",
+      "shares": [
+        null,
+        5000,
+        3000,
+        null
+      ],
+      "netChg": -5000,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -3270,7 +3252,7 @@
       "shares": [
         null,
         1248,
-        1173,
+        null,
         null
       ],
       "netChg": -1248,
@@ -6061,14 +6043,14 @@
       "filerCik": "1544599",
       "shares": [
         40525,
-        null,
+        43917,
         47450,
         54556
       ],
-      "netChg": 40525,
+      "netChg": -3392,
       "currentValue": 14472713,
       "pctOut": 0.06999999999999999,
-      "action": "New",
+      "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 40525,
       "voteShared": 0,
@@ -6631,6 +6613,24 @@
       "voteSole": 29371,
       "voteShared": 0,
       "voteNone": 0
+    },
+    {
+      "filerName": "Amova Asset Management Americas, Inc.",
+      "filerCik": "1480751",
+      "shares": [
+        28970,
+        27049,
+        14964,
+        15710
+      ],
+      "netChg": 1921,
+      "currentValue": 10317086,
+      "pctOut": 0.05,
+      "action": "Bought",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 28970
     },
     {
       "filerName": "Sumitomo Mitsui DS Asset Management Company, Ltd",
@@ -9663,7 +9663,7 @@
         4613,
         5041,
         6430,
-        null
+        6354
       ],
       "netChg": -428,
       "currentValue": 1643,
@@ -13622,7 +13622,7 @@
       "shares": [
         924,
         765,
-        765,
+        null,
         652
       ],
       "netChg": 159,
@@ -18531,15 +18531,15 @@
       "voteNone": null
     },
     {
-      "filerName": "Amova Asset Management Americas, Inc.",
-      "filerCik": "1480751",
+      "filerName": "Oak Harvest Investment Services",
+      "filerCik": "1839430",
       "shares": [
         null,
-        27049,
-        14964,
-        15710
+        5000,
+        3000,
+        null
       ],
-      "netChg": -27049,
+      "netChg": -5000,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -18556,24 +18556,6 @@
         null,
         null,
         4
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Oak Harvest Investment Services",
-      "filerCik": "1839430",
-      "shares": [
-        null,
-        null,
-        3000,
-        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -18963,24 +18945,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Machina Capital S.A.S.",
-      "filerCik": "1744373",
-      "shares": [
-        null,
-        null,
-        1468,
-        1490
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Farringdon Capital, Ltd.",
       "filerCik": "1750980",
       "shares": [
@@ -18993,6 +18957,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Machina Capital S.A.S.",
+      "filerCik": "1744373",
+      "shares": [
+        null,
+        null,
+        1468,
+        1490
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19035,24 +19017,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Cornerstone Wealth Group, LLC",
-      "filerCik": "1774879",
-      "shares": [
-        null,
-        null,
-        620,
-        null
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "ABC ARBITRAGE SA",
       "filerCik": "2049221",
       "shares": [
@@ -19065,6 +19029,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Cornerstone Wealth Group, LLC",
+      "filerCik": "1774879",
+      "shares": [
+        null,
+        null,
+        620,
+        null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19089,24 +19071,6 @@
       "voteNone": null
     },
     {
-      "filerName": "MQS Management LLC",
-      "filerCik": "1759395",
-      "shares": [
-        null,
-        890,
-        null,
-        837
-      ],
-      "netChg": -890,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Modus Advisors, LLC",
       "filerCik": "1799284",
       "shares": [
@@ -19125,15 +19089,15 @@
       "voteNone": null
     },
     {
-      "filerName": "Qtron Investments LLC",
-      "filerCik": "1768099",
+      "filerName": "MQS Management LLC",
+      "filerCik": "1759395",
       "shares": [
         null,
-        2949,
-        2949,
-        4380
+        890,
+        null,
+        837
       ],
-      "netChg": -2949,
+      "netChg": -890,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -19173,6 +19137,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Qtron Investments LLC",
+      "filerCik": "1768099",
+      "shares": [
+        null,
+        2949,
+        2949,
+        4380
+      ],
+      "netChg": -2949,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19647,13 +19629,13 @@
       "voteNone": null
     },
     {
-      "filerName": "DT Investment Partners, LLC",
-      "filerCik": "1537621",
+      "filerName": "PineBridge Investments, L.P.",
+      "filerCik": "1531721",
       "shares": [
         null,
         null,
-        66,
-        66
+        null,
+        6095
       ],
       "netChg": null,
       "currentValue": null,
@@ -19665,13 +19647,13 @@
       "voteNone": null
     },
     {
-      "filerName": "PineBridge Investments, L.P.",
-      "filerCik": "1531721",
+      "filerName": "DT Investment Partners, LLC",
+      "filerCik": "1537621",
       "shares": [
         null,
         null,
-        null,
-        6095
+        66,
+        66
       ],
       "netChg": null,
       "currentValue": null,
@@ -19760,7 +19742,7 @@
       "shares": [
         null,
         null,
-        null,
+        1182,
         1501
       ],
       "netChg": null,
@@ -19791,13 +19773,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
-      "filerCik": "1510434",
+      "filerName": "WINNOW WEALTH LLC",
+      "filerCik": "2079687",
       "shares": [
         null,
         null,
-        1447,
-        null
+        1,
+        7
       ],
       "netChg": null,
       "currentValue": null,
@@ -19809,13 +19791,13 @@
       "voteNone": null
     },
     {
-      "filerName": "WINNOW WEALTH LLC",
-      "filerCik": "2079687",
+      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
+      "filerCik": "1510434",
       "shares": [
         null,
         null,
-        1,
-        7
+        1447,
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -20408,7 +20390,7 @@
       "shares": [
         null,
         null,
-        1636,
+        null,
         1581
       ],
       "netChg": null,
@@ -20727,24 +20709,6 @@
       "voteNone": null
     },
     {
-      "filerName": "PICTON MAHONEY ASSET MANAGEMENT",
-      "filerCik": "1539041",
-      "shares": [
-        null,
-        1248,
-        1173,
-        null
-      ],
-      "netChg": -1248,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "ExodusPoint Capital Management, LP",
       "filerCik": "1736225",
       "shares": [
@@ -20880,6 +20844,24 @@
         7506
       ],
       "netChg": -1018,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "PICTON MAHONEY ASSET MANAGEMENT",
+      "filerCik": "1539041",
+      "shares": [
+        null,
+        1248,
+        null,
+        null
+      ],
+      "netChg": -1248,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
