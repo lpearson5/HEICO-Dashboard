@@ -187,3 +187,16 @@ export interface ShortTicker {
   history: ShortReading[];
 }
 export interface ShortInterestData { asOf: string; tickers: ShortTicker[] }
+
+// ── Fundamentals for the Valuation page (SEC XBRL, TTM) ──
+export interface FundamentalRow {
+  sym: string; name: string; main: boolean;
+  shares: number | null;
+  revenueTTM: number | null;
+  netIncomeTTM: number | null;
+  ebitdaTTM: number | null;
+  cash: number | null;
+  totalDebt: number | null;
+  dividendPerShareTTM: number | null;
+}
+export interface FundamentalsData { asOf: string; companies: FundamentalRow[] }
