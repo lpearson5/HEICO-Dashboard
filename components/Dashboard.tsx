@@ -1,11 +1,22 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import type { TickerData, Holding, Action, MonthlyData, FundData, BeneficialData, PeersData, PricesData, GeographyData } from "@/lib/types";
+import type { TickerData, Holding, Action, MonthlyData, FundData, BeneficialData, PeersData, PricesData, GeographyData, ShortInterestData } from "@/lib/types";
 import MonthlySnapshot from "@/components/MonthlySnapshot";
 import MarketPerformance from "@/components/MarketPerformance";
 import OwnershipAnalytics from "@/components/OwnershipAnalytics";
 import GeographicOwnership from "@/components/GeographicOwnership";
+import ShortInterest from "@/components/ShortInterest";
+
+type View = "weekly" | "monthly" | "markets" | "short";
+const VIEWS: { id: View; label: string }[] = [
+  { id: "weekly", label: "Weekly" },
+  { id: "monthly", label: "Monthly" },
+  { id: "markets", label: "Markets & Performance" },
+  { id: "short", label: "Short Interest" },
+];
+// Views that show 13F ownership tables use the HEI / HEI.A ticker toggle.
+const OWNERSHIP_VIEWS: View[] = ["weekly", "monthly"];
 
 const ACTION_COLORS: Record<Action, string> = {
   "New Position":  "bg-blue-100 text-blue-800 border-blue-200",
@@ -74,6 +85,7 @@ export default function Dashboard({
   prices = null,
   geoHei = null,
   geoHeia = null,
+  shortInterest = null,
 }: {
   hei: TickerData | null;
   heia: TickerData | null;
@@ -86,8 +98,9 @@ export default function Dashboard({
   prices?: PricesData | null;
   geoHei?: GeographyData | null;
   geoHeia?: GeographyData | null;
+  shortInterest?: ShortInterestData | null;
 }) {
-  const [view, setView] = useState<"weekly" | "monthly" | "markets">("weekly");
+  const [view, setView] = useState<View>("weekly");
   const [activeTicker, setActiveTicker] = useState<"HEI" | "HEIA">("HEI");
   const [actionFilter, setActionFilter] = useState<Action | "All">("All");
   const [largeOnly, setLargeOnly] = useState(false);
@@ -211,6 +224,8 @@ export default function Dashboard({
               <p className="text-sm text-gray-500 mt-0.5">
                 {view === "markets" ? (
                   <>HEICO, peers &amp; indices · Live prices &amp; performance</>
+                ) : view === "short" ? (
+                  <>HEICO vs peers · Short interest (FINRA)</>
                 ) : (
                   <>
                     {view === "weekly"
@@ -225,23 +240,23 @@ export default function Dashboard({
             </div>
 
             <div className="flex flex-wrap items-center gap-2 self-start sm:self-auto">
-              {/* Weekly / Monthly view tabs */}
-              <div className="flex rounded-lg border border-gray-300 overflow-hidden">
-                {([["weekly", "Weekly"], ["monthly", "Monthly"], ["markets", "Markets & Performance"]] as const).map(([v, label]) => (
+              {/* View tabs */}
+              <div className="flex flex-wrap rounded-lg border border-gray-300 overflow-hidden">
+                {VIEWS.map((v) => (
                   <button
-                    key={v}
-                    onClick={() => setView(v)}
-                    className={`px-4 py-2 text-sm font-medium transition-colors ${
-                      view === v ? "bg-gray-900 text-white" : "bg-white text-gray-700 hover:bg-gray-50"
+                    key={v.id}
+                    onClick={() => setView(v.id)}
+                    className={`px-3.5 py-2 text-sm font-medium transition-colors ${
+                      view === v.id ? "bg-gray-900 text-white" : "bg-white text-gray-700 hover:bg-gray-50"
                     }`}
                   >
-                    {label}
+                    {v.label}
                   </button>
                 ))}
               </div>
 
-              {/* Ticker toggle */}
-              <div className="flex rounded-lg border border-gray-300 overflow-hidden">
+              {/* Ticker toggle — only for 13F ownership views */}
+              <div className={`flex rounded-lg border border-gray-300 overflow-hidden ${OWNERSHIP_VIEWS.includes(view) ? "" : "hidden"}`}>
                 {(["HEI", "HEIA"] as const).map((t) => (
                   <button
                     key={t}
@@ -268,6 +283,7 @@ export default function Dashboard({
           <MonthlySnapshot data={monthlyData} funds={fundsData} beneficial={beneficial} peers={peers} />
         </>}
         {view === "markets" && <MarketPerformance initial={prices} />}
+        {view === "short" && <ShortInterest data={shortInterest} />}
       </div>
 
       <div className={`max-w-7xl mx-auto px-4 sm:px-6 py-6 space-y-6 ${view !== "weekly" ? "hidden" : ""}`}>

@@ -176,3 +176,14 @@ export interface GeographyData {
   countries: GeoRegion[];
   metros: GeoRegion[];
 }
+
+// ── Short interest (FINRA) ──
+export interface ShortReading { date: string; si: number; avgVol: number | null; daysToCover: number | null; changePct: number | null }
+export interface ShortTicker {
+  sym: string; name: string; main: boolean;
+  shares: number | null;
+  latest: ShortReading | null;
+  pctFloat: number | null;
+  history: ShortReading[];
+}
+export interface ShortInterestData { asOf: string; tickers: ShortTicker[] }
