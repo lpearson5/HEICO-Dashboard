@@ -15,10 +15,10 @@ type View = "weekly" | "monthly" | "markets" | "valuation" | "short" | "options"
 const VIEWS: { id: View; label: string }[] = [
   { id: "weekly", label: "Ownership Tracker" },
   { id: "monthly", label: "Ownership Report" },
-  { id: "markets", label: "Markets & Performance" },
-  { id: "valuation", label: "Valuation" },
   { id: "short", label: "Short Interest" },
   { id: "options", label: "Options" },
+  { id: "markets", label: "Markets & Performance" },
+  { id: "valuation", label: "Valuation" },
   { id: "earnings", label: "Earnings Calendar" },
 ];
 // Views that show 13F ownership tables use the HEI / HEI.A ticker toggle.
