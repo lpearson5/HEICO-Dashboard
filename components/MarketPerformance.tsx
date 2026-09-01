@@ -68,6 +68,18 @@ function HeicoCard({ r }: { r: PriceRow }) {
         <span>Vol {compact(r.volume)}</span>
         <span>Avg {compact(r.avgVol)}</span>
       </div>
+      {(r.dma50 != null || r.dma200 != null) && (
+        <div className="mt-2 flex flex-wrap gap-x-4 gap-y-0.5 border-t border-gray-100 pt-2 text-[11px] text-gray-500">
+          <span>50‑day {money(r.dma50)}</span>
+          <span>100‑day {money(r.dma100)}</span>
+          <span>200‑day {money(r.dma200)}</span>
+          {r.dma200 != null && (
+            <span className={r.last >= r.dma200 ? "text-green-600" : "text-red-600"}>
+              {r.last >= r.dma200 ? "▲ above" : "▼ below"} 200‑day
+            </span>
+          )}
+        </div>
+      )}
     </div>
   );
 }
@@ -276,9 +288,12 @@ export default function MarketPerformance({ initial }: { initial: PricesData | n
       <ComparisonChart data={prices} />
       <div className="grid grid-cols-1 gap-3 lg:grid-cols-2">
         <PerfTable rows={prices.peers} label="Peer" />
-        <PerfTable rows={prices.indices} label="Index" />
+        <div className="space-y-3">
+          <PerfTable rows={prices.indices} label="Index" />
+          {prices.sectors && prices.sectors.length > 0 && <PerfTable rows={prices.sectors} label="Sector" />}
+        </div>
       </div>
-      <p className="text-[11px] text-gray-400">Live prices via Yahoo Finance (refreshed on load, ~1-min cache). For reference only — not investment advice.</p>
+      <p className="text-[11px] text-gray-400">Live prices via Yahoo Finance (refreshed on load, ~1-min cache). Moving averages (50/100/200-day) are computed from the trailing year. For reference only — not investment advice.</p>
     </div>
   );
 }

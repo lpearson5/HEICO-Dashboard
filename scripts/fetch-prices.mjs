@@ -37,6 +37,10 @@ const INDICES = [
   { symbol: "^DJI",  name: "Dow Jones" },
   { symbol: "^IXIC", name: "Nasdaq Composite" },
 ];
+const SECTORS = [
+  { symbol: "ITA", name: "Aerospace & Defense (ITA)" },
+  { symbol: "XLI", name: "Industrials (XLI)" },
+];
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -90,6 +94,7 @@ function summarize(pts, curYear) {
   if (!ytdBase) ytdBase = pts.find((p) => p.date >= `${curYear}-01-01`) ?? pts[0];
   const closes = pts.map((p) => p.close);
   const vols = pts.map((p) => p.volume).filter((v) => v > 0);
+  const dma = (n) => (pts.length >= n ? Math.round((pts.slice(-n).reduce((s, p) => s + p.close, 0) / n) * 100) / 100 : null);
   return {
     last: last.close,
     asOfDate: last.date,
@@ -101,6 +106,7 @@ function summarize(pts, curYear) {
     low52: Math.min(...closes),
     volume: last.volume,
     avgVol: vols.length ? Math.round(vols.reduce((a, b) => a + b, 0) / vols.length) : null,
+    dma50: dma(50), dma100: dma(100), dma200: dma(200),
   };
 }
 
@@ -110,7 +116,7 @@ async function main() {
   const today = new Date();
   const curYear = today.getUTCFullYear();
 
-  const all = [...MAIN, ...PEERS, ...INDICES];
+  const all = [...MAIN, ...PEERS, ...INDICES, ...SECTORS];
   const charts = {};
   for (const s of all) {
     const c = await getChart(s.symbol);
@@ -124,6 +130,8 @@ async function main() {
     .filter((x) => x.last != null)
     .sort((a, b) => (b.ytdPct ?? -999) - (a.ytdPct ?? -999));
   const indicesOut = INDICES.map((s) => ({ symbol: s.symbol, name: s.name, ...(summarize(charts[s.symbol]?.pts ?? [], curYear) ?? {}) }))
+    .filter((x) => x.last != null);
+  const sectorsOut = SECTORS.map((s) => ({ symbol: s.symbol, name: s.name, ...(summarize(charts[s.symbol]?.pts ?? [], curYear) ?? {}) }))
     .filter((x) => x.last != null);
 
   // Indexed-to-100 YTD comparison series (base = each symbol's YTD base close),
@@ -162,6 +170,7 @@ async function main() {
     main: mainOut,
     peers: peersOut,
     indices: indicesOut,
+    sectors: sectorsOut,
     series,
     priceSeries,
   };

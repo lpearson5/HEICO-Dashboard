@@ -1,21 +1,23 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import type { TickerData, Holding, Action, MonthlyData, FundData, BeneficialData, PeersData, PricesData, GeographyData, ShortInterestData, FundamentalsData } from "@/lib/types";
+import type { TickerData, Holding, Action, MonthlyData, FundData, BeneficialData, PeersData, PricesData, GeographyData, ShortInterestData, FundamentalsData, EarningsData } from "@/lib/types";
 import MonthlySnapshot from "@/components/MonthlySnapshot";
 import MarketPerformance from "@/components/MarketPerformance";
 import OwnershipAnalytics from "@/components/OwnershipAnalytics";
 import GeographicOwnership from "@/components/GeographicOwnership";
 import ShortInterest from "@/components/ShortInterest";
 import Valuation from "@/components/Valuation";
+import EarningsCalendar from "@/components/EarningsCalendar";
 
-type View = "weekly" | "monthly" | "markets" | "valuation" | "short";
+type View = "weekly" | "monthly" | "markets" | "valuation" | "short" | "earnings";
 const VIEWS: { id: View; label: string }[] = [
   { id: "weekly", label: "Weekly" },
   { id: "monthly", label: "Monthly" },
   { id: "markets", label: "Markets & Performance" },
   { id: "valuation", label: "Valuation" },
   { id: "short", label: "Short Interest" },
+  { id: "earnings", label: "Earnings Calendar" },
 ];
 // Views that show 13F ownership tables use the HEI / HEI.A ticker toggle.
 const OWNERSHIP_VIEWS: View[] = ["weekly", "monthly"];
@@ -89,6 +91,7 @@ export default function Dashboard({
   geoHeia = null,
   shortInterest = null,
   fundamentals = null,
+  earnings = null,
 }: {
   hei: TickerData | null;
   heia: TickerData | null;
@@ -103,6 +106,7 @@ export default function Dashboard({
   geoHeia?: GeographyData | null;
   shortInterest?: ShortInterestData | null;
   fundamentals?: FundamentalsData | null;
+  earnings?: EarningsData | null;
 }) {
   const [view, setView] = useState<View>("weekly");
   const [activeTicker, setActiveTicker] = useState<"HEI" | "HEIA">("HEI");
@@ -232,6 +236,8 @@ export default function Dashboard({
                   <>HEICO vs peers · Short interest (FINRA)</>
                 ) : view === "valuation" ? (
                   <>HEICO vs peers · Live multiples &amp; fundamentals</>
+                ) : view === "earnings" ? (
+                  <>HEICO + peers · Estimated report dates</>
                 ) : (
                   <>
                     {view === "weekly"
@@ -291,6 +297,7 @@ export default function Dashboard({
         {view === "markets" && <MarketPerformance initial={prices} />}
         {view === "valuation" && <Valuation fundamentals={fundamentals} />}
         {view === "short" && <ShortInterest data={shortInterest} />}
+        {view === "earnings" && <EarningsCalendar data={earnings} />}
       </div>
 
       <div className={`max-w-7xl mx-auto px-4 sm:px-6 py-6 space-y-6 ${view !== "weekly" ? "hidden" : ""}`}>

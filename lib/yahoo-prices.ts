@@ -25,6 +25,11 @@ const INDICES = [
   { symbol: "^DJI",  name: "Dow Jones" },
   { symbol: "^IXIC", name: "Nasdaq Composite" },
 ];
+// HEICO-relevant sector/industry ETFs for context.
+const SECTORS = [
+  { symbol: "ITA", name: "Aerospace & Defense (ITA)" },
+  { symbol: "XLI", name: "Industrials (XLI)" },
+];
 
 interface Pt { date: string; close: number; volume: number }
 
@@ -66,6 +71,7 @@ function summarize(pts: Pt[], curYear: number): Partial<PriceRow> {
   if (!ytdBase) ytdBase = pts.find((p) => p.date >= `${curYear}-01-01`) ?? pts[0];
   const closes = pts.map((p) => p.close);
   const vols = pts.map((p) => p.volume).filter((v) => v > 0);
+  const dma = (n: number) => (pts.length >= n ? Math.round((pts.slice(-n).reduce((s, p) => s + p.close, 0) / n) * 100) / 100 : null);
   return {
     last: last.close,
     asOfDate: last.date,
@@ -77,13 +83,14 @@ function summarize(pts: Pt[], curYear: number): Partial<PriceRow> {
     low52: Math.min(...closes),
     volume: last.volume,
     avgVol: vols.length ? Math.round(vols.reduce((a, b) => a + b, 0) / vols.length) : null,
+    dma50: dma(50), dma100: dma(100), dma200: dma(200),
   };
 }
 
 export async function fetchPrices(): Promise<PricesData> {
   const now = new Date();
   const curYear = now.getUTCFullYear();
-  const all = [...MAIN, ...PEERS, ...INDICES];
+  const all = [...MAIN, ...PEERS, ...INDICES, ...SECTORS];
   const charts: Record<string, { meta: any; pts: Pt[] } | null> = {};
   await Promise.all(all.map(async (s) => { charts[s.symbol] = await getChart(s.symbol); }));
 
@@ -93,6 +100,7 @@ export async function fetchPrices(): Promise<PricesData> {
   const mainOut = MAIN.map(row).filter((x) => x.last != null);
   const peersOut = PEERS.map(row).filter((x) => x.last != null).sort((a, b) => (b.ytdPct ?? -999) - (a.ytdPct ?? -999));
   const indicesOut = INDICES.map(row).filter((x) => x.last != null);
+  const sectorsOut = SECTORS.map(row).filter((x) => x.last != null);
 
   const heiPts = (charts["HEI"]?.pts ?? []).filter((p) => p.date >= `${curYear}-01-01`);
   const labels = heiPts.map((p) => p.date);
@@ -127,6 +135,7 @@ export async function fetchPrices(): Promise<PricesData> {
     main: mainOut,
     peers: peersOut,
     indices: indicesOut,
+    sectors: sectorsOut,
     series,
     priceSeries,
   };

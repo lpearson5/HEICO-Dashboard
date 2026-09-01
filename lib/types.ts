@@ -152,6 +152,9 @@ export interface PriceRow {
   low52: number;
   volume: number;
   avgVol: number | null;
+  dma50?: number | null;
+  dma100?: number | null;
+  dma200?: number | null;
 }
 export interface PricesData {
   asOf: string;
@@ -159,6 +162,7 @@ export interface PricesData {
   main: PriceRow[];
   peers: PriceRow[];
   indices: PriceRow[];
+  sectors?: PriceRow[];
   series: { labels: string[] } & Record<string, (number | null)[]>; // indexed to 100 at Jan 1
   priceSeries?: Record<string, (number | null)[]>;                   // actual closing prices ($), aligned to series.labels
 }
@@ -200,3 +204,11 @@ export interface FundamentalRow {
   dividendPerShareTTM: number | null;
 }
 export interface FundamentalsData { asOf: string; companies: FundamentalRow[] }
+
+// ── Peer earnings calendar (estimated from SEC filing cadence) ──
+export interface EarningsRow {
+  sym: string; name: string; main: boolean;
+  lastReport: { period: string; filed: string } | null;
+  nextEstimated: { date: string; daysAway: number } | null;
+}
+export interface EarningsData { asOf: string; companies: EarningsRow[] }
