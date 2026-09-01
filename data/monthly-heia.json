@@ -8,16 +8,16 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-08-31T17:59:46.247Z",
+  "lastUpdated": "2026-09-01T15:28:13.766Z",
   "summary": {
-    "institutions": 666,
-    "totalShares": 70039540,
-    "pctOut": 82.87,
-    "newHolders": 110,
-    "sellouts": 66,
+    "institutions": 668,
+    "totalShares": 70043092,
+    "pctOut": 82.88,
+    "newHolders": 111,
+    "sellouts": 65,
     "bought": 254,
     "sold": 213,
-    "held": 89
+    "held": 90
   },
   "top10": [
     {
@@ -275,6 +275,24 @@
       "voteNone": 3100
     },
     {
+      "filerName": "Vulcan Value Partners, LLC",
+      "filerCik": "1556785",
+      "shares": [
+        153718,
+        null,
+        250065,
+        270379
+      ],
+      "netChg": 153718,
+      "currentValue": 39645409,
+      "pctOut": 0.18,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 56303,
+      "voteShared": 0,
+      "voteNone": 97415
+    },
+    {
       "filerName": "Curated Wealth Partners LLC",
       "filerCik": "1781284",
       "shares": [
@@ -435,24 +453,6 @@
       "voteSole": 20309,
       "voteShared": 0,
       "voteNone": 53
-    },
-    {
-      "filerName": "ArrowMark Colorado Holdings LLC",
-      "filerCik": "1483859",
-      "shares": [
-        19755,
-        null,
-        21135,
-        25024
-      ],
-      "netChg": 19755,
-      "currentValue": 5095012,
-      "pctOut": 0.02,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 19755,
-      "voteShared": 0,
-      "voteNone": 0
     },
     {
       "filerName": "Lansforsakringar Fondforvaltning AB (publ)",
@@ -955,6 +955,24 @@
       "action": "New",
       "discretion": "SOLE",
       "voteSole": 1340,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "Journey Advisory Group, LLC",
+      "filerCik": "1840085",
+      "shares": [
+        1219,
+        null,
+        null,
+        null
+      ],
+      "netChg": 1219,
+      "currentValue": 314392,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 1219,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -1577,7 +1595,7 @@
         102,
         null,
         null,
-        null
+        16
       ],
       "netChg": 102,
       "currentValue": 26,
@@ -2671,24 +2689,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Private Wealth Group, LLC",
-      "filerCik": "1512780",
-      "shares": [
-        null,
-        2333,
-        2333,
-        2333
-      ],
-      "netChg": -2333,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "PICTON MAHONEY ASSET MANAGEMENT",
       "filerCik": "1539041",
       "shares": [
@@ -3560,7 +3560,7 @@
       "shares": [
         1242970,
         1414810,
-        null,
+        1264905,
         1282905
       ],
       "netChg": -171840,
@@ -4783,14 +4783,14 @@
       "filerCik": "1556785",
       "shares": [
         153718,
-        178456,
+        null,
         250065,
         270379
       ],
-      "netChg": -24738,
+      "netChg": 153718,
       "currentValue": 39645409,
       "pctOut": 0.18,
-      "action": "Sold",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 56303,
       "voteShared": 0,
@@ -6961,14 +6961,14 @@
       "filerCik": "1483859",
       "shares": [
         19755,
-        null,
+        20551,
         21135,
         25024
       ],
-      "netChg": 19755,
+      "netChg": -796,
       "currentValue": 5095012,
       "pctOut": 0.02,
-      "action": "New",
+      "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 19755,
       "voteShared": 0,
@@ -10251,6 +10251,24 @@
       "voteNone": 605
     },
     {
+      "filerName": "Private Wealth Group, LLC",
+      "filerCik": "1512780",
+      "shares": [
+        2333,
+        2333,
+        2333,
+        2333
+      ],
+      "netChg": 0,
+      "currentValue": 601704,
+      "pctOut": 0,
+      "action": "No Change",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 2333
+    },
+    {
       "filerName": "Arkadios Wealth Advisors",
       "filerCik": "1800798",
       "shares": [
@@ -11012,7 +11030,7 @@
       "shares": [
         1474,
         1474,
-        null,
+        1474,
         1474
       ],
       "netChg": 0,
@@ -11365,6 +11383,24 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 1229
+    },
+    {
+      "filerName": "Journey Advisory Group, LLC",
+      "filerCik": "1840085",
+      "shares": [
+        1219,
+        null,
+        null,
+        null
+      ],
+      "netChg": 1219,
+      "currentValue": 314392,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 1219,
+      "voteShared": 0,
+      "voteNone": 0
     },
     {
       "filerName": "Trust Point Inc.",
@@ -13497,7 +13533,7 @@
         102,
         null,
         null,
-        null
+        16
       ],
       "netChg": 102,
       "currentValue": 26,
@@ -16839,13 +16875,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Makaira Partners LLC",
-      "filerCik": "1540866",
+      "filerName": "Broadcrest Asset Management, LLC",
+      "filerCik": "1749585",
       "shares": [
         null,
         null,
-        2171,
-        2171
+        null,
+        40000
       ],
       "netChg": null,
       "currentValue": null,
@@ -16857,13 +16893,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Broadcrest Asset Management, LLC",
-      "filerCik": "1749585",
+      "filerName": "Makaira Partners LLC",
+      "filerCik": "1540866",
       "shares": [
         null,
         null,
-        null,
-        40000
+        2171,
+        2171
       ],
       "netChg": null,
       "currentValue": null,
@@ -16941,24 +16977,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Private Wealth Group, LLC",
-      "filerCik": "1512780",
-      "shares": [
-        null,
-        2333,
-        2333,
-        2333
-      ],
-      "netChg": -2333,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -17223,7 +17241,7 @@
         null,
         null,
         193537,
-        108294
+        null
       ],
       "netChg": null,
       "currentValue": null,

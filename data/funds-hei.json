@@ -2,12 +2,12 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-08-31T17:59:46.247Z",
+  "lastUpdated": "2026-09-01T15:28:13.766Z",
   "summary": {
-    "funds": 440,
-    "totalShares": 19876582,
+    "funds": 441,
+    "totalShares": 19876584,
     "pctOut": 35.9812,
-    "newFunds": 59,
+    "newFunds": 60,
     "sellouts": 62,
     "linkedManagers": 26,
     "linkedShares": 17069063
@@ -775,6 +775,19 @@
       "shares": 16,
       "value": 4319,
       "reportDate": "2026-04-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0,
+      "action": "New"
+    },
+    {
+      "fundName": "Ruk Strategic Growth ETF",
+      "registrant": "Advisor Managed Portfolios",
+      "manager": "",
+      "cik": "1970751",
+      "shares": 6,
+      "value": 2137,
+      "reportDate": "2026-06-30",
       "priorShares": null,
       "change": null,
       "pctOut": 0,
@@ -6545,13 +6558,13 @@
       "registrant": "Advisor Managed Portfolios",
       "manager": "",
       "cik": "1970751",
-      "shares": 1157,
-      "value": 317249,
-      "reportDate": "2026-03-31",
-      "priorShares": 998,
-      "change": 159,
+      "shares": 1153,
+      "value": 410687,
+      "reportDate": "2026-06-30",
+      "priorShares": 1157,
+      "change": -4,
       "pctOut": 0.0021,
-      "action": "Bought"
+      "action": "Sold"
     },
     {
       "fundName": "ALPS Equal Sector Weight ETF",
@@ -8112,6 +8125,19 @@
       "change": 0,
       "pctOut": 0,
       "action": "No Change"
+    },
+    {
+      "fundName": "Ruk Strategic Growth ETF",
+      "registrant": "Advisor Managed Portfolios",
+      "manager": "",
+      "cik": "1970751",
+      "shares": 6,
+      "value": 2137,
+      "reportDate": "2026-06-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0,
+      "action": "New"
     },
     {
       "fundName": "Innovator Equity Premium Income - Daily PutWrite ETF",
