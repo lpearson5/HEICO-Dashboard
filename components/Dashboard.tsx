@@ -13,8 +13,8 @@ import OptionsPositions from "@/components/OptionsPositions";
 
 type View = "weekly" | "monthly" | "markets" | "valuation" | "short" | "options" | "earnings";
 const VIEWS: { id: View; label: string }[] = [
-  { id: "weekly", label: "Weekly" },
-  { id: "monthly", label: "Monthly" },
+  { id: "weekly", label: "Ownership Tracker" },
+  { id: "monthly", label: "Ownership Report" },
   { id: "markets", label: "Markets & Performance" },
   { id: "valuation", label: "Valuation" },
   { id: "short", label: "Short Interest" },
@@ -247,8 +247,8 @@ export default function Dashboard({
                 ) : (
                   <>
                     {view === "weekly"
-                      ? <>{data.currentPeriod} vs {data.priorPeriod} · Weekly 13F tracker</>
-                      : <>Monthly ownership snapshot · SEC EDGAR 13F-HR</>}
+                      ? <>{data.currentPeriod} vs {data.priorPeriod} · Current-quarter 13F tracker</>
+                      : <>Full institutional ownership report · SEC EDGAR 13F-HR</>}
                     {" · "}Updated {new Date(data.lastUpdated).toLocaleDateString("en-US", {
                       month: "short", day: "numeric", year: "numeric",
                     })}
