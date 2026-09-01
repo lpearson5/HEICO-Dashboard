@@ -212,3 +212,15 @@ export interface EarningsRow {
   nextEstimated: { date: string; daysAway: number } | null;
 }
 export interface EarningsData { asOf: string; companies: EarningsRow[] }
+
+// ── Options positions (13F put/call) ──
+export interface OptionHolder {
+  filer: string; cik: string;
+  heiPut: number; heiCall: number; heiaPut: number; heiaCall: number;
+}
+export interface OptionsData {
+  asOf: string;
+  currentPeriod: string;
+  totals: { HEI: { put: number; call: number }; HEIA: { put: number; call: number } };
+  holders: OptionHolder[];
+}

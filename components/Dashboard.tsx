@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import type { TickerData, Holding, Action, MonthlyData, FundData, BeneficialData, PeersData, PricesData, GeographyData, ShortInterestData, FundamentalsData, EarningsData } from "@/lib/types";
+import type { TickerData, Holding, Action, MonthlyData, FundData, BeneficialData, PeersData, PricesData, GeographyData, ShortInterestData, FundamentalsData, EarningsData, OptionsData } from "@/lib/types";
 import MonthlySnapshot from "@/components/MonthlySnapshot";
 import MarketPerformance from "@/components/MarketPerformance";
 import OwnershipAnalytics from "@/components/OwnershipAnalytics";
@@ -9,14 +9,16 @@ import GeographicOwnership from "@/components/GeographicOwnership";
 import ShortInterest from "@/components/ShortInterest";
 import Valuation from "@/components/Valuation";
 import EarningsCalendar from "@/components/EarningsCalendar";
+import OptionsPositions from "@/components/OptionsPositions";
 
-type View = "weekly" | "monthly" | "markets" | "valuation" | "short" | "earnings";
+type View = "weekly" | "monthly" | "markets" | "valuation" | "short" | "options" | "earnings";
 const VIEWS: { id: View; label: string }[] = [
   { id: "weekly", label: "Weekly" },
   { id: "monthly", label: "Monthly" },
   { id: "markets", label: "Markets & Performance" },
   { id: "valuation", label: "Valuation" },
   { id: "short", label: "Short Interest" },
+  { id: "options", label: "Options" },
   { id: "earnings", label: "Earnings Calendar" },
 ];
 // Views that show 13F ownership tables use the HEI / HEI.A ticker toggle.
@@ -92,6 +94,7 @@ export default function Dashboard({
   shortInterest = null,
   fundamentals = null,
   earnings = null,
+  options = null,
 }: {
   hei: TickerData | null;
   heia: TickerData | null;
@@ -107,6 +110,7 @@ export default function Dashboard({
   shortInterest?: ShortInterestData | null;
   fundamentals?: FundamentalsData | null;
   earnings?: EarningsData | null;
+  options?: OptionsData | null;
 }) {
   const [view, setView] = useState<View>("weekly");
   const [activeTicker, setActiveTicker] = useState<"HEI" | "HEIA">("HEI");
@@ -234,6 +238,8 @@ export default function Dashboard({
                   <>HEICO, peers &amp; indices · Live prices &amp; performance</>
                 ) : view === "short" ? (
                   <>HEICO vs peers · Short interest (FINRA)</>
+                ) : view === "options" ? (
+                  <>13F put &amp; call positions on HEICO</>
                 ) : view === "valuation" ? (
                   <>HEICO vs peers · Live multiples &amp; fundamentals</>
                 ) : view === "earnings" ? (
@@ -297,6 +303,7 @@ export default function Dashboard({
         {view === "markets" && <MarketPerformance initial={prices} />}
         {view === "valuation" && <Valuation fundamentals={fundamentals} />}
         {view === "short" && <ShortInterest data={shortInterest} />}
+        {view === "options" && <OptionsPositions data={options} />}
         {view === "earnings" && <EarningsCalendar data={earnings} />}
       </div>
 
