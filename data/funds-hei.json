@@ -2,12 +2,12 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-01T15:28:13.766Z",
+  "lastUpdated": "2026-09-02T15:04:16.719Z",
   "summary": {
     "funds": 441,
     "totalShares": 19876584,
     "pctOut": 35.9812,
-    "newFunds": 60,
+    "newFunds": 61,
     "sellouts": 62,
     "linkedManagers": 26,
     "linkedShares": 17069063
@@ -583,6 +583,19 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.005399999999999999,
+      "action": "New"
+    },
+    {
+      "fundName": "Systematic Growth Fund",
+      "registrant": "VALIC Co I",
+      "manager": "",
+      "cik": "719423",
+      "shares": 2124,
+      "value": 739534,
+      "reportDate": "2026-05-31",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0038000000000000004,
       "action": "New"
     },
     {
@@ -6002,10 +6015,10 @@
       "shares": 2124,
       "value": 739534,
       "reportDate": "2026-05-31",
-      "priorShares": 534,
-      "change": 1590,
+      "priorShares": null,
+      "change": null,
       "pctOut": 0.0038000000000000004,
-      "action": "Bought"
+      "action": "New"
     },
     {
       "fundName": "T. Rowe Price Spectrum Moderate Allocation Fund",

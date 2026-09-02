@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-09-01T15:28:13.766Z",
+  "lastUpdated": "2026-09-02T15:04:16.719Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -590,8 +590,8 @@
       "pctChange": 1544.7,
       "currentValue": 54891016,
       "action": "Bought",
-      "firstSeen": "2026-08-14",
-      "newThisWeek": false
+      "firstSeen": "2026-09-02",
+      "newThisWeek": true
     },
     {
       "filerName": "NZS Capital, LLC",
@@ -7053,11 +7053,11 @@
       "filerName": "Layline Advisors, LLC",
       "filerCik": "1724910",
       "currentShares": 656,
-      "priorShares": null,
-      "change": 656,
-      "pctChange": 100,
+      "priorShares": 1112,
+      "change": -456,
+      "pctChange": -41,
       "currentValue": 233708,
-      "action": "New Position",
+      "action": "Sold",
       "firstSeen": "2026-08-20",
       "newThisWeek": false
     },
@@ -8034,6 +8034,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "BROWN, LISLE/CUMMINGS, INC.",
+      "filerCik": "14745",
+      "currentShares": 85,
+      "priorShares": 112,
+      "change": -27,
+      "pctChange": -24.1,
+      "currentValue": 30276,
+      "action": "Sold",
+      "firstSeen": "2026-09-02",
+      "newThisWeek": true
+    },
+    {
       "filerName": "Spire Wealth Management",
       "filerCik": "1858740",
       "currentShares": 85,
@@ -8931,7 +8943,7 @@
       "currentValue": 2137,
       "action": "Bought",
       "firstSeen": "2026-08-26",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Bruce G. Allen Investments, LLC",
@@ -9962,18 +9974,6 @@
       "pctChange": null,
       "currentValue": null,
       "action": "Sell Out",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "BROWN, LISLE/CUMMINGS, INC.",
-      "filerCik": "14745",
-      "currentShares": null,
-      "priorShares": 112,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
       "firstSeen": null,
       "newThisWeek": false
     },

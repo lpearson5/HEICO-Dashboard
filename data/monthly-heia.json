@@ -8,16 +8,16 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-09-01T15:28:13.766Z",
+  "lastUpdated": "2026-09-02T15:04:16.719Z",
   "summary": {
-    "institutions": 668,
-    "totalShares": 70043092,
+    "institutions": 669,
+    "totalShares": 70043111,
     "pctOut": 82.88,
-    "newHolders": 111,
-    "sellouts": 65,
+    "newHolders": 110,
+    "sellouts": 64,
     "bought": 254,
-    "sold": 213,
-    "held": 90
+    "sold": 214,
+    "held": 91
   },
   "top10": [
     {
@@ -273,24 +273,6 @@
       "voteSole": 0,
       "voteShared": 195091,
       "voteNone": 3100
-    },
-    {
-      "filerName": "Vulcan Value Partners, LLC",
-      "filerCik": "1556785",
-      "shares": [
-        153718,
-        null,
-        250065,
-        270379
-      ],
-      "netChg": 153718,
-      "currentValue": 39645409,
-      "pctOut": 0.18,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 56303,
-      "voteShared": 0,
-      "voteNone": 97415
     },
     {
       "filerName": "Curated Wealth Partners LLC",
@@ -3139,24 +3121,6 @@
       "voteNone": null
     },
     {
-      "filerName": "BROWN, LISLE/CUMMINGS, INC.",
-      "filerCik": "14745",
-      "shares": [
-        null,
-        19,
-        19,
-        19
-      ],
-      "netChg": -19,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "QUADRANT CAPITAL GROUP LLC",
       "filerCik": "1650717",
       "shares": [
@@ -4604,7 +4568,7 @@
       "shares": [
         177481,
         86286,
-        48612,
+        null,
         44602
       ],
       "netChg": 91195,
@@ -4783,14 +4747,14 @@
       "filerCik": "1556785",
       "shares": [
         153718,
-        null,
+        178456,
         250065,
         270379
       ],
-      "netChg": 153718,
+      "netChg": -24738,
       "currentValue": 39645409,
       "pctOut": 0.18,
-      "action": "New",
+      "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 56303,
       "voteShared": 0,
@@ -14409,6 +14373,24 @@
       "voteNone": 0
     },
     {
+      "filerName": "BROWN, LISLE/CUMMINGS, INC.",
+      "filerCik": "14745",
+      "shares": [
+        19,
+        19,
+        19,
+        19
+      ],
+      "netChg": 0,
+      "currentValue": 4900,
+      "pctOut": 0,
+      "action": "No Change",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 19
+    },
+    {
       "filerName": "SHP Wealth Management",
       "filerCik": "1807060",
       "shares": [
@@ -16101,24 +16083,6 @@
       "voteNone": null
     },
     {
-      "filerName": "BROWN, LISLE/CUMMINGS, INC.",
-      "filerCik": "14745",
-      "shares": [
-        null,
-        19,
-        19,
-        19
-      ],
-      "netChg": -19,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Legacy Wealth Managment, LLC/ID",
       "filerCik": "2045082",
       "shares": [
@@ -17241,7 +17205,7 @@
         null,
         null,
         193537,
-        null
+        108294
       ],
       "netChg": null,
       "currentValue": null,

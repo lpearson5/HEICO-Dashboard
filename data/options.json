@@ -1,17 +1,25 @@
 {
-  "asOf": "2026-09-01T21:29:12.492Z",
+  "asOf": "2026-09-02T15:22:10.102Z",
   "currentPeriod": "2026-06-30",
   "totals": {
     "HEI": {
-      "put": 104840,
-      "call": 189035
+      "put": 128640,
+      "call": 224035
     },
     "HEIA": {
-      "put": 79700,
+      "put": 147500,
       "call": 7700
     }
   },
   "holders": [
+    {
+      "filer": "CITADEL ADVISORS LLC",
+      "cik": "1423053",
+      "heiPut": 23800,
+      "heiCall": 35000,
+      "heiaPut": 67800,
+      "heiaCall": 0
+    },
     {
       "filer": "CITADEL ADVISORS LLC",
       "cik": "1423053",

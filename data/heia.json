@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-09-01T15:28:13.766Z",
+  "lastUpdated": "2026-09-02T15:04:16.719Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -255,7 +255,7 @@
       "currentValue": 189627812,
       "action": "Sold",
       "firstSeen": "2026-08-26",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "DF DENT & CO INC",
@@ -1130,8 +1130,8 @@
       "pctChange": 33.9,
       "currentValue": 29784478,
       "action": "Bought",
-      "firstSeen": "2026-08-14",
-      "newThisWeek": false
+      "firstSeen": "2026-09-02",
+      "newThisWeek": true
     },
     {
       "filerName": "DEUTSCHE BANK AG\\",
@@ -6762,18 +6762,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "FNY Investment Advisers, LLC",
-      "filerCik": "1742998",
-      "currentShares": 102,
-      "priorShares": null,
-      "change": 102,
-      "pctChange": 100,
-      "currentValue": 26,
-      "action": "New Position",
-      "firstSeen": "2026-07-08",
-      "newThisWeek": false
-    },
-    {
       "filerName": "Quent Capital, LLC",
       "filerCik": "1912338",
       "currentShares": 102,
@@ -6783,6 +6771,18 @@
       "currentValue": 26307,
       "action": "Bought",
       "firstSeen": "2026-08-07",
+      "newThisWeek": false
+    },
+    {
+      "filerName": "FNY Investment Advisers, LLC",
+      "filerCik": "1742998",
+      "currentShares": 102,
+      "priorShares": null,
+      "change": 102,
+      "pctChange": 100,
+      "currentValue": 26,
+      "action": "New Position",
+      "firstSeen": "2026-07-08",
       "newThisWeek": false
     },
     {
@@ -7350,6 +7350,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "BROWN, LISLE/CUMMINGS, INC.",
+      "filerCik": "14745",
+      "currentShares": 19,
+      "priorShares": 19,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 4900,
+      "action": "No Change",
+      "firstSeen": "2026-09-02",
+      "newThisWeek": true
+    },
+    {
       "filerName": "SHP Wealth Management",
       "filerCik": "1807060",
       "currentShares": 19,
@@ -7359,18 +7371,6 @@
       "currentValue": 4950,
       "action": "No Change",
       "firstSeen": "2026-08-11",
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Park Place Capital Corp",
-      "filerCik": "1965810",
-      "currentShares": 19,
-      "priorShares": 19,
-      "change": 0,
-      "pctChange": 0,
-      "currentValue": 4900,
-      "action": "No Change",
-      "firstSeen": "2026-08-14",
       "newThisWeek": false
     },
     {
@@ -7395,6 +7395,18 @@
       "currentValue": 4900,
       "action": "No Change",
       "firstSeen": "2026-08-07",
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Park Place Capital Corp",
+      "filerCik": "1965810",
+      "currentShares": 19,
+      "priorShares": 19,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 4900,
+      "action": "No Change",
+      "firstSeen": "2026-08-14",
       "newThisWeek": false
     },
     {
@@ -7851,7 +7863,7 @@
       "currentValue": 516,
       "action": "Sold",
       "firstSeen": "2026-08-26",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "West Branch Capital LLC",
@@ -8246,18 +8258,6 @@
       "pctChange": null,
       "currentValue": null,
       "action": "Sell Out",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "BROWN, LISLE/CUMMINGS, INC.",
-      "filerCik": "14745",
-      "currentShares": null,
-      "priorShares": 19,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
       "firstSeen": null,
       "newThisWeek": false
     },

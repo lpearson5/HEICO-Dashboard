@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-01T15:28:13.766Z",
+  "lastUpdated": "2026-09-02T15:04:16.719Z",
   "summary": {
-    "institutions": 774,
-    "totalShares": 43797177,
+    "institutions": 775,
+    "totalShares": 43797262,
     "pctOut": 79.28,
     "newHolders": 121,
-    "sellouts": 89,
+    "sellouts": 88,
     "bought": 255,
-    "sold": 264,
+    "sold": 265,
     "held": 134
   },
   "top10": [
@@ -307,6 +307,24 @@
       "action": "New",
       "discretion": "SOLE",
       "voteSole": 45469,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "Bank Julius Baer & Co. Ltd, Zurich",
+      "filerCik": "1544599",
+      "shares": [
+        40525,
+        null,
+        47450,
+        54556
+      ],
+      "netChg": 40525,
+      "currentValue": 14472713,
+      "pctOut": 0.06999999999999999,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 40525,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -1479,24 +1497,6 @@
       "voteSole": 662,
       "voteShared": 10,
       "voteNone": 0
-    },
-    {
-      "filerName": "Layline Advisors, LLC",
-      "filerCik": "1724910",
-      "shares": [
-        656,
-        null,
-        null,
-        null
-      ],
-      "netChg": 656,
-      "currentValue": 233708,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 656
     },
     {
       "filerName": "nVerses Capital, LLC",
@@ -3562,24 +3562,6 @@
         118
       ],
       "netChg": -118,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "BROWN, LISLE/CUMMINGS, INC.",
-      "filerCik": "14745",
-      "shares": [
-        null,
-        112,
-        null,
-        null
-      ],
-      "netChg": -112,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -6025,14 +6007,14 @@
       "filerCik": "1544599",
       "shares": [
         40525,
-        43917,
+        null,
         47450,
         54556
       ],
-      "netChg": -3392,
+      "netChg": 40525,
       "currentValue": 14472713,
       "pctOut": 0.06999999999999999,
-      "action": "Sold",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 40525,
       "voteShared": 0,
@@ -8979,7 +8961,7 @@
         6558,
         6564,
         6571,
-        1567
+        null
       ],
       "netChg": -6,
       "currentValue": 2335894,
@@ -14557,14 +14539,14 @@
       "filerCik": "1724910",
       "shares": [
         656,
-        null,
+        1112,
         null,
         null
       ],
-      "netChg": 656,
+      "netChg": -456,
       "currentValue": 233708,
       "pctOut": 0,
-      "action": "New",
+      "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -16027,6 +16009,24 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 86
+    },
+    {
+      "filerName": "BROWN, LISLE/CUMMINGS, INC.",
+      "filerCik": "14745",
+      "shares": [
+        85,
+        112,
+        null,
+        null
+      ],
+      "netChg": -27,
+      "currentValue": 30276,
+      "pctOut": 0,
+      "action": "Sold",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 85
     },
     {
       "filerName": "Spire Wealth Management",
@@ -20372,7 +20372,7 @@
       "shares": [
         null,
         null,
-        1636,
+        null,
         1581
       ],
       "netChg": null,
@@ -20469,24 +20469,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "BROWN, LISLE/CUMMINGS, INC.",
-      "filerCik": "14745",
-      "shares": [
-        null,
-        112,
-        null,
-        null
-      ],
-      "netChg": -112,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
