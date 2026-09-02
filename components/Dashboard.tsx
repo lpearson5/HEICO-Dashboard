@@ -230,7 +230,7 @@ export default function Dashboard({
       {/* Header */}
       <div className="bg-white border-b border-gray-200 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-5">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+          <div className="flex items-start justify-between gap-3">
             <div>
               <h1 className="text-2xl font-bold text-gray-900">HEICO Institutional Ownership</h1>
               <p className="text-sm text-gray-500 mt-0.5">
@@ -257,38 +257,38 @@ export default function Dashboard({
               </p>
             </div>
 
-            <div className="flex flex-wrap items-center gap-2 self-start sm:self-auto">
-              {/* View tabs */}
-              <div className="flex flex-wrap rounded-lg border border-gray-300 overflow-hidden">
-                {VIEWS.map((v) => (
-                  <button
-                    key={v.id}
-                    onClick={() => setView(v.id)}
-                    className={`px-3.5 py-2 text-sm font-medium transition-colors ${
-                      view === v.id ? "bg-gray-900 text-white" : "bg-white text-gray-700 hover:bg-gray-50"
-                    }`}
-                  >
-                    {v.label}
-                  </button>
-                ))}
-              </div>
+            {/* Ticker toggle — only for 13F ownership views */}
+            <div className={`flex shrink-0 rounded-lg border border-gray-300 overflow-hidden ${OWNERSHIP_VIEWS.includes(view) ? "" : "hidden"}`}>
+              {(["HEI", "HEIA"] as const).map((t) => (
+                <button
+                  key={t}
+                  onClick={() => setActiveTicker(t)}
+                  className={`px-5 py-2 text-sm font-medium transition-colors ${
+                    activeTicker === t
+                      ? "bg-blue-600 text-white"
+                      : "bg-white text-gray-700 hover:bg-gray-50"
+                  }`}
+                >
+                  {t === "HEIA" ? "HEI/A" : t}
+                </button>
+              ))}
+            </div>
+          </div>
 
-              {/* Ticker toggle — only for 13F ownership views */}
-              <div className={`flex rounded-lg border border-gray-300 overflow-hidden ${OWNERSHIP_VIEWS.includes(view) ? "" : "hidden"}`}>
-                {(["HEI", "HEIA"] as const).map((t) => (
-                  <button
-                    key={t}
-                    onClick={() => setActiveTicker(t)}
-                    className={`px-5 py-2 text-sm font-medium transition-colors ${
-                      activeTicker === t
-                        ? "bg-blue-600 text-white"
-                        : "bg-white text-gray-700 hover:bg-gray-50"
-                    }`}
-                  >
-                    {t === "HEIA" ? "HEI/A" : t}
-                  </button>
-                ))}
-              </div>
+          {/* View tabs — single row; scrolls horizontally only on narrow screens */}
+          <div className="mt-3 overflow-x-auto pb-1">
+            <div className="inline-flex rounded-lg border border-gray-300 overflow-hidden">
+              {VIEWS.map((v) => (
+                <button
+                  key={v.id}
+                  onClick={() => setView(v.id)}
+                  className={`whitespace-nowrap px-3.5 py-2 text-sm font-medium transition-colors ${
+                    view === v.id ? "bg-gray-900 text-white" : "bg-white text-gray-700 hover:bg-gray-50"
+                  }`}
+                >
+                  {v.label}
+                </button>
+              ))}
             </div>
           </div>
         </div>
