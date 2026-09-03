@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-09-02T15:04:16.719Z",
+  "lastUpdated": "2026-09-03T14:58:01.450Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -1671,7 +1671,7 @@
       "currentValue": 12478390,
       "action": "Bought",
       "firstSeen": "2026-08-27",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Banco Santander, S.A.  (SAN, BCDRF)",
@@ -7374,6 +7374,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "Park Place Capital Corp",
+      "filerCik": "1965810",
+      "currentShares": 19,
+      "priorShares": 19,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 4900,
+      "action": "No Change",
+      "firstSeen": "2026-08-14",
+      "newThisWeek": false
+    },
+    {
       "filerName": "Larson Financial Group LLC",
       "filerCik": "1731061",
       "currentShares": 19,
@@ -7398,15 +7410,15 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Park Place Capital Corp",
-      "filerCik": "1965810",
-      "currentShares": 19,
-      "priorShares": 19,
+      "filerName": "Nova Wealth Management, Inc.",
+      "filerCik": "2051980",
+      "currentShares": 18,
+      "priorShares": 18,
       "change": 0,
       "pctChange": 0,
-      "currentValue": 4900,
+      "currentValue": 4642,
       "action": "No Change",
-      "firstSeen": "2026-08-14",
+      "firstSeen": "2026-07-13",
       "newThisWeek": false
     },
     {
@@ -7419,18 +7431,6 @@
       "currentValue": 4632,
       "action": "New Position",
       "firstSeen": "2026-08-14",
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Nova Wealth Management, Inc.",
-      "filerCik": "2051980",
-      "currentShares": 18,
-      "priorShares": 18,
-      "change": 0,
-      "pctChange": 0,
-      "currentValue": 4642,
-      "action": "No Change",
-      "firstSeen": "2026-07-13",
       "newThisWeek": false
     },
     {
@@ -8250,18 +8250,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Bridgewater Associates, LP",
-      "filerCik": "1350694",
-      "currentShares": null,
-      "priorShares": 2924,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "DZ BANK AG Deutsche Zentral Genossenschafts Bank, Frankfurt am Main",
       "filerCik": "1694217",
       "currentShares": null,
@@ -8294,7 +8282,7 @@
       "pctChange": null,
       "currentValue": null,
       "action": "Sell Out",
-      "firstSeen": "2026-08-14",
+      "firstSeen": "2026-09-02",
       "newThisWeek": false
     },
     {
@@ -8686,6 +8674,18 @@
       "filerCik": "1911726",
       "currentShares": null,
       "priorShares": 10,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Bridgewater Associates, LP",
+      "filerCik": "1350694",
+      "currentShares": null,
+      "priorShares": 2924,
       "change": null,
       "pctChange": null,
       "currentValue": null,

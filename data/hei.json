@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-09-02T15:04:16.719Z",
+  "lastUpdated": "2026-09-03T14:58:01.450Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -699,7 +699,7 @@
       "currentValue": 46534180,
       "action": "Sold",
       "firstSeen": "2026-08-27",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "HRT FINANCIAL LP",
@@ -1215,18 +1215,6 @@
       "currentValue": 18255450,
       "action": "Sold",
       "firstSeen": "2026-08-12",
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Allianz Asset Management GmbH",
-      "filerCik": "1535323",
-      "currentShares": 51011,
-      "priorShares": 51549,
-      "change": -538,
-      "pctChange": -1,
-      "currentValue": 13987216,
-      "action": "Sold",
-      "firstSeen": "2026-08-14",
       "newThisWeek": false
     },
     {
@@ -2260,6 +2248,18 @@
       "action": "Bought",
       "firstSeen": "2026-08-12",
       "newThisWeek": false
+    },
+    {
+      "filerName": "Allianz Asset Management GmbH",
+      "filerCik": "1535323",
+      "currentShares": 16391,
+      "priorShares": 51549,
+      "change": -35158,
+      "pctChange": -68.2,
+      "currentValue": 5838310,
+      "action": "Sold",
+      "firstSeen": "2026-09-02",
+      "newThisWeek": true
     },
     {
       "filerName": "AdvisorShares Investments LLC",
@@ -5883,7 +5883,7 @@
       "currentValue": 410687,
       "action": "Sold",
       "firstSeen": "2026-08-27",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "HB Wealth Management, LLC",
@@ -9846,10 +9846,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Elequin Capital, LP",
-      "filerCik": "1810873",
+      "filerName": "Key Capital Management, INC",
+      "filerCik": "2107249",
       "currentShares": null,
-      "priorShares": 1,
+      "priorShares": 5,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -9858,10 +9858,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Key Capital Management, INC",
-      "filerCik": "2107249",
+      "filerName": "Elequin Capital, LP",
+      "filerCik": "1810873",
       "currentShares": null,
-      "priorShares": 5,
+      "priorShares": 1,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -9958,18 +9958,6 @@
       "filerCik": "1588340",
       "currentShares": null,
       "priorShares": 1053,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Bridgewater Associates, LP",
-      "filerCik": "1350694",
-      "currentShares": null,
-      "priorShares": 17524,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -10342,6 +10330,18 @@
       "filerCik": "1696615",
       "currentShares": null,
       "priorShares": 49,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Bridgewater Associates, LP",
+      "filerCik": "1350694",
+      "currentShares": null,
+      "priorShares": 17524,
       "change": null,
       "pctChange": null,
       "currentValue": null,
