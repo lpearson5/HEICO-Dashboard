@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-09-03T14:58:01.450Z",
+  "lastUpdated": "2026-09-04T14:55:45.253Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -2781,9 +2781,9 @@
       "filerName": "M&T BANK CORP  (MTB, MTBPL, MTB-PH, MTB-PJ, MTB-PK)",
       "filerCik": "36270",
       "currentShares": 11102,
-      "priorShares": 12902,
-      "change": -1800,
-      "pctChange": -14,
+      "priorShares": 14051,
+      "change": -2949,
+      "pctChange": -21,
       "currentValue": 2863695,
       "action": "Sold",
       "firstSeen": "2026-08-04",
@@ -7410,18 +7410,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Nova Wealth Management, Inc.",
-      "filerCik": "2051980",
-      "currentShares": 18,
-      "priorShares": 18,
-      "change": 0,
-      "pctChange": 0,
-      "currentValue": 4642,
-      "action": "No Change",
-      "firstSeen": "2026-07-13",
-      "newThisWeek": false
-    },
-    {
       "filerName": "Synergy Investment Management, LLC",
       "filerCik": "2053786",
       "currentShares": 18,
@@ -7431,6 +7419,18 @@
       "currentValue": 4632,
       "action": "New Position",
       "firstSeen": "2026-08-14",
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Nova Wealth Management, Inc.",
+      "filerCik": "2051980",
+      "currentShares": 18,
+      "priorShares": 18,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 4642,
+      "action": "No Change",
+      "firstSeen": "2026-07-13",
       "newThisWeek": false
     },
     {

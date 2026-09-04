@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-09-03T14:58:01.450Z",
+  "lastUpdated": "2026-09-04T14:55:45.253Z",
   "summary": {
     "institutions": 669,
     "totalShares": 70043111,
     "pctOut": 82.88,
-    "newHolders": 112,
+    "newHolders": 110,
     "sellouts": 64,
     "bought": 254,
-    "sold": 212,
+    "sold": 214,
     "held": 91
   },
   "top10": [
@@ -273,24 +273,6 @@
       "voteSole": 0,
       "voteShared": 195091,
       "voteNone": 3100
-    },
-    {
-      "filerName": "Vulcan Value Partners, LLC",
-      "filerCik": "1556785",
-      "shares": [
-        153718,
-        null,
-        250065,
-        270379
-      ],
-      "netChg": 153718,
-      "currentValue": 39645409,
-      "pctOut": 0.18,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 56303,
-      "voteShared": 0,
-      "voteNone": 97415
     },
     {
       "filerName": "Curated Wealth Partners LLC",
@@ -1085,24 +1067,6 @@
       "voteNone": 0
     },
     {
-      "filerName": "SIGNATURE ESTATE & INVESTMENT ADVISORS LLC",
-      "filerCik": "1079935",
-      "shares": [
-        1055,
-        null,
-        1145,
-        1360
-      ],
-      "netChg": 1055,
-      "currentValue": 272095,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 1055
-    },
-    {
       "filerName": "AXXCESS WEALTH MANAGEMENT, LLC",
       "filerCik": "1911056",
       "shares": [
@@ -1685,7 +1649,7 @@
         66,
         null,
         46,
-        null
+        21
       ],
       "netChg": 66,
       "currentValue": 17022,
@@ -3560,7 +3524,7 @@
       "shares": [
         1242970,
         1414810,
-        1264905,
+        null,
         1282905
       ],
       "netChg": -171840,
@@ -4783,14 +4747,14 @@
       "filerCik": "1556785",
       "shares": [
         153718,
-        null,
+        178456,
         250065,
         270379
       ],
-      "netChg": 153718,
+      "netChg": -24738,
       "currentValue": 39645409,
       "pctOut": 0.18,
-      "action": "New",
+      "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 56303,
       "voteShared": 0,
@@ -7537,11 +7501,11 @@
       "filerCik": "36270",
       "shares": [
         11102,
-        12902,
+        14051,
         15861,
         17763
       ],
-      "netChg": -1800,
+      "netChg": -2949,
       "currentValue": 2863695,
       "pctOut": 0.01,
       "action": "Sold",
@@ -11767,14 +11731,14 @@
       "filerCik": "1079935",
       "shares": [
         1055,
-        null,
+        1183,
         1145,
         1360
       ],
-      "netChg": 1055,
+      "netChg": -128,
       "currentValue": 272095,
       "pctOut": 0,
-      "action": "New",
+      "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -13803,7 +13767,7 @@
         66,
         null,
         46,
-        null
+        21
       ],
       "netChg": 66,
       "currentValue": 17022,
@@ -14481,24 +14445,6 @@
       "voteNone": 0
     },
     {
-      "filerName": "Nova Wealth Management, Inc.",
-      "filerCik": "2051980",
-      "shares": [
-        18,
-        18,
-        18,
-        18
-      ],
-      "netChg": 0,
-      "currentValue": 4642,
-      "pctOut": 0,
-      "action": "No Change",
-      "discretion": "SOLE",
-      "voteSole": 18,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
       "filerName": "Synergy Investment Management, LLC",
       "filerCik": "2053786",
       "shares": [
@@ -14515,6 +14461,24 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 18
+    },
+    {
+      "filerName": "Nova Wealth Management, Inc.",
+      "filerCik": "2051980",
+      "shares": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "netChg": 0,
+      "currentValue": 4642,
+      "pctOut": 0,
+      "action": "No Change",
+      "discretion": "SOLE",
+      "voteSole": 18,
+      "voteShared": 0,
+      "voteNone": 0
     },
     {
       "filerName": "SouthState Bank Corp  (SSB)",

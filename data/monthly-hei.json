@@ -8,14 +8,14 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-03T14:58:01.450Z",
+  "lastUpdated": "2026-09-04T14:55:45.253Z",
   "summary": {
-    "institutions": 774,
-    "totalShares": 43749715,
-    "pctOut": 79.2,
+    "institutions": 773,
+    "totalShares": 43718361,
+    "pctOut": 79.14,
     "newHolders": 120,
-    "sellouts": 89,
-    "bought": 255,
+    "sellouts": 90,
+    "bought": 254,
     "sold": 265,
     "held": 134
   },
@@ -2536,6 +2536,24 @@
         null
       ],
       "netChg": -19265,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "SAWGRASS ASSET MANAGEMENT LLC",
+      "filerCik": "1105467",
+      "shares": [
+        null,
+        18893,
+        19362,
+        20446
+      ],
+      "netChg": -18893,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -6417,24 +6435,6 @@
       "voteNone": 11450
     },
     {
-      "filerName": "SAWGRASS ASSET MANAGEMENT LLC",
-      "filerCik": "1105467",
-      "shares": [
-        31354,
-        18893,
-        19362,
-        20446
-      ],
-      "netChg": 12461,
-      "currentValue": 11167981,
-      "pctOut": 0.06,
-      "action": "Bought",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 31354
-    },
-    {
       "filerName": "MANUFACTURERS LIFE INSURANCE COMPANY, THE",
       "filerCik": "928047",
       "shares": [
@@ -8131,11 +8131,11 @@
       "filerCik": "36270",
       "shares": [
         10050,
-        6852,
+        7047,
         7251,
         5635
       ],
-      "netChg": 3198,
+      "netChg": 3003,
       "currentValue": 3579523,
       "pctOut": 0.02,
       "action": "Bought",
@@ -8943,7 +8943,7 @@
         6558,
         6564,
         6571,
-        1567
+        null
       ],
       "netChg": -6,
       "currentValue": 2335894,
@@ -15368,7 +15368,7 @@
       "shares": [
         245,
         245,
-        null,
+        245,
         null
       ],
       "netChg": 0,
@@ -18333,6 +18333,24 @@
       "voteNone": null
     },
     {
+      "filerName": "SAWGRASS ASSET MANAGEMENT LLC",
+      "filerCik": "1105467",
+      "shares": [
+        null,
+        18893,
+        19362,
+        20446
+      ],
+      "netChg": -18893,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Artemis Investment Management LLP",
       "filerCik": "1535385",
       "shares": [
@@ -19845,12 +19863,12 @@
       "voteNone": null
     },
     {
-      "filerName": "V-Square Quantitative Management LLC",
-      "filerCik": "1943239",
+      "filerName": "Legato Capital Management LLC",
+      "filerCik": "1442641",
       "shares": [
         null,
         null,
-        115,
+        1077,
         null
       ],
       "netChg": null,
@@ -19863,12 +19881,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Legato Capital Management LLC",
-      "filerCik": "1442641",
+      "filerName": "V-Square Quantitative Management LLC",
+      "filerCik": "1943239",
       "shares": [
         null,
         null,
-        1077,
+        115,
         null
       ],
       "netChg": null,
