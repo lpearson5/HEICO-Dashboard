@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-09-04T14:55:45.253Z",
+  "lastUpdated": "2026-09-05T13:50:39.234Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -2790,7 +2790,7 @@
       "newThisWeek": false
     },
     {
-      "filerName": "M&T BANK CORP  (MTB, MTBPL, MTB-PH, MTB-PJ, MTB-PK)",
+      "filerName": "M&T BANK CORP  (MTB, MTB-PH, MTB-PJ, MTB-PK, MTB-PL)",
       "filerCik": "36270",
       "currentShares": 10050,
       "priorShares": 7047,
@@ -5884,6 +5884,18 @@
       "action": "Sold",
       "firstSeen": "2026-08-27",
       "newThisWeek": false
+    },
+    {
+      "filerName": "Parkside Financial Bank & Trust",
+      "filerCik": "1455267",
+      "currentShares": 1150,
+      "priorShares": 1171,
+      "change": -21,
+      "pctChange": -1.8,
+      "currentValue": 409671,
+      "action": "Sold",
+      "firstSeen": "2026-09-04",
+      "newThisWeek": true
     },
     {
       "filerName": "HB Wealth Management, LLC",
@@ -9966,6 +9978,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "Bridgewater Associates, LP",
+      "filerCik": "1350694",
+      "currentShares": null,
+      "priorShares": 17524,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
       "filerName": "Assenagon Asset Management S.A.",
       "filerCik": "1546007",
       "currentShares": null,
@@ -10130,18 +10154,6 @@
       "pctChange": null,
       "currentValue": null,
       "action": "Sell Out",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Parkside Financial Bank & Trust",
-      "filerCik": "1455267",
-      "currentShares": null,
-      "priorShares": 1171,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
       "firstSeen": null,
       "newThisWeek": false
     },
@@ -10330,18 +10342,6 @@
       "filerCik": "1696615",
       "currentShares": null,
       "priorShares": 49,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Bridgewater Associates, LP",
-      "filerCik": "1350694",
-      "currentShares": null,
-      "priorShares": 17524,
       "change": null,
       "pctChange": null,
       "currentValue": null,

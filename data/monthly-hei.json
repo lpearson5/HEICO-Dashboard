@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-04T14:55:45.253Z",
+  "lastUpdated": "2026-09-05T13:50:39.234Z",
   "summary": {
-    "institutions": 773,
-    "totalShares": 43718361,
-    "pctOut": 79.14,
+    "institutions": 775,
+    "totalShares": 43758292,
+    "pctOut": 79.21000000000001,
     "newHolders": 120,
-    "sellouts": 90,
+    "sellouts": 88,
     "bought": 254,
-    "sold": 265,
+    "sold": 267,
     "held": 134
   },
   "top10": [
@@ -425,7 +425,7 @@
         20523,
         null,
         3033,
-        null
+        1755
       ],
       "netChg": 20523,
       "currentValue": 7310087,
@@ -2545,24 +2545,6 @@
       "voteNone": null
     },
     {
-      "filerName": "SAWGRASS ASSET MANAGEMENT LLC",
-      "filerCik": "1105467",
-      "shares": [
-        null,
-        18893,
-        19362,
-        20446
-      ],
-      "netChg": -18893,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Bridgewater Associates, LP",
       "filerCik": "1350694",
       "shares": [
@@ -2572,24 +2554,6 @@
         10782
       ],
       "netChg": -17524,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Numerai GP LLC",
-      "filerCik": "1668527",
-      "shares": [
-        null,
-        16243,
-        22765,
-        24799
-      ],
-      "netChg": -16243,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -2889,6 +2853,24 @@
     {
       "filerName": "BRANT POINT INVESTMENT MANAGEMENT LLC",
       "filerCik": "1279030",
+      "shares": [
+        null,
+        3000,
+        null,
+        null
+      ],
+      "netChg": -3000,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "WOLVERINE ASSET MANAGEMENT LLC",
+      "filerCik": "1279891",
       "shares": [
         null,
         3000,
@@ -3256,24 +3238,6 @@
         null
       ],
       "netChg": -1248,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Parkside Financial Bank & Trust",
-      "filerCik": "1455267",
-      "shares": [
-        null,
-        1171,
-        1387,
-        1351
-      ],
-      "netChg": -1171,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -4478,7 +4442,7 @@
       "shares": [
         344570,
         334502,
-        null,
+        326386,
         291098
       ],
       "netChg": 10068,
@@ -6435,6 +6399,24 @@
       "voteNone": 11450
     },
     {
+      "filerName": "SAWGRASS ASSET MANAGEMENT LLC",
+      "filerCik": "1105467",
+      "shares": [
+        31354,
+        18893,
+        19362,
+        20446
+      ],
+      "netChg": 12461,
+      "currentValue": 11167981,
+      "pctOut": 0.06,
+      "action": "Bought",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 31354
+    },
+    {
       "filerName": "MANUFACTURERS LIFE INSURANCE COMPANY, THE",
       "filerCik": "928047",
       "shares": [
@@ -7071,7 +7053,7 @@
         20523,
         null,
         3033,
-        null
+        1755
       ],
       "netChg": 20523,
       "currentValue": 7310087,
@@ -7799,6 +7781,24 @@
       "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 13068,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "Numerai GP LLC",
+      "filerCik": "1668527",
+      "shares": [
+        12927,
+        16243,
+        22765,
+        24799
+      ],
+      "netChg": -3316,
+      "currentValue": 4604468,
+      "pctOut": 0.02,
+      "action": "Sold",
+      "discretion": "SOLE",
+      "voteSole": 12927,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -8943,7 +8943,7 @@
         6558,
         6564,
         6571,
-        null
+        1567
       ],
       "netChg": -6,
       "currentValue": 2335894,
@@ -9329,24 +9329,6 @@
       "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 5613,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "WOLVERINE ASSET MANAGEMENT LLC",
-      "filerCik": "1279891",
-      "shares": [
-        5500,
-        3000,
-        null,
-        null
-      ],
-      "netChg": 2500,
-      "currentValue": 1959045,
-      "pctOut": 0.01,
-      "action": "Bought",
-      "discretion": "DFND",
-      "voteSole": 5500,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -12769,6 +12751,24 @@
       "voteSole": 1153,
       "voteShared": 0,
       "voteNone": 0
+    },
+    {
+      "filerName": "Parkside Financial Bank & Trust",
+      "filerCik": "1455267",
+      "shares": [
+        1150,
+        1171,
+        1387,
+        1351
+      ],
+      "netChg": -21,
+      "currentValue": 409671,
+      "pctOut": 0,
+      "action": "Sold",
+      "discretion": "SOLE",
+      "voteSole": 73,
+      "voteShared": 0,
+      "voteNone": 1077
     },
     {
       "filerName": "HB Wealth Management, LLC",
@@ -18333,24 +18333,6 @@
       "voteNone": null
     },
     {
-      "filerName": "SAWGRASS ASSET MANAGEMENT LLC",
-      "filerCik": "1105467",
-      "shares": [
-        null,
-        18893,
-        19362,
-        20446
-      ],
-      "netChg": -18893,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Artemis Investment Management LLP",
       "filerCik": "1535385",
       "shares": [
@@ -19053,24 +19035,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Modus Advisors, LLC",
-      "filerCik": "1799284",
-      "shares": [
-        null,
-        null,
-        24,
-        null
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "MQS Management LLC",
       "filerCik": "1759395",
       "shares": [
@@ -19083,6 +19047,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Modus Advisors, LLC",
+      "filerCik": "1799284",
+      "shares": [
+        null,
+        null,
+        24,
+        null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19575,24 +19557,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Numerai GP LLC",
-      "filerCik": "1668527",
-      "shares": [
-        null,
-        16243,
-        22765,
-        24799
-      ],
-      "netChg": -16243,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Bridgefront Capital, LLC",
       "filerCik": "1725690",
       "shares": [
@@ -19833,7 +19797,7 @@
         null,
         null,
         3884,
-        null
+        3884
       ],
       "netChg": null,
       "currentValue": null,
@@ -19863,12 +19827,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Legato Capital Management LLC",
-      "filerCik": "1442641",
+      "filerName": "V-Square Quantitative Management LLC",
+      "filerCik": "1943239",
       "shares": [
         null,
         null,
-        1077,
+        115,
         null
       ],
       "netChg": null,
@@ -19881,12 +19845,12 @@
       "voteNone": null
     },
     {
-      "filerName": "V-Square Quantitative Management LLC",
-      "filerCik": "1943239",
+      "filerName": "Legato Capital Management LLC",
+      "filerCik": "1442641",
       "shares": [
         null,
         null,
-        115,
+        1077,
         null
       ],
       "netChg": null,
@@ -20457,24 +20421,6 @@
       "voteNone": null
     },
     {
-      "filerName": "FNY Investment Advisers, LLC",
-      "filerCik": "1742998",
-      "shares": [
-        null,
-        null,
-        154,
-        null
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Bridgewater Associates, LP",
       "filerCik": "1350694",
       "shares": [
@@ -20487,6 +20433,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "FNY Investment Advisers, LLC",
+      "filerCik": "1742998",
+      "shares": [
+        null,
+        null,
+        154,
+        null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -20745,13 +20709,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Newbridge Financial Services Group, Inc.",
-      "filerCik": "1879757",
+      "filerName": "TWO SIGMA SECURITIES, LLC",
+      "filerCik": "1450144",
       "shares": [
         null,
         null,
-        21,
-        21
+        null,
+        1708
       ],
       "netChg": null,
       "currentValue": null,
@@ -20763,13 +20727,13 @@
       "voteNone": null
     },
     {
-      "filerName": "TWO SIGMA SECURITIES, LLC",
-      "filerCik": "1450144",
+      "filerName": "Newbridge Financial Services Group, Inc.",
+      "filerCik": "1879757",
       "shares": [
         null,
         null,
-        null,
-        1708
+        21,
+        21
       ],
       "netChg": null,
       "currentValue": null,
@@ -21123,6 +21087,24 @@
       "voteNone": null
     },
     {
+      "filerName": "WOLVERINE ASSET MANAGEMENT LLC",
+      "filerCik": "1279891",
+      "shares": [
+        null,
+        3000,
+        null,
+        null
+      ],
+      "netChg": -3000,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "OPTIMA CAPITAL LLC",
       "filerCik": "2070972",
       "shares": [
@@ -21135,24 +21117,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Parkside Financial Bank & Trust",
-      "filerCik": "1455267",
-      "shares": [
-        null,
-        1171,
-        1387,
-        1351
-      ],
-      "netChg": -1171,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,

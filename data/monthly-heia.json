@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-09-04T14:55:45.253Z",
+  "lastUpdated": "2026-09-05T13:50:39.234Z",
   "summary": {
-    "institutions": 669,
-    "totalShares": 70043111,
+    "institutions": 670,
+    "totalShares": 70043160,
     "pctOut": 82.88,
     "newHolders": 110,
-    "sellouts": 64,
+    "sellouts": 63,
     "bought": 254,
-    "sold": 214,
+    "sold": 215,
     "held": 91
   },
   "top10": [
@@ -1649,7 +1649,7 @@
         66,
         null,
         46,
-        21
+        null
       ],
       "netChg": 66,
       "currentValue": 17022,
@@ -3013,24 +3013,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Parkside Financial Bank & Trust",
-      "filerCik": "1455267",
-      "shares": [
-        null,
-        55,
-        51,
-        46
-      ],
-      "netChg": -55,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Wall Street Financial Group, Inc.",
       "filerCik": "2019337",
       "shares": [
@@ -3524,7 +3506,7 @@
       "shares": [
         1242970,
         1414810,
-        null,
+        1264905,
         1282905
       ],
       "netChg": -171840,
@@ -13767,7 +13749,7 @@
         66,
         null,
         46,
-        21
+        null
       ],
       "netChg": 66,
       "currentValue": 17022,
@@ -13885,6 +13867,24 @@
       "voteSole": 50,
       "voteShared": 0,
       "voteNone": 0
+    },
+    {
+      "filerName": "Parkside Financial Bank & Trust",
+      "filerCik": "1455267",
+      "shares": [
+        49,
+        55,
+        51,
+        46
+      ],
+      "netChg": -6,
+      "currentValue": 12639,
+      "pctOut": 0,
+      "action": "Sold",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 49
     },
     {
       "filerName": "Continuum Advisory, LLC",
@@ -16065,6 +16065,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Bridgewater Associates, LP",
+      "filerCik": "1350694",
+      "shares": [
+        null,
+        2924,
+        null,
+        null
+      ],
+      "netChg": -2924,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Legacy Wealth Managment, LLC/ID",
       "filerCik": "2045082",
       "shares": [
@@ -16473,24 +16491,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Parkside Financial Bank & Trust",
-      "filerCik": "1455267",
-      "shares": [
-        null,
-        55,
-        51,
-        46
-      ],
-      "netChg": -55,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -17784,24 +17784,6 @@
         315
       ],
       "netChg": -318,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Bridgewater Associates, LP",
-      "filerCik": "1350694",
-      "shares": [
-        null,
-        2924,
-        null,
-        null
-      ],
-      "netChg": -2924,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
