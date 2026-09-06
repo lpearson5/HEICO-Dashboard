@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-05T13:50:39.234Z",
+  "lastUpdated": "2026-09-06T14:05:31.122Z",
   "summary": {
     "institutions": 775,
-    "totalShares": 43758292,
-    "pctOut": 79.21000000000001,
-    "newHolders": 120,
+    "totalShares": 43750865,
+    "pctOut": 79.2,
+    "newHolders": 121,
     "sellouts": 88,
     "bought": 254,
-    "sold": 267,
+    "sold": 266,
     "held": 134
   },
   "top10": [
@@ -425,7 +425,7 @@
         20523,
         null,
         3033,
-        1755
+        null
       ],
       "netChg": 20523,
       "currentValue": 7310087,
@@ -903,6 +903,24 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 1300
+    },
+    {
+      "filerName": "Coastal Bridge Advisors, LLC",
+      "filerCik": "1665976",
+      "shares": [
+        1282,
+        null,
+        1246,
+        1197
+      ],
+      "netChg": 1282,
+      "currentValue": 456727,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 1282
     },
     {
       "filerName": "Militia Capital Management LLC",
@@ -1649,7 +1667,7 @@
         610,
         null,
         1415,
-        1415
+        null
       ],
       "netChg": 610,
       "currentValue": 217276,
@@ -2563,6 +2581,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Numerai GP LLC",
+      "filerCik": "1668527",
+      "shares": [
+        null,
+        16243,
+        22765,
+        24799
+      ],
+      "netChg": -16243,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Tredje AP-fonden",
       "filerCik": "1650290",
       "shares": [
@@ -2853,24 +2889,6 @@
     {
       "filerName": "BRANT POINT INVESTMENT MANAGEMENT LLC",
       "filerCik": "1279030",
-      "shares": [
-        null,
-        3000,
-        null,
-        null
-      ],
-      "netChg": -3000,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "WOLVERINE ASSET MANAGEMENT LLC",
-      "filerCik": "1279891",
       "shares": [
         null,
         3000,
@@ -7053,7 +7071,7 @@
         20523,
         null,
         3033,
-        1755
+        null
       ],
       "netChg": 20523,
       "currentValue": 7310087,
@@ -7781,24 +7799,6 @@
       "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 13068,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "Numerai GP LLC",
-      "filerCik": "1668527",
-      "shares": [
-        12927,
-        16243,
-        22765,
-        24799
-      ],
-      "netChg": -3316,
-      "currentValue": 4604468,
-      "pctOut": 0.02,
-      "action": "Sold",
-      "discretion": "SOLE",
-      "voteSole": 12927,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -9329,6 +9329,24 @@
       "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 5613,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "WOLVERINE ASSET MANAGEMENT LLC",
+      "filerCik": "1279891",
+      "shares": [
+        5500,
+        3000,
+        null,
+        null
+      ],
+      "netChg": 2500,
+      "currentValue": 1959045,
+      "pctOut": 0.01,
+      "action": "Bought",
+      "discretion": "DFND",
+      "voteSole": 5500,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -12361,14 +12379,14 @@
       "filerCik": "1665976",
       "shares": [
         1282,
-        1276,
+        null,
         1246,
         1197
       ],
-      "netChg": 6,
+      "netChg": 1282,
       "currentValue": 456727,
       "pctOut": 0,
-      "action": "Bought",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -13568,7 +13586,7 @@
       "shares": [
         924,
         765,
-        765,
+        null,
         652
       ],
       "netChg": 159,
@@ -14703,7 +14721,7 @@
         610,
         null,
         1415,
-        1415
+        null
       ],
       "netChg": 610,
       "currentValue": 217276,
@@ -19035,24 +19053,6 @@
       "voteNone": null
     },
     {
-      "filerName": "MQS Management LLC",
-      "filerCik": "1759395",
-      "shares": [
-        null,
-        890,
-        null,
-        837
-      ],
-      "netChg": -890,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Modus Advisors, LLC",
       "filerCik": "1799284",
       "shares": [
@@ -19065,6 +19065,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "MQS Management LLC",
+      "filerCik": "1759395",
+      "shares": [
+        null,
+        890,
+        null,
+        837
+      ],
+      "netChg": -890,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19557,6 +19575,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Numerai GP LLC",
+      "filerCik": "1668527",
+      "shares": [
+        null,
+        16243,
+        22765,
+        24799
+      ],
+      "netChg": -16243,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Bridgefront Capital, LLC",
       "filerCik": "1725690",
       "shares": [
@@ -19797,7 +19833,7 @@
         null,
         null,
         3884,
-        3884
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -20007,24 +20043,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Key Capital Management, INC",
-      "filerCik": "2107249",
-      "shares": [
-        null,
-        5,
-        null,
-        null
-      ],
-      "netChg": -5,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Elequin Capital, LP",
       "filerCik": "1810873",
       "shares": [
@@ -20034,6 +20052,24 @@
         null
       ],
       "netChg": -1,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Key Capital Management, INC",
+      "filerCik": "2107249",
+      "shares": [
+        null,
+        5,
+        null,
+        null
+      ],
+      "netChg": -5,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -20637,24 +20673,6 @@
       "voteNone": null
     },
     {
-      "filerName": "CIBC WORLD MARKETS CORP",
-      "filerCik": "1056527",
-      "shares": [
-        null,
-        null,
-        1528,
-        null
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "PICTON MAHONEY ASSET MANAGEMENT",
       "filerCik": "1539041",
       "shares": [
@@ -20667,6 +20685,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "CIBC WORLD MARKETS CORP",
+      "filerCik": "1056527",
+      "shares": [
+        null,
+        null,
+        1528,
+        null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -20709,13 +20745,13 @@
       "voteNone": null
     },
     {
-      "filerName": "TWO SIGMA SECURITIES, LLC",
-      "filerCik": "1450144",
+      "filerName": "Newbridge Financial Services Group, Inc.",
+      "filerCik": "1879757",
       "shares": [
         null,
         null,
-        null,
-        1708
+        21,
+        21
       ],
       "netChg": null,
       "currentValue": null,
@@ -20727,13 +20763,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Newbridge Financial Services Group, Inc.",
-      "filerCik": "1879757",
+      "filerName": "TWO SIGMA SECURITIES, LLC",
+      "filerCik": "1450144",
       "shares": [
         null,
         null,
-        21,
-        21
+        null,
+        1708
       ],
       "netChg": null,
       "currentValue": null,
@@ -21081,24 +21117,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "WOLVERINE ASSET MANAGEMENT LLC",
-      "filerCik": "1279891",
-      "shares": [
-        null,
-        3000,
-        null,
-        null
-      ],
-      "netChg": -3000,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,

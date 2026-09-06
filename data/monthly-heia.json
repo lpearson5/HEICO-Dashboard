@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-09-05T13:50:39.234Z",
+  "lastUpdated": "2026-09-06T14:05:31.122Z",
   "summary": {
-    "institutions": 670,
-    "totalShares": 70043160,
-    "pctOut": 82.88,
+    "institutions": 669,
+    "totalShares": 70042290,
+    "pctOut": 82.87,
     "newHolders": 110,
     "sellouts": 63,
     "bought": 254,
-    "sold": 215,
+    "sold": 214,
     "held": 91
   },
   "top10": [
@@ -1067,6 +1067,24 @@
       "voteNone": 0
     },
     {
+      "filerName": "SIGNATURE ESTATE & INVESTMENT ADVISORS LLC",
+      "filerCik": "1079935",
+      "shares": [
+        1055,
+        null,
+        1145,
+        1360
+      ],
+      "netChg": 1055,
+      "currentValue": 272095,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 1055
+    },
+    {
       "filerName": "AXXCESS WEALTH MANAGEMENT, LLC",
       "filerCik": "1911056",
       "shares": [
@@ -1245,24 +1263,6 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 873
-    },
-    {
-      "filerName": "FIRST MANHATTAN CO. LLC.",
-      "filerCik": "728083",
-      "shares": [
-        870,
-        null,
-        838,
-        838
-      ],
-      "netChg": 870,
-      "currentValue": 224382,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 870,
-      "voteNone": 0
     },
     {
       "filerName": "MARINO, STRAM & ASSOCIATES LLC",
@@ -1649,7 +1649,7 @@
         66,
         null,
         46,
-        null
+        21
       ],
       "netChg": 66,
       "currentValue": 17022,
@@ -3506,7 +3506,7 @@
       "shares": [
         1242970,
         1414810,
-        1264905,
+        null,
         1282905
       ],
       "netChg": -171840,
@@ -11713,14 +11713,14 @@
       "filerCik": "1079935",
       "shares": [
         1055,
-        1183,
+        null,
         1145,
         1360
       ],
-      "netChg": -128,
+      "netChg": 1055,
       "currentValue": 272095,
       "pctOut": 0,
-      "action": "Sold",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -12121,24 +12121,6 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 873
-    },
-    {
-      "filerName": "FIRST MANHATTAN CO. LLC.",
-      "filerCik": "728083",
-      "shares": [
-        870,
-        null,
-        838,
-        838
-      ],
-      "netChg": 870,
-      "currentValue": 224382,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 870,
-      "voteNone": 0
     },
     {
       "filerName": "MARINO, STRAM & ASSOCIATES LLC",
@@ -13749,7 +13731,7 @@
         66,
         null,
         46,
-        null
+        21
       ],
       "netChg": 66,
       "currentValue": 17022,
@@ -17602,6 +17584,24 @@
         null,
         12,
         100
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "FIRST MANHATTAN CO. LLC.",
+      "filerCik": "728083",
+      "shares": [
+        null,
+        null,
+        838,
+        838
       ],
       "netChg": null,
       "currentValue": null,
