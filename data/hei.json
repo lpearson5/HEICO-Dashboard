@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-09-07T16:22:43.657Z",
+  "lastUpdated": "2026-09-08T15:03:33.511Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -1398,18 +1398,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Nykredit A/S",
-      "filerCik": "1847328",
-      "currentShares": 39763,
-      "priorShares": null,
-      "change": 39763,
-      "pctChange": 100,
-      "currentValue": 14163183,
-      "action": "New Position",
-      "firstSeen": "2026-08-13",
-      "newThisWeek": false
-    },
-    {
       "filerName": "DIVIDEND ASSETS CAPITAL, LLC",
       "filerCik": "1365167",
       "currentShares": 39203,
@@ -1540,6 +1528,18 @@
       "action": "Sold",
       "firstSeen": "2026-07-28",
       "newThisWeek": false
+    },
+    {
+      "filerName": "Nykredit A/S",
+      "filerCik": "1847328",
+      "currentShares": 34297,
+      "priorShares": null,
+      "change": 34297,
+      "pctChange": 100,
+      "currentValue": 12216248,
+      "action": "New Position",
+      "firstSeen": "2026-09-08",
+      "newThisWeek": true
     },
     {
       "filerName": "Ironvine Capital Partners, LLC",
@@ -9858,10 +9858,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Elequin Capital, LP",
-      "filerCik": "1810873",
+      "filerName": "Key Capital Management, INC",
+      "filerCik": "2107249",
       "currentShares": null,
-      "priorShares": 1,
+      "priorShares": 5,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -9870,10 +9870,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Key Capital Management, INC",
-      "filerCik": "2107249",
+      "filerName": "Elequin Capital, LP",
+      "filerCik": "1810873",
       "currentShares": null,
-      "priorShares": 5,
+      "priorShares": 1,
       "change": null,
       "pctChange": null,
       "currentValue": null,

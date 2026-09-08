@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-09-07T16:22:43.657Z",
+  "lastUpdated": "2026-09-08T15:03:33.511Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -2898,18 +2898,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Nykredit A/S",
-      "filerCik": "1847328",
-      "currentShares": 10140,
-      "priorShares": null,
-      "change": 10140,
-      "pctChange": 100,
-      "currentValue": 2615207,
-      "action": "New Position",
-      "firstSeen": "2026-08-13",
-      "newThisWeek": false
-    },
-    {
       "filerName": "NISSAY ASSET MANAGEMENT CORP /JAPAN",
       "filerCik": "869589",
       "currentShares": 10078,
@@ -3148,6 +3136,18 @@
       "action": "Bought",
       "firstSeen": "2026-07-08",
       "newThisWeek": false
+    },
+    {
+      "filerName": "Nykredit A/S",
+      "filerCik": "1847328",
+      "currentShares": 8090,
+      "priorShares": null,
+      "change": 8090,
+      "pctChange": 100,
+      "currentValue": 2086492,
+      "action": "New Position",
+      "firstSeen": "2026-09-08",
+      "newThisWeek": true
     },
     {
       "filerName": "WASHINGTON TRUST Co",

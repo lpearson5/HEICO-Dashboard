@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-07T16:22:43.657Z",
+  "lastUpdated": "2026-09-08T15:03:33.511Z",
   "summary": {
     "institutions": 776,
-    "totalShares": 43763792,
-    "pctOut": 79.22,
-    "newHolders": 121,
+    "totalShares": 43758326,
+    "pctOut": 79.21000000000001,
+    "newHolders": 123,
     "sellouts": 87,
-    "bought": 255,
-    "sold": 266,
+    "bought": 254,
+    "sold": 265,
     "held": 134
   },
   "top10": [
@@ -329,24 +329,6 @@
       "voteNone": 0
     },
     {
-      "filerName": "Nykredit A/S",
-      "filerCik": "1847328",
-      "shares": [
-        39763,
-        null,
-        null,
-        null
-      ],
-      "netChg": 39763,
-      "currentValue": 14163183,
-      "pctOut": 0.06999999999999999,
-      "action": "New",
-      "discretion": "DFND",
-      "voteSole": 24128,
-      "voteShared": 0,
-      "voteNone": 15635
-    },
-    {
       "filerName": "Connor, Clark & Lunn Investment Management Ltd.",
       "filerCik": "1596800",
       "shares": [
@@ -363,6 +345,24 @@
       "voteSole": 35915,
       "voteShared": 0,
       "voteNone": 0
+    },
+    {
+      "filerName": "Nykredit A/S",
+      "filerCik": "1847328",
+      "shares": [
+        34297,
+        null,
+        null,
+        null
+      ],
+      "netChg": 34297,
+      "currentValue": 12216248,
+      "pctOut": 0.06,
+      "action": "New",
+      "discretion": "DFND",
+      "voteSole": 24128,
+      "voteShared": 0,
+      "voteNone": 10169
     },
     {
       "filerName": "Jain Global LLC",
@@ -921,6 +921,24 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 1300
+    },
+    {
+      "filerName": "Coastal Bridge Advisors, LLC",
+      "filerCik": "1665976",
+      "shares": [
+        1282,
+        null,
+        1246,
+        1197
+      ],
+      "netChg": 1282,
+      "currentValue": 456727,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 1282
     },
     {
       "filerName": "Militia Capital Management LLC",
@@ -2003,6 +2021,24 @@
       "voteNone": 100
     },
     {
+      "filerName": "HAZLETT, BURT & WATSON, INC.",
+      "filerCik": "46392",
+      "shares": [
+        90,
+        null,
+        119,
+        95
+      ],
+      "netChg": 90,
+      "currentValue": 32,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 90
+    },
+    {
       "filerName": "Livforsakringsbolaget Skandia, Omsesidigt",
       "filerCik": "1547926",
       "shares": [
@@ -2062,7 +2098,7 @@
       "shares": [
         25,
         null,
-        null,
+        38,
         38
       ],
       "netChg": 25,
@@ -3289,7 +3325,7 @@
         null,
         1018,
         null,
-        7506
+        null
       ],
       "netChg": -1018,
       "currentValue": null,
@@ -6039,24 +6075,6 @@
       "voteNone": 39847
     },
     {
-      "filerName": "Nykredit A/S",
-      "filerCik": "1847328",
-      "shares": [
-        39763,
-        null,
-        null,
-        null
-      ],
-      "netChg": 39763,
-      "currentValue": 14163183,
-      "pctOut": 0.06999999999999999,
-      "action": "New",
-      "discretion": "DFND",
-      "voteSole": 24128,
-      "voteShared": 0,
-      "voteNone": 15635
-    },
-    {
       "filerName": "DIVIDEND ASSETS CAPITAL, LLC",
       "filerCik": "1365167",
       "shares": [
@@ -6253,6 +6271,24 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 0
+    },
+    {
+      "filerName": "Nykredit A/S",
+      "filerCik": "1847328",
+      "shares": [
+        34297,
+        null,
+        null,
+        null
+      ],
+      "netChg": 34297,
+      "currentValue": 12216248,
+      "pctOut": 0.06,
+      "action": "New",
+      "discretion": "DFND",
+      "voteSole": 24128,
+      "voteShared": 0,
+      "voteNone": 10169
     },
     {
       "filerName": "Ironvine Capital Partners, LLC",
@@ -7988,7 +8024,7 @@
       "shares": [
         11303,
         7569,
-        null,
+        164036,
         116437
       ],
       "netChg": 3734,
@@ -8943,7 +8979,7 @@
         6558,
         6564,
         6571,
-        null
+        1567
       ],
       "netChg": -6,
       "currentValue": 2335894,
@@ -12379,14 +12415,14 @@
       "filerCik": "1665976",
       "shares": [
         1282,
-        1276,
+        null,
         1246,
         1197
       ],
-      "netChg": 6,
+      "netChg": 1282,
       "currentValue": 456727,
       "pctOut": 0,
-      "action": "Bought",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -15961,14 +15997,14 @@
       "filerCik": "46392",
       "shares": [
         90,
-        119,
+        null,
         119,
         95
       ],
-      "netChg": -29,
+      "netChg": 90,
       "currentValue": 32,
       "pctOut": 0,
-      "action": "Sold",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -16646,7 +16682,7 @@
       "shares": [
         25,
         null,
-        null,
+        38,
         38
       ],
       "netChg": 25,
@@ -17187,7 +17223,7 @@
         10,
         17,
         9,
-        32
+        null
       ],
       "netChg": -7,
       "currentValue": 3562,
@@ -19053,6 +19089,24 @@
       "voteNone": null
     },
     {
+      "filerName": "MQS Management LLC",
+      "filerCik": "1759395",
+      "shares": [
+        null,
+        890,
+        null,
+        837
+      ],
+      "netChg": -890,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Modus Advisors, LLC",
       "filerCik": "1799284",
       "shares": [
@@ -19071,15 +19125,15 @@
       "voteNone": null
     },
     {
-      "filerName": "MQS Management LLC",
-      "filerCik": "1759395",
+      "filerName": "Qtron Investments LLC",
+      "filerCik": "1768099",
       "shares": [
         null,
-        890,
-        null,
-        837
+        2949,
+        2949,
+        4380
       ],
-      "netChg": -890,
+      "netChg": -2949,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -19119,24 +19173,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Qtron Investments LLC",
-      "filerCik": "1768099",
-      "shares": [
-        null,
-        2949,
-        2949,
-        4380
-      ],
-      "netChg": -2949,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -20025,24 +20061,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Elequin Capital, LP",
-      "filerCik": "1810873",
-      "shares": [
-        null,
-        1,
-        null,
-        null
-      ],
-      "netChg": -1,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Key Capital Management, INC",
       "filerCik": "2107249",
       "shares": [
@@ -20052,6 +20070,24 @@
         null
       ],
       "netChg": -5,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Elequin Capital, LP",
+      "filerCik": "1810873",
+      "shares": [
+        null,
+        1,
+        null,
+        null
+      ],
+      "netChg": -1,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -20457,6 +20493,24 @@
       "voteNone": null
     },
     {
+      "filerName": "FNY Investment Advisers, LLC",
+      "filerCik": "1742998",
+      "shares": [
+        null,
+        null,
+        154,
+        null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Assenagon Asset Management S.A.",
       "filerCik": "1546007",
       "shares": [
@@ -20799,24 +20853,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Walleye Trading LLC",
-      "filerCik": "1388391",
-      "shares": [
-        null,
-        1018,
-        null,
-        7506
-      ],
-      "netChg": -1018,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "GREENLEAF TRUST",
       "filerCik": "1162170",
       "shares": [
@@ -20844,6 +20880,24 @@
         656
       ],
       "netChg": -965,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Walleye Trading LLC",
+      "filerCik": "1388391",
+      "shares": [
+        null,
+        1018,
+        null,
+        null
+      ],
+      "netChg": -1018,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
