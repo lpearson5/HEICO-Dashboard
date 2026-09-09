@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-09-08T15:03:33.511Z",
+  "lastUpdated": "2026-09-09T15:05:40.917Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -591,7 +591,7 @@
       "currentValue": 54891016,
       "action": "Bought",
       "firstSeen": "2026-09-02",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "NZS Capital, LLC",
@@ -2259,7 +2259,7 @@
       "currentValue": 5838310,
       "action": "Sold",
       "firstSeen": "2026-09-02",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "AdvisorShares Investments LLC",
@@ -4518,18 +4518,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Integrated Wealth Concepts LLC",
-      "filerCik": "1737109",
-      "currentShares": 2763,
-      "priorShares": 1037,
-      "change": 1726,
-      "pctChange": 166.4,
-      "currentValue": 984517,
-      "action": "Bought",
-      "firstSeen": "2026-08-12",
-      "newThisWeek": false
-    },
-    {
       "filerName": "Investment Management Corp of Ontario",
       "filerCik": "1811568",
       "currentShares": 2709,
@@ -4912,6 +4900,18 @@
       "action": "Sold",
       "firstSeen": "2026-08-14",
       "newThisWeek": false
+    },
+    {
+      "filerName": "Integrated Wealth Concepts LLC",
+      "filerCik": "1737109",
+      "currentShares": 2168,
+      "priorShares": 1037,
+      "change": 1131,
+      "pctChange": 109.1,
+      "currentValue": 772216,
+      "action": "Bought",
+      "firstSeen": "2026-09-09",
+      "newThisWeek": true
     },
     {
       "filerName": "Lombard Odier Asset Management (USA) Corp",
@@ -8055,7 +8055,7 @@
       "currentValue": 30276,
       "action": "Sold",
       "firstSeen": "2026-09-02",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Spire Wealth Management",
@@ -9858,10 +9858,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Key Capital Management, INC",
-      "filerCik": "2107249",
+      "filerName": "Elequin Capital, LP",
+      "filerCik": "1810873",
       "currentShares": null,
-      "priorShares": 5,
+      "priorShares": 1,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -9870,10 +9870,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Elequin Capital, LP",
-      "filerCik": "1810873",
+      "filerName": "Key Capital Management, INC",
+      "filerCik": "2107249",
       "currentShares": null,
-      "priorShares": 1,
+      "priorShares": 5,
       "change": null,
       "pctChange": null,
       "currentValue": null,

@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-08T15:03:33.511Z",
+  "lastUpdated": "2026-09-09T15:05:40.917Z",
   "summary": {
-    "institutions": 776,
-    "totalShares": 43758326,
-    "pctOut": 79.21000000000001,
-    "newHolders": 123,
-    "sellouts": 87,
+    "institutions": 773,
+    "totalShares": 43713315,
+    "pctOut": 79.13,
+    "newHolders": 119,
+    "sellouts": 89,
     "bought": 254,
-    "sold": 265,
+    "sold": 266,
     "held": 134
   },
   "top10": [
@@ -311,24 +311,6 @@
       "voteNone": 0
     },
     {
-      "filerName": "Bank Julius Baer & Co. Ltd, Zurich",
-      "filerCik": "1544599",
-      "shares": [
-        40525,
-        null,
-        47450,
-        54556
-      ],
-      "netChg": 40525,
-      "currentValue": 14472713,
-      "pctOut": 0.06999999999999999,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 40525,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
       "filerName": "Connor, Clark & Lunn Investment Management Ltd.",
       "filerCik": "1596800",
       "shares": [
@@ -443,7 +425,7 @@
         20523,
         null,
         3033,
-        1755
+        null
       ],
       "netChg": 20523,
       "currentValue": 7310087,
@@ -921,24 +903,6 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 1300
-    },
-    {
-      "filerName": "Coastal Bridge Advisors, LLC",
-      "filerCik": "1665976",
-      "shares": [
-        1282,
-        null,
-        1246,
-        1197
-      ],
-      "netChg": 1282,
-      "currentValue": 456727,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 1282
     },
     {
       "filerName": "Militia Capital Management LLC",
@@ -1985,24 +1949,6 @@
       "voteNone": 234
     },
     {
-      "filerName": "Walleye Capital LLC",
-      "filerCik": "1758720",
-      "shares": [
-        135,
-        null,
-        17407,
-        3880
-      ],
-      "netChg": 135,
-      "currentValue": 48086,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 135,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
       "filerName": "MCDONALD PARTNERS LLC",
       "filerCik": "1331074",
       "shares": [
@@ -2019,24 +1965,6 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 100
-    },
-    {
-      "filerName": "HAZLETT, BURT & WATSON, INC.",
-      "filerCik": "46392",
-      "shares": [
-        90,
-        null,
-        119,
-        95
-      ],
-      "netChg": 90,
-      "currentValue": 32,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 90
     },
     {
       "filerName": "Livforsakringsbolaget Skandia, Omsesidigt",
@@ -2599,6 +2527,24 @@
       "voteNone": null
     },
     {
+      "filerName": "SAWGRASS ASSET MANAGEMENT LLC",
+      "filerCik": "1105467",
+      "shares": [
+        null,
+        18893,
+        19362,
+        20446
+      ],
+      "netChg": -18893,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Bridgewater Associates, LP",
       "filerCik": "1350694",
       "shares": [
@@ -2608,6 +2554,24 @@
         10782
       ],
       "netChg": -17524,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Numerai GP LLC",
+      "filerCik": "1668527",
+      "shares": [
+        null,
+        16243,
+        22765,
+        24799
+      ],
+      "netChg": -16243,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -6007,14 +5971,14 @@
       "filerCik": "1544599",
       "shares": [
         40525,
-        null,
+        43917,
         47450,
         54556
       ],
-      "netChg": 40525,
+      "netChg": -3392,
       "currentValue": 14472713,
       "pctOut": 0.06999999999999999,
-      "action": "New",
+      "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 40525,
       "voteShared": 0,
@@ -6433,24 +6397,6 @@
       "voteSole": 20623,
       "voteShared": 0,
       "voteNone": 11450
-    },
-    {
-      "filerName": "SAWGRASS ASSET MANAGEMENT LLC",
-      "filerCik": "1105467",
-      "shares": [
-        31354,
-        18893,
-        19362,
-        20446
-      ],
-      "netChg": 12461,
-      "currentValue": 11167981,
-      "pctOut": 0.06,
-      "action": "Bought",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 31354
     },
     {
       "filerName": "MANUFACTURERS LIFE INSURANCE COMPANY, THE",
@@ -7089,7 +7035,7 @@
         20523,
         null,
         3033,
-        1755
+        null
       ],
       "netChg": 20523,
       "currentValue": 7310087,
@@ -7817,24 +7763,6 @@
       "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 13068,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "Numerai GP LLC",
-      "filerCik": "1668527",
-      "shares": [
-        12927,
-        16243,
-        22765,
-        24799
-      ],
-      "netChg": -3316,
-      "currentValue": 4604468,
-      "pctOut": 0.02,
-      "action": "Sold",
-      "discretion": "SOLE",
-      "voteSole": 12927,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -10755,24 +10683,6 @@
       "voteNone": 0
     },
     {
-      "filerName": "Integrated Wealth Concepts LLC",
-      "filerCik": "1737109",
-      "shares": [
-        2763,
-        1037,
-        null,
-        null
-      ],
-      "netChg": 1726,
-      "currentValue": 984517,
-      "pctOut": 0.01,
-      "action": "Bought",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 2763
-    },
-    {
       "filerName": "Investment Management Corp of Ontario",
       "filerCik": "1811568",
       "shares": [
@@ -11347,6 +11257,24 @@
       "voteSole": 2197,
       "voteShared": 0,
       "voteNone": 0
+    },
+    {
+      "filerName": "Integrated Wealth Concepts LLC",
+      "filerCik": "1737109",
+      "shares": [
+        2168,
+        1037,
+        null,
+        null
+      ],
+      "netChg": 1131,
+      "currentValue": 772216,
+      "pctOut": 0,
+      "action": "Bought",
+      "discretion": "OTR",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 2168
     },
     {
       "filerName": "Lombard Odier Asset Management (USA) Corp",
@@ -12415,14 +12343,14 @@
       "filerCik": "1665976",
       "shares": [
         1282,
-        null,
+        1276,
         1246,
         1197
       ],
-      "netChg": 1282,
+      "netChg": 6,
       "currentValue": 456727,
       "pctOut": 0,
-      "action": "New",
+      "action": "Bought",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -15849,24 +15777,6 @@
       "voteNone": 0
     },
     {
-      "filerName": "Walleye Capital LLC",
-      "filerCik": "1758720",
-      "shares": [
-        135,
-        null,
-        17407,
-        3880
-      ],
-      "netChg": 135,
-      "currentValue": 48086,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 135,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
       "filerName": "ZIONS BANCORPORATION, NATIONAL ASSOCIATION /UT/  (ZION, ZIONP)",
       "filerCik": "109380",
       "shares": [
@@ -15997,14 +15907,14 @@
       "filerCik": "46392",
       "shares": [
         90,
-        null,
+        119,
         119,
         95
       ],
-      "netChg": 90,
+      "netChg": -29,
       "currentValue": 32,
       "pctOut": 0,
-      "action": "New",
+      "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -18387,6 +18297,24 @@
       "voteNone": null
     },
     {
+      "filerName": "SAWGRASS ASSET MANAGEMENT LLC",
+      "filerCik": "1105467",
+      "shares": [
+        null,
+        18893,
+        19362,
+        20446
+      ],
+      "netChg": -18893,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Artemis Investment Management LLP",
       "filerCik": "1535385",
       "shares": [
@@ -19089,24 +19017,6 @@
       "voteNone": null
     },
     {
-      "filerName": "MQS Management LLC",
-      "filerCik": "1759395",
-      "shares": [
-        null,
-        890,
-        null,
-        837
-      ],
-      "netChg": -890,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Modus Advisors, LLC",
       "filerCik": "1799284",
       "shares": [
@@ -19119,6 +19029,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "MQS Management LLC",
+      "filerCik": "1759395",
+      "shares": [
+        null,
+        890,
+        null,
+        837
+      ],
+      "netChg": -890,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19611,6 +19539,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Numerai GP LLC",
+      "filerCik": "1668527",
+      "shares": [
+        null,
+        16243,
+        22765,
+        24799
+      ],
+      "netChg": -16243,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Bridgefront Capital, LLC",
       "filerCik": "1725690",
       "shares": [
@@ -19647,13 +19593,13 @@
       "voteNone": null
     },
     {
-      "filerName": "PineBridge Investments, L.P.",
-      "filerCik": "1531721",
+      "filerName": "DT Investment Partners, LLC",
+      "filerCik": "1537621",
       "shares": [
         null,
         null,
-        null,
-        6095
+        66,
+        66
       ],
       "netChg": null,
       "currentValue": null,
@@ -19665,13 +19611,13 @@
       "voteNone": null
     },
     {
-      "filerName": "DT Investment Partners, LLC",
-      "filerCik": "1537621",
+      "filerName": "PineBridge Investments, L.P.",
+      "filerCik": "1531721",
       "shares": [
         null,
         null,
-        66,
-        66
+        null,
+        6095
       ],
       "netChg": null,
       "currentValue": null,
@@ -19851,7 +19797,7 @@
         null,
         null,
         3884,
-        3884
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -20061,24 +20007,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Key Capital Management, INC",
-      "filerCik": "2107249",
-      "shares": [
-        null,
-        5,
-        null,
-        null
-      ],
-      "netChg": -5,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Elequin Capital, LP",
       "filerCik": "1810873",
       "shares": [
@@ -20088,6 +20016,24 @@
         null
       ],
       "netChg": -1,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Key Capital Management, INC",
+      "filerCik": "2107249",
+      "shares": [
+        null,
+        5,
+        null,
+        null
+      ],
+      "netChg": -5,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -20883,6 +20829,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Walleye Capital LLC",
+      "filerCik": "1758720",
+      "shares": [
+        null,
+        null,
+        17407,
+        3880
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
