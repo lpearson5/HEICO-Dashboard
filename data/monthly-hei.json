@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-10T14:57:33.981Z",
+  "lastUpdated": "2026-09-11T14:58:12.451Z",
   "summary": {
-    "institutions": 776,
-    "totalShares": 43757731,
-    "pctOut": 79.21000000000001,
+    "institutions": 775,
+    "totalShares": 43743951,
+    "pctOut": 79.19,
     "newHolders": 120,
-    "sellouts": 87,
+    "sellouts": 88,
     "bought": 255,
-    "sold": 267,
+    "sold": 266,
     "held": 134
   },
   "top10": [
@@ -1649,7 +1649,7 @@
         610,
         null,
         1415,
-        null
+        1415
       ],
       "netChg": 610,
       "currentValue": 217276,
@@ -2572,6 +2572,24 @@
         7990
       ],
       "netChg": -16216,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "GABELLI FUNDS LLC",
+      "filerCik": "1081407",
+      "shares": [
+        null,
+        14996,
+        14501,
+        14952
+      ],
+      "netChg": -14996,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -7659,24 +7677,6 @@
       "voteNone": 1190
     },
     {
-      "filerName": "GABELLI FUNDS LLC",
-      "filerCik": "1081407",
-      "shares": [
-        13780,
-        14996,
-        14501,
-        14952
-      ],
-      "netChg": -1216,
-      "currentValue": 4908298,
-      "pctOut": 0.02,
-      "action": "Sold",
-      "discretion": "SOLE",
-      "voteSole": 13780,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
       "filerName": "AMJ Financial Wealth Management",
       "filerCik": "1801585",
       "shares": [
@@ -8925,7 +8925,7 @@
         6558,
         6564,
         6571,
-        1567
+        null
       ],
       "netChg": -6,
       "currentValue": 2335894,
@@ -14703,7 +14703,7 @@
         610,
         null,
         1415,
-        null
+        1415
       ],
       "netChg": 610,
       "currentValue": 217276,
@@ -17169,7 +17169,7 @@
         10,
         17,
         9,
-        32
+        null
       ],
       "netChg": -7,
       "currentValue": 3562,
@@ -19035,24 +19035,6 @@
       "voteNone": null
     },
     {
-      "filerName": "MQS Management LLC",
-      "filerCik": "1759395",
-      "shares": [
-        null,
-        890,
-        null,
-        837
-      ],
-      "netChg": -890,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Modus Advisors, LLC",
       "filerCik": "1799284",
       "shares": [
@@ -19065,6 +19047,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "MQS Management LLC",
+      "filerCik": "1759395",
+      "shares": [
+        null,
+        890,
+        null,
+        837
+      ],
+      "netChg": -890,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19827,12 +19827,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Legato Capital Management LLC",
-      "filerCik": "1442641",
+      "filerName": "V-Square Quantitative Management LLC",
+      "filerCik": "1943239",
       "shares": [
         null,
         null,
-        1077,
+        115,
         null
       ],
       "netChg": null,
@@ -19845,12 +19845,12 @@
       "voteNone": null
     },
     {
-      "filerName": "V-Square Quantitative Management LLC",
-      "filerCik": "1943239",
+      "filerName": "Legato Capital Management LLC",
+      "filerCik": "1442641",
       "shares": [
         null,
         null,
-        115,
+        1077,
         null
       ],
       "netChg": null,
@@ -20007,24 +20007,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Key Capital Management, INC",
-      "filerCik": "2107249",
-      "shares": [
-        null,
-        5,
-        null,
-        null
-      ],
-      "netChg": -5,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Elequin Capital, LP",
       "filerCik": "1810873",
       "shares": [
@@ -20034,6 +20016,24 @@
         null
       ],
       "netChg": -1,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Key Capital Management, INC",
+      "filerCik": "2107249",
+      "shares": [
+        null,
+        5,
+        null,
+        null
+      ],
+      "netChg": -5,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -20354,7 +20354,7 @@
       "shares": [
         null,
         null,
-        null,
+        1636,
         1581
       ],
       "netChg": null,
@@ -20619,6 +20619,24 @@
       "voteNone": null
     },
     {
+      "filerName": "GABELLI FUNDS LLC",
+      "filerCik": "1081407",
+      "shares": [
+        null,
+        14996,
+        14501,
+        14952
+      ],
+      "netChg": -14996,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Sachetta, LLC",
       "filerCik": "2010574",
       "shares": [
@@ -20649,24 +20667,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "CIBC WORLD MARKETS CORP",
-      "filerCik": "1056527",
-      "shares": [
-        null,
-        null,
-        1528,
-        null
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -20709,13 +20709,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Newbridge Financial Services Group, Inc.",
-      "filerCik": "1879757",
+      "filerName": "TWO SIGMA SECURITIES, LLC",
+      "filerCik": "1450144",
       "shares": [
         null,
         null,
-        21,
-        21
+        null,
+        1708
       ],
       "netChg": null,
       "currentValue": null,
@@ -20727,13 +20727,13 @@
       "voteNone": null
     },
     {
-      "filerName": "TWO SIGMA SECURITIES, LLC",
-      "filerCik": "1450144",
+      "filerName": "Newbridge Financial Services Group, Inc.",
+      "filerCik": "1879757",
       "shares": [
         null,
         null,
-        null,
-        1708
+        21,
+        21
       ],
       "netChg": null,
       "currentValue": null,
@@ -20763,24 +20763,6 @@
       "voteNone": null
     },
     {
-      "filerName": "HARBOR CAPITAL ADVISORS, INC.",
-      "filerCik": "1039128",
-      "shares": [
-        null,
-        null,
-        680,
-        680
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Capula Management Ltd",
       "filerCik": "1557017",
       "shares": [
@@ -20793,6 +20775,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "HARBOR CAPITAL ADVISORS, INC.",
+      "filerCik": "1039128",
+      "shares": [
+        null,
+        null,
+        680,
+        680
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -21200,7 +21200,7 @@
       "shares": [
         null,
         null,
-        484658,
+        null,
         494678
       ],
       "netChg": null,
@@ -21585,6 +21585,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "CIBC WORLD MARKETS CORP",
+      "filerCik": "1056527",
+      "shares": [
+        null,
+        null,
+        1528,
+        null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
