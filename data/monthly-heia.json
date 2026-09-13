@@ -8,16 +8,16 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-09-12T13:58:28.563Z",
+  "lastUpdated": "2026-09-13T14:54:43.718Z",
   "summary": {
     "institutions": 669,
-    "totalShares": 70040361,
+    "totalShares": 70041091,
     "pctOut": 82.87,
-    "newHolders": 109,
-    "sellouts": 63,
+    "newHolders": 110,
+    "sellouts": 64,
     "bought": 254,
     "sold": 215,
-    "held": 91
+    "held": 90
   },
   "top10": [
     {
@@ -1443,6 +1443,24 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 779
+    },
+    {
+      "filerName": "EP Wealth Advisors, LLC",
+      "filerCik": "1540569",
+      "shares": [
+        739,
+        null,
+        null,
+        null
+      ],
+      "netChg": 739,
+      "currentValue": 190718,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 732,
+      "voteShared": 0,
+      "voteNone": 8
     },
     {
       "filerName": "OSSIAM",
@@ -3130,6 +3148,24 @@
         null
       ],
       "netChg": -10,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Penserra Capital Management LLC",
+      "filerCik": "1593324",
+      "shares": [
+        null,
+        9,
+        9,
+        9
+      ],
+      "netChg": -9,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -12375,6 +12411,24 @@
       "voteNone": 779
     },
     {
+      "filerName": "EP Wealth Advisors, LLC",
+      "filerCik": "1540569",
+      "shares": [
+        739,
+        null,
+        null,
+        null
+      ],
+      "netChg": 739,
+      "currentValue": 190718,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 732,
+      "voteShared": 0,
+      "voteNone": 8
+    },
+    {
       "filerName": "Crewe Advisors LLC",
       "filerCik": "1730033",
       "shares": [
@@ -14697,24 +14751,6 @@
       "voteNone": 10
     },
     {
-      "filerName": "Penserra Capital Management LLC",
-      "filerCik": "1593324",
-      "shares": [
-        9,
-        9,
-        9,
-        9
-      ],
-      "netChg": 0,
-      "currentValue": 2,
-      "pctOut": 0,
-      "action": "No Change",
-      "discretion": "DFND",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 9
-    },
-    {
       "filerName": "Ares Financial Consulting, LLC",
       "filerCik": "2106717",
       "shares": [
@@ -16437,6 +16473,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Penserra Capital Management LLC",
+      "filerCik": "1593324",
+      "shares": [
+        null,
+        9,
+        9,
+        9
+      ],
+      "netChg": -9,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
