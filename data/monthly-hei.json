@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-13T14:54:43.718Z",
+  "lastUpdated": "2026-09-14T16:55:57.345Z",
   "summary": {
-    "institutions": 775,
-    "totalShares": 43751989,
-    "pctOut": 79.2,
-    "newHolders": 120,
-    "sellouts": 88,
-    "bought": 254,
-    "sold": 267,
+    "institutions": 776,
+    "totalShares": 43757731,
+    "pctOut": 79.21000000000001,
+    "newHolders": 123,
+    "sellouts": 87,
+    "bought": 253,
+    "sold": 266,
     "held": 134
   },
   "top10": [
@@ -577,6 +577,24 @@
       "action": "New",
       "discretion": "DFND",
       "voteSole": 6100,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "Quantbot Technologies LP",
+      "filerCik": "1512991",
+      "shares": [
+        4864,
+        null,
+        33633,
+        38532
+      ],
+      "netChg": 4864,
+      "currentValue": 1732508,
+      "pctOut": 0.01,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 4864,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -1173,6 +1191,24 @@
       "voteSole": 936,
       "voteShared": 0,
       "voteNone": 0
+    },
+    {
+      "filerName": "Vise Technologies, Inc.",
+      "filerCik": "1812090",
+      "shares": [
+        924,
+        null,
+        765,
+        652
+      ],
+      "netChg": 924,
+      "currentValue": 329125,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 924
     },
     {
       "filerName": "Mariner, LLC",
@@ -1947,6 +1983,24 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 234
+    },
+    {
+      "filerName": "Cornerstone Planning Group LLC",
+      "filerCik": "1822587",
+      "shares": [
+        178,
+        null,
+        190,
+        218
+      ],
+      "netChg": 178,
+      "currentValue": 59689,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 178
     },
     {
       "filerName": "Walleye Capital LLC",
@@ -2734,24 +2788,6 @@
         4727
       ],
       "netChg": -5780,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Mirador Capital Partners LP",
-      "filerCik": "1633446",
-      "shares": [
-        null,
-        5676,
-        5348,
-        5052
-      ],
-      "netChg": -5676,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -9279,6 +9315,24 @@
       "voteNone": 5808
     },
     {
+      "filerName": "Mirador Capital Partners LP",
+      "filerCik": "1633446",
+      "shares": [
+        5742,
+        5676,
+        5348,
+        5052
+      ],
+      "netChg": 66,
+      "currentValue": 2045243,
+      "pctOut": 0.01,
+      "action": "Bought",
+      "discretion": "SOLE",
+      "voteSole": 5742,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "Focus Partners Advisor Solutions, LLC",
       "filerCik": "1868872",
       "shares": [
@@ -9481,14 +9535,14 @@
       "filerCik": "1512991",
       "shares": [
         4864,
-        4076,
+        null,
         33633,
         38532
       ],
-      "netChg": 788,
+      "netChg": 4864,
       "currentValue": 1732508,
       "pctOut": 0.01,
-      "action": "Bought",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 4864,
       "voteShared": 0,
@@ -13567,14 +13621,14 @@
       "filerCik": "1812090",
       "shares": [
         924,
-        765,
+        null,
         765,
         652
       ],
-      "netChg": 159,
+      "netChg": 924,
       "currentValue": 329125,
       "pctOut": 0,
-      "action": "Bought",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -15655,14 +15709,14 @@
       "filerCik": "1822587",
       "shares": [
         178,
-        179,
+        null,
         190,
         218
       ],
-      "netChg": -1,
+      "netChg": 178,
       "currentValue": 59689,
       "pctOut": 0,
-      "action": "Sold",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -18477,24 +18531,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Mirador Capital Partners LP",
-      "filerCik": "1633446",
-      "shares": [
-        null,
-        5676,
-        5348,
-        5052
-      ],
-      "netChg": -5676,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "PAX Financial Group, LLC",
       "filerCik": "1803673",
       "shares": [
@@ -19053,24 +19089,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Modus Advisors, LLC",
-      "filerCik": "1799284",
-      "shares": [
-        null,
-        null,
-        24,
-        null
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "MQS Management LLC",
       "filerCik": "1759395",
       "shares": [
@@ -19083,6 +19101,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Modus Advisors, LLC",
+      "filerCik": "1799284",
+      "shares": [
+        null,
+        null,
+        24,
+        null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -20025,24 +20061,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Key Capital Management, INC",
-      "filerCik": "2107249",
-      "shares": [
-        null,
-        5,
-        null,
-        null
-      ],
-      "netChg": -5,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Elequin Capital, LP",
       "filerCik": "1810873",
       "shares": [
@@ -20052,6 +20070,24 @@
         null
       ],
       "netChg": -1,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Key Capital Management, INC",
+      "filerCik": "2107249",
+      "shares": [
+        null,
+        5,
+        null,
+        null
+      ],
+      "netChg": -5,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -20781,24 +20817,6 @@
       "voteNone": null
     },
     {
-      "filerName": "HARBOR CAPITAL ADVISORS, INC.",
-      "filerCik": "1039128",
-      "shares": [
-        null,
-        null,
-        680,
-        680
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Capula Management Ltd",
       "filerCik": "1557017",
       "shares": [
@@ -20811,6 +20829,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "HARBOR CAPITAL ADVISORS, INC.",
+      "filerCik": "1039128",
+      "shares": [
+        null,
+        null,
+        680,
+        680
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
