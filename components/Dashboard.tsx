@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import type { TickerData, Holding, Action, MonthlyData, FundData, BeneficialData, PeersData, PricesData, GeographyData, ShortInterestData, FundamentalsData, EarningsData, OptionsData } from "@/lib/types";
+import type { TickerData, Holding, Action, MonthlyData, FundData, BeneficialData, PeersData, PricesData, GeographyData, ShortInterestData, FundamentalsData, EarningsData, OptionsData, SelfAuditData } from "@/lib/types";
 import MonthlySnapshot from "@/components/MonthlySnapshot";
 import MarketPerformance from "@/components/MarketPerformance";
 import OwnershipAnalytics from "@/components/OwnershipAnalytics";
@@ -95,6 +95,7 @@ export default function Dashboard({
   fundamentals = null,
   earnings = null,
   options = null,
+  audit = null,
 }: {
   hei: TickerData | null;
   heia: TickerData | null;
@@ -111,6 +112,7 @@ export default function Dashboard({
   fundamentals?: FundamentalsData | null;
   earnings?: EarningsData | null;
   options?: OptionsData | null;
+  audit?: SelfAuditData | null;
 }) {
   const [view, setView] = useState<View>("weekly");
   const [activeTicker, setActiveTicker] = useState<"HEI" | "HEIA">("HEI");
@@ -232,7 +234,20 @@ export default function Dashboard({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-5">
           <div className="flex items-start justify-between gap-3">
             <div>
-              <h1 className="text-2xl font-bold text-gray-900">HEICO Institutional Ownership</h1>
+              <div className="flex flex-wrap items-center gap-2">
+                <h1 className="text-2xl font-bold text-gray-900">HEICO Institutional Ownership</h1>
+                {audit && (() => {
+                  const s = audit.status;
+                  const cls = s === "OK" ? "bg-green-50 text-green-700 border-green-200"
+                    : s === "WARN" ? "bg-amber-50 text-amber-700 border-amber-200"
+                    : "bg-red-50 text-red-700 border-red-200";
+                  const problems = audit.findings.filter((f) => f.level !== "INFO");
+                  const label = s === "OK" ? "Data health ✓" : s === "WARN" ? `⚠ ${problems.length} warning${problems.length !== 1 ? "s" : ""}` : `⚠ ${problems.length} issue${problems.length !== 1 ? "s" : ""}`;
+                  const tip = (problems.length ? problems.map((f) => `[${f.level}] ${f.detail}`).join("\n") : "All integrity checks passed — top holders cross-checked vs SEC.")
+                    + `\n\nChecked ${new Date(audit.asOf).toLocaleString("en-US")}`;
+                  return <span className={`inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-medium ${cls}`} title={tip}>{label}</span>;
+                })()}
+              </div>
               <p className="text-sm text-gray-500 mt-0.5">
                 {view === "markets" ? (
                   <>HEICO, peers &amp; indices · Live prices &amp; performance</>

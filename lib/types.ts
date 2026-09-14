@@ -224,3 +224,12 @@ export interface OptionsData {
   totals: { HEI: { put: number; call: number }; HEIA: { put: number; call: number } };
   holders: OptionHolder[];
 }
+
+// ── Self-audit / data-integrity status ──
+export interface AuditFinding { level: string; check: string; detail: string }
+export interface SelfAuditData {
+  asOf: string;
+  status: "OK" | "WARN" | "CRITICAL";
+  counts?: Record<string, number>;
+  findings: AuditFinding[];
+}

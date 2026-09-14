@@ -1,0 +1,20 @@
+{
+  "asOf": "2026-09-14T18:46:11.228Z",
+  "status": "OK",
+  "counts": {
+    "hei": 776,
+    "heia": 669
+  },
+  "findings": [
+    {
+      "level": "INFO",
+      "check": "cross-check",
+      "detail": "hei: cross-checked 14 top holders vs SEC, 0 mismatch(es)"
+    },
+    {
+      "level": "INFO",
+      "check": "cross-check",
+      "detail": "heia: cross-checked 15 top holders vs SEC, 0 mismatch(es)"
+    }
+  ]
+}
