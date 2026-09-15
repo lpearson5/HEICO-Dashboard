@@ -226,7 +226,7 @@ export interface OptionsData {
 }
 
 // ── Investor style classification (Growth/Value/Momentum/Income/Blend) ──
-export interface StyleMember { name: string; shares: number }
+export interface StyleMember { name: string; shares: number; estStyle?: string }
 export interface StyleCategory {
   style: string;
   holders: number;
@@ -236,11 +236,24 @@ export interface StyleCategory {
   examples: string[];
   members: StyleMember[];
 }
+export interface EstCategory {
+  style: string;
+  holders: number;
+  holderPct: number;
+  shares: number;
+  sharePct: number;
+}
+export interface UnclassifiedEstimate {
+  total: number;
+  totalShares: number;
+  categories: EstCategory[];
+}
 export interface StyleBlock {
   total: number;
   totalShares: number;
   categories: StyleCategory[];
   coverage: { curated: number; heuristic: number; unclassified: number };
+  unclassifiedEstimate?: UnclassifiedEstimate;
 }
 export interface InvestorStylesData {
   asOf: string;

@@ -290,6 +290,145 @@ function classify(name) {
   return { style: heuristic(name), conf: "heuristic" };
 }
 
+// ── ESTIMATION pass (best-effort, lower confidence) ─────────────────
+// Used ONLY to give the "Unclassified" bucket an estimated style breakdown.
+// These names have no published style in our curated DB, so we estimate from
+// (a) known-boutique knowledge and (b) fund-structure/institution-type tells.
+// Anything still unknown stays "Unknown" — we never force a guess.
+const EST_KNOWN = [
+  // hedge funds / multi-strat / quant / CTAs / market-makers -> Momentum/Quant
+  ["jump financial", "Momentum/Quant"], ["jain global", "Momentum/Quant"],
+  ["capula", "Momentum/Quant"], ["kingdon capital", "Momentum/Quant"],
+  ["o'connor", "Momentum/Quant"], ["oconnor", "Momentum/Quant"],
+  ["j. goldman", "Momentum/Quant"], ["j goldman", "Momentum/Quant"],
+  ["aquatic capital", "Momentum/Quant"], ["mint tower", "Momentum/Quant"],
+  ["trexquant", "Momentum/Quant"], ["numerai", "Momentum/Quant"],
+  ["engineers gate", "Momentum/Quant"], ["hudson bay capital", "Momentum/Quant"],
+  ["machina capital", "Momentum/Quant"], ["qsemble", "Momentum/Quant"],
+  ["dark forest", "Momentum/Quant"], ["symmetry investments", "Momentum/Quant"],
+  ["quantbot", "Momentum/Quant"], ["winton", "Momentum/Quant"],
+  ["axq capital", "Momentum/Quant"], ["diametric", "Momentum/Quant"],
+  ["campbell & co", "Momentum/Quant"], ["campbell and co", "Momentum/Quant"],
+  ["gamma investing", "Momentum/Quant"], ["farringdon", "Momentum/Quant"],
+  ["intrinsic edge", "Momentum/Quant"], ["empowered funds", "Momentum/Quant"],
+  ["ilex capital", "Momentum/Quant"], ["qrg capital", "Momentum/Quant"],
+  ["advaya", "Momentum/Quant"], ["frec markets", "Momentum/Quant"],
+  ["quantinno", "Momentum/Quant"], ["hrt", "Momentum/Quant"],
+  // growth boutiques
+  ["xn lp", "Growth"], ["zeno equity", "Growth"], ["munro", "Growth"],
+  ["silvant", "Growth"], ["ithaka", "Growth"], ["axiom investors", "Growth"],
+  ["westfield capital", "Growth"], ["kornitzer", "Growth"],
+  ["silver heights", "Growth"], ["arrowmark", "Growth"], ["alpine peaks", "Growth"],
+  // value boutiques
+  ["ironvine", "Value"], ["meyer handelman", "Value"], ["maren capital", "Value"],
+  ["argent capital", "Value"], ["bright rock", "Value"], ["dudley & shanley", "Value"],
+  // Capital Group affiliates -> Growth
+  ["capital group investment", "Growth"],
+  // wealth / bank / insurer / pension / broker / platform -> Blend/Core
+  ["rockefeller capital", "Blend/Core"], ["janney", "Blend/Core"],
+  ["osaic", "Blend/Core"], ["mirae asset", "Blend/Core"],
+  ["credit industriel", "Blend/Core"], ["ing groep", "Blend/Core"],
+  ["allstate", "Blend/Core"], ["pathstone", "Blend/Core"],
+  ["savant capital", "Blend/Core"], ["atlantic union", "Blend/Core"],
+  ["groupama", "Blend/Core"], ["commonwealth equity", "Blend/Core"],
+  ["mml investors", "Blend/Core"], ["dekabank", "Blend/Core"],
+  ["eurizon", "Blend/Core"], ["benjamin edwards", "Blend/Core"],
+  ["mutual of america", "Blend/Core"], ["advisorshares", "Blend/Core"],
+  ["metzler", "Blend/Core"], ["abn amro", "Blend/Core"], ["alerus", "Blend/Core"],
+  ["ethic", "Blend/Core"], ["atria investments", "Blend/Core"],
+  ["mediolanum", "Blend/Core"], ["desjardins", "Blend/Core"],
+  ["ifm investors", "Blend/Core"], ["focus partners", "Blend/Core"],
+  ["ag2r", "Blend/Core"], ["state of alaska", "Blend/Core"],
+  ["harrison & partners", "Blend/Core"], ["private advisor group", "Blend/Core"],
+  ["ci investments", "Blend/Core"], ["allworth", "Blend/Core"],
+  ["freedom day", "Blend/Core"], ["pensiondanmark", "Blend/Core"],
+  ["aberdeen", "Blend/Core"], ["aia group", "Blend/Core"], ["candriam", "Blend/Core"],
+  ["omers", "Blend/Core"], ["thrivent", "Blend/Core"], ["keybank", "Blend/Core"],
+  ["union bancaire", "Blend/Core"], ["caprock", "Blend/Core"], ["ieq capital", "Blend/Core"],
+  ["choreo", "Blend/Core"], ["bessemer", "Blend/Core"], ["gilbert & cook", "Blend/Core"],
+  ["safra sarasin", "Blend/Core"], ["mai capital", "Blend/Core"],
+  ["pekao", "Blend/Core"], ["universal- beteiligungs", "Blend/Core"],
+  ["universal investment", "Blend/Core"], ["mn services", "Blend/Core"],
+  ["vermogensbeheer", "Blend/Core"], ["tidal investments", "Blend/Core"],
+  ["duncker streett", "Blend/Core"], ["wendell david", "Blend/Core"],
+  ["brasada", "Blend/Core"], ["carderock", "Blend/Core"], ["mariner, llc", "Blend/Core"],
+  ["curi capital", "Blend/Core"], ["&partners", "Blend/Core"],
+  ["moody lynn", "Blend/Core"], ["blalock williams", "Blend/Core"],
+  ["midwest financial", "Blend/Core"], ["mirador", "Blend/Core"],
+  ["verde capital", "Blend/Core"], ["entrypoint capital", "Blend/Core"],
+  ["caisses desjardins", "Blend/Core"], ["rockefeller", "Blend/Core"],
+  ["k.j. harrison", "Blend/Core"], ["pfs partners", "Blend/Core"],
+  ["kbc", "Blend/Core"], ["dekabank", "Blend/Core"], ["candriam", "Blend/Core"],
+  // ---- second batch (from the residual Unknown tail) ----
+  // quant / hedge / trading
+  ["gsa capital", "Momentum/Quant"], ["xtx", "Momentum/Quant"],
+  ["jacobs levy", "Momentum/Quant"], ["hartree", "Momentum/Quant"],
+  ["brevan howard", "Momentum/Quant"], ["centiva", "Momentum/Quant"],
+  ["atom investors", "Momentum/Quant"], ["militia capital", "Momentum/Quant"],
+  ["centerbook", "Momentum/Quant"], ["aristides", "Momentum/Quant"],
+  ["prescott group", "Momentum/Quant"], ["clare market", "Momentum/Quant"],
+  ["aster capital", "Momentum/Quant"], ["wbi investments", "Momentum/Quant"],
+  ["quartz partners", "Momentum/Quant"], ["xponance", "Momentum/Quant"],
+  ["hudson bay", "Momentum/Quant"], ["symmetry", "Momentum/Quant"],
+  // growth
+  ["dsm capital", "Growth"], ["oak ridge investments", "Growth"],
+  ["pinnacle associates", "Growth"], ["navellier", "Growth"],
+  ["fil ltd", "Growth"], ["loomis sayles", "Growth"], ["loomis, sayles", "Growth"],
+  // value
+  ["bradley foster", "Value"], ["barrett & company", "Value"],
+  ["yorktown management", "Value"], ["pekin hardy", "Value"],
+  ["oarsman", "Value"], ["applied finance", "Value"], ["barr e s", "Value"],
+  // income (dividend-growth focused)
+  ["bahl & gaynor", "Income"], ["bahl and gaynor", "Income"], ["dearborn partners", "Income"],
+  // wealth / bank / broker / insurer / pension / RIA -> Blend/Core
+  ["vestcor", "Blend/Core"], ["stephens inc", "Blend/Core"], ["oppenheimer", "Blend/Core"],
+  ["cibc", "Blend/Core"], ["ballentine", "Blend/Core"], ["capital analysts", "Blend/Core"],
+  ["americana partners", "Blend/Core"], ["unisuper", "Blend/Core"],
+  ["coldstream", "Blend/Core"], ["brighton jones", "Blend/Core"],
+  ["signaturefd", "Blend/Core"], ["corient", "Blend/Core"], ["cynosure", "Blend/Core"],
+  ["rothschild investment", "Blend/Core"], ["meitav", "Blend/Core"],
+  ["quadrant capital", "Blend/Core"], ["versant capital", "Blend/Core"],
+  ["alphacore", "Blend/Core"], ["blue chip partners", "Blend/Core"],
+  ["cardinal point", "Blend/Core"], ["wedmont", "Blend/Core"],
+  ["siemens fonds", "Blend/Core"], ["masterinvest", "Blend/Core"],
+  ["generali", "Blend/Core"], ["novem group", "Blend/Core"], ["norden group", "Blend/Core"],
+  ["firestone capital", "Blend/Core"], ["garrison bradford", "Blend/Core"],
+  ["marino, stram", "Blend/Core"], ["proficio", "Blend/Core"],
+  ["mgo one seven", "Blend/Core"], ["fourpath", "Blend/Core"], ["kera capital", "Blend/Core"],
+  ["j2 capital", "Blend/Core"], ["nvwm", "Blend/Core"], ["cypress capital", "Blend/Core"],
+  ["evergreen capital", "Blend/Core"], ["avalon capital", "Blend/Core"],
+  ["cross staff", "Blend/Core"], ["patten group", "Blend/Core"],
+  ["archer investment", "Blend/Core"], ["malaga cove", "Blend/Core"],
+  ["syon capital", "Blend/Core"], ["hengehold", "Blend/Core"],
+  ["moody aldrich", "Blend/Core"], ["indivisible partners", "Blend/Core"],
+  ["sivia capital", "Blend/Core"], ["integrated investment consultants", "Blend/Core"],
+  ["summittx", "Blend/Core"], ["themes management", "Blend/Core"],
+  ["elevatus", "Blend/Core"], ["bankchampaign", "Blend/Core"],
+  ["fidelis capital", "Blend/Core"], ["bahl", "Income"],
+  ["dearborn", "Income"], ["yorktown", "Value"], ["fidelity international", "Growth"],
+  ["colonial river", "Blend/Core"], ["yousif", "Blend/Core"],
+  ["dsm", "Growth"], ["oak ridge", "Growth"],
+];
+
+// aggressive structure/type tells used only in estimation mode
+function estHeuristic(name) {
+  const n = name.toLowerCase();
+  if (/\b(value)\b/.test(n)) return "Value";
+  if (/\b(growth)\b/.test(n)) return "Growth";
+  if (/\b(dividend|income|yield)\b/.test(n)) return "Income";
+  if (/\b(quant|systematic|arbitrage|alpha|macro|technologies|trading|market making|ops|alternative|alternatives|multi-strategy|multistrategy)\b/.test(n)) return "Momentum/Quant";
+  // institutions / diversified vehicles -> Blend/Core
+  if (/\b(bank|banc|bankshares|bankchampaign|banco|banca|bancaire|kantonalbank|sparkasse|girozentrale|savings|insurance|assurance|life|pension|retirement|superannuation|sovereign|treasurer|state of|caisse|caisses|mutual|financial|securities|brokerage|wealth|welath|advisor|advisors|advisers|advisory|counsel|fiduciary|family office|private client|trust|holdings|group plc|etf|etfs|index|indexed|solutions|services|foundation|endowment|university|systeme|vermogens)\b/.test(n)) return "Blend/Core";
+  return "Unknown";
+}
+
+// Best-effort estimate for a name that classify() left Unclassified.
+function estimate(name) {
+  const n = name.toLowerCase();
+  for (const [test, style] of EST_KNOWN) if (n.includes(test)) return style;
+  return estHeuristic(name);
+}
+
 // ── Build a breakdown block from a holdings array ───────────────────
 function block(holdings) {
   // holdings: [{filerName, shares:[cur,...]}]  (monthly format)
@@ -319,7 +458,9 @@ function block(holdings) {
     const a = agg[s];
     const members = a.examples
       .sort((x, y) => y.sh - x.sh)
-      .map((e) => ({ name: e.name, shares: e.sh }));
+      .map((e) => (s === "Unclassified"
+        ? { name: e.name, shares: e.sh, estStyle: estimate(e.name) }
+        : { name: e.name, shares: e.sh }));
     return {
       style: s,
       holders: a.holders,
@@ -331,7 +472,32 @@ function block(holdings) {
     };
   }).filter((c) => c.holders > 0);
 
-  return { total: totalHolders, totalShares, categories, coverage };
+  // Estimated style breakdown of the Unclassified bucket (best-effort, lower confidence).
+  const unc = agg["Unclassified"].examples; // [{name, sh}]
+  const estAgg = {};
+  for (const s of [...STYLES.filter((x) => x !== "Unclassified"), "Unknown"]) estAgg[s] = { style: s, holders: 0, shares: 0, members: [] };
+  for (const m of unc) {
+    const est = estimate(m.name);
+    const a = estAgg[est] || estAgg["Unknown"];
+    a.holders++; a.shares += m.sh; a.members.push({ name: m.name, shares: m.sh, estStyle: est });
+  }
+  const uncTotalH = unc.length;
+  const uncTotalS = unc.reduce((s, m) => s + m.sh, 0);
+  const unclassifiedEstimate = {
+    total: uncTotalH,
+    totalShares: uncTotalS,
+    categories: Object.values(estAgg)
+      .filter((a) => a.holders > 0)
+      .map((a) => ({
+        style: a.style,
+        holders: a.holders,
+        holderPct: uncTotalH ? Math.round((a.holders / uncTotalH) * 1000) / 10 : 0,
+        shares: a.shares,
+        sharePct: uncTotalS ? Math.round((a.shares / uncTotalS) * 1000) / 10 : 0,
+      })),
+  };
+
+  return { total: totalHolders, totalShares, categories, coverage, unclassifiedEstimate };
 }
 
 // ── Combine two holdings lists by filer (union, sum shares) ─────────
