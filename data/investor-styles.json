@@ -1,0 +1,276 @@
+{
+  "asOf": "2026-09-15T20:48:47.058Z",
+  "period": "2026-06-30",
+  "hei": {
+    "total": 776,
+    "totalShares": 43757731,
+    "categories": [
+      {
+        "style": "Growth",
+        "holders": 23,
+        "holderPct": 3,
+        "shares": 12906374,
+        "sharePct": 29.5,
+        "examples": [
+          "PRICE T ROWE ASSOCIATES INC /MD/",
+          "Capital International Investors",
+          "Capital World Investors",
+          "FMR LLC",
+          "AMERICAN CENTURY COMPANIES INC"
+        ]
+      },
+      {
+        "style": "Value",
+        "holders": 4,
+        "holderPct": 0.5,
+        "shares": 358868,
+        "sharePct": 0.8,
+        "examples": [
+          "DIMENSIONAL FUND ADVISORS LP",
+          "GAMCO INVESTORS, INC. ET AL",
+          "GABELLI FUNDS LLC",
+          "Value Partners Investments Inc."
+        ]
+      },
+      {
+        "style": "Momentum/Quant",
+        "holders": 28,
+        "holderPct": 3.6,
+        "shares": 3122867,
+        "sharePct": 7.1,
+        "examples": [
+          "TWO SIGMA INVESTMENTS, LP",
+          "BALYASNY ASSET MANAGEMENT L.P.",
+          "PANAGORA ASSET MANAGEMENT INC",
+          "Squarepoint Ops LLC",
+          "ARROWSTREET CAPITAL, LIMITED PARTNERSHIP"
+        ]
+      },
+      {
+        "style": "Income",
+        "holders": 1,
+        "holderPct": 0.1,
+        "shares": 39203,
+        "sharePct": 0.1,
+        "examples": [
+          "DIVIDEND ASSETS CAPITAL, LLC"
+        ]
+      },
+      {
+        "style": "Blend/Core",
+        "holders": 455,
+        "holderPct": 58.6,
+        "shares": 25641248,
+        "sharePct": 58.6,
+        "examples": [
+          "BlackRock, Inc.  (BLK)",
+          "VANGUARD PORTFOLIO MANAGEMENT LLC",
+          "STATE STREET CORP  (STT, STT-PG)",
+          "VANGUARD CAPITAL MANAGEMENT LLC",
+          "UBS Group AG  (UBS)"
+        ]
+      },
+      {
+        "style": "Unclassified",
+        "holders": 265,
+        "holderPct": 34.1,
+        "shares": 1689171,
+        "sharePct": 3.9,
+        "examples": [
+          "Ilex Capital Partners (UK) LLP",
+          "One Madison Group LLC",
+          "Longaeva Partners L.P.",
+          "Jump Financial, LLC",
+          "Munro Partners"
+        ]
+      }
+    ],
+    "coverage": {
+      "curated": 160,
+      "heuristic": 351,
+      "unclassified": 265
+    }
+  },
+  "heia": {
+    "total": 668,
+    "totalShares": 70031276,
+    "categories": [
+      {
+        "style": "Growth",
+        "holders": 21,
+        "holderPct": 3.1,
+        "shares": 9950147,
+        "sharePct": 14.2,
+        "examples": [
+          "FMR LLC",
+          "FRED ALGER MANAGEMENT, LLC",
+          "KAYNE ANDERSON RUDNICK INVESTMENT MANAGEMENT LLC",
+          "DF DENT & CO INC",
+          "BAMCO INC /NY/"
+        ]
+      },
+      {
+        "style": "Value",
+        "holders": 8,
+        "holderPct": 1.2,
+        "shares": 2013692,
+        "sharePct": 2.9,
+        "examples": [
+          "Giverny Capital Inc.",
+          "FENIMORE ASSET MANAGEMENT INC",
+          "DIMENSIONAL FUND ADVISORS LP",
+          "WEITZ INVESTMENT MANAGEMENT, INC.",
+          "Vulcan Value Partners, LLC"
+        ]
+      },
+      {
+        "style": "Momentum/Quant",
+        "holders": 32,
+        "holderPct": 4.8,
+        "shares": 4339273,
+        "sharePct": 6.2,
+        "examples": [
+          "ARISTEIA CAPITAL, L.L.C.",
+          "MILLENNIUM MANAGEMENT LLC",
+          "ARROWSTREET CAPITAL, LIMITED PARTNERSHIP",
+          "Qube Research & Technologies Ltd",
+          "MARSHALL WACE, LLP"
+        ]
+      },
+      {
+        "style": "Income",
+        "holders": 1,
+        "holderPct": 0.1,
+        "shares": 5898,
+        "sharePct": 0,
+        "examples": [
+          "DIVIDEND ASSETS CAPITAL, LLC"
+        ]
+      },
+      {
+        "style": "Blend/Core",
+        "holders": 401,
+        "holderPct": 60,
+        "shares": 48198334,
+        "sharePct": 68.8,
+        "examples": [
+          "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
+          "BlackRock, Inc.  (BLK)",
+          "VANGUARD CAPITAL MANAGEMENT LLC",
+          "VANGUARD PORTFOLIO MANAGEMENT LLC",
+          "STATE OF WISCONSIN INVESTMENT BOARD"
+        ]
+      },
+      {
+        "style": "Unclassified",
+        "holders": 205,
+        "holderPct": 30.7,
+        "shares": 5523932,
+        "sharePct": 7.9,
+        "examples": [
+          "Maren Capital LLC",
+          "Port Capital LLC",
+          "GOBI CAPITAL LLC",
+          "XN LP",
+          "Logan Stone Capital, LLC"
+        ]
+      }
+    ],
+    "coverage": {
+      "curated": 170,
+      "heuristic": 293,
+      "unclassified": 205
+    }
+  },
+  "combined": {
+    "total": 1008,
+    "totalShares": 113789007,
+    "categories": [
+      {
+        "style": "Growth",
+        "holders": 30,
+        "holderPct": 3,
+        "shares": 22856521,
+        "sharePct": 20.1,
+        "examples": [
+          "FMR LLC",
+          "Capital International Investors",
+          "PRICE T ROWE ASSOCIATES INC /MD/",
+          "Capital World Investors",
+          "FRED ALGER MANAGEMENT, LLC"
+        ]
+      },
+      {
+        "style": "Value",
+        "holders": 10,
+        "holderPct": 1,
+        "shares": 2372560,
+        "sharePct": 2.1,
+        "examples": [
+          "Giverny Capital Inc.",
+          "DIMENSIONAL FUND ADVISORS LP",
+          "FENIMORE ASSET MANAGEMENT INC",
+          "WEITZ INVESTMENT MANAGEMENT, INC.",
+          "Vulcan Value Partners, LLC"
+        ]
+      },
+      {
+        "style": "Momentum/Quant",
+        "holders": 38,
+        "holderPct": 3.8,
+        "shares": 7462140,
+        "sharePct": 6.6,
+        "examples": [
+          "ARROWSTREET CAPITAL, LIMITED PARTNERSHIP",
+          "MILLENNIUM MANAGEMENT LLC",
+          "ARISTEIA CAPITAL, L.L.C.",
+          "TWO SIGMA INVESTMENTS, LP",
+          "BALYASNY ASSET MANAGEMENT L.P."
+        ]
+      },
+      {
+        "style": "Income",
+        "holders": 1,
+        "holderPct": 0.1,
+        "shares": 45101,
+        "sharePct": 0,
+        "examples": [
+          "DIVIDEND ASSETS CAPITAL, LLC"
+        ]
+      },
+      {
+        "style": "Blend/Core",
+        "holders": 576,
+        "holderPct": 57.1,
+        "shares": 73839582,
+        "sharePct": 64.9,
+        "examples": [
+          "BlackRock, Inc.  (BLK)",
+          "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
+          "VANGUARD PORTFOLIO MANAGEMENT LLC",
+          "VANGUARD CAPITAL MANAGEMENT LLC",
+          "STATE STREET CORP  (STT, STT-PG)"
+        ]
+      },
+      {
+        "style": "Unclassified",
+        "holders": 353,
+        "holderPct": 35,
+        "shares": 7213103,
+        "sharePct": 6.3,
+        "examples": [
+          "Maren Capital LLC",
+          "Port Capital LLC",
+          "GOBI CAPITAL LLC",
+          "XN LP",
+          "Ironvine Capital Partners, LLC"
+        ]
+      }
+    ],
+    "coverage": {
+      "curated": 192,
+      "heuristic": 463,
+      "unclassified": 353
+    }
+  }
+}

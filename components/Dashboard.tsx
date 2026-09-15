@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import type { TickerData, Holding, Action, MonthlyData, FundData, BeneficialData, PeersData, PricesData, GeographyData, ShortInterestData, FundamentalsData, EarningsData, OptionsData, SelfAuditData } from "@/lib/types";
+import type { TickerData, Holding, Action, MonthlyData, FundData, BeneficialData, PeersData, PricesData, GeographyData, ShortInterestData, FundamentalsData, EarningsData, OptionsData, SelfAuditData, InvestorStylesData } from "@/lib/types";
 import MonthlySnapshot from "@/components/MonthlySnapshot";
 import MarketPerformance from "@/components/MarketPerformance";
 import OwnershipAnalytics from "@/components/OwnershipAnalytics";
@@ -10,11 +10,13 @@ import ShortInterest from "@/components/ShortInterest";
 import Valuation from "@/components/Valuation";
 import EarningsCalendar from "@/components/EarningsCalendar";
 import OptionsPositions from "@/components/OptionsPositions";
+import InvestorStyles from "@/components/InvestorStyles";
 
-type View = "weekly" | "monthly" | "markets" | "valuation" | "short" | "options" | "earnings";
+type View = "weekly" | "monthly" | "styles" | "markets" | "valuation" | "short" | "options" | "earnings";
 const VIEWS: { id: View; label: string }[] = [
   { id: "weekly", label: "Ownership Tracker" },
   { id: "monthly", label: "Ownership Report" },
+  { id: "styles", label: "Investor Styles" },
   { id: "short", label: "Short Interest" },
   { id: "options", label: "Options" },
   { id: "markets", label: "Markets & Performance" },
@@ -95,6 +97,7 @@ export default function Dashboard({
   fundamentals = null,
   earnings = null,
   options = null,
+  investorStyles = null,
   audit = null,
 }: {
   hei: TickerData | null;
@@ -112,6 +115,7 @@ export default function Dashboard({
   fundamentals?: FundamentalsData | null;
   earnings?: EarningsData | null;
   options?: OptionsData | null;
+  investorStyles?: InvestorStylesData | null;
   audit?: SelfAuditData | null;
 }) {
   const [view, setView] = useState<View>("weekly");
@@ -257,6 +261,8 @@ export default function Dashboard({
                   <>13F put &amp; call positions on HEICO</>
                 ) : view === "valuation" ? (
                   <>HEICO vs peers · Live multiples &amp; fundamentals</>
+                ) : view === "styles" ? (
+                  <>What kind of money owns HEICO · By investment style</>
                 ) : view === "earnings" ? (
                   <>HEICO + peers · Estimated report dates</>
                 ) : (
@@ -320,6 +326,7 @@ export default function Dashboard({
         {view === "short" && <ShortInterest data={shortInterest} />}
         {view === "options" && <OptionsPositions data={options} />}
         {view === "earnings" && <EarningsCalendar data={earnings} />}
+        {view === "styles" && <InvestorStyles data={investorStyles} />}
       </div>
 
       <div className={`max-w-7xl mx-auto px-4 sm:px-6 py-6 space-y-6 ${view !== "weekly" ? "hidden" : ""}`}>

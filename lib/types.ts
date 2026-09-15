@@ -225,6 +225,29 @@ export interface OptionsData {
   holders: OptionHolder[];
 }
 
+// ── Investor style classification (Growth/Value/Momentum/Income/Blend) ──
+export interface StyleCategory {
+  style: string;
+  holders: number;
+  holderPct: number;
+  shares: number;
+  sharePct: number;
+  examples: string[];
+}
+export interface StyleBlock {
+  total: number;
+  totalShares: number;
+  categories: StyleCategory[];
+  coverage: { curated: number; heuristic: number; unclassified: number };
+}
+export interface InvestorStylesData {
+  asOf: string;
+  period: string | null;
+  hei: StyleBlock;
+  heia: StyleBlock;
+  combined: StyleBlock;
+}
+
 // ── Self-audit / data-integrity status ──
 export interface AuditFinding { level: string; check: string; detail: string }
 export interface SelfAuditData {
