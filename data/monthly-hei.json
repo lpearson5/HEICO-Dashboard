@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-14T16:55:57.345Z",
+  "lastUpdated": "2026-09-15T15:32:57.182Z",
   "summary": {
     "institutions": 776,
     "totalShares": 43757731,
     "pctOut": 79.21000000000001,
-    "newHolders": 123,
+    "newHolders": 121,
     "sellouts": 87,
-    "bought": 253,
-    "sold": 266,
+    "bought": 254,
+    "sold": 267,
     "held": 134
   },
   "top10": [
@@ -581,24 +581,6 @@
       "voteNone": 0
     },
     {
-      "filerName": "Quantbot Technologies LP",
-      "filerCik": "1512991",
-      "shares": [
-        4864,
-        null,
-        33633,
-        38532
-      ],
-      "netChg": 4864,
-      "currentValue": 1732508,
-      "pctOut": 0.01,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 4864,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
       "filerName": "Jupiter Topco LLC",
       "filerCik": "2146052",
       "shares": [
@@ -687,6 +669,24 @@
       "voteSole": 2500,
       "voteShared": 0,
       "voteNone": 0
+    },
+    {
+      "filerName": "COLDSTREAM CAPITAL MANAGEMENT INC",
+      "filerCik": "1082339",
+      "shares": [
+        2447,
+        null,
+        2098,
+        1084
+      ],
+      "netChg": 2447,
+      "currentValue": 871517,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 764,
+      "voteShared": 0,
+      "voteNone": 1683
     },
     {
       "filerName": "WBI INVESTMENTS, LLC",
@@ -1191,24 +1191,6 @@
       "voteSole": 936,
       "voteShared": 0,
       "voteNone": 0
-    },
-    {
-      "filerName": "Vise Technologies, Inc.",
-      "filerCik": "1812090",
-      "shares": [
-        924,
-        null,
-        765,
-        652
-      ],
-      "netChg": 924,
-      "currentValue": 329125,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 924
     },
     {
       "filerName": "Mariner, LLC",
@@ -1983,24 +1965,6 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 234
-    },
-    {
-      "filerName": "Cornerstone Planning Group LLC",
-      "filerCik": "1822587",
-      "shares": [
-        178,
-        null,
-        190,
-        218
-      ],
-      "netChg": 178,
-      "currentValue": 59689,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 178
     },
     {
       "filerName": "Walleye Capital LLC",
@@ -8006,7 +7970,7 @@
       "shares": [
         11594,
         11971,
-        11984,
+        null,
         11755
       ],
       "netChg": -377,
@@ -9535,14 +9499,14 @@
       "filerCik": "1512991",
       "shares": [
         4864,
-        null,
+        4076,
         33633,
         38532
       ],
-      "netChg": 4864,
+      "netChg": 788,
       "currentValue": 1732508,
       "pctOut": 0.01,
-      "action": "New",
+      "action": "Bought",
       "discretion": "SOLE",
       "voteSole": 4864,
       "voteShared": 0,
@@ -11029,14 +10993,14 @@
       "filerCik": "1082339",
       "shares": [
         2447,
-        2435,
+        null,
         2098,
         1084
       ],
-      "netChg": 12,
+      "netChg": 2447,
       "currentValue": 871517,
       "pctOut": 0,
-      "action": "Bought",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 764,
       "voteShared": 0,
@@ -13621,14 +13585,14 @@
       "filerCik": "1812090",
       "shares": [
         924,
-        null,
+        765,
         765,
         652
       ],
-      "netChg": 924,
+      "netChg": 159,
       "currentValue": 329125,
       "pctOut": 0,
-      "action": "New",
+      "action": "Bought",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -15709,14 +15673,14 @@
       "filerCik": "1822587",
       "shares": [
         178,
-        null,
+        179,
         190,
         218
       ],
-      "netChg": 178,
+      "netChg": -1,
       "currentValue": 59689,
       "pctOut": 0,
-      "action": "New",
+      "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -19881,12 +19845,12 @@
       "voteNone": null
     },
     {
-      "filerName": "V-Square Quantitative Management LLC",
-      "filerCik": "1943239",
+      "filerName": "Legato Capital Management LLC",
+      "filerCik": "1442641",
       "shares": [
         null,
         null,
-        115,
+        1077,
         null
       ],
       "netChg": null,
@@ -19899,12 +19863,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Legato Capital Management LLC",
-      "filerCik": "1442641",
+      "filerName": "V-Square Quantitative Management LLC",
+      "filerCik": "1943239",
       "shares": [
         null,
         null,
-        1077,
+        115,
         null
       ],
       "netChg": null,
@@ -20691,24 +20655,6 @@
       "voteNone": null
     },
     {
-      "filerName": "CIBC WORLD MARKETS CORP",
-      "filerCik": "1056527",
-      "shares": [
-        null,
-        null,
-        1528,
-        null
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "PICTON MAHONEY ASSET MANAGEMENT",
       "filerCik": "1539041",
       "shares": [
@@ -20721,6 +20667,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "CIBC WORLD MARKETS CORP",
+      "filerCik": "1056527",
+      "shares": [
+        null,
+        null,
+        1528,
+        null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -20817,24 +20781,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Capula Management Ltd",
-      "filerCik": "1557017",
-      "shares": [
-        null,
-        3773,
-        null,
-        null
-      ],
-      "netChg": -3773,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "HARBOR CAPITAL ADVISORS, INC.",
       "filerCik": "1039128",
       "shares": [
@@ -20847,6 +20793,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Capula Management Ltd",
+      "filerCik": "1557017",
+      "shares": [
+        null,
+        3773,
+        null,
+        null
+      ],
+      "netChg": -3773,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
