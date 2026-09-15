@@ -317,14 +317,17 @@ function block(holdings) {
 
   const categories = STYLES.map((s) => {
     const a = agg[s];
-    const examples = a.examples.sort((x, y) => y.sh - x.sh).slice(0, 5).map((e) => e.name);
+    const members = a.examples
+      .sort((x, y) => y.sh - x.sh)
+      .map((e) => ({ name: e.name, shares: e.sh }));
     return {
       style: s,
       holders: a.holders,
       holderPct: totalHolders ? Math.round((a.holders / totalHolders) * 1000) / 10 : 0,
       shares: a.shares,
       sharePct: totalShares ? Math.round((a.shares / totalShares) * 1000) / 10 : 0,
-      examples,
+      examples: members.slice(0, 5).map((m) => m.name), // kept for compact summaries
+      members,                                          // full drill-down list
     };
   }).filter((c) => c.holders > 0);
 

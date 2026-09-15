@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, Fragment } from "react";
 import type { InvestorStylesData, StyleBlock, StyleCategory } from "@/lib/types";
 
 // Fixed color + description per style so the chart, bar and table stay in sync.
@@ -79,6 +79,7 @@ function StackBar({ block, metric }: { block: StyleBlock; metric: "shares" | "ho
 export default function InvestorStyles({ data }: { data: InvestorStylesData | null }) {
   const [scope, setScope] = useState<"combined" | "hei" | "heia">("combined");
   const [metric, setMetric] = useState<"shares" | "holders">("shares");
+  const [openStyle, setOpenStyle] = useState<string | null>(null);
 
   if (!data) {
     return <div className="rounded-xl border border-gray-200 bg-white p-6 text-sm text-gray-500">Investor-style data hasn’t been generated yet. It appears after the next daily data refresh.</div>;
@@ -157,8 +158,11 @@ export default function InvestorStyles({ data }: { data: InvestorStylesData | nu
         </div>
       </div>
 
-      {/* Detailed breakdown table */}
+      {/* Detailed breakdown table — click a row to see every investor in it */}
       <div className="rounded-xl border border-gray-200 bg-white shadow-sm overflow-hidden">
+        <div className="border-b border-gray-100 px-4 py-2 text-xs text-gray-400">
+          Click a style to expand the full list of investors in it.
+        </div>
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
@@ -168,26 +172,66 @@ export default function InvestorStyles({ data }: { data: InvestorStylesData | nu
                 <th className="px-4 py-3 text-right">% of holders</th>
                 <th className="px-4 py-3 text-right">Shares</th>
                 <th className="px-4 py-3 text-right">% of shares</th>
-                <th className="px-4 py-3">Representative holders</th>
+                <th className="px-4 py-3"></th>
               </tr>
             </thead>
             <tbody>
-              {cats.map((c) => (
-                <tr key={c.style} className="border-b border-gray-100 last:border-0 align-top">
-                  <td className="px-4 py-3">
-                    <div className="flex items-center gap-2">
-                      <span className="inline-block h-3 w-3 shrink-0 rounded-sm" style={{ backgroundColor: STYLE_META[c.style]?.color }} />
-                      <span className="font-medium text-gray-900">{c.style}</span>
-                    </div>
-                    <div className="mt-1 max-w-xs text-xs leading-snug text-gray-400">{STYLE_META[c.style]?.blurb}</div>
-                  </td>
-                  <td className="px-4 py-3 text-right tabular-nums text-gray-700">{c.holders}</td>
-                  <td className="px-4 py-3 text-right tabular-nums font-semibold text-gray-900">{c.holderPct}%</td>
-                  <td className="px-4 py-3 text-right tabular-nums text-gray-700">{fmtSh(c.shares)}</td>
-                  <td className="px-4 py-3 text-right tabular-nums font-semibold text-gray-900">{c.sharePct}%</td>
-                  <td className="px-4 py-3 text-xs text-gray-500">{c.examples.slice(0, 4).join(", ")}{c.examples.length ? "…" : ""}</td>
-                </tr>
-              ))}
+              {cats.map((c) => {
+                const open = openStyle === c.style;
+                const catShares = c.shares || 1;
+                return (
+                  <Fragment key={c.style}>
+                    <tr
+                      onClick={() => setOpenStyle(open ? null : c.style)}
+                      className={`cursor-pointer border-b border-gray-100 align-top transition-colors hover:bg-gray-50 ${open ? "bg-gray-50" : ""}`}
+                    >
+                      <td className="px-4 py-3">
+                        <div className="flex items-center gap-2">
+                          <span className={`text-gray-400 transition-transform ${open ? "rotate-90" : ""}`}>▸</span>
+                          <span className="inline-block h-3 w-3 shrink-0 rounded-sm" style={{ backgroundColor: STYLE_META[c.style]?.color }} />
+                          <span className="font-medium text-gray-900">{c.style}</span>
+                        </div>
+                        <div className="mt-1 max-w-xs pl-6 text-xs leading-snug text-gray-400">{STYLE_META[c.style]?.blurb}</div>
+                      </td>
+                      <td className="px-4 py-3 text-right tabular-nums text-gray-700">{c.holders}</td>
+                      <td className="px-4 py-3 text-right tabular-nums font-semibold text-gray-900">{c.holderPct}%</td>
+                      <td className="px-4 py-3 text-right tabular-nums text-gray-700">{fmtSh(c.shares)}</td>
+                      <td className="px-4 py-3 text-right tabular-nums font-semibold text-gray-900">{c.sharePct}%</td>
+                      <td className="px-4 py-3 text-right text-xs font-medium whitespace-nowrap" style={{ color: STYLE_META[c.style]?.color }}>
+                        {open ? "Hide" : `See all ${c.holders} ▾`}
+                      </td>
+                    </tr>
+                    {open && (
+                      <tr className="border-b border-gray-100 bg-gray-50/60">
+                        <td colSpan={6} className="px-4 pb-4 pt-1">
+                          <div className="max-h-96 overflow-y-auto rounded-lg border border-gray-200 bg-white">
+                            <table className="w-full text-sm">
+                              <thead className="sticky top-0 bg-gray-50">
+                                <tr className="text-left text-[11px] uppercase tracking-wide text-gray-400">
+                                  <th className="px-3 py-2 w-10 text-right">#</th>
+                                  <th className="px-3 py-2">Investor</th>
+                                  <th className="px-3 py-2 text-right">Shares</th>
+                                  <th className="px-3 py-2 text-right">% of {c.style}</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                {c.members.map((m, i) => (
+                                  <tr key={m.name + i} className="border-t border-gray-100">
+                                    <td className="px-3 py-1.5 text-right tabular-nums text-gray-400">{i + 1}</td>
+                                    <td className="px-3 py-1.5 text-gray-800">{m.name}</td>
+                                    <td className="px-3 py-1.5 text-right tabular-nums text-gray-700">{m.shares.toLocaleString("en-US")}</td>
+                                    <td className="px-3 py-1.5 text-right tabular-nums text-gray-500">{((m.shares / catShares) * 100).toFixed(1)}%</td>
+                                  </tr>
+                                ))}
+                              </tbody>
+                            </table>
+                          </div>
+                        </td>
+                      </tr>
+                    )}
+                  </Fragment>
+                );
+              })}
             </tbody>
           </table>
         </div>

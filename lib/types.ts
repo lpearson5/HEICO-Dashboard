@@ -226,6 +226,7 @@ export interface OptionsData {
 }
 
 // ── Investor style classification (Growth/Value/Momentum/Income/Blend) ──
+export interface StyleMember { name: string; shares: number }
 export interface StyleCategory {
   style: string;
   holders: number;
@@ -233,6 +234,7 @@ export interface StyleCategory {
   shares: number;
   sharePct: number;
   examples: string[];
+  members: StyleMember[];
 }
 export interface StyleBlock {
   total: number;
