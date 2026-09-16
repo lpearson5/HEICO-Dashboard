@@ -8,16 +8,16 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-15T15:32:57.182Z",
+  "lastUpdated": "2026-09-16T15:24:45.687Z",
   "summary": {
-    "institutions": 776,
-    "totalShares": 43757731,
+    "institutions": 777,
+    "totalShares": 43758612,
     "pctOut": 79.21000000000001,
-    "newHolders": 121,
-    "sellouts": 87,
-    "bought": 254,
-    "sold": 267,
-    "held": 134
+    "newHolders": 122,
+    "sellouts": 86,
+    "bought": 256,
+    "sold": 266,
+    "held": 133
   },
   "top10": [
     {
@@ -671,24 +671,6 @@
       "voteNone": 0
     },
     {
-      "filerName": "COLDSTREAM CAPITAL MANAGEMENT INC",
-      "filerCik": "1082339",
-      "shares": [
-        2447,
-        null,
-        2098,
-        1084
-      ],
-      "netChg": 2447,
-      "currentValue": 871517,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 764,
-      "voteShared": 0,
-      "voteNone": 1683
-    },
-    {
       "filerName": "WBI INVESTMENTS, LLC",
       "filerCik": "1397424",
       "shares": [
@@ -777,6 +759,24 @@
       "voteSole": 1756,
       "voteShared": 0,
       "voteNone": 0
+    },
+    {
+      "filerName": "MBL Wealth, LLC",
+      "filerCik": "1845785",
+      "shares": [
+        1749,
+        null,
+        1817,
+        1772
+      ],
+      "netChg": 1749,
+      "currentValue": 622977,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 1749
     },
     {
       "filerName": "FOX RUN MANAGEMENT, L.L.C.",
@@ -2075,6 +2075,24 @@
       "voteNone": 0
     },
     {
+      "filerName": "EASTERN BANK",
+      "filerCik": "1126395",
+      "shares": [
+        19,
+        null,
+        19,
+        null
+      ],
+      "netChg": 19,
+      "currentValue": 6768,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 19,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "Wealth Enhancement Trust Services, Inc.",
       "filerCik": "2067696",
       "shares": [
@@ -3364,24 +3382,6 @@
         887
       ],
       "netChg": -875,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Anchor Investment Management, LLC",
-      "filerCik": "1634149",
-      "shares": [
-        null,
-        872,
-        872,
-        922
-      ],
-      "netChg": -872,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -10993,14 +10993,14 @@
       "filerCik": "1082339",
       "shares": [
         2447,
-        null,
+        2435,
         2098,
         1084
       ],
-      "netChg": 2447,
+      "netChg": 12,
       "currentValue": 871517,
       "pctOut": 0,
-      "action": "New",
+      "action": "Bought",
       "discretion": "SOLE",
       "voteSole": 764,
       "voteShared": 0,
@@ -11677,14 +11677,14 @@
       "filerCik": "1845785",
       "shares": [
         1749,
-        1756,
+        null,
         1817,
         1772
       ],
-      "netChg": -7,
+      "netChg": 1749,
       "currentValue": 622977,
       "pctOut": 0,
-      "action": "Sold",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -13813,6 +13813,24 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 881
+    },
+    {
+      "filerName": "Anchor Investment Management, LLC",
+      "filerCik": "1634149",
+      "shares": [
+        881,
+        872,
+        872,
+        922
+      ],
+      "netChg": 9,
+      "currentValue": 313803,
+      "pctOut": 0,
+      "action": "Bought",
+      "discretion": "SOLE",
+      "voteSole": 881,
+      "voteShared": 0,
+      "voteNone": 0
     },
     {
       "filerName": "Quadcap Wealth Management, LLC",
@@ -16789,14 +16807,14 @@
       "filerCik": "1126395",
       "shares": [
         19,
-        19,
+        null,
         19,
         null
       ],
-      "netChg": 0,
+      "netChg": 19,
       "currentValue": 6768,
       "pctOut": 0,
-      "action": "No Change",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 19,
       "voteShared": 0,
@@ -19053,24 +19071,6 @@
       "voteNone": null
     },
     {
-      "filerName": "MQS Management LLC",
-      "filerCik": "1759395",
-      "shares": [
-        null,
-        890,
-        null,
-        837
-      ],
-      "netChg": -890,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Modus Advisors, LLC",
       "filerCik": "1799284",
       "shares": [
@@ -19083,6 +19083,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "MQS Management LLC",
+      "filerCik": "1759395",
+      "shares": [
+        null,
+        890,
+        null,
+        837
+      ],
+      "netChg": -890,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19575,13 +19593,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Bridgefront Capital, LLC",
-      "filerCik": "1725690",
+      "filerName": "Inspire Advisors, LLC",
+      "filerCik": "1810558",
       "shares": [
         null,
         null,
         null,
-        1905
+        2229
       ],
       "netChg": null,
       "currentValue": null,
@@ -19593,13 +19611,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Inspire Advisors, LLC",
-      "filerCik": "1810558",
+      "filerName": "Bridgefront Capital, LLC",
+      "filerCik": "1725690",
       "shares": [
         null,
         null,
         null,
-        2229
+        1905
       ],
       "netChg": null,
       "currentValue": null,
@@ -19755,13 +19773,13 @@
       "voteNone": null
     },
     {
-      "filerName": "WINNOW WEALTH LLC",
-      "filerCik": "2079687",
+      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
+      "filerCik": "1510434",
       "shares": [
         null,
         null,
-        1,
-        7
+        1447,
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -19773,13 +19791,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
-      "filerCik": "1510434",
+      "filerName": "WINNOW WEALTH LLC",
+      "filerCik": "2079687",
       "shares": [
         null,
         null,
-        1447,
-        null
+        1,
+        7
       ],
       "netChg": null,
       "currentValue": null,
@@ -20025,24 +20043,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Elequin Capital, LP",
-      "filerCik": "1810873",
-      "shares": [
-        null,
-        1,
-        null,
-        null
-      ],
-      "netChg": -1,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Key Capital Management, INC",
       "filerCik": "2107249",
       "shares": [
@@ -20052,6 +20052,24 @@
         null
       ],
       "netChg": -5,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Elequin Capital, LP",
+      "filerCik": "1810873",
+      "shares": [
+        null,
+        1,
+        null,
+        null
+      ],
+      "netChg": -1,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -20601,24 +20619,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Anchor Investment Management, LLC",
-      "filerCik": "1634149",
-      "shares": [
-        null,
-        872,
-        872,
-        922
-      ],
-      "netChg": -872,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Activest Wealth Management",
       "filerCik": "1883134",
       "shares": [
@@ -20655,24 +20655,6 @@
       "voteNone": null
     },
     {
-      "filerName": "PICTON MAHONEY ASSET MANAGEMENT",
-      "filerCik": "1539041",
-      "shares": [
-        null,
-        1248,
-        1173,
-        null
-      ],
-      "netChg": -1248,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "CIBC WORLD MARKETS CORP",
       "filerCik": "1056527",
       "shares": [
@@ -20685,6 +20667,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "PICTON MAHONEY ASSET MANAGEMENT",
+      "filerCik": "1539041",
+      "shares": [
+        null,
+        1248,
+        1173,
+        null
+      ],
+      "netChg": -1248,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -20781,24 +20781,6 @@
       "voteNone": null
     },
     {
-      "filerName": "HARBOR CAPITAL ADVISORS, INC.",
-      "filerCik": "1039128",
-      "shares": [
-        null,
-        null,
-        680,
-        680
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Capula Management Ltd",
       "filerCik": "1557017",
       "shares": [
@@ -20811,6 +20793,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "HARBOR CAPITAL ADVISORS, INC.",
+      "filerCik": "1039128",
+      "shares": [
+        null,
+        null,
+        680,
+        680
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,

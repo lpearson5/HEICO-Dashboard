@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-09-15T15:32:57.182Z",
+  "lastUpdated": "2026-09-16T15:24:45.687Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -1659,7 +1659,7 @@
       "currentValue": 10823189,
       "action": "Bought",
       "firstSeen": "2026-09-09",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "PUBLIC EMPLOYEES RETIREMENT SYSTEM OF OHIO",
@@ -4911,7 +4911,7 @@
       "currentValue": 772216,
       "action": "Bought",
       "firstSeen": "2026-09-09",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Lombard Odier Asset Management (USA) Corp",
@@ -6580,6 +6580,18 @@
       "action": "New Position",
       "firstSeen": "2026-08-11",
       "newThisWeek": false
+    },
+    {
+      "filerName": "Anchor Investment Management, LLC",
+      "filerCik": "1634149",
+      "currentShares": 881,
+      "priorShares": 872,
+      "change": 9,
+      "pctChange": 1,
+      "currentValue": 313803,
+      "action": "Bought",
+      "firstSeen": "2026-09-15",
+      "newThisWeek": true
     },
     {
       "filerName": "Quadcap Wealth Management, LLC",
@@ -9858,10 +9870,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Elequin Capital, LP",
-      "filerCik": "1810873",
+      "filerName": "Key Capital Management, INC",
+      "filerCik": "2107249",
       "currentShares": null,
-      "priorShares": 1,
+      "priorShares": 5,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -9870,10 +9882,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Key Capital Management, INC",
-      "filerCik": "2107249",
+      "filerName": "Elequin Capital, LP",
+      "filerCik": "1810873",
       "currentShares": null,
-      "priorShares": 5,
+      "priorShares": 1,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -10046,18 +10058,6 @@
       "pctChange": null,
       "currentValue": null,
       "action": "Sell Out",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Anchor Investment Management, LLC",
-      "filerCik": "1634149",
-      "currentShares": null,
-      "priorShares": 872,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
       "firstSeen": null,
       "newThisWeek": false
     },

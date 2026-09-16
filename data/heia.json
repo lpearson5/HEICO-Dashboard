@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-09-15T15:32:57.182Z",
+  "lastUpdated": "2026-09-16T15:24:45.687Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -4659,7 +4659,7 @@
       "currentValue": 539697,
       "action": "Sold",
       "firstSeen": "2026-09-09",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Crestwood Advisors Group, LLC",
@@ -5103,7 +5103,7 @@
       "currentValue": 383770,
       "action": "Sold",
       "firstSeen": "2026-09-09",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "SOMERVILLE KURT F",
@@ -6532,6 +6532,18 @@
       "action": "Bought",
       "firstSeen": "2026-07-15",
       "newThisWeek": false
+    },
+    {
+      "filerName": "Anchor Investment Management, LLC",
+      "filerCik": "1634149",
+      "currentShares": 188,
+      "priorShares": 185,
+      "change": 3,
+      "pctChange": 1.6,
+      "currentValue": 48487,
+      "action": "Bought",
+      "firstSeen": "2026-09-15",
+      "newThisWeek": true
     },
     {
       "filerName": "HARBOUR INVESTMENTS, INC.",
@@ -8307,18 +8319,6 @@
       "currentValue": null,
       "action": "Sell Out",
       "firstSeen": "2026-09-02",
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Anchor Investment Management, LLC",
-      "filerCik": "1634149",
-      "currentShares": null,
-      "priorShares": 185,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
       "newThisWeek": false
     },
     {
