@@ -438,17 +438,26 @@ function block(holdings) {
 
   const agg = {};
   for (const s of STYLES) agg[s] = { style: s, holders: 0, shares: 0, examples: [] };
-  const coverage = { curated: 0, heuristic: 0, unclassified: 0 };
+  const coverage = { curated: 0, heuristic: 0, estimated: 0, unknown: 0 };
 
   for (const r of rows) {
-    const { style, conf } = classify(r.name);
+    let { style, conf } = classify(r.name);
+    let est = false;
+    if (style === "Unclassified") {
+      // No published style in our DB — try a best-effort estimate and, if we get
+      // one, FOLD the fund into that real category (marked as estimated).
+      const e = estimate(r.name);
+      if (e !== "Unknown") { style = e; est = true; coverage.estimated++; }
+      else { coverage.unknown++; }
+    } else if (conf === "curated") {
+      coverage.curated++;
+    } else {
+      coverage.heuristic++;
+    }
     const a = agg[style];
     a.holders++;
     a.shares += r.sh;
-    if (style === "Unclassified") coverage.unclassified++;
-    else if (conf === "curated") coverage.curated++;
-    else coverage.heuristic++;
-    a.examples.push({ name: r.name, sh: r.sh });
+    a.examples.push({ name: r.name, sh: r.sh, est });
   }
 
   const totalHolders = rows.length;
@@ -458,46 +467,20 @@ function block(holdings) {
     const a = agg[s];
     const members = a.examples
       .sort((x, y) => y.sh - x.sh)
-      .map((e) => (s === "Unclassified"
-        ? { name: e.name, shares: e.sh, estStyle: estimate(e.name) }
-        : { name: e.name, shares: e.sh }));
+      .map((e) => ({ name: e.name, shares: e.sh, est: !!e.est }));
     return {
       style: s,
       holders: a.holders,
       holderPct: totalHolders ? Math.round((a.holders / totalHolders) * 1000) / 10 : 0,
       shares: a.shares,
       sharePct: totalShares ? Math.round((a.shares / totalShares) * 1000) / 10 : 0,
+      estCount: members.filter((m) => m.est).length, // how many are best-effort estimates
       examples: members.slice(0, 5).map((m) => m.name), // kept for compact summaries
       members,                                          // full drill-down list
     };
   }).filter((c) => c.holders > 0);
 
-  // Estimated style breakdown of the Unclassified bucket (best-effort, lower confidence).
-  const unc = agg["Unclassified"].examples; // [{name, sh}]
-  const estAgg = {};
-  for (const s of [...STYLES.filter((x) => x !== "Unclassified"), "Unknown"]) estAgg[s] = { style: s, holders: 0, shares: 0, members: [] };
-  for (const m of unc) {
-    const est = estimate(m.name);
-    const a = estAgg[est] || estAgg["Unknown"];
-    a.holders++; a.shares += m.sh; a.members.push({ name: m.name, shares: m.sh, estStyle: est });
-  }
-  const uncTotalH = unc.length;
-  const uncTotalS = unc.reduce((s, m) => s + m.sh, 0);
-  const unclassifiedEstimate = {
-    total: uncTotalH,
-    totalShares: uncTotalS,
-    categories: Object.values(estAgg)
-      .filter((a) => a.holders > 0)
-      .map((a) => ({
-        style: a.style,
-        holders: a.holders,
-        holderPct: uncTotalH ? Math.round((a.holders / uncTotalH) * 1000) / 10 : 0,
-        shares: a.shares,
-        sharePct: uncTotalS ? Math.round((a.shares / uncTotalS) * 1000) / 10 : 0,
-      })),
-  };
-
-  return { total: totalHolders, totalShares, categories, coverage, unclassifiedEstimate };
+  return { total: totalHolders, totalShares, categories, coverage };
 }
 
 // ── Combine two holdings lists by filer (union, sum shares) ─────────
@@ -538,7 +521,7 @@ console.log(`Investor styles (combined, ${c.total} unique holders):`);
 for (const cat of c.categories.sort((a, b) => b.shares - a.shares)) {
   console.log(`  ${cat.style.padEnd(15)} ${String(cat.holders).padStart(4)} holders  ${cat.holderPct}% of holders   ${cat.sharePct}% of shares`);
 }
-console.log(`Coverage: ${c.coverage.curated} curated, ${c.coverage.heuristic} heuristic, ${c.coverage.unclassified} unclassified`);
+console.log(`Coverage: ${c.coverage.curated} curated, ${c.coverage.heuristic} heuristic, ${c.coverage.estimated} estimated, ${c.coverage.unknown} unknown (left Unclassified)`);
 
 if (process.env.DEBUG_UNCLASSIFIED) {
   const rows = combine(heiHoldings, heiaHoldings)

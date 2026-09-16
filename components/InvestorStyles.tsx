@@ -10,8 +10,7 @@ const STYLE_META: Record<string, { color: string; blurb: string }> = {
   "Momentum/Quant": { color: "#7c3aed", blurb: "Systematic, factor, multi-strategy and market-making shops. Trading-driven, not thesis-driven." },
   "Income":         { color: "#d97706", blurb: "Dividend / yield focused. Near-zero here — consistent with HEICO's ~0.1% yield." },
   "Blend/Core":     { color: "#64748b", blurb: "Index funds, passive, and diversified core managers, plus bank/broker & pension trusts." },
-  "Unclassified":   { color: "#cbd5e1", blurb: "Smaller boutiques / hedge funds without a published style. Left unclassified rather than guessed." },
-  "Unknown":        { color: "#e2e8f0", blurb: "" },
+  "Unclassified":   { color: "#cbd5e1", blurb: "Style not disclosed and couldn't be estimated from the fund's profile — left unclassified rather than guessed." },
 };
 const ORDER = ["Growth", "Value", "Momentum/Quant", "Income", "Blend/Core", "Unclassified"];
 
@@ -77,26 +76,6 @@ function StackBar({ block, metric }: { block: StyleBlock; metric: "shares" | "ho
   );
 }
 
-// ── Stacked bar for the estimated Unclassified mix ──────────────────
-function EstBar({ est, metric }: { est: NonNullable<StyleBlock["unclassifiedEstimate"]>; metric: "shares" | "holders" }) {
-  const order = ["Growth", "Value", "Momentum/Quant", "Income", "Blend/Core", "Unknown"];
-  const cats = [...est.categories].sort((a, b) => order.indexOf(a.style) - order.indexOf(b.style));
-  const key = metric === "shares" ? "sharePct" : "holderPct";
-  return (
-    <div className="flex h-6 w-full overflow-hidden rounded-md border border-amber-200">
-      {cats.map((c) => {
-        const pct = (c as any)[key];
-        if (pct <= 0) return null;
-        return (
-          <div key={c.style} title={`${c.style}: ${pct}%`} style={{ width: `${pct}%`, backgroundColor: STYLE_META[c.style]?.color ?? "#e2e8f0" }} className="flex items-center justify-center">
-            {pct >= 10 && <span className="px-1 text-[10px] font-semibold text-white truncate">{pct}%</span>}
-          </div>
-        );
-      })}
-    </div>
-  );
-}
-
 export default function InvestorStyles({ data }: { data: InvestorStylesData | null }) {
   const [scope, setScope] = useState<"combined" | "hei" | "heia">("combined");
   const [metric, setMetric] = useState<"shares" | "holders">("shares");
@@ -110,8 +89,9 @@ export default function InvestorStyles({ data }: { data: InvestorStylesData | nu
   const cats = ordered(block.categories);
   const metricLabel = metric === "shares" ? "% of shares" : "% of holders";
   const cov = block.coverage;
-  const covClassified = block.total - cov.unclassified;
+  const covClassified = block.total - cov.unknown;
   const covPct = block.total ? Math.round((covClassified / block.total) * 100) : 0;
+  const uncPct = cats.find((c) => c.style === "Unclassified")?.sharePct ?? 0;
 
   return (
     <div className="space-y-5">
@@ -225,39 +205,19 @@ export default function InvestorStyles({ data }: { data: InvestorStylesData | nu
                     {open && (
                       <tr className="border-b border-gray-100 bg-gray-50/60">
                         <td colSpan={6} className="px-4 pb-4 pt-1">
-                          {/* For the Unclassified bucket, show an estimated style mix on top. */}
-                          {c.style === "Unclassified" && block.unclassifiedEstimate && (
-                            <div className="mb-3 rounded-lg border border-amber-200 bg-amber-50 p-3">
-                              <div className="mb-2 text-xs font-semibold text-amber-800">
-                                Estimated style mix (best-effort)
-                              </div>
-                              <p className="mb-2 text-[11px] leading-snug text-amber-700">
-                                These funds don’t publish a style, so we estimate it from known-boutique
-                                knowledge and fund type. Lower confidence than the main table — “Unknown”
-                                means we couldn’t determine it and didn’t guess.
-                              </p>
-                              <EstBar est={block.unclassifiedEstimate} metric={metric} />
-                              <div className="mt-2 grid grid-cols-2 gap-x-6 gap-y-1 sm:grid-cols-3">
-                                {[...block.unclassifiedEstimate.categories]
-                                  .sort((a, b) => (metric === "shares" ? b.sharePct - a.sharePct : b.holderPct - a.holderPct))
-                                  .map((e) => (
-                                    <div key={e.style} className="flex items-center gap-1.5 text-xs">
-                                      <span className="inline-block h-2.5 w-2.5 shrink-0 rounded-sm" style={{ backgroundColor: STYLE_META[e.style]?.color ?? "#e2e8f0" }} />
-                                      <span className="flex-1 text-gray-600">{e.style}</span>
-                                      <span className="tabular-nums font-medium text-gray-800">{e.holders}</span>
-                                      <span className="tabular-nums text-gray-400">({metric === "shares" ? e.sharePct : e.holderPct}%)</span>
-                                    </div>
-                                  ))}
-                              </div>
-                            </div>
-                          )}
+                          {c.estCount ? (
+                            <p className="mb-2 text-[11px] leading-snug text-gray-500">
+                              <span className="mr-1 inline-block rounded bg-amber-100 px-1 font-semibold text-amber-700">est.</span>
+                              {c.estCount} of these {c.holders} are best-effort estimates (fund doesn’t publish a style;
+                              inferred from its profile). The rest are confirmed from our curated database.
+                            </p>
+                          ) : null}
                           <div className="max-h-96 overflow-y-auto rounded-lg border border-gray-200 bg-white">
                             <table className="w-full text-sm">
                               <thead className="sticky top-0 bg-gray-50">
                                 <tr className="text-left text-[11px] uppercase tracking-wide text-gray-400">
                                   <th className="px-3 py-2 w-10 text-right">#</th>
                                   <th className="px-3 py-2">Investor</th>
-                                  {c.style === "Unclassified" && <th className="px-3 py-2">Est. style</th>}
                                   <th className="px-3 py-2 text-right">Shares</th>
                                   <th className="px-3 py-2 text-right">% of {c.style}</th>
                                 </tr>
@@ -266,21 +226,12 @@ export default function InvestorStyles({ data }: { data: InvestorStylesData | nu
                                 {c.members.map((m, i) => (
                                   <tr key={m.name + i} className="border-t border-gray-100">
                                     <td className="px-3 py-1.5 text-right tabular-nums text-gray-400">{i + 1}</td>
-                                    <td className="px-3 py-1.5 text-gray-800">{m.name}</td>
-                                    {c.style === "Unclassified" && (
-                                      <td className="px-3 py-1.5">
-                                        <span
-                                          className="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-medium"
-                                          style={{
-                                            backgroundColor: (STYLE_META[m.estStyle ?? "Unknown"]?.color ?? "#e2e8f0") + "33",
-                                            color: m.estStyle === "Unknown" || !m.estStyle ? "#64748b" : "#1f2937",
-                                          }}
-                                        >
-                                          <span className="inline-block h-2 w-2 rounded-full" style={{ backgroundColor: STYLE_META[m.estStyle ?? "Unknown"]?.color ?? "#e2e8f0" }} />
-                                          {m.estStyle ?? "Unknown"}
-                                        </span>
-                                      </td>
-                                    )}
+                                    <td className="px-3 py-1.5 text-gray-800">
+                                      {m.name}
+                                      {m.est && (
+                                        <span className="ml-2 rounded bg-amber-100 px-1 text-[10px] font-semibold text-amber-700" title="Best-effort estimate — fund does not publish a style">est.</span>
+                                      )}
+                                    </td>
                                     <td className="px-3 py-1.5 text-right tabular-nums text-gray-700">{m.shares.toLocaleString("en-US")}</td>
                                     <td className="px-3 py-1.5 text-right tabular-nums text-gray-500">{((m.shares / catShares) * 100).toFixed(1)}%</td>
                                   </tr>
@@ -304,11 +255,12 @@ export default function InvestorStyles({ data }: { data: InvestorStylesData | nu
         <span className="font-semibold text-gray-600">How styles are assigned:</span> each institution is mapped to its
         published investment style using a curated manager database (BlackRock → index/core, T. Rowe Price → growth,
         Two Sigma → quant, and so on) plus fund-name heuristics for the long tail. This is the same approach paid
-        surveillance firms use. <span className="font-medium text-gray-600">{covPct}% of {scope === "combined" ? "holders across both classes" : scope.toUpperCase()} are classified</span>
-        {" "}({cov.curated} from the curated database, {cov.heuristic} by heuristic); the remaining {cov.unclassified} are
-        smaller boutiques/hedge funds left <span className="italic">Unclassified</span> rather than guessed. Because the
-        largest holders are all in the curated database, the <span className="font-medium text-gray-600">“by shares” view is the most reliable</span> —
-        only {block.categories.find((c) => c.style === "Unclassified")?.sharePct ?? 0}% of shares are unclassified.
+        surveillance firms use. <span className="font-medium text-gray-600">{covPct}% of {scope === "combined" ? "holders across both classes" : scope.toUpperCase()} are assigned a style</span>
+        {" "}({cov.curated} confirmed from the curated database, {cov.heuristic} by fund-name heuristic, and {cov.estimated} folded
+        into their category as best-effort estimates — marked <span className="rounded bg-amber-100 px-1 font-semibold text-amber-700">est.</span> in the lists).
+        The remaining {cov.unknown} are smaller boutiques whose style we couldn’t determine, left <span className="italic">Unclassified</span> rather
+        than guessed. For anything board-facing, lean on the confirmed names and the <span className="font-medium text-gray-600">“by shares” view</span> —
+        only {uncPct}% of shares are unclassified.
       </div>
     </div>
   );
