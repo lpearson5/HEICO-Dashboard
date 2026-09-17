@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-16T16:25:07.615Z",
+  "asOf": "2026-09-17T15:54:04.012Z",
   "period": "2026-06-30",
   "hei": {
     "total": 777,
@@ -4000,7 +4000,7 @@
   },
   "heia": {
     "total": 668,
-    "totalShares": 70028577,
+    "totalShares": 70037562,
     "categories": [
       {
         "style": "Growth",
@@ -4538,11 +4538,11 @@
       },
       {
         "style": "Blend/Core",
-        "holders": 507,
-        "holderPct": 75.9,
-        "shares": 48971937,
+        "holders": 508,
+        "holderPct": 76,
+        "shares": 48981795,
         "sharePct": 69.9,
-        "estCount": 105,
+        "estCount": 106,
         "examples": [
           "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
           "BlackRock, Inc.  (BLK)",
@@ -5392,6 +5392,11 @@
             "est": false
           },
           {
+            "name": "PRINCIPAL SECURITIES, INC.",
+            "shares": 9824,
+            "est": false
+          },
+          {
             "name": "BENJAMIN EDWARDS INC",
             "shares": 9680,
             "est": true
@@ -5877,9 +5882,9 @@
             "est": false
           },
           {
-            "name": "Marks Group Wealth Management, Inc",
-            "shares": 2853,
-            "est": false
+            "name": "Americana Partners, LLC",
+            "shares": 2887,
+            "est": true
           },
           {
             "name": "Curi Capital, LLC",
@@ -7090,9 +7095,9 @@
       },
       {
         "style": "Unclassified",
-        "holders": 67,
-        "holderPct": 10,
-        "shares": 2525012,
+        "holders": 66,
+        "holderPct": 9.9,
+        "shares": 2524139,
         "sharePct": 3.6,
         "estCount": 0,
         "examples": [
@@ -7196,11 +7201,6 @@
           {
             "name": "Azimuth Capital Investment Management LLC",
             "shares": 902,
-            "est": false
-          },
-          {
-            "name": "Ellevest, Inc.",
-            "shares": 873,
             "est": false
           },
           {
@@ -7444,13 +7444,13 @@
     "coverage": {
       "curated": 170,
       "heuristic": 294,
-      "estimated": 137,
-      "unknown": 67
+      "estimated": 138,
+      "unknown": 66
     }
   },
   "combined": {
     "total": 1008,
-    "totalShares": 113787189,
+    "totalShares": 113796174,
     "categories": [
       {
         "style": "Growth",
@@ -8310,11 +8310,11 @@
       },
       {
         "style": "Blend/Core",
-        "holders": 735,
-        "holderPct": 72.9,
-        "shares": 75262470,
+        "holders": 736,
+        "holderPct": 73,
+        "shares": 75272328,
         "sharePct": 66.1,
-        "estCount": 158,
+        "estCount": 159,
         "examples": [
           "BlackRock, Inc.  (BLK)",
           "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -9634,6 +9634,11 @@
             "est": false
           },
           {
+            "name": "PRINCIPAL SECURITIES, INC.",
+            "shares": 9824,
+            "est": false
+          },
+          {
             "name": "Allworth Financial LP",
             "shares": 9703,
             "est": true
@@ -10309,13 +10314,13 @@
             "est": false
           },
           {
-            "name": "E. Ohman J:or Asset Management AB",
-            "shares": 2856,
-            "est": false
+            "name": "Americana Partners, LLC",
+            "shares": 2887,
+            "est": true
           },
           {
-            "name": "Marks Group Wealth Management, Inc",
-            "shares": 2853,
+            "name": "E. Ohman J:or Asset Management AB",
+            "shares": 2856,
             "est": false
           },
           {
@@ -12002,9 +12007,9 @@
       },
       {
         "style": "Unclassified",
-        "holders": 115,
-        "holderPct": 11.4,
-        "shares": 2856107,
+        "holders": 114,
+        "holderPct": 11.3,
+        "shares": 2855234,
         "sharePct": 2.5,
         "estCount": 0,
         "examples": [
@@ -12178,11 +12183,6 @@
           {
             "name": "Enhancing Capital LLC",
             "shares": 881,
-            "est": false
-          },
-          {
-            "name": "Ellevest, Inc.",
-            "shares": 873,
             "est": false
           },
           {
@@ -12596,8 +12596,8 @@
     "coverage": {
       "curated": 192,
       "heuristic": 464,
-      "estimated": 237,
-      "unknown": 115
+      "estimated": 238,
+      "unknown": 114
     }
   }
 }

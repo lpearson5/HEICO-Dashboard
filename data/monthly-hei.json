@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-16T15:24:45.687Z",
+  "lastUpdated": "2026-09-17T15:32:31.161Z",
   "summary": {
     "institutions": 777,
     "totalShares": 43758612,
     "pctOut": 79.21000000000001,
-    "newHolders": 122,
-    "sellouts": 86,
+    "newHolders": 121,
+    "sellouts": 85,
     "bought": 256,
-    "sold": 266,
+    "sold": 267,
     "held": 133
   },
   "top10": [
@@ -759,24 +759,6 @@
       "voteSole": 1756,
       "voteShared": 0,
       "voteNone": 0
-    },
-    {
-      "filerName": "MBL Wealth, LLC",
-      "filerCik": "1845785",
-      "shares": [
-        1749,
-        null,
-        1817,
-        1772
-      ],
-      "netChg": 1749,
-      "currentValue": 622977,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 1749
     },
     {
       "filerName": "FOX RUN MANAGEMENT, L.L.C.",
@@ -3166,24 +3148,6 @@
         null
       ],
       "netChg": -1477,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "BEESE FULMER INVESTMENT MANAGEMENT, INC.",
-      "filerCik": "911274",
-      "shares": [
-        null,
-        1303,
-        1092,
-        null
-      ],
-      "netChg": -1303,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -7970,7 +7934,7 @@
       "shares": [
         11594,
         11971,
-        null,
+        11984,
         11755
       ],
       "netChg": -377,
@@ -11677,14 +11641,14 @@
       "filerCik": "1845785",
       "shares": [
         1749,
-        null,
+        1756,
         1817,
         1772
       ],
-      "netChg": 1749,
+      "netChg": -7,
       "currentValue": 622977,
       "pctOut": 0,
-      "action": "New",
+      "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -15260,7 +15224,7 @@
       "shares": [
         330,
         330,
-        276,
+        null,
         null
       ],
       "netChg": 0,
@@ -16016,7 +15980,7 @@
       "shares": [
         86,
         86,
-        86,
+        null,
         86
       ],
       "netChg": 0,
@@ -19071,24 +19035,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Modus Advisors, LLC",
-      "filerCik": "1799284",
-      "shares": [
-        null,
-        null,
-        24,
-        null
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "MQS Management LLC",
       "filerCik": "1759395",
       "shares": [
@@ -19101,6 +19047,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Modus Advisors, LLC",
+      "filerCik": "1799284",
+      "shares": [
+        null,
+        null,
+        24,
+        null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19215,24 +19179,6 @@
       "voteNone": null
     },
     {
-      "filerName": "BEESE FULMER INVESTMENT MANAGEMENT, INC.",
-      "filerCik": "911274",
-      "shares": [
-        null,
-        1303,
-        1092,
-        null
-      ],
-      "netChg": -1303,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Andra AP-fonden",
       "filerCik": "1535452",
       "shares": [
@@ -19245,6 +19191,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "BEESE FULMER INVESTMENT MANAGEMENT, INC.",
+      "filerCik": "911274",
+      "shares": [
+        null,
+        null,
+        1092,
+        null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19773,13 +19737,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
-      "filerCik": "1510434",
+      "filerName": "WINNOW WEALTH LLC",
+      "filerCik": "2079687",
       "shares": [
         null,
         null,
-        1447,
-        null
+        1,
+        7
       ],
       "netChg": null,
       "currentValue": null,
@@ -19791,13 +19755,13 @@
       "voteNone": null
     },
     {
-      "filerName": "WINNOW WEALTH LLC",
-      "filerCik": "2079687",
+      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
+      "filerCik": "1510434",
       "shares": [
         null,
         null,
-        1,
-        7
+        1447,
+        null
       ],
       "netChg": null,
       "currentValue": null,

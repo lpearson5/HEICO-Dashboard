@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-09-16T15:24:45.687Z",
+  "lastUpdated": "2026-09-17T15:32:31.161Z",
   "summary": {
     "institutions": 669,
-    "totalShares": 70028577,
-    "pctOut": 82.86,
+    "totalShares": 70037562,
+    "pctOut": 82.87,
     "newHolders": 109,
     "sellouts": 63,
-    "bought": 254,
-    "sold": 215,
+    "bought": 255,
+    "sold": 214,
     "held": 91
   },
   "top10": [
@@ -568,7 +568,7 @@
       "shares": [
         6949,
         null,
-        null,
+        3378,
         null
       ],
       "netChg": 6949,
@@ -723,6 +723,24 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 3250
+    },
+    {
+      "filerName": "Americana Partners, LLC",
+      "filerCik": "1797678",
+      "shares": [
+        2887,
+        null,
+        null,
+        null
+      ],
+      "netChg": 2887,
+      "currentValue": 744586,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 2887
     },
     {
       "filerName": "ELEVATUS WELATH MANAGEMENT",
@@ -1209,24 +1227,6 @@
       "voteSole": 883,
       "voteShared": 0,
       "voteNone": 0
-    },
-    {
-      "filerName": "Ellevest, Inc.",
-      "filerCik": "1644128",
-      "shares": [
-        873,
-        null,
-        null,
-        null
-      ],
-      "netChg": 873,
-      "currentValue": 225155,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 873
     },
     {
       "filerName": "FIRST MANHATTAN CO. LLC.",
@@ -2509,24 +2509,6 @@
       "voteNone": null
     },
     {
-      "filerName": "PRINCIPAL SECURITIES, INC.",
-      "filerCik": "12600",
-      "shares": [
-        null,
-        9265,
-        10043,
-        10289
-      ],
-      "netChg": -9265,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Trexquant Investment LP",
       "filerCik": "1633445",
       "shares": [
@@ -2608,6 +2590,24 @@
         5147
       ],
       "netChg": -3460,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Marks Group Wealth Management, Inc",
+      "filerCik": "1802473",
+      "shares": [
+        null,
+        2931,
+        3177,
+        3177
+      ],
+      "netChg": -2931,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -6891,7 +6891,7 @@
         19755,
         20551,
         21135,
-        25024
+        null
       ],
       "netChg": -796,
       "currentValue": 5095012,
@@ -7713,6 +7713,24 @@
       "voteNone": 0
     },
     {
+      "filerName": "PRINCIPAL SECURITIES, INC.",
+      "filerCik": "12600",
+      "shares": [
+        9824,
+        9265,
+        10043,
+        10289
+      ],
+      "netChg": 559,
+      "currentValue": 2533739,
+      "pctOut": 0.01,
+      "action": "Bought",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 9824
+    },
+    {
       "filerName": "BENJAMIN EDWARDS INC",
       "filerCik": "1451623",
       "shares": [
@@ -8348,7 +8366,7 @@
       "shares": [
         6949,
         null,
-        null,
+        3378,
         null
       ],
       "netChg": 6949,
@@ -9855,22 +9873,22 @@
       "voteNone": 0
     },
     {
-      "filerName": "Marks Group Wealth Management, Inc",
-      "filerCik": "1802473",
+      "filerName": "Americana Partners, LLC",
+      "filerCik": "1797678",
       "shares": [
-        2853,
-        2931,
-        3177,
-        3177
+        2887,
+        null,
+        null,
+        null
       ],
-      "netChg": -78,
-      "currentValue": 735817,
+      "netChg": 2887,
+      "currentValue": 744586,
       "pctOut": 0,
-      "action": "Sold",
-      "discretion": "OTR",
+      "action": "New",
+      "discretion": "SOLE",
       "voteSole": 0,
-      "voteShared": 2853,
-      "voteNone": 0
+      "voteShared": 0,
+      "voteNone": 2887
     },
     {
       "filerName": "Curi Capital, LLC",
@@ -12049,24 +12067,6 @@
       "voteSole": 883,
       "voteShared": 0,
       "voteNone": 0
-    },
-    {
-      "filerName": "Ellevest, Inc.",
-      "filerCik": "1644128",
-      "shares": [
-        873,
-        null,
-        null,
-        null
-      ],
-      "netChg": 873,
-      "currentValue": 225155,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 873
     },
     {
       "filerName": "FIRST MANHATTAN CO. LLC.",
@@ -16695,24 +16695,6 @@
       "voteNone": null
     },
     {
-      "filerName": "PRINCIPAL SECURITIES, INC.",
-      "filerCik": "12600",
-      "shares": [
-        null,
-        9265,
-        10043,
-        10289
-      ],
-      "netChg": -9265,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "CWM, LLC",
       "filerCik": "1535847",
       "shares": [
@@ -17391,6 +17373,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Marks Group Wealth Management, Inc",
+      "filerCik": "1802473",
+      "shares": [
+        null,
+        2931,
+        3177,
+        3177
+      ],
+      "netChg": -2931,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
