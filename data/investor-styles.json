@@ -1,9 +1,9 @@
 {
-  "asOf": "2026-09-17T15:54:04.012Z",
+  "asOf": "2026-09-18T15:18:18.721Z",
   "period": "2026-06-30",
   "hei": {
-    "total": 777,
-    "totalShares": 43758612,
+    "total": 776,
+    "totalShares": 43756863,
     "categories": [
       {
         "style": "Growth",
@@ -648,9 +648,9 @@
       },
       {
         "style": "Blend/Core",
-        "holders": 584,
-        "holderPct": 75.2,
-        "shares": 26290533,
+        "holders": 583,
+        "holderPct": 75.1,
+        "shares": 26288784,
         "sharePct": 60.1,
         "estCount": 128,
         "examples": [
@@ -2277,11 +2277,6 @@
             "est": false
           },
           {
-            "name": "MBL Wealth, LLC",
-            "shares": 1749,
-            "est": false
-          },
-          {
             "name": "Laird Norton Wetherby Trust Company, LLC",
             "shares": 1738,
             "est": false
@@ -3586,7 +3581,7 @@
       {
         "style": "Unclassified",
         "holders": 78,
-        "holderPct": 10,
+        "holderPct": 10.1,
         "shares": 331095,
         "sharePct": 0.8,
         "estCount": 0,
@@ -3993,14 +3988,14 @@
     ],
     "coverage": {
       "curated": 160,
-      "heuristic": 352,
+      "heuristic": 351,
       "estimated": 187,
       "unknown": 78
     }
   },
   "heia": {
-    "total": 668,
-    "totalShares": 70037562,
+    "total": 670,
+    "totalShares": 70041288,
     "categories": [
       {
         "style": "Growth",
@@ -4538,9 +4533,9 @@
       },
       {
         "style": "Blend/Core",
-        "holders": 508,
+        "holders": 509,
         "holderPct": 76,
-        "shares": 48981795,
+        "shares": 48984648,
         "sharePct": 69.9,
         "estCount": 106,
         "examples": [
@@ -5887,6 +5882,11 @@
             "est": true
           },
           {
+            "name": "Marks Group Wealth Management, Inc",
+            "shares": 2853,
+            "est": false
+          },
+          {
             "name": "Curi Capital, LLC",
             "shares": 2793,
             "est": true
@@ -7095,9 +7095,9 @@
       },
       {
         "style": "Unclassified",
-        "holders": 66,
-        "holderPct": 9.9,
-        "shares": 2524139,
+        "holders": 67,
+        "holderPct": 10,
+        "shares": 2525012,
         "sharePct": 3.6,
         "estCount": 0,
         "examples": [
@@ -7201,6 +7201,11 @@
           {
             "name": "Azimuth Capital Investment Management LLC",
             "shares": 902,
+            "est": false
+          },
+          {
+            "name": "Ellevest, Inc.",
+            "shares": 873,
             "est": false
           },
           {
@@ -7443,14 +7448,14 @@
     ],
     "coverage": {
       "curated": 170,
-      "heuristic": 294,
+      "heuristic": 295,
       "estimated": 138,
-      "unknown": 66
+      "unknown": 67
     }
   },
   "combined": {
-    "total": 1008,
-    "totalShares": 113796174,
+    "total": 1009,
+    "totalShares": 113798151,
     "categories": [
       {
         "style": "Growth",
@@ -8311,8 +8316,8 @@
       {
         "style": "Blend/Core",
         "holders": 736,
-        "holderPct": 73,
-        "shares": 75272328,
+        "holderPct": 72.9,
+        "shares": 75273432,
         "sharePct": 66.1,
         "estCount": 159,
         "examples": [
@@ -10324,6 +10329,11 @@
             "est": false
           },
           {
+            "name": "Marks Group Wealth Management, Inc",
+            "shares": 2853,
+            "est": false
+          },
+          {
             "name": "UniSuper Management Pty Ltd",
             "shares": 2851,
             "est": true
@@ -10631,11 +10641,6 @@
           {
             "name": "KEB ASSET MANAGEMENT, LLC",
             "shares": 1752,
-            "est": false
-          },
-          {
-            "name": "MBL Wealth, LLC",
-            "shares": 1749,
             "est": false
           },
           {
@@ -12007,9 +12012,9 @@
       },
       {
         "style": "Unclassified",
-        "holders": 114,
-        "holderPct": 11.3,
-        "shares": 2855234,
+        "holders": 115,
+        "holderPct": 11.4,
+        "shares": 2856107,
         "sharePct": 2.5,
         "estCount": 0,
         "examples": [
@@ -12183,6 +12188,11 @@
           {
             "name": "Enhancing Capital LLC",
             "shares": 881,
+            "est": false
+          },
+          {
+            "name": "Ellevest, Inc.",
+            "shares": 873,
             "est": false
           },
           {
@@ -12597,7 +12607,7 @@
       "curated": 192,
       "heuristic": 464,
       "estimated": 238,
-      "unknown": 114
+      "unknown": 115
     }
   }
 }
