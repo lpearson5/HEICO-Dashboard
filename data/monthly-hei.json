@@ -8,14 +8,14 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-18T14:55:22.417Z",
+  "lastUpdated": "2026-09-19T14:18:20.001Z",
   "summary": {
-    "institutions": 776,
-    "totalShares": 43756863,
+    "institutions": 777,
+    "totalShares": 43758612,
     "pctOut": 79.21000000000001,
     "newHolders": 121,
     "sellouts": 86,
-    "bought": 255,
+    "bought": 256,
     "sold": 266,
     "held": 134
   },
@@ -671,24 +671,6 @@
       "voteNone": 0
     },
     {
-      "filerName": "COLDSTREAM CAPITAL MANAGEMENT INC",
-      "filerCik": "1082339",
-      "shares": [
-        2447,
-        null,
-        2098,
-        1084
-      ],
-      "netChg": 2447,
-      "currentValue": 871517,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 764,
-      "voteShared": 0,
-      "voteNone": 1683
-    },
-    {
       "filerName": "WBI INVESTMENTS, LLC",
       "filerCik": "1397424",
       "shares": [
@@ -704,6 +686,24 @@
       "discretion": "DFND",
       "voteSole": 588,
       "voteShared": 1842,
+      "voteNone": 0
+    },
+    {
+      "filerName": "SummitTX Capital, L.P.",
+      "filerCik": "2052310",
+      "shares": [
+        2034,
+        null,
+        34965,
+        4411
+      ],
+      "netChg": 2034,
+      "currentValue": 724490,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 2034,
+      "voteShared": 0,
       "voteNone": 0
     },
     {
@@ -2995,6 +2995,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Dynamic Technology Lab Private Ltd",
+      "filerCik": "1535387",
+      "shares": [
+        null,
+        2152,
+        null,
+        8134
+      ],
+      "netChg": -2152,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Goodman Advisory Group, LLC",
       "filerCik": "1864123",
       "shares": [
@@ -3058,24 +3076,6 @@
         1641
       ],
       "netChg": -1796,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "MBL Wealth, LLC",
-      "filerCik": "1845785",
-      "shares": [
-        null,
-        1756,
-        1817,
-        1772
-      ],
-      "netChg": -1756,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -9374,7 +9374,7 @@
       "shares": [
         5413,
         5084,
-        null,
+        12057,
         4373
       ],
       "netChg": 329,
@@ -10975,14 +10975,14 @@
       "filerCik": "1082339",
       "shares": [
         2447,
-        null,
+        2435,
         2098,
         1084
       ],
-      "netChg": 2447,
+      "netChg": 12,
       "currentValue": 871517,
       "pctOut": 0,
-      "action": "New",
+      "action": "Bought",
       "discretion": "SOLE",
       "voteSole": 764,
       "voteShared": 0,
@@ -11371,14 +11371,14 @@
       "filerCik": "2052310",
       "shares": [
         2034,
-        18929,
+        null,
         34965,
         4411
       ],
-      "netChg": -16895,
+      "netChg": 2034,
       "currentValue": 724490,
       "pctOut": 0,
-      "action": "Sold",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 2034,
       "voteShared": 0,
@@ -11653,6 +11653,24 @@
       "voteSole": 1756,
       "voteShared": 0,
       "voteNone": 0
+    },
+    {
+      "filerName": "MBL Wealth, LLC",
+      "filerCik": "1845785",
+      "shares": [
+        1749,
+        1756,
+        1817,
+        1772
+      ],
+      "netChg": -7,
+      "currentValue": 622977,
+      "pctOut": 0,
+      "action": "Sold",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 1749
     },
     {
       "filerName": "Laird Norton Wetherby Trust Company, LLC",
@@ -13712,7 +13730,7 @@
       "shares": [
         889,
         889,
-        889,
+        null,
         889
       ],
       "netChg": 0,
@@ -15981,7 +15999,7 @@
         86,
         86,
         86,
-        86
+        null
       ],
       "netChg": 0,
       "currentValue": 30632,
@@ -18909,24 +18927,6 @@
       "voteNone": null
     },
     {
-      "filerName": "MBL Wealth, LLC",
-      "filerCik": "1845785",
-      "shares": [
-        null,
-        1756,
-        1817,
-        1772
-      ],
-      "netChg": -1756,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Machina Capital S.A.S.",
       "filerCik": "1744373",
       "shares": [
@@ -19053,24 +19053,6 @@
       "voteNone": null
     },
     {
-      "filerName": "MQS Management LLC",
-      "filerCik": "1759395",
-      "shares": [
-        null,
-        890,
-        null,
-        837
-      ],
-      "netChg": -890,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Modus Advisors, LLC",
       "filerCik": "1799284",
       "shares": [
@@ -19083,6 +19065,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "MQS Management LLC",
+      "filerCik": "1759395",
+      "shares": [
+        null,
+        890,
+        null,
+        837
+      ],
+      "netChg": -890,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -20101,14 +20101,14 @@
       "filerCik": "1535387",
       "shares": [
         null,
-        null,
+        2152,
         null,
         8134
       ],
-      "netChg": null,
+      "netChg": -2152,
       "currentValue": null,
       "pctOut": null,
-      "action": "No Change",
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -20709,13 +20709,13 @@
       "voteNone": null
     },
     {
-      "filerName": "TWO SIGMA SECURITIES, LLC",
-      "filerCik": "1450144",
+      "filerName": "Newbridge Financial Services Group, Inc.",
+      "filerCik": "1879757",
       "shares": [
         null,
         null,
-        null,
-        1708
+        21,
+        21
       ],
       "netChg": null,
       "currentValue": null,
@@ -20727,13 +20727,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Newbridge Financial Services Group, Inc.",
-      "filerCik": "1879757",
+      "filerName": "TWO SIGMA SECURITIES, LLC",
+      "filerCik": "1450144",
       "shares": [
         null,
         null,
-        21,
-        21
+        null,
+        1708
       ],
       "netChg": null,
       "currentValue": null,
@@ -20865,24 +20865,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Tortoise Investment Management, LLC",
-      "filerCik": "1599511",
-      "shares": [
-        null,
-        null,
-        null,
-        307
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -21249,24 +21231,6 @@
       "voteNone": null
     },
     {
-      "filerName": "TWIN PEAKS WEALTH ADVISORS, LLC",
-      "filerCik": "2006218",
-      "shares": [
-        null,
-        1,
-        null,
-        null
-      ],
-      "netChg": -1,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Optiver Holding B.V.",
       "filerCik": "1859606",
       "shares": [
@@ -21276,6 +21240,24 @@
         167
       ],
       "netChg": -378,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "TWIN PEAKS WEALTH ADVISORS, LLC",
+      "filerCik": "2006218",
+      "shares": [
+        null,
+        1,
+        null,
+        null
+      ],
+      "netChg": -1,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -21585,6 +21567,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Tortoise Investment Management, LLC",
+      "filerCik": "1599511",
+      "shares": [
+        null,
+        null,
+        null,
+        307
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,

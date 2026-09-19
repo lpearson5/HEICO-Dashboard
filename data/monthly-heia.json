@@ -8,16 +8,16 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-09-18T14:55:22.417Z",
+  "lastUpdated": "2026-09-19T14:18:20.001Z",
   "summary": {
     "institutions": 671,
     "totalShares": 70041288,
     "pctOut": 82.87,
-    "newHolders": 110,
-    "sellouts": 61,
+    "newHolders": 111,
+    "sellouts": 62,
     "bought": 255,
     "sold": 215,
-    "held": 91
+    "held": 90
   },
   "top10": [
     {
@@ -568,7 +568,7 @@
       "shares": [
         6949,
         null,
-        3378,
+        null,
         null
       ],
       "netChg": 6949,
@@ -597,6 +597,24 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 5020
+    },
+    {
+      "filerName": "Plato Investment Management Ltd",
+      "filerCik": "1984475",
+      "shares": [
+        4832,
+        null,
+        4832,
+        4832
+      ],
+      "netChg": 4832,
+      "currentValue": 1238950,
+      "pctOut": 0.01,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 4832,
+      "voteShared": 0,
+      "voteNone": 0
     },
     {
       "filerName": "Kentucky Retirement Systems",
@@ -3166,6 +3184,24 @@
         null
       ],
       "netChg": -6,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Sound Income Strategies, LLC",
+      "filerCik": "1730960",
+      "shares": [
+        null,
+        5,
+        5,
+        null
+      ],
+      "netChg": -5,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -8348,7 +8384,7 @@
       "shares": [
         6949,
         null,
-        3378,
+        null,
         null
       ],
       "netChg": 6949,
@@ -8743,14 +8779,14 @@
       "filerCik": "1984475",
       "shares": [
         4832,
-        4832,
+        null,
         4832,
         4832
       ],
-      "netChg": 0,
+      "netChg": 4832,
       "currentValue": 1238950,
       "pctOut": 0.01,
-      "action": "No Change",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 4832,
       "voteShared": 0,
@@ -10257,7 +10293,7 @@
         2093,
         3156,
         null,
-        4742
+        null
       ],
       "netChg": -1063,
       "currentValue": 539697,
@@ -16497,24 +16533,6 @@
       "voteNone": null
     },
     {
-      "filerName": "TWIN PEAKS WEALTH ADVISORS, LLC",
-      "filerCik": "2006218",
-      "shares": [
-        null,
-        1,
-        null,
-        null
-      ],
-      "netChg": -1,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Optiver Holding B.V.",
       "filerCik": "1859606",
       "shares": [
@@ -16524,6 +16542,24 @@
         366
       ],
       "netChg": -973,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "TWIN PEAKS WEALTH ADVISORS, LLC",
+      "filerCik": "2006218",
+      "shares": [
+        null,
+        1,
+        null,
+        null
+      ],
+      "netChg": -1,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -16573,14 +16609,14 @@
       "filerCik": "1730960",
       "shares": [
         null,
-        null,
+        5,
         5,
         null
       ],
-      "netChg": null,
+      "netChg": -5,
       "currentValue": null,
       "pctOut": null,
-      "action": "No Change",
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,

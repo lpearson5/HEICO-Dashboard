@@ -2,11 +2,11 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-09-18T14:55:22.417Z",
+  "lastUpdated": "2026-09-19T14:18:20.001Z",
   "summary": {
     "funds": 352,
-    "totalShares": 29627151,
-    "pctOut": 35.0552,
+    "totalShares": 29631181,
+    "pctOut": 35.0599,
     "newFunds": 16,
     "sellouts": 31,
     "linkedManagers": 23,
@@ -2278,13 +2278,13 @@
       "registrant": "Nationwide Mutual Funds",
       "manager": "",
       "cik": "1048702",
-      "shares": 47171,
-      "value": 9859682,
-      "reportDate": "2026-04-30",
-      "priorShares": 45678,
-      "change": 1493,
-      "pctOut": 0.0558,
-      "action": "Bought"
+      "shares": 46601,
+      "value": 11989505,
+      "reportDate": "2026-07-31",
+      "priorShares": 47171,
+      "change": -570,
+      "pctOut": 0.055099999999999996,
+      "action": "Sold"
     },
     {
       "fundName": "Nuveen Large Cap Growth Index Fund",
@@ -2872,6 +2872,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Nationwide Large Cap Equity Portfolio",
+      "registrant": "Nationwide Mutual Funds",
+      "manager": "",
+      "cik": "1048702",
+      "shares": 18900,
+      "value": 4862592,
+      "reportDate": "2026-07-31",
+      "priorShares": 14300,
+      "change": 4600,
+      "pctOut": 0.0224,
+      "action": "Bought"
+    },
+    {
       "fundName": "iShares U.S. Industrials ETF",
       "registrant": "iShares Trust",
       "manager": "BlackRock",
@@ -2987,19 +3000,6 @@
       "change": 371,
       "pctOut": 0.0182,
       "action": "Bought"
-    },
-    {
-      "fundName": "Nationwide Large Cap Equity Portfolio",
-      "registrant": "Nationwide Mutual Funds",
-      "manager": "",
-      "cik": "1048702",
-      "shares": 14300,
-      "value": 2988986,
-      "reportDate": "2026-04-30",
-      "priorShares": 14300,
-      "change": 0,
-      "pctOut": 0.0169,
-      "action": "No Change"
     },
     {
       "fundName": "VANGUARD TAX-MANAGED BALANCED FUND",
