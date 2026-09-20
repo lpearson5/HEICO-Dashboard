@@ -8,16 +8,16 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-09-19T14:18:20.001Z",
+  "lastUpdated": "2026-09-20T14:40:02.079Z",
   "summary": {
     "institutions": 671,
     "totalShares": 70041288,
     "pctOut": 82.87,
-    "newHolders": 111,
+    "newHolders": 110,
     "sellouts": 62,
     "bought": 255,
     "sold": 215,
-    "held": 90
+    "held": 91
   },
   "top10": [
     {
@@ -568,7 +568,7 @@
       "shares": [
         6949,
         null,
-        null,
+        3378,
         null
       ],
       "netChg": 6949,
@@ -597,24 +597,6 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 5020
-    },
-    {
-      "filerName": "Plato Investment Management Ltd",
-      "filerCik": "1984475",
-      "shares": [
-        4832,
-        null,
-        4832,
-        4832
-      ],
-      "netChg": 4832,
-      "currentValue": 1238950,
-      "pctOut": 0.01,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 4832,
-      "voteShared": 0,
-      "voteNone": 0
     },
     {
       "filerName": "Kentucky Retirement Systems",
@@ -8384,7 +8366,7 @@
       "shares": [
         6949,
         null,
-        null,
+        3378,
         null
       ],
       "netChg": 6949,
@@ -8763,7 +8745,7 @@
         4919,
         4711,
         1804,
-        1294
+        null
       ],
       "netChg": 208,
       "currentValue": 1268689,
@@ -8779,14 +8761,14 @@
       "filerCik": "1984475",
       "shares": [
         4832,
-        null,
+        4832,
         4832,
         4832
       ],
-      "netChg": 4832,
+      "netChg": 0,
       "currentValue": 1238950,
       "pctOut": 0.01,
-      "action": "New",
+      "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 4832,
       "voteShared": 0,
@@ -10293,7 +10275,7 @@
         2093,
         3156,
         null,
-        null
+        4742
       ],
       "netChg": -1063,
       "currentValue": 539697,
@@ -12974,7 +12956,7 @@
       "shares": [
         266,
         124,
-        8,
+        null,
         8
       ],
       "netChg": 142,
@@ -16713,24 +16695,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Wealthspire Advisors, LLC",
-      "filerCik": "1646247",
-      "shares": [
-        null,
-        null,
-        null,
-        15
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Atlantic Union Bankshares Corp  (AUB, AUB-PA)",
       "filerCik": "883948",
       "shares": [
@@ -18034,6 +17998,24 @@
         null,
         null,
         16
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Wealthspire Advisors, LLC",
+      "filerCik": "1646247",
+      "shares": [
+        null,
+        null,
+        null,
+        15
       ],
       "netChg": null,
       "currentValue": null,

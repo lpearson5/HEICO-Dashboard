@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-19T14:18:20.001Z",
+  "lastUpdated": "2026-09-20T14:40:02.079Z",
   "summary": {
     "institutions": 777,
     "totalShares": 43758612,
     "pctOut": 79.21000000000001,
-    "newHolders": 121,
+    "newHolders": 120,
     "sellouts": 86,
     "bought": 256,
-    "sold": 266,
+    "sold": 267,
     "held": 134
   },
   "top10": [
@@ -686,24 +686,6 @@
       "discretion": "DFND",
       "voteSole": 588,
       "voteShared": 1842,
-      "voteNone": 0
-    },
-    {
-      "filerName": "SummitTX Capital, L.P.",
-      "filerCik": "2052310",
-      "shares": [
-        2034,
-        null,
-        34965,
-        4411
-      ],
-      "netChg": 2034,
-      "currentValue": 724490,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 2034,
-      "voteShared": 0,
       "voteNone": 0
     },
     {
@@ -11371,14 +11353,14 @@
       "filerCik": "2052310",
       "shares": [
         2034,
-        null,
+        18929,
         34965,
         4411
       ],
-      "netChg": 2034,
+      "netChg": -16895,
       "currentValue": 724490,
       "pctOut": 0,
-      "action": "New",
+      "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 2034,
       "voteShared": 0,
@@ -13730,7 +13712,7 @@
       "shares": [
         889,
         889,
-        null,
+        889,
         889
       ],
       "netChg": 0,
@@ -15999,7 +15981,7 @@
         86,
         86,
         86,
-        null
+        86
       ],
       "netChg": 0,
       "currentValue": 30632,
@@ -16312,7 +16294,7 @@
       "pctOut": 0,
       "action": "Bought",
       "discretion": "SOLE",
-      "voteSole": 0,
+      "voteSole": 45,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -16466,7 +16448,7 @@
       "shares": [
         35,
         35,
-        35,
+        null,
         35
       ],
       "netChg": 0,
@@ -19053,24 +19035,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Modus Advisors, LLC",
-      "filerCik": "1799284",
-      "shares": [
-        null,
-        null,
-        24,
-        null
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "MQS Management LLC",
       "filerCik": "1759395",
       "shares": [
@@ -19083,6 +19047,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Modus Advisors, LLC",
+      "filerCik": "1799284",
+      "shares": [
+        null,
+        null,
+        24,
+        null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19575,24 +19557,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Bridgefront Capital, LLC",
-      "filerCik": "1725690",
-      "shares": [
-        null,
-        null,
-        null,
-        1905
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Inspire Advisors, LLC",
       "filerCik": "1810558",
       "shares": [
@@ -19611,13 +19575,13 @@
       "voteNone": null
     },
     {
-      "filerName": "PineBridge Investments, L.P.",
-      "filerCik": "1531721",
+      "filerName": "Bridgefront Capital, LLC",
+      "filerCik": "1725690",
       "shares": [
         null,
         null,
         null,
-        6095
+        1905
       ],
       "netChg": null,
       "currentValue": null,
@@ -19636,6 +19600,24 @@
         null,
         66,
         66
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "PineBridge Investments, L.P.",
+      "filerCik": "1531721",
+      "shares": [
+        null,
+        null,
+        null,
+        6095
       ],
       "netChg": null,
       "currentValue": null,
@@ -19845,12 +19827,12 @@
       "voteNone": null
     },
     {
-      "filerName": "V-Square Quantitative Management LLC",
-      "filerCik": "1943239",
+      "filerName": "Legato Capital Management LLC",
+      "filerCik": "1442641",
       "shares": [
         null,
         null,
-        115,
+        1077,
         null
       ],
       "netChg": null,
@@ -19863,12 +19845,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Legato Capital Management LLC",
-      "filerCik": "1442641",
+      "filerName": "V-Square Quantitative Management LLC",
+      "filerCik": "1943239",
       "shares": [
         null,
         null,
-        1077,
+        115,
         null
       ],
       "netChg": null,
@@ -20763,24 +20745,6 @@
       "voteNone": null
     },
     {
-      "filerName": "HARBOR CAPITAL ADVISORS, INC.",
-      "filerCik": "1039128",
-      "shares": [
-        null,
-        null,
-        680,
-        680
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Capula Management Ltd",
       "filerCik": "1557017",
       "shares": [
@@ -20793,6 +20757,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "HARBOR CAPITAL ADVISORS, INC.",
+      "filerCik": "1039128",
+      "shares": [
+        null,
+        null,
+        680,
+        680
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -20865,6 +20847,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Tortoise Investment Management, LLC",
+      "filerCik": "1599511",
+      "shares": [
+        null,
+        null,
+        null,
+        307
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -21567,24 +21567,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Tortoise Investment Management, LLC",
-      "filerCik": "1599511",
-      "shares": [
-        null,
-        null,
-        null,
-        307
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
