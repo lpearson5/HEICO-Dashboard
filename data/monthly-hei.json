@@ -8,16 +8,16 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-20T14:40:02.079Z",
+  "lastUpdated": "2026-09-21T16:57:50.059Z",
   "summary": {
     "institutions": 777,
     "totalShares": 43758612,
     "pctOut": 79.21000000000001,
-    "newHolders": 120,
+    "newHolders": 121,
     "sellouts": 86,
     "bought": 256,
     "sold": 267,
-    "held": 134
+    "held": 133
   },
   "top10": [
     {
@@ -2165,6 +2165,24 @@
       "voteNone": 0
     },
     {
+      "filerName": "Tradewinds Capital Management, LLC",
+      "filerCik": "1616026",
+      "shares": [
+        4,
+        null,
+        4,
+        4
+      ],
+      "netChg": 4,
+      "currentValue": 1425,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 4
+    },
+    {
       "filerName": "AMERICAN NATIONAL BANK & TRUST",
       "filerCik": "1272164",
       "shares": [
@@ -2461,7 +2479,7 @@
         null,
         56794,
         205135,
-        48532
+        null
       ],
       "netChg": -56794,
       "currentValue": null,
@@ -3595,7 +3613,7 @@
         null,
         49,
         49,
-        49
+        null
       ],
       "netChg": -49,
       "currentValue": null,
@@ -13599,7 +13617,7 @@
       "voteNone": 918
     },
     {
-      "filerName": "MONECO ADVISORS, LLC",
+      "filerName": "MONECO Advisors, LLC",
       "filerCik": "1765690",
       "shares": [
         904,
@@ -16294,7 +16312,7 @@
       "pctOut": 0,
       "action": "Bought",
       "discretion": "SOLE",
-      "voteSole": 45,
+      "voteSole": 0,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -16359,7 +16377,7 @@
         40,
         40,
         40,
-        40
+        null
       ],
       "netChg": 0,
       "currentValue": 14248,
@@ -16448,7 +16466,7 @@
       "shares": [
         35,
         35,
-        null,
+        35,
         35
       ],
       "netChg": 0,
@@ -17563,14 +17581,14 @@
       "filerCik": "1616026",
       "shares": [
         4,
-        4,
+        null,
         4,
         4
       ],
-      "netChg": 0,
+      "netChg": 4,
       "currentValue": 1425,
       "pctOut": 0,
-      "action": "No Change",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -19593,13 +19611,13 @@
       "voteNone": null
     },
     {
-      "filerName": "DT Investment Partners, LLC",
-      "filerCik": "1537621",
+      "filerName": "PineBridge Investments, L.P.",
+      "filerCik": "1531721",
       "shares": [
         null,
         null,
-        66,
-        66
+        null,
+        6095
       ],
       "netChg": null,
       "currentValue": null,
@@ -19611,13 +19629,13 @@
       "voteNone": null
     },
     {
-      "filerName": "PineBridge Investments, L.P.",
-      "filerCik": "1531721",
+      "filerName": "DT Investment Partners, LLC",
+      "filerCik": "1537621",
       "shares": [
         null,
         null,
-        null,
-        6095
+        66,
+        66
       ],
       "netChg": null,
       "currentValue": null,
@@ -19827,12 +19845,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Legato Capital Management LLC",
-      "filerCik": "1442641",
+      "filerName": "V-Square Quantitative Management LLC",
+      "filerCik": "1943239",
       "shares": [
         null,
         null,
-        1077,
+        115,
         null
       ],
       "netChg": null,
@@ -19845,12 +19863,12 @@
       "voteNone": null
     },
     {
-      "filerName": "V-Square Quantitative Management LLC",
-      "filerCik": "1943239",
+      "filerName": "Legato Capital Management LLC",
+      "filerCik": "1442641",
       "shares": [
         null,
         null,
-        115,
+        1077,
         null
       ],
       "netChg": null,
@@ -19995,27 +20013,9 @@
         null,
         49,
         49,
-        49
-      ],
-      "netChg": -49,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Key Capital Management, INC",
-      "filerCik": "2107249",
-      "shares": [
-        null,
-        5,
-        null,
         null
       ],
-      "netChg": -5,
+      "netChg": -49,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -20034,6 +20034,24 @@
         null
       ],
       "netChg": -1,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Key Capital Management, INC",
+      "filerCik": "2107249",
+      "shares": [
+        null,
+        5,
+        null,
+        null
+      ],
+      "netChg": -5,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -20409,7 +20427,7 @@
         null,
         null,
         350,
-        350
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -20745,24 +20763,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Capula Management Ltd",
-      "filerCik": "1557017",
-      "shares": [
-        null,
-        3773,
-        null,
-        null
-      ],
-      "netChg": -3773,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "HARBOR CAPITAL ADVISORS, INC.",
       "filerCik": "1039128",
       "shares": [
@@ -20775,6 +20775,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Capula Management Ltd",
+      "filerCik": "1557017",
+      "shares": [
+        null,
+        3773,
+        null,
+        null
+      ],
+      "netChg": -3773,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -21507,7 +21525,7 @@
         null,
         56794,
         205135,
-        48532
+        null
       ],
       "netChg": -56794,
       "currentValue": null,

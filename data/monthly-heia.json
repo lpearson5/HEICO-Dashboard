@@ -8,14 +8,14 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-09-20T14:40:02.079Z",
+  "lastUpdated": "2026-09-21T16:57:50.059Z",
   "summary": {
     "institutions": 671,
     "totalShares": 70041288,
     "pctOut": 82.87,
-    "newHolders": 110,
-    "sellouts": 62,
-    "bought": 255,
+    "newHolders": 111,
+    "sellouts": 61,
+    "bought": 254,
     "sold": 215,
     "held": 91
   },
@@ -919,6 +919,24 @@
       "action": "New",
       "discretion": "SOLE",
       "voteSole": 1495,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "CAISSE DE DEPOT ET PLACEMENT DU QUEBEC",
+      "filerCik": "898286",
+      "shares": [
+        1394,
+        null,
+        6016,
+        null
+      ],
+      "netChg": 1394,
+      "currentValue": 359527,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 1394,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -3022,24 +3040,6 @@
         30
       ],
       "netChg": -30,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "First Pacific Financial",
-      "filerCik": "1810089",
-      "shares": [
-        null,
-        27,
-        null,
-        null
-      ],
-      "netChg": -27,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -8745,7 +8745,7 @@
         4919,
         4711,
         1804,
-        null
+        1294
       ],
       "netChg": 208,
       "currentValue": 1268689,
@@ -9284,7 +9284,7 @@
       "shares": [
         3692,
         4407,
-        3500,
+        null,
         5464
       ],
       "netChg": -715,
@@ -11101,14 +11101,14 @@
       "filerCik": "898286",
       "shares": [
         1394,
-        1141,
+        null,
         6016,
         null
       ],
-      "netChg": 253,
+      "netChg": 1394,
       "currentValue": 359527,
       "pctOut": 0,
-      "action": "Bought",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 1394,
       "voteShared": 0,
@@ -11745,7 +11745,7 @@
       "voteNone": 0
     },
     {
-      "filerName": "MONECO ADVISORS, LLC",
+      "filerName": "MONECO Advisors, LLC",
       "filerCik": "1765690",
       "shares": [
         1039,
@@ -12956,7 +12956,7 @@
       "shares": [
         266,
         124,
-        null,
+        8,
         8
       ],
       "netChg": 142,
@@ -16695,6 +16695,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Wealthspire Advisors, LLC",
+      "filerCik": "1646247",
+      "shares": [
+        null,
+        null,
+        null,
+        15
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Atlantic Union Bankshares Corp  (AUB, AUB-PA)",
       "filerCik": "883948",
       "shares": [
@@ -17577,24 +17595,6 @@
       "voteNone": null
     },
     {
-      "filerName": "First Pacific Financial",
-      "filerCik": "1810089",
-      "shares": [
-        null,
-        27,
-        null,
-        null
-      ],
-      "netChg": -27,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Metis Global Partners, LLC",
       "filerCik": "1594916",
       "shares": [
@@ -17998,24 +17998,6 @@
         null,
         null,
         16
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Wealthspire Advisors, LLC",
-      "filerCik": "1646247",
-      "shares": [
-        null,
-        null,
-        null,
-        15
       ],
       "netChg": null,
       "currentValue": null,
