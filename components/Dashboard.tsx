@@ -25,8 +25,8 @@ const VIEWS: { id: View; label: string }[] = [
   { id: "markets", label: "Markets & Performance" },
   { id: "valuation", label: "Valuation" },
   { id: "earnings", label: "Earnings Calendar" },
-  { id: "crm", label: "CRM" },
 ];
+// CRM is a distinct feature, surfaced as its own button above the analytics tabs.
 // Views that show 13F ownership tables use the HEI / HEI.A ticker toggle.
 const OWNERSHIP_VIEWS: View[] = ["weekly", "monthly"];
 
@@ -123,6 +123,11 @@ export default function Dashboard({
   audit?: SelfAuditData | null;
 }) {
   const [view, setView] = useState<View>("weekly");
+  const [prevView, setPrevView] = useState<View>("weekly"); // remember dashboard view when in CRM
+  const toggleCrm = () => {
+    if (view === "crm") setView(prevView);
+    else { setPrevView(view); setView("crm"); }
+  };
   const [activeTicker, setActiveTicker] = useState<"HEI" | "HEIA">("HEI");
   const [actionFilter, setActionFilter] = useState<Action | "All">("All");
   const [largeOnly, setLargeOnly] = useState(false);
@@ -308,26 +313,43 @@ export default function Dashboard({
               </p>
             </div>
 
-            {/* Ticker toggle — only for 13F ownership views */}
-            <div className={`flex shrink-0 rounded-lg border border-gray-300 overflow-hidden ${OWNERSHIP_VIEWS.includes(view) ? "" : "hidden"}`}>
-              {(["HEI", "HEIA"] as const).map((t) => (
-                <button
-                  key={t}
-                  onClick={() => setActiveTicker(t)}
-                  className={`px-5 py-2 text-sm font-medium transition-colors ${
-                    activeTicker === t
-                      ? "bg-blue-600 text-white"
-                      : "bg-white text-gray-700 hover:bg-gray-50"
-                  }`}
-                >
-                  {t === "HEIA" ? "HEI/A" : t}
-                </button>
-              ))}
+            <div className="flex shrink-0 items-center gap-2">
+              {/* Ticker toggle — only for 13F ownership views */}
+              <div className={`flex rounded-lg border border-gray-300 overflow-hidden ${OWNERSHIP_VIEWS.includes(view) ? "" : "hidden"}`}>
+                {(["HEI", "HEIA"] as const).map((t) => (
+                  <button
+                    key={t}
+                    onClick={() => setActiveTicker(t)}
+                    className={`px-5 py-2 text-sm font-medium transition-colors ${
+                      activeTicker === t
+                        ? "bg-blue-600 text-white"
+                        : "bg-white text-gray-700 hover:bg-gray-50"
+                    }`}
+                  >
+                    {t === "HEIA" ? "HEI/A" : t}
+                  </button>
+                ))}
+              </div>
+
+              {/* CRM — distinct feature, its own button */}
+              <button
+                onClick={toggleCrm}
+                className={`inline-flex items-center gap-1.5 rounded-lg border px-4 py-2 text-sm font-semibold transition-colors ${
+                  view === "crm"
+                    ? "border-indigo-600 bg-indigo-600 text-white hover:bg-indigo-700"
+                    : "border-indigo-200 bg-indigo-50 text-indigo-700 hover:bg-indigo-100"
+                }`}
+                title={view === "crm" ? "Back to analytics dashboard" : "Open the investor CRM"}
+              >
+                <span aria-hidden>👥</span>
+                {view === "crm" ? "← Dashboard" : "CRM"}
+              </button>
             </div>
           </div>
 
-          {/* View tabs — single row; scrolls horizontally only on narrow screens */}
-          <div className="mt-3 overflow-x-auto pb-1">
+          {/* View tabs — single row; scrolls horizontally only on narrow screens.
+              Hidden in CRM mode (a distinct feature reached via its own button). */}
+          <div className={`mt-3 overflow-x-auto pb-1 ${view === "crm" ? "hidden" : ""}`}>
             <div className="inline-flex rounded-lg border border-gray-300 overflow-hidden">
               {VIEWS.map((v) => (
                 <button
