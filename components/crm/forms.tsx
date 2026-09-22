@@ -125,7 +125,7 @@ export function ActivityForm({ investorId: fixedInvestor, existing, onClose }: {
         <Field label="Date"><Text value={f.date} onChange={(v) => set("date", v)} type="date" /></Field>
         <div className="sm:col-span-2"><Field label="Subject"><Text value={f.subject} onChange={(v) => set("subject", v)} placeholder="e.g. Post-Q3 catch-up" /></Field></div>
         <Field label="Sentiment"><Select value={f.sentiment} onChange={(v) => set("sentiment", v)} options={opts(["Positive", "Neutral", "Negative"])} /></Field>
-        <Field label="HEICO attendees"><Text value={f.attendees} onChange={(v) => set("attendees", v)} placeholder="Larry Pearson, CFO" /></Field>
+        <Field label="HEICO attendees"><Text value={f.attendees} onChange={(v) => set("attendees", v)} placeholder="Lindsey Pearson, CFO" /></Field>
         {firmContacts.length > 0 && (
           <div className="sm:col-span-2">
             <span className="mb-1 block text-xs font-medium text-gray-600">Their contacts present</span>
