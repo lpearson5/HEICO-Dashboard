@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-09-21T16:57:50.059Z",
+  "lastUpdated": "2026-09-22T15:30:10.486Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -86,8 +86,8 @@
       "pctChange": 3,
       "currentValue": 479170215,
       "action": "Bought",
-      "firstSeen": "2026-08-07",
-      "newThisWeek": false
+      "firstSeen": "2026-09-22",
+      "newThisWeek": true
     },
     {
       "filerName": "GEODE CAPITAL MANAGEMENT, LLC",
@@ -4458,18 +4458,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Diversify Advisory Services, LLC",
-      "filerCik": "2021232",
-      "currentShares": 2751,
-      "priorShares": 1357,
-      "change": 1394,
-      "pctChange": 102.7,
-      "currentValue": 713570,
-      "action": "Bought",
-      "firstSeen": "2026-08-10",
-      "newThisWeek": false
-    },
-    {
       "filerName": "DIVERSIFY WEALTH MANAGEMENT, LLC",
       "filerCik": "2030780",
       "currentShares": 2751,
@@ -4479,6 +4467,18 @@
       "currentValue": 713570,
       "action": "Bought",
       "firstSeen": "2026-07-30",
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Diversify Advisory Services, LLC",
+      "filerCik": "2021232",
+      "currentShares": 2751,
+      "priorShares": 1357,
+      "change": 1394,
+      "pctChange": 102.7,
+      "currentValue": 713570,
+      "action": "Bought",
+      "firstSeen": "2026-08-10",
       "newThisWeek": false
     },
     {
@@ -6543,7 +6543,7 @@
       "currentValue": 48487,
       "action": "Bought",
       "firstSeen": "2026-09-15",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "HARBOUR INVESTMENTS, INC.",
@@ -8137,7 +8137,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Not Filed Yet",
+      "action": "Sell Out",
       "firstSeen": null,
       "newThisWeek": false
     },
@@ -8670,6 +8670,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "First Pacific Financial",
+      "filerCik": "1810089",
+      "currentShares": null,
+      "priorShares": 27,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
       "filerName": "Raleigh Capital Management Inc.",
       "filerCik": "1911726",
       "currentShares": null,
@@ -8758,18 +8770,6 @@
       "filerCik": "1730960",
       "currentShares": null,
       "priorShares": 5,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "First Pacific Financial",
-      "filerCik": "1810089",
-      "currentShares": null,
-      "priorShares": 27,
       "change": null,
       "pctChange": null,
       "currentValue": null,

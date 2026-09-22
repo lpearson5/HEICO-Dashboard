@@ -30139,7 +30139,8 @@
     "1741224|2026-06-30": true,
     "1769646|2026-06-30": true,
     "2040900|2026-06-30": true,
-    "1555283|2026-06-30": true
+    "1555283|2026-06-30": true,
+    "1535452|2026-06-30": true
   },
   "0001661140-26-000001": {
     "cik": "1661140",
@@ -97665,6 +97666,48 @@
         "voteSole": 6375,
         "voteShared": 0,
         "voteNone": 0
+      }
+    },
+    "ok": true
+  },
+  "0001398344-26-017241": {
+    "cik": "1673633",
+    "name": "Silicon Valley Capital Partners",
+    "period": "2026-06-30",
+    "fileDate": "2026-09-21",
+    "positions": {
+      "HEI": {
+        "shares": 71,
+        "value": 25320,
+        "discretion": "SOLE",
+        "voteSole": 71,
+        "voteShared": 0,
+        "voteNone": 0
+      }
+    },
+    "ok": true
+  },
+  "0000093751-26-000583": {
+    "cik": "93751",
+    "name": "STATE STREET CORP  (STT, STT-PG)",
+    "period": "2026-06-30",
+    "fileDate": "2026-09-22",
+    "positions": {
+      "HEIA": {
+        "shares": 1857897,
+        "value": 479170215,
+        "discretion": "DFND",
+        "voteSole": 571693,
+        "voteShared": 28207,
+        "voteNone": 1257997
+      },
+      "HEI": {
+        "shares": 1676848,
+        "value": 597276489,
+        "discretion": "DFND",
+        "voteSole": 314493,
+        "voteShared": 16875,
+        "voteNone": 1345480
       }
     },
     "ok": true

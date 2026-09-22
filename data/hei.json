@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-09-21T16:57:50.059Z",
+  "lastUpdated": "2026-09-22T15:30:10.486Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -62,8 +62,8 @@
       "pctChange": -3.5,
       "currentValue": 597276489,
       "action": "Sold",
-      "firstSeen": "2026-08-07",
-      "newThisWeek": false
+      "firstSeen": "2026-09-22",
+      "newThisWeek": true
     },
     {
       "filerName": "Capital World Investors",
@@ -6591,7 +6591,7 @@
       "currentValue": 313803,
       "action": "Bought",
       "firstSeen": "2026-09-15",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Quadcap Wealth Management, LLC",
@@ -8116,6 +8116,18 @@
       "action": "Bought",
       "firstSeen": "2026-08-07",
       "newThisWeek": false
+    },
+    {
+      "filerName": "Silicon Valley Capital Partners",
+      "filerCik": "1673633",
+      "currentShares": 71,
+      "priorShares": 71,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 25320,
+      "action": "No Change",
+      "firstSeen": "2026-09-21",
+      "newThisWeek": true
     },
     {
       "filerName": "MATHER GROUP, LLC.",
@@ -9685,7 +9697,7 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Not Filed Yet",
+      "action": "Sell Out",
       "firstSeen": null,
       "newThisWeek": false
     },
@@ -9746,18 +9758,6 @@
       "pctChange": null,
       "currentValue": null,
       "action": "Sell Out",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Silicon Valley Capital Partners",
-      "filerCik": "1673633",
-      "currentShares": null,
-      "priorShares": 71,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
       "firstSeen": null,
       "newThisWeek": false
     },

@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-21T16:57:50.059Z",
+  "lastUpdated": "2026-09-22T15:30:10.486Z",
   "summary": {
-    "funds": 441,
-    "totalShares": 19876969,
-    "pctOut": 35.9819,
-    "newFunds": 61,
+    "funds": 442,
+    "totalShares": 19876232,
+    "pctOut": 35.9805,
+    "newFunds": 62,
     "sellouts": 52,
     "linkedManagers": 26,
-    "linkedShares": 17069063
+    "linkedShares": 17069758
   },
   "newHolders": [
     {
@@ -635,6 +635,19 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.0021,
+      "action": "New"
+    },
+    {
+      "fundName": "Goldman Sachs Multi-Manager Global Equity Fund",
+      "registrant": "Goldman Sachs Trust II",
+      "manager": "Goldman Sachs",
+      "cik": "1557156",
+      "shares": 695,
+      "value": 247670,
+      "reportDate": "2026-07-31",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0013,
       "action": "New"
     },
     {
@@ -2324,8 +2337,8 @@
     },
     {
       "manager": "Goldman Sachs",
-      "fundCount": 5,
-      "shares": 26575,
+      "fundCount": 6,
+      "shares": 27270,
       "funds": [
         {
           "fundName": "Goldman Sachs Equal Weight U.S. Large Cap Equity ETF",
@@ -2346,6 +2359,10 @@
         {
           "fundName": "Goldman Sachs MarketBeta(R) Russell 1000 Growth Equity ETF",
           "shares": 757
+        },
+        {
+          "fundName": "Goldman Sachs Multi-Manager Global Equity Fund",
+          "shares": 695
         }
       ]
     },
@@ -4560,19 +4577,6 @@
       "action": "New"
     },
     {
-      "fundName": "TCW Durable Growth ETF",
-      "registrant": "TCW ETF Trust",
-      "manager": "",
-      "cik": "1831313",
-      "shares": 10108,
-      "value": 2728351,
-      "reportDate": "2026-04-30",
-      "priorShares": 13614,
-      "change": -3506,
-      "pctOut": 0.0183,
-      "action": "Sold"
-    },
-    {
       "fundName": "LVIP American Century Ultra(R) Fund",
       "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
       "manager": "FMR (Fidelity)",
@@ -4753,6 +4757,19 @@
       "change": null,
       "pctOut": 0.0157,
       "action": "New"
+    },
+    {
+      "fundName": "TCW Durable Growth ETF",
+      "registrant": "TCW ETF Trust",
+      "manager": "",
+      "cik": "1831313",
+      "shares": 8663,
+      "value": 3087147,
+      "reportDate": "2026-07-31",
+      "priorShares": 10108,
+      "change": -1445,
+      "pctOut": 0.0157,
+      "action": "Sold"
     },
     {
       "fundName": "RMB SMID Cap Fund",
@@ -6874,6 +6891,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "TCW Transform 500 ETF",
+      "registrant": "TCW ETF Trust",
+      "manager": "",
+      "cik": "1831313",
+      "shares": 717,
+      "value": 255510,
+      "reportDate": "2026-07-31",
+      "priorShares": 704,
+      "change": 13,
+      "pctOut": 0.0013,
+      "action": "Bought"
+    },
+    {
       "fundName": "BlackRock Sustainable Aware Advantage Large Cap Core Fund",
       "registrant": "BlackRock Funds",
       "manager": "BlackRock",
@@ -6900,17 +6930,17 @@
       "action": "Sold"
     },
     {
-      "fundName": "TCW Transform 500 ETF",
-      "registrant": "TCW ETF Trust",
-      "manager": "",
-      "cik": "1831313",
-      "shares": 704,
-      "value": 190024,
-      "reportDate": "2026-04-30",
-      "priorShares": 670,
-      "change": 34,
+      "fundName": "Goldman Sachs Multi-Manager Global Equity Fund",
+      "registrant": "Goldman Sachs Trust II",
+      "manager": "Goldman Sachs",
+      "cik": "1557156",
+      "shares": 695,
+      "value": 247670,
+      "reportDate": "2026-07-31",
+      "priorShares": null,
+      "change": null,
       "pctOut": 0.0013,
-      "action": "Bought"
+      "action": "New"
     },
     {
       "fundName": "WisdomTree U.S. LargeCap Fund",

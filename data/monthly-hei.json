@@ -8,16 +8,16 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-21T16:57:50.059Z",
+  "lastUpdated": "2026-09-22T15:30:10.486Z",
   "summary": {
     "institutions": 777,
-    "totalShares": 43758612,
-    "pctOut": 79.21000000000001,
-    "newHolders": 121,
+    "totalShares": 43718158,
+    "pctOut": 79.14,
+    "newHolders": 120,
     "sellouts": 86,
     "bought": 256,
-    "sold": 267,
-    "held": 133
+    "sold": 266,
+    "held": 135
   },
   "top10": [
     {
@@ -2165,24 +2165,6 @@
       "voteNone": 0
     },
     {
-      "filerName": "Tradewinds Capital Management, LLC",
-      "filerCik": "1616026",
-      "shares": [
-        4,
-        null,
-        4,
-        4
-      ],
-      "netChg": 4,
-      "currentValue": 1425,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 4
-    },
-    {
       "filerName": "AMERICAN NATIONAL BANK & TRUST",
       "filerCik": "1272164",
       "shares": [
@@ -2479,9 +2461,27 @@
         null,
         56794,
         205135,
-        null
+        48532
       ],
       "netChg": -56794,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Bank Julius Baer & Co. Ltd, Zurich",
+      "filerCik": "1544599",
+      "shares": [
+        null,
+        43917,
+        47450,
+        54556
+      ],
+      "netChg": -43917,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -3571,24 +3571,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Silicon Valley Capital Partners",
-      "filerCik": "1673633",
-      "shares": [
-        null,
-        71,
-        71,
-        71
-      ],
-      "netChg": -71,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Root Financial Partners, LLC",
       "filerCik": "1977181",
       "shares": [
@@ -3613,7 +3595,7 @@
         null,
         49,
         49,
-        null
+        49
       ],
       "netChg": -49,
       "currentValue": null,
@@ -5947,24 +5929,6 @@
       "voteSole": 34382,
       "voteShared": 0,
       "voteNone": 6373
-    },
-    {
-      "filerName": "Bank Julius Baer & Co. Ltd, Zurich",
-      "filerCik": "1544599",
-      "shares": [
-        40525,
-        43917,
-        47450,
-        54556
-      ],
-      "netChg": -3392,
-      "currentValue": 14472713,
-      "pctOut": 0.06999999999999999,
-      "action": "Sold",
-      "discretion": "SOLE",
-      "voteSole": 40525,
-      "voteShared": 0,
-      "voteNone": 0
     },
     {
       "filerName": "CAPITAL INTERNATIONAL LTD /CA/",
@@ -13617,7 +13581,7 @@
       "voteNone": 918
     },
     {
-      "filerName": "MONECO Advisors, LLC",
+      "filerName": "MONECO ADVISORS, LLC",
       "filerCik": "1765690",
       "shares": [
         904,
@@ -16101,6 +16065,24 @@
       "voteNone": 72
     },
     {
+      "filerName": "Silicon Valley Capital Partners",
+      "filerCik": "1673633",
+      "shares": [
+        71,
+        71,
+        71,
+        71
+      ],
+      "netChg": 0,
+      "currentValue": 25320,
+      "pctOut": 0,
+      "action": "No Change",
+      "discretion": "SOLE",
+      "voteSole": 71,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "MATHER GROUP, LLC.",
       "filerCik": "1527641",
       "shares": [
@@ -16377,7 +16359,7 @@
         40,
         40,
         40,
-        null
+        40
       ],
       "netChg": 0,
       "currentValue": 14248,
@@ -17581,14 +17563,14 @@
       "filerCik": "1616026",
       "shares": [
         4,
-        null,
+        4,
         4,
         4
       ],
-      "netChg": 4,
+      "netChg": 0,
       "currentValue": 1425,
       "pctOut": 0,
-      "action": "New",
+      "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -18783,24 +18765,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Silicon Valley Capital Partners",
-      "filerCik": "1673633",
-      "shares": [
-        null,
-        71,
-        71,
-        71
-      ],
-      "netChg": -71,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "GM Advisory Group, LLC",
       "filerCik": "1598304",
       "shares": [
@@ -19719,6 +19683,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Bank Julius Baer & Co. Ltd, Zurich",
+      "filerCik": "1544599",
+      "shares": [
+        null,
+        43917,
+        47450,
+        54556
+      ],
+      "netChg": -43917,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Hilltop Holdings Inc.  (HTH)",
       "filerCik": "1265131",
       "shares": [
@@ -19809,24 +19791,6 @@
       "voteNone": null
     },
     {
-      "filerName": "GF FUND MANAGEMENT CO. LTD.",
-      "filerCik": "2057060",
-      "shares": [
-        null,
-        null,
-        3884,
-        3884
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Davis Capital Management",
       "filerCik": "1811806",
       "shares": [
@@ -19888,6 +19852,24 @@
         null,
         5190,
         5060
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "GF FUND MANAGEMENT CO. LTD.",
+      "filerCik": "2057060",
+      "shares": [
+        null,
+        null,
+        null,
+        3884
       ],
       "netChg": null,
       "currentValue": null,
@@ -20013,7 +19995,7 @@
         null,
         49,
         49,
-        null
+        49
       ],
       "netChg": -49,
       "currentValue": null,
@@ -20427,7 +20409,7 @@
         null,
         null,
         350,
-        null
+        350
       ],
       "netChg": null,
       "currentValue": null,
@@ -20763,24 +20745,6 @@
       "voteNone": null
     },
     {
-      "filerName": "HARBOR CAPITAL ADVISORS, INC.",
-      "filerCik": "1039128",
-      "shares": [
-        null,
-        null,
-        680,
-        680
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Capula Management Ltd",
       "filerCik": "1557017",
       "shares": [
@@ -20793,6 +20757,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "HARBOR CAPITAL ADVISORS, INC.",
+      "filerCik": "1039128",
+      "shares": [
+        null,
+        null,
+        680,
+        680
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -21525,7 +21507,7 @@
         null,
         56794,
         205135,
-        null
+        48532
       ],
       "netChg": -56794,
       "currentValue": null,

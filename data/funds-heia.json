@@ -2,11 +2,11 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-09-21T16:57:50.059Z",
+  "lastUpdated": "2026-09-22T15:30:10.486Z",
   "summary": {
     "funds": 352,
-    "totalShares": 29631181,
-    "pctOut": 35.0599,
+    "totalShares": 29631217,
+    "pctOut": 35.06,
     "newFunds": 16,
     "sellouts": 31,
     "linkedManagers": 23,
@@ -4614,6 +4614,19 @@
       "action": "New"
     },
     {
+      "fundName": "TCW Transform 500 ETF",
+      "registrant": "TCW ETF Trust",
+      "manager": "",
+      "cik": "1831313",
+      "shares": 1316,
+      "value": 338580,
+      "reportDate": "2026-07-31",
+      "priorShares": 1280,
+      "change": 36,
+      "pctOut": 0.0015999999999999999,
+      "action": "Bought"
+    },
+    {
       "fundName": "AZL Russell 1000 Growth Index Fund",
       "registrant": "Allianz Variable Insurance Products Trust",
       "manager": "",
@@ -4664,19 +4677,6 @@
       "change": -2407,
       "pctOut": 0.0015,
       "action": "Sold"
-    },
-    {
-      "fundName": "TCW Transform 500 ETF",
-      "registrant": "TCW ETF Trust",
-      "manager": "",
-      "cik": "1831313",
-      "shares": 1280,
-      "value": 267546,
-      "reportDate": "2026-04-30",
-      "priorShares": 1218,
-      "change": 62,
-      "pctOut": 0.0015,
-      "action": "Bought"
     },
     {
       "fundName": "Global Atlantic BlackRock Disciplined Core Portfolio",

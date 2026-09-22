@@ -1,9 +1,9 @@
 {
-  "asOf": "2026-09-21T17:19:13.441Z",
+  "asOf": "2026-09-22T15:48:11.633Z",
   "period": "2026-06-30",
   "hei": {
     "total": 777,
-    "totalShares": 43758612,
+    "totalShares": 43718158,
     "categories": [
       {
         "style": "Growth",
@@ -648,10 +648,10 @@
       },
       {
         "style": "Blend/Core",
-        "holders": 584,
-        "holderPct": 75.2,
-        "shares": 26290533,
-        "sharePct": 60.1,
+        "holders": 583,
+        "holderPct": 75,
+        "shares": 26250008,
+        "sharePct": 60,
         "estCount": 128,
         "examples": [
           "BlackRock, Inc.  (BLK)",
@@ -1009,11 +1009,6 @@
           {
             "name": "Lansforsakringar Fondforvaltning AB (publ)",
             "shares": 45469,
-            "est": false
-          },
-          {
-            "name": "Bank Julius Baer & Co. Ltd, Zurich",
-            "shares": 40525,
             "est": false
           },
           {
@@ -2722,7 +2717,7 @@
             "est": true
           },
           {
-            "name": "MONECO Advisors, LLC",
+            "name": "MONECO ADVISORS, LLC",
             "shares": 904,
             "est": false
           },
@@ -3585,9 +3580,9 @@
       },
       {
         "style": "Unclassified",
-        "holders": 78,
-        "holderPct": 10,
-        "shares": 331095,
+        "holders": 79,
+        "holderPct": 10.2,
+        "shares": 331166,
         "sharePct": 0.8,
         "estCount": 0,
         "examples": [
@@ -3864,6 +3859,11 @@
             "est": false
           },
           {
+            "name": "Silicon Valley Capital Partners",
+            "shares": 71,
+            "est": false
+          },
+          {
             "name": "MATHER GROUP, LLC.",
             "shares": 68,
             "est": false
@@ -3993,14 +3993,14 @@
     ],
     "coverage": {
       "curated": 160,
-      "heuristic": 352,
+      "heuristic": 351,
       "estimated": 187,
-      "unknown": 78
+      "unknown": 79
     }
   },
   "heia": {
-    "total": 670,
-    "totalShares": 70041288,
+    "total": 669,
+    "totalShares": 70038537,
     "categories": [
       {
         "style": "Growth",
@@ -4538,9 +4538,9 @@
       },
       {
         "style": "Blend/Core",
-        "holders": 509,
-        "holderPct": 76,
-        "shares": 48984648,
+        "holders": 508,
+        "holderPct": 75.9,
+        "shares": 48981897,
         "sharePct": 69.9,
         "estCount": 106,
         "examples": [
@@ -5912,11 +5912,6 @@
             "est": false
           },
           {
-            "name": "Diversify Advisory Services, LLC",
-            "shares": 2751,
-            "est": false
-          },
-          {
             "name": "DIVERSIFY WEALTH MANAGEMENT, LLC",
             "shares": 2751,
             "est": false
@@ -6352,7 +6347,7 @@
             "est": false
           },
           {
-            "name": "MONECO Advisors, LLC",
+            "name": "MONECO ADVISORS, LLC",
             "shares": 1039,
             "est": false
           },
@@ -7453,14 +7448,14 @@
     ],
     "coverage": {
       "curated": 170,
-      "heuristic": 295,
+      "heuristic": 294,
       "estimated": 138,
       "unknown": 67
     }
   },
   "combined": {
-    "total": 1010,
-    "totalShares": 113799900,
+    "total": 1009,
+    "totalShares": 113756695,
     "categories": [
       {
         "style": "Growth",
@@ -8320,9 +8315,9 @@
       },
       {
         "style": "Blend/Core",
-        "holders": 737,
-        "holderPct": 73,
-        "shares": 75275181,
+        "holders": 735,
+        "holderPct": 72.8,
+        "shares": 75231905,
         "sharePct": 66.1,
         "estCount": 159,
         "examples": [
@@ -9037,11 +9032,6 @@
             "name": "Rockefeller Capital Management L.P.",
             "shares": 40955,
             "est": true
-          },
-          {
-            "name": "Bank Julius Baer & Co. Ltd, Zurich",
-            "shares": 40525,
-            "est": false
           },
           {
             "name": "Fideuram Asset Management (Ireland) dac",
@@ -10369,11 +10359,6 @@
             "est": false
           },
           {
-            "name": "Diversify Advisory Services, LLC",
-            "shares": 2751,
-            "est": false
-          },
-          {
             "name": "DIVERSIFY WEALTH MANAGEMENT, LLC",
             "shares": 2751,
             "est": false
@@ -10544,7 +10529,7 @@
             "est": true
           },
           {
-            "name": "MONECO Advisors, LLC",
+            "name": "MONECO ADVISORS, LLC",
             "shares": 1943,
             "est": false
           },
@@ -12022,9 +12007,9 @@
       },
       {
         "style": "Unclassified",
-        "holders": 115,
-        "holderPct": 11.4,
-        "shares": 2856107,
+        "holders": 116,
+        "holderPct": 11.5,
+        "shares": 2856178,
         "sharePct": 2.5,
         "estCount": 0,
         "examples": [
@@ -12451,6 +12436,11 @@
             "est": false
           },
           {
+            "name": "Silicon Valley Capital Partners",
+            "shares": 71,
+            "est": false
+          },
+          {
             "name": "FARMERS & MERCHANTS INVESTMENTS INC",
             "shares": 61,
             "est": false
@@ -12615,9 +12605,9 @@
     ],
     "coverage": {
       "curated": 192,
-      "heuristic": 465,
+      "heuristic": 463,
       "estimated": 238,
-      "unknown": 115
+      "unknown": 116
     }
   }
 }
