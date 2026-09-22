@@ -26,6 +26,8 @@ export const CRM_SAMPLE: CrmData = {
     { id: "i12", name: "Norges Bank", klass: "Both", style: "Blend/Core", city: "Oslo", country: "Norway", stage: "Owns", priority: "Medium", ownerId: "u6", tags: ["Sovereign", "International"], notes: "Passive/quasi-index sovereign.", createdAt: "2026-03-20" },
     { id: "i13", name: "Wellington Management Group LLP", klass: "HEI", style: "Blend/Core", city: "Boston", country: "USA", stage: "Engaged", priority: "High", ownerId: "u5", tags: ["Active", "Multi-strat"], notes: "Multiple PMs — map the right desk.", createdAt: "2026-04-28" },
     { id: "i14", name: "Massachusetts Financial Services (MFS)", klass: "Target", style: "Blend/Core", city: "Boston", country: "USA", stage: "Passed", priority: "Low", ownerId: "u5", tags: ["Target"], notes: "Passed for now — valuation concerns cited.", createdAt: "2026-02-25" },
+    { id: "i15", name: "FEDERATED HERMES, INC.  (FHI)", klass: "HEI", style: "Blend/Core", city: "Pittsburgh", country: "USA", stage: "Owns", priority: "Medium", ownerId: "u6", tags: ["ESG", "Stewardship"], notes: "Holds via EOS-stewardship-aware sleeves. Good ESG engagement contact.", createdAt: "2026-05-02" },
+    { id: "i16", name: "Ethic Inc.", klass: "HEI.A", style: "Blend/Core", city: "New York", country: "USA", stage: "Engaged", priority: "Low", ownerId: "u6", tags: ["ESG", "Direct indexing"], notes: "ESG direct-indexing platform — holds HEICO despite defense screen.", createdAt: "2026-07-08" },
   ],
 
   contacts: [

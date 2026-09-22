@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import type { TickerData, Holding, Action, MonthlyData, FundData, BeneficialData, PeersData, PricesData, GeographyData, ShortInterestData, FundamentalsData, EarningsData, OptionsData, SelfAuditData, InvestorStylesData } from "@/lib/types";
+import type { TickerData, Holding, Action, MonthlyData, FundData, BeneficialData, PeersData, PricesData, GeographyData, ShortInterestData, FundamentalsData, EarningsData, OptionsData, SelfAuditData, InvestorStylesData, EsgData } from "@/lib/types";
 import MonthlySnapshot from "@/components/MonthlySnapshot";
 import MarketPerformance from "@/components/MarketPerformance";
 import OwnershipAnalytics from "@/components/OwnershipAnalytics";
@@ -11,15 +11,17 @@ import Valuation from "@/components/Valuation";
 import EarningsCalendar from "@/components/EarningsCalendar";
 import OptionsPositions from "@/components/OptionsPositions";
 import InvestorStyles from "@/components/InvestorStyles";
+import EsgOwnership from "@/components/EsgOwnership";
 import Crm from "@/components/crm/Crm";
 import { normName } from "@/components/crm/ui";
 import type { LivePosition } from "@/lib/crm-types";
 
-type View = "weekly" | "monthly" | "styles" | "markets" | "valuation" | "short" | "options" | "earnings" | "crm";
+type View = "weekly" | "monthly" | "styles" | "esg" | "markets" | "valuation" | "short" | "options" | "earnings" | "crm";
 const VIEWS: { id: View; label: string }[] = [
   { id: "weekly", label: "Ownership Tracker" },
   { id: "monthly", label: "Ownership Report" },
   { id: "styles", label: "Investor Styles" },
+  { id: "esg", label: "ESG Ownership" },
   { id: "short", label: "Short Interest" },
   { id: "options", label: "Options" },
   { id: "markets", label: "Markets & Performance" },
@@ -102,6 +104,7 @@ export default function Dashboard({
   earnings = null,
   options = null,
   investorStyles = null,
+  esg = null,
   audit = null,
 }: {
   hei: TickerData | null;
@@ -120,6 +123,7 @@ export default function Dashboard({
   earnings?: EarningsData | null;
   options?: OptionsData | null;
   investorStyles?: InvestorStylesData | null;
+  esg?: EsgData | null;
   audit?: SelfAuditData | null;
 }) {
   const [view, setView] = useState<View>("weekly");
@@ -162,8 +166,11 @@ export default function Dashboard({
       for (const c of investorStyles.combined.categories)
         for (const m of c.members) { const k = normName(m.name); if (map[k]) map[k].style = c.style; }
     }
+    if (esg) {
+      for (const m of esg.combined.members) { const k = normName(m.name); if (map[k]) map[k].esg = m.tier; }
+    }
     return map;
-  }, [hei, heia, investorStyles]);
+  }, [hei, heia, investorStyles, esg]);
 
   const summary = useMemo(() => {
     if (!data) return null;
@@ -296,6 +303,8 @@ export default function Dashboard({
                   <>13F put &amp; call positions on HEICO</>
                 ) : view === "valuation" ? (
                   <>HEICO vs peers · Live multiples &amp; fundamentals</>
+                ) : view === "esg" ? (
+                  <>ESG &amp; sustainable investors in the register</>
                 ) : view === "styles" ? (
                   <>What kind of money owns HEICO · By investment style</>
                 ) : view === "earnings" ? (
@@ -379,6 +388,7 @@ export default function Dashboard({
         {view === "options" && <OptionsPositions data={options} />}
         {view === "earnings" && <EarningsCalendar data={earnings} />}
         {view === "styles" && <InvestorStyles data={investorStyles} />}
+        {view === "esg" && <EsgOwnership data={esg} />}
         {view === "crm" && <Crm live={crmLive} />}
       </div>
 

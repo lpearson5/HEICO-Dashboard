@@ -88,4 +88,5 @@ export interface LivePosition {
   action: string | null;     // Bought / Sold / New Position / ...
   style: string | null;
   pctChange: number | null;
+  esg?: string | null;       // ESG tier if the holder is an ESG/sustainable manager
 }

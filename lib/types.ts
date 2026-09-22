@@ -251,6 +251,26 @@ export interface InvestorStylesData {
   combined: StyleBlock;
 }
 
+// ── ESG ownership ──
+export interface EsgMember { name: string; shares: number; tier: string }
+export interface EsgBlock {
+  total: number;
+  totalShares: number;
+  esgHolders: number;
+  esgShares: number;
+  holderPct: number;
+  sharePct: number;
+  tiers: Record<string, number>;
+  members: EsgMember[];
+}
+export interface EsgData {
+  asOf: string;
+  period: string | null;
+  hei: EsgBlock;
+  heia: EsgBlock;
+  combined: EsgBlock;
+}
+
 // ── Self-audit / data-integrity status ──
 export interface AuditFinding { level: string; check: string; detail: string }
 export interface SelfAuditData {

@@ -44,6 +44,7 @@ export default function InvestorDetail({ investorId, live, onClose }: { investor
           {investor.style && <Badge label={investor.style} color={STYLE_COLOR[investor.style] ?? "#64748b"} />}
           <Badge label={`${investor.priority} priority`} color={PRIORITY_COLOR[investor.priority]} />
           <Badge label={investor.klass} color="#334155" subtle />
+          {pos?.esg && <Badge label={`🌱 ${pos.esg}`} color="#059669" />}
           {investor.tags.map((t) => <Badge key={t} label={t} color="#0ea5e9" subtle />)}
           <button onClick={() => setModal({ kind: "editInvestor" })} className="ml-auto text-xs font-medium text-blue-600 hover:underline">Edit</button>
         </div>
