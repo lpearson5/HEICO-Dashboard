@@ -72,7 +72,12 @@ export function CrmProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     try {
       const raw = localStorage.getItem(KEY);
-      if (raw) dispatch({ t: "load", data: JSON.parse(raw) });
+      if (raw) {
+        const stored: CrmData = JSON.parse(raw);
+        // The team roster is fixed/canonical — always use the current list so
+        // owner options stay in sync even with older browser-saved data.
+        dispatch({ t: "load", data: { ...stored, team: CRM_SAMPLE.team } });
+      }
     } catch { /* ignore */ }
   }, []);
 
