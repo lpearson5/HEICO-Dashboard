@@ -11,8 +11,11 @@ import Valuation from "@/components/Valuation";
 import EarningsCalendar from "@/components/EarningsCalendar";
 import OptionsPositions from "@/components/OptionsPositions";
 import InvestorStyles from "@/components/InvestorStyles";
+import Crm from "@/components/crm/Crm";
+import { normName } from "@/components/crm/ui";
+import type { LivePosition } from "@/lib/crm-types";
 
-type View = "weekly" | "monthly" | "styles" | "markets" | "valuation" | "short" | "options" | "earnings";
+type View = "weekly" | "monthly" | "styles" | "markets" | "valuation" | "short" | "options" | "earnings" | "crm";
 const VIEWS: { id: View; label: string }[] = [
   { id: "weekly", label: "Ownership Tracker" },
   { id: "monthly", label: "Ownership Report" },
@@ -22,6 +25,7 @@ const VIEWS: { id: View; label: string }[] = [
   { id: "markets", label: "Markets & Performance" },
   { id: "valuation", label: "Valuation" },
   { id: "earnings", label: "Earnings Calendar" },
+  { id: "crm", label: "CRM" },
 ];
 // Views that show 13F ownership tables use the HEI / HEI.A ticker toggle.
 const OWNERSHIP_VIEWS: View[] = ["weekly", "monthly"];
@@ -131,6 +135,30 @@ export default function Dashboard({
   const monthlyData = activeTicker === "HEI" ? monthlyHei : monthlyHeia;
   const fundsData = activeTicker === "HEI" ? fundsHei : fundsHeia;
   const geoData = activeTicker === "HEI" ? geoHei : geoHeia;
+
+  // Live-position lookup for the CRM: firm name → combined HEI+HEI.A position,
+  // enriched with style. Lets a CRM investor record show its real 13F position.
+  const crmLive = useMemo(() => {
+    const map: Record<string, LivePosition> = {};
+    const add = (h: Holding) => {
+      if (h.currentShares == null) return;
+      const key = normName(h.filerName);
+      const prev = map[key];
+      if (prev) {
+        prev.shares = (prev.shares ?? 0) + (h.currentShares ?? 0);
+        prev.value = (prev.value ?? 0) + (h.currentValue ?? 0);
+      } else {
+        map[key] = { shares: h.currentShares, value: h.currentValue, action: h.action, style: null, pctChange: h.pctChange };
+      }
+    };
+    hei?.holdings.forEach(add);
+    heia?.holdings.forEach(add);
+    if (investorStyles) {
+      for (const c of investorStyles.combined.categories)
+        for (const m of c.members) { const k = normName(m.name); if (map[k]) map[k].style = c.style; }
+    }
+    return map;
+  }, [hei, heia, investorStyles]);
 
   const summary = useMemo(() => {
     if (!data) return null;
@@ -253,7 +281,9 @@ export default function Dashboard({
                 })()}
               </div>
               <p className="text-sm text-gray-500 mt-0.5">
-                {view === "markets" ? (
+                {view === "crm" ? (
+                  <>Investor relationships, activity &amp; targeting · Team CRM</>
+                ) : view === "markets" ? (
                   <>HEICO, peers &amp; indices · Live prices &amp; performance</>
                 ) : view === "short" ? (
                   <>HEICO vs peers · Short interest (FINRA)</>
@@ -327,6 +357,7 @@ export default function Dashboard({
         {view === "options" && <OptionsPositions data={options} />}
         {view === "earnings" && <EarningsCalendar data={earnings} />}
         {view === "styles" && <InvestorStyles data={investorStyles} />}
+        {view === "crm" && <Crm live={crmLive} />}
       </div>
 
       <div className={`max-w-7xl mx-auto px-4 sm:px-6 py-6 space-y-6 ${view !== "weekly" ? "hidden" : ""}`}>
