@@ -14,11 +14,11 @@ const STYLES = ["Growth", "Value", "Momentum/Quant", "Income", "Blend/Core", "Un
 const opts = (arr: string[]) => arr.map((v) => ({ value: v, label: v }));
 
 // ── Investor add/edit ───────────────────────────────────────────────
-export function InvestorForm({ existing, onClose }: { existing?: Investor; onClose: () => void }) {
+export function InvestorForm({ existing, defaultStage, onClose }: { existing?: Investor; defaultStage?: PipelineStage; onClose: () => void }) {
   const { data, dispatch } = useCrm();
   const [f, setF] = useState({
     name: existing?.name ?? "", klass: existing?.klass ?? "Target", style: existing?.style ?? "Unclassified",
-    stage: existing?.stage ?? "Target", priority: existing?.priority ?? "Medium", ownerId: existing?.ownerId ?? data.team[0]?.id ?? "",
+    stage: existing?.stage ?? defaultStage ?? "Target", priority: existing?.priority ?? "Medium", ownerId: existing?.ownerId ?? data.team[0]?.id ?? "",
     city: existing?.city ?? "", country: existing?.country ?? "", tags: (existing?.tags ?? []).join(", "), notes: existing?.notes ?? "",
   });
   const set = (k: string, v: string) => setF((s) => ({ ...s, [k]: v }));

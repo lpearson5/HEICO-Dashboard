@@ -1,13 +1,16 @@
 "use client";
 
+import { useState } from "react";
 import { useCrm } from "../store";
 import { Badge, STAGE_COLOR, STYLE_COLOR, PRIORITY_COLOR, cleanName, normName } from "../ui";
+import { InvestorForm } from "../forms";
 import { PIPELINE_STAGES, type PipelineStage, type LivePosition } from "@/lib/crm-types";
 
 const fmtSh = (n: number | null) => n == null ? null : n >= 1e6 ? `${(n / 1e6).toFixed(2)}M sh` : `${(n / 1e3).toFixed(0)}K sh`;
 
 export default function Pipeline({ live, onOpenInvestor }: { live: Record<string, LivePosition>; onOpenInvestor: (id: string) => void }) {
   const { data, dispatch } = useCrm();
+  const [addStage, setAddStage] = useState<PipelineStage | null>(null);
 
   return (
     <div className="overflow-x-auto pb-2">
@@ -20,6 +23,7 @@ export default function Pipeline({ live, onOpenInvestor }: { live: Record<string
                 <span className="inline-block h-2.5 w-2.5 rounded-full" style={{ backgroundColor: STAGE_COLOR[stage] }} />
                 <span className="text-sm font-semibold text-gray-700">{stage}</span>
                 <span className="ml-auto text-xs text-gray-400">{items.length}</span>
+                <button onClick={() => setAddStage(stage)} title={`Add a firm to ${stage}`} className="rounded p-0.5 text-gray-400 hover:bg-gray-200 hover:text-gray-700" aria-label={`Add to ${stage}`}>＋</button>
               </div>
               <div className="space-y-2">
                 {items.map((i) => {
@@ -48,11 +52,14 @@ export default function Pipeline({ live, onOpenInvestor }: { live: Record<string
                   );
                 })}
                 {items.length === 0 && <div className="px-2 py-4 text-center text-xs text-gray-300">Empty</div>}
+                <button onClick={() => setAddStage(stage)} className="w-full rounded-lg border border-dashed border-gray-300 py-1.5 text-xs text-gray-400 hover:border-gray-400 hover:text-gray-600">＋ Add firm</button>
               </div>
             </div>
           );
         })}
       </div>
+
+      {addStage && <InvestorForm defaultStage={addStage} onClose={() => setAddStage(null)} />}
     </div>
   );
 }
