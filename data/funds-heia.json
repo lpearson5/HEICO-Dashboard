@@ -2,11 +2,11 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-09-22T15:30:10.486Z",
+  "lastUpdated": "2026-09-23T15:25:19.520Z",
   "summary": {
     "funds": 352,
-    "totalShares": 29631217,
-    "pctOut": 35.06,
+    "totalShares": 29640846,
+    "pctOut": 35.071400000000004,
     "newFunds": 16,
     "sellouts": 31,
     "linkedManagers": 23,
@@ -2703,6 +2703,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Pro-Blend Maximum Term Series",
+      "registrant": "Manning & Napier Fund, Inc.",
+      "manager": "",
+      "cik": "751173",
+      "shares": 24751,
+      "value": 6367937,
+      "reportDate": "2026-07-31",
+      "priorShares": 20438,
+      "change": 4313,
+      "pctOut": 0.029300000000000003,
+      "action": "Bought"
+    },
+    {
       "fundName": "iShares MSCI USA Quality GARP ETF",
       "registrant": "iShares Trust",
       "manager": "BlackRock",
@@ -2817,19 +2830,6 @@
       "priorShares": 20691,
       "change": 818,
       "pctOut": 0.0254,
-      "action": "Bought"
-    },
-    {
-      "fundName": "Pro-Blend Maximum Term Series",
-      "registrant": "Manning & Napier Fund, Inc.",
-      "manager": "",
-      "cik": "751173",
-      "shares": 20438,
-      "value": 4271951,
-      "reportDate": "2026-04-30",
-      "priorShares": 13713,
-      "change": 6725,
-      "pctOut": 0.0242,
       "action": "Bought"
     },
     {
@@ -3002,6 +3002,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Pro-Blend Extended Term Series",
+      "registrant": "Manning & Napier Fund, Inc.",
+      "manager": "",
+      "cik": "751173",
+      "shares": 15361,
+      "value": 3952078,
+      "reportDate": "2026-07-31",
+      "priorShares": 12942,
+      "change": 2419,
+      "pctOut": 0.0182,
+      "action": "Bought"
+    },
+    {
       "fundName": "VANGUARD TAX-MANAGED BALANCED FUND",
       "registrant": "VANGUARD TAX-MANAGED FUNDS",
       "manager": "Vanguard Group",
@@ -3065,19 +3078,6 @@
       "change": -1953,
       "pctOut": 0.015300000000000001,
       "action": "Sold"
-    },
-    {
-      "fundName": "Pro-Blend Extended Term Series",
-      "registrant": "Manning & Napier Fund, Inc.",
-      "manager": "",
-      "cik": "751173",
-      "shares": 12942,
-      "value": 2705137,
-      "reportDate": "2026-04-30",
-      "priorShares": 9217,
-      "change": 3725,
-      "pctOut": 0.015300000000000001,
-      "action": "Bought"
     },
     {
       "fundName": "SIMT Large Cap Growth Fund",
@@ -3366,6 +3366,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Pro-Blend Moderate Term Series",
+      "registrant": "Manning & Napier Fund, Inc.",
+      "manager": "",
+      "cik": "751173",
+      "shares": 7922,
+      "value": 2038172,
+      "reportDate": "2026-07-31",
+      "priorShares": 6683,
+      "change": 1239,
+      "pctOut": 0.009399999999999999,
+      "action": "Bought"
+    },
+    {
       "fundName": "Penn Series Mid Cap Growth Fund",
       "registrant": "Penn Series Funds Inc",
       "manager": "",
@@ -3457,19 +3470,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Pro-Blend Moderate Term Series",
-      "registrant": "Manning & Napier Fund, Inc.",
-      "manager": "",
-      "cik": "751173",
-      "shares": 6683,
-      "value": 1396881,
-      "reportDate": "2026-04-30",
-      "priorShares": 4263,
-      "change": 2420,
-      "pctOut": 0.007899999999999999,
-      "action": "Bought"
-    },
-    {
       "fundName": "T. Rowe Price Mid-Cap Index Fund",
       "registrant": "T. ROWE PRICE INDEX TRUST, INC.",
       "manager": "T. Rowe Price",
@@ -3557,6 +3557,19 @@
       "reportDate": "2026-05-31",
       "priorShares": 5959,
       "change": 218,
+      "pctOut": 0.0073,
+      "action": "Bought"
+    },
+    {
+      "fundName": "Equity Series",
+      "registrant": "Manning & Napier Fund, Inc.",
+      "manager": "",
+      "cik": "751173",
+      "shares": 6161,
+      "value": 1585102,
+      "reportDate": "2026-07-31",
+      "priorShares": 5275,
+      "change": 886,
       "pctOut": 0.0073,
       "action": "Bought"
     },
@@ -3691,19 +3704,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "Equity Series",
-      "registrant": "Manning & Napier Fund, Inc.",
-      "manager": "",
-      "cik": "751173",
-      "shares": 5275,
-      "value": 1102581,
-      "reportDate": "2026-04-30",
-      "priorShares": 3307,
-      "change": 1968,
-      "pctOut": 0.006200000000000001,
-      "action": "Bought"
-    },
-    {
       "fundName": "EQ/Large Cap Growth Managed Volatility Portfolio",
       "registrant": "EQ Advisors Trust",
       "manager": "",
@@ -3782,6 +3782,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Pro-Blend Conservative Term Series",
+      "registrant": "Manning & Napier Fund, Inc.",
+      "manager": "",
+      "cik": "751173",
+      "shares": 4146,
+      "value": 1066683,
+      "reportDate": "2026-07-31",
+      "priorShares": 3374,
+      "change": 772,
+      "pctOut": 0.0049,
+      "action": "Bought"
+    },
+    {
       "fundName": "BNY Mellon Mid Cap Multi-Strategy Fund",
       "registrant": "BNY MELLON FUNDS TRUST",
       "manager": "",
@@ -3858,19 +3871,6 @@
       "change": -2327,
       "pctOut": 0.0041,
       "action": "Sold"
-    },
-    {
-      "fundName": "Pro-Blend Conservative Term Series",
-      "registrant": "Manning & Napier Fund, Inc.",
-      "manager": "",
-      "cik": "751173",
-      "shares": 3374,
-      "value": 705233,
-      "reportDate": "2026-04-30",
-      "priorShares": 2167,
-      "change": 1207,
-      "pctOut": 0.004,
-      "action": "Bought"
     },
     {
       "fundName": "iShares Dow Jones U.S. ETF",

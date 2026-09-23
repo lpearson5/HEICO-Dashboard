@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-22T15:30:10.486Z",
+  "lastUpdated": "2026-09-23T15:25:19.520Z",
   "summary": {
-    "funds": 442,
-    "totalShares": 19876232,
-    "pctOut": 35.9805,
+    "funds": 444,
+    "totalShares": 19895535,
+    "pctOut": 36.0155,
     "newFunds": 62,
-    "sellouts": 52,
+    "sellouts": 50,
     "linkedManagers": 26,
-    "linkedShares": 17069758
+    "linkedShares": 17098061
   },
   "newHolders": [
     {
@@ -878,13 +878,6 @@
       "lastReport": "2025-09-30"
     },
     {
-      "fundName": "First Trust Industrials/Producer Durables AlphaDEX Fund",
-      "registrant": "First Trust Exchange-Traded AlphaDEX Fund",
-      "manager": "First Trust",
-      "lastShares": 15097,
-      "lastReport": "2026-01-31"
-    },
-    {
       "fundName": "AST Balanced Asset Allocation Portfolio",
       "registrant": "Advanced Series Trust",
       "manager": "",
@@ -918,13 +911,6 @@
       "manager": "",
       "lastShares": 8500,
       "lastReport": "2025-06-30"
-    },
-    {
-      "fundName": "First Trust Large Cap Core AlphaDEX Fund",
-      "registrant": "First Trust Exchange-Traded AlphaDEX Fund",
-      "manager": "First Trust",
-      "lastShares": 7469,
-      "lastReport": "2026-01-31"
     },
     {
       "fundName": "MidCap Growth Fund III",
@@ -2100,6 +2086,41 @@
       ]
     },
     {
+      "manager": "First Trust",
+      "fundCount": 7,
+      "shares": 145918,
+      "funds": [
+        {
+          "fundName": "First Trust Indxx Aerospace &amp; Defense ETF",
+          "shares": 99448
+        },
+        {
+          "fundName": "First Trust Large Cap Growth AlphaDEX Fund",
+          "shares": 21079
+        },
+        {
+          "fundName": "First Trust Industrials/Producer Durables AlphaDEX Fund",
+          "shares": 9334
+        },
+        {
+          "fundName": "First Trust Large Cap Core AlphaDEX Fund",
+          "shares": 7912
+        },
+        {
+          "fundName": "First Trust Multi Cap Growth AlphaDEX Fund",
+          "shares": 4582
+        },
+        {
+          "fundName": "First Trust Dorsey Wright Momentum &amp; Low Volatility ETF",
+          "shares": 3440
+        },
+        {
+          "fundName": "First Trust RBA Deglobalization ETF",
+          "shares": 123
+        }
+      ]
+    },
+    {
       "manager": "Nuveen (TIAA)",
       "fundCount": 8,
       "shares": 144165,
@@ -2194,33 +2215,6 @@
       ]
     },
     {
-      "manager": "First Trust",
-      "fundCount": 5,
-      "shares": 111537,
-      "funds": [
-        {
-          "fundName": "First Trust Indxx Aerospace &amp; Defense ETF",
-          "shares": 99448
-        },
-        {
-          "fundName": "First Trust Large Cap Growth AlphaDEX Fund",
-          "shares": 7168
-        },
-        {
-          "fundName": "First Trust Dorsey Wright Momentum &amp; Low Volatility ETF",
-          "shares": 3440
-        },
-        {
-          "fundName": "First Trust Multi Cap Growth AlphaDEX Fund",
-          "shares": 1358
-        },
-        {
-          "fundName": "First Trust RBA Deglobalization ETF",
-          "shares": 123
-        }
-      ]
-    },
-    {
       "manager": "PGIM (Prudential)",
       "fundCount": 1,
       "shares": 81068,
@@ -2280,11 +2274,11 @@
     {
       "manager": "ARK Invest",
       "fundCount": 1,
-      "shares": 46944,
+      "shares": 40866,
       "funds": [
         {
           "fundName": "ARK Space &amp; Defense Innovation ETF",
-          "shares": 46944
+          "shares": 40866
         }
       ]
     },
@@ -2749,12 +2743,12 @@
       "manager": "",
       "cik": "745968",
       "shares": 207938,
-      "value": 56126625,
-      "reportDate": "2026-04-30",
-      "priorShares": 154294,
-      "change": 53644,
+      "value": 74100786,
+      "reportDate": "2026-07-31",
+      "priorShares": 207938,
+      "change": 0,
       "pctOut": 0.3764,
-      "action": "Bought"
+      "action": "No Change"
     },
     {
       "fundName": "Heritage Fund",
@@ -2788,12 +2782,12 @@
       "manager": "",
       "cik": "745968",
       "shares": 186800,
-      "value": 50421056,
-      "reportDate": "2026-04-30",
-      "priorShares": 277171,
-      "change": -90371,
+      "value": 66568048,
+      "reportDate": "2026-07-31",
+      "priorShares": 186800,
+      "change": 0,
       "pctOut": 0.3382,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Strategic Advisers Fidelity U.S. Total Stock Fund",
@@ -3004,19 +2998,6 @@
       "action": "New"
     },
     {
-      "fundName": "Federated Hermes Kaufmann Small Cap Fund",
-      "registrant": "Federated Hermes Equity Funds",
-      "manager": "",
-      "cik": "745968",
-      "shares": 101300,
-      "value": 27342896,
-      "reportDate": "2026-04-30",
-      "priorShares": 131800,
-      "change": -30500,
-      "pctOut": 0.18339999999999998,
-      "action": "Sold"
-    },
-    {
       "fundName": "First Trust Indxx Aerospace &amp; Defense ETF",
       "registrant": "First Trust Exchange-Traded Fund",
       "manager": "First Trust",
@@ -3027,6 +3008,19 @@
       "priorShares": 175036,
       "change": -75588,
       "pctOut": 0.18,
+      "action": "Sold"
+    },
+    {
+      "fundName": "Federated Hermes Kaufmann Small Cap Fund",
+      "registrant": "Federated Hermes Equity Funds",
+      "manager": "",
+      "cik": "745968",
+      "shares": 92300,
+      "value": 32892028,
+      "reportDate": "2026-07-31",
+      "priorShares": 101300,
+      "change": -9000,
+      "pctOut": 0.1671,
       "action": "Sold"
     },
     {
@@ -3316,19 +3310,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "ARK Space &amp; Defense Innovation ETF",
-      "registrant": "ARK ETF Trust",
-      "manager": "ARK Invest",
-      "cik": "1579982",
-      "shares": 46944,
-      "value": 12671124,
-      "reportDate": "2026-04-30",
-      "priorShares": 26689,
-      "change": 20255,
-      "pctOut": 0.08499999999999999,
-      "action": "Bought"
-    },
-    {
       "fundName": "Fidelity Mid Cap Growth Index Fund",
       "registrant": "Fidelity Salem Street Trust",
       "manager": "FMR (Fidelity)",
@@ -3418,6 +3399,19 @@
       "change": 3570,
       "pctOut": 0.074,
       "action": "Bought"
+    },
+    {
+      "fundName": "ARK Space &amp; Defense Innovation ETF",
+      "registrant": "ARK ETF Trust",
+      "manager": "ARK Invest",
+      "cik": "1579982",
+      "shares": 40866,
+      "value": 14563008,
+      "reportDate": "2026-07-31",
+      "priorShares": 46944,
+      "change": -6078,
+      "pctOut": 0.074,
+      "action": "Sold"
     },
     {
       "fundName": "LVIP T. Rowe Price Structured Mid-Cap Growth Fund",
@@ -3937,6 +3931,19 @@
       "priorShares": 20905,
       "change": 227,
       "pctOut": 0.0383,
+      "action": "Bought"
+    },
+    {
+      "fundName": "First Trust Large Cap Growth AlphaDEX Fund",
+      "registrant": "First Trust Exchange-Traded AlphaDEX Fund",
+      "manager": "First Trust",
+      "cik": "1383496",
+      "shares": 21079,
+      "value": 7511712,
+      "reportDate": "2026-07-31",
+      "priorShares": 7168,
+      "change": 13911,
+      "pctOut": 0.038200000000000005,
       "action": "Bought"
     },
     {
@@ -4655,6 +4662,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "First Trust Industrials/Producer Durables AlphaDEX Fund",
+      "registrant": "First Trust Exchange-Traded AlphaDEX Fund",
+      "manager": "First Trust",
+      "cik": "1383496",
+      "shares": 9334,
+      "value": 3326264,
+      "reportDate": "2026-07-31",
+      "priorShares": 15097,
+      "change": -5763,
+      "pctOut": 0.0169,
+      "action": "Sold"
+    },
+    {
       "fundName": "Innovator Equity Managed Floor ETF",
       "registrant": "Innovator ETFs Trust",
       "manager": "",
@@ -4837,6 +4857,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "First Trust Large Cap Core AlphaDEX Fund",
+      "registrant": "First Trust Exchange-Traded AlphaDEX Fund",
+      "manager": "First Trust",
+      "cik": "1383496",
+      "shares": 7912,
+      "value": 2819520,
+      "reportDate": "2026-07-31",
+      "priorShares": 7469,
+      "change": 443,
+      "pctOut": 0.0143,
+      "action": "Bought"
+    },
+    {
       "fundName": "Invesco MSCI USA ETF",
       "registrant": "Invesco Exchange-Traded Fund Trust II",
       "manager": "Invesco",
@@ -4887,19 +4920,6 @@
       "change": null,
       "pctOut": 0.013,
       "action": "New"
-    },
-    {
-      "fundName": "First Trust Large Cap Growth AlphaDEX Fund",
-      "registrant": "First Trust Exchange-Traded AlphaDEX Fund",
-      "manager": "First Trust",
-      "cik": "1383496",
-      "shares": 7168,
-      "value": 1934787,
-      "reportDate": "2026-04-30",
-      "priorShares": 20415,
-      "change": -13247,
-      "pctOut": 0.013,
-      "action": "Sold"
     },
     {
       "fundName": "VANGUARD RUSSELL 1000 INDEX FUND",
@@ -5275,6 +5295,19 @@
       "reportDate": "2026-06-30",
       "priorShares": 4165,
       "change": 432,
+      "pctOut": 0.0083,
+      "action": "Bought"
+    },
+    {
+      "fundName": "First Trust Multi Cap Growth AlphaDEX Fund",
+      "registrant": "First Trust Exchange-Traded AlphaDEX Fund",
+      "manager": "First Trust",
+      "cik": "1383496",
+      "shares": 4582,
+      "value": 1632842,
+      "reportDate": "2026-07-31",
+      "priorShares": 1358,
+      "change": 3224,
       "pctOut": 0.0083,
       "action": "Bought"
     },
@@ -6328,19 +6361,6 @@
       "reportDate": "2026-06-30",
       "priorShares": 1483,
       "change": -108,
-      "pctOut": 0.0025,
-      "action": "Sold"
-    },
-    {
-      "fundName": "First Trust Multi Cap Growth AlphaDEX Fund",
-      "registrant": "First Trust Exchange-Traded AlphaDEX Fund",
-      "manager": "First Trust",
-      "cik": "1383496",
-      "shares": 1358,
-      "value": 366551,
-      "reportDate": "2026-04-30",
-      "priorShares": 3228,
-      "change": -1870,
       "pctOut": 0.0025,
       "action": "Sold"
     },

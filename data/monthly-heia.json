@@ -8,16 +8,16 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-09-22T15:30:10.486Z",
+  "lastUpdated": "2026-09-23T15:25:19.520Z",
   "summary": {
-    "institutions": 670,
-    "totalShares": 70038537,
+    "institutions": 671,
+    "totalShares": 70041288,
     "pctOut": 82.87,
-    "newHolders": 110,
-    "sellouts": 63,
+    "newHolders": 113,
+    "sellouts": 62,
     "bought": 254,
     "sold": 215,
-    "held": 91
+    "held": 89
   },
   "top10": [
     {
@@ -309,6 +309,24 @@
       "voteSole": 14002,
       "voteShared": 0,
       "voteNone": 52374
+    },
+    {
+      "filerName": "Maven Securities LTD",
+      "filerCik": "1633046",
+      "shares": [
+        53957,
+        null,
+        15830,
+        15830
+      ],
+      "netChg": 53957,
+      "currentValue": 13916050,
+      "pctOut": 0.06,
+      "action": "New",
+      "discretion": "DFND",
+      "voteSole": 53957,
+      "voteShared": 0,
+      "voteNone": 0
     },
     {
       "filerName": "Kinsale Capital Group, Inc.  (KNSL)",
@@ -1913,6 +1931,24 @@
       "voteNone": 0
     },
     {
+      "filerName": "S&T BANK/PA",
+      "filerCik": "1010911",
+      "shares": [
+        6,
+        null,
+        6,
+        13
+      ],
+      "netChg": 6,
+      "currentValue": 1547,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 6
+    },
+    {
       "filerName": "CKW FINANCIAL GROUP",
       "filerCik": "1600403",
       "shares": [
@@ -2100,6 +2136,24 @@
         null,
         null,
         null
+      ],
+      "netChg": 2,
+      "currentValue": 516,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 2,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "HIGHLINE WEALTH PARTNERS LLC",
+      "filerCik": "2042654",
+      "shares": [
+        2,
+        null,
+        2,
+        2
       ],
       "netChg": 2,
       "currentValue": 516,
@@ -2716,24 +2770,6 @@
         null
       ],
       "netChg": -1399,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Diversify Advisory Services, LLC",
-      "filerCik": "2021232",
-      "shares": [
-        null,
-        1357,
-        1427,
-        null
-      ],
-      "netChg": -1357,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -5683,14 +5719,14 @@
       "filerCik": "1633046",
       "shares": [
         53957,
-        16036,
+        null,
         15830,
         15830
       ],
-      "netChg": 37921,
+      "netChg": 53957,
       "currentValue": 13916050,
       "pctOut": 0.06,
-      "action": "Bought",
+      "action": "New",
       "discretion": "DFND",
       "voteSole": 53957,
       "voteShared": 0,
@@ -9302,7 +9338,7 @@
       "shares": [
         3692,
         4407,
-        3500,
+        null,
         5464
       ],
       "netChg": -715,
@@ -9997,6 +10033,24 @@
       "voteSole": 2777,
       "voteShared": 0,
       "voteNone": 0
+    },
+    {
+      "filerName": "Diversify Advisory Services, LLC",
+      "filerCik": "2021232",
+      "shares": [
+        2751,
+        1357,
+        1427,
+        1489
+      ],
+      "netChg": 1394,
+      "currentValue": 713570,
+      "pctOut": 0,
+      "action": "Bought",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 2751
     },
     {
       "filerName": "DIVERSIFY WEALTH MANAGEMENT, LLC",
@@ -14845,14 +14899,14 @@
       "filerCik": "1010911",
       "shares": [
         6,
-        6,
+        null,
         6,
         13
       ],
-      "netChg": 0,
+      "netChg": 6,
       "currentValue": 1547,
       "pctOut": 0,
-      "action": "No Change",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -15205,14 +15259,14 @@
       "filerCik": "2042654",
       "shares": [
         2,
-        2,
+        null,
         2,
         2
       ],
-      "netChg": 0,
+      "netChg": 2,
       "currentValue": 516,
       "pctOut": 0,
-      "action": "No Change",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 2,
       "voteShared": 0,
@@ -15777,13 +15831,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Rakuten Investment Management, Inc.",
-      "filerCik": "2062680",
+      "filerName": "Procyon Advisors, LLC",
+      "filerCik": "1804329",
       "shares": [
         null,
         null,
-        3208,
-        6355
+        813,
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -15795,13 +15849,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Procyon Advisors, LLC",
-      "filerCik": "1804329",
+      "filerName": "Rakuten Investment Management, Inc.",
+      "filerCik": "2062680",
       "shares": [
         null,
         null,
-        813,
-        null
+        3208,
+        6355
       ],
       "netChg": null,
       "currentValue": null,
@@ -16515,24 +16569,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Optiver Holding B.V.",
-      "filerCik": "1859606",
-      "shares": [
-        null,
-        973,
-        null,
-        366
-      ],
-      "netChg": -973,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "TWIN PEAKS WEALTH ADVISORS, LLC",
       "filerCik": "2006218",
       "shares": [
@@ -16542,6 +16578,24 @@
         null
       ],
       "netChg": -1,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Optiver Holding B.V.",
+      "filerCik": "1859606",
+      "shares": [
+        null,
+        973,
+        null,
+        366
+      ],
+      "netChg": -973,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -17103,24 +17157,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Diversify Advisory Services, LLC",
-      "filerCik": "2021232",
-      "shares": [
-        null,
-        1357,
-        1427,
-        null
-      ],
-      "netChg": -1357,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
