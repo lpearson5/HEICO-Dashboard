@@ -74,9 +74,20 @@ export function CrmProvider({ children }: { children: React.ReactNode }) {
       const raw = localStorage.getItem(KEY);
       if (raw) {
         const stored: CrmData = JSON.parse(raw);
-        // The team roster is fixed/canonical — always use the current list so
-        // owner options stay in sync even with older browser-saved data.
-        dispatch({ t: "load", data: { ...stored, team: CRM_SAMPLE.team } });
+        // Additively merge in any NEW sample rows (by id) added since this browser
+        // last saved — so newly-seeded demo records (e.g. ESG holders) appear
+        // without wiping the user's own edits. Existing rows are never overwritten.
+        const mergeNew = <T extends { id: string }>(mine: T[] = [], sample: T[] = []): T[] => {
+          const have = new Set(mine.map((r) => r.id));
+          return [...mine, ...sample.filter((r) => !have.has(r.id))];
+        };
+        dispatch({ t: "load", data: {
+          team: CRM_SAMPLE.team, // roster is canonical
+          investors: mergeNew(stored.investors, CRM_SAMPLE.investors),
+          contacts: mergeNew(stored.contacts, CRM_SAMPLE.contacts),
+          activities: mergeNew(stored.activities, CRM_SAMPLE.activities),
+          tasks: mergeNew(stored.tasks, CRM_SAMPLE.tasks),
+        } });
       }
     } catch { /* ignore */ }
   }, []);
