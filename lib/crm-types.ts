@@ -32,6 +32,7 @@ export interface Investor {
   priority: Priority;
   ownerId: string;           // IR team member responsible
   tags: string[];
+  esg?: boolean;             // manual ESG flag (in addition to auto-detection from the register)
   notes?: string;
   createdAt: string;
 }

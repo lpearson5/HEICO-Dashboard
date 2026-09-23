@@ -19,15 +19,15 @@ export function InvestorForm({ existing, defaultStage, onClose }: { existing?: I
   const [f, setF] = useState({
     name: existing?.name ?? "", klass: existing?.klass ?? "Target", style: existing?.style ?? "Unclassified",
     stage: existing?.stage ?? defaultStage ?? "Target", priority: existing?.priority ?? "Medium", ownerId: existing?.ownerId ?? data.team[0]?.id ?? "",
-    city: existing?.city ?? "", country: existing?.country ?? "", tags: (existing?.tags ?? []).join(", "), notes: existing?.notes ?? "",
+    city: existing?.city ?? "", country: existing?.country ?? "", tags: (existing?.tags ?? []).join(", "), esg: existing?.esg ?? false, notes: existing?.notes ?? "",
   });
-  const set = (k: string, v: string) => setF((s) => ({ ...s, [k]: v }));
+  const set = (k: string, v: any) => setF((s) => ({ ...s, [k]: v }));
   const save = () => {
     if (!f.name.trim()) return;
     const v = {
       name: f.name.trim(), klass: f.klass as ClassTag, style: f.style, stage: f.stage as PipelineStage,
       priority: f.priority as Priority, ownerId: f.ownerId, city: f.city, country: f.country,
-      tags: f.tags.split(",").map((t) => t.trim()).filter(Boolean), notes: f.notes,
+      tags: f.tags.split(",").map((t) => t.trim()).filter(Boolean), esg: f.esg, notes: f.notes,
     };
     if (existing) dispatch({ t: "investor.update", id: existing.id, v });
     else dispatch({ t: "investor.add", v });
@@ -46,6 +46,12 @@ export function InvestorForm({ existing, defaultStage, onClose }: { existing?: I
         <Field label="City"><Text value={f.city} onChange={(v) => set("city", v)} /></Field>
         <Field label="Country"><Text value={f.country} onChange={(v) => set("country", v)} /></Field>
         <div className="sm:col-span-2"><Field label="Tags (comma-separated)"><Text value={f.tags} onChange={(v) => set("tags", v)} placeholder="Top 10, Active, Growth" /></Field></div>
+        <div className="sm:col-span-2">
+          <label className="flex items-center gap-2 text-sm text-gray-700">
+            <input type="checkbox" checked={f.esg} onChange={(e) => set("esg", e.target.checked)} className="h-4 w-4 rounded border-gray-300" />
+            🌱 ESG / sustainable investor
+          </label>
+        </div>
         <div className="sm:col-span-2"><Field label="Notes"><Area value={f.notes} onChange={(v) => set("notes", v)} /></Field></div>
       </div>
     </Modal>

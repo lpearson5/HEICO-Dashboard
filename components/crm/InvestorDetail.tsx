@@ -44,10 +44,20 @@ export default function InvestorDetail({ investorId, live, onClose }: { investor
           {investor.style && <Badge label={investor.style} color={STYLE_COLOR[investor.style] ?? "#64748b"} />}
           <Badge label={`${investor.priority} priority`} color={PRIORITY_COLOR[investor.priority]} />
           <Badge label={investor.klass} color="#334155" subtle />
-          {pos?.esg && <Badge label={`🌱 ${pos.esg}`} color="#059669" />}
+          {pos?.esg ? <Badge label={`🌱 ${pos.esg}`} color="#059669" />
+            : investor.esg ? <Badge label="🌱 ESG (flagged)" color="#059669" /> : null}
           {investor.tags.map((t) => <Badge key={t} label={t} color="#0ea5e9" subtle />)}
           <button onClick={() => setModal({ kind: "editInvestor" })} className="ml-auto text-xs font-medium text-blue-600 hover:underline">Edit</button>
         </div>
+        {/* Quick ESG toggle — auto-detected holders can't be un-flagged; everyone else is manual */}
+        {!pos?.esg && (
+          <button
+            onClick={() => dispatch({ t: "investor.update", id: investor.id, v: { esg: !investor.esg } })}
+            className={`inline-flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-medium ${investor.esg ? "border-emerald-500 bg-emerald-50 text-emerald-700" : "border-gray-300 bg-white text-gray-600 hover:bg-gray-50"}`}
+          >
+            🌱 {investor.esg ? "ESG-flagged — click to remove" : "Mark as ESG / sustainable"}
+          </button>
+        )}
         <div className="text-xs text-gray-500">
           {[investor.city, investor.country].filter(Boolean).join(", ") || "Location —"} · Owner: {owner?.name ?? "—"}
         </div>

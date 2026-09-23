@@ -28,7 +28,7 @@ export default function Investors({ live, onOpenInvestor }: { live: Record<strin
       .filter((i) => style === "All" || i.style === style)
       .filter((i) => !q || i.name.toLowerCase().includes(q.toLowerCase()) || i.tags.some((t) => t.toLowerCase().includes(q.toLowerCase())))
       .map((i) => ({ i, pos: live[normName(i.name)], last: lastContact[i.id] }))
-      .filter((r) => !esgOnly || !!r.pos?.esg)
+      .filter((r) => !esgOnly || !!r.pos?.esg || !!r.i.esg)
       .sort((a, b) => (b.pos?.shares ?? 0) - (a.pos?.shares ?? 0) || a.i.name.localeCompare(b.i.name));
   }, [data.investors, stage, style, q, esgOnly, live, lastContact]);
 
@@ -75,7 +75,7 @@ export default function Investors({ live, onOpenInvestor }: { live: Record<strin
                   <td className="px-4 py-3">
                     <div className="flex items-center gap-2">
                       <span className="font-medium text-gray-900">{cleanName(i.name)}</span>
-                      {pos?.esg && <span className="rounded-full bg-emerald-100 px-1.5 py-0.5 text-[10px] font-semibold text-emerald-700" title={pos.esg}>🌱 ESG</span>}
+                      {(pos?.esg || i.esg) && <span className="rounded-full bg-emerald-100 px-1.5 py-0.5 text-[10px] font-semibold text-emerald-700" title={pos?.esg ?? "Manually flagged ESG"}>🌱 ESG</span>}
                     </div>
                     <div className="text-xs text-gray-400">{[i.city, i.country].filter(Boolean).join(", ")}</div>
                   </td>
