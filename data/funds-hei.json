@@ -2,30 +2,17 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-23T15:25:19.520Z",
+  "lastUpdated": "2026-09-24T15:48:29.422Z",
   "summary": {
     "funds": 444,
-    "totalShares": 19895535,
-    "pctOut": 36.0155,
-    "newFunds": 62,
+    "totalShares": 19886024,
+    "pctOut": 35.998200000000004,
+    "newFunds": 60,
     "sellouts": 50,
     "linkedManagers": 26,
-    "linkedShares": 17098061
+    "linkedShares": 17088550
   },
   "newHolders": [
-    {
-      "fundName": "Fidelity Advisor International Capital Appreciation Fund",
-      "registrant": "Fidelity Advisor Series VIII",
-      "manager": "FMR (Fidelity)",
-      "cik": "729218",
-      "shares": 729942,
-      "value": 197025945,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 1.3214,
-      "action": "New"
-    },
     {
       "fundName": "T. Rowe Price Growth Stock Fund, Inc.",
       "registrant": "T. ROWE PRICE GROWTH STOCK FUND, INC.",
@@ -102,19 +89,6 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.2053,
-      "action": "New"
-    },
-    {
-      "fundName": "Fidelity International Capital Appreciation K6 Fund",
-      "registrant": "Fidelity Investment Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "744822",
-      "shares": 102326,
-      "value": 27619834,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.1852,
       "action": "New"
     },
     {
@@ -1306,11 +1280,11 @@
     {
       "manager": "FMR (Fidelity)",
       "fundCount": 44,
-      "shares": 2109306,
+      "shares": 2100361,
       "funds": [
         {
           "fundName": "Fidelity Advisor International Capital Appreciation Fund",
-          "shares": 729942
+          "shares": 733559
         },
         {
           "fundName": "Fidelity Extended Market Index Fund",
@@ -1322,7 +1296,7 @@
         },
         {
           "fundName": "Fidelity Mid Cap Index Fund",
-          "shares": 157229
+          "shares": 161444
         },
         {
           "fundName": "Strategic Advisers Fidelity International Fund",
@@ -1330,7 +1304,7 @@
         },
         {
           "fundName": "Fidelity International Capital Appreciation K6 Fund",
-          "shares": 102326
+          "shares": 90246
         },
         {
           "fundName": "Fidelity Total Market Index Fund",
@@ -1346,7 +1320,7 @@
         },
         {
           "fundName": "Fidelity Large Cap Growth Index Fund",
-          "shares": 60534
+          "shares": 56100
         },
         {
           "fundName": "Fidelity Mid Cap Growth Index Fund",
@@ -1366,7 +1340,7 @@
         },
         {
           "fundName": "Fidelity ZERO Total Market Index Fund",
-          "shares": 21389
+          "shares": 23159
         },
         {
           "fundName": "LVIP American Century Capital Appreciation Fund",
@@ -1374,11 +1348,11 @@
         },
         {
           "fundName": "Fidelity MSCI Industrials Index ETF",
-          "shares": 13045
+          "shares": 14039
         },
         {
           "fundName": "Fidelity ZERO Large Cap Index Fund",
-          "shares": 11182
+          "shares": 11507
         },
         {
           "fundName": "SA Fidelity Institutional AM International Growth Portfolio",
@@ -1409,16 +1383,12 @@
           "shares": 4339
         },
         {
-          "fundName": "Fidelity Hedged Equity ETF",
-          "shares": 3863
-        },
-        {
           "fundName": "SA Fidelity Institutional AM Global Equities Portfolio",
           "shares": 3719
         },
         {
           "fundName": "Fidelity Series Large Cap Growth Index Fund",
-          "shares": 3529
+          "shares": 3430
         },
         {
           "fundName": "MML VIP T. Rowe Price Blue Chip Growth Fund",
@@ -1437,12 +1407,12 @@
           "shares": 1678
         },
         {
-          "fundName": "LVIP Dimensional U.S. Core Equity 1 Fund",
-          "shares": 1216
+          "fundName": "Fidelity Hedged Equity Fund",
+          "shares": 1372
         },
         {
-          "fundName": "Fidelity Hedged Equity Fund",
-          "shares": 1176
+          "fundName": "LVIP Dimensional U.S. Core Equity 1 Fund",
+          "shares": 1216
         },
         {
           "fundName": "Fidelity Yield Enhanced Equity ETF",
@@ -1455,6 +1425,10 @@
         {
           "fundName": "LVIP Dimensional U.S. Core Equity 2 Fund",
           "shares": 706
+        },
+        {
+          "fundName": "Fidelity Hedged Equity ETF",
+          "shares": 414
         },
         {
           "fundName": "Fidelity Dynamic Buffered Equity ETF",
@@ -1489,7 +1463,7 @@
     {
       "manager": "BlackRock",
       "fundCount": 36,
-      "shares": 1928075,
+      "shares": 1927509,
       "funds": [
         {
           "fundName": "BlackRock Mid-Cap Growth Equity Portfolio",
@@ -1541,7 +1515,7 @@
         },
         {
           "fundName": "iShares MSCI ACWI ETF",
-          "shares": 13698
+          "shares": 13668
         },
         {
           "fundName": "iShares Russell 3000 ETF",
@@ -1549,7 +1523,7 @@
         },
         {
           "fundName": "iShares U.S. Industrials ETF",
-          "shares": 10642
+          "shares": 9908
         },
         {
           "fundName": "iShares Russell Mid-Cap Index Fund",
@@ -1589,15 +1563,15 @@
         },
         {
           "fundName": "iShares Dow Jones U.S. ETF",
-          "shares": 1684
+          "shares": 1674
+        },
+        {
+          "fundName": "iShares MSCI USA Size Factor ETF",
+          "shares": 1163
         },
         {
           "fundName": "BlackRock Systematic Multi-Strategy Fund",
           "shares": 1143
-        },
-        {
-          "fundName": "iShares MSCI USA Size Factor ETF",
-          "shares": 955
         },
         {
           "fundName": "iShares Morningstar U.S. Equity ETF",
@@ -2495,13 +2469,13 @@
       "registrant": "Fidelity Advisor Series VIII",
       "manager": "FMR (Fidelity)",
       "cik": "729218",
-      "shares": 729942,
-      "value": 197025945,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 1.3214,
-      "action": "New"
+      "shares": 733559,
+      "value": 261411085,
+      "reportDate": "2026-07-31",
+      "priorShares": 729942,
+      "change": 3617,
+      "pctOut": 1.3278999999999999,
+      "action": "Bought"
     },
     {
       "fundName": "BlackRock Mid-Cap Growth Equity Portfolio",
@@ -2846,12 +2820,12 @@
       "registrant": "Fidelity Salem Street Trust",
       "manager": "FMR (Fidelity)",
       "cik": "35315",
-      "shares": 157229,
-      "value": 42439252,
-      "reportDate": "2026-04-30",
-      "priorShares": 154510,
-      "change": 2719,
-      "pctOut": 0.2846,
+      "shares": 161444,
+      "value": 57532184,
+      "reportDate": "2026-07-31",
+      "priorShares": 157229,
+      "change": 4215,
+      "pctOut": 0.2923,
       "action": "Bought"
     },
     {
@@ -2985,19 +2959,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Fidelity International Capital Appreciation K6 Fund",
-      "registrant": "Fidelity Investment Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "744822",
-      "shares": 102326,
-      "value": 27619834,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.1852,
-      "action": "New"
-    },
-    {
       "fundName": "First Trust Indxx Aerospace &amp; Defense ETF",
       "registrant": "First Trust Exchange-Traded Fund",
       "manager": "First Trust",
@@ -3021,6 +2982,19 @@
       "priorShares": 101300,
       "change": -9000,
       "pctOut": 0.1671,
+      "action": "Sold"
+    },
+    {
+      "fundName": "Fidelity International Capital Appreciation K6 Fund",
+      "registrant": "Fidelity Investment Trust",
+      "manager": "FMR (Fidelity)",
+      "cik": "744822",
+      "shares": 90246,
+      "value": 32160065,
+      "reportDate": "2026-07-31",
+      "priorShares": 102326,
+      "change": -12080,
+      "pctOut": 0.1634,
       "action": "Sold"
     },
     {
@@ -3167,19 +3141,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Fidelity Large Cap Growth Index Fund",
-      "registrant": "Fidelity Salem Street Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "35315",
-      "shares": 60534,
-      "value": 16339337,
-      "reportDate": "2026-04-30",
-      "priorShares": 61319,
-      "change": -785,
-      "pctOut": 0.1096,
-      "action": "Sold"
-    },
-    {
       "fundName": "Schwab U.S. Broad Market ETF",
       "registrant": "SCHWAB STRATEGIC TRUST",
       "manager": "Charles Schwab",
@@ -3217,6 +3178,19 @@
       "change": 55154,
       "pctOut": 0.10169999999999998,
       "action": "Bought"
+    },
+    {
+      "fundName": "Fidelity Large Cap Growth Index Fund",
+      "registrant": "Fidelity Salem Street Trust",
+      "manager": "FMR (Fidelity)",
+      "cik": "35315",
+      "shares": 56100,
+      "value": 19991796,
+      "reportDate": "2026-07-31",
+      "priorShares": 60534,
+      "change": -4434,
+      "pctOut": 0.1016,
+      "action": "Sold"
     },
     {
       "fundName": "Allspring Diversified Capital Builder Fund",
@@ -3614,8 +3588,8 @@
       "manager": "Dimensional",
       "cik": "355437",
       "shares": 28002,
-      "value": 7558300,
-      "reportDate": "2026-04-30",
+      "value": 9978793,
+      "reportDate": "2026-07-31",
       "priorShares": 28002,
       "change": 0,
       "pctOut": 0.050699999999999995,
@@ -3796,8 +3770,8 @@
       "manager": "Dimensional",
       "cik": "355437",
       "shares": 24006,
-      "value": 6479700,
-      "reportDate": "2026-04-30",
+      "value": 8554778,
+      "reportDate": "2026-07-31",
       "priorShares": 24006,
       "change": 0,
       "pctOut": 0.0435,
@@ -3827,6 +3801,19 @@
       "priorShares": 7453,
       "change": 16204,
       "pctOut": 0.0428,
+      "action": "Bought"
+    },
+    {
+      "fundName": "Fidelity ZERO Total Market Index Fund",
+      "registrant": "Fidelity Concord Street Trust",
+      "manager": "FMR (Fidelity)",
+      "cik": "819118",
+      "shares": 23159,
+      "value": 8252941,
+      "reportDate": "2026-07-31",
+      "priorShares": 21389,
+      "change": 1770,
+      "pctOut": 0.0419,
       "action": "Bought"
     },
     {
@@ -3867,19 +3854,6 @@
       "change": null,
       "pctOut": 0.0394,
       "action": "New"
-    },
-    {
-      "fundName": "Fidelity ZERO Total Market Index Fund",
-      "registrant": "Fidelity Concord Street Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "819118",
-      "shares": 21389,
-      "value": 5773319,
-      "reportDate": "2026-04-30",
-      "priorShares": 19568,
-      "change": 1821,
-      "pctOut": 0.0387,
-      "action": "Bought"
     },
     {
       "fundName": "AB Disruptors ETF",
@@ -4311,6 +4285,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Fidelity MSCI Industrials Index ETF",
+      "registrant": "FIDELITY COVINGTON TRUST",
+      "manager": "FMR (Fidelity)",
+      "cik": "945908",
+      "shares": 14039,
+      "value": 5002938,
+      "reportDate": "2026-07-31",
+      "priorShares": 13045,
+      "change": 994,
+      "pctOut": 0.0254,
+      "action": "Bought"
+    },
+    {
       "fundName": "ALGER MID CAP GROWTH FUND",
       "registrant": "ALGER FUNDS",
       "manager": "",
@@ -4341,13 +4328,13 @@
       "registrant": "iShares Trust",
       "manager": "BlackRock",
       "cik": "1100663",
-      "shares": 13698,
-      "value": 3697364,
-      "reportDate": "2026-04-30",
-      "priorShares": 12063,
-      "change": 1635,
-      "pctOut": 0.024800000000000003,
-      "action": "Bought"
+      "shares": 13668,
+      "value": 4870728,
+      "reportDate": "2026-07-31",
+      "priorShares": 13698,
+      "change": -30,
+      "pctOut": 0.0247,
+      "action": "Sold"
     },
     {
       "fundName": "Calvert U.S. Large Cap Core Responsible Index Fund",
@@ -4373,19 +4360,6 @@
       "priorShares": 13150,
       "change": 30,
       "pctOut": 0.0239,
-      "action": "Bought"
-    },
-    {
-      "fundName": "Fidelity MSCI Industrials Index ETF",
-      "registrant": "FIDELITY COVINGTON TRUST",
-      "manager": "FMR (Fidelity)",
-      "cik": "945908",
-      "shares": 13045,
-      "value": 3521106,
-      "reportDate": "2026-04-30",
-      "priorShares": 12092,
-      "change": 953,
-      "pctOut": 0.0236,
       "action": "Bought"
     },
     {
@@ -4454,6 +4428,19 @@
       "action": "New"
     },
     {
+      "fundName": "Fidelity ZERO Large Cap Index Fund",
+      "registrant": "Fidelity Concord Street Trust",
+      "manager": "FMR (Fidelity)",
+      "cik": "819118",
+      "shares": 11507,
+      "value": 4100635,
+      "reportDate": "2026-07-31",
+      "priorShares": 11182,
+      "change": 325,
+      "pctOut": 0.0208,
+      "action": "Bought"
+    },
+    {
       "fundName": "T. Rowe Price Mid Cap Growth Portfolio",
       "registrant": "Brighthouse Funds Trust I",
       "manager": "T. Rowe Price",
@@ -4478,19 +4465,6 @@
       "change": -84,
       "pctOut": 0.0206,
       "action": "Sold"
-    },
-    {
-      "fundName": "Fidelity ZERO Large Cap Index Fund",
-      "registrant": "Fidelity Concord Street Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "819118",
-      "shares": 11182,
-      "value": 3018245,
-      "reportDate": "2026-04-30",
-      "priorShares": 10765,
-      "change": 417,
-      "pctOut": 0.0202,
-      "action": "Bought"
     },
     {
       "fundName": "Growth Stock Portfolio",
@@ -4545,19 +4519,6 @@
       "action": "New"
     },
     {
-      "fundName": "iShares U.S. Industrials ETF",
-      "registrant": "iShares Trust",
-      "manager": "BlackRock",
-      "cik": "1100663",
-      "shares": 10642,
-      "value": 2872489,
-      "reportDate": "2026-04-30",
-      "priorShares": 11314,
-      "change": -672,
-      "pctOut": 0.0193,
-      "action": "Sold"
-    },
-    {
       "fundName": "Mid-Cap Growth Portfolio",
       "registrant": "PACIFIC SELECT FUND",
       "manager": "",
@@ -4582,6 +4543,19 @@
       "change": null,
       "pctOut": 0.0185,
       "action": "New"
+    },
+    {
+      "fundName": "iShares U.S. Industrials ETF",
+      "registrant": "iShares Trust",
+      "manager": "BlackRock",
+      "cik": "1100663",
+      "shares": 9908,
+      "value": 3530815,
+      "reportDate": "2026-07-31",
+      "priorShares": 10642,
+      "change": -734,
+      "pctOut": 0.0179,
+      "action": "Sold"
     },
     {
       "fundName": "LVIP American Century Ultra(R) Fund",
@@ -4979,8 +4953,8 @@
       "manager": "Dimensional",
       "cik": "355437",
       "shares": 6817,
-      "value": 1840045,
-      "reportDate": "2026-04-30",
+      "value": 2429306,
+      "reportDate": "2026-07-31",
       "priorShares": 6817,
       "change": 0,
       "pctOut": 0.0123,
@@ -5468,19 +5442,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Fidelity Hedged Equity ETF",
-      "registrant": "Fidelity Greenwood Street Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "1898391",
-      "shares": 3863,
-      "value": 1042701,
-      "reportDate": "2026-04-30",
-      "priorShares": 4321,
-      "change": -458,
-      "pctOut": 0.006999999999999999,
-      "action": "Sold"
-    },
-    {
       "fundName": "PRAXIS GROWTH INDEX FUND",
       "registrant": "Praxis Mutual Funds",
       "manager": "",
@@ -5585,19 +5546,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "Fidelity Series Large Cap Growth Index Fund",
-      "registrant": "Fidelity Salem Street Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "35315",
-      "shares": 3529,
-      "value": 952548,
-      "reportDate": "2026-04-30",
-      "priorShares": 3107,
-      "change": 422,
-      "pctOut": 0.0063999999999999994,
-      "action": "Bought"
-    },
-    {
       "fundName": "VOYA INDEX PLUS LARGECAP PORTFOLIO",
       "registrant": "Voya VARIABLE PORTFOLIOS INC",
       "manager": "Voya",
@@ -5648,6 +5596,19 @@
       "change": 766,
       "pctOut": 0.006200000000000001,
       "action": "Bought"
+    },
+    {
+      "fundName": "Fidelity Series Large Cap Growth Index Fund",
+      "registrant": "Fidelity Salem Street Trust",
+      "manager": "FMR (Fidelity)",
+      "cik": "35315",
+      "shares": 3430,
+      "value": 1222315,
+      "reportDate": "2026-07-31",
+      "priorShares": 3529,
+      "change": -99,
+      "pctOut": 0.006200000000000001,
+      "action": "Sold"
     },
     {
       "fundName": "MML VIP T. Rowe Price Blue Chip Growth Fund",
@@ -5837,8 +5798,8 @@
       "manager": "Dimensional",
       "cik": "355437",
       "shares": 2731,
-      "value": 737152,
-      "reportDate": "2026-04-30",
+      "value": 973219,
+      "reportDate": "2026-07-31",
       "priorShares": 2731,
       "change": 0,
       "pctOut": 0.0049,
@@ -5941,8 +5902,8 @@
       "manager": "Dimensional",
       "cik": "355437",
       "shares": 2263,
-      "value": 610829,
-      "reportDate": "2026-04-30",
+      "value": 806443,
+      "reportDate": "2026-07-31",
       "priorShares": 2263,
       "change": 0,
       "pctOut": 0.0041,
@@ -6170,19 +6131,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "iShares Dow Jones U.S. ETF",
-      "registrant": "iShares Trust",
-      "manager": "BlackRock",
-      "cik": "1100663",
-      "shares": 1684,
-      "value": 454545,
-      "reportDate": "2026-04-30",
-      "priorShares": 1699,
-      "change": -15,
-      "pctOut": 0.003,
-      "action": "Sold"
-    },
-    {
       "fundName": "LVIP Blended Large Cap Growth Managed Volatility Fund",
       "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
       "manager": "FMR (Fidelity)",
@@ -6192,6 +6140,19 @@
       "reportDate": "2026-06-30",
       "priorShares": 8844,
       "change": -7166,
+      "pctOut": 0.003,
+      "action": "Sold"
+    },
+    {
+      "fundName": "iShares Dow Jones U.S. ETF",
+      "registrant": "iShares Trust",
+      "manager": "BlackRock",
+      "cik": "1100663",
+      "shares": 1674,
+      "value": 596547,
+      "reportDate": "2026-07-31",
+      "priorShares": 1684,
+      "change": -10,
       "pctOut": 0.003,
       "action": "Sold"
     },
@@ -6294,10 +6255,10 @@
       "shares": 1491,
       "value": 531079,
       "reportDate": "2026-06-30",
-      "priorShares": 1473,
-      "change": 18,
+      "priorShares": 1618,
+      "change": -127,
       "pctOut": 0.0026999999999999997,
-      "action": "Bought"
+      "action": "Sold"
     },
     {
       "fundName": "Blackstone Alternative Multi-Strategy Fund",
@@ -6363,6 +6324,19 @@
       "change": -108,
       "pctOut": 0.0025,
       "action": "Sold"
+    },
+    {
+      "fundName": "Fidelity Hedged Equity Fund",
+      "registrant": "Fidelity Greenwood Street Trust",
+      "manager": "FMR (Fidelity)",
+      "cik": "1898391",
+      "shares": 1372,
+      "value": 488926,
+      "reportDate": "2026-07-31",
+      "priorShares": 1176,
+      "change": 196,
+      "pctOut": 0.0025,
+      "action": "Bought"
     },
     {
       "fundName": "Avantis U.S. Mid Cap Equity ETF",
@@ -6508,19 +6482,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Fidelity Hedged Equity Fund",
-      "registrant": "Fidelity Greenwood Street Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "1898391",
-      "shares": 1176,
-      "value": 317426,
-      "reportDate": "2026-04-30",
-      "priorShares": 1643,
-      "change": -467,
-      "pctOut": 0.0021,
-      "action": "Sold"
-    },
-    {
       "fundName": "John Hancock Multifactor Large Cap ETF",
       "registrant": "John Hancock Exchange-Traded Fund Trust",
       "manager": "John Hancock",
@@ -6532,6 +6493,19 @@
       "change": -33,
       "pctOut": 0.0021,
       "action": "Sold"
+    },
+    {
+      "fundName": "iShares MSCI USA Size Factor ETF",
+      "registrant": "iShares Trust",
+      "manager": "BlackRock",
+      "cik": "1100663",
+      "shares": 1163,
+      "value": 414447,
+      "reportDate": "2026-07-31",
+      "priorShares": 955,
+      "change": 208,
+      "pctOut": 0.0021,
+      "action": "Bought"
     },
     {
       "fundName": "Optimize Strategy Index ETF",
@@ -6701,19 +6675,6 @@
       "change": 97,
       "pctOut": 0.0018,
       "action": "Bought"
-    },
-    {
-      "fundName": "iShares MSCI USA Size Factor ETF",
-      "registrant": "iShares Trust",
-      "manager": "BlackRock",
-      "cik": "1100663",
-      "shares": 955,
-      "value": 257774,
-      "reportDate": "2026-04-30",
-      "priorShares": 968,
-      "change": -13,
-      "pctOut": 0.0017,
-      "action": "Sold"
     },
     {
       "fundName": "PD Mid-Cap Index Portfolio",
@@ -7208,6 +7169,19 @@
       "change": null,
       "pctOut": 0.0007999999999999999,
       "action": "New"
+    },
+    {
+      "fundName": "Fidelity Hedged Equity ETF",
+      "registrant": "Fidelity Greenwood Street Trust",
+      "manager": "FMR (Fidelity)",
+      "cik": "1898391",
+      "shares": 414,
+      "value": 147533,
+      "reportDate": "2026-07-31",
+      "priorShares": 3863,
+      "change": -3449,
+      "pctOut": 0.0007,
+      "action": "Sold"
     },
     {
       "fundName": "Praxis Impact Large Cap Growth ETF",
@@ -7709,8 +7683,8 @@
       "manager": "BlackRock",
       "cik": "1100663",
       "shares": 116,
-      "value": 31311,
-      "reportDate": "2026-04-30",
+      "value": 41338,
+      "reportDate": "2026-07-31",
       "priorShares": 116,
       "change": 0,
       "pctOut": 0.00019999999999999998,

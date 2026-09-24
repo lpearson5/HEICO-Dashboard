@@ -2,15 +2,15 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-09-23T15:25:19.520Z",
+  "lastUpdated": "2026-09-24T15:48:29.422Z",
   "summary": {
     "funds": 352,
-    "totalShares": 29640846,
-    "pctOut": 35.071400000000004,
+    "totalShares": 29646809,
+    "pctOut": 35.0784,
     "newFunds": 16,
     "sellouts": 31,
     "linkedManagers": 23,
-    "linkedShares": 25354820
+    "linkedShares": 25360783
   },
   "newHolders": [
     {
@@ -567,7 +567,7 @@
     {
       "manager": "FMR (Fidelity)",
       "fundCount": 39,
-      "shares": 4800644,
+      "shares": 4807665,
       "funds": [
         {
           "fundName": "Fidelity Magellan Fund",
@@ -587,7 +587,7 @@
         },
         {
           "fundName": "Fidelity Mid Cap Index Fund",
-          "shares": 277757
+          "shares": 285586
         },
         {
           "fundName": "Fidelity Growth Strategies Fund",
@@ -603,7 +603,7 @@
         },
         {
           "fundName": "Fidelity Large Cap Growth Index Fund",
-          "shares": 106403
+          "shares": 99238
         },
         {
           "fundName": "Fidelity Advisor Stock Selector Mid Cap Fund",
@@ -631,23 +631,27 @@
         },
         {
           "fundName": "Fidelity ZERO Total Market Index Fund",
-          "shares": 39481
+          "shares": 40537
         },
         {
           "fundName": "Fidelity Growth Strategies K6 Fund",
           "shares": 38362
         },
         {
+          "fundName": "Fidelity MSCI Industrials Index ETF",
+          "shares": 24850
+        },
+        {
           "fundName": "Nomura VIP Mid Cap Growth Series",
           "shares": 24263
         },
         {
-          "fundName": "Fidelity MSCI Industrials Index ETF",
-          "shares": 22480
+          "fundName": "Fidelity ZERO Large Cap Index Fund",
+          "shares": 22173
         },
         {
-          "fundName": "Fidelity ZERO Large Cap Index Fund",
-          "shares": 21509
+          "fundName": "Fidelity Founders Fund",
+          "shares": 18356
         },
         {
           "fundName": "VIP Industrials Portfolio",
@@ -658,12 +662,8 @@
           "shares": 16832
         },
         {
-          "fundName": "Fidelity Founders Fund",
-          "shares": 15639
-        },
-        {
           "fundName": "Fidelity Magellan ETF",
-          "shares": 12944
+          "shares": 12774
         },
         {
           "fundName": "Fidelity Flex 500 Index Fund",
@@ -675,7 +675,7 @@
         },
         {
           "fundName": "Fidelity Series Large Cap Growth Index Fund",
-          "shares": 6224
+          "shares": 5944
         },
         {
           "fundName": "Guardian Select Mid Cap Core VIP Fund",
@@ -730,7 +730,7 @@
     {
       "manager": "BlackRock",
       "fundCount": 39,
-      "shares": 2382906,
+      "shares": 2381848,
       "funds": [
         {
           "fundName": "iShares U.S. Aerospace &amp; Defense ETF",
@@ -774,7 +774,7 @@
         },
         {
           "fundName": "iShares MSCI ACWI ETF",
-          "shares": 23928
+          "shares": 23874
         },
         {
           "fundName": "iShares Russell 3000 ETF",
@@ -782,7 +782,7 @@
         },
         {
           "fundName": "iShares U.S. Industrials ETF",
-          "shares": 18878
+          "shares": 17500
         },
         {
           "fundName": "BlackRock Sustainable Aware Advantage Large Cap Core Fund",
@@ -834,7 +834,11 @@
         },
         {
           "fundName": "iShares Dow Jones U.S. ETF",
-          "shares": 3349
+          "shares": 3329
+        },
+        {
+          "fundName": "iShares MSCI USA Size Factor ETF",
+          "shares": 2050
         },
         {
           "fundName": "BlackRock Advantage Large Cap Core Portfolio",
@@ -847,10 +851,6 @@
         {
           "fundName": "Global Atlantic BlackRock Disciplined Value Portfolio",
           "shares": 1805
-        },
-        {
-          "fundName": "iShares MSCI USA Size Factor ETF",
-          "shares": 1656
         },
         {
           "fundName": "iShares Morningstar U.S. Equity ETF",
@@ -1598,6 +1598,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Fidelity Mid Cap Index Fund",
+      "registrant": "Fidelity Salem Street Trust",
+      "manager": "FMR (Fidelity)",
+      "cik": "35315",
+      "shares": 285586,
+      "value": 73475566,
+      "reportDate": "2026-07-31",
+      "priorShares": 277757,
+      "change": 7829,
+      "pctOut": 0.3379,
+      "action": "Bought"
+    },
+    {
       "fundName": "BBR ALO Fund, LLC.",
       "registrant": "BBR ALO Fund, LLC.",
       "manager": "",
@@ -1622,19 +1635,6 @@
       "change": 0,
       "pctOut": 0.3296,
       "action": "No Change"
-    },
-    {
-      "fundName": "Fidelity Mid Cap Index Fund",
-      "registrant": "Fidelity Salem Street Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "35315",
-      "shares": 277757,
-      "value": 58056768,
-      "reportDate": "2026-04-30",
-      "priorShares": 272742,
-      "change": 5015,
-      "pctOut": 0.3286,
-      "action": "Bought"
     },
     {
       "fundName": "THE HARTFORD MIDCAP FUND",
@@ -1884,19 +1884,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Fidelity Large Cap Growth Index Fund",
-      "registrant": "Fidelity Salem Street Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "35315",
-      "shares": 106403,
-      "value": 22240355,
-      "reportDate": "2026-04-30",
-      "priorShares": 108116,
-      "change": -1713,
-      "pctOut": 0.12589999999999998,
-      "action": "Sold"
-    },
-    {
       "fundName": "iShares Core S&amp;P Total U.S. Stock Market ETF",
       "registrant": "iShares Trust",
       "manager": "BlackRock",
@@ -1962,6 +1949,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Fidelity Large Cap Growth Index Fund",
+      "registrant": "Fidelity Salem Street Trust",
+      "manager": "FMR (Fidelity)",
+      "cik": "35315",
+      "shares": 99238,
+      "value": 25531953,
+      "reportDate": "2026-07-31",
+      "priorShares": 106403,
+      "change": -7165,
+      "pctOut": 0.11739999999999999,
+      "action": "Sold"
+    },
+    {
       "fundName": "VANGUARD INDUSTRIALS INDEX FUND",
       "registrant": "VANGUARD WORLD FUND",
       "manager": "Vanguard Group",
@@ -2006,12 +2006,12 @@
       "manager": "FMR (Fidelity)",
       "cik": "315700",
       "shares": 85200,
-      "value": 17808504,
-      "reportDate": "2026-04-30",
-      "priorShares": 78600,
-      "change": 6600,
+      "value": 21920256,
+      "reportDate": "2026-07-31",
+      "priorShares": 85200,
+      "change": 0,
       "pctOut": 0.1008,
-      "action": "Bought"
+      "action": "No Change"
     },
     {
       "fundName": "BBH Select Mid Cap ETF",
@@ -2175,12 +2175,12 @@
       "manager": "FMR (Fidelity)",
       "cik": "275309",
       "shares": 52058,
-      "value": 10881163,
-      "reportDate": "2026-04-30",
-      "priorShares": 58158,
-      "change": -6100,
+      "value": 13393482,
+      "reportDate": "2026-07-31",
+      "priorShares": 52058,
+      "change": 0,
       "pctOut": 0.0616,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "ALGER CAPITAL APPRECIATION FUND",
@@ -2378,6 +2378,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Fidelity ZERO Total Market Index Fund",
+      "registrant": "Fidelity Concord Street Trust",
+      "manager": "FMR (Fidelity)",
+      "cik": "819118",
+      "shares": 40537,
+      "value": 10429359,
+      "reportDate": "2026-07-31",
+      "priorShares": 39481,
+      "change": 1056,
+      "pctOut": 0.048,
+      "action": "Bought"
+    },
+    {
       "fundName": "Six Circles Managed Equity Portfolio U.S. Unconstrained Fund",
       "registrant": "SIX CIRCLES TRUST",
       "manager": "",
@@ -2422,25 +2435,12 @@
       "manager": "Dimensional",
       "cik": "355437",
       "shares": 39491,
-      "value": 8254409,
-      "reportDate": "2026-04-30",
+      "value": 10160244,
+      "reportDate": "2026-07-31",
       "priorShares": 39491,
       "change": 0,
       "pctOut": 0.046700000000000005,
       "action": "No Change"
-    },
-    {
-      "fundName": "Fidelity ZERO Total Market Index Fund",
-      "registrant": "Fidelity Concord Street Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "819118",
-      "shares": 39481,
-      "value": 8252319,
-      "reportDate": "2026-04-30",
-      "priorShares": 39356,
-      "change": 125,
-      "pctOut": 0.046700000000000005,
-      "action": "Bought"
     },
     {
       "fundName": "Multi-Manager Large Cap Growth Strategies Fund",
@@ -2552,8 +2552,8 @@
       "manager": "Dimensional",
       "cik": "355437",
       "shares": 34159,
-      "value": 7139914,
-      "reportDate": "2026-04-30",
+      "value": 8788428,
+      "reportDate": "2026-07-31",
       "priorShares": 34159,
       "change": 0,
       "pctOut": 0.0404,
@@ -2690,6 +2690,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Fidelity MSCI Industrials Index ETF",
+      "registrant": "FIDELITY COVINGTON TRUST",
+      "manager": "FMR (Fidelity)",
+      "cik": "945908",
+      "shares": 24850,
+      "value": 6393408,
+      "reportDate": "2026-07-31",
+      "priorShares": 22480,
+      "change": 2370,
+      "pctOut": 0.0294,
+      "action": "Bought"
+    },
+    {
       "fundName": "John Hancock Multifactor Mid Cap ETF",
       "registrant": "John Hancock Exchange-Traded Fund Trust",
       "manager": "John Hancock",
@@ -2755,19 +2768,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "iShares MSCI ACWI ETF",
-      "registrant": "iShares Trust",
-      "manager": "BlackRock",
-      "cik": "1100663",
-      "shares": 23928,
-      "value": 5001431,
-      "reportDate": "2026-04-30",
-      "priorShares": 21069,
-      "change": 2859,
-      "pctOut": 0.0283,
-      "action": "Bought"
-    },
-    {
       "fundName": "Principal Focused Blue Chip ETF",
       "registrant": "Principal Exchange-Traded Funds",
       "manager": "Principal",
@@ -2779,6 +2779,19 @@
       "change": 13042,
       "pctOut": 0.0283,
       "action": "Bought"
+    },
+    {
+      "fundName": "iShares MSCI ACWI ETF",
+      "registrant": "iShares Trust",
+      "manager": "BlackRock",
+      "cik": "1100663",
+      "shares": 23874,
+      "value": 6142303,
+      "reportDate": "2026-07-31",
+      "priorShares": 23928,
+      "change": -54,
+      "pctOut": 0.028200000000000003,
+      "action": "Sold"
     },
     {
       "fundName": "Dimensional U.S. Equity Market ETF",
@@ -2807,29 +2820,16 @@
       "action": "Sold"
     },
     {
-      "fundName": "Fidelity MSCI Industrials Index ETF",
-      "registrant": "FIDELITY COVINGTON TRUST",
-      "manager": "FMR (Fidelity)",
-      "cik": "945908",
-      "shares": 22480,
-      "value": 4698770,
-      "reportDate": "2026-04-30",
-      "priorShares": 20769,
-      "change": 1711,
-      "pctOut": 0.026600000000000002,
-      "action": "Bought"
-    },
-    {
       "fundName": "Fidelity ZERO Large Cap Index Fund",
       "registrant": "Fidelity Concord Street Trust",
       "manager": "FMR (Fidelity)",
       "cik": "819118",
-      "shares": 21509,
-      "value": 4495811,
-      "reportDate": "2026-04-30",
-      "priorShares": 20691,
-      "change": 818,
-      "pctOut": 0.0254,
+      "shares": 22173,
+      "value": 5704669,
+      "reportDate": "2026-07-31",
+      "priorShares": 21509,
+      "change": 664,
+      "pctOut": 0.0262,
       "action": "Bought"
     },
     {
@@ -2885,17 +2885,17 @@
       "action": "Bought"
     },
     {
-      "fundName": "iShares U.S. Industrials ETF",
-      "registrant": "iShares Trust",
-      "manager": "BlackRock",
-      "cik": "1100663",
-      "shares": 18878,
-      "value": 3945880,
-      "reportDate": "2026-04-30",
-      "priorShares": 19988,
-      "change": -1110,
-      "pctOut": 0.0223,
-      "action": "Sold"
+      "fundName": "Fidelity Founders Fund",
+      "registrant": "Fidelity Concord Street Trust",
+      "manager": "FMR (Fidelity)",
+      "cik": "819118",
+      "shares": 18356,
+      "value": 4722632,
+      "reportDate": "2026-07-31",
+      "priorShares": 15639,
+      "change": 2717,
+      "pctOut": 0.0217,
+      "action": "Bought"
     },
     {
       "fundName": "Victory 500 Index Fund",
@@ -2921,6 +2921,19 @@
       "priorShares": 17900,
       "change": -300,
       "pctOut": 0.0208,
+      "action": "Sold"
+    },
+    {
+      "fundName": "iShares U.S. Industrials ETF",
+      "registrant": "iShares Trust",
+      "manager": "BlackRock",
+      "cik": "1100663",
+      "shares": 17500,
+      "value": 4502400,
+      "reportDate": "2026-07-31",
+      "priorShares": 18878,
+      "change": -1378,
+      "pctOut": 0.0207,
       "action": "Sold"
     },
     {
@@ -2973,19 +2986,6 @@
       "priorShares": 16480,
       "change": 49,
       "pctOut": 0.0196,
-      "action": "Bought"
-    },
-    {
-      "fundName": "Fidelity Founders Fund",
-      "registrant": "Fidelity Concord Street Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "819118",
-      "shares": 15639,
-      "value": 3268864,
-      "reportDate": "2026-04-30",
-      "priorShares": 15215,
-      "change": 424,
-      "pctOut": 0.0185,
       "action": "Bought"
     },
     {
@@ -3071,12 +3071,12 @@
       "registrant": "Fidelity Covington Trust",
       "manager": "FMR (Fidelity)",
       "cik": "945908",
-      "shares": 12944,
-      "value": 2705555,
-      "reportDate": "2026-04-30",
-      "priorShares": 14897,
-      "change": -1953,
-      "pctOut": 0.015300000000000001,
+      "shares": 12774,
+      "value": 3286495,
+      "reportDate": "2026-07-31",
+      "priorShares": 12944,
+      "change": -170,
+      "pctOut": 0.0151,
       "action": "Sold"
     },
     {
@@ -3202,8 +3202,8 @@
       "manager": "Dimensional",
       "cik": "355437",
       "shares": 11151,
-      "value": 2330782,
-      "reportDate": "2026-04-30",
+      "value": 2868929,
+      "reportDate": "2026-07-31",
       "priorShares": 11151,
       "change": 0,
       "pctOut": 0.013200000000000002,
@@ -3535,19 +3535,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Fidelity Series Large Cap Growth Index Fund",
-      "registrant": "Fidelity Salem Street Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "35315",
-      "shares": 6224,
-      "value": 1300940,
-      "reportDate": "2026-04-30",
-      "priorShares": 5586,
-      "change": 638,
-      "pctOut": 0.0073999999999999995,
-      "action": "Bought"
-    },
-    {
       "fundName": "VANGUARD RUSSELL 3000 INDEX FUND",
       "registrant": "VANGUARD SCOTTSDALE FUNDS",
       "manager": "Vanguard Group",
@@ -3598,6 +3585,19 @@
       "change": null,
       "pctOut": 0.0071,
       "action": "New"
+    },
+    {
+      "fundName": "Fidelity Series Large Cap Growth Index Fund",
+      "registrant": "Fidelity Salem Street Trust",
+      "manager": "FMR (Fidelity)",
+      "cik": "35315",
+      "shares": 5944,
+      "value": 1529272,
+      "reportDate": "2026-07-31",
+      "priorShares": 6224,
+      "change": -280,
+      "pctOut": 0.006999999999999999,
+      "action": "Sold"
     },
     {
       "fundName": "Diversified Equity Alpha Master Portfolio",
@@ -3761,8 +3761,8 @@
       "manager": "Dimensional",
       "cik": "355437",
       "shares": 4226,
-      "value": 883319,
-      "reportDate": "2026-04-30",
+      "value": 1087265,
+      "reportDate": "2026-07-31",
       "priorShares": 4226,
       "change": 0,
       "pctOut": 0.005,
@@ -3877,12 +3877,12 @@
       "registrant": "iShares Trust",
       "manager": "BlackRock",
       "cik": "1100663",
-      "shares": 3349,
-      "value": 700008,
-      "reportDate": "2026-04-30",
-      "priorShares": 3379,
-      "change": -30,
-      "pctOut": 0.004,
+      "shares": 3329,
+      "value": 856485,
+      "reportDate": "2026-07-31",
+      "priorShares": 3349,
+      "change": -20,
+      "pctOut": 0.0039,
       "action": "Sold"
     },
     {
@@ -4099,8 +4099,8 @@
       "manager": "Dimensional",
       "cik": "355437",
       "shares": 2448,
-      "value": 511681,
-      "reportDate": "2026-04-30",
+      "value": 629821,
+      "reportDate": "2026-07-31",
       "priorShares": 2448,
       "change": 0,
       "pctOut": 0.0029,
@@ -4221,6 +4221,19 @@
       "priorShares": 2132,
       "change": 24,
       "pctOut": 0.0026,
+      "action": "Bought"
+    },
+    {
+      "fundName": "iShares MSCI USA Size Factor ETF",
+      "registrant": "iShares Trust",
+      "manager": "BlackRock",
+      "cik": "1100663",
+      "shares": 2050,
+      "value": 527424,
+      "reportDate": "2026-07-31",
+      "priorShares": 1656,
+      "change": 394,
+      "pctOut": 0.0024000000000000002,
       "action": "Bought"
     },
     {
@@ -4391,19 +4404,6 @@
       "change": 0,
       "pctOut": 0.002,
       "action": "No Change"
-    },
-    {
-      "fundName": "iShares MSCI USA Size Factor ETF",
-      "registrant": "iShares Trust",
-      "manager": "BlackRock",
-      "cik": "1100663",
-      "shares": 1656,
-      "value": 346137,
-      "reportDate": "2026-04-30",
-      "priorShares": 1600,
-      "change": 56,
-      "pctOut": 0.002,
-      "action": "Bought"
     },
     {
       "fundName": "FlexShares Morningstar US Market Factor Tilt Index Fund",
@@ -5425,8 +5425,8 @@
       "manager": "BlackRock",
       "cik": "1100663",
       "shares": 239,
-      "value": 49956,
-      "reportDate": "2026-04-30",
+      "value": 61490,
+      "reportDate": "2026-07-31",
       "priorShares": 239,
       "change": 0,
       "pctOut": 0.00030000000000000003,

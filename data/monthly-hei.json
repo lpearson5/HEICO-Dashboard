@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-23T15:25:19.520Z",
+  "lastUpdated": "2026-09-24T15:48:29.422Z",
   "summary": {
-    "institutions": 777,
-    "totalShares": 43755248,
+    "institutions": 778,
+    "totalShares": 43758683,
     "pctOut": 79.21000000000001,
     "newHolders": 120,
-    "sellouts": 86,
+    "sellouts": 85,
     "bought": 256,
-    "sold": 266,
+    "sold": 267,
     "held": 135
   },
   "top10": [
@@ -2788,24 +2788,6 @@
         null
       ],
       "netChg": -5000,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Snowden Capital Advisors LLC",
-      "filerCik": "1903055",
-      "shares": [
-        null,
-        4001,
-        3879,
-        4279
-      ],
-      "netChg": -4001,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -10179,6 +10161,24 @@
       "voteNone": 0
     },
     {
+      "filerName": "Snowden Capital Advisors LLC",
+      "filerCik": "1903055",
+      "shares": [
+        3435,
+        4001,
+        3879,
+        4279
+      ],
+      "netChg": -566,
+      "currentValue": 1223482,
+      "pctOut": 0.01,
+      "action": "Sold",
+      "discretion": "SOLE",
+      "voteSole": 3435,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "Bahl & Gaynor LLC",
       "filerCik": "872259",
       "shares": [
@@ -17546,7 +17546,7 @@
       "shares": [
         5,
         23,
-        5,
+        null,
         null
       ],
       "netChg": -18,
@@ -18999,24 +18999,6 @@
       "voteNone": null
     },
     {
-      "filerName": "E Fund Management (Hong Kong) Co., Ltd.",
-      "filerCik": "1777469",
-      "shares": [
-        null,
-        null,
-        813,
-        null
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "MQS Management LLC",
       "filerCik": "1759395",
       "shares": [
@@ -19041,6 +19023,24 @@
         null,
         null,
         24,
+        null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "E Fund Management (Hong Kong) Co., Ltd.",
+      "filerCik": "1777469",
+      "shares": [
+        null,
+        null,
+        813,
         null
       ],
       "netChg": null,
@@ -19539,24 +19539,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Inspire Advisors, LLC",
-      "filerCik": "1810558",
-      "shares": [
-        null,
-        null,
-        null,
-        2229
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Bridgefront Capital, LLC",
       "filerCik": "1725690",
       "shares": [
@@ -19575,13 +19557,13 @@
       "voteNone": null
     },
     {
-      "filerName": "DT Investment Partners, LLC",
-      "filerCik": "1537621",
+      "filerName": "Inspire Advisors, LLC",
+      "filerCik": "1810558",
       "shares": [
         null,
         null,
-        66,
-        66
+        null,
+        2229
       ],
       "netChg": null,
       "currentValue": null,
@@ -19600,6 +19582,24 @@
         null,
         null,
         6095
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "DT Investment Partners, LLC",
+      "filerCik": "1537621",
+      "shares": [
+        null,
+        null,
+        66,
+        66
       ],
       "netChg": null,
       "currentValue": null,
@@ -20637,24 +20637,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Snowden Capital Advisors LLC",
-      "filerCik": "1903055",
-      "shares": [
-        null,
-        4001,
-        3879,
-        4279
-      ],
-      "netChg": -4001,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "ExodusPoint Capital Management, LP",
       "filerCik": "1736225",
       "shares": [
@@ -20912,7 +20894,7 @@
       "shares": [
         null,
         null,
-        1045,
+        null,
         2244
       ],
       "netChg": null,
@@ -21195,24 +21177,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Root Financial Partners, LLC",
-      "filerCik": "1977181",
-      "shares": [
-        null,
-        57,
-        48,
-        65
-      ],
-      "netChg": -57,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "NOMURA HOLDINGS INC  (NMR, NRSCF)",
       "filerCik": "1163653",
       "shares": [
@@ -21225,6 +21189,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Root Financial Partners, LLC",
+      "filerCik": "1977181",
+      "shares": [
+        null,
+        57,
+        48,
+        65
+      ],
+      "netChg": -57,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,

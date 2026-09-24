@@ -1,9 +1,9 @@
 {
-  "asOf": "2026-09-23T15:43:09.942Z",
+  "asOf": "2026-09-24T16:07:31.358Z",
   "period": "2026-06-30",
   "hei": {
-    "total": 777,
-    "totalShares": 43755248,
+    "total": 778,
+    "totalShares": 43758683,
     "categories": [
       {
         "style": "Growth",
@@ -648,9 +648,9 @@
       },
       {
         "style": "Blend/Core",
-        "holders": 583,
-        "holderPct": 75,
-        "shares": 26287098,
+        "holders": 584,
+        "holderPct": 75.1,
+        "shares": 26290533,
         "sharePct": 60.1,
         "estCount": 128,
         "examples": [
@@ -1965,6 +1965,11 @@
             "name": "Caprock Group, LLC",
             "shares": 3440,
             "est": true
+          },
+          {
+            "name": "Snowden Capital Advisors LLC",
+            "shares": 3435,
+            "est": false
           },
           {
             "name": "Cresset Asset Management, LLC",
@@ -3993,7 +3998,7 @@
     ],
     "coverage": {
       "curated": 160,
-      "heuristic": 351,
+      "heuristic": 352,
       "estimated": 187,
       "unknown": 79
     }
@@ -7459,13 +7464,13 @@
     }
   },
   "combined": {
-    "total": 1010,
-    "totalShares": 113796536,
+    "total": 1011,
+    "totalShares": 113799971,
     "categories": [
       {
         "style": "Growth",
         "holders": 48,
-        "holderPct": 4.8,
+        "holderPct": 4.7,
         "shares": 23850173,
         "sharePct": 21,
         "estCount": 18,
@@ -8320,9 +8325,9 @@
       },
       {
         "style": "Blend/Core",
-        "holders": 736,
+        "holders": 737,
         "holderPct": 72.9,
-        "shares": 75271746,
+        "shares": 75275181,
         "sharePct": 66.1,
         "estCount": 159,
         "examples": [
@@ -10177,6 +10182,11 @@
             "name": "FIDELIS CAPITAL PARTNERS, LLC",
             "shares": 3447,
             "est": true
+          },
+          {
+            "name": "Snowden Capital Advisors LLC",
+            "shares": 3435,
+            "est": false
           },
           {
             "name": "Cresset Asset Management, LLC",
@@ -12615,7 +12625,7 @@
     ],
     "coverage": {
       "curated": 192,
-      "heuristic": 464,
+      "heuristic": 465,
       "estimated": 238,
       "unknown": 116
     }
