@@ -9,6 +9,7 @@ import type { Task } from "@/lib/crm-types";
 export default function Tasks({ onOpenInvestor }: { onOpenInvestor: (id: string) => void }) {
   const { data, dispatch } = useCrm();
   const [filter, setFilter] = useState<"open" | "all" | "done">("open");
+  const [assignee, setAssignee] = useState("All");
   const [editing, setEditing] = useState<Task | null>(null);
   const [adding, setAdding] = useState(false);
   const inv = (id?: string | null) => data.investors.find((x) => x.id === id);
@@ -17,8 +18,9 @@ export default function Tasks({ onOpenInvestor }: { onOpenInvestor: (id: string)
   const rows = useMemo(() =>
     [...data.tasks]
       .filter((t) => filter === "all" ? true : filter === "done" ? t.done : !t.done)
+      .filter((t) => assignee === "All" || t.assigneeId === assignee)
       .sort((a, b) => (a.done ? 1 : 0) - (b.done ? 1 : 0) || (a.dueDate ?? "9999").localeCompare(b.dueDate ?? "9999")),
-  [data.tasks, filter]);
+  [data.tasks, filter, assignee]);
 
   return (
     <div className="space-y-4">
@@ -28,6 +30,10 @@ export default function Tasks({ onOpenInvestor }: { onOpenInvestor: (id: string)
             <button key={f} onClick={() => setFilter(f)} className={`px-3 py-1.5 font-medium capitalize ${filter === f ? "bg-gray-900 text-white" : "bg-white text-gray-700 hover:bg-gray-50"}`}>{f}</button>
           ))}
         </div>
+        <select value={assignee} onChange={(e) => setAssignee(e.target.value)} className="rounded-lg border border-gray-300 bg-white px-2.5 py-2 text-sm text-gray-700" title="Filter by assignee">
+          <option value="All">All assignees</option>
+          {data.team.map((t) => <option key={t.id} value={t.id}>{t.name}</option>)}
+        </select>
         <div className="ml-auto"><BtnPrimary onClick={() => setAdding(true)}>+ Add task</BtnPrimary></div>
       </div>
 
