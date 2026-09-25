@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T15:48:29.422Z",
+  "lastUpdated": "2026-09-25T15:48:25.891Z",
   "peers": [
     {
       "name": "RTX Corp.",
@@ -204,12 +204,6 @@
           "value": 680892176
         },
         {
-          "fund": "SCHWAB CAPITAL TRUST",
-          "manager": "Charles Schwab",
-          "shares": 3013036,
-          "value": 605409323
-        },
-        {
           "fund": "AMERICAN BALANCED FUND",
           "manager": "",
           "shares": 2964651,
@@ -226,6 +220,12 @@
           "manager": "Capital Group (American Funds)",
           "shares": 2605176,
           "value": 494280042
+        },
+        {
+          "fund": "FIDELITY SALEM STREET TRUST",
+          "manager": "FMR (Fidelity)",
+          "shares": 2258857,
+          "value": 486151204
         }
       ]
     },
@@ -417,7 +417,7 @@
           "fund": "HARBOR FUNDS",
           "manager": "",
           "shares": 2246085,
-          "value": 514420848
+          "value": 485468812
         },
         {
           "fund": "FIDELITY CONCORD STREET TRUST",
@@ -642,12 +642,6 @@
           "value": 424023399
         },
         {
-          "fund": "iSHARES TRUST",
-          "manager": "BlackRock",
-          "shares": 1363215,
-          "value": 384781066
-        },
-        {
           "fund": "T. Rowe Price Equity Funds, Inc.",
           "manager": "T. Rowe Price",
           "shares": 1146652,
@@ -666,12 +660,6 @@
           "value": 294978942
         },
         {
-          "fund": "BLACKROCK FUNDS",
-          "manager": "BlackRock",
-          "shares": 1021411,
-          "value": 263779391
-        },
-        {
           "fund": "John Hancock Funds III",
           "manager": "John Hancock",
           "shares": 871213,
@@ -682,6 +670,18 @@
           "manager": "American Century",
           "shares": 928000,
           "value": 225541120
+        },
+        {
+          "fund": "FIDELITY SELECT PORTFOLIOS",
+          "manager": "FMR (Fidelity)",
+          "shares": 748800,
+          "value": 193377600
+        },
+        {
+          "fund": "SPDR SERIES TRUST",
+          "manager": "State Street",
+          "shares": 667405,
+          "value": 179438508
         }
       ]
     },
@@ -1116,12 +1116,6 @@
           "value": 92440511
         },
         {
-          "fund": "T. Rowe Price International Funds, Inc.",
-          "manager": "T. Rowe Price",
-          "shares": 142275,
-          "value": 91888309
-        },
-        {
           "fund": "JP MORGAN FLEMING MUTUAL FUND GROUP INC",
           "manager": "JPMorgan",
           "shares": 123341,
@@ -1136,8 +1130,14 @@
         {
           "fund": "SCHWAB CAPITAL TRUST",
           "manager": "Charles Schwab",
-          "shares": 106543,
-          "value": 66088623
+          "shares": 103723,
+          "value": 67997687
+        },
+        {
+          "fund": "SCHWAB STRATEGIC TRUST",
+          "manager": "Charles Schwab",
+          "shares": 99923,
+          "value": 61935273
         }
       ]
     },
@@ -1518,12 +1518,6 @@
           "value": 34844310
         },
         {
-          "fund": "BARON INVESTMENT FUNDS TRUST (f/k/a BARON ASSET FUND)",
-          "manager": "Baron Capital",
-          "shares": 605747,
-          "value": 27949167
-        },
-        {
           "fund": "T. Rowe Price New Horizons Fund, Inc.",
           "manager": "T. Rowe Price",
           "shares": 562255,
@@ -1588,6 +1582,12 @@
           "manager": "MFS",
           "shares": 228896,
           "value": 10284297
+        },
+        {
+          "fund": "COLUMBIA FUNDS SERIES TRUST",
+          "manager": "Columbia (Ameriprise)",
+          "shares": 227297,
+          "value": 10212454
         },
         {
           "fund": "Columbia Funds Variable Series Trust II",
@@ -2004,12 +2004,6 @@
           "value": 17240893
         },
         {
-          "fund": "TIAA-CREF FUNDS",
-          "manager": "Nuveen (TIAA)",
-          "shares": 60757,
-          "value": 15169200
-        },
-        {
           "fund": "VANGUARD VALLEY FORGE FUNDS",
           "manager": "Vanguard Group",
           "shares": 55580,
@@ -2034,22 +2028,28 @@
           "value": 12067475
         },
         {
+          "fund": "TIAA-CREF FUNDS",
+          "manager": "Nuveen (TIAA)",
+          "shares": 57054,
+          "value": 11753124
+        },
+        {
           "fund": "VANGUARD TAX-MANAGED FUNDS",
           "manager": "Vanguard Group",
           "shares": 41701,
           "value": 11281372
         },
         {
+          "fund": "Dimensional ETF Trust",
+          "manager": "Dimensional",
+          "shares": 48782,
+          "value": 10049092
+        },
+        {
           "fund": "NORTHERN LIGHTS FUND TRUST II",
           "manager": "",
           "shares": 35386,
           "value": 9572975
-        },
-        {
-          "fund": "Dimensional ETF Trust",
-          "manager": "Dimensional",
-          "shares": 37798,
-          "value": 9437027
         }
       ]
     }

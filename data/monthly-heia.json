@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-09-24T15:48:29.422Z",
+  "lastUpdated": "2026-09-25T15:48:25.891Z",
   "summary": {
-    "institutions": 671,
-    "totalShares": 70041288,
+    "institutions": 670,
+    "totalShares": 70039844,
     "pctOut": 82.87,
     "newHolders": 111,
-    "sellouts": 62,
+    "sellouts": 63,
     "bought": 254,
-    "sold": 215,
+    "sold": 214,
     "held": 91
   },
   "top10": [
@@ -311,24 +311,6 @@
       "voteNone": 52374
     },
     {
-      "filerName": "Maven Securities LTD",
-      "filerCik": "1633046",
-      "shares": [
-        53957,
-        null,
-        15830,
-        15830
-      ],
-      "netChg": 53957,
-      "currentValue": 13916050,
-      "pctOut": 0.06,
-      "action": "New",
-      "discretion": "DFND",
-      "voteSole": 53957,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
       "filerName": "Kinsale Capital Group, Inc.  (KNSL)",
       "filerCik": "1669162",
       "shares": [
@@ -559,6 +541,24 @@
       "action": "New",
       "discretion": "SOLE",
       "voteSole": 8565,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "Jain Global LLC",
+      "filerCik": "2024579",
+      "shares": [
+        8402,
+        null,
+        null,
+        null
+      ],
+      "netChg": 8402,
+      "currentValue": 2166960,
+      "pctOut": 0.01,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 8402,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -2770,6 +2770,24 @@
         null
       ],
       "netChg": -1218,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "TEACHER RETIREMENT SYSTEM OF TEXAS",
+      "filerCik": "796848",
+      "shares": [
+        null,
+        1129,
+        2502,
+        9907
+      ],
+      "netChg": -1129,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -5683,14 +5701,14 @@
       "filerCik": "1633046",
       "shares": [
         53957,
-        null,
+        16036,
         15830,
         15830
       ],
-      "netChg": 53957,
+      "netChg": 37921,
       "currentValue": 13916050,
       "pctOut": 0.06,
-      "action": "New",
+      "action": "Bought",
       "discretion": "DFND",
       "voteSole": 53957,
       "voteShared": 0,
@@ -7951,14 +7969,14 @@
       "filerCik": "2024579",
       "shares": [
         8402,
-        15003,
+        null,
         null,
         null
       ],
-      "netChg": -6601,
+      "netChg": 8402,
       "currentValue": 2166960,
       "pctOut": 0.01,
-      "action": "Sold",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 8402,
       "voteShared": 0,
@@ -10986,24 +11004,6 @@
       "discretion": "DFND",
       "voteSole": 0,
       "voteShared": 1474,
-      "voteNone": 0
-    },
-    {
-      "filerName": "TEACHER RETIREMENT SYSTEM OF TEXAS",
-      "filerCik": "796848",
-      "shares": [
-        1444,
-        1129,
-        2502,
-        9907
-      ],
-      "netChg": 315,
-      "currentValue": 372422,
-      "pctOut": 0,
-      "action": "Bought",
-      "discretion": "SOLE",
-      "voteSole": 1444,
-      "voteShared": 0,
       "voteNone": 0
     },
     {
@@ -16461,6 +16461,24 @@
       "voteNone": null
     },
     {
+      "filerName": "TEACHER RETIREMENT SYSTEM OF TEXAS",
+      "filerCik": "796848",
+      "shares": [
+        null,
+        1129,
+        2502,
+        9907
+      ],
+      "netChg": -1129,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Hemington Wealth Management",
       "filerCik": "1838234",
       "shares": [
@@ -16533,24 +16551,6 @@
       "voteNone": null
     },
     {
-      "filerName": "TWIN PEAKS WEALTH ADVISORS, LLC",
-      "filerCik": "2006218",
-      "shares": [
-        null,
-        1,
-        null,
-        null
-      ],
-      "netChg": -1,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Optiver Holding B.V.",
       "filerCik": "1859606",
       "shares": [
@@ -16560,6 +16560,24 @@
         366
       ],
       "netChg": -973,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "TWIN PEAKS WEALTH ADVISORS, LLC",
+      "filerCik": "2006218",
+      "shares": [
+        null,
+        1,
+        null,
+        null
+      ],
+      "netChg": -1,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -17523,24 +17541,6 @@
       "voteNone": null
     },
     {
-      "filerName": "MUFG Securities EMEA plc",
-      "filerCik": "1597694",
-      "shares": [
-        null,
-        40320,
-        40320,
-        null
-      ],
-      "netChg": -40320,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Clark Wealth Partners",
       "filerCik": "2107657",
       "shares": [
@@ -17550,6 +17550,24 @@
         78
       ],
       "netChg": -78,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "MUFG Securities EMEA plc",
+      "filerCik": "1597694",
+      "shares": [
+        null,
+        40320,
+        40320,
+        null
+      ],
+      "netChg": -40320,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",

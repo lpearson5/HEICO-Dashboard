@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-24T15:48:29.422Z",
+  "lastUpdated": "2026-09-25T15:48:25.891Z",
   "summary": {
     "funds": 444,
-    "totalShares": 19886024,
-    "pctOut": 35.998200000000004,
-    "newFunds": 60,
-    "sellouts": 50,
-    "linkedManagers": 26,
-    "linkedShares": 17088550
+    "totalShares": 19783403,
+    "pctOut": 35.8125,
+    "newFunds": 62,
+    "sellouts": 52,
+    "linkedManagers": 25,
+    "linkedShares": 16993373
   },
   "newHolders": [
     {
@@ -193,19 +193,6 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.0378,
-      "action": "New"
-    },
-    {
-      "fundName": "Nuveen Quant Mid Cap Growth Fund",
-      "registrant": "TIAA-CREF Funds",
-      "manager": "Nuveen (TIAA)",
-      "cik": "1084380",
-      "shares": 20270,
-      "value": 5471278,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.036699999999999997,
       "action": "New"
     },
     {
@@ -586,6 +573,19 @@
       "action": "New"
     },
     {
+      "fundName": "AQR Style Premia Alternative Fund",
+      "registrant": "AQR Funds",
+      "manager": "",
+      "cik": "1444822",
+      "shares": 1973,
+      "value": 702763,
+      "reportDate": "2026-06-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0036,
+      "action": "New"
+    },
+    {
       "fundName": "T. Rowe Price Spectrum Conservative Allocation Fund",
       "registrant": "T. ROWE PRICE SPECTRUM FUNDS II, INC.",
       "manager": "T. Rowe Price",
@@ -609,6 +609,19 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.0021,
+      "action": "New"
+    },
+    {
+      "fundName": "Dimensional US Large Cap Core Equity Market ETF",
+      "registrant": "Dimensional ETF Trust",
+      "manager": "Dimensional",
+      "cik": "1816125",
+      "shares": 923,
+      "value": 328920,
+      "reportDate": "2026-07-31",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0017,
       "action": "New"
     },
     {
@@ -781,6 +794,19 @@
       "action": "New"
     },
     {
+      "fundName": "BNY Mellon US Large Cap Equity Growth ETF",
+      "registrant": "BNY Mellon ETF Trust",
+      "manager": "",
+      "cik": "1493580",
+      "shares": 12,
+      "value": 4276,
+      "reportDate": "2026-07-31",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0,
+      "action": "New"
+    },
+    {
       "fundName": "Ruk Strategic Growth ETF",
       "registrant": "Advisor Managed Portfolios",
       "manager": "",
@@ -801,6 +827,13 @@
       "manager": "Invesco",
       "lastShares": 209375,
       "lastReport": "2026-01-31"
+    },
+    {
+      "fundName": "PGIM Jennison Mid-Cap Growth Fund",
+      "registrant": "Prudential Jennison Mid-Cap Growth Fund, Inc.",
+      "manager": "PGIM (Prudential)",
+      "lastShares": 81068,
+      "lastReport": "2026-02-27"
     },
     {
       "fundName": "Invesco Global Opportunities Fund",
@@ -885,6 +918,13 @@
       "manager": "",
       "lastShares": 8500,
       "lastReport": "2025-06-30"
+    },
+    {
+      "fundName": "First Trust Large Cap Core AlphaDEX Fund",
+      "registrant": "First Trust Exchange-Traded AlphaDEX Fund",
+      "manager": "First Trust",
+      "lastShares": 7469,
+      "lastReport": "2026-01-31"
     },
     {
       "fundName": "MidCap Growth Fund III",
@@ -1463,7 +1503,7 @@
     {
       "manager": "BlackRock",
       "fundCount": 36,
-      "shares": 1927509,
+      "shares": 1930582,
       "funds": [
         {
           "fundName": "BlackRock Mid-Cap Growth Equity Portfolio",
@@ -1503,7 +1543,7 @@
         },
         {
           "fundName": "iShares Morningstar Mid-Cap Growth ETF",
-          "shares": 21132
+          "shares": 22728
         },
         {
           "fundName": "iShares Disciplined Volatility Equity Active ETF",
@@ -1531,19 +1571,19 @@
         },
         {
           "fundName": "iShares Morningstar Mid-Cap ETF",
-          "shares": 4568
+          "shares": 4880
         },
         {
           "fundName": "BlackRock Multi-Asset Income Portfolio",
-          "shares": 4040
+          "shares": 4732
+        },
+        {
+          "fundName": "iShares Morningstar Growth ETF",
+          "shares": 4197
         },
         {
           "fundName": "iShares MSCI USA Equal Weighted ETF",
           "shares": 4021
-        },
-        {
-          "fundName": "iShares Morningstar Growth ETF",
-          "shares": 3997
         },
         {
           "fundName": "iShares MSCI World ETF",
@@ -1574,12 +1614,12 @@
           "shares": 1143
         },
         {
-          "fundName": "iShares Morningstar U.S. Equity ETF",
-          "shares": 857
+          "fundName": "BlackRock Dynamic High Income Portfolio",
+          "shares": 1117
         },
         {
-          "fundName": "BlackRock Dynamic High Income Portfolio",
-          "shares": 844
+          "fundName": "iShares Morningstar U.S. Equity ETF",
+          "shares": 857
         },
         {
           "fundName": "BlackRock Sustainable Aware Advantage Large Cap Core Fund",
@@ -1792,7 +1832,7 @@
     {
       "manager": "Charles Schwab",
       "fundCount": 12,
-      "shares": 579071,
+      "shares": 579401,
       "funds": [
         {
           "fundName": "Schwab U.S. Large-Cap Growth ETF",
@@ -1808,7 +1848,7 @@
         },
         {
           "fundName": "Schwab Total Stock Market Index Fund",
-          "shares": 58602
+          "shares": 59202
         },
         {
           "fundName": "Schwab Fundamental U.S. Small Company ETF",
@@ -1816,19 +1856,19 @@
         },
         {
           "fundName": "Schwab 1000 Index Fund",
-          "shares": 31740
+          "shares": 30869
         },
         {
           "fundName": "Schwab U.S. Mid-Cap Index Fund",
-          "shares": 19210
+          "shares": 19726
         },
         {
           "fundName": "Schwab U.S. Large-Cap Growth Index Fund",
-          "shares": 15159
+          "shares": 14296
         },
         {
           "fundName": "Schwab Fundamental U.S. Small Company Index Fund",
-          "shares": 12173
+          "shares": 13121
         },
         {
           "fundName": "Schwab Select Large Cap Growth Fund",
@@ -2062,7 +2102,7 @@
     {
       "manager": "First Trust",
       "fundCount": 7,
-      "shares": 145918,
+      "shares": 155686,
       "funds": [
         {
           "fundName": "First Trust Indxx Aerospace &amp; Defense ETF",
@@ -2073,12 +2113,12 @@
           "shares": 21079
         },
         {
-          "fundName": "First Trust Industrials/Producer Durables AlphaDEX Fund",
-          "shares": 9334
+          "fundName": "First Trust Long/Short Equity ETF",
+          "shares": 17680
         },
         {
-          "fundName": "First Trust Large Cap Core AlphaDEX Fund",
-          "shares": 7912
+          "fundName": "First Trust Industrials/Producer Durables AlphaDEX Fund",
+          "shares": 9334
         },
         {
           "fundName": "First Trust Multi Cap Growth AlphaDEX Fund",
@@ -2095,13 +2135,72 @@
       ]
     },
     {
+      "manager": "Dimensional",
+      "fundCount": 13,
+      "shares": 124613,
+      "funds": [
+        {
+          "fundName": "Dimensional U.S. Core Equity 2 ETF",
+          "shares": 32173
+        },
+        {
+          "fundName": "U.S. CORE EQUITY 1 PORTFOLIO",
+          "shares": 28002
+        },
+        {
+          "fundName": "U.S. CORE EQUITY 2 PORTFOLIO",
+          "shares": 24006
+        },
+        {
+          "fundName": "Dimensional U.S. Equity Market ETF",
+          "shares": 12955
+        },
+        {
+          "fundName": "Dimensional US Core Equity Market ETF",
+          "shares": 9612
+        },
+        {
+          "fundName": "U.S. Sustainability Core 1 Portfolio",
+          "shares": 6817
+        },
+        {
+          "fundName": "U.S. Large Cap Equity Portfolio",
+          "shares": 2731
+        },
+        {
+          "fundName": "U.S. Social Core Equity 2 Portfolio",
+          "shares": 2263
+        },
+        {
+          "fundName": "Dimensional US Sustainability Core 1 ETF",
+          "shares": 1758
+        },
+        {
+          "fundName": "Dimensional US Core Equity 1 ETF",
+          "shares": 1735
+        },
+        {
+          "fundName": "JNL/DFA U.S. Core Equity Fund",
+          "shares": 1068
+        },
+        {
+          "fundName": "Dimensional US Large Cap Core Equity Market ETF",
+          "shares": 923
+        },
+        {
+          "fundName": "AZL DFA U.S. Core Equity Fund",
+          "shares": 570
+        }
+      ]
+    },
+    {
       "manager": "Nuveen (TIAA)",
-      "fundCount": 8,
-      "shares": 144165,
+      "fundCount": 7,
+      "shares": 113450,
       "funds": [
         {
           "fundName": "Nuveen Growth Opportunities ETF",
-          "shares": 54056
+          "shares": 45408
         },
         {
           "fundName": "Nuveen Equity Index Fund",
@@ -2109,11 +2208,7 @@
         },
         {
           "fundName": "Nuveen Large Cap Growth Index Fund",
-          "shares": 26482
-        },
-        {
-          "fundName": "Nuveen Quant Mid Cap Growth Fund",
-          "shares": 20270
+          "shares": 24685
         },
         {
           "fundName": "Nuveen S&amp;P 500 Dynamic Overwrite Fund",
@@ -2130,72 +2225,6 @@
         {
           "fundName": "Nuveen Nasdaq 100 Dynamic Overwrite Fund",
           "shares": 584
-        }
-      ]
-    },
-    {
-      "manager": "Dimensional",
-      "fundCount": 12,
-      "shares": 121178,
-      "funds": [
-        {
-          "fundName": "Dimensional U.S. Core Equity 2 ETF",
-          "shares": 30145
-        },
-        {
-          "fundName": "U.S. CORE EQUITY 1 PORTFOLIO",
-          "shares": 28002
-        },
-        {
-          "fundName": "U.S. CORE EQUITY 2 PORTFOLIO",
-          "shares": 24006
-        },
-        {
-          "fundName": "Dimensional U.S. Equity Market ETF",
-          "shares": 13180
-        },
-        {
-          "fundName": "Dimensional US Core Equity Market ETF",
-          "shares": 9015
-        },
-        {
-          "fundName": "U.S. Sustainability Core 1 Portfolio",
-          "shares": 6817
-        },
-        {
-          "fundName": "U.S. Large Cap Equity Portfolio",
-          "shares": 2731
-        },
-        {
-          "fundName": "U.S. Social Core Equity 2 Portfolio",
-          "shares": 2263
-        },
-        {
-          "fundName": "Dimensional US Sustainability Core 1 ETF",
-          "shares": 1695
-        },
-        {
-          "fundName": "Dimensional US Core Equity 1 ETF",
-          "shares": 1686
-        },
-        {
-          "fundName": "JNL/DFA U.S. Core Equity Fund",
-          "shares": 1068
-        },
-        {
-          "fundName": "AZL DFA U.S. Core Equity Fund",
-          "shares": 570
-        }
-      ]
-    },
-    {
-      "manager": "PGIM (Prudential)",
-      "fundCount": 1,
-      "shares": 81068,
-      "funds": [
-        {
-          "fundName": "PGIM Jennison Mid-Cap Growth Fund",
-          "shares": 81068
         }
       ]
     },
@@ -3011,19 +3040,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "PGIM Jennison Mid-Cap Growth Fund",
-      "registrant": "Prudential Jennison Mid-Cap Growth Fund, Inc.",
-      "manager": "PGIM (Prudential)",
-      "cik": "1022624",
-      "shares": 81068,
-      "value": 25897983,
-      "reportDate": "2026-02-27",
-      "priorShares": 81068,
-      "change": 0,
-      "pctOut": 0.14679999999999999,
-      "action": "No Change"
-    },
-    {
       "fundName": "Fidelity Enhanced Mid Cap Core ETF",
       "registrant": "Fidelity Covington Trust",
       "manager": "FMR (Fidelity)",
@@ -3158,12 +3174,12 @@
       "registrant": "SCHWAB CAPITAL TRUST",
       "manager": "Charles Schwab",
       "cik": "904333",
-      "shares": 58602,
-      "value": 15817852,
-      "reportDate": "2026-04-30",
-      "priorShares": 49509,
-      "change": 9093,
-      "pctOut": 0.10610000000000001,
+      "shares": 59202,
+      "value": 21097225,
+      "reportDate": "2026-07-31",
+      "priorShares": 58602,
+      "change": 600,
+      "pctOut": 0.1072,
       "action": "Bought"
     },
     {
@@ -3204,19 +3220,6 @@
       "change": 20000,
       "pctOut": 0.0996,
       "action": "Bought"
-    },
-    {
-      "fundName": "Nuveen Growth Opportunities ETF",
-      "registrant": "NuShares ETF Trust",
-      "manager": "Nuveen (TIAA)",
-      "cik": "1635073",
-      "shares": 54056,
-      "value": 14590796,
-      "reportDate": "2026-04-30",
-      "priorShares": 54176,
-      "change": -120,
-      "pctOut": 0.0979,
-      "action": "Sold"
     },
     {
       "fundName": "VANGUARD INDUSTRIALS INDEX FUND",
@@ -3294,6 +3297,19 @@
       "priorShares": 51843,
       "change": -6291,
       "pctOut": 0.0825,
+      "action": "Sold"
+    },
+    {
+      "fundName": "Nuveen Growth Opportunities ETF",
+      "registrant": "NuShares ETF Trust",
+      "manager": "Nuveen (TIAA)",
+      "cik": "1635073",
+      "shares": 45408,
+      "value": 16181595,
+      "reportDate": "2026-07-31",
+      "priorShares": 54056,
+      "change": -8648,
+      "pctOut": 0.08220000000000001,
       "action": "Sold"
     },
     {
@@ -3471,12 +3487,12 @@
       "manager": "Nuveen (TIAA)",
       "cik": "1084380",
       "shares": 35420,
-      "value": 9560566,
-      "reportDate": "2026-04-30",
-      "priorShares": 34821,
-      "change": 599,
+      "value": 12622271,
+      "reportDate": "2026-07-31",
+      "priorShares": 35420,
+      "change": 0,
       "pctOut": 0.06409999999999999,
-      "action": "Bought"
+      "action": "No Change"
     },
     {
       "fundName": "State Street(R) SPDR(R) S&amp;P Kensho New Economies Composite ETF",
@@ -3505,17 +3521,17 @@
       "action": "No Change"
     },
     {
-      "fundName": "Schwab 1000 Index Fund",
-      "registrant": "SCHWAB INVESTMENTS",
-      "manager": "Charles Schwab",
-      "cik": "869365",
-      "shares": 31740,
-      "value": 8567261,
-      "reportDate": "2026-04-30",
-      "priorShares": 32175,
-      "change": -435,
-      "pctOut": 0.057499999999999996,
-      "action": "Sold"
+      "fundName": "Dimensional U.S. Core Equity 2 ETF",
+      "registrant": "Dimensional ETF Trust",
+      "manager": "Dimensional",
+      "cik": "1816125",
+      "shares": 32173,
+      "value": 11465170,
+      "reportDate": "2026-07-31",
+      "priorShares": 30145,
+      "change": 2028,
+      "pctOut": 0.0582,
+      "action": "Bought"
     },
     {
       "fundName": "VOYA MIDCAP OPPORTUNITIES FUND",
@@ -3531,17 +3547,17 @@
       "action": "Sold"
     },
     {
-      "fundName": "Dimensional U.S. Core Equity 2 ETF",
-      "registrant": "Dimensional ETF Trust",
-      "manager": "Dimensional",
-      "cik": "1816125",
-      "shares": 30145,
-      "value": 8136738,
-      "reportDate": "2026-04-30",
-      "priorShares": 27729,
-      "change": 2416,
-      "pctOut": 0.0546,
-      "action": "Bought"
+      "fundName": "Schwab 1000 Index Fund",
+      "registrant": "SCHWAB INVESTMENTS",
+      "manager": "Charles Schwab",
+      "cik": "869365",
+      "shares": 30869,
+      "value": 11000477,
+      "reportDate": "2026-07-31",
+      "priorShares": 31740,
+      "change": -871,
+      "pctOut": 0.055900000000000005,
+      "action": "Sold"
     },
     {
       "fundName": "iShares Russell 1000 ETF",
@@ -3648,19 +3664,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Nuveen Large Cap Growth Index Fund",
-      "registrant": "TIAA-CREF Funds",
-      "manager": "Nuveen (TIAA)",
-      "cik": "1084380",
-      "shares": 26482,
-      "value": 7148021,
-      "reportDate": "2026-04-30",
-      "priorShares": 26482,
-      "change": 0,
-      "pctOut": 0.0479,
-      "action": "No Change"
-    },
-    {
       "fundName": "Virtus Silvant Mid-Cap Growth Fund",
       "registrant": "Virtus Investment Trust",
       "manager": "",
@@ -3765,6 +3768,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Nuveen Large Cap Growth Index Fund",
+      "registrant": "TIAA-CREF Funds",
+      "manager": "Nuveen (TIAA)",
+      "cik": "1084380",
+      "shares": 24685,
+      "value": 8796747,
+      "reportDate": "2026-07-31",
+      "priorShares": 26482,
+      "change": -1797,
+      "pctOut": 0.044700000000000004,
+      "action": "Sold"
+    },
+    {
       "fundName": "U.S. CORE EQUITY 2 PORTFOLIO",
       "registrant": "DFA INVESTMENT DIMENSIONS GROUP INC",
       "manager": "Dimensional",
@@ -3814,6 +3830,19 @@
       "priorShares": 21389,
       "change": 1770,
       "pctOut": 0.0419,
+      "action": "Bought"
+    },
+    {
+      "fundName": "iShares Morningstar Mid-Cap Growth ETF",
+      "registrant": "iShares Trust",
+      "manager": "BlackRock",
+      "cik": "1100663",
+      "shares": 22728,
+      "value": 8099350,
+      "reportDate": "2026-07-31",
+      "priorShares": 21132,
+      "change": 1596,
+      "pctOut": 0.041100000000000005,
       "action": "Bought"
     },
     {
@@ -3895,19 +3924,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "iShares Morningstar Mid-Cap Growth ETF",
-      "registrant": "iShares Trust",
-      "manager": "BlackRock",
-      "cik": "1100663",
-      "shares": 21132,
-      "value": 5703949,
-      "reportDate": "2026-04-30",
-      "priorShares": 20905,
-      "change": 227,
-      "pctOut": 0.0383,
-      "action": "Bought"
-    },
-    {
       "fundName": "First Trust Large Cap Growth AlphaDEX Fund",
       "registrant": "First Trust Exchange-Traded AlphaDEX Fund",
       "manager": "First Trust",
@@ -3934,19 +3950,6 @@
       "action": "New"
     },
     {
-      "fundName": "Nuveen Quant Mid Cap Growth Fund",
-      "registrant": "TIAA-CREF Funds",
-      "manager": "Nuveen (TIAA)",
-      "cik": "1084380",
-      "shares": 20270,
-      "value": 5471278,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.036699999999999997,
-      "action": "New"
-    },
-    {
       "fundName": "Harding Loevner Global Equity Portfolio",
       "registrant": "HARDING LOEVNER FUNDS INC",
       "manager": "",
@@ -3958,6 +3961,19 @@
       "change": -787,
       "pctOut": 0.0365,
       "action": "Sold"
+    },
+    {
+      "fundName": "Schwab U.S. Mid-Cap Index Fund",
+      "registrant": "SCHWAB CAPITAL TRUST",
+      "manager": "Charles Schwab",
+      "cik": "904333",
+      "shares": 19726,
+      "value": 7029557,
+      "reportDate": "2026-07-31",
+      "priorShares": 19210,
+      "change": 516,
+      "pctOut": 0.0357,
+      "action": "Bought"
     },
     {
       "fundName": "MassMutual Mid Cap Growth Fund",
@@ -3973,19 +3989,6 @@
       "action": "New"
     },
     {
-      "fundName": "Schwab U.S. Mid-Cap Index Fund",
-      "registrant": "SCHWAB CAPITAL TRUST",
-      "manager": "Charles Schwab",
-      "cik": "904333",
-      "shares": 19210,
-      "value": 5185163,
-      "reportDate": "2026-04-30",
-      "priorShares": 18375,
-      "change": 835,
-      "pctOut": 0.0348,
-      "action": "Bought"
-    },
-    {
       "fundName": "Franklin U.S. Mid Cap Multifactor Index ETF",
       "registrant": "Franklin Templeton ETF Trust",
       "manager": "Franklin Resources",
@@ -3996,19 +3999,6 @@
       "priorShares": 18240,
       "change": 310,
       "pctOut": 0.0336,
-      "action": "Bought"
-    },
-    {
-      "fundName": "Harbor PanAgora Dynamic Large Cap Core ETF",
-      "registrant": "Harbor ETF Trust",
-      "manager": "",
-      "cik": "1860434",
-      "shares": 18503,
-      "value": 4994330,
-      "reportDate": "2026-04-30",
-      "priorShares": 884,
-      "change": 17619,
-      "pctOut": 0.0335,
       "action": "Bought"
     },
     {
@@ -4075,6 +4065,19 @@
       "change": null,
       "pctOut": 0.0322,
       "action": "New"
+    },
+    {
+      "fundName": "First Trust Long/Short Equity ETF",
+      "registrant": "First Trust Exchange-Traded Fund III",
+      "manager": "First Trust",
+      "cik": "1424212",
+      "shares": 17680,
+      "value": 6300445,
+      "reportDate": "2026-07-31",
+      "priorShares": -5251,
+      "change": 22931,
+      "pctOut": 0.032,
+      "action": "Bought"
     },
     {
       "fundName": "Blue Chip Growth Trust",
@@ -4220,19 +4223,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "Schwab U.S. Large-Cap Growth Index Fund",
-      "registrant": "SCHWAB CAPITAL TRUST",
-      "manager": "Charles Schwab",
-      "cik": "904333",
-      "shares": 15159,
-      "value": 4091717,
-      "reportDate": "2026-04-30",
-      "priorShares": 15270,
-      "change": -111,
-      "pctOut": 0.0274,
-      "action": "Sold"
-    },
-    {
       "fundName": "STATE STREET SMALL/MID CAP EQUITY INDEX PORTFOLIO",
       "registrant": "STATE STREET INSTITUTIONAL INVESTMENT TRUST",
       "manager": "State Street",
@@ -4256,6 +4246,19 @@
       "priorShares": 17464,
       "change": -2845,
       "pctOut": 0.0265,
+      "action": "Sold"
+    },
+    {
+      "fundName": "Schwab U.S. Large-Cap Growth Index Fund",
+      "registrant": "SCHWAB CAPITAL TRUST",
+      "manager": "Charles Schwab",
+      "cik": "904333",
+      "shares": 14296,
+      "value": 5094523,
+      "reportDate": "2026-07-31",
+      "priorShares": 15159,
+      "change": -863,
+      "pctOut": 0.0259,
       "action": "Sold"
     },
     {
@@ -4350,17 +4353,30 @@
       "action": "Sold"
     },
     {
+      "fundName": "Schwab Fundamental U.S. Small Company Index Fund",
+      "registrant": "SCHWAB CAPITAL TRUST",
+      "manager": "Charles Schwab",
+      "cik": "904333",
+      "shares": 13121,
+      "value": 4675800,
+      "reportDate": "2026-07-31",
+      "priorShares": 12173,
+      "change": 948,
+      "pctOut": 0.0238,
+      "action": "Bought"
+    },
+    {
       "fundName": "Dimensional U.S. Equity Market ETF",
       "registrant": "Dimensional ETF Trust",
       "manager": "Dimensional",
       "cik": "1816125",
-      "shares": 13180,
-      "value": 3557546,
-      "reportDate": "2026-04-30",
-      "priorShares": 13150,
-      "change": 30,
-      "pctOut": 0.0239,
-      "action": "Bought"
+      "shares": 12955,
+      "value": 4616644,
+      "reportDate": "2026-07-31",
+      "priorShares": 13180,
+      "change": -225,
+      "pctOut": 0.0235,
+      "action": "Sold"
     },
     {
       "fundName": "AST Large-Cap Growth Portfolio",
@@ -4376,17 +4392,17 @@
       "action": "New"
     },
     {
-      "fundName": "Schwab Fundamental U.S. Small Company Index Fund",
-      "registrant": "SCHWAB CAPITAL TRUST",
-      "manager": "Charles Schwab",
-      "cik": "904333",
-      "shares": 12173,
-      "value": 3285736,
-      "reportDate": "2026-04-30",
-      "priorShares": 10421,
-      "change": 1752,
-      "pctOut": 0.022000000000000002,
-      "action": "Bought"
+      "fundName": "Harbor PanAgora Dynamic Large Cap Core ETF",
+      "registrant": "Harbor ETF Trust",
+      "manager": "",
+      "cik": "1860434",
+      "shares": 12192,
+      "value": 4344741,
+      "reportDate": "2026-07-31",
+      "priorShares": 18503,
+      "change": -6311,
+      "pctOut": 0.0221,
+      "action": "Sold"
     },
     {
       "fundName": "Dunham Focused Large Cap Growth Fund",
@@ -4623,6 +4639,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "Dimensional US Core Equity Market ETF",
+      "registrant": "Dimensional ETF Trust",
+      "manager": "Dimensional",
+      "cik": "1816125",
+      "shares": 9612,
+      "value": 3425332,
+      "reportDate": "2026-07-31",
+      "priorShares": 9015,
+      "change": 597,
+      "pctOut": 0.0174,
+      "action": "Bought"
+    },
+    {
       "fundName": "Liberty All-Star Growth Fund",
       "registrant": "LIBERTY ALL STAR GROWTH FUND INC.",
       "manager": "",
@@ -4667,25 +4696,12 @@
       "manager": "",
       "cik": "351601",
       "shares": 9173,
-      "value": 2475976,
-      "reportDate": "2026-04-30",
+      "value": 3268890,
+      "reportDate": "2026-07-31",
       "priorShares": 9173,
       "change": 0,
       "pctOut": 0.0166,
       "action": "No Change"
-    },
-    {
-      "fundName": "Dimensional US Core Equity Market ETF",
-      "registrant": "Dimensional ETF Trust",
-      "manager": "Dimensional",
-      "cik": "1816125",
-      "shares": 9015,
-      "value": 2433329,
-      "reportDate": "2026-04-30",
-      "priorShares": 8421,
-      "change": 594,
-      "pctOut": 0.016300000000000002,
-      "action": "Bought"
     },
     {
       "fundName": "Gabelli Dividend &amp; Income Trust",
@@ -4828,19 +4844,6 @@
       "priorShares": 8008,
       "change": 58,
       "pctOut": 0.0146,
-      "action": "Bought"
-    },
-    {
-      "fundName": "First Trust Large Cap Core AlphaDEX Fund",
-      "registrant": "First Trust Exchange-Traded AlphaDEX Fund",
-      "manager": "First Trust",
-      "cik": "1383496",
-      "shares": 7912,
-      "value": 2819520,
-      "reportDate": "2026-07-31",
-      "priorShares": 7469,
-      "change": 443,
-      "pctOut": 0.0143,
       "action": "Bought"
     },
     {
@@ -5182,17 +5185,17 @@
       "action": "New"
     },
     {
-      "fundName": "The MidCap Growth Fund",
-      "registrant": "COMMERCE FUNDS",
-      "manager": "",
-      "cik": "926243",
-      "shares": 4955,
-      "value": 1337454,
-      "reportDate": "2026-04-30",
-      "priorShares": 4955,
-      "change": 0,
-      "pctOut": 0.009000000000000001,
-      "action": "No Change"
+      "fundName": "iShares Morningstar Mid-Cap ETF",
+      "registrant": "iShares Trust",
+      "manager": "BlackRock",
+      "cik": "1100663",
+      "shares": 4880,
+      "value": 1739037,
+      "reportDate": "2026-07-31",
+      "priorShares": 4568,
+      "change": 312,
+      "pctOut": 0.0088,
+      "action": "Bought"
     },
     {
       "fundName": "Multi-Manager Large Cap Growth Strategies Fund",
@@ -5218,6 +5221,19 @@
       "priorShares": 4566,
       "change": 218,
       "pctOut": 0.0087,
+      "action": "Bought"
+    },
+    {
+      "fundName": "BlackRock Multi-Asset Income Portfolio",
+      "registrant": "BlackRock Funds II",
+      "manager": "BlackRock",
+      "cik": "1398078",
+      "shares": 4732,
+      "value": 1686296,
+      "reportDate": "2026-07-31",
+      "priorShares": 4040,
+      "change": 692,
+      "pctOut": 0.0086,
       "action": "Bought"
     },
     {
@@ -5286,19 +5302,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "iShares Morningstar Mid-Cap ETF",
-      "registrant": "iShares Trust",
-      "manager": "BlackRock",
-      "cik": "1100663",
-      "shares": 4568,
-      "value": 1232995,
-      "reportDate": "2026-04-30",
-      "priorShares": 4587,
-      "change": -19,
-      "pctOut": 0.0083,
-      "action": "Sold"
-    },
-    {
       "fundName": "PRAXIS VALUE INDEX FUND",
       "registrant": "Praxis Mutual Funds",
       "manager": "",
@@ -5338,16 +5341,16 @@
       "action": "Sold"
     },
     {
-      "fundName": "BlackRock Multi-Asset Income Portfolio",
-      "registrant": "BlackRock Funds II",
+      "fundName": "iShares Morningstar Growth ETF",
+      "registrant": "iShares Trust",
       "manager": "BlackRock",
-      "cik": "1398078",
-      "shares": 4040,
-      "value": 1090477,
-      "reportDate": "2026-04-30",
-      "priorShares": 2077,
-      "change": 1963,
-      "pctOut": 0.0073,
+      "cik": "1100663",
+      "shares": 4197,
+      "value": 1495643,
+      "reportDate": "2026-07-31",
+      "priorShares": 3997,
+      "change": 200,
+      "pctOut": 0.007600000000000001,
       "action": "Bought"
     },
     {
@@ -5386,19 +5389,6 @@
       "reportDate": "2026-05-31",
       "priorShares": 4600,
       "change": -600,
-      "pctOut": 0.0072,
-      "action": "Sold"
-    },
-    {
-      "fundName": "iShares Morningstar Growth ETF",
-      "registrant": "iShares Trust",
-      "manager": "BlackRock",
-      "cik": "1100663",
-      "shares": 3997,
-      "value": 1078870,
-      "reportDate": "2026-04-30",
-      "priorShares": 4269,
-      "change": -272,
       "pctOut": 0.0072,
       "action": "Sold"
     },
@@ -5453,6 +5443,19 @@
       "change": 0,
       "pctOut": 0.0069,
       "action": "No Change"
+    },
+    {
+      "fundName": "The MidCap Growth Fund",
+      "registrant": "COMMERCE FUNDS",
+      "manager": "",
+      "cik": "926243",
+      "shares": 3815,
+      "value": 1359513,
+      "reportDate": "2026-07-31",
+      "priorShares": 4955,
+      "change": -1140,
+      "pctOut": 0.0069,
+      "action": "Sold"
     },
     {
       "fundName": "EQ/Large Cap Growth Index Portfolio",
@@ -5611,6 +5614,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "BNY Mellon US Large Cap Core Equity ETF",
+      "registrant": "BNY Mellon ETF Trust",
+      "manager": "",
+      "cik": "1493580",
+      "shares": 3402,
+      "value": 1212337,
+      "reportDate": "2026-07-31",
+      "priorShares": 3398,
+      "change": 4,
+      "pctOut": 0.006200000000000001,
+      "action": "Bought"
+    },
+    {
       "fundName": "MML VIP T. Rowe Price Blue Chip Growth Fund",
       "registrant": "MML SERIES INVESTMENT FUND",
       "manager": "FMR (Fidelity)",
@@ -5622,19 +5638,6 @@
       "change": null,
       "pctOut": 0.006200000000000001,
       "action": "New"
-    },
-    {
-      "fundName": "BNY Mellon US Large Cap Core Equity ETF",
-      "registrant": "BNY Mellon ETF Trust",
-      "manager": "",
-      "cik": "1493580",
-      "shares": 3398,
-      "value": 917188,
-      "reportDate": "2026-04-30",
-      "priorShares": 3944,
-      "change": -546,
-      "pctOut": 0.006200000000000001,
-      "action": "Sold"
     },
     {
       "fundName": "Calvert U.S. Large Cap Growth Responsible Index Fund",
@@ -5982,10 +5985,10 @@
       "shares": 1973,
       "value": 702763,
       "reportDate": "2026-06-30",
-      "priorShares": -2472,
-      "change": 4445,
+      "priorShares": null,
+      "change": null,
       "pctOut": 0.0036,
-      "action": "Bought"
+      "action": "New"
     },
     {
       "fundName": "SA Multi-Managed Mid Cap Growth Portfolio",
@@ -6092,6 +6095,32 @@
       "action": "Sold"
     },
     {
+      "fundName": "Dimensional US Sustainability Core 1 ETF",
+      "registrant": "Dimensional ETF Trust",
+      "manager": "Dimensional",
+      "cik": "1816125",
+      "shares": 1758,
+      "value": 626481,
+      "reportDate": "2026-07-31",
+      "priorShares": 1695,
+      "change": 63,
+      "pctOut": 0.0031999999999999997,
+      "action": "Bought"
+    },
+    {
+      "fundName": "Dimensional US Core Equity 1 ETF",
+      "registrant": "Dimensional ETF Trust",
+      "manager": "Dimensional",
+      "cik": "1816125",
+      "shares": 1735,
+      "value": 618285,
+      "reportDate": "2026-07-31",
+      "priorShares": 1686,
+      "change": 49,
+      "pctOut": 0.0031000000000000003,
+      "action": "Bought"
+    },
+    {
       "fundName": "DAC 3D Dividend Growth ETF",
       "registrant": "EA Series Trust",
       "manager": "",
@@ -6101,32 +6130,6 @@
       "reportDate": "2026-04-30",
       "priorShares": 1374,
       "change": 323,
-      "pctOut": 0.0031000000000000003,
-      "action": "Bought"
-    },
-    {
-      "fundName": "Dimensional US Sustainability Core 1 ETF",
-      "registrant": "Dimensional ETF Trust",
-      "manager": "Dimensional",
-      "cik": "1816125",
-      "shares": 1695,
-      "value": 457514,
-      "reportDate": "2026-04-30",
-      "priorShares": 1477,
-      "change": 218,
-      "pctOut": 0.0031000000000000003,
-      "action": "Bought"
-    },
-    {
-      "fundName": "Dimensional US Core Equity 1 ETF",
-      "registrant": "Dimensional ETF Trust",
-      "manager": "Dimensional",
-      "cik": "1816125",
-      "shares": 1686,
-      "value": 455085,
-      "reportDate": "2026-04-30",
-      "priorShares": 1411,
-      "change": 275,
       "pctOut": 0.0031000000000000003,
       "action": "Bought"
     },
@@ -6255,10 +6258,10 @@
       "shares": 1491,
       "value": 531079,
       "reportDate": "2026-06-30",
-      "priorShares": 1618,
-      "change": -127,
+      "priorShares": 1473,
+      "change": 18,
       "pctOut": 0.0026999999999999997,
-      "action": "Sold"
+      "action": "Bought"
     },
     {
       "fundName": "Blackstone Alternative Multi-Strategy Fund",
@@ -6560,6 +6563,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "BlackRock Dynamic High Income Portfolio",
+      "registrant": "BlackRock Funds II",
+      "manager": "BlackRock",
+      "cik": "1398078",
+      "shares": 1117,
+      "value": 398054,
+      "reportDate": "2026-07-31",
+      "priorShares": 844,
+      "change": 273,
+      "pctOut": 0.002,
+      "action": "Bought"
+    },
+    {
       "fundName": "FlexShares Morningstar US Market Factor Tilt Index Fund",
       "registrant": "FlexShares Trust",
       "manager": "Northern Trust",
@@ -6690,6 +6706,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Dimensional US Large Cap Core Equity Market ETF",
+      "registrant": "Dimensional ETF Trust",
+      "manager": "Dimensional",
+      "cik": "1816125",
+      "shares": 923,
+      "value": 328920,
+      "reportDate": "2026-07-31",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0017,
+      "action": "New"
+    },
+    {
       "fundName": "U.S. Small and Mid Cap Equity Fund",
       "registrant": "AMERICAN FUNDS INSURANCE SERIES",
       "manager": "Capital Group (American Funds)",
@@ -6727,19 +6756,6 @@
       "change": -9,
       "pctOut": 0.0015999999999999999,
       "action": "Sold"
-    },
-    {
-      "fundName": "BlackRock Dynamic High Income Portfolio",
-      "registrant": "BlackRock Funds II",
-      "manager": "BlackRock",
-      "cik": "1398078",
-      "shares": 844,
-      "value": 227812,
-      "reportDate": "2026-04-30",
-      "priorShares": 551,
-      "change": 293,
-      "pctOut": 0.0015,
-      "action": "Bought"
     },
     {
       "fundName": "Destinations Shelter Fund",
@@ -6996,10 +7012,10 @@
       "shares": 620,
       "value": 220838,
       "reportDate": "2026-06-30",
-      "priorShares": 571,
-      "change": 49,
+      "priorShares": 640,
+      "change": -20,
       "pctOut": 0.0011,
-      "action": "Bought"
+      "action": "Sold"
     },
     {
       "fundName": "Column Mid Cap Fund",
@@ -7137,8 +7153,8 @@
       "manager": "",
       "cik": "830744",
       "shares": 450,
-      "value": 121464,
-      "reportDate": "2026-04-30",
+      "value": 160362,
+      "reportDate": "2026-07-31",
       "priorShares": 450,
       "change": 0,
       "pctOut": 0.0007999999999999999,
@@ -7202,12 +7218,12 @@
       "manager": "",
       "cik": "351601",
       "shares": 402,
-      "value": 108508,
-      "reportDate": "2026-04-30",
-      "priorShares": 615,
-      "change": -213,
+      "value": 143257,
+      "reportDate": "2026-07-31",
+      "priorShares": 402,
+      "change": 0,
       "pctOut": 0.0007,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Longboard Fund",
@@ -7288,19 +7304,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "Wilmington Global Alpha Equities Fund",
-      "registrant": "Wilmington Funds",
-      "manager": "",
-      "cik": "830744",
-      "shares": 330,
-      "value": 89074,
-      "reportDate": "2026-04-30",
-      "priorShares": 166,
-      "change": 164,
-      "pctOut": 0.0006000000000000001,
-      "action": "Bought"
-    },
-    {
       "fundName": "iShares U.S. Manufacturing ETF",
       "registrant": "iShares Trust",
       "manager": "BlackRock",
@@ -7375,6 +7378,19 @@
       "reportDate": "2026-04-30",
       "priorShares": 474,
       "change": -171,
+      "pctOut": 0.0005,
+      "action": "Sold"
+    },
+    {
+      "fundName": "Wilmington Global Alpha Equities Fund",
+      "registrant": "Wilmington Funds",
+      "manager": "",
+      "cik": "830744",
+      "shares": 296,
+      "value": 105483,
+      "reportDate": "2026-07-31",
+      "priorShares": 330,
+      "change": -34,
       "pctOut": 0.0005,
       "action": "Sold"
     },
@@ -7756,6 +7772,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "E*TRADE No Fee Large Cap Index Fund",
+      "registrant": "E Trade Trust",
+      "manager": "",
+      "cik": "2048903",
+      "shares": 89,
+      "value": 31716,
+      "reportDate": "2026-07-31",
+      "priorShares": 64,
+      "change": 25,
+      "pctOut": 0.00019999999999999998,
+      "action": "Bought"
+    },
+    {
       "fundName": "Motley Fool Momentum Factor ETF",
       "registrant": "RBB Fund, Inc.",
       "manager": "",
@@ -7847,19 +7876,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "E*TRADE No Fee Large Cap Index Fund",
-      "registrant": "E Trade Trust",
-      "manager": "",
-      "cik": "2048903",
-      "shares": 64,
-      "value": 17275,
-      "reportDate": "2026-04-30",
-      "priorShares": 43,
-      "change": 21,
-      "pctOut": 0.00009999999999999999,
-      "action": "Bought"
-    },
-    {
       "fundName": "Fidelity Enhanced Mid Cap Growth ETF",
       "registrant": "Fidelity Covington Trust",
       "manager": "FMR (Fidelity)",
@@ -7891,12 +7907,12 @@
       "manager": "",
       "cik": "2048903",
       "shares": 50,
-      "value": 13496,
-      "reportDate": "2026-04-30",
-      "priorShares": 35,
-      "change": 15,
+      "value": 17818,
+      "reportDate": "2026-07-31",
+      "priorShares": 50,
+      "change": 0,
       "pctOut": 0.00009999999999999999,
-      "action": "Bought"
+      "action": "No Change"
     },
     {
       "fundName": "Voya VACS Series LCC Fund",
@@ -8036,6 +8052,19 @@
       "shares": 16,
       "value": 4319,
       "reportDate": "2026-04-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0,
+      "action": "New"
+    },
+    {
+      "fundName": "BNY Mellon US Large Cap Equity Growth ETF",
+      "registrant": "BNY Mellon ETF Trust",
+      "manager": "",
+      "cik": "1493580",
+      "shares": 12,
+      "value": 4276,
+      "reportDate": "2026-07-31",
       "priorShares": null,
       "change": null,
       "pctOut": 0,
