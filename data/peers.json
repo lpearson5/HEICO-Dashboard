@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T15:48:25.891Z",
+  "lastUpdated": "2026-09-26T14:58:15.608Z",
   "peers": [
     {
       "name": "RTX Corp.",
@@ -180,6 +180,12 @@
           "value": 903956595
         },
         {
+          "fund": "PUTNAM LARGE CAP VALUE FUND",
+          "manager": "Putnam",
+          "shares": 4069424,
+          "value": 875821433
+        },
+        {
           "fund": "JPMORGAN TRUST II",
           "manager": "JPMorgan",
           "shares": 4418980,
@@ -190,12 +196,6 @@
           "manager": "Capital Group (American Funds)",
           "shares": 3891439,
           "value": 738322721
-        },
-        {
-          "fund": "PUTNAM LARGE CAP VALUE FUND",
-          "manager": "Putnam",
-          "shares": 4036257,
-          "value": 710663770
         },
         {
           "fund": "GROWTH FUND OF AMERICA",
@@ -432,12 +432,6 @@
           "value": 455552456
         },
         {
-          "fund": "BLACKROCK EQUITY DIVIDEND FUND",
-          "manager": "BlackRock",
-          "shares": 1984368,
-          "value": 454479803
-        },
-        {
           "fund": "FIDELITY SELECT PORTFOLIOS",
           "manager": "FMR (Fidelity)",
           "shares": 1933500,
@@ -448,6 +442,12 @@
           "manager": "Janus Henderson",
           "shares": 1951587,
           "value": 422460038
+        },
+        {
+          "fund": "BLACKROCK EQUITY DIVIDEND FUND",
+          "manager": "BlackRock",
+          "shares": 1673877,
+          "value": 361791775
         },
         {
           "fund": "FIDELITY DESTINY PORTFOLIOS",
@@ -816,6 +816,12 @@
           "value": 1927639041
         },
         {
+          "fund": "PRINCIPAL FUNDS, INC.",
+          "manager": "Principal",
+          "shares": 944828,
+          "value": 1185173347
+        },
+        {
           "fund": "SPDR S&P 500 ETF TRUST  (SPY)",
           "manager": "State Street",
           "shares": 677634,
@@ -868,12 +874,6 @@
           "manager": "State Street",
           "shares": 329681,
           "value": 439148279
-        },
-        {
-          "fund": "PRINCIPAL FUNDS, INC.",
-          "manager": "Principal",
-          "shares": 330522,
-          "value": 415902443
         },
         {
           "fund": "VANGUARD INSTITUTIONAL INDEX FUNDS",
@@ -1326,6 +1326,12 @@
           "value": 31343648
         },
         {
+          "fund": "PRINCIPAL FUNDS, INC.",
+          "manager": "Principal",
+          "shares": 418215,
+          "value": 28626817
+        },
+        {
           "fund": "JANUS INVESTMENT FUND",
           "manager": "Janus Henderson",
           "shares": 339784,
@@ -1360,12 +1366,6 @@
           "manager": "",
           "shares": 341103,
           "value": 23392844
-        },
-        {
-          "fund": "T. Rowe Price New Horizons Fund, Inc.",
-          "manager": "T. Rowe Price",
-          "shares": 285168,
-          "value": 22987392
         }
       ]
     },
@@ -1530,6 +1530,12 @@
           "value": 25351438
         },
         {
+          "fund": "FRANKLIN STRATEGIC SERIES",
+          "manager": "Franklin Resources",
+          "shares": 431768,
+          "value": 23445002
+        },
+        {
           "fund": "VANGUARD EXPLORER FUND",
           "manager": "Vanguard Group",
           "shares": 629127,
@@ -1566,6 +1572,12 @@
           "value": 15205540
         },
         {
+          "fund": "T. Rowe Price Integrated Equity Funds, Inc.",
+          "manager": "T. Rowe Price",
+          "shares": 322879,
+          "value": 14897637
+        },
+        {
           "fund": "AB DISCOVERY GROWTH FUND, INC.",
           "manager": "",
           "shares": 319698,
@@ -1582,18 +1594,6 @@
           "manager": "MFS",
           "shares": 228896,
           "value": 10284297
-        },
-        {
-          "fund": "COLUMBIA FUNDS SERIES TRUST",
-          "manager": "Columbia (Ameriprise)",
-          "shares": 227297,
-          "value": 10212454
-        },
-        {
-          "fund": "Columbia Funds Variable Series Trust II",
-          "manager": "Columbia (Ameriprise)",
-          "shares": 216687,
-          "value": 9997938
         }
       ]
     },
@@ -1818,10 +1818,10 @@
           "value": 24895333
         },
         {
-          "fund": "BARON INVESTMENT FUNDS TRUST (f/k/a BARON ASSET FUND)",
-          "manager": "Baron Capital",
-          "shares": 100000,
-          "value": 22850000
+          "fund": "LORD ABBETT DEVELOPING GROWTH FUND, INC.",
+          "manager": "Lord Abbett",
+          "shares": 124049,
+          "value": 24113885
         }
       ]
     },
@@ -1962,12 +1962,6 @@
           "value": 43402079
         },
         {
-          "fund": "PRINCIPAL FUNDS, INC.",
-          "manager": "Principal",
-          "shares": 170870,
-          "value": 42661113
-        },
-        {
           "fund": "Bridge Builder Trust",
           "manager": "",
           "shares": 125504,
@@ -1984,6 +1978,12 @@
           "manager": "Columbia (Ameriprise)",
           "shares": 185160,
           "value": 30895798
+        },
+        {
+          "fund": "PRINCIPAL FUNDS, INC.",
+          "manager": "Principal",
+          "shares": 131525,
+          "value": 27094150
         },
         {
           "fund": "iSHARES TRUST",

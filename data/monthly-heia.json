@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-09-25T15:48:25.891Z",
+  "lastUpdated": "2026-09-26T14:58:15.608Z",
   "summary": {
-    "institutions": 670,
-    "totalShares": 70039844,
+    "institutions": 671,
+    "totalShares": 70041288,
     "pctOut": 82.87,
-    "newHolders": 111,
-    "sellouts": 63,
-    "bought": 254,
-    "sold": 214,
+    "newHolders": 110,
+    "sellouts": 62,
+    "bought": 255,
+    "sold": 215,
     "held": 91
   },
   "top10": [
@@ -541,24 +541,6 @@
       "action": "New",
       "discretion": "SOLE",
       "voteSole": 8565,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "Jain Global LLC",
-      "filerCik": "2024579",
-      "shares": [
-        8402,
-        null,
-        null,
-        null
-      ],
-      "netChg": 8402,
-      "currentValue": 2166960,
-      "pctOut": 0.01,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 8402,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -2770,24 +2752,6 @@
         null
       ],
       "netChg": -1218,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "TEACHER RETIREMENT SYSTEM OF TEXAS",
-      "filerCik": "796848",
-      "shares": [
-        null,
-        1129,
-        2502,
-        9907
-      ],
-      "netChg": -1129,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -5823,7 +5787,7 @@
       "voteNone": 0
     },
     {
-      "filerName": "Corient Private Wealth LP",
+      "filerName": "Corient Private Wealth LLC",
       "filerCik": "1948780",
       "shares": [
         48382,
@@ -7969,14 +7933,14 @@
       "filerCik": "2024579",
       "shares": [
         8402,
-        null,
+        15003,
         null,
         null
       ],
-      "netChg": 8402,
+      "netChg": -6601,
       "currentValue": 2166960,
       "pctOut": 0.01,
-      "action": "New",
+      "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 8402,
       "voteShared": 0,
@@ -11004,6 +10968,24 @@
       "discretion": "DFND",
       "voteSole": 0,
       "voteShared": 1474,
+      "voteNone": 0
+    },
+    {
+      "filerName": "TEACHER RETIREMENT SYSTEM OF TEXAS",
+      "filerCik": "796848",
+      "shares": [
+        1444,
+        1129,
+        2502,
+        9907
+      ],
+      "netChg": 315,
+      "currentValue": 372422,
+      "pctOut": 0,
+      "action": "Bought",
+      "discretion": "SOLE",
+      "voteSole": 1444,
+      "voteShared": 0,
       "voteNone": 0
     },
     {
@@ -16452,24 +16434,6 @@
         null
       ],
       "netChg": -9237,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "TEACHER RETIREMENT SYSTEM OF TEXAS",
-      "filerCik": "796848",
-      "shares": [
-        null,
-        1129,
-        2502,
-        9907
-      ],
-      "netChg": -1129,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",

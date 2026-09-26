@@ -8,14 +8,14 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-25T15:48:25.891Z",
+  "lastUpdated": "2026-09-26T14:58:15.608Z",
   "summary": {
     "institutions": 778,
     "totalShares": 43758683,
     "pctOut": 79.21000000000001,
-    "newHolders": 120,
+    "newHolders": 121,
     "sellouts": 85,
-    "bought": 256,
+    "bought": 255,
     "sold": 267,
     "held": 135
   },
@@ -635,6 +635,24 @@
       "voteNone": 0
     },
     {
+      "filerName": "Cresset Asset Management, LLC",
+      "filerCik": "1761013",
+      "shares": [
+        3403,
+        null,
+        3194,
+        3379
+      ],
+      "netChg": 3403,
+      "currentValue": 1212140,
+      "pctOut": 0.01,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 2155,
+      "voteShared": 0,
+      "voteNone": 1248
+    },
+    {
       "filerName": "Kentucky Retirement Systems",
       "filerCik": "1537783",
       "shares": [
@@ -1037,7 +1055,7 @@
         1088,
         null,
         1267,
-        3051
+        null
       ],
       "netChg": 1088,
       "currentValue": 387573,
@@ -4923,7 +4941,7 @@
       "voteNone": 0
     },
     {
-      "filerName": "Corient Private Wealth LP",
+      "filerName": "Corient Private Wealth LLC",
       "filerCik": "1948780",
       "shares": [
         130644,
@@ -9734,7 +9752,7 @@
       "shares": [
         4337,
         6297,
-        9180,
+        null,
         5405
       ],
       "netChg": -1960,
@@ -10201,14 +10219,14 @@
       "filerCik": "1761013",
       "shares": [
         3403,
-        3204,
+        null,
         3194,
         3379
       ],
-      "netChg": 199,
+      "netChg": 3403,
       "currentValue": 1212140,
       "pctOut": 0.01,
-      "action": "Bought",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 2155,
       "voteShared": 0,
@@ -12398,7 +12416,7 @@
       "shares": [
         1246,
         312,
-        364,
+        null,
         null
       ],
       "netChg": 934,
@@ -12939,7 +12957,7 @@
         1088,
         null,
         1267,
-        3051
+        null
       ],
       "netChg": 1088,
       "currentValue": 387573,
@@ -16808,7 +16826,7 @@
       "shares": [
         18,
         18,
-        null,
+        18,
         18
       ],
       "netChg": 0,
@@ -18189,24 +18207,6 @@
       "voteNone": null
     },
     {
-      "filerName": "MorganRosel Wealth Management, LLC",
-      "filerCik": "1753218",
-      "shares": [
-        null,
-        2243,
-        3847,
-        4406
-      ],
-      "netChg": -2243,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Accent Capital Management, LLC",
       "filerCik": "2014179",
       "shares": [
@@ -18216,6 +18216,24 @@
         null
       ],
       "netChg": -2497,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "MorganRosel Wealth Management, LLC",
+      "filerCik": "1753218",
+      "shares": [
+        null,
+        2243,
+        3847,
+        4406
+      ],
+      "netChg": -2243,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -18963,6 +18981,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Cornerstone Wealth Group, LLC",
+      "filerCik": "1774879",
+      "shares": [
+        null,
+        null,
+        620,
+        null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "ABC ARBITRAGE SA",
       "filerCik": "2049221",
       "shares": [
@@ -18972,24 +19008,6 @@
         null
       ],
       "netChg": -7276,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "MQS Management LLC",
-      "filerCik": "1759395",
-      "shares": [
-        null,
-        890,
-        null,
-        837
-      ],
-      "netChg": -890,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -19011,6 +19029,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "MQS Management LLC",
+      "filerCik": "1759395",
+      "shares": [
+        null,
+        890,
+        null,
+        837
+      ],
+      "netChg": -890,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19701,13 +19737,13 @@
       "voteNone": null
     },
     {
-      "filerName": "WINNOW WEALTH LLC",
-      "filerCik": "2079687",
+      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
+      "filerCik": "1510434",
       "shares": [
         null,
         null,
-        1,
-        7
+        1447,
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -19719,13 +19755,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
-      "filerCik": "1510434",
+      "filerName": "WINNOW WEALTH LLC",
+      "filerCik": "2079687",
       "shares": [
         null,
         null,
-        1447,
-        null
+        1,
+        7
       ],
       "netChg": null,
       "currentValue": null,
