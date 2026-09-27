@@ -8,14 +8,14 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-26T14:58:15.608Z",
+  "lastUpdated": "2026-09-27T15:37:02.598Z",
   "summary": {
     "institutions": 778,
     "totalShares": 43758683,
     "pctOut": 79.21000000000001,
-    "newHolders": 121,
+    "newHolders": 120,
     "sellouts": 85,
-    "bought": 255,
+    "bought": 256,
     "sold": 267,
     "held": 135
   },
@@ -635,24 +635,6 @@
       "voteNone": 0
     },
     {
-      "filerName": "Cresset Asset Management, LLC",
-      "filerCik": "1761013",
-      "shares": [
-        3403,
-        null,
-        3194,
-        3379
-      ],
-      "netChg": 3403,
-      "currentValue": 1212140,
-      "pctOut": 0.01,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 2155,
-      "voteShared": 0,
-      "voteNone": 1248
-    },
-    {
       "filerName": "Kentucky Retirement Systems",
       "filerCik": "1537783",
       "shares": [
@@ -1055,7 +1037,7 @@
         1088,
         null,
         1267,
-        null
+        3051
       ],
       "netChg": 1088,
       "currentValue": 387573,
@@ -4941,7 +4923,7 @@
       "voteNone": 0
     },
     {
-      "filerName": "Corient Private Wealth LLC",
+      "filerName": "Corient Private Wealth LP",
       "filerCik": "1948780",
       "shares": [
         130644,
@@ -9752,7 +9734,7 @@
       "shares": [
         4337,
         6297,
-        null,
+        9180,
         5405
       ],
       "netChg": -1960,
@@ -10219,14 +10201,14 @@
       "filerCik": "1761013",
       "shares": [
         3403,
-        null,
+        3204,
         3194,
         3379
       ],
-      "netChg": 3403,
+      "netChg": 199,
       "currentValue": 1212140,
       "pctOut": 0.01,
-      "action": "New",
+      "action": "Bought",
       "discretion": "SOLE",
       "voteSole": 2155,
       "voteShared": 0,
@@ -12416,7 +12398,7 @@
       "shares": [
         1246,
         312,
-        null,
+        364,
         null
       ],
       "netChg": 934,
@@ -12957,7 +12939,7 @@
         1088,
         null,
         1267,
-        null
+        3051
       ],
       "netChg": 1088,
       "currentValue": 387573,
@@ -15926,7 +15908,7 @@
       "shares": [
         90,
         90,
-        90,
+        null,
         90
       ],
       "netChg": 0,
@@ -19017,24 +18999,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Modus Advisors, LLC",
-      "filerCik": "1799284",
-      "shares": [
-        null,
-        null,
-        24,
-        null
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "MQS Management LLC",
       "filerCik": "1759395",
       "shares": [
@@ -19047,6 +19011,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Modus Advisors, LLC",
+      "filerCik": "1799284",
+      "shares": [
+        null,
+        null,
+        24,
+        null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19593,13 +19575,13 @@
       "voteNone": null
     },
     {
-      "filerName": "PineBridge Investments, L.P.",
-      "filerCik": "1531721",
+      "filerName": "DT Investment Partners, LLC",
+      "filerCik": "1537621",
       "shares": [
         null,
         null,
-        null,
-        6095
+        66,
+        66
       ],
       "netChg": null,
       "currentValue": null,
@@ -19611,13 +19593,13 @@
       "voteNone": null
     },
     {
-      "filerName": "DT Investment Partners, LLC",
-      "filerCik": "1537621",
+      "filerName": "PineBridge Investments, L.P.",
+      "filerCik": "1531721",
       "shares": [
         null,
         null,
-        66,
-        66
+        null,
+        6095
       ],
       "netChg": null,
       "currentValue": null,
@@ -19809,18 +19791,18 @@
       "voteNone": null
     },
     {
-      "filerName": "Legato Capital Management LLC",
-      "filerCik": "1442641",
+      "filerName": "Davis Capital Management",
+      "filerCik": "1811806",
       "shares": [
         null,
-        null,
-        1077,
-        null
+        1,
+        1,
+        1
       ],
-      "netChg": null,
+      "netChg": -1,
       "currentValue": null,
       "pctOut": null,
-      "action": "No Change",
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19845,18 +19827,18 @@
       "voteNone": null
     },
     {
-      "filerName": "Davis Capital Management",
-      "filerCik": "1811806",
+      "filerName": "Legato Capital Management LLC",
+      "filerCik": "1442641",
       "shares": [
         null,
-        1,
-        1,
-        1
+        null,
+        1077,
+        null
       ],
-      "netChg": -1,
+      "netChg": null,
       "currentValue": null,
       "pctOut": null,
-      "action": "Sellout",
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -20007,24 +19989,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Key Capital Management, INC",
-      "filerCik": "2107249",
-      "shares": [
-        null,
-        5,
-        null,
-        null
-      ],
-      "netChg": -5,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Elequin Capital, LP",
       "filerCik": "1810873",
       "shares": [
@@ -20034,6 +19998,24 @@
         null
       ],
       "netChg": -1,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Key Capital Management, INC",
+      "filerCik": "2107249",
+      "shares": [
+        null,
+        5,
+        null,
+        null
+      ],
+      "netChg": -5,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
