@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-27T15:37:02.598Z",
+  "lastUpdated": "2026-09-28T18:36:18.162Z",
   "summary": {
     "funds": 437,
-    "totalShares": 19712689,
-    "pctOut": 35.6845,
-    "newFunds": 58,
-    "sellouts": 55,
+    "totalShares": 19738814,
+    "pctOut": 35.7318,
+    "newFunds": 56,
+    "sellouts": 54,
     "linkedManagers": 24,
-    "linkedShares": 16950462
+    "linkedShares": 16977887
   },
   "newHolders": [
     {
@@ -638,19 +638,6 @@
       "action": "New"
     },
     {
-      "fundName": "Innovator Equity Managed 10 Buffer ETF",
-      "registrant": "Innovator ETFs Trust",
-      "manager": "",
-      "cik": "1415726",
-      "shares": 126,
-      "value": 34010,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.00019999999999999998,
-      "action": "New"
-    },
-    {
       "fundName": "First Trust RBA Deglobalization ETF",
       "registrant": "First Trust Exchange-Traded Fund VI",
       "manager": "First Trust",
@@ -729,19 +716,6 @@
       "action": "New"
     },
     {
-      "fundName": "NPF Core Equity ETF",
-      "registrant": "Elevation Series Trust",
-      "manager": "",
-      "cik": "1936157",
-      "shares": 16,
-      "value": 4319,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0,
-      "action": "New"
-    },
-    {
       "fundName": "BNY Mellon US Large Cap Equity Growth ETF",
       "registrant": "BNY Mellon ETF Trust",
       "manager": "",
@@ -803,13 +777,6 @@
       "manager": "Goldman Sachs",
       "lastShares": 27706,
       "lastReport": "2025-10-31"
-    },
-    {
-      "fundName": "Invesco Dorsey Wright Momentum ETF",
-      "registrant": "Invesco Exchange-Traded Fund Trust",
-      "manager": "Invesco",
-      "lastShares": 23874,
-      "lastReport": "2026-01-31"
     },
     {
       "fundName": "Invesco Dorsey Wright Industrials Momentum ETF",
@@ -1847,8 +1814,8 @@
     },
     {
       "manager": "Invesco",
-      "fundCount": 7,
-      "shares": 464048,
+      "fundCount": 8,
+      "shares": 488858,
       "funds": [
         {
           "fundName": "Invesco Aerospace &amp; Defense ETF",
@@ -1857,6 +1824,10 @@
         {
           "fundName": "Invesco Large Cap Growth ETF",
           "shares": 71685
+        },
+        {
+          "fundName": "Invesco Dorsey Wright Momentum ETF",
+          "shares": 24777
         },
         {
           "fundName": "Invesco Bloomberg Pricing Power ETF",
@@ -1872,7 +1843,7 @@
         },
         {
           "fundName": "Invesco Dividend AchieversTM ETF",
-          "shares": 1537
+          "shares": 1570
         },
         {
           "fundName": "Invesco Russell 1000 Equal Weight ETF",
@@ -2298,6 +2269,21 @@
       ]
     },
     {
+      "manager": "JPMorgan",
+      "fundCount": 2,
+      "shares": 22194,
+      "funds": [
+        {
+          "fundName": "JPMorgan U.S. Momentum Factor ETF",
+          "shares": 16376
+        },
+        {
+          "fundName": "JPMORGAN BETABUILDERS U.S. EQUITY ETF",
+          "shares": 5818
+        }
+      ]
+    },
+    {
       "manager": "Franklin Resources",
       "fundCount": 2,
       "shares": 19762,
@@ -2309,21 +2295,6 @@
         {
           "fundName": "Franklin U.S. Equity Index ETF",
           "shares": 1212
-        }
-      ]
-    },
-    {
-      "manager": "JPMorgan",
-      "fundCount": 2,
-      "shares": 19579,
-      "funds": [
-        {
-          "fundName": "JPMorgan U.S. Momentum Factor ETF",
-          "shares": 14239
-        },
-        {
-          "fundName": "JPMORGAN BETABUILDERS U.S. EQUITY ETF",
-          "shares": 5340
         }
       ]
     },
@@ -2436,8 +2407,8 @@
       "manager": "Capital Group (American Funds)",
       "cik": "104865",
       "shares": 770068,
-      "value": 207856755,
-      "reportDate": "2026-04-30",
+      "value": 274421432,
+      "reportDate": "2026-07-31",
       "priorShares": 770068,
       "change": 0,
       "pctOut": 1.394,
@@ -2839,12 +2810,12 @@
       "manager": "Capital Group (American Funds)",
       "cik": "1785347",
       "shares": 131544,
-      "value": 35506356,
-      "reportDate": "2026-04-30",
-      "priorShares": 194842,
-      "change": -63298,
+      "value": 46877020,
+      "reportDate": "2026-07-31",
+      "priorShares": 131544,
+      "change": 0,
       "pctOut": 0.23809999999999998,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "T. Rowe Price Diversified Mid-Cap Growth Fund, Inc.",
@@ -3705,6 +3676,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "Invesco Dorsey Wright Momentum ETF",
+      "registrant": "Invesco Exchange-Traded Fund Trust",
+      "manager": "Invesco",
+      "cik": "1209466",
+      "shares": 24777,
+      "value": 8829532,
+      "reportDate": "2026-07-31",
+      "priorShares": 23874,
+      "change": 903,
+      "pctOut": 0.0449,
+      "action": "Bought"
+    },
+    {
       "fundName": "Six Circles U.S. Unconstrained Equity Fund",
       "registrant": "SIX CIRCLES TRUST",
       "manager": "",
@@ -4069,6 +4053,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "JPMorgan U.S. Momentum Factor ETF",
+      "registrant": "J.P. Morgan Exchange-Traded Fund Trust",
+      "manager": "JPMorgan",
+      "cik": "1485894",
+      "shares": 16376,
+      "value": 5835751,
+      "reportDate": "2026-07-31",
+      "priorShares": 14239,
+      "change": 2137,
+      "pctOut": 0.029599999999999998,
+      "action": "Bought"
+    },
+    {
       "fundName": "VANGUARD BALANCED INDEX FUND",
       "registrant": "VANGUARD VALLEY FORGE FUNDS",
       "manager": "Vanguard Group",
@@ -4197,19 +4194,6 @@
       "change": -863,
       "pctOut": 0.0259,
       "action": "Sold"
-    },
-    {
-      "fundName": "JPMorgan U.S. Momentum Factor ETF",
-      "registrant": "J.P. Morgan Exchange-Traded Fund Trust",
-      "manager": "JPMorgan",
-      "cik": "1485894",
-      "shares": 14239,
-      "value": 3843391,
-      "reportDate": "2026-04-30",
-      "priorShares": 13319,
-      "change": 920,
-      "pctOut": 0.025799999999999997,
-      "action": "Bought"
     },
     {
       "fundName": "MID-CAP INDEX PORTFOLIO",
@@ -4392,6 +4376,19 @@
       "change": null,
       "pctOut": 0.0208,
       "action": "New"
+    },
+    {
+      "fundName": "Innovator Equity Managed Floor ETF",
+      "registrant": "Innovator ETFs Trust",
+      "manager": "",
+      "cik": "1415726",
+      "shares": 11405,
+      "value": 4064286,
+      "reportDate": "2026-07-31",
+      "priorShares": 9295,
+      "change": 2110,
+      "pctOut": 0.0206,
+      "action": "Bought"
     },
     {
       "fundName": "iShares Russell 3000 ETF",
@@ -4589,19 +4586,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Innovator Equity Managed Floor ETF",
-      "registrant": "Innovator ETFs Trust",
-      "manager": "",
-      "cik": "1415726",
-      "shares": 9295,
-      "value": 2508906,
-      "reportDate": "2026-04-30",
-      "priorShares": 10025,
-      "change": -730,
-      "pctOut": 0.0168,
-      "action": "Sold"
-    },
-    {
       "fundName": "Tax-Managed U.S. Mid &amp; Small Cap Fund",
       "registrant": "RUSSELL INVESTMENT CO",
       "manager": "",
@@ -4651,19 +4635,6 @@
       "priorShares": 9900,
       "change": -1000,
       "pctOut": 0.0161,
-      "action": "Sold"
-    },
-    {
-      "fundName": "Direxion Daily Aerospace &amp; Defense Bull 3X Shares",
-      "registrant": "Direxion Shares ETF Trust",
-      "manager": "",
-      "cik": "1424958",
-      "shares": 8771,
-      "value": 2367468,
-      "reportDate": "2026-04-30",
-      "priorShares": 12422,
-      "change": -3651,
-      "pctOut": 0.015899999999999997,
       "action": "Sold"
     },
     {
@@ -4808,6 +4779,19 @@
       "change": null,
       "pctOut": 0.013,
       "action": "New"
+    },
+    {
+      "fundName": "Direxion Daily Aerospace &amp; Defense Bull 3X Shares",
+      "registrant": "Direxion Shares ETF Trust",
+      "manager": "",
+      "cik": "1424958",
+      "shares": 7184,
+      "value": 2560090,
+      "reportDate": "2026-07-31",
+      "priorShares": 8771,
+      "change": -1587,
+      "pctOut": 0.013,
+      "action": "Sold"
     },
     {
       "fundName": "VANGUARD RUSSELL 1000 INDEX FUND",
@@ -4992,6 +4976,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "JPMORGAN BETABUILDERS U.S. EQUITY ETF",
+      "registrant": "J.P. Morgan Exchange-Traded Fund Trust",
+      "manager": "JPMorgan",
+      "cik": "1485894",
+      "shares": 5818,
+      "value": 2073302,
+      "reportDate": "2026-07-31",
+      "priorShares": 5340,
+      "change": 478,
+      "pctOut": 0.0105,
+      "action": "Bought"
+    },
+    {
       "fundName": "Strategic Advisers International Fund",
       "registrant": "Fidelity Rutland Square Trust II",
       "manager": "FMR (Fidelity)",
@@ -5042,19 +5039,6 @@
       "change": null,
       "pctOut": 0.0098,
       "action": "New"
-    },
-    {
-      "fundName": "JPMORGAN BETABUILDERS U.S. EQUITY ETF",
-      "registrant": "J.P. Morgan Exchange-Traded Fund Trust",
-      "manager": "JPMorgan",
-      "cik": "1485894",
-      "shares": 5340,
-      "value": 1441373,
-      "reportDate": "2026-04-30",
-      "priorShares": 5005,
-      "change": 335,
-      "pctOut": 0.0097,
-      "action": "Bought"
     },
     {
       "fundName": "T. Rowe Price Spectrum Moderate Growth Allocation Fund",
@@ -5816,8 +5800,8 @@
       "manager": "Capital Group (American Funds)",
       "cik": "1785360",
       "shares": 2247,
-      "value": 606510,
-      "reportDate": "2026-04-30",
+      "value": 800741,
+      "reportDate": "2026-07-31",
       "priorShares": 2247,
       "change": 0,
       "pctOut": 0.0041,
@@ -6071,30 +6055,17 @@
       "action": "Bought"
     },
     {
-      "fundName": "Morningstar Alternatives Fund",
-      "registrant": "Morningstar Funds Trust",
-      "manager": "",
-      "cik": "1699360",
-      "shares": 1614,
-      "value": 435651,
-      "reportDate": "2026-04-30",
-      "priorShares": 74,
-      "change": 1540,
-      "pctOut": 0.0029,
-      "action": "Bought"
-    },
-    {
       "fundName": "Morningstar U.S. Equity Fund",
       "registrant": "Morningstar Funds Trust",
       "manager": "",
       "cik": "1699360",
       "shares": 1598,
-      "value": 431332,
-      "reportDate": "2026-04-30",
-      "priorShares": 579,
-      "change": 1019,
+      "value": 569463,
+      "reportDate": "2026-07-31",
+      "priorShares": 1598,
+      "change": 0,
       "pctOut": 0.0029,
-      "action": "Bought"
+      "action": "No Change"
     },
     {
       "fundName": "Gabelli Commercial Aerospace and Defense Fund",
@@ -6110,6 +6081,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Invesco Dividend AchieversTM ETF",
+      "registrant": "Invesco Exchange-Traded Fund Trust",
+      "manager": "Invesco",
+      "cik": "1209466",
+      "shares": 1570,
+      "value": 559485,
+      "reportDate": "2026-07-31",
+      "priorShares": 1537,
+      "change": 33,
+      "pctOut": 0.0028,
+      "action": "Bought"
+    },
+    {
       "fundName": "Strategic Allocation: Aggressive Fund",
       "registrant": "American Century Strategic Asset Allocations Inc",
       "manager": "American Century",
@@ -6121,19 +6105,6 @@
       "change": 70,
       "pctOut": 0.0028,
       "action": "Bought"
-    },
-    {
-      "fundName": "Invesco Dividend AchieversTM ETF",
-      "registrant": "Invesco Exchange-Traded Fund Trust",
-      "manager": "Invesco",
-      "cik": "1209466",
-      "shares": 1537,
-      "value": 414867,
-      "reportDate": "2026-04-30",
-      "priorShares": 1622,
-      "change": -85,
-      "pctOut": 0.0028,
-      "action": "Sold"
     },
     {
       "fundName": "JNL/RAFI Fundamental U.S. Small Cap Fund",
@@ -7241,19 +7212,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Innovator Equity Managed 100 Buffer ETF",
-      "registrant": "Innovator ETFs Trust",
-      "manager": "",
-      "cik": "1415726",
-      "shares": 303,
-      "value": 81786,
-      "reportDate": "2026-04-30",
-      "priorShares": 474,
-      "change": -171,
-      "pctOut": 0.0005,
-      "action": "Sold"
-    },
-    {
       "fundName": "Wilmington Global Alpha Equities Fund",
       "registrant": "Wilmington Funds",
       "manager": "",
@@ -7382,6 +7340,19 @@
       "change": 0,
       "pctOut": 0.00039999999999999996,
       "action": "No Change"
+    },
+    {
+      "fundName": "Innovator Equity Managed 10 Buffer ETF",
+      "registrant": "Innovator ETFs Trust",
+      "manager": "",
+      "cik": "1415726",
+      "shares": 204,
+      "value": 72697,
+      "reportDate": "2026-07-31",
+      "priorShares": 126,
+      "change": 78,
+      "pctOut": 0.00039999999999999996,
+      "action": "Bought"
     },
     {
       "fundName": "AMT Diversified Equity Fund",
@@ -7538,19 +7509,6 @@
       "change": 2,
       "pctOut": 0.00030000000000000003,
       "action": "Bought"
-    },
-    {
-      "fundName": "Innovator Equity Managed 10 Buffer ETF",
-      "registrant": "Innovator ETFs Trust",
-      "manager": "",
-      "cik": "1415726",
-      "shares": 126,
-      "value": 34010,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.00019999999999999998,
-      "action": "New"
     },
     {
       "fundName": "First Trust RBA Deglobalization ETF",
@@ -7909,12 +7867,25 @@
       "manager": "",
       "cik": "1936157",
       "shares": 16,
-      "value": 4319,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
+      "value": 5702,
+      "reportDate": "2026-07-31",
+      "priorShares": 16,
+      "change": 0,
       "pctOut": 0,
-      "action": "New"
+      "action": "No Change"
+    },
+    {
+      "fundName": "Morningstar Alternatives Fund",
+      "registrant": "Morningstar Funds Trust",
+      "manager": "",
+      "cik": "1699360",
+      "shares": 15,
+      "value": 5345,
+      "reportDate": "2026-07-31",
+      "priorShares": 1614,
+      "change": -1599,
+      "pctOut": 0,
+      "action": "Sold"
     },
     {
       "fundName": "BNY Mellon US Large Cap Equity Growth ETF",
@@ -7999,13 +7970,13 @@
       "registrant": "Innovator ETFs Trust",
       "manager": "",
       "cik": "1415726",
-      "shares": 5,
-      "value": 1350,
-      "reportDate": "2026-04-30",
+      "shares": 6,
+      "value": 2138,
+      "reportDate": "2026-07-31",
       "priorShares": 5,
-      "change": 0,
+      "change": 1,
       "pctOut": 0,
-      "action": "No Change"
+      "action": "Bought"
     },
     {
       "fundName": "Global X U.S. 500 ETF",

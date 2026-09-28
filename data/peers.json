@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T15:37:02.598Z",
+  "lastUpdated": "2026-09-28T18:36:18.162Z",
   "peers": [
     {
       "name": "RTX Corp.",
@@ -114,16 +114,16 @@
           "value": 4433781397
         },
         {
+          "fund": "WASHINGTON MUTUAL INVESTORS FUND",
+          "manager": "Capital Group (American Funds)",
+          "shares": 15036970,
+          "value": 3236256683
+        },
+        {
           "fund": "SPDR S&P 500 ETF TRUST  (SPY)",
           "manager": "State Street",
           "shares": 16315632,
           "value": 3095564859
-        },
-        {
-          "fund": "WASHINGTON MUTUAL INVESTORS FUND",
-          "manager": "Capital Group (American Funds)",
-          "shares": 16621724,
-          "value": 2926586945
         },
         {
           "fund": "VANGUARD INDEX FUNDS",
@@ -138,16 +138,16 @@
           "value": 2259179239
         },
         {
+          "fund": "CAPITAL INCOME BUILDER",
+          "manager": "Capital Group (American Funds)",
+          "shares": 9491160,
+          "value": 2042687455
+        },
+        {
           "fund": "AMERICAN MUTUAL FUND",
           "manager": "",
           "shares": 9431257,
-          "value": 1660561420
-        },
-        {
-          "fund": "CAPITAL INCOME BUILDER",
-          "manager": "Capital Group (American Funds)",
-          "shares": 9186947,
-          "value": 1617545758
+          "value": 2029795132
         },
         {
           "fund": "SELECT SECTOR SPDR TRUST",
@@ -222,10 +222,10 @@
           "value": 494280042
         },
         {
-          "fund": "FIDELITY SALEM STREET TRUST",
-          "manager": "FMR (Fidelity)",
-          "shares": 2258857,
-          "value": 486151204
+          "fund": "AMERICAN FUNDS GLOBAL BALANCED FUND",
+          "manager": "Capital Group (American Funds)",
+          "shares": 2295353,
+          "value": 494005873
         }
       ]
     },
@@ -354,12 +354,6 @@
           "value": 1838463042
         },
         {
-          "fund": "WASHINGTON MUTUAL INVESTORS FUND",
-          "manager": "Capital Group (American Funds)",
-          "shares": 6439889,
-          "value": 1474927778
-        },
-        {
           "fund": "Fidelity Rutland Square Trust II",
           "manager": "FMR (Fidelity)",
           "shares": 6327307,
@@ -388,6 +382,12 @@
           "manager": "Capital Group (American Funds)",
           "shares": 4989805,
           "value": 1080143088
+        },
+        {
+          "fund": "WASHINGTON MUTUAL INVESTORS FUND",
+          "manager": "Capital Group (American Funds)",
+          "shares": 4980264,
+          "value": 1076434261
         },
         {
           "fund": "SELECT SECTOR SPDR TRUST",
@@ -630,12 +630,6 @@
           "value": 433212505
         },
         {
-          "fund": "JPMorgan Trust I",
-          "manager": "JPMorgan",
-          "shares": 1607185,
-          "value": 432107759
-        },
-        {
           "fund": "NEW PERSPECTIVE FUND",
           "manager": "Capital Group (American Funds)",
           "shares": 2160849,
@@ -682,6 +676,12 @@
           "manager": "State Street",
           "shares": 667405,
           "value": 179438508
+        },
+        {
+          "fund": "JP MORGAN MUTUAL FUND INVESTMENT TRUST",
+          "manager": "JPMorgan",
+          "shares": 648587,
+          "value": 174379101
         }
       ]
     },
@@ -1086,12 +1086,6 @@
           "value": 167730685
         },
         {
-          "fund": "INVESCO EXCHANGE-TRADED FUND TRUST",
-          "manager": "Invesco",
-          "shares": 257409,
-          "value": 166247603
-        },
-        {
           "fund": "T. Rowe Price New Horizons Fund, Inc.",
           "manager": "T. Rowe Price",
           "shares": 231841,
@@ -1138,6 +1132,12 @@
           "manager": "Charles Schwab",
           "shares": 99923,
           "value": 61935273
+        },
+        {
+          "fund": "FIDELITY CAPITAL TRUST",
+          "manager": "FMR (Fidelity)",
+          "shares": 112000,
+          "value": 59003840
         }
       ]
     },
@@ -1494,6 +1494,12 @@
           "value": 69640163
         },
         {
+          "fund": "COLUMBIA FUNDS SERIES TRUST I",
+          "manager": "Columbia (Ameriprise)",
+          "shares": 1072514,
+          "value": 58237510
+        },
+        {
           "fund": "T. Rowe Price Mid-Cap Growth Fund, Inc.",
           "manager": "T. Rowe Price",
           "shares": 1255977,
@@ -1510,6 +1516,12 @@
           "manager": "T. Rowe Price",
           "shares": 911617,
           "value": 42062008
+        },
+        {
+          "fund": "AIM INVESTMENT FUNDS (INVESCO INVESTMENT FUNDS)",
+          "manager": "Invesco",
+          "shares": 713959,
+          "value": 38767974
         },
         {
           "fund": "Federated Hermes Equity Funds",
@@ -1566,12 +1578,6 @@
           "value": 15255591
         },
         {
-          "fund": "AIM INVESTMENT FUNDS (INVESCO INVESTMENT FUNDS)",
-          "manager": "Invesco",
-          "shares": 434444,
-          "value": 15205540
-        },
-        {
           "fund": "T. Rowe Price Integrated Equity Funds, Inc.",
           "manager": "T. Rowe Price",
           "shares": 322879,
@@ -1588,12 +1594,6 @@
           "manager": "FMR (Fidelity)",
           "shares": 259633,
           "value": 14098072
-        },
-        {
-          "fund": "MFS SERIES TRUST I",
-          "manager": "MFS",
-          "shares": 228896,
-          "value": 10284297
         }
       ]
     },

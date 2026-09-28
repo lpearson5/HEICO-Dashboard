@@ -8,16 +8,16 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-09-27T15:37:02.598Z",
+  "lastUpdated": "2026-09-28T18:36:18.162Z",
   "summary": {
     "institutions": 671,
     "totalShares": 70041288,
     "pctOut": 82.87,
-    "newHolders": 111,
+    "newHolders": 110,
     "sellouts": 62,
     "bought": 255,
     "sold": 215,
-    "held": 90
+    "held": 91
   },
   "top10": [
     {
@@ -1657,24 +1657,6 @@
       "action": "New",
       "discretion": "SOLE",
       "voteSole": 66,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "Ascentis Wealth Management, LLC",
-      "filerCik": "2032602",
-      "shares": [
-        60,
-        null,
-        null,
-        null
-      ],
-      "netChg": 60,
-      "currentValue": 15474,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 60,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -13819,14 +13801,14 @@
       "filerCik": "2032602",
       "shares": [
         60,
-        null,
+        60,
         null,
         null
       ],
-      "netChg": 60,
+      "netChg": 0,
       "currentValue": 15474,
       "pctOut": 0,
-      "action": "New",
+      "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 60,
       "voteShared": 0,
@@ -17289,24 +17271,6 @@
       "voteNone": null
     },
     {
-      "filerName": "BALLAST ADVISORS LLC",
-      "filerCik": "1803415",
-      "shares": [
-        null,
-        14,
-        null,
-        null
-      ],
-      "netChg": -14,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Atlantic Private Wealth, LLC",
       "filerCik": "1893143",
       "shares": [
@@ -17319,6 +17283,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "BALLAST ADVISORS LLC",
+      "filerCik": "1803415",
+      "shares": [
+        null,
+        14,
+        null,
+        null
+      ],
+      "netChg": -14,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
