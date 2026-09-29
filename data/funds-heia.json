@@ -2,15 +2,15 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-09-28T18:36:18.162Z",
+  "lastUpdated": "2026-09-29T16:52:43.847Z",
   "summary": {
     "funds": 349,
-    "totalShares": 28257593,
-    "pctOut": 33.4347,
-    "newFunds": 16,
+    "totalShares": 28265358,
+    "pctOut": 33.4439,
+    "newFunds": 15,
     "sellouts": 35,
     "linkedManagers": 24,
-    "linkedShares": 23965187
+    "linkedShares": 23978720
   },
   "newHolders": [
     {
@@ -164,19 +164,6 @@
       "shares": 208,
       "value": 54040,
       "reportDate": "2026-05-29",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.00019999999999999998,
-      "action": "New"
-    },
-    {
-      "fundName": "THRIVENT DYNAMIC ALLOCATION FUND",
-      "registrant": "Thrivent Mutual Funds",
-      "manager": "",
-      "cik": "811869",
-      "shares": 194,
-      "value": 40550,
-      "reportDate": "2026-04-30",
       "priorShares": null,
       "change": null,
       "pctOut": 0.00019999999999999998,
@@ -473,7 +460,7 @@
     {
       "manager": "Vanguard Group",
       "fundCount": 18,
-      "shares": 8287570,
+      "shares": 8304380,
       "funds": [
         {
           "fundName": "VANGUARD TOTAL STOCK MARKET INDEX FUND",
@@ -497,7 +484,7 @@
         },
         {
           "fundName": "VANGUARD DIVIDEND APPRECIATION INDEX FUND",
-          "shares": 435566
+          "shares": 439066
         },
         {
           "fundName": "VANGUARD EXPLORER FUND",
@@ -517,7 +504,7 @@
         },
         {
           "fundName": "VANGUARD TOTAL WORLD STOCK INDEX FUND",
-          "shares": 51081
+          "shares": 64391
         },
         {
           "fundName": "VANGUARD INSTITUTIONAL TOTAL STOCK MARKET INDEX FUND",
@@ -913,7 +900,7 @@
     {
       "manager": "JPMorgan",
       "fundCount": 6,
-      "shares": 1206950,
+      "shares": 1212926,
       "funds": [
         {
           "fundName": "JPMorgan Mid Cap Growth Fund",
@@ -929,7 +916,7 @@
         },
         {
           "fundName": "SA JPMorgan Mid-Cap Growth Portfolio",
-          "shares": 37029
+          "shares": 43005
         },
         {
           "fundName": "JPMORGAN BETABUILDERS U.S. EQUITY ETF",
@@ -963,11 +950,11 @@
     {
       "manager": "Hartford",
       "fundCount": 2,
-      "shares": 280376,
+      "shares": 271144,
       "funds": [
         {
           "fundName": "THE HARTFORD MIDCAP FUND",
-          "shares": 233173
+          "shares": 223941
         },
         {
           "fundName": "HARTFORD MIDCAP HLS FUND",
@@ -1260,7 +1247,7 @@
     {
       "manager": "T. Rowe Price",
       "fundCount": 5,
-      "shares": 22307,
+      "shares": 22286,
       "funds": [
         {
           "fundName": "T. Rowe Price Extended Equity Market Index Fund",
@@ -1276,7 +1263,7 @@
         },
         {
           "fundName": "SA T. Rowe Price Allocation Moderately Aggressive Portfolio",
-          "shares": 724
+          "shares": 703
         },
         {
           "fundName": "T. Rowe Price Active Core U.S. Equity ETF",
@@ -1533,12 +1520,12 @@
       "registrant": "VANGUARD SPECIALIZED FUNDS",
       "manager": "Vanguard Group",
       "cik": "734383",
-      "shares": 435566,
-      "value": 91042005,
-      "reportDate": "2026-04-30",
-      "priorShares": 425197,
-      "change": 10369,
-      "pctOut": 0.5154,
+      "shares": 439066,
+      "value": 112962900,
+      "reportDate": "2026-07-31",
+      "priorShares": 435566,
+      "change": 3500,
+      "pctOut": 0.5195,
       "action": "Bought"
     },
     {
@@ -1685,30 +1672,30 @@
       "action": "Bought"
     },
     {
-      "fundName": "THE HARTFORD MIDCAP FUND",
-      "registrant": "HARTFORD MUTUAL FUNDS, INC",
-      "manager": "Hartford",
-      "cik": "1006415",
-      "shares": 233173,
-      "value": 48737820,
-      "reportDate": "2026-04-30",
-      "priorShares": 243344,
-      "change": -10171,
-      "pctOut": 0.27590000000000003,
-      "action": "Sold"
-    },
-    {
       "fundName": "VANGUARD EXPLORER FUND",
       "registrant": "VANGUARD EXPLORER FUND",
       "manager": "Vanguard Group",
       "cik": "34066",
       "shares": 229254,
-      "value": 47918671,
-      "reportDate": "2026-04-30",
+      "value": 58982469,
+      "reportDate": "2026-07-31",
       "priorShares": 229254,
       "change": 0,
       "pctOut": 0.2713,
       "action": "No Change"
+    },
+    {
+      "fundName": "THE HARTFORD MIDCAP FUND",
+      "registrant": "HARTFORD MUTUAL FUNDS, INC",
+      "manager": "Hartford",
+      "cik": "1006415",
+      "shares": 223941,
+      "value": 57615540,
+      "reportDate": "2026-07-31",
+      "priorShares": 233173,
+      "change": -9232,
+      "pctOut": 0.265,
+      "action": "Sold"
     },
     {
       "fundName": "JNL/JPMorgan MidCap Growth Fund",
@@ -2127,6 +2114,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "VANGUARD TOTAL WORLD STOCK INDEX FUND",
+      "registrant": "VANGUARD INTERNATIONAL EQUITY INDEX FUNDS",
+      "manager": "Vanguard Group",
+      "cik": "857489",
+      "shares": 64391,
+      "value": 16566516,
+      "reportDate": "2026-07-31",
+      "priorShares": 51081,
+      "change": 13310,
+      "pctOut": 0.0762,
+      "action": "Bought"
+    },
+    {
       "fundName": "Baron Durable Advantage Fund",
       "registrant": "BARON INVESTMENT FUNDS TRUST (f/k/a BARON ASSET FUND)",
       "manager": "Baron Capital",
@@ -2242,19 +2242,6 @@
       "change": -6220,
       "pctOut": 0.06130000000000001,
       "action": "Sold"
-    },
-    {
-      "fundName": "VANGUARD TOTAL WORLD STOCK INDEX FUND",
-      "registrant": "VANGUARD INTERNATIONAL EQUITY INDEX FUNDS",
-      "manager": "Vanguard Group",
-      "cik": "857489",
-      "shares": 51081,
-      "value": 10676951,
-      "reportDate": "2026-04-30",
-      "priorShares": 42278,
-      "change": 8803,
-      "pctOut": 0.0604,
-      "action": "Bought"
     },
     {
       "fundName": "VANGUARD INSTITUTIONAL TOTAL STOCK MARKET INDEX FUND",
@@ -2384,6 +2371,19 @@
       "priorShares": 42427,
       "change": 799,
       "pctOut": 0.05109999999999999,
+      "action": "Bought"
+    },
+    {
+      "fundName": "SA JPMorgan Mid-Cap Growth Portfolio",
+      "registrant": "SUNAMERICA SERIES TRUST",
+      "manager": "JPMorgan",
+      "cik": "892538",
+      "shares": 43005,
+      "value": 11064326,
+      "reportDate": "2026-07-31",
+      "priorShares": 37029,
+      "change": 5976,
+      "pctOut": 0.0509,
       "action": "Bought"
     },
     {
@@ -2521,25 +2521,12 @@
       "registrant": "Victory Portfolios III",
       "manager": "",
       "cik": "908695",
-      "shares": 37701,
-      "value": 7880263,
-      "reportDate": "2026-04-30",
-      "priorShares": 41559,
-      "change": -3858,
-      "pctOut": 0.0446,
-      "action": "Sold"
-    },
-    {
-      "fundName": "SA JPMorgan Mid-Cap Growth Portfolio",
-      "registrant": "SUNAMERICA SERIES TRUST",
-      "manager": "JPMorgan",
-      "cik": "892538",
-      "shares": 37029,
-      "value": 7739802,
-      "reportDate": "2026-04-30",
-      "priorShares": 37918,
-      "change": -889,
-      "pctOut": 0.043800000000000006,
+      "shares": 36247,
+      "value": 9325628,
+      "reportDate": "2026-07-31",
+      "priorShares": 37701,
+      "change": -1454,
+      "pctOut": 0.0429,
       "action": "Sold"
     },
     {
@@ -2547,12 +2534,12 @@
       "registrant": "Victory Portfolios III",
       "manager": "",
       "cik": "908695",
-      "shares": 35980,
-      "value": 7520540,
-      "reportDate": "2026-04-30",
-      "priorShares": 38121,
-      "change": -2141,
-      "pctOut": 0.0426,
+      "shares": 35422,
+      "value": 9113372,
+      "reportDate": "2026-07-31",
+      "priorShares": 35980,
+      "change": -558,
+      "pctOut": 0.0419,
       "action": "Sold"
     },
     {
@@ -2950,13 +2937,13 @@
       "registrant": "Victory Portfolios III",
       "manager": "",
       "cik": "908695",
-      "shares": 17904,
-      "value": 3742294,
-      "reportDate": "2026-04-30",
-      "priorShares": 18242,
-      "change": -338,
-      "pctOut": 0.0212,
-      "action": "Sold"
+      "shares": 17969,
+      "value": 4623064,
+      "reportDate": "2026-07-31",
+      "priorShares": 17904,
+      "change": 65,
+      "pctOut": 0.0213,
+      "action": "Bought"
     },
     {
       "fundName": "VIP Industrials Portfolio",
@@ -3145,11 +3132,11 @@
       "registrant": "Victory Portfolios III",
       "manager": "",
       "cik": "908695",
-      "shares": 12635,
-      "value": 2640968,
-      "reportDate": "2026-04-30",
-      "priorShares": 13535,
-      "change": -900,
+      "shares": 12609,
+      "value": 3244044,
+      "reportDate": "2026-07-31",
+      "priorShares": 12635,
+      "change": -26,
       "pctOut": 0.014899999999999998,
       "action": "Sold"
     },
@@ -3921,6 +3908,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Global X Guru Index ETF",
+      "registrant": "GLOBAL X FUNDS",
+      "manager": "",
+      "cik": "1432353",
+      "shares": 3056,
+      "value": 786248,
+      "reportDate": "2026-07-31",
+      "priorShares": 2476,
+      "change": 580,
+      "pctOut": 0.0036,
+      "action": "Bought"
+    },
+    {
       "fundName": "Dimensional US Sustainability Core 1 ETF",
       "registrant": "Dimensional ETF Trust",
       "manager": "Dimensional",
@@ -4012,19 +4012,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "THRIVENT MODERATELY AGGRESSIVE ALLOCATION FUND",
-      "registrant": "Thrivent Mutual Funds",
-      "manager": "",
-      "cik": "811869",
-      "shares": 2616,
-      "value": 546796,
-      "reportDate": "2026-04-30",
-      "priorShares": 53,
-      "change": 2563,
-      "pctOut": 0.0031000000000000003,
-      "action": "Bought"
-    },
-    {
       "fundName": "Goldman Sachs MarketBeta U.S. 1000 Equity ETF",
       "registrant": "Goldman Sachs ETF Trust II",
       "manager": "Goldman Sachs",
@@ -4062,19 +4049,6 @@
       "change": 299,
       "pctOut": 0.003,
       "action": "Bought"
-    },
-    {
-      "fundName": "Global X Guru Index ETF",
-      "registrant": "GLOBAL X FUNDS",
-      "manager": "",
-      "cik": "1432353",
-      "shares": 2476,
-      "value": 517534,
-      "reportDate": "2026-04-30",
-      "priorShares": 2476,
-      "change": 0,
-      "pctOut": 0.0029,
-      "action": "No Change"
     },
     {
       "fundName": "PD Large-Cap Growth Index Portfolio",
@@ -4298,19 +4272,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "THRIVENT MODERATE ALLOCATION FUND",
-      "registrant": "Thrivent Mutual Funds",
-      "manager": "",
-      "cik": "811869",
-      "shares": 1894,
-      "value": 395884,
-      "reportDate": "2026-04-30",
-      "priorShares": 28,
-      "change": 1866,
-      "pctOut": 0.0022,
-      "action": "Bought"
-    },
-    {
       "fundName": "BlackRock Advantage Large Cap Core V.I. Fund",
       "registrant": "BlackRock Variable Series Funds, Inc.",
       "manager": "BlackRock",
@@ -4426,19 +4387,6 @@
       "change": -509,
       "pctOut": 0.0019000000000000002,
       "action": "Sold"
-    },
-    {
-      "fundName": "THRIVENT AGGRESSIVE ALLOCATION FUND",
-      "registrant": "Thrivent Mutual Funds",
-      "manager": "",
-      "cik": "811869",
-      "shares": 1610,
-      "value": 336522,
-      "reportDate": "2026-04-30",
-      "priorShares": 79,
-      "change": 1531,
-      "pctOut": 0.0019000000000000002,
-      "action": "Bought"
     },
     {
       "fundName": "Multi-Manager Directional Alternative Strategies Fund",
@@ -4818,6 +4766,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "THRIVENT MODERATELY AGGRESSIVE ALLOCATION FUND",
+      "registrant": "Thrivent Mutual Funds",
+      "manager": "",
+      "cik": "811869",
+      "shares": 902,
+      "value": 232067,
+      "reportDate": "2026-07-31",
+      "priorShares": 2616,
+      "change": -1714,
+      "pctOut": 0.0011,
+      "action": "Sold"
+    },
+    {
       "fundName": "JNL/Mellon World Index Fund",
       "registrant": "JNL Series Trust",
       "manager": "",
@@ -4935,19 +4896,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "SA T. Rowe Price Allocation Moderately Aggressive Portfolio",
-      "registrant": "SUNAMERICA SERIES TRUST",
-      "manager": "T. Rowe Price",
-      "cik": "892538",
-      "shares": 724,
-      "value": 151330,
-      "reportDate": "2026-04-30",
-      "priorShares": 724,
-      "change": 0,
-      "pctOut": 0.0009,
-      "action": "No Change"
-    },
-    {
       "fundName": "Baron Global Durable Advantage ETF",
       "registrant": "Baron ETF Trust",
       "manager": "Baron Capital",
@@ -4959,6 +4907,19 @@
       "change": 114,
       "pctOut": 0.0007999999999999999,
       "action": "Bought"
+    },
+    {
+      "fundName": "SA T. Rowe Price Allocation Moderately Aggressive Portfolio",
+      "registrant": "SUNAMERICA SERIES TRUST",
+      "manager": "T. Rowe Price",
+      "cik": "892538",
+      "shares": 703,
+      "value": 180868,
+      "reportDate": "2026-07-31",
+      "priorShares": 724,
+      "change": -21,
+      "pctOut": 0.0007999999999999999,
+      "action": "Sold"
     },
     {
       "fundName": "Xtrackers Russell US Multifactor ETF",
@@ -4987,6 +4948,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "THRIVENT MODERATE ALLOCATION FUND",
+      "registrant": "Thrivent Mutual Funds",
+      "manager": "",
+      "cik": "811869",
+      "shares": 646,
+      "value": 166203,
+      "reportDate": "2026-07-31",
+      "priorShares": 1894,
+      "change": -1248,
+      "pctOut": 0.0007999999999999999,
+      "action": "Sold"
+    },
+    {
       "fundName": "Multi-Asset Strategy Fund",
       "registrant": "RUSSELL INVESTMENT CO",
       "manager": "",
@@ -5011,6 +4985,19 @@
       "change": 25,
       "pctOut": 0.0007,
       "action": "Bought"
+    },
+    {
+      "fundName": "THRIVENT AGGRESSIVE ALLOCATION FUND",
+      "registrant": "Thrivent Mutual Funds",
+      "manager": "",
+      "cik": "811869",
+      "shares": 586,
+      "value": 150766,
+      "reportDate": "2026-07-31",
+      "priorShares": 1610,
+      "change": -1024,
+      "pctOut": 0.0007,
+      "action": "Sold"
     },
     {
       "fundName": "AB US Equity ETF",
@@ -5134,24 +5121,11 @@
       "registrant": "ADVISORS' INNER CIRCLE III",
       "manager": "",
       "cik": "1593547",
-      "shares": 415,
-      "value": 86743,
-      "reportDate": "2026-04-30",
-      "priorShares": 386,
-      "change": 29,
-      "pctOut": 0.0005,
-      "action": "Bought"
-    },
-    {
-      "fundName": "THRIVENT MODERATELY CONSERVATIVE ALLOCATION FUND",
-      "registrant": "Thrivent Mutual Funds",
-      "manager": "",
-      "cik": "811869",
-      "shares": 412,
-      "value": 86116,
-      "reportDate": "2026-04-30",
-      "priorShares": 8,
-      "change": 404,
+      "shares": 426,
+      "value": 109601,
+      "reportDate": "2026-07-31",
+      "priorShares": 415,
+      "change": 11,
       "pctOut": 0.0005,
       "action": "Bought"
     },
@@ -5213,8 +5187,8 @@
       "manager": "",
       "cik": "1502608",
       "shares": 356,
-      "value": 74411,
-      "reportDate": "2026-04-30",
+      "value": 91592,
+      "reportDate": "2026-07-31",
       "priorShares": 356,
       "change": 0,
       "pctOut": 0.00039999999999999996,
@@ -5356,12 +5330,12 @@
       "manager": "",
       "cik": "1648403",
       "shares": 276,
-      "value": 57690,
-      "reportDate": "2026-04-30",
-      "priorShares": 696,
-      "change": -420,
+      "value": 71009,
+      "reportDate": "2026-07-31",
+      "priorShares": 276,
+      "change": 0,
       "pctOut": 0.00030000000000000003,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Strive 1000 Growth ETF",
@@ -5481,19 +5455,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "THRIVENT DYNAMIC ALLOCATION FUND",
-      "registrant": "Thrivent Mutual Funds",
-      "manager": "",
-      "cik": "811869",
-      "shares": 194,
-      "value": 40550,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.00019999999999999998,
-      "action": "New"
-    },
-    {
       "fundName": "AVIP AB Mid Cap Core Portfolio",
       "registrant": "AuguStar Variable Insurance Products Fund Inc",
       "manager": "FMR (Fidelity)",
@@ -5557,6 +5518,19 @@
       "change": 68,
       "pctOut": 0.00019999999999999998,
       "action": "Bought"
+    },
+    {
+      "fundName": "THRIVENT MODERATELY CONSERVATIVE ALLOCATION FUND",
+      "registrant": "Thrivent Mutual Funds",
+      "manager": "",
+      "cik": "811869",
+      "shares": 142,
+      "value": 36534,
+      "reportDate": "2026-07-31",
+      "priorShares": 412,
+      "change": -270,
+      "pctOut": 0.00019999999999999998,
+      "action": "Sold"
     },
     {
       "fundName": "AB Dynamic Asset Allocation Portfolio",
@@ -5681,12 +5655,25 @@
       "manager": "",
       "cik": "811869",
       "shares": 66,
-      "value": 13795,
-      "reportDate": "2026-04-30",
+      "value": 16980,
+      "reportDate": "2026-07-31",
       "priorShares": 66,
       "change": 0,
       "pctOut": 0.00009999999999999999,
       "action": "No Change"
+    },
+    {
+      "fundName": "THRIVENT DYNAMIC ALLOCATION FUND",
+      "registrant": "Thrivent Mutual Funds",
+      "manager": "",
+      "cik": "811869",
+      "shares": 64,
+      "value": 16466,
+      "reportDate": "2026-07-31",
+      "priorShares": 194,
+      "change": -130,
+      "pctOut": 0.00009999999999999999,
+      "action": "Sold"
     },
     {
       "fundName": "THRIVENT DYNAMIC ALLOCATION PORTFOLIO",
@@ -5850,8 +5837,8 @@
       "manager": "",
       "cik": "1027596",
       "shares": 9,
-      "value": 1881,
-      "reportDate": "2026-04-30",
+      "value": 2316,
+      "reportDate": "2026-07-31",
       "priorShares": 9,
       "change": 0,
       "pctOut": 0,

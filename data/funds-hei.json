@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-28T18:36:18.162Z",
+  "lastUpdated": "2026-09-29T16:52:43.847Z",
   "summary": {
-    "funds": 437,
-    "totalShares": 19738814,
-    "pctOut": 35.7318,
-    "newFunds": 56,
+    "funds": 438,
+    "totalShares": 19732159,
+    "pctOut": 35.719699999999996,
+    "newFunds": 53,
     "sellouts": 54,
-    "linkedManagers": 24,
-    "linkedShares": 16977887
+    "linkedManagers": 25,
+    "linkedShares": 16974333
   },
   "newHolders": [
     {
@@ -261,19 +261,6 @@
       "action": "New"
     },
     {
-      "fundName": "Dunham Focused Large Cap Growth Fund",
-      "registrant": "Dunham Funds",
-      "manager": "",
-      "cik": "1420040",
-      "shares": 12127,
-      "value": 3273320,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.022000000000000002,
-      "action": "New"
-    },
-    {
       "fundName": "T. Rowe Price Growth ETF",
       "registrant": "T. Rowe Price Exchange-Traded Funds, Inc.",
       "manager": "T. Rowe Price",
@@ -310,19 +297,6 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.0201,
-      "action": "New"
-    },
-    {
-      "fundName": "SA Fidelity Institutional AM International Growth Portfolio",
-      "registrant": "SUNAMERICA SERIES TRUST",
-      "manager": "FMR (Fidelity)",
-      "cik": "892538",
-      "shares": 10697,
-      "value": 2887334,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0194,
       "action": "New"
     },
     {
@@ -677,13 +651,13 @@
       "action": "New"
     },
     {
-      "fundName": "SA T. Rowe Price VCP Balanced Portfolio",
-      "registrant": "SUNAMERICA SERIES TRUST",
-      "manager": "T. Rowe Price",
-      "cik": "892538",
-      "shares": 71,
-      "value": 19164,
-      "reportDate": "2026-04-30",
+      "fundName": "Hartford Schroders Diversified Opportunities Fund",
+      "registrant": "HARTFORD MUTUAL FUNDS II, INC",
+      "manager": "Hartford",
+      "cik": "49905",
+      "shares": 62,
+      "value": 22094,
+      "reportDate": "2026-07-31",
       "priorShares": null,
       "change": null,
       "pctOut": 0.00009999999999999999,
@@ -697,19 +671,6 @@
       "shares": 53,
       "value": 18878,
       "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.00009999999999999999,
-      "action": "New"
-    },
-    {
-      "fundName": "SA T. Rowe Price Allocation Moderately Aggressive Portfolio",
-      "registrant": "SUNAMERICA SERIES TRUST",
-      "manager": "T. Rowe Price",
-      "cik": "892538",
-      "shares": 45,
-      "value": 12146,
-      "reportDate": "2026-04-30",
       "priorShares": null,
       "change": null,
       "pctOut": 0.00009999999999999999,
@@ -1173,7 +1134,7 @@
     {
       "manager": "Vanguard Group",
       "fundCount": 18,
-      "shares": 3631592,
+      "shares": 3627558,
       "funds": [
         {
           "fundName": "VANGUARD MID-CAP INDEX FUND",
@@ -1197,7 +1158,7 @@
         },
         {
           "fundName": "VANGUARD DIVIDEND APPRECIATION INDEX FUND",
-          "shares": 225769
+          "shares": 227851
         },
         {
           "fundName": "VANGUARD RUSSELL 1000 GROWTH INDEX FUND",
@@ -1216,12 +1177,12 @@
           "shares": 48149
         },
         {
-          "fundName": "VANGUARD TOTAL WORLD STOCK INDEX FUND",
-          "shares": 43557
-        },
-        {
           "fundName": "VANGUARD TAX-MANAGED CAPITAL APPRECIATION FUND",
           "shares": 38927
+        },
+        {
+          "fundName": "VANGUARD TOTAL WORLD STOCK INDEX FUND",
+          "shares": 37441
         },
         {
           "fundName": "VANGUARD BALANCED INDEX FUND",
@@ -1252,7 +1213,7 @@
     {
       "manager": "FMR (Fidelity)",
       "fundCount": 44,
-      "shares": 2100361,
+      "shares": 2097881,
       "funds": [
         {
           "fundName": "Fidelity Advisor International Capital Appreciation Fund",
@@ -1327,12 +1288,12 @@
           "shares": 11507
         },
         {
-          "fundName": "SA Fidelity Institutional AM International Growth Portfolio",
-          "shares": 10697
-        },
-        {
           "fundName": "LVIP American Century Ultra(R) Fund",
           "shares": 9905
+        },
+        {
+          "fundName": "SA Fidelity Institutional AM International Growth Portfolio",
+          "shares": 9507
         },
         {
           "fundName": "LVIP Blended Mid Cap Managed Volatility Fund",
@@ -1355,10 +1316,6 @@
           "shares": 4339
         },
         {
-          "fundName": "SA Fidelity Institutional AM Global Equities Portfolio",
-          "shares": 3719
-        },
-        {
           "fundName": "Fidelity Series Large Cap Growth Index Fund",
           "shares": 3430
         },
@@ -1369,6 +1326,10 @@
         {
           "fundName": "LVIP American Century Select Mid Cap Managed Volatility Fund",
           "shares": 3064
+        },
+        {
+          "fundName": "SA Fidelity Institutional AM Global Equities Portfolio",
+          "shares": 2429
         },
         {
           "fundName": "Strategic Advisers U.S. Total Stock Fund",
@@ -1435,7 +1396,7 @@
     {
       "manager": "T. Rowe Price",
       "fundCount": 29,
-      "shares": 1902994,
+      "shares": 1905673,
       "funds": [
         {
           "fundName": "T. Rowe Price Growth Stock Fund, Inc.",
@@ -1534,6 +1495,14 @@
           "shares": 2000
         },
         {
+          "fundName": "SA T. Rowe Price VCP Balanced Portfolio",
+          "shares": 1440
+        },
+        {
+          "fundName": "SA T. Rowe Price Allocation Moderately Aggressive Portfolio",
+          "shares": 1355
+        },
+        {
           "fundName": "T. Rowe Price Spectrum Conservative Allocation Fund",
           "shares": 1300
         },
@@ -1544,14 +1513,6 @@
         {
           "fundName": "T. Rowe Price Moderate Allocation Portfolio",
           "shares": 220
-        },
-        {
-          "fundName": "SA T. Rowe Price VCP Balanced Portfolio",
-          "shares": 71
-        },
-        {
-          "fundName": "SA T. Rowe Price Allocation Moderately Aggressive Portfolio",
-          "shares": 45
         }
       ]
     },
@@ -1815,7 +1776,7 @@
     {
       "manager": "Invesco",
       "fundCount": 8,
-      "shares": 488858,
+      "shares": 489077,
       "funds": [
         {
           "fundName": "Invesco Aerospace &amp; Defense ETF",
@@ -1839,7 +1800,7 @@
         },
         {
           "fundName": "Invesco RAFI US 1000 ETF",
-          "shares": 3955
+          "shares": 4174
         },
         {
           "fundName": "Invesco Dividend AchieversTM ETF",
@@ -2346,6 +2307,17 @@
           "shares": 1169
         }
       ]
+    },
+    {
+      "manager": "Hartford",
+      "fundCount": 1,
+      "shares": 62,
+      "funds": [
+        {
+          "fundName": "Hartford Schroders Diversified Opportunities Fund",
+          "shares": 62
+        }
+      ]
     }
   ],
   "holders": [
@@ -2614,12 +2586,12 @@
       "registrant": "VANGUARD SPECIALIZED FUNDS",
       "manager": "Vanguard Group",
       "cik": "734383",
-      "shares": 225769,
-      "value": 60939568,
-      "reportDate": "2026-04-30",
-      "priorShares": 219728,
-      "change": 6041,
-      "pctOut": 0.40870000000000006,
+      "shares": 227851,
+      "value": 81196982,
+      "reportDate": "2026-07-31",
+      "priorShares": 225769,
+      "change": 2082,
+      "pctOut": 0.41250000000000003,
       "action": "Bought"
     },
     {
@@ -2979,12 +2951,12 @@
       "manager": "Morgan Stanley",
       "cik": "1340736",
       "shares": 75007,
-      "value": 20245889,
-      "reportDate": "2026-04-30",
-      "priorShares": 71784,
-      "change": 3223,
+      "value": 26729495,
+      "reportDate": "2026-07-31",
+      "priorShares": 75007,
+      "change": 0,
       "pctOut": 0.1358,
-      "action": "Bought"
+      "action": "No Change"
     },
     {
       "fundName": "Invesco Large Cap Growth ETF",
@@ -3273,19 +3245,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "VANGUARD TOTAL WORLD STOCK INDEX FUND",
-      "registrant": "VANGUARD INTERNATIONAL EQUITY INDEX FUNDS",
-      "manager": "Vanguard Group",
-      "cik": "857489",
-      "shares": 43557,
-      "value": 11756905,
-      "reportDate": "2026-04-30",
-      "priorShares": 43557,
-      "change": 0,
-      "pctOut": 0.0788,
-      "action": "No Change"
-    },
-    {
       "fundName": "Washington Mutual Investors Fund",
       "registrant": "AMERICAN FUNDS INSURANCE SERIES",
       "manager": "Capital Group (American Funds)",
@@ -3400,6 +3359,19 @@
       "priorShares": 38531,
       "change": -875,
       "pctOut": 0.0682,
+      "action": "Sold"
+    },
+    {
+      "fundName": "VANGUARD TOTAL WORLD STOCK INDEX FUND",
+      "registrant": "VANGUARD INTERNATIONAL EQUITY INDEX FUNDS",
+      "manager": "Vanguard Group",
+      "cik": "857489",
+      "shares": 37441,
+      "value": 13342475,
+      "reportDate": "2026-07-31",
+      "priorShares": 43557,
+      "change": -6116,
+      "pctOut": 0.0678,
       "action": "Sold"
     },
     {
@@ -3577,12 +3549,12 @@
       "manager": "",
       "cik": "811030",
       "shares": 26652,
-      "value": 7193908,
-      "reportDate": "2026-04-30",
-      "priorShares": 35652,
-      "change": -9000,
+      "value": 9497707,
+      "reportDate": "2026-07-31",
+      "priorShares": 26652,
+      "change": 0,
       "pctOut": 0.0482,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Virtus Silvant Mid-Cap Growth Fund",
@@ -3858,19 +3830,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Harding Loevner Global Equity Portfolio",
-      "registrant": "HARDING LOEVNER FUNDS INC",
-      "manager": "",
-      "cik": "1018170",
-      "shares": 20172,
-      "value": 5444826,
-      "reportDate": "2026-04-30",
-      "priorShares": 20959,
-      "change": -787,
-      "pctOut": 0.0365,
-      "action": "Sold"
-    },
-    {
       "fundName": "Schwab U.S. Mid-Cap Index Fund",
       "registrant": "SCHWAB CAPITAL TRUST",
       "manager": "Charles Schwab",
@@ -3895,6 +3854,19 @@
       "change": null,
       "pctOut": 0.035500000000000004,
       "action": "New"
+    },
+    {
+      "fundName": "Harding Loevner Global Equity Portfolio",
+      "registrant": "HARDING LOEVNER FUNDS INC",
+      "manager": "",
+      "cik": "1018170",
+      "shares": 19024,
+      "value": 6779393,
+      "reportDate": "2026-07-31",
+      "priorShares": 20172,
+      "change": -1148,
+      "pctOut": 0.0344,
+      "action": "Sold"
     },
     {
       "fundName": "Franklin U.S. Mid Cap Multifactor Index ETF",
@@ -4313,19 +4285,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Dunham Focused Large Cap Growth Fund",
-      "registrant": "Dunham Funds",
-      "manager": "",
-      "cik": "1420040",
-      "shares": 12127,
-      "value": 3273320,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.022000000000000002,
-      "action": "New"
-    },
-    {
       "fundName": "Goldman Sachs Equal Weight U.S. Large Cap Equity ETF",
       "registrant": "Goldman Sachs ETF Trust",
       "manager": "Goldman Sachs",
@@ -4404,6 +4363,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Dunham Focused Large Cap Growth Fund",
+      "registrant": "Dunham Funds",
+      "manager": "",
+      "cik": "1420040",
+      "shares": 11288,
+      "value": 4022592,
+      "reportDate": "2026-07-31",
+      "priorShares": 12127,
+      "change": -839,
+      "pctOut": 0.0204,
+      "action": "Sold"
+    },
+    {
       "fundName": "Growth Stock Portfolio",
       "registrant": "NORTHWESTERN MUTUAL SERIES FUND INC",
       "manager": "",
@@ -4428,19 +4400,6 @@
       "change": -1253,
       "pctOut": 0.0197,
       "action": "Sold"
-    },
-    {
-      "fundName": "SA Fidelity Institutional AM International Growth Portfolio",
-      "registrant": "SUNAMERICA SERIES TRUST",
-      "manager": "FMR (Fidelity)",
-      "cik": "892538",
-      "shares": 10697,
-      "value": 2887334,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0194,
-      "action": "New"
     },
     {
       "fundName": "Mid-Cap Growth Portfolio",
@@ -4469,6 +4428,19 @@
       "action": "New"
     },
     {
+      "fundName": "Victory 500 Index Fund",
+      "registrant": "Victory Portfolios III",
+      "manager": "",
+      "cik": "908695",
+      "shares": 9975,
+      "value": 3554691,
+      "reportDate": "2026-07-31",
+      "priorShares": 9849,
+      "change": 126,
+      "pctOut": 0.0181,
+      "action": "Bought"
+    },
+    {
       "fundName": "iShares U.S. Industrials ETF",
       "registrant": "iShares Trust",
       "manager": "BlackRock",
@@ -4493,19 +4465,6 @@
       "change": 0,
       "pctOut": 0.0179,
       "action": "No Change"
-    },
-    {
-      "fundName": "Victory 500 Index Fund",
-      "registrant": "Victory Portfolios III",
-      "manager": "",
-      "cik": "908695",
-      "shares": 9849,
-      "value": 2658442,
-      "reportDate": "2026-04-30",
-      "priorShares": 10069,
-      "change": -220,
-      "pctOut": 0.0178,
-      "action": "Sold"
     },
     {
       "fundName": "Motley Fool 100 Index ETF",
@@ -4558,6 +4517,19 @@
       "change": 597,
       "pctOut": 0.0174,
       "action": "Bought"
+    },
+    {
+      "fundName": "SA Fidelity Institutional AM International Growth Portfolio",
+      "registrant": "SUNAMERICA SERIES TRUST",
+      "manager": "FMR (Fidelity)",
+      "cik": "892538",
+      "shares": 9507,
+      "value": 3387915,
+      "reportDate": "2026-07-31",
+      "priorShares": 10697,
+      "change": -1190,
+      "pctOut": 0.0172,
+      "action": "Sold"
     },
     {
       "fundName": "Liberty All-Star Growth Fund",
@@ -4807,19 +4779,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Virtus Terranova U.S. Quality Momentum ETF",
-      "registrant": "Virtus ETF Trust II",
-      "manager": "",
-      "cik": "1648403",
-      "shares": 7028,
-      "value": 1896998,
-      "reportDate": "2026-04-30",
-      "priorShares": 5628,
-      "change": 1400,
-      "pctOut": 0.0127,
-      "action": "Bought"
-    },
-    {
       "fundName": "Bright Rock Mid Cap Growth Fund",
       "registrant": "Trust for Professional Managers",
       "manager": "",
@@ -5041,6 +5000,19 @@
       "action": "New"
     },
     {
+      "fundName": "Virtus Terranova U.S. Quality Momentum ETF",
+      "registrant": "Virtus ETF Trust II",
+      "manager": "",
+      "cik": "1648403",
+      "shares": 5283,
+      "value": 1882650,
+      "reportDate": "2026-07-31",
+      "priorShares": 7028,
+      "change": -1745,
+      "pctOut": 0.009600000000000001,
+      "action": "Sold"
+    },
+    {
       "fundName": "T. Rowe Price Spectrum Moderate Growth Allocation Fund",
       "registrant": "T. ROWE PRICE SPECTRUM FUNDS II, INC.",
       "manager": "T. Rowe Price",
@@ -5236,6 +5208,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Invesco RAFI US 1000 ETF",
+      "registrant": "Invesco Exchange-Traded Fund Trust",
+      "manager": "Invesco",
+      "cik": "1209466",
+      "shares": 4174,
+      "value": 1487447,
+      "reportDate": "2026-07-31",
+      "priorShares": 3955,
+      "change": 219,
+      "pctOut": 0.007600000000000001,
+      "action": "Bought"
+    },
+    {
       "fundName": "Federated Hermes Kaufmann Fund II",
       "registrant": "Federated Hermes Insurance Series",
       "manager": "",
@@ -5286,19 +5271,6 @@
       "change": null,
       "pctOut": 0.0072,
       "action": "New"
-    },
-    {
-      "fundName": "Invesco RAFI US 1000 ETF",
-      "registrant": "Invesco Exchange-Traded Fund Trust",
-      "manager": "Invesco",
-      "cik": "1209466",
-      "shares": 3955,
-      "value": 1067534,
-      "reportDate": "2026-04-30",
-      "priorShares": 4184,
-      "change": -229,
-      "pctOut": 0.0072,
-      "action": "Sold"
     },
     {
       "fundName": "AQR Alternative Risk Premia Fund",
@@ -5377,19 +5349,6 @@
       "change": 326,
       "pctOut": 0.0068,
       "action": "Bought"
-    },
-    {
-      "fundName": "SA Fidelity Institutional AM Global Equities Portfolio",
-      "registrant": "SUNAMERICA SERIES TRUST",
-      "manager": "FMR (Fidelity)",
-      "cik": "892538",
-      "shares": 3719,
-      "value": 1003832,
-      "reportDate": "2026-04-30",
-      "priorShares": 3719,
-      "change": 0,
-      "pctOut": 0.0067,
-      "action": "No Change"
     },
     {
       "fundName": "VANGUARD RUSSELL 3000 INDEX FUND",
@@ -5535,6 +5494,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Rainwater Equity ETF",
+      "registrant": "EA Series Trust",
+      "manager": "",
+      "cik": "1592900",
+      "shares": 3320,
+      "value": 1183115,
+      "reportDate": "2026-07-31",
+      "priorShares": 2931,
+      "change": 389,
+      "pctOut": 0.006,
+      "action": "Bought"
+    },
+    {
       "fundName": "VictoryShares US 500 Volatility Wtd ETF",
       "registrant": "Victory Portfolios II",
       "manager": "",
@@ -5624,19 +5596,6 @@
       "change": null,
       "pctOut": 0.005399999999999999,
       "action": "New"
-    },
-    {
-      "fundName": "Rainwater Equity ETF",
-      "registrant": "EA Series Trust",
-      "manager": "",
-      "cik": "1592900",
-      "shares": 2931,
-      "value": 791136,
-      "reportDate": "2026-04-30",
-      "priorShares": 4330,
-      "change": -1399,
-      "pctOut": 0.0053,
-      "action": "Sold"
     },
     {
       "fundName": "JNL/Mellon U.S. Stock Market Index Fund",
@@ -5767,6 +5726,19 @@
       "change": 0,
       "pctOut": 0.0045000000000000005,
       "action": "No Change"
+    },
+    {
+      "fundName": "SA Fidelity Institutional AM Global Equities Portfolio",
+      "registrant": "SUNAMERICA SERIES TRUST",
+      "manager": "FMR (Fidelity)",
+      "cik": "892538",
+      "shares": 2429,
+      "value": 865598,
+      "reportDate": "2026-07-31",
+      "priorShares": 3719,
+      "change": -1290,
+      "pctOut": 0.0044,
+      "action": "Sold"
     },
     {
       "fundName": "WisdomTree U.S. LargeCap Dividend Fund",
@@ -5994,11 +5966,11 @@
       "registrant": "EA Series Trust",
       "manager": "",
       "cik": "1592900",
-      "shares": 1697,
-      "value": 458054,
-      "reportDate": "2026-04-30",
-      "priorShares": 1374,
-      "change": 323,
+      "shares": 1730,
+      "value": 616503,
+      "reportDate": "2026-07-31",
+      "priorShares": 1697,
+      "change": 33,
       "pctOut": 0.0031000000000000003,
       "action": "Bought"
     },
@@ -6146,6 +6118,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "SA T. Rowe Price VCP Balanced Portfolio",
+      "registrant": "SUNAMERICA SERIES TRUST",
+      "manager": "T. Rowe Price",
+      "cik": "892538",
+      "shares": 1440,
+      "value": 513158,
+      "reportDate": "2026-07-31",
+      "priorShares": 71,
+      "change": 1369,
+      "pctOut": 0.0026,
+      "action": "Bought"
+    },
+    {
       "fundName": "Goldman Sachs MarketBeta U.S. 1000 Equity ETF",
       "registrant": "Goldman Sachs ETF Trust II",
       "manager": "Goldman Sachs",
@@ -6211,6 +6196,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "SA T. Rowe Price Allocation Moderately Aggressive Portfolio",
+      "registrant": "SUNAMERICA SERIES TRUST",
+      "manager": "T. Rowe Price",
+      "cik": "892538",
+      "shares": 1355,
+      "value": 482868,
+      "reportDate": "2026-07-31",
+      "priorShares": 45,
+      "change": 1310,
+      "pctOut": 0.0025,
+      "action": "Bought"
+    },
+    {
       "fundName": "SIIT LARGE CAP INDEX FUND",
       "registrant": "SEI INSTITUTIONAL INVESTMENTS TRUST",
       "manager": "",
@@ -6255,8 +6253,8 @@
       "manager": "",
       "cik": "764859",
       "shares": 1280,
-      "value": 345498,
-      "reportDate": "2026-04-30",
+      "value": 456141,
+      "reportDate": "2026-07-31",
       "priorShares": 1280,
       "change": 0,
       "pctOut": 0.0023,
@@ -7043,6 +7041,19 @@
       "action": "New"
     },
     {
+      "fundName": "JLens 500 Jewish Advocacy U.S. ETF",
+      "registrant": "EA Series Trust",
+      "manager": "",
+      "cik": "1592900",
+      "shares": 427,
+      "value": 152166,
+      "reportDate": "2026-07-31",
+      "priorShares": 384,
+      "change": 43,
+      "pctOut": 0.0007999999999999999,
+      "action": "Bought"
+    },
+    {
       "fundName": "Fidelity Hedged Equity ETF",
       "registrant": "Fidelity Greenwood Street Trust",
       "manager": "FMR (Fidelity)",
@@ -7091,19 +7102,6 @@
       "reportDate": "2026-05-29",
       "priorShares": 369,
       "change": 16,
-      "pctOut": 0.0007,
-      "action": "Bought"
-    },
-    {
-      "fundName": "JLens 500 Jewish Advocacy U.S. ETF",
-      "registrant": "EA Series Trust",
-      "manager": "",
-      "cik": "1592900",
-      "shares": 384,
-      "value": 103649,
-      "reportDate": "2026-04-30",
-      "priorShares": 295,
-      "change": 89,
       "pctOut": 0.0007,
       "action": "Bought"
     },
@@ -7238,6 +7236,32 @@
       "action": "Sold"
     },
     {
+      "fundName": "SA Schroders VCP Global Allocation Portfolio",
+      "registrant": "SUNAMERICA SERIES TRUST",
+      "manager": "",
+      "cik": "892538",
+      "shares": 258,
+      "value": 91941,
+      "reportDate": "2026-07-31",
+      "priorShares": 223,
+      "change": 35,
+      "pctOut": 0.0005,
+      "action": "Bought"
+    },
+    {
+      "fundName": "Knights of Columbus U.S. ALL CAP INDEX FUND",
+      "registrant": "ADVISORS' INNER CIRCLE III",
+      "manager": "",
+      "cik": "1593547",
+      "shares": 241,
+      "value": 85883,
+      "reportDate": "2026-07-31",
+      "priorShares": 236,
+      "change": 5,
+      "pctOut": 0.00039999999999999996,
+      "action": "Bought"
+    },
+    {
       "fundName": "Destinations Small-Mid Cap Equity Fund",
       "registrant": "Brinker Capital Destinations Trust",
       "manager": "",
@@ -7249,19 +7273,6 @@
       "change": 0,
       "pctOut": 0.00039999999999999996,
       "action": "No Change"
-    },
-    {
-      "fundName": "Knights of Columbus U.S. ALL CAP INDEX FUND",
-      "registrant": "ADVISORS' INNER CIRCLE III",
-      "manager": "",
-      "cik": "1593547",
-      "shares": 236,
-      "value": 63701,
-      "reportDate": "2026-04-30",
-      "priorShares": 219,
-      "change": 17,
-      "pctOut": 0.00039999999999999996,
-      "action": "Bought"
     },
     {
       "fundName": "Simplify Next Intangible Core Index ETF",
@@ -7288,19 +7299,6 @@
       "change": 18,
       "pctOut": 0.00039999999999999996,
       "action": "Bought"
-    },
-    {
-      "fundName": "SA Schroders VCP Global Allocation Portfolio",
-      "registrant": "SUNAMERICA SERIES TRUST",
-      "manager": "",
-      "cik": "892538",
-      "shares": 223,
-      "value": 60192,
-      "reportDate": "2026-04-30",
-      "priorShares": 304,
-      "change": -81,
-      "pctOut": 0.00039999999999999996,
-      "action": "Sold"
     },
     {
       "fundName": "State Street Balanced Index Fund",
@@ -7360,8 +7358,8 @@
       "manager": "",
       "cik": "1502608",
       "shares": 202,
-      "value": 54524,
-      "reportDate": "2026-04-30",
+      "value": 71985,
+      "reportDate": "2026-07-31",
       "priorShares": 202,
       "change": 0,
       "pctOut": 0.00039999999999999996,
@@ -7667,19 +7665,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "SA T. Rowe Price VCP Balanced Portfolio",
-      "registrant": "SUNAMERICA SERIES TRUST",
-      "manager": "T. Rowe Price",
-      "cik": "892538",
-      "shares": 71,
-      "value": 19164,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.00009999999999999999,
-      "action": "New"
-    },
-    {
       "fundName": "WisdomTree Efficient U.S. Plus International Equity Fund",
       "registrant": "WisdomTree Trust",
       "manager": "WisdomTree",
@@ -7704,6 +7689,19 @@
       "change": 0,
       "pctOut": 0.00009999999999999999,
       "action": "No Change"
+    },
+    {
+      "fundName": "Hartford Schroders Diversified Opportunities Fund",
+      "registrant": "HARTFORD MUTUAL FUNDS II, INC",
+      "manager": "Hartford",
+      "cik": "49905",
+      "shares": 62,
+      "value": 22094,
+      "reportDate": "2026-07-31",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.00009999999999999999,
+      "action": "New"
     },
     {
       "fundName": "Fidelity Enhanced Mid Cap Growth ETF",
@@ -7782,19 +7780,6 @@
       "change": 8,
       "pctOut": 0.00009999999999999999,
       "action": "Bought"
-    },
-    {
-      "fundName": "SA T. Rowe Price Allocation Moderately Aggressive Portfolio",
-      "registrant": "SUNAMERICA SERIES TRUST",
-      "manager": "T. Rowe Price",
-      "cik": "892538",
-      "shares": 45,
-      "value": 12146,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.00009999999999999999,
-      "action": "New"
     },
     {
       "fundName": "The Catholic SRI Growth Portfolio",
