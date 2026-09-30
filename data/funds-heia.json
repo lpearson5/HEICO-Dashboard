@@ -2,13 +2,13 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-09-29T16:52:43.847Z",
+  "lastUpdated": "2026-09-30T16:47:10.976Z",
   "summary": {
     "funds": 349,
-    "totalShares": 28265358,
-    "pctOut": 33.4439,
+    "totalShares": 28265754,
+    "pctOut": 33.4444,
     "newFunds": 15,
-    "sellouts": 35,
+    "sellouts": 34,
     "linkedManagers": 24,
     "linkedShares": 23978720
   },
@@ -342,13 +342,6 @@
       "manager": "",
       "lastShares": 3902,
       "lastReport": "2025-09-30"
-    },
-    {
-      "fundName": "MassMutual Premier Disciplined Growth Fund",
-      "registrant": "MASSMUTUAL PREMIER FUNDS",
-      "manager": "",
-      "lastShares": 3541,
-      "lastReport": "2025-06-30"
     },
     {
       "fundName": "American Beacon Stephens Small Cap Growth Fund",
@@ -3453,6 +3446,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Virtus KAR Mid-Cap ETF",
+      "registrant": "Virtus ETF Trust II",
+      "manager": "",
+      "cik": "1648403",
+      "shares": 7244,
+      "value": 1863736,
+      "reportDate": "2026-07-31",
+      "priorShares": 6848,
+      "change": 396,
+      "pctOut": 0.0086,
+      "action": "Bought"
+    },
+    {
       "fundName": "Weitz Conservative Allocation Fund",
       "registrant": "Weitz Funds",
       "manager": "",
@@ -3475,19 +3481,6 @@
       "reportDate": "2026-05-31",
       "priorShares": 6287,
       "change": 600,
-      "pctOut": 0.0081,
-      "action": "Bought"
-    },
-    {
-      "fundName": "Virtus KAR Mid-Cap ETF",
-      "registrant": "Virtus ETF Trust II",
-      "manager": "",
-      "cik": "1648403",
-      "shares": 6848,
-      "value": 1431369,
-      "reportDate": "2026-04-30",
-      "priorShares": 6353,
-      "change": 495,
       "pctOut": 0.0081,
       "action": "Bought"
     },

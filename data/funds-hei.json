@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-29T16:52:43.847Z",
+  "lastUpdated": "2026-09-30T16:47:10.976Z",
   "summary": {
-    "funds": 438,
-    "totalShares": 19732159,
-    "pctOut": 35.719699999999996,
+    "funds": 439,
+    "totalShares": 19751672,
+    "pctOut": 35.754999999999995,
     "newFunds": 53,
-    "sellouts": 54,
+    "sellouts": 53,
     "linkedManagers": 25,
-    "linkedShares": 16974333
+    "linkedShares": 16988593
   },
   "newHolders": [
     {
@@ -908,13 +908,6 @@
       "lastReport": "2026-02-28"
     },
     {
-      "fundName": "AAM Transformers ETF",
-      "registrant": "ETF Series Solutions",
-      "manager": "",
-      "lastShares": 1763,
-      "lastReport": "2026-01-31"
-    },
-    {
       "fundName": "AST Quantitative Modeling Portfolio",
       "registrant": "Advanced Series Trust",
       "manager": "",
@@ -1776,11 +1769,11 @@
     {
       "manager": "Invesco",
       "fundCount": 8,
-      "shares": 489077,
+      "shares": 503225,
       "funds": [
         {
           "fundName": "Invesco Aerospace &amp; Defense ETF",
-          "shares": 367144
+          "shares": 381292
         },
         {
           "fundName": "Invesco Large Cap Growth ETF",
@@ -1815,7 +1808,7 @@
     {
       "manager": "American Century",
       "fundCount": 8,
-      "shares": 414300,
+      "shares": 414412,
       "funds": [
         {
           "fundName": "Ultra Fund",
@@ -1827,7 +1820,7 @@
         },
         {
           "fundName": "Strategic Allocation: Aggressive Fund",
-          "shares": 1543
+          "shares": 1604
         },
         {
           "fundName": "Avantis U.S. Mid Cap Equity ETF",
@@ -1835,7 +1828,7 @@
         },
         {
           "fundName": "Strategic Allocation: Moderate Fund",
-          "shares": 1287
+          "shares": 1338
         },
         {
           "fundName": "Strategic Allocation: Conservative Fund",
@@ -2521,12 +2514,12 @@
       "registrant": "Invesco Exchange-Traded Fund Trust",
       "manager": "Invesco",
       "cik": "1209466",
-      "shares": 367144,
-      "value": 99099508,
-      "reportDate": "2026-04-30",
-      "priorShares": 323783,
-      "change": 43361,
-      "pctOut": 0.6646,
+      "shares": 381292,
+      "value": 135877217,
+      "reportDate": "2026-07-31",
+      "priorShares": 367144,
+      "change": 14148,
+      "pctOut": 0.6902,
       "action": "Bought"
     },
     {
@@ -2626,8 +2619,8 @@
       "manager": "American Century",
       "cik": "100334",
       "shares": 209000,
-      "value": 56413280,
-      "reportDate": "2026-04-30",
+      "value": 74479240,
+      "reportDate": "2026-07-31",
       "priorShares": 209000,
       "change": 0,
       "pctOut": 0.37829999999999997,
@@ -2652,8 +2645,8 @@
       "manager": "American Century",
       "cik": "100334",
       "shares": 200543,
-      "value": 54130567,
-      "reportDate": "2026-04-30",
+      "value": 71465503,
+      "reportDate": "2026-07-31",
       "priorShares": 200543,
       "change": 0,
       "pctOut": 0.363,
@@ -5013,6 +5006,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "AAM Transformers ETF",
+      "registrant": "ETF Series Solutions",
+      "manager": "",
+      "cik": "1540305",
+      "shares": 5279,
+      "value": 1881224,
+      "reportDate": "2026-07-31",
+      "priorShares": 1763,
+      "change": 3516,
+      "pctOut": 0.009600000000000001,
+      "action": "Bought"
+    },
+    {
       "fundName": "T. Rowe Price Spectrum Moderate Growth Allocation Fund",
       "registrant": "T. ROWE PRICE SPECTRUM FUNDS II, INC.",
       "manager": "T. Rowe Price",
@@ -6027,6 +6033,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Strategic Allocation: Aggressive Fund",
+      "registrant": "American Century Strategic Asset Allocations Inc",
+      "manager": "American Century",
+      "cik": "924211",
+      "shares": 1604,
+      "value": 571601,
+      "reportDate": "2026-07-31",
+      "priorShares": 1543,
+      "change": 61,
+      "pctOut": 0.0029,
+      "action": "Bought"
+    },
+    {
       "fundName": "Morningstar U.S. Equity Fund",
       "registrant": "Morningstar Funds Trust",
       "manager": "",
@@ -6062,19 +6081,6 @@
       "reportDate": "2026-07-31",
       "priorShares": 1537,
       "change": 33,
-      "pctOut": 0.0028,
-      "action": "Bought"
-    },
-    {
-      "fundName": "Strategic Allocation: Aggressive Fund",
-      "registrant": "American Century Strategic Asset Allocations Inc",
-      "manager": "American Century",
-      "cik": "924211",
-      "shares": 1543,
-      "value": 416487,
-      "reportDate": "2026-04-30",
-      "priorShares": 1473,
-      "change": 70,
       "pctOut": 0.0028,
       "action": "Bought"
     },
@@ -6209,6 +6215,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Strategic Allocation: Moderate Fund",
+      "registrant": "American Century Strategic Asset Allocations Inc",
+      "manager": "American Century",
+      "cik": "924211",
+      "shares": 1338,
+      "value": 476810,
+      "reportDate": "2026-07-31",
+      "priorShares": 1287,
+      "change": 51,
+      "pctOut": 0.0024000000000000002,
+      "action": "Bought"
+    },
+    {
       "fundName": "SIIT LARGE CAP INDEX FUND",
       "registrant": "SEI INSTITUTIONAL INVESTMENTS TRUST",
       "manager": "",
@@ -6233,19 +6252,6 @@
       "change": null,
       "pctOut": 0.0024000000000000002,
       "action": "New"
-    },
-    {
-      "fundName": "Strategic Allocation: Moderate Fund",
-      "registrant": "American Century Strategic Asset Allocations Inc",
-      "manager": "American Century",
-      "cik": "924211",
-      "shares": 1287,
-      "value": 347387,
-      "reportDate": "2026-04-30",
-      "priorShares": 1231,
-      "change": 56,
-      "pctOut": 0.0023,
-      "action": "Bought"
     },
     {
       "fundName": "YORKTOWN GROWTH FUND",
@@ -7124,12 +7130,12 @@
       "manager": "American Century",
       "cik": "924211",
       "shares": 341,
-      "value": 92043,
-      "reportDate": "2026-04-30",
-      "priorShares": 315,
-      "change": 26,
+      "value": 121519,
+      "reportDate": "2026-07-31",
+      "priorShares": 341,
+      "change": 0,
       "pctOut": 0.0006000000000000001,
-      "action": "Bought"
+      "action": "No Change"
     },
     {
       "fundName": "BlackRock Managed Income Fund",
@@ -7444,19 +7450,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "AAM Sawgrass U.S. Large Cap Quality Growth ETF",
-      "registrant": "ETF Series Solutions",
-      "manager": "",
-      "cik": "1540305",
-      "shares": 152,
-      "value": 41028,
-      "reportDate": "2026-04-30",
-      "priorShares": 85,
-      "change": 67,
-      "pctOut": 0.00030000000000000003,
-      "action": "Bought"
-    },
-    {
       "fundName": "AZL MSCI Global Equity Index Fund",
       "registrant": "Allianz Variable Insurance Products Trust",
       "manager": "",
@@ -7507,6 +7500,19 @@
       "change": 2,
       "pctOut": 0.00030000000000000003,
       "action": "Bought"
+    },
+    {
+      "fundName": "AAM Sawgrass U.S. Large Cap Quality Growth ETF",
+      "registrant": "ETF Series Solutions",
+      "manager": "",
+      "cik": "1540305",
+      "shares": 126,
+      "value": 44901,
+      "reportDate": "2026-07-31",
+      "priorShares": 152,
+      "change": -26,
+      "pctOut": 0.00019999999999999998,
+      "action": "Sold"
     },
     {
       "fundName": "First Trust RBA Deglobalization ETF",

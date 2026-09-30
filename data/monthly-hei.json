@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-09-29T16:52:43.847Z",
+  "lastUpdated": "2026-09-30T16:47:10.976Z",
   "summary": {
-    "institutions": 778,
-    "totalShares": 43758683,
+    "institutions": 777,
+    "totalShares": 43757729,
     "pctOut": 79.21000000000001,
     "newHolders": 120,
-    "sellouts": 85,
+    "sellouts": 86,
     "bought": 256,
-    "sold": 267,
+    "sold": 266,
     "held": 135
   },
   "top10": [
@@ -2044,7 +2044,7 @@
       "shares": [
         25,
         null,
-        38,
+        null,
         38
       ],
       "netChg": 25,
@@ -3139,6 +3139,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Baker Avenue Asset Management, LP",
+      "filerCik": "1432529",
+      "shares": [
+        null,
+        1306,
+        1630,
+        1870
+      ],
+      "netChg": -1306,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "BEESE FULMER INVESTMENT MANAGEMENT, INC.",
       "filerCik": "911274",
       "shares": [
@@ -3432,7 +3450,7 @@
       "shares": [
         null,
         600,
-        600,
+        null,
         600
       ],
       "netChg": -600,
@@ -13347,24 +13365,6 @@
       "voteNone": 0
     },
     {
-      "filerName": "Baker Avenue Asset Management, LP",
-      "filerCik": "1432529",
-      "shares": [
-        954,
-        1306,
-        1630,
-        1870
-      ],
-      "netChg": -352,
-      "currentValue": 339805,
-      "pctOut": 0,
-      "action": "Sold",
-      "discretion": "SOLE",
-      "voteSole": 636,
-      "voteShared": 0,
-      "voteNone": 318
-    },
-    {
       "filerName": "Florida Trust Wealth Management Co",
       "filerCik": "1651023",
       "shares": [
@@ -16628,7 +16628,7 @@
       "shares": [
         25,
         null,
-        38,
+        null,
         38
       ],
       "netChg": 25,
@@ -18554,7 +18554,7 @@
       "shares": [
         null,
         600,
-        600,
+        null,
         600
       ],
       "netChg": -600,
@@ -18873,24 +18873,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Quantitative Investment Management, LLC",
-      "filerCik": "1445911",
-      "shares": [
-        null,
-        1477,
-        null,
-        null
-      ],
-      "netChg": -1477,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Machina Capital S.A.S.",
       "filerCik": "1744373",
       "shares": [
@@ -18903,6 +18885,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Quantitative Investment Management, LLC",
+      "filerCik": "1445911",
+      "shares": [
+        null,
+        1477,
+        null,
+        null
+      ],
+      "netChg": -1477,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19017,24 +19017,6 @@
       "voteNone": null
     },
     {
-      "filerName": "E Fund Management (Hong Kong) Co., Ltd.",
-      "filerCik": "1777469",
-      "shares": [
-        null,
-        null,
-        813,
-        null
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "MQS Management LLC",
       "filerCik": "1759395",
       "shares": [
@@ -19047,6 +19029,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "E Fund Management (Hong Kong) Co., Ltd.",
+      "filerCik": "1777469",
+      "shares": [
+        null,
+        null,
+        813,
+        null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19575,13 +19575,13 @@
       "voteNone": null
     },
     {
-      "filerName": "PineBridge Investments, L.P.",
-      "filerCik": "1531721",
+      "filerName": "DT Investment Partners, LLC",
+      "filerCik": "1537621",
       "shares": [
         null,
         null,
-        null,
-        6095
+        66,
+        66
       ],
       "netChg": null,
       "currentValue": null,
@@ -19593,13 +19593,13 @@
       "voteNone": null
     },
     {
-      "filerName": "DT Investment Partners, LLC",
-      "filerCik": "1537621",
+      "filerName": "PineBridge Investments, L.P.",
+      "filerCik": "1531721",
       "shares": [
         null,
         null,
-        66,
-        66
+        null,
+        6095
       ],
       "netChg": null,
       "currentValue": null,
@@ -19719,13 +19719,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
-      "filerCik": "1510434",
+      "filerName": "WINNOW WEALTH LLC",
+      "filerCik": "2079687",
       "shares": [
         null,
         null,
-        1447,
-        null
+        1,
+        7
       ],
       "netChg": null,
       "currentValue": null,
@@ -19737,13 +19737,13 @@
       "voteNone": null
     },
     {
-      "filerName": "WINNOW WEALTH LLC",
-      "filerCik": "2079687",
+      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
+      "filerCik": "1510434",
       "shares": [
         null,
         null,
-        1,
-        7
+        1447,
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -19791,12 +19791,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Legato Capital Management LLC",
-      "filerCik": "1442641",
+      "filerName": "V-Square Quantitative Management LLC",
+      "filerCik": "1943239",
       "shares": [
         null,
         null,
-        1077,
+        115,
         null
       ],
       "netChg": null,
@@ -19818,6 +19818,42 @@
         1
       ],
       "netChg": -1,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Legato Capital Management LLC",
+      "filerCik": "1442641",
+      "shares": [
+        null,
+        null,
+        1077,
+        null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Baker Avenue Asset Management, LP",
+      "filerCik": "1432529",
+      "shares": [
+        null,
+        1306,
+        1630,
+        1870
+      ],
+      "netChg": -1306,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -19971,24 +20007,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Elequin Capital, LP",
-      "filerCik": "1810873",
-      "shares": [
-        null,
-        1,
-        null,
-        null
-      ],
-      "netChg": -1,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Key Capital Management, INC",
       "filerCik": "2107249",
       "shares": [
@@ -19998,6 +20016,24 @@
         null
       ],
       "netChg": -5,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Elequin Capital, LP",
+      "filerCik": "1810873",
+      "shares": [
+        null,
+        1,
+        null,
+        null
+      ],
+      "netChg": -1,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
