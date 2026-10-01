@@ -1,30 +1,21 @@
 {
-  "asOf": "2026-10-01T17:44:11.399Z",
-  "status": "WARN",
+  "asOf": "2026-10-01T19:39:19.825Z",
+  "status": "OK",
   "counts": {
-    "hei": 0,
-    "heia": 1
+    "hei": 778,
+    "heia": 670
   },
+  "period": "2026-06-30",
   "findings": [
     {
-      "level": "WARN",
-      "check": "holder-drop",
-      "detail": "hei: current holders 0 vs 778 last run (−100%)"
-    },
-    {
-      "level": "WARN",
-      "check": "holder-drop",
-      "detail": "heia: current holders 1 vs 670 last run (−100%)"
+      "level": "INFO",
+      "check": "cross-check",
+      "detail": "hei: cross-checked 14 top holders vs SEC, 0 mismatch(es)"
     },
     {
       "level": "INFO",
       "check": "cross-check",
-      "detail": "hei: cross-checked 0 top holders vs SEC, 0 mismatch(es)"
-    },
-    {
-      "level": "INFO",
-      "check": "cross-check",
-      "detail": "heia: cross-checked 1 top holders vs SEC, 0 mismatch(es)"
+      "detail": "heia: cross-checked 15 top holders vs SEC, 0 mismatch(es)"
     }
   ]
 }

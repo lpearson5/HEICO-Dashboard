@@ -25,6 +25,11 @@ function structural() {
   };
   const prior = load("self-audit.json");
   const counts = {};
+  // Detect a quarter rollover: when the current 13F period advances, the holder
+  // count legitimately drops as the new quarter's filings trickle in — so a drop
+  // across a rollover is expected, not a data problem.
+  const period = load("hei.json")?.currentPeriod ?? null;
+  const rollover = !!(prior?.period && period && prior.period !== period);
 
   for (const t of ["hei", "heia"]) {
     const d = load(`${t}.json`);
@@ -52,7 +57,7 @@ function structural() {
 
     // 5. holder-count drop vs prior run (FTS dropout)
     const pc = prior?.counts?.[t];
-    if (pc && counts[t] < pc * 0.90) add("WARN", "holder-drop", `${t}: current holders ${counts[t]} vs ${pc} last run (−${Math.round((1 - counts[t] / pc) * 100)}%)`);
+    if (pc && counts[t] < pc * 0.90) add(rollover ? "INFO" : "WARN", "holder-drop", `${t}: current holders ${counts[t]} vs ${pc} last run (−${Math.round((1 - counts[t] / pc) * 100)}%)${rollover ? ` — quarter rolled to ${period}, filings still arriving (expected)` : ""}`);
 
     // 6. staleness
     const age = (Date.now() - Date.parse(d.lastUpdated)) / 86_400_000;
@@ -73,7 +78,7 @@ function structural() {
     const age = (Date.now() - Date.parse(d[key])) / 86_400_000;
     if (age > days) add("WARN", "feed-stale", `${f} is ${age.toFixed(0)} days old (>${days})`);
   }
-  return counts;
+  return { counts, period };
 }
 
 // ── Independent SEC cross-check of the top holders ────────────────────────────────
@@ -120,13 +125,13 @@ async function crossCheck() {
 
 async function main() {
   console.log("=== Self-audit ===");
-  const counts = structural();
+  const { counts, period } = structural();
   try { await crossCheck(); } catch (e) { add("WARN", "cross-check", `cross-check errored: ${e.message}`); }
 
   const crit = findings.filter((f) => f.level === "CRITICAL");
   const warn = findings.filter((f) => f.level === "WARN");
   const status = crit.length ? "CRITICAL" : warn.length ? "WARN" : "OK";
-  const out = { asOf: new Date().toISOString(), status, counts, findings };
+  const out = { asOf: new Date().toISOString(), status, counts, period, findings };
   writeFileSync(join(DATA_DIR, "self-audit.json"), JSON.stringify(out, null, 2));
 
   // Alert file for the workflow → email (only on real problems, not INFO).

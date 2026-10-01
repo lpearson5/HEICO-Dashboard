@@ -176,8 +176,16 @@ function mostRecentCompleteQuarterEnd(today) {
 function pickPeriods(allHits, today) {
   const counts = {};
   for (const h of allHits) if (h.period) counts[h.period] = (counts[h.period] || 0) + 1;
+  // Don't advance to a new quarter the moment a single early filer appears — 13F
+  // filings for a quarter don't start arriving in force until ~45 days after it
+  // ends. Treat a quarter as "current" only once it has a REPRESENTATIVE number of
+  // filings; otherwise stay on the last fully-filed quarter. Without this, one
+  // early Q filer on the 1st of a new quarter flips the whole dashboard to the new
+  // period and strands everyone else as "Not Filed Yet".
+  const maxCount = Math.max(0, ...Object.values(counts));
+  const threshold = Math.max(15, Math.round(maxCount * 0.25));
   let current = mostRecentQuarterEnd(today);
-  for (let i = 0; i < 4 && !(counts[current] > 0); i++) current = priorQuarterEnd(current);
+  for (let i = 0; i < 5 && (counts[current] || 0) < threshold; i++) current = priorQuarterEnd(current);
   return { current, prior: priorQuarterEnd(current), counts };
 }
 

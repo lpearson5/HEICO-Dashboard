@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-10-01T17:21:48.187Z",
+  "lastUpdated": "2026-10-01T18:17:37.754Z",
   "summary": {
-    "institutions": 777,
-    "totalShares": 43757729,
+    "institutions": 778,
+    "totalShares": 43758683,
     "pctOut": 79.21000000000001,
     "newHolders": 120,
-    "sellouts": 86,
+    "sellouts": 85,
     "bought": 256,
-    "sold": 266,
+    "sold": 267,
     "held": 135
   },
   "top10": [
@@ -3130,24 +3130,6 @@
         null
       ],
       "netChg": -1477,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Baker Avenue Asset Management, LP",
-      "filerCik": "1432529",
-      "shares": [
-        null,
-        1306,
-        1630,
-        1870
-      ],
-      "netChg": -1306,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -13365,6 +13347,24 @@
       "voteNone": 0
     },
     {
+      "filerName": "Baker Avenue Asset Management, LP",
+      "filerCik": "1432529",
+      "shares": [
+        954,
+        1306,
+        1630,
+        1870
+      ],
+      "netChg": -352,
+      "currentValue": 339805,
+      "pctOut": 0,
+      "action": "Sold",
+      "discretion": "SOLE",
+      "voteSole": 636,
+      "voteShared": 0,
+      "voteNone": 318
+    },
+    {
       "filerName": "Florida Trust Wealth Management Co",
       "filerCik": "1651023",
       "shares": [
@@ -19575,13 +19575,13 @@
       "voteNone": null
     },
     {
-      "filerName": "PineBridge Investments, L.P.",
-      "filerCik": "1531721",
+      "filerName": "DT Investment Partners, LLC",
+      "filerCik": "1537621",
       "shares": [
         null,
         null,
-        null,
-        6095
+        66,
+        66
       ],
       "netChg": null,
       "currentValue": null,
@@ -19593,13 +19593,13 @@
       "voteNone": null
     },
     {
-      "filerName": "DT Investment Partners, LLC",
-      "filerCik": "1537621",
+      "filerName": "PineBridge Investments, L.P.",
+      "filerCik": "1531721",
       "shares": [
         null,
         null,
-        66,
-        66
+        null,
+        6095
       ],
       "netChg": null,
       "currentValue": null,
@@ -19719,13 +19719,13 @@
       "voteNone": null
     },
     {
-      "filerName": "WINNOW WEALTH LLC",
-      "filerCik": "2079687",
+      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
+      "filerCik": "1510434",
       "shares": [
         null,
         null,
-        1,
-        7
+        1447,
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -19737,13 +19737,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
-      "filerCik": "1510434",
+      "filerName": "WINNOW WEALTH LLC",
+      "filerCik": "2079687",
       "shares": [
         null,
         null,
-        1447,
-        null
+        1,
+        7
       ],
       "netChg": null,
       "currentValue": null,
@@ -19791,18 +19791,18 @@
       "voteNone": null
     },
     {
-      "filerName": "Davis Capital Management",
-      "filerCik": "1811806",
+      "filerName": "Legato Capital Management LLC",
+      "filerCik": "1442641",
       "shares": [
         null,
-        1,
-        1,
-        1
+        null,
+        1077,
+        null
       ],
-      "netChg": -1,
+      "netChg": null,
       "currentValue": null,
       "pctOut": null,
-      "action": "Sellout",
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19827,33 +19827,15 @@
       "voteNone": null
     },
     {
-      "filerName": "Legato Capital Management LLC",
-      "filerCik": "1442641",
+      "filerName": "Davis Capital Management",
+      "filerCik": "1811806",
       "shares": [
         null,
-        null,
-        1077,
-        null
+        1,
+        1,
+        1
       ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Baker Avenue Asset Management, LP",
-      "filerCik": "1432529",
-      "shares": [
-        null,
-        1306,
-        1630,
-        1870
-      ],
-      "netChg": -1306,
+      "netChg": -1,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
