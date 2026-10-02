@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-10-01T18:17:37.754Z",
+  "lastUpdated": "2026-10-02T16:37:20.290Z",
   "summary": {
     "institutions": 671,
     "totalShares": 70041288,
     "pctOut": 82.87,
-    "newHolders": 110,
+    "newHolders": 111,
     "sellouts": 62,
     "bought": 255,
-    "sold": 215,
+    "sold": 214,
     "held": 91
   },
   "top10": [
@@ -867,6 +867,24 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 1727
+    },
+    {
+      "filerName": "OpenArc Corporate Advisory, LLC",
+      "filerCik": "2111345",
+      "shares": [
+        1681,
+        null,
+        1503,
+        null
+      ],
+      "netChg": 1681,
+      "currentValue": 433547,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 1681
     },
     {
       "filerName": "Argent Trust Co",
@@ -3735,7 +3753,7 @@
       "voteNone": 0
     },
     {
-      "filerName": "RAYMOND JAMES FINANCIAL INC  (RJF)",
+      "filerName": "RAYMOND JAMES FINANCIAL INC  (RJF, RJF-PB)",
       "filerCik": "720005",
       "shares": [
         521035,
@@ -10777,14 +10795,14 @@
       "filerCik": "2111345",
       "shares": [
         1681,
-        1730,
+        null,
         1503,
         null
       ],
-      "netChg": -49,
+      "netChg": 1681,
       "currentValue": 433547,
       "pctOut": 0,
-      "action": "Sold",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -13730,7 +13748,7 @@
       "shares": [
         71,
         86,
-        42,
+        null,
         42
       ],
       "netChg": -15,
@@ -14625,24 +14643,6 @@
       "voteNone": 12
     },
     {
-      "filerName": "Hughes Financial Services, LLC",
-      "filerCik": "2054465",
-      "shares": [
-        12,
-        2,
-        6,
-        null
-      ],
-      "netChg": 10,
-      "currentValue": 3095,
-      "pctOut": 0,
-      "action": "Bought",
-      "discretion": "SOLE",
-      "voteSole": 12,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
       "filerName": "Advocate Investing Services LLC",
       "filerCik": "2110509",
       "shares": [
@@ -14659,6 +14659,24 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 12
+    },
+    {
+      "filerName": "Hughes Financial Services, LLC",
+      "filerCik": "2054465",
+      "shares": [
+        12,
+        2,
+        6,
+        null
+      ],
+      "netChg": 10,
+      "currentValue": 3095,
+      "pctOut": 0,
+      "action": "Bought",
+      "discretion": "SOLE",
+      "voteSole": 12,
+      "voteShared": 0,
+      "voteNone": 0
     },
     {
       "filerName": "HANTZ FINANCIAL SERVICES, INC.",

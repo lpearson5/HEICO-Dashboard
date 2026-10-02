@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T18:17:37.754Z",
+  "lastUpdated": "2026-10-02T16:37:20.290Z",
   "peers": [
     {
       "name": "RTX Corp.",
@@ -51,11 +51,6 @@
           "value": 4619147636
         },
         {
-          "filer": "Fisher Asset Management, LLC",
-          "shares": 22872255,
-          "value": 4339553116
-        },
-        {
           "filer": "Capital International Investors",
           "shares": 22098385,
           "value": 4191120402
@@ -104,6 +99,11 @@
           "filer": "FMR LLC",
           "shares": 9868869,
           "value": 1872420616
+        },
+        {
+          "filer": "WELLS FARGO & COMPANY/MN  (WFC, WFCNP, WFC-PA, WFC-PC, WFC-PD, WFC-PL, WFC-PY, WFC-PZ)",
+          "shares": 8800226,
+          "value": 1669666796
         }
       ],
       "topFunds": [
@@ -342,16 +342,16 @@
           "value": 2183074909
         },
         {
+          "fund": "SPDR S&P 500 ETF TRUST  (SPY)",
+          "manager": "State Street",
+          "shares": 9553726,
+          "value": 2068095067
+        },
+        {
           "fund": "VANGUARD INDEX FUNDS",
           "manager": "Vanguard Group",
           "shares": 8492923,
           "value": 1838463042
-        },
-        {
-          "fund": "SPDR S&P 500 ETF TRUST  (SPY)",
-          "manager": "State Street",
-          "shares": 9156666,
-          "value": 1822451234
         },
         {
           "fund": "Fidelity Rutland Square Trust II",
@@ -423,7 +423,7 @@
           "fund": "HARBOR FUNDS",
           "manager": "",
           "shares": 2246085,
-          "value": 514420848
+          "value": 485468812
         },
         {
           "fund": "FIDELITY CONCORD STREET TRUST",
@@ -1320,12 +1320,6 @@
           "value": 32803917
         },
         {
-          "fund": "PRUDENTIAL SERIES FUND",
-          "manager": "PGIM (Prudential)",
-          "shares": 363742,
-          "value": 31343648
-        },
-        {
           "fund": "INVESCO EXCHANGE-TRADED FUND TRUST",
           "manager": "Invesco",
           "shares": 430345,
@@ -1366,6 +1360,12 @@
           "manager": "",
           "shares": 341103,
           "value": 23392844
+        },
+        {
+          "fund": "T. Rowe Price New Horizons Fund, Inc.",
+          "manager": "T. Rowe Price",
+          "shares": 285168,
+          "value": 22987392
         }
       ]
     },

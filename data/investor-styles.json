@@ -1,9 +1,9 @@
 {
-  "asOf": "2026-10-01T19:39:00.451Z",
+  "asOf": "2026-10-02T16:55:34.273Z",
   "period": "2026-06-30",
   "hei": {
-    "total": 778,
-    "totalShares": 43758683,
+    "total": 777,
+    "totalShares": 43756055,
     "categories": [
       {
         "style": "Growth",
@@ -281,11 +281,11 @@
       },
       {
         "style": "Momentum/Quant",
-        "holders": 64,
-        "holderPct": 8.2,
-        "shares": 3613839,
+        "holders": 63,
+        "holderPct": 8.1,
+        "shares": 3611211,
         "sharePct": 8.3,
-        "estCount": 36,
+        "estCount": 35,
         "examples": [
           "TWO SIGMA INVESTMENTS, LP",
           "BALYASNY ASSET MANAGEMENT L.P.",
@@ -520,11 +520,6 @@
             "est": false
           },
           {
-            "name": "JACOBS LEVY EQUITY MANAGEMENT, INC",
-            "shares": 2628,
-            "est": true
-          },
-          {
             "name": "Hartree Partners, LP",
             "shares": 2500,
             "est": true
@@ -649,7 +644,7 @@
       {
         "style": "Blend/Core",
         "holders": 584,
-        "holderPct": 75.1,
+        "holderPct": 75.2,
         "shares": 26290533,
         "sharePct": 60.1,
         "estCount": 128,
@@ -832,7 +827,7 @@
             "est": false
           },
           {
-            "name": "RAYMOND JAMES FINANCIAL INC  (RJF)",
+            "name": "RAYMOND JAMES FINANCIAL INC  (RJF, RJF-PB)",
             "shares": 121516,
             "est": false
           },
@@ -3512,12 +3507,12 @@
             "est": false
           },
           {
-            "name": "Hughes Financial Services, LLC",
+            "name": "Ancora Advisors LLC",
             "shares": 5,
             "est": false
           },
           {
-            "name": "Ancora Advisors LLC",
+            "name": "Hughes Financial Services, LLC",
             "shares": 5,
             "est": false
           },
@@ -3999,7 +3994,7 @@
     "coverage": {
       "curated": 160,
       "heuristic": 352,
-      "estimated": 187,
+      "estimated": 186,
       "unknown": 79
     }
   },
@@ -4617,7 +4612,7 @@
             "est": false
           },
           {
-            "name": "RAYMOND JAMES FINANCIAL INC  (RJF)",
+            "name": "RAYMOND JAMES FINANCIAL INC  (RJF, RJF-PB)",
             "shares": 521035,
             "est": false
           },
@@ -6952,14 +6947,14 @@
             "est": false
           },
           {
-            "name": "Hughes Financial Services, LLC",
-            "shares": 12,
-            "est": false
-          },
-          {
             "name": "Advocate Investing Services LLC",
             "shares": 12,
             "est": true
+          },
+          {
+            "name": "Hughes Financial Services, LLC",
+            "shares": 12,
+            "est": false
           },
           {
             "name": "HANTZ FINANCIAL SERVICES, INC.",
@@ -7464,13 +7459,13 @@
     }
   },
   "combined": {
-    "total": 1011,
-    "totalShares": 113799971,
+    "total": 1010,
+    "totalShares": 113797343,
     "categories": [
       {
         "style": "Growth",
         "holders": 48,
-        "holderPct": 4.7,
+        "holderPct": 4.8,
         "shares": 23850173,
         "sharePct": 21,
         "estCount": 18,
@@ -7858,11 +7853,11 @@
       },
       {
         "style": "Momentum/Quant",
-        "holders": 84,
-        "holderPct": 8.3,
-        "shares": 8216550,
+        "holders": 83,
+        "holderPct": 8.2,
+        "shares": 8213922,
         "sharePct": 7.2,
-        "estCount": 46,
+        "estCount": 45,
         "examples": [
           "ARROWSTREET CAPITAL, LIMITED PARTNERSHIP",
           "MILLENNIUM MANAGEMENT LLC",
@@ -8212,11 +8207,6 @@
             "est": true
           },
           {
-            "name": "JACOBS LEVY EQUITY MANAGEMENT, INC",
-            "shares": 2628,
-            "est": true
-          },
-          {
             "name": "Hartree Partners, LP",
             "shares": 2500,
             "est": true
@@ -8326,7 +8316,7 @@
       {
         "style": "Blend/Core",
         "holders": 737,
-        "holderPct": 72.9,
+        "holderPct": 73,
         "shares": 75275181,
         "sharePct": 66.1,
         "estCount": 159,
@@ -8429,7 +8419,7 @@
             "est": false
           },
           {
-            "name": "RAYMOND JAMES FINANCIAL INC  (RJF)",
+            "name": "RAYMOND JAMES FINANCIAL INC  (RJF, RJF-PB)",
             "shares": 642551,
             "est": false
           },
@@ -12626,7 +12616,7 @@
     "coverage": {
       "curated": 192,
       "heuristic": 465,
-      "estimated": 238,
+      "estimated": 237,
       "unknown": 116
     }
   }

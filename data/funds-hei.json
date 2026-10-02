@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-10-01T18:17:37.754Z",
+  "lastUpdated": "2026-10-02T16:37:20.290Z",
   "summary": {
-    "funds": 439,
-    "totalShares": 19751672,
-    "pctOut": 35.754999999999995,
+    "funds": 438,
+    "totalShares": 19751088,
+    "pctOut": 35.754000000000005,
     "newFunds": 53,
-    "sellouts": 53,
+    "sellouts": 45,
     "linkedManagers": 25,
-    "linkedShares": 16988593
+    "linkedShares": 16988009
   },
   "newHolders": [
     {
@@ -754,25 +754,11 @@
       "lastReport": "2026-02-28"
     },
     {
-      "fundName": "AST PGIM Aggressive Multi-Asset Portfolio",
-      "registrant": "Advanced Series Trust",
-      "manager": "PGIM (Prudential)",
-      "lastShares": 18500,
-      "lastReport": "2025-06-30"
-    },
-    {
       "fundName": "WisdomTree U.S. Quality Dividend Growth Fund",
       "registrant": "WisdomTree Trust",
       "manager": "WisdomTree",
       "lastShares": 16991,
       "lastReport": "2025-09-30"
-    },
-    {
-      "fundName": "AST Balanced Asset Allocation Portfolio",
-      "registrant": "Advanced Series Trust",
-      "manager": "",
-      "lastShares": 13800,
-      "lastReport": "2025-06-30"
     },
     {
       "fundName": "MML Invesco Discovery Mid Cap Fund",
@@ -794,20 +780,6 @@
       "manager": "",
       "lastShares": 10726,
       "lastReport": "2026-01-31"
-    },
-    {
-      "fundName": "AST Multi-Asset Diversified Portfolio",
-      "registrant": "Advanced Series Trust",
-      "manager": "",
-      "lastShares": 9400,
-      "lastReport": "2025-06-30"
-    },
-    {
-      "fundName": "AST Aggressive Asset Allocation Portfolio",
-      "registrant": "Advanced Series Trust",
-      "manager": "",
-      "lastShares": 8500,
-      "lastReport": "2025-06-30"
     },
     {
       "fundName": "VANGUARD U.S. MOMENTUM FACTOR ETF",
@@ -859,13 +831,6 @@
       "lastReport": "2025-06-30"
     },
     {
-      "fundName": "PGIM Balanced Fund",
-      "registrant": "Prudential Investment Portfolios, Inc.",
-      "manager": "PGIM (Prudential)",
-      "lastShares": 3600,
-      "lastReport": "2025-06-30"
-    },
-    {
       "fundName": "Inspire Fidelis Multi Factor ETF",
       "registrant": "Northern Lights Fund Trust IV",
       "manager": "",
@@ -887,32 +852,11 @@
       "lastReport": "2025-07-31"
     },
     {
-      "fundName": "AST Preservation Asset Allocation Portfolio",
-      "registrant": "Advanced Series Trust",
-      "manager": "",
-      "lastShares": 2100,
-      "lastReport": "2025-06-30"
-    },
-    {
-      "fundName": "AST Multi-Asset Diversified Plus Portfolio",
-      "registrant": "Advanced Series Trust",
-      "manager": "",
-      "lastShares": 2000,
-      "lastReport": "2025-06-30"
-    },
-    {
       "fundName": "Motley Fool Next Index ETF",
       "registrant": "RBB Fund, Inc.",
       "manager": "",
       "lastShares": 1855,
       "lastReport": "2026-02-28"
-    },
-    {
-      "fundName": "AST Quantitative Modeling Portfolio",
-      "registrant": "Advanced Series Trust",
-      "manager": "",
-      "lastShares": 1600,
-      "lastReport": "2025-06-30"
     },
     {
       "fundName": "Sustainable Aware Equity Fund",
@@ -950,13 +894,6 @@
       "lastReport": "2025-07-31"
     },
     {
-      "fundName": "AST Large-Cap Equity Portfolio",
-      "registrant": "Advanced Series Trust",
-      "manager": "",
-      "lastShares": 900,
-      "lastReport": "2025-06-30"
-    },
-    {
       "fundName": "Goldman Sachs U.S. Equity Insights Fund",
       "registrant": "Goldman Sachs Trust",
       "manager": "Goldman Sachs",
@@ -969,6 +906,13 @@
       "manager": "",
       "lastShares": 656,
       "lastReport": "2025-09-30"
+    },
+    {
+      "fundName": "Nuveen Nasdaq 100 Dynamic Overwrite Fund",
+      "registrant": "Nuveen NASDAQ 100 Dynamic Overwrite Fund",
+      "manager": "Nuveen (TIAA)",
+      "lastShares": 584,
+      "lastReport": "2025-12-31"
     },
     {
       "fundName": "PGIM Jennison NextGeneration Global Opportunities Fund",
@@ -2085,8 +2029,8 @@
     },
     {
       "manager": "Nuveen (TIAA)",
-      "fundCount": 7,
-      "shares": 113450,
+      "fundCount": 6,
+      "shares": 112866,
       "funds": [
         {
           "fundName": "Nuveen Growth Opportunities ETF",
@@ -2111,10 +2055,6 @@
         {
           "fundName": "Nuveen Life Stock Index Fund",
           "shares": 627
-        },
-        {
-          "fundName": "Nuveen Nasdaq 100 Dynamic Overwrite Fund",
-          "shares": 584
         }
       ]
     },
@@ -6889,19 +6829,6 @@
       "change": -4788,
       "pctOut": 0.0011,
       "action": "Sold"
-    },
-    {
-      "fundName": "Nuveen Nasdaq 100 Dynamic Overwrite Fund",
-      "registrant": "Nuveen NASDAQ 100 Dynamic Overwrite Fund",
-      "manager": "Nuveen (TIAA)",
-      "cik": "1608741",
-      "shares": 584,
-      "value": 160133,
-      "reportDate": "2026-03-31",
-      "priorShares": 584,
-      "change": 0,
-      "pctOut": 0.0011,
-      "action": "No Change"
     },
     {
       "fundName": "SA U.S. Core Market Fund",

@@ -8,16 +8,16 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-10-01T18:17:37.754Z",
+  "lastUpdated": "2026-10-02T16:37:20.290Z",
   "summary": {
-    "institutions": 778,
-    "totalShares": 43758683,
+    "institutions": 777,
+    "totalShares": 43756055,
     "pctOut": 79.21000000000001,
     "newHolders": 120,
-    "sellouts": 85,
+    "sellouts": 86,
     "bought": 256,
     "sold": 267,
-    "held": 135
+    "held": 134
   },
   "top10": [
     {
@@ -2905,6 +2905,24 @@
       "voteNone": null
     },
     {
+      "filerName": "JACOBS LEVY EQUITY MANAGEMENT, INC",
+      "filerCik": "884414",
+      "shares": [
+        null,
+        2628,
+        2628,
+        2628
+      ],
+      "netChg": -2628,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Expressive Wealth LLC",
       "filerCik": "2026980",
       "shares": [
@@ -3432,7 +3450,7 @@
       "shares": [
         null,
         600,
-        null,
+        600,
         600
       ],
       "netChg": -600,
@@ -5031,7 +5049,7 @@
       "voteNone": 0
     },
     {
-      "filerName": "RAYMOND JAMES FINANCIAL INC  (RJF)",
+      "filerName": "RAYMOND JAMES FINANCIAL INC  (RJF, RJF-PB)",
       "filerCik": "720005",
       "shares": [
         121516,
@@ -7736,7 +7754,7 @@
       "shares": [
         12927,
         16243,
-        22765,
+        null,
         24799
       ],
       "netChg": -3316,
@@ -10769,24 +10787,6 @@
       "action": "Bought",
       "discretion": "DFND",
       "voteSole": 2632,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "JACOBS LEVY EQUITY MANAGEMENT, INC",
-      "filerCik": "884414",
-      "shares": [
-        2628,
-        2628,
-        2628,
-        2628
-      ],
-      "netChg": 0,
-      "currentValue": 936067,
-      "pctOut": 0,
-      "action": "No Change",
-      "discretion": "SOLE",
-      "voteSole": 2628,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -17523,24 +17523,6 @@
       "voteNone": 5
     },
     {
-      "filerName": "Hughes Financial Services, LLC",
-      "filerCik": "2054465",
-      "shares": [
-        5,
-        null,
-        null,
-        null
-      ],
-      "netChg": 5,
-      "currentValue": 1781,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 5,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
       "filerName": "Ancora Advisors LLC",
       "filerCik": "1446114",
       "shares": [
@@ -17553,6 +17535,24 @@
       "currentValue": 1781,
       "pctOut": 0,
       "action": "Sold",
+      "discretion": "SOLE",
+      "voteSole": 5,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "Hughes Financial Services, LLC",
+      "filerCik": "2054465",
+      "shares": [
+        5,
+        null,
+        null,
+        null
+      ],
+      "netChg": 5,
+      "currentValue": 1781,
+      "pctOut": 0,
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 5,
       "voteShared": 0,
@@ -18554,7 +18554,7 @@
       "shares": [
         null,
         600,
-        null,
+        600,
         600
       ],
       "netChg": -600,
@@ -19593,24 +19593,6 @@
       "voteNone": null
     },
     {
-      "filerName": "PineBridge Investments, L.P.",
-      "filerCik": "1531721",
-      "shares": [
-        null,
-        null,
-        null,
-        6095
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "CERTUITY, LLC",
       "filerCik": "1800752",
       "shares": [
@@ -19719,13 +19701,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
-      "filerCik": "1510434",
+      "filerName": "WINNOW WEALTH LLC",
+      "filerCik": "2079687",
       "shares": [
         null,
         null,
-        1447,
-        null
+        1,
+        7
       ],
       "netChg": null,
       "currentValue": null,
@@ -19737,13 +19719,13 @@
       "voteNone": null
     },
     {
-      "filerName": "WINNOW WEALTH LLC",
-      "filerCik": "2079687",
+      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
+      "filerCik": "1510434",
       "shares": [
         null,
         null,
-        1,
-        7
+        1447,
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -19791,18 +19773,18 @@
       "voteNone": null
     },
     {
-      "filerName": "Legato Capital Management LLC",
-      "filerCik": "1442641",
+      "filerName": "Davis Capital Management",
+      "filerCik": "1811806",
       "shares": [
         null,
-        null,
-        1077,
-        null
+        1,
+        1,
+        1
       ],
-      "netChg": null,
+      "netChg": -1,
       "currentValue": null,
       "pctOut": null,
-      "action": "No Change",
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19827,18 +19809,18 @@
       "voteNone": null
     },
     {
-      "filerName": "Davis Capital Management",
-      "filerCik": "1811806",
+      "filerName": "Legato Capital Management LLC",
+      "filerCik": "1442641",
       "shares": [
         null,
-        1,
-        1,
-        1
+        null,
+        1077,
+        null
       ],
-      "netChg": -1,
+      "netChg": null,
       "currentValue": null,
       "pctOut": null,
-      "action": "Sellout",
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19989,24 +19971,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Elequin Capital, LP",
-      "filerCik": "1810873",
-      "shares": [
-        null,
-        1,
-        null,
-        null
-      ],
-      "netChg": -1,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Key Capital Management, INC",
       "filerCik": "2107249",
       "shares": [
@@ -20016,6 +19980,24 @@
         null
       ],
       "netChg": -5,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Elequin Capital, LP",
+      "filerCik": "1810873",
+      "shares": [
+        null,
+        1,
+        null,
+        null
+      ],
+      "netChg": -1,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -20250,6 +20232,24 @@
         null
       ],
       "netChg": -25,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "JACOBS LEVY EQUITY MANAGEMENT, INC",
+      "filerCik": "884414",
+      "shares": [
+        null,
+        2628,
+        2628,
+        2628
+      ],
+      "netChg": -2628,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",

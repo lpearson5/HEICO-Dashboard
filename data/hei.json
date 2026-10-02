@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-10-01T18:17:37.754Z",
+  "lastUpdated": "2026-10-02T16:37:20.290Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -9078,18 +9078,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Hughes Financial Services, LLC",
-      "filerCik": "2054465",
-      "currentShares": 5,
-      "priorShares": null,
-      "change": 5,
-      "pctChange": 100,
-      "currentValue": 1781,
-      "action": "New Position",
-      "firstSeen": "2026-07-20",
-      "newThisWeek": false
-    },
-    {
       "filerName": "JPL Wealth Management, LLC",
       "filerCik": "2010710",
       "currentShares": 5,
@@ -9111,6 +9099,18 @@
       "currentValue": 1781,
       "action": "Sold",
       "firstSeen": "2026-08-14",
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Hughes Financial Services, LLC",
+      "filerCik": "2054465",
+      "currentShares": 5,
+      "priorShares": null,
+      "change": 5,
+      "pctChange": 100,
+      "currentValue": 1781,
+      "action": "New Position",
+      "firstSeen": "2026-07-20",
       "newThisWeek": false
     },
     {
@@ -9870,10 +9870,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Elequin Capital, LP",
-      "filerCik": "1810873",
+      "filerName": "Key Capital Management, INC",
+      "filerCik": "2107249",
       "currentShares": null,
-      "priorShares": 1,
+      "priorShares": 5,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -9882,10 +9882,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Key Capital Management, INC",
-      "filerCik": "2107249",
+      "filerName": "Elequin Capital, LP",
+      "filerCik": "1810873",
       "currentShares": null,
-      "priorShares": 5,
+      "priorShares": 1,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -10254,18 +10254,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Qube Research & Technologies Ltd",
-      "filerCik": "1729829",
-      "currentShares": null,
-      "priorShares": 73807,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
-      "firstSeen": "2026-08-14",
-      "newThisWeek": false
-    },
-    {
       "filerName": "Root Financial Partners, LLC",
       "filerCik": "1977181",
       "currentShares": null,
@@ -10347,6 +10335,18 @@
       "currentValue": null,
       "action": "Sell Out",
       "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Qube Research & Technologies Ltd",
+      "filerCik": "1729829",
+      "currentShares": null,
+      "priorShares": 73807,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
+      "firstSeen": "2026-08-14",
       "newThisWeek": false
     }
   ]

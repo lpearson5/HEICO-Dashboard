@@ -2,15 +2,15 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-10-01T18:17:37.754Z",
+  "lastUpdated": "2026-10-02T16:37:20.290Z",
   "summary": {
     "funds": 349,
-    "totalShares": 28265754,
-    "pctOut": 33.4444,
+    "totalShares": 28264919,
+    "pctOut": 33.443400000000004,
     "newFunds": 15,
-    "sellouts": 34,
+    "sellouts": 32,
     "linkedManagers": 24,
-    "linkedShares": 23978720
+    "linkedShares": 23977885
   },
   "newHolders": [
     {
@@ -316,13 +316,6 @@
       "lastReport": "2025-12-31"
     },
     {
-      "fundName": "AST PGIM Aggressive Multi-Asset Portfolio",
-      "registrant": "Advanced Series Trust",
-      "manager": "PGIM (Prudential)",
-      "lastShares": 4800,
-      "lastReport": "2025-06-30"
-    },
-    {
       "fundName": "AB All Market Real Return Portfolio",
       "registrant": "AB BOND FUND, INC.",
       "manager": "",
@@ -363,13 +356,6 @@
       "manager": "FMR (Fidelity)",
       "lastShares": 2549,
       "lastReport": "2025-12-31"
-    },
-    {
-      "fundName": "PGIM Balanced Fund",
-      "registrant": "Prudential Investment Portfolios, Inc.",
-      "manager": "PGIM (Prudential)",
-      "lastShares": 1800,
-      "lastReport": "2025-06-30"
     },
     {
       "fundName": "Fidelity Flex Mid Cap Index Fund",
@@ -532,7 +518,7 @@
     {
       "manager": "Principal",
       "fundCount": 7,
-      "shares": 5545928,
+      "shares": 5545093,
       "funds": [
         {
           "fundName": "MidCap Fund",
@@ -560,7 +546,7 @@
         },
         {
           "fundName": "Blue Chip Account",
-          "shares": 1776
+          "shares": 941
         }
       ]
     },
@@ -1722,8 +1708,8 @@
       "manager": "",
       "cik": "5506",
       "shares": 175566,
-      "value": 36696805,
-      "reportDate": "2026-04-30",
+      "value": 45169620,
+      "reportDate": "2026-07-31",
       "priorShares": 175566,
       "change": 0,
       "pctOut": 0.2077,
@@ -4317,19 +4303,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Blue Chip Account",
-      "registrant": "Principal Variable Contract Funds, Inc",
-      "manager": "Principal",
-      "cik": "12601",
-      "shares": 1776,
-      "value": 458048,
-      "reportDate": "2026-06-30",
-      "priorShares": 941,
-      "change": 835,
-      "pctOut": 0.0021,
-      "action": "Bought"
-    },
-    {
       "fundName": "FlexShares Morningstar US Market Factor Tilt Index Fund",
       "registrant": "FlexShares Trust",
       "manager": "Northern Trust",
@@ -4731,6 +4704,19 @@
       "change": 154,
       "pctOut": 0.0011,
       "action": "Bought"
+    },
+    {
+      "fundName": "Blue Chip Account",
+      "registrant": "Principal Variable Contract Funds, Inc",
+      "manager": "Principal",
+      "cik": "12601",
+      "shares": 941,
+      "value": 198636,
+      "reportDate": "2026-03-31",
+      "priorShares": 1583,
+      "change": -642,
+      "pctOut": 0.0011,
+      "action": "Sold"
     },
     {
       "fundName": "Invesco Russell 1000 Dynamic Multifactor ETF",
