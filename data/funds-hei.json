@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-10-02T16:37:20.290Z",
+  "lastUpdated": "2026-10-03T15:08:27.909Z",
   "summary": {
     "funds": 438,
-    "totalShares": 19751088,
-    "pctOut": 35.754000000000005,
-    "newFunds": 53,
-    "sellouts": 45,
-    "linkedManagers": 25,
-    "linkedShares": 16988009
+    "totalShares": 19751610,
+    "pctOut": 35.7549,
+    "newFunds": 52,
+    "sellouts": 43,
+    "linkedManagers": 24,
+    "linkedShares": 16988531
   },
   "newHolders": [
     {
@@ -651,19 +651,6 @@
       "action": "New"
     },
     {
-      "fundName": "Hartford Schroders Diversified Opportunities Fund",
-      "registrant": "HARTFORD MUTUAL FUNDS II, INC",
-      "manager": "Hartford",
-      "cik": "49905",
-      "shares": 62,
-      "value": 22094,
-      "reportDate": "2026-07-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.00009999999999999999,
-      "action": "New"
-    },
-    {
       "fundName": "Fidelity Enhanced Mid Cap Growth ETF",
       "registrant": "Fidelity Covington Trust",
       "manager": "FMR (Fidelity)",
@@ -866,13 +853,6 @@
       "lastReport": "2026-01-31"
     },
     {
-      "fundName": "Adaptive Core ETF",
-      "registrant": "Collaborative Investment Series Trust",
-      "manager": "",
-      "lastShares": 1296,
-      "lastReport": "2025-06-30"
-    },
-    {
       "fundName": "Innovator IBD(R) 50 ETF",
       "registrant": "Innovator ETFs Trust",
       "manager": "",
@@ -906,13 +886,6 @@
       "manager": "",
       "lastShares": 656,
       "lastReport": "2025-09-30"
-    },
-    {
-      "fundName": "Nuveen Nasdaq 100 Dynamic Overwrite Fund",
-      "registrant": "Nuveen NASDAQ 100 Dynamic Overwrite Fund",
-      "manager": "Nuveen (TIAA)",
-      "lastShares": 584,
-      "lastReport": "2025-12-31"
     },
     {
       "fundName": "PGIM Jennison NextGeneration Global Opportunities Fund",
@@ -2029,8 +2002,8 @@
     },
     {
       "manager": "Nuveen (TIAA)",
-      "fundCount": 6,
-      "shares": 112866,
+      "fundCount": 7,
+      "shares": 113450,
       "funds": [
         {
           "fundName": "Nuveen Growth Opportunities ETF",
@@ -2055,6 +2028,10 @@
         {
           "fundName": "Nuveen Life Stock Index Fund",
           "shares": 627
+        },
+        {
+          "fundName": "Nuveen Nasdaq 100 Dynamic Overwrite Fund",
+          "shares": 584
         }
       ]
     },
@@ -2238,17 +2215,6 @@
         {
           "fundName": "FlexShares Morningstar US Market Factor Tilt Index Fund",
           "shares": 1169
-        }
-      ]
-    },
-    {
-      "manager": "Hartford",
-      "fundCount": 1,
-      "shares": 62,
-      "funds": [
-        {
-          "fundName": "Hartford Schroders Diversified Opportunities Fund",
-          "shares": 62
         }
       ]
     }
@@ -6831,6 +6797,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Nuveen Nasdaq 100 Dynamic Overwrite Fund",
+      "registrant": "Nuveen NASDAQ 100 Dynamic Overwrite Fund",
+      "manager": "Nuveen (TIAA)",
+      "cik": "1608741",
+      "shares": 584,
+      "value": 160133,
+      "reportDate": "2026-03-31",
+      "priorShares": 584,
+      "change": 0,
+      "pctOut": 0.0011,
+      "action": "No Change"
+    },
+    {
       "fundName": "SA U.S. Core Market Fund",
       "registrant": "SA FUNDS INVESTMENT TRUST",
       "manager": "",
@@ -7622,19 +7601,6 @@
       "change": 0,
       "pctOut": 0.00009999999999999999,
       "action": "No Change"
-    },
-    {
-      "fundName": "Hartford Schroders Diversified Opportunities Fund",
-      "registrant": "HARTFORD MUTUAL FUNDS II, INC",
-      "manager": "Hartford",
-      "cik": "49905",
-      "shares": 62,
-      "value": 22094,
-      "reportDate": "2026-07-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.00009999999999999999,
-      "action": "New"
     },
     {
       "fundName": "Fidelity Enhanced Mid Cap Growth ETF",

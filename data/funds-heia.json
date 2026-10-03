@@ -2,15 +2,15 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-10-02T16:37:20.290Z",
+  "lastUpdated": "2026-10-03T15:08:27.909Z",
   "summary": {
     "funds": 349,
-    "totalShares": 28264919,
-    "pctOut": 33.443400000000004,
-    "newFunds": 15,
+    "totalShares": 28265754,
+    "pctOut": 33.4444,
+    "newFunds": 16,
     "sellouts": 32,
     "linkedManagers": 24,
-    "linkedShares": 23977885
+    "linkedShares": 23978720
   },
   "newHolders": [
     {
@@ -154,6 +154,19 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.0009,
+      "action": "New"
+    },
+    {
+      "fundName": "AB US Equity ETF",
+      "registrant": "AB Active ETFs, Inc.",
+      "manager": "",
+      "cik": "1496608",
+      "shares": 560,
+      "value": 145494,
+      "reportDate": "2026-05-31",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0007,
       "action": "New"
     },
     {
@@ -518,7 +531,7 @@
     {
       "manager": "Principal",
       "fundCount": 7,
-      "shares": 5545093,
+      "shares": 5545928,
       "funds": [
         {
           "fundName": "MidCap Fund",
@@ -546,7 +559,7 @@
         },
         {
           "fundName": "Blue Chip Account",
-          "shares": 941
+          "shares": 1776
         }
       ]
     },
@@ -4303,6 +4316,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Blue Chip Account",
+      "registrant": "Principal Variable Contract Funds, Inc",
+      "manager": "Principal",
+      "cik": "12601",
+      "shares": 1776,
+      "value": 458048,
+      "reportDate": "2026-06-30",
+      "priorShares": 941,
+      "change": 835,
+      "pctOut": 0.0021,
+      "action": "Bought"
+    },
+    {
       "fundName": "FlexShares Morningstar US Market Factor Tilt Index Fund",
       "registrant": "FlexShares Trust",
       "manager": "Northern Trust",
@@ -4706,19 +4732,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Blue Chip Account",
-      "registrant": "Principal Variable Contract Funds, Inc",
-      "manager": "Principal",
-      "cik": "12601",
-      "shares": 941,
-      "value": 198636,
-      "reportDate": "2026-03-31",
-      "priorShares": 1583,
-      "change": -642,
-      "pctOut": 0.0011,
-      "action": "Sold"
-    },
-    {
       "fundName": "Invesco Russell 1000 Dynamic Multifactor ETF",
       "registrant": "Invesco Exchange-Traded Self-Indexed Fund Trust",
       "manager": "Invesco",
@@ -4986,10 +4999,10 @@
       "shares": 560,
       "value": 145494,
       "reportDate": "2026-05-31",
-      "priorShares": 560,
-      "change": 0,
+      "priorShares": null,
+      "change": null,
       "pctOut": 0.0007,
-      "action": "No Change"
+      "action": "New"
     },
     {
       "fundName": "Aristotle Small/Mid Cap Equity Fund",

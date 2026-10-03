@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T16:37:20.290Z",
+  "lastUpdated": "2026-10-03T15:08:27.909Z",
   "peers": [
     {
       "name": "RTX Corp.",
@@ -51,6 +51,11 @@
           "value": 4619147636
         },
         {
+          "filer": "Fisher Asset Management, LLC",
+          "shares": 22872255,
+          "value": 4339553116
+        },
+        {
           "filer": "Capital International Investors",
           "shares": 22098385,
           "value": 4191120402
@@ -99,11 +104,6 @@
           "filer": "FMR LLC",
           "shares": 9868869,
           "value": 1872420616
-        },
-        {
-          "filer": "WELLS FARGO & COMPANY/MN  (WFC, WFCNP, WFC-PA, WFC-PC, WFC-PD, WFC-PL, WFC-PY, WFC-PZ)",
-          "shares": 8800226,
-          "value": 1669666796
         }
       ],
       "topFunds": [
@@ -396,12 +396,6 @@
           "value": 1005750792
         },
         {
-          "fund": "VANGUARD INSTITUTIONAL INDEX FUNDS",
-          "manager": "Vanguard Group",
-          "shares": 4279440,
-          "value": 926370377
-        },
-        {
           "fund": "LOOMIS SAYLES FUNDS II",
           "manager": "",
           "shares": 3655297,
@@ -454,6 +448,12 @@
           "manager": "BlackRock",
           "shares": 1673877,
           "value": 361791775
+        },
+        {
+          "fund": "FIDELITY DESTINY PORTFOLIOS",
+          "manager": "FMR (Fidelity)",
+          "shares": 1331573,
+          "value": 288245607
         }
       ]
     },
