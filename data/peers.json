@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T15:08:27.909Z",
+  "lastUpdated": "2026-10-04T15:45:39.535Z",
   "peers": [
     {
       "name": "RTX Corp.",
@@ -342,16 +342,16 @@
           "value": 2183074909
         },
         {
-          "fund": "SPDR S&P 500 ETF TRUST  (SPY)",
-          "manager": "State Street",
-          "shares": 9553726,
-          "value": 2068095067
-        },
-        {
           "fund": "VANGUARD INDEX FUNDS",
           "manager": "Vanguard Group",
           "shares": 8492923,
           "value": 1838463042
+        },
+        {
+          "fund": "SPDR S&P 500 ETF TRUST  (SPY)",
+          "manager": "State Street",
+          "shares": 9156666,
+          "value": 1822451234
         },
         {
           "fund": "Fidelity Rutland Square Trust II",
@@ -394,6 +394,12 @@
           "manager": "State Street",
           "shares": 4646144,
           "value": 1005750792
+        },
+        {
+          "fund": "VANGUARD INSTITUTIONAL INDEX FUNDS",
+          "manager": "Vanguard Group",
+          "shares": 4279440,
+          "value": 926370377
         },
         {
           "fund": "LOOMIS SAYLES FUNDS II",
@@ -448,12 +454,6 @@
           "manager": "BlackRock",
           "shares": 1673877,
           "value": 361791775
-        },
-        {
-          "fund": "FIDELITY DESTINY PORTFOLIOS",
-          "manager": "FMR (Fidelity)",
-          "shares": 1331573,
-          "value": 288245607
         }
       ]
     },
@@ -1074,12 +1074,6 @@
           "value": 204925032
         },
         {
-          "fund": "T. Rowe Price U.S. Large-Cap Core Fund, Inc.",
-          "manager": "T. Rowe Price",
-          "shares": 318165,
-          "value": 186457417
-        },
-        {
           "fund": "VANGUARD INSTITUTIONAL INDEX FUNDS",
           "manager": "Vanguard Group",
           "shares": 251508,
@@ -1138,6 +1132,12 @@
           "manager": "Charles Schwab",
           "shares": 99923,
           "value": 61935273
+        },
+        {
+          "fund": "FIDELITY CAPITAL TRUST",
+          "manager": "FMR (Fidelity)",
+          "shares": 112000,
+          "value": 59003840
         }
       ]
     },

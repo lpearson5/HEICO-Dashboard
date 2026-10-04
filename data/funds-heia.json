@@ -2,12 +2,12 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-10-03T15:08:27.909Z",
+  "lastUpdated": "2026-10-04T15:45:39.535Z",
   "summary": {
     "funds": 349,
     "totalShares": 28265754,
     "pctOut": 33.4444,
-    "newFunds": 16,
+    "newFunds": 15,
     "sellouts": 32,
     "linkedManagers": 24,
     "linkedShares": 23978720
@@ -154,19 +154,6 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.0009,
-      "action": "New"
-    },
-    {
-      "fundName": "AB US Equity ETF",
-      "registrant": "AB Active ETFs, Inc.",
-      "manager": "",
-      "cik": "1496608",
-      "shares": 560,
-      "value": 145494,
-      "reportDate": "2026-05-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0007,
       "action": "New"
     },
     {
@@ -4999,10 +4986,10 @@
       "shares": 560,
       "value": 145494,
       "reportDate": "2026-05-31",
-      "priorShares": null,
-      "change": null,
+      "priorShares": 560,
+      "change": 0,
       "pctOut": 0.0007,
-      "action": "New"
+      "action": "No Change"
     },
     {
       "fundName": "Aristotle Small/Mid Cap Equity Fund",

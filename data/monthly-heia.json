@@ -8,14 +8,14 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-10-03T15:08:27.909Z",
+  "lastUpdated": "2026-10-04T15:45:39.535Z",
   "summary": {
     "institutions": 671,
     "totalShares": 70041288,
     "pctOut": 82.87,
-    "newHolders": 110,
+    "newHolders": 111,
     "sellouts": 62,
-    "bought": 255,
+    "bought": 254,
     "sold": 215,
     "held": 91
   },
@@ -1873,6 +1873,24 @@
       "action": "New",
       "discretion": "SOLE",
       "voteSole": 17,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "Hughes Financial Services, LLC",
+      "filerCik": "2054465",
+      "shares": [
+        12,
+        null,
+        6,
+        null
+      ],
+      "netChg": 12,
+      "currentValue": 3095,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 12,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -6404,7 +6422,7 @@
       "shares": [
         26478,
         7384,
-        null,
+        16634,
         14139
       ],
       "netChg": 19094,
@@ -14629,14 +14647,14 @@
       "filerCik": "2054465",
       "shares": [
         12,
-        2,
+        null,
         6,
         null
       ],
-      "netChg": 10,
+      "netChg": 12,
       "currentValue": 3095,
       "pctOut": 0,
-      "action": "Bought",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 12,
       "voteShared": 0,

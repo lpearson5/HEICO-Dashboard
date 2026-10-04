@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-10-03T15:08:27.909Z",
+  "lastUpdated": "2026-10-04T15:45:39.535Z",
   "summary": {
-    "funds": 438,
-    "totalShares": 19751610,
-    "pctOut": 35.7549,
-    "newFunds": 52,
-    "sellouts": 43,
-    "linkedManagers": 24,
-    "linkedShares": 16988531
+    "funds": 439,
+    "totalShares": 19751672,
+    "pctOut": 35.754999999999995,
+    "newFunds": 53,
+    "sellouts": 42,
+    "linkedManagers": 25,
+    "linkedShares": 16988593
   },
   "newHolders": [
     {
@@ -651,6 +651,19 @@
       "action": "New"
     },
     {
+      "fundName": "Hartford Schroders Diversified Opportunities Fund",
+      "registrant": "HARTFORD MUTUAL FUNDS II, INC",
+      "manager": "Hartford",
+      "cik": "49905",
+      "shares": 62,
+      "value": 22094,
+      "reportDate": "2026-07-31",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.00009999999999999999,
+      "action": "New"
+    },
+    {
       "fundName": "Fidelity Enhanced Mid Cap Growth ETF",
       "registrant": "Fidelity Covington Trust",
       "manager": "FMR (Fidelity)",
@@ -809,13 +822,6 @@
       "manager": "",
       "lastShares": 3726,
       "lastReport": "2025-12-31"
-    },
-    {
-      "fundName": "WisdomTree U.S. AI Enhanced Value Fund",
-      "registrant": "WisdomTree Trust",
-      "manager": "WisdomTree",
-      "lastShares": 3617,
-      "lastReport": "2025-06-30"
     },
     {
       "fundName": "Inspire Fidelis Multi Factor ETF",
@@ -2215,6 +2221,17 @@
         {
           "fundName": "FlexShares Morningstar US Market Factor Tilt Index Fund",
           "shares": 1169
+        }
+      ]
+    },
+    {
+      "manager": "Hartford",
+      "fundCount": 1,
+      "shares": 62,
+      "funds": [
+        {
+          "fundName": "Hartford Schroders Diversified Opportunities Fund",
+          "shares": 62
         }
       ]
     }
@@ -7601,6 +7618,19 @@
       "change": 0,
       "pctOut": 0.00009999999999999999,
       "action": "No Change"
+    },
+    {
+      "fundName": "Hartford Schroders Diversified Opportunities Fund",
+      "registrant": "HARTFORD MUTUAL FUNDS II, INC",
+      "manager": "Hartford",
+      "cik": "49905",
+      "shares": 62,
+      "value": 22094,
+      "reportDate": "2026-07-31",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.00009999999999999999,
+      "action": "New"
     },
     {
       "fundName": "Fidelity Enhanced Mid Cap Growth ETF",

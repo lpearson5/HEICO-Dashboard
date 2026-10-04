@@ -8,16 +8,16 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-10-03T15:08:27.909Z",
+  "lastUpdated": "2026-10-04T15:45:39.535Z",
   "summary": {
     "institutions": 778,
     "totalShares": 43758683,
     "pctOut": 79.21000000000001,
-    "newHolders": 122,
+    "newHolders": 120,
     "sellouts": 85,
     "bought": 256,
-    "sold": 266,
-    "held": 134
+    "sold": 267,
+    "held": 135
   },
   "top10": [
     {
@@ -1103,24 +1103,6 @@
       "voteNone": 0
     },
     {
-      "filerName": "CenterBook Partners LP",
-      "filerCik": "1872738",
-      "shares": [
-        1003,
-        null,
-        836,
-        3217
-      ],
-      "netChg": 1003,
-      "currentValue": 357259,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 1003,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
       "filerName": "111 Capital",
       "filerCik": "2060412",
       "shares": [
@@ -2071,24 +2053,6 @@
       "action": "New",
       "discretion": "SOLE",
       "voteSole": 25,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "EASTERN BANK",
-      "filerCik": "1126395",
-      "shares": [
-        19,
-        null,
-        19,
-        null
-      ],
-      "netChg": 19,
-      "currentValue": 6768,
-      "pctOut": 0,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 19,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -9824,7 +9788,7 @@
       "shares": [
         4217,
         4509,
-        null,
+        6815,
         15907
       ],
       "netChg": -292,
@@ -13243,14 +13207,14 @@
       "filerCik": "1872738",
       "shares": [
         1003,
-        null,
+        1123,
         836,
         3217
       ],
-      "netChg": 1003,
+      "netChg": -120,
       "currentValue": 357259,
       "pctOut": 0,
-      "action": "New",
+      "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 1003,
       "voteShared": 0,
@@ -16807,14 +16771,14 @@
       "filerCik": "1126395",
       "shares": [
         19,
-        null,
+        19,
         19,
         null
       ],
-      "netChg": 19,
+      "netChg": 0,
       "currentValue": 6768,
       "pctOut": 0,
-      "action": "New",
+      "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 19,
       "voteShared": 0,
@@ -19755,13 +19719,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
-      "filerCik": "1510434",
+      "filerName": "WINNOW WEALTH LLC",
+      "filerCik": "2079687",
       "shares": [
         null,
         null,
-        1447,
-        null
+        1,
+        7
       ],
       "netChg": null,
       "currentValue": null,
@@ -19773,13 +19737,13 @@
       "voteNone": null
     },
     {
-      "filerName": "WINNOW WEALTH LLC",
-      "filerCik": "2079687",
+      "filerName": "Empirical Financial Services, LLC d.b.a. Empirical Wealth Management",
+      "filerCik": "1510434",
       "shares": [
         null,
         null,
-        1,
-        7
+        1447,
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -19827,24 +19791,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Legato Capital Management LLC",
-      "filerCik": "1442641",
-      "shares": [
-        null,
-        null,
-        1077,
-        null
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Davis Capital Management",
       "filerCik": "1811806",
       "shares": [
@@ -19869,6 +19815,24 @@
         null,
         null,
         115,
+        null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Legato Capital Management LLC",
+      "filerCik": "1442641",
+      "shares": [
+        null,
+        null,
+        1077,
         null
       ],
       "netChg": null,
@@ -20025,24 +19989,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Key Capital Management, INC",
-      "filerCik": "2107249",
-      "shares": [
-        null,
-        5,
-        null,
-        null
-      ],
-      "netChg": -5,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Elequin Capital, LP",
       "filerCik": "1810873",
       "shares": [
@@ -20052,6 +19998,24 @@
         null
       ],
       "netChg": -1,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Key Capital Management, INC",
+      "filerCik": "2107249",
+      "shares": [
+        null,
+        5,
+        null,
+        null
+      ],
+      "netChg": -5,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -20320,6 +20284,24 @@
         null,
         886,
         null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Voleon Capital Management LP",
+      "filerCik": "1479847",
+      "shares": [
+        null,
+        null,
+        null,
+        659
       ],
       "netChg": null,
       "currentValue": null,
@@ -20847,24 +20829,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Tortoise Investment Management, LLC",
-      "filerCik": "1599511",
-      "shares": [
-        null,
-        null,
-        null,
-        307
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -21567,6 +21531,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Tortoise Investment Management, LLC",
+      "filerCik": "1599511",
+      "shares": [
+        null,
+        null,
+        null,
+        307
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
