@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-10-04T15:45:39.535Z",
+  "lastUpdated": "2026-10-06T17:08:52.895Z",
   "summary": {
-    "institutions": 778,
-    "totalShares": 43758683,
-    "pctOut": 79.21000000000001,
+    "institutions": 777,
+    "totalShares": 43745756,
+    "pctOut": 79.19,
     "newHolders": 120,
-    "sellouts": 85,
+    "sellouts": 86,
     "bought": 256,
-    "sold": 267,
+    "sold": 266,
     "held": 135
   },
   "top10": [
@@ -2563,6 +2563,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Numerai GP LLC",
+      "filerCik": "1668527",
+      "shares": [
+        null,
+        16243,
+        22765,
+        24799
+      ],
+      "netChg": -16243,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Tredje AP-fonden",
       "filerCik": "1650290",
       "shares": [
@@ -2893,7 +2911,7 @@
         null,
         2949,
         2949,
-        4380
+        null
       ],
       "netChg": -2949,
       "currentValue": null,
@@ -7727,24 +7745,6 @@
       "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 13068,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "Numerai GP LLC",
-      "filerCik": "1668527",
-      "shares": [
-        12927,
-        16243,
-        22765,
-        24799
-      ],
-      "netChg": -3316,
-      "currentValue": 4604468,
-      "pctOut": 0.02,
-      "action": "Sold",
-      "discretion": "SOLE",
-      "voteSole": 12927,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -19089,24 +19089,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Qtron Investments LLC",
-      "filerCik": "1768099",
-      "shares": [
-        null,
-        2949,
-        2949,
-        4380
-      ],
-      "netChg": -2949,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Financiere des Professionnels - Fonds d'investissement inc.",
       "filerCik": "1996846",
       "shares": [
@@ -19155,6 +19137,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Qtron Investments LLC",
+      "filerCik": "1768099",
+      "shares": [
+        null,
+        2949,
+        2949,
+        null
+      ],
+      "netChg": -2949,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19539,6 +19539,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Numerai GP LLC",
+      "filerCik": "1668527",
+      "shares": [
+        null,
+        16243,
+        22765,
+        24799
+      ],
+      "netChg": -16243,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Inspire Advisors, LLC",
       "filerCik": "1810558",
       "shares": [
@@ -19791,18 +19809,18 @@
       "voteNone": null
     },
     {
-      "filerName": "Davis Capital Management",
-      "filerCik": "1811806",
+      "filerName": "Legato Capital Management LLC",
+      "filerCik": "1442641",
       "shares": [
         null,
-        1,
-        1,
-        1
+        null,
+        1077,
+        null
       ],
-      "netChg": -1,
+      "netChg": null,
       "currentValue": null,
       "pctOut": null,
-      "action": "Sellout",
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19827,18 +19845,18 @@
       "voteNone": null
     },
     {
-      "filerName": "Legato Capital Management LLC",
-      "filerCik": "1442641",
+      "filerName": "Davis Capital Management",
+      "filerCik": "1811806",
       "shares": [
         null,
-        null,
-        1077,
-        null
+        1,
+        1,
+        1
       ],
-      "netChg": null,
+      "netChg": -1,
       "currentValue": null,
       "pctOut": null,
-      "action": "No Change",
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -20583,24 +20601,6 @@
       "voteNone": null
     },
     {
-      "filerName": "CIBC WORLD MARKETS CORP",
-      "filerCik": "1056527",
-      "shares": [
-        null,
-        null,
-        1528,
-        null
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Sachetta, LLC",
       "filerCik": "2010574",
       "shares": [
@@ -20613,6 +20613,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "CIBC WORLD MARKETS CORP",
+      "filerCik": "1056527",
+      "shares": [
+        null,
+        null,
+        1528,
+        null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -20829,6 +20847,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Tortoise Investment Management, LLC",
+      "filerCik": "1599511",
+      "shares": [
+        null,
+        null,
+        null,
+        307
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -21531,24 +21567,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Tortoise Investment Management, LLC",
-      "filerCik": "1599511",
-      "shares": [
-        null,
-        null,
-        null,
-        307
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,

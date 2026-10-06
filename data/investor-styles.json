@@ -1,9 +1,9 @@
 {
-  "asOf": "2026-10-04T16:04:59.092Z",
+  "asOf": "2026-10-06T17:25:34.174Z",
   "period": "2026-06-30",
   "hei": {
-    "total": 778,
-    "totalShares": 43758683,
+    "total": 777,
+    "totalShares": 43745756,
     "categories": [
       {
         "style": "Growth",
@@ -281,11 +281,11 @@
       },
       {
         "style": "Momentum/Quant",
-        "holders": 64,
-        "holderPct": 8.2,
-        "shares": 3613839,
-        "sharePct": 8.3,
-        "estCount": 36,
+        "holders": 63,
+        "holderPct": 8.1,
+        "shares": 3600912,
+        "sharePct": 8.2,
+        "estCount": 35,
         "examples": [
           "TWO SIGMA INVESTMENTS, LP",
           "BALYASNY ASSET MANAGEMENT L.P.",
@@ -422,11 +422,6 @@
           {
             "name": "Trexquant Investment LP",
             "shares": 13807,
-            "est": true
-          },
-          {
-            "name": "Numerai GP LLC",
-            "shares": 12927,
             "est": true
           },
           {
@@ -649,7 +644,7 @@
       {
         "style": "Blend/Core",
         "holders": 584,
-        "holderPct": 75.1,
+        "holderPct": 75.2,
         "shares": 26290533,
         "sharePct": 60.1,
         "estCount": 128,
@@ -3999,13 +3994,13 @@
     "coverage": {
       "curated": 160,
       "heuristic": 352,
-      "estimated": 187,
+      "estimated": 186,
       "unknown": 79
     }
   },
   "heia": {
-    "total": 670,
-    "totalShares": 70041288,
+    "total": 669,
+    "totalShares": 70041278,
     "categories": [
       {
         "style": "Growth",
@@ -4544,7 +4539,7 @@
       {
         "style": "Blend/Core",
         "holders": 509,
-        "holderPct": 76,
+        "holderPct": 76.1,
         "shares": 48984648,
         "sharePct": 69.9,
         "estCount": 106,
@@ -7105,9 +7100,9 @@
       },
       {
         "style": "Unclassified",
-        "holders": 67,
-        "holderPct": 10,
-        "shares": 2525012,
+        "holders": 66,
+        "holderPct": 9.9,
+        "shares": 2525002,
         "sharePct": 3.6,
         "estCount": 0,
         "examples": [
@@ -7399,11 +7394,6 @@
             "est": false
           },
           {
-            "name": "HM PAYSON & CO",
-            "shares": 10,
-            "est": false
-          },
-          {
             "name": "Penserra Capital Management LLC",
             "shares": 9,
             "est": false
@@ -7460,17 +7450,17 @@
       "curated": 170,
       "heuristic": 295,
       "estimated": 138,
-      "unknown": 67
+      "unknown": 66
     }
   },
   "combined": {
-    "total": 1011,
-    "totalShares": 113799971,
+    "total": 1009,
+    "totalShares": 113787034,
     "categories": [
       {
         "style": "Growth",
         "holders": 48,
-        "holderPct": 4.7,
+        "holderPct": 4.8,
         "shares": 23850173,
         "sharePct": 21,
         "estCount": 18,
@@ -7858,11 +7848,11 @@
       },
       {
         "style": "Momentum/Quant",
-        "holders": 84,
-        "holderPct": 8.3,
-        "shares": 8216550,
+        "holders": 83,
+        "holderPct": 8.2,
+        "shares": 8203623,
         "sharePct": 7.2,
-        "estCount": 46,
+        "estCount": 45,
         "examples": [
           "ARROWSTREET CAPITAL, LIMITED PARTNERSHIP",
           "MILLENNIUM MANAGEMENT LLC",
@@ -8085,11 +8075,6 @@
             "name": "ABC ARBITRAGE SA",
             "shares": 13364,
             "est": false
-          },
-          {
-            "name": "Numerai GP LLC",
-            "shares": 12927,
-            "est": true
           },
           {
             "name": "Engineers Gate Manager LP",
@@ -8326,9 +8311,9 @@
       {
         "style": "Blend/Core",
         "holders": 737,
-        "holderPct": 72.9,
+        "holderPct": 73,
         "shares": 75275181,
-        "sharePct": 66.1,
+        "sharePct": 66.2,
         "estCount": 159,
         "examples": [
           "BlackRock, Inc.  (BLK)",
@@ -12027,9 +12012,9 @@
       },
       {
         "style": "Unclassified",
-        "holders": 116,
-        "holderPct": 11.5,
-        "shares": 2856178,
+        "holders": 115,
+        "holderPct": 11.4,
+        "shares": 2856168,
         "sharePct": 2.5,
         "estCount": 0,
         "examples": [
@@ -12546,11 +12531,6 @@
             "est": false
           },
           {
-            "name": "HM PAYSON & CO",
-            "shares": 10,
-            "est": false
-          },
-          {
             "name": "Penserra Capital Management LLC",
             "shares": 9,
             "est": false
@@ -12626,8 +12606,8 @@
     "coverage": {
       "curated": 192,
       "heuristic": 465,
-      "estimated": 238,
-      "unknown": 116
+      "estimated": 237,
+      "unknown": 115
     }
   }
 }
