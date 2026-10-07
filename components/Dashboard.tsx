@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import type { TickerData, Holding, Action, MonthlyData, FundData, BeneficialData, PeersData, PricesData, GeographyData, ShortInterestData, FundamentalsData, EarningsData, OptionsData, SelfAuditData, InvestorStylesData, EsgData } from "@/lib/types";
+import type { TickerData, Holding, Action, MonthlyData, FundData, BeneficialData, PeersData, PricesData, GeographyData, ShortInterestData, FundamentalsData, EarningsData, OptionsData, SelfAuditData, InvestorStylesData, EsgData, PeerOverlapData } from "@/lib/types";
 import MonthlySnapshot from "@/components/MonthlySnapshot";
 import MarketPerformance from "@/components/MarketPerformance";
 import OwnershipAnalytics from "@/components/OwnershipAnalytics";
@@ -12,16 +12,18 @@ import EarningsCalendar from "@/components/EarningsCalendar";
 import OptionsPositions from "@/components/OptionsPositions";
 import InvestorStyles from "@/components/InvestorStyles";
 import EsgOwnership from "@/components/EsgOwnership";
+import PeerOverlap from "@/components/PeerOverlap";
 import Crm from "@/components/crm/Crm";
 import { normName } from "@/components/crm/ui";
 import type { LivePosition } from "@/lib/crm-types";
 
-type View = "weekly" | "monthly" | "styles" | "esg" | "markets" | "valuation" | "short" | "options" | "earnings" | "crm";
+type View = "weekly" | "monthly" | "styles" | "esg" | "peers" | "markets" | "valuation" | "short" | "options" | "earnings" | "crm";
 const VIEWS: { id: View; label: string }[] = [
   { id: "weekly", label: "Ownership Tracker" },
   { id: "monthly", label: "Ownership Report" },
   { id: "styles", label: "Investor Styles" },
   { id: "esg", label: "ESG Ownership" },
+  { id: "peers", label: "Peer Overlap" },
   { id: "short", label: "Short Interest" },
   { id: "options", label: "Options" },
   { id: "markets", label: "Markets & Performance" },
@@ -105,6 +107,7 @@ export default function Dashboard({
   options = null,
   investorStyles = null,
   esg = null,
+  peerOverlap = null,
   audit = null,
 }: {
   hei: TickerData | null;
@@ -124,6 +127,7 @@ export default function Dashboard({
   options?: OptionsData | null;
   investorStyles?: InvestorStylesData | null;
   esg?: EsgData | null;
+  peerOverlap?: PeerOverlapData | null;
   audit?: SelfAuditData | null;
 }) {
   const [view, setView] = useState<View>("weekly");
@@ -169,8 +173,11 @@ export default function Dashboard({
     if (esg) {
       for (const m of esg.combined.members) { const k = normName(m.name); if (map[k]) map[k].esg = m.tier; }
     }
+    if (peerOverlap) {
+      for (const h of peerOverlap.holders) { const k = normName(h.name); if (map[k] && h.peers.length) map[k].peers = h.peers; }
+    }
     return map;
-  }, [hei, heia, investorStyles, esg]);
+  }, [hei, heia, investorStyles, esg, peerOverlap]);
 
   const summary = useMemo(() => {
     if (!data) return null;
@@ -303,6 +310,8 @@ export default function Dashboard({
                   <>13F put &amp; call positions on HEICO</>
                 ) : view === "valuation" ? (
                   <>HEICO vs peers · Live multiples &amp; fundamentals</>
+                ) : view === "peers" ? (
+                  <>Who owns our peers — overlap &amp; sector targets</>
                 ) : view === "esg" ? (
                   <>ESG &amp; sustainable investors in the register</>
                 ) : view === "styles" ? (
@@ -389,6 +398,7 @@ export default function Dashboard({
         {view === "earnings" && <EarningsCalendar data={earnings} />}
         {view === "styles" && <InvestorStyles data={investorStyles} />}
         {view === "esg" && <EsgOwnership data={esg} />}
+        {view === "peers" && <PeerOverlap data={peerOverlap} />}
         {view === "crm" && <Crm live={crmLive} />}
       </div>
 

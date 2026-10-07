@@ -90,4 +90,5 @@ export interface LivePosition {
   style: string | null;
   pctChange: number | null;
   esg?: string | null;       // ESG tier if the holder is an ESG/sustainable manager
+  peers?: string[];          // peer tickers this holder also owns (from Peer Overlap)
 }

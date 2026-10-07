@@ -271,6 +271,31 @@ export interface EsgData {
   combined: EsgBlock;
 }
 
+// ── Peer overlap (who owns our peers) ──
+export interface PeerOverlapPeer {
+  ticker: string; name: string; period: string;
+  holders: number; overlap: number;
+  pctOfHeicoHolders: number; pctOfPeerHolders: number;
+  sharesKnownForAll: boolean;
+}
+export interface PeerOverlapHolder { cik: string; name: string; heicoShares: number; peers: string[] }
+export interface PeerTarget {
+  cik: string; name: string;
+  peers: { t: string; shares: number | null; value: number | null }[];
+  peerCount: number; knownValue: number; soldHeico: boolean;
+}
+export interface PeerOverlapData {
+  asOf: string; period: string | null;
+  heicoHolderCount: number;
+  peers: PeerOverlapPeer[];
+  distribution: { peers: number; holders: number }[];
+  holders: PeerOverlapHolder[];
+  targets: PeerTarget[];
+  targetCount: number;
+  target3Plus: number;
+  soldHeicoCount: number;
+}
+
 // ── Self-audit / data-integrity status ──
 export interface AuditFinding { level: string; check: string; detail: string }
 export interface SelfAuditData {

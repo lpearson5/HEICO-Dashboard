@@ -979,6 +979,7 @@ async function buildPeerReports(today) {
   };
 
   const out = [];
+  const peerHolders = [];
   for (const peer of PEERS) {
     // §12 — top 13F holders (from candidate mega-managers, most recent settled quarter).
     // Narrow window (~1 quarter) so widely-held peers don't truncate at the 10k cap.
@@ -999,11 +1000,25 @@ async function buildPeerReports(today) {
     const small13 = dedup13.size <= 1200;
     const targets13 = [...dedup13.values()].filter(h => small13 || candidateCiks.has(h.cik));
     const top13F = [];
+    const posByCik = new Map();
     for (const h of targets13) {
       const pos = await fetchParse(h, peer.cusip, false);
-      if (pos) top13F.push({ filer: h.name, shares: pos.shares, value: pos.value });
+      if (pos) { top13F.push({ filer: h.name, shares: pos.shares, value: pos.value }); posByCik.set(h.cik, pos); }
     }
     top13F.sort((a, b) => b.value - a.value);
+
+    // Full holder list for the peer-overlap analysis. Fetched filers count only if a
+    // long position was found; un-fetched filers (large-cap peers, non-HEICO-top
+    // holders) count by membership — they filed a 13F listing the peer's CUSIP —
+    // with shares unknown (null). Row: [cik, name, shares|null, value|null].
+    const fetchedCiks = new Set(targets13.map((h) => h.cik));
+    const holders = [];
+    for (const h of dedup13.values()) {
+      const pos = posByCik.get(h.cik);
+      if (fetchedCiks.has(h.cik) && !pos) continue;
+      holders.push([String(h.cik).replace(/^0+/, ""), h.name, pos ? pos.shares : null, pos ? pos.value : null]);
+    }
+    peerHolders.push({ name: peer.name, ticker: peer.ticker, period: curQ, sharesKnownForAll: small13, holders });
 
     // §13 — top mutual-fund holders
     const hitsN = await searchNport(peer.cusip, today);
@@ -1030,6 +1045,8 @@ async function buildPeerReports(today) {
 
   writeFileSync(join(DATA_DIR, "peers.json"), JSON.stringify({ lastUpdated: today.toISOString(), peers: out }, null, 2));
   console.log(`  peers.json written (${out.length} peers).`);
+  writeFileSync(join(DATA_DIR, "peer-holders.json"), JSON.stringify({ lastUpdated: today.toISOString(), peers: peerHolders }));
+  console.log(`  peer-holders.json written (${peerHolders.reduce((s, p) => s + p.holders.length, 0)} peer-holder rows).`);
 }
 
 // ─── §11: Forms 13G / 13D / 14D beneficial-ownership filings ─────────────────────

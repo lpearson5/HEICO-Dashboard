@@ -1,7 +1,7 @@
 import { readFileSync } from "fs";
 import { join } from "path";
 import Dashboard from "@/components/Dashboard";
-import type { TickerData, MonthlyData, FundData, BeneficialData, PeersData, PricesData, GeographyData, ShortInterestData, FundamentalsData, EarningsData, OptionsData, SelfAuditData, InvestorStylesData, EsgData } from "@/lib/types";
+import type { TickerData, MonthlyData, FundData, BeneficialData, PeersData, PricesData, GeographyData, ShortInterestData, FundamentalsData, EarningsData, OptionsData, SelfAuditData, InvestorStylesData, EsgData, PeerOverlapData } from "@/lib/types";
 
 function load<T>(file: string): T | null {
   try {
@@ -33,6 +33,7 @@ export default function Page() {
       options={load<OptionsData>("options.json")}
       investorStyles={load<InvestorStylesData>("investor-styles.json")}
       esg={load<EsgData>("esg-ownership.json")}
+      peerOverlap={load<PeerOverlapData>("peer-overlap.json")}
       audit={load<SelfAuditData>("self-audit.json")}
     />
   );

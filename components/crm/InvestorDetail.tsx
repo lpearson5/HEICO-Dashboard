@@ -71,6 +71,12 @@ export default function InvestorDetail({ investorId, live, onClose }: { investor
               <div><div className="text-lg font-bold tabular-nums text-gray-900">{fmtVal(pos.value)}</div><div className="text-xs text-gray-500">value</div></div>
               <div><div className={`text-lg font-bold ${pos.action === "Bought" || pos.action === "New Position" ? "text-green-600" : pos.action === "Sold" || pos.action === "Sell Out" ? "text-red-600" : "text-gray-700"}`}>{pos.action ?? "—"}</div><div className="text-xs text-gray-500">this quarter</div></div>
               <div><div className="text-lg font-bold tabular-nums text-gray-900">{pos.pctChange == null ? "—" : `${pos.pctChange > 0 ? "+" : ""}${pos.pctChange}%`}</div><div className="text-xs text-gray-500">QoQ change</div></div>
+              {pos.peers && pos.peers.length > 0 && (
+                <div className="col-span-2 flex flex-wrap items-center gap-1 sm:col-span-4">
+                  <span className="mr-1 text-xs text-gray-500">Also owns peers:</span>
+                  {pos.peers.map((t) => <span key={t} className="rounded bg-indigo-50 px-1.5 py-0.5 text-[11px] font-semibold text-indigo-700">{t}</span>)}
+                </div>
+              )}
             </div>
           ) : (
             <div className="text-sm text-gray-500">Not a current 13F holder — {investor.stage === "Target" || investor.stage === "Contacted" || investor.stage === "Engaged" ? "prospective (target)." : "no matched position."}</div>
