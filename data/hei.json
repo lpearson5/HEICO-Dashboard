@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-10-06T17:08:52.895Z",
+  "lastUpdated": "2026-10-07T17:45:24.580Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -8970,6 +8970,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "Principia Wealth Advisory, LLC",
+      "filerCik": "2041436",
+      "currentShares": 6,
+      "priorShares": 4,
+      "change": 2,
+      "pctChange": 50,
+      "currentValue": 2137,
+      "action": "Bought",
+      "firstSeen": "2026-08-26",
+      "newThisWeek": false
+    },
+    {
       "filerName": "Bruce G. Allen Investments, LLC",
       "filerCik": "2005409",
       "currentShares": 6,
@@ -9027,18 +9039,6 @@
       "currentValue": 2137,
       "action": "Sold",
       "firstSeen": "2026-07-21",
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Principia Wealth Advisory, LLC",
-      "filerCik": "2041436",
-      "currentShares": 6,
-      "priorShares": 4,
-      "change": 2,
-      "pctChange": 50,
-      "currentValue": 2137,
-      "action": "Bought",
-      "firstSeen": "2026-08-26",
       "newThisWeek": false
     },
     {
@@ -9870,10 +9870,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Elequin Capital, LP",
-      "filerCik": "1810873",
+      "filerName": "Key Capital Management, INC",
+      "filerCik": "2107249",
       "currentShares": null,
-      "priorShares": 1,
+      "priorShares": 5,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -9882,10 +9882,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Key Capital Management, INC",
-      "filerCik": "2107249",
+      "filerName": "Elequin Capital, LP",
+      "filerCik": "1810873",
       "currentShares": null,
-      "priorShares": 5,
+      "priorShares": 1,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -9970,18 +9970,6 @@
       "filerCik": "53417",
       "currentShares": null,
       "priorShares": 67149,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Vontobel Holding Ltd.",
-      "filerCik": "1588340",
-      "currentShares": null,
-      "priorShares": 1053,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -10342,6 +10330,18 @@
       "filerCik": "1696615",
       "currentShares": null,
       "priorShares": 49,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Vontobel Holding Ltd.",
+      "filerCik": "1588340",
+      "currentShares": null,
+      "priorShares": 1053,
       "change": null,
       "pctChange": null,
       "currentValue": null,
