@@ -24,6 +24,8 @@ export default function Home({ onOpenInvestor, goto }: { onOpenInvestor: (id: st
     .filter((t) => { const d = daysUntil(t.dueDate); return d != null && d <= 7; })
     .sort((a, b) => (a.dueDate ?? "").localeCompare(b.dueDate ?? ""));
   const recentAct = [...data.activities].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 6);
+  const todayIso = new Date().toISOString().slice(0, 10);
+  const upcomingConfs = (data.conferences ?? []).filter((c) => c.endDate >= todayIso).sort((a, b) => a.startDate.localeCompare(b.startDate)).slice(0, 4);
 
   // Owned holders (high/med priority) with no logged activity in 60+ days.
   const stale = useMemo(() => {
@@ -91,6 +93,29 @@ export default function Home({ onOpenInvestor, goto }: { onOpenInvestor: (id: st
               </button>
             ))}
           </div>
+        </div>
+      </div>
+
+      {/* Upcoming conferences */}
+      <div className="rounded-xl border border-gray-200 bg-white shadow-sm">
+        <div className="flex items-center justify-between border-b border-gray-100 px-4 py-3">
+          <h3 className="text-sm font-semibold text-gray-900">Upcoming conferences</h3>
+          <button onClick={() => goto("conferences")} className="text-xs font-medium text-blue-600 hover:underline">Calendar →</button>
+        </div>
+        <div className="divide-y divide-gray-50">
+          {upcomingConfs.length === 0 && <div className="px-4 py-6 text-sm text-gray-400">No conferences scheduled.</div>}
+          {upcomingConfs.map((c) => {
+            const d = daysUntil(c.startDate);
+            return (
+              <button key={c.id} onClick={() => goto("conferences")} className="flex w-full items-center gap-3 px-4 py-2.5 text-left hover:bg-gray-50">
+                <div className="min-w-0 flex-1">
+                  <div className="truncate text-sm text-gray-800">{c.name}</div>
+                  <div className="truncate text-xs text-gray-400">{fmtDate(c.startDate)}{c.location ? ` · ${c.location}` : ""} · {c.attendees.length} investor meeting{c.attendees.length === 1 ? "" : "s"}</div>
+                </div>
+                <span className="shrink-0 text-xs font-medium text-gray-500">{d != null && d > 0 ? `in ${d}d` : "now"}</span>
+              </button>
+            );
+          })}
         </div>
       </div>
 

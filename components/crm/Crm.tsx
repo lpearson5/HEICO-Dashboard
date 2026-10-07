@@ -9,6 +9,7 @@ import Contacts from "./screens/Contacts";
 import Activity from "./screens/Activity";
 import Tasks from "./screens/Tasks";
 import Pipeline from "./screens/Pipeline";
+import Conferences from "./screens/Conferences";
 import type { LivePosition } from "@/lib/crm-types";
 
 const TABS = [
@@ -18,6 +19,7 @@ const TABS = [
   { id: "activity", label: "Activity" },
   { id: "tasks", label: "Tasks" },
   { id: "pipeline", label: "Pipeline" },
+  { id: "conferences", label: "Conferences" },
 ];
 
 function CrmInner({ live }: { live: Record<string, LivePosition> }) {
@@ -53,6 +55,7 @@ function CrmInner({ live }: { live: Record<string, LivePosition> }) {
       {tab === "activity" && <Activity onOpenInvestor={open} />}
       {tab === "tasks" && <Tasks onOpenInvestor={open} />}
       {tab === "pipeline" && <Pipeline live={live} onOpenInvestor={open} />}
+      {tab === "conferences" && <Conferences onOpenInvestor={open} />}
 
       {openId && <InvestorDetail investorId={openId} live={live} onClose={() => setOpenId(null)} />}
     </div>

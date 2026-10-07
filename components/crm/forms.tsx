@@ -6,6 +6,7 @@ import { Modal, Field, Text, Area, Select, BtnPrimary, BtnGhost } from "./ui";
 import {
   PIPELINE_STAGES, ACTIVITY_TYPES, type Investor, type Contact, type Activity, type Task,
   type PipelineStage, type Priority, type ClassTag, type ActivityType, type Sentiment,
+  CONFERENCE_TYPES, MEETING_FORMATS, type Conference, type ConferenceAttendee, type ConferenceType, type MeetingFormat,
 } from "@/lib/crm-types";
 
 const PRIORITIES: Priority[] = ["High", "Medium", "Low"];
@@ -179,6 +180,99 @@ export function TaskForm({ investorId: fixedInvestor, existing, onClose }: { inv
         <Field label="Priority"><Select value={f.priority} onChange={(v) => set("priority", v)} options={opts(PRIORITIES)} /></Field>
         <div className="sm:col-span-2"><Field label="Assignee"><Select value={f.assigneeId} onChange={(v) => set("assigneeId", v)} options={data.team.map((t) => ({ value: t.id, label: t.name }))} /></Field></div>
         <div className="sm:col-span-2"><Field label="Notes"><Area value={f.notes} onChange={(v) => set("notes", v)} rows={2} /></Field></div>
+      </div>
+    </Modal>
+  );
+}
+
+// ── Conference add/edit ─────────────────────────────────────────────
+export function ConferenceForm({ existing, defaultDate, onClose }: { existing?: Conference; defaultDate?: string; onClose: () => void }) {
+  const { data, dispatch } = useCrm();
+  const today = new Date().toISOString().slice(0, 10);
+  const [f, setF] = useState({
+    name: existing?.name ?? "", host: existing?.host ?? "", type: existing?.type ?? "Conference",
+    startDate: existing?.startDate ?? defaultDate ?? today, endDate: existing?.endDate ?? defaultDate ?? today,
+    location: existing?.location ?? "", heicoAttendeeIds: existing?.heicoAttendeeIds ?? [] as string[], notes: existing?.notes ?? "",
+  });
+  const set = (k: string, v: any) => setF((s) => ({ ...s, [k]: v }));
+  const toggleTeam = (id: string) => set("heicoAttendeeIds", f.heicoAttendeeIds.includes(id) ? f.heicoAttendeeIds.filter((x) => x !== id) : [...f.heicoAttendeeIds, id]);
+  const save = () => {
+    if (!f.name.trim()) return;
+    const end = f.endDate < f.startDate ? f.startDate : f.endDate;
+    const v = { name: f.name.trim(), host: f.host, type: f.type as ConferenceType, startDate: f.startDate, endDate: end, location: f.location, heicoAttendeeIds: f.heicoAttendeeIds, notes: f.notes };
+    if (existing) dispatch({ t: "conf.update", id: existing.id, v });
+    else dispatch({ t: "conf.add", v: { ...v, attendees: [] } });
+    onClose();
+  };
+  return (
+    <Modal title={existing ? "Edit conference" : "Add conference"} onClose={onClose} wide
+      footer={<><BtnGhost onClick={onClose}>Cancel</BtnGhost><BtnPrimary onClick={save}>Save</BtnPrimary></>}>
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+        <div className="sm:col-span-2"><Field label="Conference / event name"><Text value={f.name} onChange={(v) => set("name", v)} placeholder="e.g. Baird Global Industrial Conference" /></Field></div>
+        <Field label="Host / broker"><Text value={f.host} onChange={(v) => set("host", v)} placeholder="e.g. Baird" /></Field>
+        <Field label="Type"><Select value={f.type} onChange={(v) => set("type", v)} options={opts(CONFERENCE_TYPES)} /></Field>
+        <Field label="Start date"><Text type="date" value={f.startDate} onChange={(v) => set("startDate", v)} /></Field>
+        <Field label="End date"><Text type="date" value={f.endDate} onChange={(v) => set("endDate", v)} /></Field>
+        <div className="sm:col-span-2"><Field label="Location"><Text value={f.location} onChange={(v) => set("location", v)} placeholder="City, or Virtual" /></Field></div>
+        <div className="sm:col-span-2">
+          <span className="mb-1 block text-xs font-medium text-gray-600">Who from HEICO is attending</span>
+          <div className="flex flex-wrap gap-2">
+            {data.team.map((t) => (
+              <button key={t.id} type="button" onClick={() => toggleTeam(t.id)}
+                className={`rounded-full border px-3 py-1 text-xs ${f.heicoAttendeeIds.includes(t.id) ? "border-indigo-500 bg-indigo-50 text-indigo-700" : "border-gray-300 bg-white text-gray-600"}`}>
+                {f.heicoAttendeeIds.includes(t.id) ? "✓ " : ""}{t.name}
+              </button>
+            ))}
+          </div>
+        </div>
+        <div className="sm:col-span-2"><Field label="Notes"><Area value={f.notes} onChange={(v) => set("notes", v)} rows={2} placeholder="Presentation time, logistics, slots requested…" /></Field></div>
+      </div>
+    </Modal>
+  );
+}
+
+// ── Investor meeting at a conference ────────────────────────────────
+export function AttendeeForm({ confId, existing, onClose }: { confId: string; existing?: ConferenceAttendee; onClose: () => void }) {
+  const { data, dispatch } = useCrm();
+  const [f, setF] = useState({
+    investorId: existing?.investorId ?? data.investors[0]?.id ?? "",
+    contactIds: existing?.contactIds ?? [] as string[], format: existing?.format ?? "1x1",
+    time: existing?.time ?? "", notes: existing?.notes ?? "",
+  });
+  const set = (k: string, v: any) => setF((s) => ({ ...s, [k]: v }));
+  const firmContacts = data.contacts.filter((c) => c.investorId === f.investorId);
+  const toggleContact = (id: string) => set("contactIds", f.contactIds.includes(id) ? f.contactIds.filter((x) => x !== id) : [...f.contactIds, id]);
+  const investors = [...data.investors].sort((a, b) => a.name.localeCompare(b.name));
+  const save = () => {
+    if (!f.investorId) return;
+    const v = { investorId: f.investorId, contactIds: f.contactIds, format: f.format as MeetingFormat, time: f.time, notes: f.notes };
+    if (existing) dispatch({ t: "conf.attendee.update", confId, id: existing.id, v });
+    else dispatch({ t: "conf.attendee.add", confId, v });
+    onClose();
+  };
+  return (
+    <Modal title={existing ? "Edit investor meeting" : "Add investor meeting"} onClose={onClose} wide
+      footer={<><BtnGhost onClick={onClose}>Cancel</BtnGhost><BtnPrimary onClick={save}>Save</BtnPrimary></>}>
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+        <div className="sm:col-span-2"><Field label="Investor">
+          <Select value={f.investorId} onChange={(v) => setF((s) => ({ ...s, investorId: v, contactIds: [] }))} options={investors.map((i) => ({ value: i.id, label: i.name }))} />
+        </Field></div>
+        <Field label="Meeting format"><Select value={f.format} onChange={(v) => set("format", v)} options={opts(MEETING_FORMATS)} /></Field>
+        <Field label="Day / time"><Text value={f.time} onChange={(v) => set("time", v)} placeholder="e.g. Tue 10:30am" /></Field>
+        <div className="sm:col-span-2">
+          <span className="mb-1 block text-xs font-medium text-gray-600">Their people attending</span>
+          {firmContacts.length === 0
+            ? <p className="text-xs text-gray-400">No contacts saved for this firm yet — add them on the investor’s profile.</p>
+            : <div className="flex flex-wrap gap-2">
+                {firmContacts.map((c) => (
+                  <button key={c.id} type="button" onClick={() => toggleContact(c.id)}
+                    className={`rounded-full border px-3 py-1 text-xs ${f.contactIds.includes(c.id) ? "border-indigo-500 bg-indigo-50 text-indigo-700" : "border-gray-300 bg-white text-gray-600"}`}>
+                    {f.contactIds.includes(c.id) ? "✓ " : ""}{c.name}{c.title ? ` · ${c.title}` : ""}
+                  </button>
+                ))}
+              </div>}
+        </div>
+        <div className="sm:col-span-2"><Field label="Notes"><Area value={f.notes} onChange={(v) => set("notes", v)} rows={2} placeholder="Agenda, prep, follow-ups…" /></Field></div>
       </div>
     </Modal>
   );

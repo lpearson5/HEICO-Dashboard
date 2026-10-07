@@ -32,6 +32,9 @@ export default function InvestorDetail({ investorId, live, onClose }: { investor
   const activities = data.activities.filter((a) => a.investorId === investorId).sort((a, b) => b.date.localeCompare(a.date));
   const tasks = data.tasks.filter((t) => t.investorId === investorId).sort((a, b) => (a.done ? 1 : 0) - (b.done ? 1 : 0) || (a.dueDate ?? "").localeCompare(b.dueDate ?? ""));
   const owner = data.team.find((t) => t.id === investor.ownerId);
+  const confMeetings = (data.conferences ?? [])
+    .flatMap((c) => c.attendees.filter((m) => m.investorId === investorId).map((m) => ({ c, m })))
+    .sort((a, b) => b.c.startDate.localeCompare(a.c.startDate));
   const pos = live[normName(investor.name)];
 
   return (
@@ -123,6 +126,26 @@ export default function InvestorDetail({ investorId, live, onClose }: { investor
             ))}
           </div>
         </Section>
+
+        {/* conferences where we're meeting this investor */}
+        {confMeetings.length > 0 && (
+          <Section title={`Conferences (${confMeetings.length})`}>
+            <div className="divide-y divide-gray-50">
+              {confMeetings.map(({ c, m }) => (
+                <div key={m.id} className="px-4 py-2.5">
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-medium text-gray-800">{c.name}</span>
+                    <span className="rounded bg-gray-100 px-1.5 py-0.5 text-[11px] text-gray-600">{m.format}</span>
+                    <span className="ml-auto text-xs text-gray-400">{fmtDate(c.startDate)}</span>
+                  </div>
+                  <div className="text-xs text-gray-500">
+                    {[c.location, m.time, m.contactIds.map((id) => data.contacts.find((x) => x.id === id)?.name).filter(Boolean).join(", ")].filter(Boolean).join(" · ")}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </Section>
+        )}
 
         {/* tasks */}
         <Section title={`Tasks (${tasks.filter((t) => !t.done).length} open)`} action={<button onClick={() => setModal({ kind: "addTask" })} className="text-xs font-medium text-blue-600 hover:underline">+ Add</button>}>

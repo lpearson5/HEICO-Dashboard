@@ -74,12 +74,43 @@ export interface Task {
   createdAt?: string;
 }
 
+export type ConferenceType = "Conference" | "Roadshow / NDR" | "Investor Day" | "Site Visit" | "Virtual";
+export const CONFERENCE_TYPES: ConferenceType[] = ["Conference", "Roadshow / NDR", "Investor Day", "Site Visit", "Virtual"];
+
+export type MeetingFormat = "1x1" | "Small group" | "Group / lunch" | "Fireside / panel";
+export const MEETING_FORMATS: MeetingFormat[] = ["1x1", "Small group", "Group / lunch", "Fireside / panel"];
+
+// An investor meeting booked at a conference.
+export interface ConferenceAttendee {
+  id: string;
+  investorId: string;
+  contactIds: string[];      // which of the firm's people are attending
+  format: MeetingFormat;
+  time?: string;             // free text, e.g. "Tue 10:30am"
+  notes?: string;
+}
+
+export interface Conference {
+  id: string;
+  name: string;
+  host?: string;             // sponsoring broker / organizer
+  type: ConferenceType;
+  startDate: string;         // ISO date
+  endDate: string;           // ISO date (same as start for one-day events)
+  location?: string;
+  heicoAttendeeIds: string[]; // HEICO team members going
+  attendees: ConferenceAttendee[];
+  notes?: string;
+  createdAt?: string;
+}
+
 export interface CrmData {
   team: TeamMember[];
   investors: Investor[];
   contacts: Contact[];
   activities: Activity[];
   tasks: Task[];
+  conferences: Conference[];
 }
 
 // Live position info matched from the public dashboard data (auto-linking).

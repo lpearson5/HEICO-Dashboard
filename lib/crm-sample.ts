@@ -65,4 +65,42 @@ export const CRM_SAMPLE: CrmData = {
     { id: "t7", title: "Log William Blair conference notes", investorId: "i6", dueDate: "2026-09-01", done: true, priority: "Low", assigneeId: "u5" },
     { id: "t8", title: "Send thank-you to T. Rowe after catch-up", investorId: "i2", dueDate: "2026-09-12", done: true, priority: "Low", assigneeId: "u4" },
   ],
+
+  conferences: [
+    {
+      id: "cf1", name: "Jefferies Industrials Conference", host: "Jefferies", type: "Conference",
+      startDate: "2026-08-25", endDate: "2026-08-27", location: "New York, NY", heicoAttendeeIds: ["u4"],
+      attendees: [
+        { id: "ca1", investorId: "i6", contactIds: ["c5"], format: "1x1", time: "Wed 9:00am", notes: "Building position; bullish on defense electronics." },
+      ],
+      notes: "Fireside chat + 6 meetings.", createdAt: "2026-07-15",
+    },
+    {
+      id: "cf2", name: "West Coast Non-Deal Roadshow", host: "Jefferies", type: "Roadshow / NDR",
+      startDate: "2026-10-20", endDate: "2026-10-21", location: "San Francisco & Los Angeles", heicoAttendeeIds: ["u4", "u6"],
+      attendees: [
+        { id: "ca2", investorId: "i9", contactIds: ["c7"], format: "1x1", time: "Tue 10:00am (SF)", notes: "First PM-level meeting — bring valuation framework." },
+        { id: "ca3", investorId: "i3", contactIds: [], format: "Small group", time: "Wed 12:00pm (LA)", notes: "" },
+      ],
+      notes: "", createdAt: "2026-09-20",
+    },
+    {
+      id: "cf3", name: "Baird Global Industrial Conference", host: "Baird", type: "Conference",
+      startDate: "2026-11-10", endDate: "2026-11-12", location: "Chicago, IL", heicoAttendeeIds: ["u4", "u6"],
+      attendees: [
+        { id: "ca4", investorId: "i2", contactIds: ["c1"], format: "1x1", time: "Tue 2:00pm", notes: "" },
+        { id: "ca5", investorId: "i13", contactIds: ["c9", "c10"], format: "Small group", time: "Wed 8:30am", notes: "PM + ESG specialist." },
+        { id: "ca6", investorId: "i10", contactIds: ["c8"], format: "1x1", time: "TBD", notes: "Target — confirm slot with Baird." },
+      ],
+      notes: "Presentation Tue 11:00am.", createdAt: "2026-09-02",
+    },
+    {
+      id: "cf4", name: "Industrials & Aerospace Conference", host: "Goldman Sachs", type: "Conference",
+      startDate: "2026-12-02", endDate: "2026-12-03", location: "New York, NY", heicoAttendeeIds: ["u5"],
+      attendees: [
+        { id: "ca7", investorId: "i4", contactIds: ["c3"], format: "1x1", time: "", notes: "" },
+      ],
+      notes: "Requests open — slots not yet confirmed.", createdAt: "2026-09-28",
+    },
+  ],
 };
