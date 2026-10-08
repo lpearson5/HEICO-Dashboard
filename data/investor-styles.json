@@ -1,9 +1,9 @@
 {
-  "asOf": "2026-10-07T17:59:52.516Z",
+  "asOf": "2026-10-08T18:09:15.972Z",
   "period": "2026-06-30",
   "hei": {
-    "total": 777,
-    "totalShares": 43745756,
+    "total": 776,
+    "totalShares": 43747885,
     "categories": [
       {
         "style": "Growth",
@@ -281,11 +281,11 @@
       },
       {
         "style": "Momentum/Quant",
-        "holders": 63,
-        "holderPct": 8.1,
-        "shares": 3600912,
-        "sharePct": 8.2,
-        "estCount": 35,
+        "holders": 64,
+        "holderPct": 8.2,
+        "shares": 3613839,
+        "sharePct": 8.3,
+        "estCount": 36,
         "examples": [
           "TWO SIGMA INVESTMENTS, LP",
           "BALYASNY ASSET MANAGEMENT L.P.",
@@ -422,6 +422,11 @@
           {
             "name": "Trexquant Investment LP",
             "shares": 13807,
+            "est": true
+          },
+          {
+            "name": "Numerai GP LLC",
+            "shares": 12927,
             "est": true
           },
           {
@@ -643,9 +648,9 @@
       },
       {
         "style": "Blend/Core",
-        "holders": 584,
-        "holderPct": 75.2,
-        "shares": 26290533,
+        "holders": 583,
+        "holderPct": 75.1,
+        "shares": 26282948,
         "sharePct": 60.1,
         "estCount": 128,
         "examples": [
@@ -1625,11 +1630,6 @@
             "name": "Union Bancaire Privee, UBP SA",
             "shares": 7730,
             "est": true
-          },
-          {
-            "name": "Verity Asset Management, Inc.",
-            "shares": 7585,
-            "est": false
           },
           {
             "name": "Rafferty Asset Management, LLC",
@@ -3580,10 +3580,10 @@
       },
       {
         "style": "Unclassified",
-        "holders": 79,
-        "holderPct": 10.2,
-        "shares": 331166,
-        "sharePct": 0.8,
+        "holders": 78,
+        "holderPct": 10.1,
+        "shares": 327953,
+        "sharePct": 0.7,
         "estCount": 0,
         "examples": [
           "One Madison Group LLC",
@@ -3641,11 +3641,6 @@
           {
             "name": "Catalyst Funds Management Pty Ltd",
             "shares": 5440,
-            "est": false
-          },
-          {
-            "name": "Storgate, LLC",
-            "shares": 3213,
             "est": false
           },
           {
@@ -3993,14 +3988,14 @@
     ],
     "coverage": {
       "curated": 160,
-      "heuristic": 352,
-      "estimated": 186,
-      "unknown": 79
+      "heuristic": 351,
+      "estimated": 187,
+      "unknown": 78
     }
   },
   "heia": {
-    "total": 670,
-    "totalShares": 70041288,
+    "total": 669,
+    "totalShares": 70040446,
     "categories": [
       {
         "style": "Growth",
@@ -4539,7 +4534,7 @@
       {
         "style": "Blend/Core",
         "holders": 509,
-        "holderPct": 76,
+        "holderPct": 76.1,
         "shares": 48984648,
         "sharePct": 69.9,
         "estCount": 106,
@@ -7100,9 +7095,9 @@
       },
       {
         "style": "Unclassified",
-        "holders": 67,
-        "holderPct": 10,
-        "shares": 2525012,
+        "holders": 66,
+        "holderPct": 9.9,
+        "shares": 2524170,
         "sharePct": 3.6,
         "estCount": 0,
         "examples": [
@@ -7221,11 +7216,6 @@
           {
             "name": "Roble, Belko & Company, Inc",
             "shares": 847,
-            "est": false
-          },
-          {
-            "name": "R Squared Ltd",
-            "shares": 842,
             "est": false
           },
           {
@@ -7455,12 +7445,12 @@
       "curated": 170,
       "heuristic": 295,
       "estimated": 138,
-      "unknown": 67
+      "unknown": 66
     }
   },
   "combined": {
-    "total": 1010,
-    "totalShares": 113787044,
+    "total": 1008,
+    "totalShares": 113788331,
     "categories": [
       {
         "style": "Growth",
@@ -7853,11 +7843,11 @@
       },
       {
         "style": "Momentum/Quant",
-        "holders": 83,
-        "holderPct": 8.2,
-        "shares": 8203623,
+        "holders": 84,
+        "holderPct": 8.3,
+        "shares": 8216550,
         "sharePct": 7.2,
-        "estCount": 45,
+        "estCount": 46,
         "examples": [
           "ARROWSTREET CAPITAL, LIMITED PARTNERSHIP",
           "MILLENNIUM MANAGEMENT LLC",
@@ -8080,6 +8070,11 @@
             "name": "ABC ARBITRAGE SA",
             "shares": 13364,
             "est": false
+          },
+          {
+            "name": "Numerai GP LLC",
+            "shares": 12927,
+            "est": true
           },
           {
             "name": "Engineers Gate Manager LP",
@@ -8315,10 +8310,10 @@
       },
       {
         "style": "Blend/Core",
-        "holders": 737,
+        "holders": 736,
         "holderPct": 73,
-        "shares": 75275181,
-        "sharePct": 66.2,
+        "shares": 75267596,
+        "sharePct": 66.1,
         "estCount": 159,
         "examples": [
           "BlackRock, Inc.  (BLK)",
@@ -9797,11 +9792,6 @@
             "name": "IEQ CAPITAL, LLC",
             "shares": 7607,
             "est": true
-          },
-          {
-            "name": "Verity Asset Management, Inc.",
-            "shares": 7585,
-            "est": false
           },
           {
             "name": "Meiji Yasuda Life Insurance Co",
@@ -12017,9 +12007,9 @@
       },
       {
         "style": "Unclassified",
-        "holders": 116,
-        "holderPct": 11.5,
-        "shares": 2856178,
+        "holders": 114,
+        "holderPct": 11.3,
+        "shares": 2852123,
         "sharePct": 2.5,
         "estCount": 0,
         "examples": [
@@ -12141,11 +12131,6 @@
             "est": false
           },
           {
-            "name": "Storgate, LLC",
-            "shares": 3213,
-            "est": false
-          },
-          {
             "name": "Inscription Capital, LLC",
             "shares": 2587,
             "est": false
@@ -12208,11 +12193,6 @@
           {
             "name": "Roble, Belko & Company, Inc",
             "shares": 847,
-            "est": false
-          },
-          {
-            "name": "R Squared Ltd",
-            "shares": 842,
             "est": false
           },
           {
@@ -12615,9 +12595,9 @@
     ],
     "coverage": {
       "curated": 192,
-      "heuristic": 465,
-      "estimated": 237,
-      "unknown": 116
+      "heuristic": 464,
+      "estimated": 238,
+      "unknown": 114
     }
   }
 }

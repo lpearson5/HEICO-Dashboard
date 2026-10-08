@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-10-07T17:45:24.580Z",
+  "lastUpdated": "2026-10-08T17:49:58.559Z",
   "summary": {
-    "institutions": 777,
-    "totalShares": 43745756,
+    "institutions": 776,
+    "totalShares": 43747885,
     "pctOut": 79.19,
     "newHolders": 120,
-    "sellouts": 85,
-    "bought": 256,
-    "sold": 266,
+    "sellouts": 87,
+    "bought": 254,
+    "sold": 267,
     "held": 135
   },
   "top10": [
@@ -425,7 +425,7 @@
         20523,
         null,
         3033,
-        null
+        1755
       ],
       "netChg": 20523,
       "currentValue": 7310087,
@@ -2563,24 +2563,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Numerai GP LLC",
-      "filerCik": "1668527",
-      "shares": [
-        null,
-        16243,
-        22765,
-        24799
-      ],
-      "netChg": -16243,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Tredje AP-fonden",
       "filerCik": "1650290",
       "shares": [
@@ -2662,6 +2644,24 @@
         8924
       ],
       "netChg": -7516,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Verity Asset Management, Inc.",
+      "filerCik": "1597298",
+      "shares": [
+        null,
+        7343,
+        7136,
+        7139
+      ],
+      "netChg": -7343,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -3238,6 +3238,42 @@
         null
       ],
       "netChg": -1248,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Storgate, LLC",
+      "filerCik": "2110835",
+      "shares": [
+        null,
+        1181,
+        null,
+        null
+      ],
+      "netChg": -1181,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Vontobel Holding Ltd.",
+      "filerCik": "1588340",
+      "shares": [
+        null,
+        1053,
+        5491,
+        null
+      ],
+      "netChg": -1053,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -6999,7 +7035,7 @@
         20523,
         null,
         3033,
-        null
+        1755
       ],
       "netChg": 20523,
       "currentValue": 7310087,
@@ -7727,6 +7763,24 @@
       "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 13068,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "Numerai GP LLC",
+      "filerCik": "1668527",
+      "shares": [
+        12927,
+        16243,
+        22765,
+        24799
+      ],
+      "netChg": -3316,
+      "currentValue": 4604468,
+      "pctOut": 0.02,
+      "action": "Sold",
+      "discretion": "SOLE",
+      "voteSole": 12927,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -8665,24 +8719,6 @@
       "voteSole": 6815,
       "voteShared": 0,
       "voteNone": 915
-    },
-    {
-      "filerName": "Verity Asset Management, Inc.",
-      "filerCik": "1597298",
-      "shares": [
-        7585,
-        7343,
-        7136,
-        7139
-      ],
-      "netChg": 242,
-      "currentValue": 2701701,
-      "pctOut": 0.01,
-      "action": "Bought",
-      "discretion": "SOLE",
-      "voteSole": 0,
-      "voteShared": 0,
-      "voteNone": 7585
     },
     {
       "filerName": "Rafferty Asset Management, LLC",
@@ -10283,24 +10319,6 @@
       "action": "Bought",
       "discretion": "SOLE",
       "voteSole": 3225,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "Storgate, LLC",
-      "filerCik": "2110835",
-      "shares": [
-        3213,
-        1181,
-        null,
-        null
-      ],
-      "netChg": 2032,
-      "currentValue": 1144438,
-      "pctOut": 0.01,
-      "action": "Bought",
-      "discretion": "SOLE",
-      "voteSole": 3213,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -18387,6 +18405,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Storgate, LLC",
+      "filerCik": "2110835",
+      "shares": [
+        null,
+        1181,
+        null,
+        null
+      ],
+      "netChg": -1181,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Essex LLC",
       "filerCik": "1889147",
       "shares": [
@@ -18471,6 +18507,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Verity Asset Management, Inc.",
+      "filerCik": "1597298",
+      "shares": [
+        null,
+        7343,
+        7136,
+        7139
+      ],
+      "netChg": -7343,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19521,24 +19575,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Numerai GP LLC",
-      "filerCik": "1668527",
-      "shares": [
-        null,
-        16243,
-        22765,
-        24799
-      ],
-      "netChg": -16243,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Inspire Advisors, LLC",
       "filerCik": "1810558",
       "shares": [
@@ -19575,13 +19611,13 @@
       "voteNone": null
     },
     {
-      "filerName": "PineBridge Investments, L.P.",
-      "filerCik": "1531721",
+      "filerName": "DT Investment Partners, LLC",
+      "filerCik": "1537621",
       "shares": [
         null,
         null,
-        null,
-        6095
+        66,
+        66
       ],
       "netChg": null,
       "currentValue": null,
@@ -19593,13 +19629,13 @@
       "voteNone": null
     },
     {
-      "filerName": "DT Investment Partners, LLC",
-      "filerCik": "1537621",
+      "filerName": "PineBridge Investments, L.P.",
+      "filerCik": "1531721",
       "shares": [
         null,
         null,
-        66,
-        66
+        null,
+        6095
       ],
       "netChg": null,
       "currentValue": null,
@@ -19779,6 +19815,24 @@
         null,
         null,
         3884,
+        3884
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Legato Capital Management LLC",
+      "filerCik": "1442641",
+      "shares": [
+        null,
+        null,
+        1077,
         null
       ],
       "netChg": null,
@@ -19821,24 +19875,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Legato Capital Management LLC",
-      "filerCik": "1442641",
-      "shares": [
-        null,
-        null,
-        1077,
-        null
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19989,24 +20025,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Key Capital Management, INC",
-      "filerCik": "2107249",
-      "shares": [
-        null,
-        5,
-        null,
-        null
-      ],
-      "netChg": -5,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Elequin Capital, LP",
       "filerCik": "1810873",
       "shares": [
@@ -20016,6 +20034,24 @@
         null
       ],
       "netChg": -1,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Key Capital Management, INC",
+      "filerCik": "2107249",
+      "shares": [
+        null,
+        5,
+        null,
+        null
+      ],
+      "netChg": -5,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -20349,6 +20385,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Vontobel Holding Ltd.",
+      "filerCik": "1588340",
+      "shares": [
+        null,
+        1053,
+        5491,
+        null
+      ],
+      "netChg": -1053,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Groupe la Francaise",
       "filerCik": "2056088",
       "shares": [
@@ -20451,24 +20505,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Vontobel Holding Ltd.",
-      "filerCik": "1588340",
-      "shares": [
-        null,
-        null,
-        5491,
-        null
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -20583,24 +20619,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Sachetta, LLC",
-      "filerCik": "2010574",
-      "shares": [
-        null,
-        9,
-        10,
-        10
-      ],
-      "netChg": -9,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "CIBC WORLD MARKETS CORP",
       "filerCik": "1056527",
       "shares": [
@@ -20613,6 +20631,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Sachetta, LLC",
+      "filerCik": "2010574",
+      "shares": [
+        null,
+        9,
+        10,
+        10
+      ],
+      "netChg": -9,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,

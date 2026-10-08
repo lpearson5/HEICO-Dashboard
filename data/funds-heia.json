@@ -2,11 +2,11 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-10-07T17:45:24.580Z",
+  "lastUpdated": "2026-10-08T17:49:58.559Z",
   "summary": {
     "funds": 349,
-    "totalShares": 28265754,
-    "pctOut": 33.4444,
+    "totalShares": 28288536,
+    "pctOut": 33.4713,
     "newFunds": 15,
     "sellouts": 32,
     "linkedManagers": 24,
@@ -1716,6 +1716,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "Column Mid Cap Select Fund",
+      "registrant": "Trust for Professional Managers",
+      "manager": "",
+      "cik": "1141819",
+      "shares": 168467,
+      "value": 41134587,
+      "reportDate": "2026-08-31",
+      "priorShares": 150506,
+      "change": 17961,
+      "pctOut": 0.1993,
+      "action": "Bought"
+    },
+    {
       "fundName": "FAM DIVIDEND FOCUS FUND",
       "registrant": "Fenimore Asset Management Trust",
       "manager": "",
@@ -1740,19 +1753,6 @@
       "change": 0,
       "pctOut": 0.1892,
       "action": "No Change"
-    },
-    {
-      "fundName": "Column Mid Cap Select Fund",
-      "registrant": "Trust for Professional Managers",
-      "manager": "",
-      "cik": "1141819",
-      "shares": 150506,
-      "value": 39102964,
-      "reportDate": "2026-05-31",
-      "priorShares": 141101,
-      "change": 9405,
-      "pctOut": 0.1781,
-      "action": "Bought"
     },
     {
       "fundName": "Fidelity Growth Strategies Fund",
@@ -2604,12 +2604,12 @@
       "registrant": "Trust for Professional Managers",
       "manager": "",
       "cik": "1141819",
-      "shares": 27088,
-      "value": 7037733,
-      "reportDate": "2026-05-31",
-      "priorShares": 26277,
-      "change": 811,
-      "pctOut": 0.0321,
+      "shares": 30195,
+      "value": 7372713,
+      "reportDate": "2026-08-31",
+      "priorShares": 27088,
+      "change": 3107,
+      "pctOut": 0.0357,
       "action": "Bought"
     },
     {
@@ -3991,6 +3991,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "THRIVENT MODERATELY AGGRESSIVE ALLOCATION FUND",
+      "registrant": "Thrivent Mutual Funds",
+      "manager": "",
+      "cik": "811869",
+      "shares": 2616,
+      "value": 546796,
+      "reportDate": "2026-04-30",
+      "priorShares": 53,
+      "change": 2563,
+      "pctOut": 0.0031000000000000003,
+      "action": "Bought"
+    },
+    {
       "fundName": "Goldman Sachs MarketBeta U.S. 1000 Equity ETF",
       "registrant": "Goldman Sachs ETF Trust II",
       "manager": "Goldman Sachs",
@@ -4741,19 +4754,6 @@
       "reportDate": "2026-05-31",
       "priorShares": 1161,
       "change": -252,
-      "pctOut": 0.0011,
-      "action": "Sold"
-    },
-    {
-      "fundName": "THRIVENT MODERATELY AGGRESSIVE ALLOCATION FUND",
-      "registrant": "Thrivent Mutual Funds",
-      "manager": "",
-      "cik": "811869",
-      "shares": 902,
-      "value": 232067,
-      "reportDate": "2026-07-31",
-      "priorShares": 2616,
-      "change": -1714,
       "pctOut": 0.0011,
       "action": "Sold"
     },

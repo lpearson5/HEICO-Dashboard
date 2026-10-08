@@ -8,16 +8,16 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-10-07T17:45:24.580Z",
+  "lastUpdated": "2026-10-08T17:49:58.559Z",
   "summary": {
-    "institutions": 671,
-    "totalShares": 70041288,
+    "institutions": 670,
+    "totalShares": 70040446,
     "pctOut": 82.87,
-    "newHolders": 110,
-    "sellouts": 62,
-    "bought": 255,
-    "sold": 215,
-    "held": 91
+    "newHolders": 113,
+    "sellouts": 63,
+    "bought": 253,
+    "sold": 214,
+    "held": 90
   },
   "top10": [
     {
@@ -311,6 +311,24 @@
       "voteNone": 52374
     },
     {
+      "filerName": "HEALTHCARE OF ONTARIO PENSION PLAN TRUST FUND",
+      "filerCik": "1535845",
+      "shares": [
+        60138,
+        null,
+        75138,
+        75138
+      ],
+      "netChg": 60138,
+      "currentValue": 15510192,
+      "pctOut": 0.06999999999999999,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 60138,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "Kinsale Capital Group, Inc.  (KNSL)",
       "filerCik": "1669162",
       "shares": [
@@ -525,6 +543,24 @@
       "voteSole": 9840,
       "voteShared": 0,
       "voteNone": 0
+    },
+    {
+      "filerName": "PRINCIPAL SECURITIES, INC.",
+      "filerCik": "12600",
+      "shares": [
+        9824,
+        null,
+        10043,
+        10289
+      ],
+      "netChg": 9824,
+      "currentValue": 2533739,
+      "pctOut": 0.01,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 9824
     },
     {
       "filerName": "MOODY LYNN LIEBERSON & WALKER, LLC",
@@ -921,6 +957,24 @@
       "voteSole": 1495,
       "voteShared": 0,
       "voteNone": 0
+    },
+    {
+      "filerName": "WEALTH ALLIANCE, LLC",
+      "filerCik": "1793904",
+      "shares": [
+        1443,
+        null,
+        1356,
+        1336
+      ],
+      "netChg": 1443,
+      "currentValue": 372211,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "DFND",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 1443
     },
     {
       "filerName": "Atom Investors LP",
@@ -2716,6 +2770,24 @@
         null
       ],
       "netChg": -1399,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "R Squared Ltd",
+      "filerCik": "1896148",
+      "shares": [
+        null,
+        1382,
+        912,
+        null
+      ],
+      "netChg": -1382,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -5611,14 +5683,14 @@
       "filerCik": "1535845",
       "shares": [
         60138,
-        60138,
+        null,
         75138,
         75138
       ],
-      "netChg": 0,
+      "netChg": 60138,
       "currentValue": 15510192,
       "pctOut": 0.06999999999999999,
-      "action": "No Change",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 60138,
       "voteShared": 0,
@@ -7717,14 +7789,14 @@
       "filerCik": "12600",
       "shares": [
         9824,
-        9265,
+        null,
         10043,
         10289
       ],
-      "netChg": 559,
+      "netChg": 9824,
       "currentValue": 2533739,
       "pctOut": 0.01,
-      "action": "Bought",
+      "action": "New",
       "discretion": "SOLE",
       "voteSole": 0,
       "voteShared": 0,
@@ -10993,14 +11065,14 @@
       "filerCik": "1793904",
       "shares": [
         1443,
-        1404,
+        null,
         1356,
         1336
       ],
-      "netChg": 39,
+      "netChg": 1443,
       "currentValue": 372211,
       "pctOut": 0,
-      "action": "Bought",
+      "action": "New",
       "discretion": "DFND",
       "voteSole": 0,
       "voteShared": 0,
@@ -11696,7 +11768,7 @@
       "shares": [
         1055,
         1183,
-        null,
+        1145,
         1360
       ],
       "netChg": -128,
@@ -12173,24 +12245,6 @@
       "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 847,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "R Squared Ltd",
-      "filerCik": "1896148",
-      "shares": [
-        842,
-        1382,
-        912,
-        null
-      ],
-      "netChg": -540,
-      "currentValue": 217160,
-      "pctOut": 0,
-      "action": "Sold",
-      "discretion": "SOLE",
-      "voteSole": 842,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -17337,6 +17391,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "R Squared Ltd",
+      "filerCik": "1896148",
+      "shares": [
+        null,
+        1382,
+        912,
+        null
+      ],
+      "netChg": -1382,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,

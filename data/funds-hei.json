@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-10-07T17:45:24.580Z",
+  "lastUpdated": "2026-10-08T17:49:58.559Z",
   "summary": {
     "funds": 439,
-    "totalShares": 19751672,
-    "pctOut": 35.754999999999995,
+    "totalShares": 19751623,
+    "pctOut": 35.7549,
     "newFunds": 53,
     "sellouts": 42,
     "linkedManagers": 25,
-    "linkedShares": 16988593
+    "linkedShares": 16988544
   },
   "newHolders": [
     {
@@ -1770,7 +1770,7 @@
     {
       "manager": "Morgan Stanley",
       "fundCount": 18,
-      "shares": 246887,
+      "shares": 246838,
       "funds": [
         {
           "fundName": "Eaton Vance Tax-Managed Diversified Equity Income Fund",
@@ -1814,7 +1814,7 @@
         },
         {
           "fundName": "Calvert US Large-Cap Core Responsible Index ETF",
-          "shares": 1803
+          "shares": 1754
         },
         {
           "fundName": "Morgan Stanley Pathway Large Cap Equity ETF",
@@ -5839,19 +5839,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Calvert US Large-Cap Core Responsible Index ETF",
-      "registrant": "Morgan Stanley ETF Trust",
-      "manager": "Morgan Stanley",
-      "cik": "1676326",
-      "shares": 1803,
-      "value": 642211,
-      "reportDate": "2026-06-30",
-      "priorShares": 1754,
-      "change": 49,
-      "pctOut": 0.0033000000000000004,
-      "action": "Bought"
-    },
-    {
       "fundName": "Gotham Absolute Return Fund",
       "registrant": "FundVantage Trust",
       "manager": "",
@@ -5874,6 +5861,19 @@
       "reportDate": "2026-07-31",
       "priorShares": 1695,
       "change": 63,
+      "pctOut": 0.0031999999999999997,
+      "action": "Bought"
+    },
+    {
+      "fundName": "Calvert US Large-Cap Core Responsible Index ETF",
+      "registrant": "Morgan Stanley ETF Trust",
+      "manager": "Morgan Stanley",
+      "cik": "1676326",
+      "shares": 1754,
+      "value": 480947,
+      "reportDate": "2026-03-31",
+      "priorShares": 1654,
+      "change": 100,
       "pctOut": 0.0031999999999999997,
       "action": "Bought"
     },
@@ -6806,12 +6806,12 @@
       "manager": "",
       "cik": "1141819",
       "shares": 585,
-      "value": 203685,
-      "reportDate": "2026-05-31",
-      "priorShares": 5373,
-      "change": -4788,
+      "value": 193723,
+      "reportDate": "2026-08-31",
+      "priorShares": 585,
+      "change": 0,
       "pctOut": 0.0011,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Nuveen Nasdaq 100 Dynamic Overwrite Fund",
