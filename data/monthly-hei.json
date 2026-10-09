@@ -8,14 +8,14 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-10-08T17:49:58.559Z",
+  "lastUpdated": "2026-10-09T17:26:07.123Z",
   "summary": {
-    "institutions": 776,
-    "totalShares": 43747885,
-    "pctOut": 79.19,
+    "institutions": 778,
+    "totalShares": 43758683,
+    "pctOut": 79.21000000000001,
     "newHolders": 120,
-    "sellouts": 87,
-    "bought": 254,
+    "sellouts": 85,
+    "bought": 256,
     "sold": 267,
     "held": 135
   },
@@ -2653,24 +2653,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Verity Asset Management, Inc.",
-      "filerCik": "1597298",
-      "shares": [
-        null,
-        7343,
-        7136,
-        7139
-      ],
-      "netChg": -7343,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "ABC ARBITRAGE SA",
       "filerCik": "2049221",
       "shares": [
@@ -3238,24 +3220,6 @@
         null
       ],
       "netChg": -1248,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Storgate, LLC",
-      "filerCik": "2110835",
-      "shares": [
-        null,
-        1181,
-        null,
-        null
-      ],
-      "netChg": -1181,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -4586,7 +4550,7 @@
       "shares": [
         211139,
         168013,
-        25574,
+        null,
         null
       ],
       "netChg": 43126,
@@ -8721,6 +8685,24 @@
       "voteNone": 915
     },
     {
+      "filerName": "Verity Asset Management, Inc.",
+      "filerCik": "1597298",
+      "shares": [
+        7585,
+        7343,
+        7136,
+        7139
+      ],
+      "netChg": 242,
+      "currentValue": 2701701,
+      "pctOut": 0.01,
+      "action": "Bought",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 7585
+    },
+    {
       "filerName": "Rafferty Asset Management, LLC",
       "filerCik": "1389426",
       "shares": [
@@ -10319,6 +10301,24 @@
       "action": "Bought",
       "discretion": "SOLE",
       "voteSole": 3225,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "Storgate, LLC",
+      "filerCik": "2110835",
+      "shares": [
+        3213,
+        1181,
+        null,
+        null
+      ],
+      "netChg": 2032,
+      "currentValue": 1144438,
+      "pctOut": 0.01,
+      "action": "Bought",
+      "discretion": "SOLE",
+      "voteSole": 3213,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -18405,24 +18405,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Storgate, LLC",
-      "filerCik": "2110835",
-      "shares": [
-        null,
-        1181,
-        null,
-        null
-      ],
-      "netChg": -1181,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Essex LLC",
       "filerCik": "1889147",
       "shares": [
@@ -18507,24 +18489,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Verity Asset Management, Inc.",
-      "filerCik": "1597298",
-      "shares": [
-        null,
-        7343,
-        7136,
-        7139
-      ],
-      "netChg": -7343,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19089,6 +19053,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Qtron Investments LLC",
+      "filerCik": "1768099",
+      "shares": [
+        null,
+        2949,
+        2949,
+        4380
+      ],
+      "netChg": -2949,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Litman Gregory Wealth Management LLC",
       "filerCik": "1551867",
       "shares": [
@@ -19119,24 +19101,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Qtron Investments LLC",
-      "filerCik": "1768099",
-      "shares": [
-        null,
-        2949,
-        2949,
-        4380
-      ],
-      "netChg": -2949,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -20637,24 +20601,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Sachetta, LLC",
-      "filerCik": "2010574",
-      "shares": [
-        null,
-        9,
-        10,
-        10
-      ],
-      "netChg": -9,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "PICTON MAHONEY ASSET MANAGEMENT",
       "filerCik": "1539041",
       "shares": [
@@ -20664,6 +20610,24 @@
         null
       ],
       "netChg": -1248,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Sachetta, LLC",
+      "filerCik": "2010574",
+      "shares": [
+        null,
+        9,
+        10,
+        10
+      ],
+      "netChg": -9,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",

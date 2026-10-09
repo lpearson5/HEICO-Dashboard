@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-10-08T17:49:58.559Z",
+  "lastUpdated": "2026-10-09T17:26:07.123Z",
   "summary": {
     "funds": 439,
-    "totalShares": 19751623,
-    "pctOut": 35.7549,
+    "totalShares": 19751672,
+    "pctOut": 35.754999999999995,
     "newFunds": 53,
     "sellouts": 42,
     "linkedManagers": 25,
-    "linkedShares": 16988544
+    "linkedShares": 16988593
   },
   "newHolders": [
     {
@@ -1770,7 +1770,7 @@
     {
       "manager": "Morgan Stanley",
       "fundCount": 18,
-      "shares": 246838,
+      "shares": 246887,
       "funds": [
         {
           "fundName": "Eaton Vance Tax-Managed Diversified Equity Income Fund",
@@ -1814,7 +1814,7 @@
         },
         {
           "fundName": "Calvert US Large-Cap Core Responsible Index ETF",
-          "shares": 1754
+          "shares": 1803
         },
         {
           "fundName": "Morgan Stanley Pathway Large Cap Equity ETF",
@@ -4695,13 +4695,13 @@
       "action": "Sold"
     },
     {
-      "fundName": "Bright Rock Mid Cap Growth Fund",
+      "fundName": "Bright Rock Mid Cap Fund",
       "registrant": "Trust for Professional Managers",
       "manager": "",
       "cik": "1141819",
       "shares": 7000,
-      "value": 2437260,
-      "reportDate": "2026-05-31",
+      "value": 2318050,
+      "reportDate": "2026-08-31",
       "priorShares": 7000,
       "change": 0,
       "pctOut": 0.0127,
@@ -5839,6 +5839,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Calvert US Large-Cap Core Responsible Index ETF",
+      "registrant": "Morgan Stanley ETF Trust",
+      "manager": "Morgan Stanley",
+      "cik": "1676326",
+      "shares": 1803,
+      "value": 642211,
+      "reportDate": "2026-06-30",
+      "priorShares": 1754,
+      "change": 49,
+      "pctOut": 0.0033000000000000004,
+      "action": "Bought"
+    },
+    {
       "fundName": "Gotham Absolute Return Fund",
       "registrant": "FundVantage Trust",
       "manager": "",
@@ -5861,19 +5874,6 @@
       "reportDate": "2026-07-31",
       "priorShares": 1695,
       "change": 63,
-      "pctOut": 0.0031999999999999997,
-      "action": "Bought"
-    },
-    {
-      "fundName": "Calvert US Large-Cap Core Responsible Index ETF",
-      "registrant": "Morgan Stanley ETF Trust",
-      "manager": "Morgan Stanley",
-      "cik": "1676326",
-      "shares": 1754,
-      "value": 480947,
-      "reportDate": "2026-03-31",
-      "priorShares": 1654,
-      "change": 100,
       "pctOut": 0.0031999999999999997,
       "action": "Bought"
     },
