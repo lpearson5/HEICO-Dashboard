@@ -8,14 +8,14 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-10-09T17:26:07.123Z",
+  "lastUpdated": "2026-10-10T16:11:02.832Z",
   "summary": {
     "institutions": 671,
     "totalShares": 70041288,
     "pctOut": 82.87,
-    "newHolders": 111,
+    "newHolders": 110,
     "sellouts": 62,
-    "bought": 254,
+    "bought": 255,
     "sold": 215,
     "held": 91
   },
@@ -381,24 +381,6 @@
       "voteSole": 0,
       "voteShared": 0,
       "voteNone": 26342
-    },
-    {
-      "filerName": "THORNBURG INVESTMENT MANAGEMENT INC",
-      "filerCik": "1145020",
-      "shares": [
-        24161,
-        null,
-        null,
-        null
-      ],
-      "netChg": 24161,
-      "currentValue": 6231364,
-      "pctOut": 0.03,
-      "action": "New",
-      "discretion": "SOLE",
-      "voteSole": 24161,
-      "voteShared": 0,
-      "voteNone": 0
     },
     {
       "filerName": "O'Connor Alternative Investments LLC",
@@ -6583,14 +6565,14 @@
       "filerCik": "1145020",
       "shares": [
         24161,
-        null,
+        5512,
         null,
         null
       ],
-      "netChg": 24161,
+      "netChg": 18649,
       "currentValue": 6231364,
       "pctOut": 0.03,
-      "action": "New",
+      "action": "Bought",
       "discretion": "SOLE",
       "voteSole": 24161,
       "voteShared": 0,
@@ -8295,7 +8277,7 @@
         7264,
         6669,
         4103,
-        null
+        6535
       ],
       "netChg": 595,
       "currentValue": 1871656,
@@ -10220,7 +10202,7 @@
       "shares": [
         2309,
         1905,
-        null,
+        1598,
         1306
       ],
       "netChg": 404,
@@ -11678,7 +11660,7 @@
       "shares": [
         1058,
         1058,
-        null,
+        1058,
         1140
       ],
       "netChg": 0,
@@ -16299,6 +16281,24 @@
       "voteNone": null
     },
     {
+      "filerName": "PICTON MAHONEY ASSET MANAGEMENT",
+      "filerCik": "1539041",
+      "shares": [
+        null,
+        1668,
+        null,
+        null
+      ],
+      "netChg": -1668,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "Vermillion Wealth Management, Inc.",
       "filerCik": "1737012",
       "shares": [
@@ -17913,24 +17913,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "PICTON MAHONEY ASSET MANAGEMENT",
-      "filerCik": "1539041",
-      "shares": [
-        null,
-        1668,
-        null,
-        null
-      ],
-      "netChg": -1668,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
