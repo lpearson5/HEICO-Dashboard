@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-10-16T15:20:37.320Z",
+  "lastUpdated": "2026-10-17T14:09:13.713Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -7528,6 +7528,18 @@
       "action": "Sold",
       "firstSeen": "2026-07-29",
       "newThisWeek": false
+    },
+    {
+      "filerName": "James T. Borello RIA",
+      "filerCik": "2157919",
+      "currentShares": 13,
+      "priorShares": 20,
+      "change": -7,
+      "pctChange": -35,
+      "currentValue": 3353,
+      "action": "Sold",
+      "firstSeen": "2026-10-16",
+      "newThisWeek": true
     },
     {
       "filerName": "CoreCap Advisors, LLC",

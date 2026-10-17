@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-06-30",
   "priorPeriod": "2026-03-31",
-  "lastUpdated": "2026-10-16T15:20:37.320Z",
+  "lastUpdated": "2026-10-17T14:09:13.713Z",
   "holdings": [
     {
       "filerName": "BlackRock, Inc.  (BLK)",
@@ -8560,6 +8560,18 @@
       "action": "Bought",
       "firstSeen": "2026-07-27",
       "newThisWeek": false
+    },
+    {
+      "filerName": "James T. Borello RIA",
+      "filerCik": "2157919",
+      "currentShares": 21,
+      "priorShares": 29,
+      "change": -8,
+      "pctChange": -27.6,
+      "currentValue": 7480,
+      "action": "Sold",
+      "firstSeen": "2026-10-16",
+      "newThisWeek": true
     },
     {
       "filerName": "Rossby Financial, LCC",
