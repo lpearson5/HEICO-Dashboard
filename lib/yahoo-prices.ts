@@ -36,8 +36,9 @@ interface Pt { date: string; close: number; volume: number }
 async function getChart(symbol: string): Promise<{ meta: any; pts: Pt[] } | null> {
   const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?range=1y&interval=1d`;
   try {
-    // Cache upstream 60s so many page loads don't hammer Yahoo, while staying near-live.
-    const r = await fetch(url, { headers: UA, next: { revalidate: 60 }, signal: AbortSignal.timeout(15000) });
+    // Always fetch fresh (no stale-while-revalidate); the /api/prices route keeps a
+    // short in-memory buffer so bursts of visitors don't hammer Yahoo.
+    const r = await fetch(url, { headers: UA, cache: "no-store", signal: AbortSignal.timeout(15000) });
     const j: any = await r.json();
     const res = j?.chart?.result?.[0];
     if (!res) return null;
