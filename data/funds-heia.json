@@ -2,12 +2,12 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-10-19T17:25:34.584Z",
+  "lastUpdated": "2026-10-20T15:37:20.396Z",
   "summary": {
     "funds": 349,
-    "totalShares": 28286822,
-    "pctOut": 33.469300000000004,
-    "newFunds": 15,
+    "totalShares": 28287226,
+    "pctOut": 33.4698,
+    "newFunds": 14,
     "sellouts": 31,
     "linkedManagers": 24,
     "linkedShares": 23978720
@@ -125,19 +125,6 @@
       "shares": 1112,
       "value": 286095,
       "reportDate": "2026-07-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0013,
-      "action": "New"
-    },
-    {
-      "fundName": "ActivePassive U.S. Equity ETF",
-      "registrant": "Trust for Professional Managers",
-      "manager": "",
-      "cik": "1141819",
-      "shares": 1057,
-      "value": 274619,
-      "reportDate": "2026-05-31",
       "priorShares": null,
       "change": null,
       "pctOut": 0.0013,
@@ -4426,6 +4413,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "ActivePassive U.S. Equity ETF",
+      "registrant": "Trust for Professional Managers",
+      "manager": "",
+      "cik": "1141819",
+      "shares": 1461,
+      "value": 356732,
+      "reportDate": "2026-08-31",
+      "priorShares": 1057,
+      "change": 404,
+      "pctOut": 0.0017,
+      "action": "Bought"
+    },
+    {
       "fundName": "SIMT LARGE CAP INDEX FUND",
       "registrant": "SEI INSTITUTIONAL MANAGED TRUST",
       "manager": "",
@@ -4658,19 +4658,6 @@
       "change": -204,
       "pctOut": 0.0013,
       "action": "Sold"
-    },
-    {
-      "fundName": "ActivePassive U.S. Equity ETF",
-      "registrant": "Trust for Professional Managers",
-      "manager": "",
-      "cik": "1141819",
-      "shares": 1057,
-      "value": 274619,
-      "reportDate": "2026-05-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0013,
-      "action": "New"
     },
     {
       "fundName": "Nuveen Life Stock Index Fund",
