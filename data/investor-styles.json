@@ -1,16 +1,16 @@
 {
-  "asOf": "2026-10-20T15:50:31.721Z",
+  "asOf": "2026-10-21T16:08:11.160Z",
   "period": "2026-06-30",
   "hei": {
-    "total": 779,
-    "totalShares": 43758704,
+    "total": 725,
+    "totalShares": 42864038,
     "categories": [
       {
         "style": "Growth",
         "holders": 34,
-        "holderPct": 4.4,
+        "holderPct": 4.7,
         "shares": 13044151,
-        "sharePct": 29.8,
+        "sharePct": 30.4,
         "estCount": 11,
         "examples": [
           "PRICE T ROWE ASSOCIATES INC /MD/",
@@ -195,7 +195,7 @@
       {
         "style": "Value",
         "holders": 14,
-        "holderPct": 1.8,
+        "holderPct": 1.9,
         "shares": 435010,
         "sharePct": 1,
         "estCount": 10,
@@ -281,24 +281,19 @@
       },
       {
         "style": "Momentum/Quant",
-        "holders": 64,
-        "holderPct": 8.2,
-        "shares": 3613839,
-        "sharePct": 8.3,
-        "estCount": 36,
+        "holders": 54,
+        "holderPct": 7.4,
+        "shares": 2925410,
+        "sharePct": 6.8,
+        "estCount": 29,
         "examples": [
-          "TWO SIGMA INVESTMENTS, LP",
           "BALYASNY ASSET MANAGEMENT L.P.",
           "PANAGORA ASSET MANAGEMENT INC",
           "Squarepoint Ops LLC",
-          "ARROWSTREET CAPITAL, LIMITED PARTNERSHIP"
+          "ARROWSTREET CAPITAL, LIMITED PARTNERSHIP",
+          "Ilex Capital Partners (UK) LLP"
         ],
         "members": [
-          {
-            "name": "TWO SIGMA INVESTMENTS, LP",
-            "shares": 602031,
-            "est": false
-          },
           {
             "name": "BALYASNY ASSET MANAGEMENT L.P.",
             "shares": 565119,
@@ -360,11 +355,6 @@
             "est": false
           },
           {
-            "name": "Jump Financial, LLC",
-            "shares": 57656,
-            "est": true
-          },
-          {
             "name": "RENAISSANCE TECHNOLOGIES LLC",
             "shares": 45124,
             "est": false
@@ -420,11 +410,6 @@
             "est": true
           },
           {
-            "name": "Trexquant Investment LP",
-            "shares": 13807,
-            "est": true
-          },
-          {
             "name": "Numerai GP LLC",
             "shares": 12927,
             "est": true
@@ -470,11 +455,6 @@
             "est": true
           },
           {
-            "name": "Quantbot Technologies LP",
-            "shares": 4864,
-            "est": true
-          },
-          {
             "name": "WINTON GROUP Ltd",
             "shares": 4758,
             "est": true
@@ -510,16 +490,6 @@
             "est": false
           },
           {
-            "name": "GSA CAPITAL PARTNERS LLP",
-            "shares": 3004,
-            "est": true
-          },
-          {
-            "name": "SIMPLEX TRADING, LLC",
-            "shares": 2859,
-            "est": false
-          },
-          {
             "name": "JACOBS LEVY EQUITY MANAGEMENT, INC",
             "shares": 2628,
             "est": true
@@ -550,18 +520,8 @@
             "est": true
           },
           {
-            "name": "Brevan Howard Capital Management LP",
-            "shares": 1781,
-            "est": true
-          },
-          {
             "name": "XTX Topco Ltd",
             "shares": 1655,
-            "est": true
-          },
-          {
-            "name": "Centiva Capital, LP",
-            "shares": 1368,
             "est": true
           },
           {
@@ -595,18 +555,8 @@
             "est": true
           },
           {
-            "name": "Vise Technologies, Inc.",
-            "shares": 924,
-            "est": true
-          },
-          {
             "name": "LOS ANGELES CAPITAL MANAGEMENT LLC",
             "shares": 182,
-            "est": false
-          },
-          {
-            "name": "Walleye Capital LLC",
-            "shares": 135,
             "est": false
           },
           {
@@ -648,11 +598,11 @@
       },
       {
         "style": "Blend/Core",
-        "holders": 584,
-        "holderPct": 75,
-        "shares": 26290533,
-        "sharePct": 60.1,
-        "estCount": 128,
+        "holders": 546,
+        "holderPct": 75.3,
+        "shares": 26054643,
+        "sharePct": 60.8,
+        "estCount": 121,
         "examples": [
           "BlackRock, Inc.  (BLK)",
           "VANGUARD PORTFOLIO MANAGEMENT LLC",
@@ -1047,11 +997,6 @@
             "est": false
           },
           {
-            "name": "Gotham Asset Management, LLC",
-            "shares": 37656,
-            "est": false
-          },
-          {
             "name": "NATIONAL BANK OF CANADA /FI/",
             "shares": 37448,
             "est": false
@@ -1072,11 +1017,6 @@
             "est": true
           },
           {
-            "name": "Connor, Clark & Lunn Investment Management Ltd.",
-            "shares": 35915,
-            "est": false
-          },
-          {
             "name": "DUNCKER STREETT & CO INC",
             "shares": 35875,
             "est": true
@@ -1089,11 +1029,6 @@
           {
             "name": "Creative Planning",
             "shares": 33866,
-            "est": false
-          },
-          {
-            "name": "Stratos Wealth Partners, LTD.",
-            "shares": 33283,
             "est": false
           },
           {
@@ -1187,11 +1122,6 @@
             "est": false
           },
           {
-            "name": "Advisors Asset Management, Inc.",
-            "shares": 25474,
-            "est": false
-          },
-          {
             "name": "OSAIC HOLDINGS, INC.",
             "shares": 25456,
             "est": true
@@ -1257,11 +1187,6 @@
             "est": false
           },
           {
-            "name": "Atlantic Union Bankshares Corp  (AUB, AUB-PA)",
-            "shares": 19930,
-            "est": true
-          },
-          {
             "name": "GROUPAMA ASSET MANAGMENT",
             "shares": 19692,
             "est": true
@@ -1304,11 +1229,6 @@
           {
             "name": "Focus Partners Wealth",
             "shares": 16641,
-            "est": false
-          },
-          {
-            "name": "Allianz Asset Management GmbH",
-            "shares": 16391,
             "est": false
           },
           {
@@ -1447,11 +1367,6 @@
             "est": false
           },
           {
-            "name": "Private Advisor Group, LLC",
-            "shares": 11594,
-            "est": true
-          },
-          {
             "name": "CI INVESTMENTS INC.",
             "shares": 11303,
             "est": true
@@ -1519,11 +1434,6 @@
           {
             "name": "NEEDHAM INVESTMENT MANAGEMENT LLC",
             "shares": 9500,
-            "est": false
-          },
-          {
-            "name": "DZ BANK AG Deutsche Zentral Genossenschafts Bank, Frankfurt am Main",
-            "shares": 9440,
             "est": false
           },
           {
@@ -1762,11 +1672,6 @@
             "est": true
           },
           {
-            "name": "WOLVERINE ASSET MANAGEMENT LLC",
-            "shares": 5500,
-            "est": false
-          },
-          {
             "name": "Summit Trail Advisors, LLC",
             "shares": 5420,
             "est": false
@@ -1817,19 +1722,9 @@
             "est": true
           },
           {
-            "name": "Perigon Wealth Management, LLC",
-            "shares": 4665,
-            "est": false
-          },
-          {
             "name": "RATIONAL ADVISORS, INC.",
             "shares": 4600,
             "est": false
-          },
-          {
-            "name": "Tidal Investments LLC",
-            "shares": 4557,
-            "est": true
           },
           {
             "name": "EntryPoint Capital, LLC",
@@ -1864,11 +1759,6 @@
           {
             "name": "IHT Wealth Management, LLC",
             "shares": 4335,
-            "est": false
-          },
-          {
-            "name": "BI Asset Management Fondsmaeglerselskab A/S",
-            "shares": 4305,
             "est": false
           },
           {
@@ -1917,11 +1807,6 @@
             "est": true
           },
           {
-            "name": "Jefferies Financial Group Inc.  (JEF)",
-            "shares": 3639,
-            "est": false
-          },
-          {
             "name": "SBI Okasan Asset Management Co.Ltd.",
             "shares": 3600,
             "est": false
@@ -1965,16 +1850,6 @@
             "name": "Caprock Group, LLC",
             "shares": 3440,
             "est": true
-          },
-          {
-            "name": "Snowden Capital Advisors LLC",
-            "shares": 3435,
-            "est": false
-          },
-          {
-            "name": "Cresset Asset Management, LLC",
-            "shares": 3403,
-            "est": false
           },
           {
             "name": "Gulf International Bank (UK) Ltd",
@@ -2072,11 +1947,6 @@
             "est": false
           },
           {
-            "name": "EVERGREEN CAPITAL MANAGEMENT LLC",
-            "shares": 2697,
-            "est": true
-          },
-          {
             "name": "Kentucky Retirement Systems",
             "shares": 2679,
             "est": false
@@ -2115,11 +1985,6 @@
             "name": "Bell Bank",
             "shares": 2466,
             "est": false
-          },
-          {
-            "name": "COLDSTREAM CAPITAL MANAGEMENT INC",
-            "shares": 2447,
-            "est": true
           },
           {
             "name": "Voya Financial Advisors, Inc.",
@@ -2217,11 +2082,6 @@
             "est": true
           },
           {
-            "name": "Pinnacle Financial Partners, Inc.  (PNFP, PNFP-PA, PNFP-PB, PNFP-PC)",
-            "shares": 1925,
-            "est": true
-          },
-          {
             "name": "Themes Management Co LLC",
             "shares": 1895,
             "est": true
@@ -2244,11 +2104,6 @@
           {
             "name": "San Luis Wealth Advisors LLC",
             "shares": 1798,
-            "est": false
-          },
-          {
-            "name": "Lido Advisors, LLC",
-            "shares": 1790,
             "est": false
           },
           {
@@ -2294,11 +2149,6 @@
           {
             "name": "LJI Wealth Management, LLC",
             "shares": 1700,
-            "est": false
-          },
-          {
-            "name": "World Investment Advisors",
-            "shares": 1689,
             "est": false
           },
           {
@@ -2354,11 +2204,6 @@
           {
             "name": "Concurrent Investment Advisors, LLC",
             "shares": 1467,
-            "est": false
-          },
-          {
-            "name": "Chicago Partners Investment Group LLC",
-            "shares": 1459,
             "est": false
           },
           {
@@ -2562,11 +2407,6 @@
             "est": false
           },
           {
-            "name": "J.W. COLE ADVISORS, INC.",
-            "shares": 1088,
-            "est": false
-          },
-          {
             "name": "RPS ADVISORY SOLUTIONS LLC",
             "shares": 1068,
             "est": false
@@ -2592,11 +2432,6 @@
             "est": true
           },
           {
-            "name": "Mutual Advisors, LLC",
-            "shares": 1053,
-            "est": false
-          },
-          {
             "name": "TD Waterhouse Canada Inc.",
             "shares": 1049,
             "est": false
@@ -2610,11 +2445,6 @@
             "name": "MASTERINVEST Kapitalanlage GmbH",
             "shares": 1032,
             "est": true
-          },
-          {
-            "name": "CAPSTONE INVESTMENT ADVISORS, LLC",
-            "shares": 1030,
-            "est": false
           },
           {
             "name": "E. Ohman J:or Asset Management AB",
@@ -3032,18 +2862,8 @@
             "est": false
           },
           {
-            "name": "HARBOR INVESTMENT ADVISORY, LLC",
-            "shares": 480,
-            "est": false
-          },
-          {
             "name": "Arax Advisory Partners",
             "shares": 470,
-            "est": false
-          },
-          {
-            "name": "SBI Securities Co., Ltd.",
-            "shares": 442,
             "est": false
           },
           {
@@ -3079,11 +2899,6 @@
           {
             "name": "BNP PARIBAS",
             "shares": 245,
-            "est": false
-          },
-          {
-            "name": "IFG Advisory, LLC",
-            "shares": 234,
             "est": false
           },
           {
@@ -3162,11 +2977,6 @@
             "est": false
           },
           {
-            "name": "NBC SECURITIES, INC.",
-            "shares": 101,
-            "est": false
-          },
-          {
             "name": "Costello Asset Management, INC",
             "shares": 100,
             "est": false
@@ -3184,11 +2994,6 @@
           {
             "name": "Arlington Trust Co LLC",
             "shares": 87,
-            "est": false
-          },
-          {
-            "name": "Westside Investment Management, Inc.",
-            "shares": 86,
             "est": false
           },
           {
@@ -3252,16 +3057,6 @@
             "est": false
           },
           {
-            "name": "Cornerstone Financial Management LLC",
-            "shares": 45,
-            "est": true
-          },
-          {
-            "name": "MEEDER ASSET MANAGEMENT INC",
-            "shares": 45,
-            "est": false
-          },
-          {
             "name": "SHP Wealth Management",
             "shares": 41,
             "est": false
@@ -3317,11 +3112,6 @@
             "est": false
           },
           {
-            "name": "JFS WEALTH ADVISORS, LLC",
-            "shares": 26,
-            "est": false
-          },
-          {
             "name": "WPG Advisers, LLC",
             "shares": 24,
             "est": false
@@ -3352,11 +3142,6 @@
             "est": false
           },
           {
-            "name": "EASTERN BANK",
-            "shares": 19,
-            "est": false
-          },
-          {
             "name": "Fortitude Family Office, LLC",
             "shares": 19,
             "est": false
@@ -3382,11 +3167,6 @@
             "est": false
           },
           {
-            "name": "Wealth Enhancement Trust Services, Inc.",
-            "shares": 17,
-            "est": false
-          },
-          {
             "name": "Morse Asset Management, Inc",
             "shares": 16,
             "est": false
@@ -3399,11 +3179,6 @@
           {
             "name": "Synergy Investment Management, LLC",
             "shares": 15,
-            "est": false
-          },
-          {
-            "name": "Axiom Investment Management LLC",
-            "shares": 14,
             "est": false
           },
           {
@@ -3472,11 +3247,6 @@
             "est": true
           },
           {
-            "name": "Silver Grove Financial Group, Inc.",
-            "shares": 7,
-            "est": false
-          },
-          {
             "name": "ELEVATION WEALTH PARTNERS, LLC",
             "shares": 6,
             "est": false
@@ -3492,22 +3262,17 @@
             "est": false
           },
           {
-            "name": "BROWN BROTHERS HARRIMAN & CO",
-            "shares": 6,
-            "est": false
-          },
-          {
             "name": "Blue Trust, Inc.",
             "shares": 6,
             "est": true
           },
           {
-            "name": "JPL Wealth Management, LLC",
-            "shares": 5,
+            "name": "BROWN BROTHERS HARRIMAN & CO",
+            "shares": 6,
             "est": false
           },
           {
-            "name": "Bare Financial Services, Inc",
+            "name": "JPL Wealth Management, LLC",
             "shares": 5,
             "est": false
           },
@@ -3517,7 +3282,7 @@
             "est": false
           },
           {
-            "name": "Ancora Advisors LLC",
+            "name": "Bare Financial Services, Inc",
             "shares": 5,
             "est": false
           },
@@ -3528,11 +3293,6 @@
           },
           {
             "name": "American Capital Advisory, LLC",
-            "shares": 4,
-            "est": false
-          },
-          {
-            "name": "North Star Investment Management Corp.",
             "shares": 4,
             "est": false
           },
@@ -3585,9 +3345,9 @@
       },
       {
         "style": "Unclassified",
-        "holders": 80,
-        "holderPct": 10.3,
-        "shares": 331187,
+        "holders": 74,
+        "holderPct": 10.2,
+        "shares": 360840,
         "sharePct": 0.8,
         "estCount": 0,
         "examples": [
@@ -3595,7 +3355,7 @@
           "Longaeva Partners L.P.",
           "Azimuth Capital Investment Management LLC",
           "KP Management LLC",
-          "Roundview Capital LLC"
+          "Vantage Investment Partners, LLC"
         ],
         "members": [
           {
@@ -3616,6 +3376,11 @@
           {
             "name": "KP Management LLC",
             "shares": 33750,
+            "est": false
+          },
+          {
+            "name": "Vantage Investment Partners, LLC",
+            "shares": 30144,
             "est": false
           },
           {
@@ -3789,11 +3554,6 @@
             "est": false
           },
           {
-            "name": "CULLEN/FROST BANKERS, INC.  (CFR, CFR-PB)",
-            "shares": 317,
-            "est": false
-          },
-          {
             "name": "ATWOOD & PALMER INC",
             "shares": 300,
             "est": false
@@ -3849,11 +3609,6 @@
             "est": false
           },
           {
-            "name": "HAZLETT, BURT & WATSON, INC.",
-            "shares": 90,
-            "est": false
-          },
-          {
             "name": "BROWN, LISLE/CUMMINGS, INC.",
             "shares": 85,
             "est": false
@@ -3881,16 +3636,6 @@
           {
             "name": "Livforsakringsbolaget Skandia, Omsesidigt",
             "shares": 40,
-            "est": false
-          },
-          {
-            "name": "Triumph Capital Management",
-            "shares": 40,
-            "est": false
-          },
-          {
-            "name": "SALEM INVESTMENT COUNSELORS INC",
-            "shares": 37,
             "est": false
           },
           {
@@ -3954,11 +3699,6 @@
             "est": false
           },
           {
-            "name": "Kilter Group LLC",
-            "shares": 5,
-            "est": false
-          },
-          {
             "name": "Salomon & Ludwin, LLC",
             "shares": 5,
             "est": false
@@ -3987,30 +3727,20 @@
             "name": "Essential Partners LLC",
             "shares": 2,
             "est": false
-          },
-          {
-            "name": "Horizon Investments, LLC",
-            "shares": 1,
-            "est": false
-          },
-          {
-            "name": "PEAK6 LLC",
-            "shares": 1,
-            "est": false
           }
         ]
       }
     ],
     "coverage": {
-      "curated": 160,
-      "heuristic": 352,
-      "estimated": 187,
-      "unknown": 80
+      "curated": 157,
+      "heuristic": 321,
+      "estimated": 173,
+      "unknown": 74
     }
   },
   "heia": {
-    "total": 671,
-    "totalShares": 70041301,
+    "total": 673,
+    "totalShares": 70121750,
     "categories": [
       {
         "style": "Growth",
@@ -4179,7 +3909,7 @@
         "holders": 12,
         "holderPct": 1.8,
         "shares": 3116997,
-        "sharePct": 4.5,
+        "sharePct": 4.4,
         "estCount": 4,
         "examples": [
           "Maren Capital LLC",
@@ -4548,9 +4278,9 @@
       },
       {
         "style": "Blend/Core",
-        "holders": 509,
-        "holderPct": 75.9,
-        "shares": 48984648,
+        "holders": 510,
+        "holderPct": 75.8,
+        "shares": 48987836,
         "sharePct": 69.9,
         "estCount": 106,
         "examples": [
@@ -5827,6 +5557,11 @@
             "est": false
           },
           {
+            "name": "Gibbs Wealth Management",
+            "shares": 3188,
+            "est": false
+          },
+          {
             "name": "Strategic Advisors LLC",
             "shares": 3180,
             "est": false
@@ -6037,12 +5772,12 @@
             "est": false
           },
           {
-            "name": "CIBC WORLD MARKET INC.",
+            "name": "Cynosure Group, LLC",
             "shares": 1979,
             "est": true
           },
           {
-            "name": "Cynosure Group, LLC",
+            "name": "CIBC WORLD MARKET INC.",
             "shares": 1979,
             "est": true
           },
@@ -6712,12 +6447,12 @@
             "est": false
           },
           {
-            "name": "Capital Advisors, Ltd. LLC",
+            "name": "Frazier Financial Advisors, LLC",
             "shares": 106,
             "est": false
           },
           {
-            "name": "Frazier Financial Advisors, LLC",
+            "name": "Capital Advisors, Ltd. LLC",
             "shares": 106,
             "est": false
           },
@@ -6867,12 +6602,12 @@
             "est": false
           },
           {
-            "name": "Fortitude Family Office, LLC",
+            "name": "BEACON INVESTMENT ADVISORY SERVICES, INC.",
             "shares": 24,
             "est": false
           },
           {
-            "name": "BEACON INVESTMENT ADVISORY SERVICES, INC.",
+            "name": "Fortitude Family Office, LLC",
             "shares": 24,
             "est": false
           },
@@ -6897,6 +6632,11 @@
             "est": false
           },
           {
+            "name": "Dunhill Financial, LLC",
+            "shares": 19,
+            "est": true
+          },
+          {
             "name": "SHP Wealth Management",
             "shares": 19,
             "est": false
@@ -6907,17 +6647,12 @@
             "est": false
           },
           {
-            "name": "Dunhill Financial, LLC",
-            "shares": 19,
-            "est": true
-          },
-          {
-            "name": "Synergy Investment Management, LLC",
+            "name": "Nova Wealth Management, Inc.",
             "shares": 18,
             "est": false
           },
           {
-            "name": "Nova Wealth Management, Inc.",
+            "name": "Synergy Investment Management, LLC",
             "shares": 18,
             "est": false
           },
@@ -6952,6 +6687,11 @@
             "est": false
           },
           {
+            "name": "Advocate Investing Services LLC",
+            "shares": 12,
+            "est": true
+          },
+          {
             "name": "Bay Harbor Wealth Management, LLC",
             "shares": 12,
             "est": false
@@ -6962,22 +6702,17 @@
             "est": false
           },
           {
-            "name": "Advocate Investing Services LLC",
-            "shares": 12,
-            "est": true
-          },
-          {
-            "name": "HANTZ FINANCIAL SERVICES, INC.",
-            "shares": 11,
-            "est": false
-          },
-          {
             "name": "Barnes Dennig Private Wealth Management LLC",
             "shares": 11,
             "est": false
           },
           {
             "name": "Abound Wealth Management",
+            "shares": 11,
+            "est": false
+          },
+          {
+            "name": "HANTZ FINANCIAL SERVICES, INC.",
             "shares": 11,
             "est": false
           },
@@ -7022,11 +6757,6 @@
             "est": true
           },
           {
-            "name": "Avion Wealth",
-            "shares": 4,
-            "est": false
-          },
-          {
             "name": "Decker Retirement Planning Inc.",
             "shares": 4,
             "est": false
@@ -7037,14 +6767,14 @@
             "est": false
           },
           {
+            "name": "Avion Wealth",
+            "shares": 4,
+            "est": false
+          },
+          {
             "name": "Downshift Financial, LLC",
             "shares": 3,
             "est": true
-          },
-          {
-            "name": "Bare Financial Services, Inc",
-            "shares": 3,
-            "est": false
           },
           {
             "name": "Montgomery Financial Services LLC",
@@ -7053,6 +6783,11 @@
           },
           {
             "name": "Cape Investment Advisory, Inc.",
+            "shares": 3,
+            "est": false
+          },
+          {
+            "name": "Bare Financial Services, Inc",
             "shares": 3,
             "est": false
           },
@@ -7110,10 +6845,10 @@
       },
       {
         "style": "Unclassified",
-        "holders": 68,
-        "holderPct": 10.1,
-        "shares": 2525025,
-        "sharePct": 3.6,
+        "holders": 69,
+        "holderPct": 10.3,
+        "shares": 2602286,
+        "sharePct": 3.7,
         "estCount": 0,
         "examples": [
           "Port Capital LLC",
@@ -7151,6 +6886,11 @@
           {
             "name": "Lansing Management LP",
             "shares": 80375,
+            "est": false
+          },
+          {
+            "name": "Vantage Investment Partners, LLC",
+            "shares": 77261,
             "est": false
           },
           {
@@ -7468,21 +7208,21 @@
     ],
     "coverage": {
       "curated": 170,
-      "heuristic": 295,
+      "heuristic": 296,
       "estimated": 138,
-      "unknown": 68
+      "unknown": 69
     }
   },
   "combined": {
-    "total": 1012,
-    "totalShares": 113800005,
+    "total": 959,
+    "totalShares": 112985788,
     "categories": [
       {
         "style": "Growth",
         "holders": 48,
-        "holderPct": 4.7,
+        "holderPct": 5,
         "shares": 23850173,
-        "sharePct": 21,
+        "sharePct": 21.1,
         "estCount": 18,
         "examples": [
           "FMR LLC",
@@ -7737,7 +7477,7 @@
       {
         "style": "Value",
         "holders": 23,
-        "holderPct": 2.3,
+        "holderPct": 2.4,
         "shares": 3552007,
         "sharePct": 3.1,
         "estCount": 13,
@@ -7868,17 +7608,17 @@
       },
       {
         "style": "Momentum/Quant",
-        "holders": 84,
-        "holderPct": 8.3,
-        "shares": 8216550,
-        "sharePct": 7.2,
-        "estCount": 46,
+        "holders": 74,
+        "holderPct": 7.7,
+        "shares": 7528121,
+        "sharePct": 6.7,
+        "estCount": 39,
         "examples": [
           "ARROWSTREET CAPITAL, LIMITED PARTNERSHIP",
           "MILLENNIUM MANAGEMENT LLC",
           "ARISTEIA CAPITAL, L.L.C.",
-          "TWO SIGMA INVESTMENTS, LP",
-          "BALYASNY ASSET MANAGEMENT L.P."
+          "BALYASNY ASSET MANAGEMENT L.P.",
+          "Qube Research & Technologies Ltd"
         ],
         "members": [
           {
@@ -7894,11 +7634,6 @@
           {
             "name": "ARISTEIA CAPITAL, L.L.C.",
             "shares": 783595,
-            "est": false
-          },
-          {
-            "name": "TWO SIGMA INVESTMENTS, LP",
-            "shares": 602031,
             "est": false
           },
           {
@@ -8007,11 +7742,6 @@
             "est": false
           },
           {
-            "name": "Jump Financial, LLC",
-            "shares": 57656,
-            "est": true
-          },
-          {
             "name": "SUSQUEHANNA FUNDAMENTAL INVESTMENTS, LLC",
             "shares": 53142,
             "est": false
@@ -8084,11 +7814,6 @@
           {
             "name": "Intrinsic Edge Capital Management LLC",
             "shares": 14507,
-            "est": true
-          },
-          {
-            "name": "Trexquant Investment LP",
-            "shares": 13807,
             "est": true
           },
           {
@@ -8172,11 +7897,6 @@
             "est": false
           },
           {
-            "name": "Quantbot Technologies LP",
-            "shares": 4864,
-            "est": true
-          },
-          {
             "name": "Frec Markets, Inc.",
             "shares": 4772,
             "est": true
@@ -8205,16 +7925,6 @@
             "name": "GAMMA Investing LLC",
             "shares": 4097,
             "est": true
-          },
-          {
-            "name": "GSA CAPITAL PARTNERS LLP",
-            "shares": 3004,
-            "est": true
-          },
-          {
-            "name": "SIMPLEX TRADING, LLC",
-            "shares": 2859,
-            "est": false
           },
           {
             "name": "XTX Topco Ltd",
@@ -8252,16 +7962,6 @@
             "est": true
           },
           {
-            "name": "Brevan Howard Capital Management LP",
-            "shares": 1781,
-            "est": true
-          },
-          {
-            "name": "Centiva Capital, LP",
-            "shares": 1368,
-            "est": true
-          },
-          {
             "name": "Atom Investors LP",
             "shares": 1340,
             "est": true
@@ -8285,16 +7985,6 @@
             "name": "CenterBook Partners LP",
             "shares": 1003,
             "est": true
-          },
-          {
-            "name": "Vise Technologies, Inc.",
-            "shares": 924,
-            "est": true
-          },
-          {
-            "name": "Walleye Capital LLC",
-            "shares": 135,
-            "est": false
           },
           {
             "name": "Tower Research Capital LLC (TRC)",
@@ -8335,11 +8025,11 @@
       },
       {
         "style": "Blend/Core",
-        "holders": 737,
-        "holderPct": 72.8,
-        "shares": 75275181,
-        "sharePct": 66.1,
-        "estCount": 159,
+        "holders": 700,
+        "holderPct": 73,
+        "shares": 75042479,
+        "sharePct": 66.4,
+        "estCount": 152,
         "examples": [
           "BlackRock, Inc.  (BLK)",
           "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -9094,16 +8784,6 @@
             "est": false
           },
           {
-            "name": "Gotham Asset Management, LLC",
-            "shares": 37656,
-            "est": false
-          },
-          {
-            "name": "Connor, Clark & Lunn Investment Management Ltd.",
-            "shares": 35915,
-            "est": false
-          },
-          {
             "name": "DUNCKER STREETT & CO INC",
             "shares": 35875,
             "est": true
@@ -9131,11 +8811,6 @@
           {
             "name": "Arizona State Retirement System",
             "shares": 34025,
-            "est": false
-          },
-          {
-            "name": "Stratos Wealth Partners, LTD.",
-            "shares": 33283,
             "est": false
           },
           {
@@ -9224,11 +8899,6 @@
             "est": false
           },
           {
-            "name": "Advisors Asset Management, Inc.",
-            "shares": 25474,
-            "est": false
-          },
-          {
             "name": "REGIONS FINANCIAL CORP  (RF, RF-PC, RF-PE, RF-PF)",
             "shares": 25345,
             "est": false
@@ -9309,11 +8979,6 @@
             "est": false
           },
           {
-            "name": "Atlantic Union Bankshares Corp  (AUB, AUB-PA)",
-            "shares": 19930,
-            "est": true
-          },
-          {
             "name": "GROUPAMA ASSET MANAGMENT",
             "shares": 19692,
             "est": true
@@ -9391,11 +9056,6 @@
           {
             "name": "Swiss Life Asset Management Ltd",
             "shares": 16476,
-            "est": false
-          },
-          {
-            "name": "Allianz Asset Management GmbH",
-            "shares": 16391,
             "est": false
           },
           {
@@ -9589,11 +9249,6 @@
             "est": false
           },
           {
-            "name": "Private Advisor Group, LLC",
-            "shares": 11594,
-            "est": true
-          },
-          {
             "name": "BANK OF MONTREAL /CAN/  (BMO, BERZ, BNKD, BNKU, BULZ, CARD, CARU, DULL, FLYD, FLYU, FNGD, FNGO, FNGS, FNGU, GDXD, GDXU, JETD)",
             "shares": 11569,
             "est": false
@@ -9697,11 +9352,6 @@
             "name": "PensionDanmark Pensionsforsikringsaktieselskab",
             "shares": 9460,
             "est": true
-          },
-          {
-            "name": "DZ BANK AG Deutsche Zentral Genossenschafts Bank, Frankfurt am Main",
-            "shares": 9440,
-            "est": false
           },
           {
             "name": "Kovitz Investment Group Partners, LLC",
@@ -9959,11 +9609,6 @@
             "est": false
           },
           {
-            "name": "WOLVERINE ASSET MANAGEMENT LLC",
-            "shares": 5500,
-            "est": false
-          },
-          {
             "name": "NISA INVESTMENT ADVISORS, LLC",
             "shares": 5444,
             "est": false
@@ -10019,19 +9664,9 @@
             "est": false
           },
           {
-            "name": "Perigon Wealth Management, LLC",
-            "shares": 4665,
-            "est": false
-          },
-          {
             "name": "RATIONAL ADVISORS, INC.",
             "shares": 4600,
             "est": false
-          },
-          {
-            "name": "Tidal Investments LLC",
-            "shares": 4557,
-            "est": true
           },
           {
             "name": "EntryPoint Capital, LLC",
@@ -10056,11 +9691,6 @@
           {
             "name": "IHT Wealth Management, LLC",
             "shares": 4335,
-            "est": false
-          },
-          {
-            "name": "BI Asset Management Fondsmaeglerselskab A/S",
-            "shares": 4305,
             "est": false
           },
           {
@@ -10159,11 +9789,6 @@
             "est": false
           },
           {
-            "name": "Jefferies Financial Group Inc.  (JEF)",
-            "shares": 3639,
-            "est": false
-          },
-          {
             "name": "STEPHENS INC /AR/",
             "shares": 3622,
             "est": true
@@ -10192,16 +9817,6 @@
             "name": "FIDELIS CAPITAL PARTNERS, LLC",
             "shares": 3447,
             "est": true
-          },
-          {
-            "name": "Snowden Capital Advisors LLC",
-            "shares": 3435,
-            "est": false
-          },
-          {
-            "name": "Cresset Asset Management, LLC",
-            "shares": 3403,
-            "est": false
           },
           {
             "name": "Colonial River Investments, LLC",
@@ -10261,6 +9876,11 @@
           {
             "name": "BAKER TILLY WEALTH MANAGEMENT, LLC",
             "shares": 3200,
+            "est": false
+          },
+          {
+            "name": "Gibbs Wealth Management",
+            "shares": 3188,
             "est": false
           },
           {
@@ -10394,11 +10014,6 @@
             "est": false
           },
           {
-            "name": "EVERGREEN CAPITAL MANAGEMENT LLC",
-            "shares": 2697,
-            "est": true
-          },
-          {
             "name": "WESTWOOD HOLDINGS GROUP INC  (WHG)",
             "shares": 2694,
             "est": true
@@ -10447,11 +10062,6 @@
             "name": "Bell Bank",
             "shares": 2466,
             "est": false
-          },
-          {
-            "name": "COLDSTREAM CAPITAL MANAGEMENT INC",
-            "shares": 2447,
-            "est": true
           },
           {
             "name": "NICOLET BANKSHARES INC  (NIC)",
@@ -10564,11 +10174,6 @@
             "est": false
           },
           {
-            "name": "Pinnacle Financial Partners, Inc.  (PNFP, PNFP-PA, PNFP-PB, PNFP-PC)",
-            "shares": 1925,
-            "est": true
-          },
-          {
             "name": "Osmosis Investment Management UK Ltd",
             "shares": 1924,
             "est": false
@@ -10634,11 +10239,6 @@
             "est": false
           },
           {
-            "name": "Lido Advisors, LLC",
-            "shares": 1790,
-            "est": false
-          },
-          {
             "name": "Fortune Financial Advisors, LLC",
             "shares": 1789,
             "est": false
@@ -10686,11 +10286,6 @@
           {
             "name": "FSM Wealth Advisors, LLC",
             "shares": 1692,
-            "est": false
-          },
-          {
-            "name": "World Investment Advisors",
-            "shares": 1689,
             "est": false
           },
           {
@@ -10757,11 +10352,6 @@
             "name": "Proficio Capital Partners LLC",
             "shares": 1488,
             "est": true
-          },
-          {
-            "name": "Chicago Partners Investment Group LLC",
-            "shares": 1459,
-            "est": false
           },
           {
             "name": "TFB Advisors LLC",
@@ -10949,11 +10539,6 @@
             "est": false
           },
           {
-            "name": "J.W. COLE ADVISORS, INC.",
-            "shares": 1088,
-            "est": false
-          },
-          {
             "name": "NATIONS FINANCIAL GROUP INC, /IA/ /ADV",
             "shares": 1076,
             "est": false
@@ -10999,18 +10584,8 @@
             "est": false
           },
           {
-            "name": "Mutual Advisors, LLC",
-            "shares": 1053,
-            "est": false
-          },
-          {
             "name": "FULTON BANK, N.A.",
             "shares": 1046,
-            "est": false
-          },
-          {
-            "name": "CAPSTONE INVESTMENT ADVISORS, LLC",
-            "shares": 1030,
             "est": false
           },
           {
@@ -11364,11 +10939,6 @@
             "est": false
           },
           {
-            "name": "HARBOR INVESTMENT ADVISORY, LLC",
-            "shares": 480,
-            "est": false
-          },
-          {
             "name": "WPG Advisers, LLC",
             "shares": 472,
             "est": false
@@ -11376,11 +10946,6 @@
           {
             "name": "MassMutual Private Wealth & Trust, FSB",
             "shares": 452,
-            "est": false
-          },
-          {
-            "name": "SBI Securities Co., Ltd.",
-            "shares": 442,
             "est": false
           },
           {
@@ -11466,11 +11031,6 @@
           {
             "name": "Arlington Trust Co LLC",
             "shares": 241,
-            "est": false
-          },
-          {
-            "name": "IFG Advisory, LLC",
-            "shares": 234,
             "est": false
           },
           {
@@ -11564,11 +11124,6 @@
             "est": false
           },
           {
-            "name": "NBC SECURITIES, INC.",
-            "shares": 101,
-            "est": false
-          },
-          {
             "name": "Cassaday & Co Wealth Management LLC",
             "shares": 101,
             "est": false
@@ -11606,11 +11161,6 @@
           {
             "name": "Bogart Wealth, LLC",
             "shares": 88,
-            "est": false
-          },
-          {
-            "name": "Westside Investment Management, Inc.",
-            "shares": 86,
             "est": false
           },
           {
@@ -11689,16 +11239,6 @@
             "est": false
           },
           {
-            "name": "Cornerstone Financial Management LLC",
-            "shares": 45,
-            "est": true
-          },
-          {
-            "name": "MEEDER ASSET MANAGEMENT INC",
-            "shares": 45,
-            "est": false
-          },
-          {
             "name": "Fortitude Family Office, LLC",
             "shares": 43,
             "est": false
@@ -11774,11 +11314,6 @@
             "est": false
           },
           {
-            "name": "JFS WEALTH ADVISORS, LLC",
-            "shares": 26,
-            "est": false
-          },
-          {
             "name": "ELEVATION WEALTH PARTNERS, LLC",
             "shares": 26,
             "est": false
@@ -11814,11 +11349,6 @@
             "est": false
           },
           {
-            "name": "EASTERN BANK",
-            "shares": 19,
-            "est": false
-          },
-          {
             "name": "Dunhill Financial, LLC",
             "shares": 19,
             "est": true
@@ -11844,11 +11374,6 @@
             "est": false
           },
           {
-            "name": "Wealth Enhancement Trust Services, Inc.",
-            "shares": 17,
-            "est": false
-          },
-          {
             "name": "Hughes Financial Services, LLC",
             "shares": 17,
             "est": false
@@ -11861,11 +11386,6 @@
           {
             "name": "Morse Asset Management, Inc",
             "shares": 16,
-            "est": false
-          },
-          {
-            "name": "Axiom Investment Management LLC",
-            "shares": 14,
             "est": false
           },
           {
@@ -11939,11 +11459,6 @@
             "est": false
           },
           {
-            "name": "Silver Grove Financial Group, Inc.",
-            "shares": 7,
-            "est": false
-          },
-          {
             "name": "S&T BANK/PA",
             "shares": 6,
             "est": false
@@ -11954,22 +11469,12 @@
             "est": false
           },
           {
-            "name": "Ancora Advisors LLC",
-            "shares": 5,
-            "est": false
-          },
-          {
             "name": "DecisionPoint Financial, LLC",
             "shares": 5,
             "est": true
           },
           {
             "name": "AMERICAN NATIONAL BANK & TRUST",
-            "shares": 4,
-            "est": false
-          },
-          {
-            "name": "North Star Investment Management Corp.",
             "shares": 4,
             "est": false
           },
@@ -12037,10 +11542,10 @@
       },
       {
         "style": "Unclassified",
-        "holders": 117,
+        "holders": 111,
         "holderPct": 11.6,
-        "shares": 2856212,
-        "sharePct": 2.5,
+        "shares": 2963126,
+        "sharePct": 2.6,
         "estCount": 0,
         "examples": [
           "Port Capital LLC",
@@ -12073,6 +11578,11 @@
           {
             "name": "Sone Capital Management, LLC",
             "shares": 143977,
+            "est": false
+          },
+          {
+            "name": "Vantage Investment Partners, LLC",
+            "shares": 107405,
             "est": false
           },
           {
@@ -12376,11 +11886,6 @@
             "est": false
           },
           {
-            "name": "CULLEN/FROST BANKERS, INC.  (CFR, CFR-PB)",
-            "shares": 317,
-            "est": false
-          },
-          {
             "name": "ATWOOD & PALMER INC",
             "shares": 300,
             "est": false
@@ -12456,11 +11961,6 @@
             "est": false
           },
           {
-            "name": "HAZLETT, BURT & WATSON, INC.",
-            "shares": 90,
-            "est": false
-          },
-          {
             "name": "SITTNER & NELSON, LLC",
             "shares": 89,
             "est": false
@@ -12491,18 +11991,8 @@
             "est": false
           },
           {
-            "name": "Triumph Capital Management",
-            "shares": 40,
-            "est": false
-          },
-          {
             "name": "Essential Partners LLC",
             "shares": 40,
-            "est": false
-          },
-          {
-            "name": "SALEM INVESTMENT COUNSELORS INC",
-            "shares": 37,
             "est": false
           },
           {
@@ -12581,11 +12071,6 @@
             "est": false
           },
           {
-            "name": "Kilter Group LLC",
-            "shares": 5,
-            "est": false
-          },
-          {
             "name": "LOGAN CAPITAL MANAGEMENT INC",
             "shares": 5,
             "est": false
@@ -12621,16 +12106,6 @@
             "est": false
           },
           {
-            "name": "Horizon Investments, LLC",
-            "shares": 1,
-            "est": false
-          },
-          {
-            "name": "PEAK6 LLC",
-            "shares": 1,
-            "est": false
-          },
-          {
             "name": "Cordant, Inc.",
             "shares": 1,
             "est": false
@@ -12639,10 +12114,10 @@
       }
     ],
     "coverage": {
-      "curated": 192,
-      "heuristic": 465,
-      "estimated": 238,
-      "unknown": 117
+      "curated": 189,
+      "heuristic": 435,
+      "estimated": 224,
+      "unknown": 111
     }
   }
 }

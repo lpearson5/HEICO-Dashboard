@@ -2,13 +2,13 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-10-20T15:37:20.396Z",
+  "lastUpdated": "2026-10-21T15:54:23.495Z",
   "summary": {
-    "funds": 349,
-    "totalShares": 28287226,
-    "pctOut": 33.4698,
-    "newFunds": 14,
-    "sellouts": 31,
+    "funds": 350,
+    "totalShares": 28291286,
+    "pctOut": 33.474599999999995,
+    "newFunds": 13,
+    "sellouts": 34,
     "linkedManagers": 24,
     "linkedShares": 23978720
   },
@@ -63,19 +63,6 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.0063999999999999994,
-      "action": "New"
-    },
-    {
-      "fundName": "Geneva SMID Cap Growth Fund",
-      "registrant": "Series Portfolios Trust",
-      "manager": "",
-      "cik": "1650149",
-      "shares": 3153,
-      "value": 819181,
-      "reportDate": "2026-05-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0036999999999999997,
       "action": "New"
     },
     {
@@ -366,6 +353,13 @@
       "lastReport": "2025-07-31"
     },
     {
+      "fundName": "Virtus Global Allocation Fund",
+      "registrant": "Virtus Strategy Trust",
+      "manager": "",
+      "lastShares": 500,
+      "lastReport": "2025-09-30"
+    },
+    {
       "fundName": "Global Multi-Strategy Fund",
       "registrant": "Principal Funds, Inc",
       "manager": "Principal",
@@ -399,6 +393,20 @@
       "manager": "",
       "lastShares": 262,
       "lastReport": "2025-11-30"
+    },
+    {
+      "fundName": "Wilmington Global Alpha Equities Fund",
+      "registrant": "Wilmington Funds",
+      "manager": "",
+      "lastShares": 261,
+      "lastReport": "2026-01-30"
+    },
+    {
+      "fundName": "Sector Rotation Fund",
+      "registrant": "Meeder Funds",
+      "manager": "",
+      "lastShares": 63,
+      "lastReport": "2025-12-31"
     },
     {
       "fundName": "iShares U.S. Industry Rotation Active ETF",
@@ -3763,19 +3771,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Voya RussellTM Mid Cap Index Portfolio",
-      "registrant": "Voya VARIABLE PORTFOLIOS INC",
-      "manager": "Voya",
-      "cik": "1015965",
-      "shares": 3895,
-      "value": 1004559,
-      "reportDate": "2026-06-30",
-      "priorShares": 3744,
-      "change": 151,
-      "pctOut": 0.0046,
-      "action": "Bought"
-    },
-    {
       "fundName": "MOA ALL AMERICA FUND",
       "registrant": "MoA Funds Corp",
       "manager": "",
@@ -3785,6 +3780,19 @@
       "reportDate": "2026-06-30",
       "priorShares": 2535,
       "change": 1360,
+      "pctOut": 0.0046,
+      "action": "Bought"
+    },
+    {
+      "fundName": "Voya RussellTM Mid Cap Index Portfolio",
+      "registrant": "Voya VARIABLE PORTFOLIOS INC",
+      "manager": "Voya",
+      "cik": "1015965",
+      "shares": 3895,
+      "value": 1004559,
+      "reportDate": "2026-06-30",
+      "priorShares": 3744,
+      "change": 151,
       "pctOut": 0.0046,
       "action": "Bought"
     },
@@ -3802,6 +3810,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "Geneva SMID Cap Growth Fund",
+      "registrant": "Series Portfolios Trust",
+      "manager": "",
+      "cik": "1650149",
+      "shares": 3789,
+      "value": 925160,
+      "reportDate": "2026-08-31",
+      "priorShares": 3153,
+      "change": 636,
+      "pctOut": 0.0045000000000000005,
+      "action": "Bought"
+    },
+    {
       "fundName": "iMGP Small Company Fund",
       "registrant": "LITMAN GREGORY FUNDS TRUST",
       "manager": "",
@@ -3813,6 +3834,19 @@
       "change": 0,
       "pctOut": 0.0041,
       "action": "No Change"
+    },
+    {
+      "fundName": "Alger Dynamic Opportunities Fund",
+      "registrant": "ALGER FUNDS II",
+      "manager": "",
+      "cik": "92751",
+      "shares": 3424,
+      "value": 715684,
+      "reportDate": "2026-04-30",
+      "priorShares": 5751,
+      "change": -2327,
+      "pctOut": 0.0041,
+      "action": "Sold"
     },
     {
       "fundName": "iShares Dow Jones U.S. ETF",
@@ -3839,19 +3873,6 @@
       "change": 0,
       "pctOut": 0.0039,
       "action": "No Change"
-    },
-    {
-      "fundName": "Geneva SMID Cap Growth Fund",
-      "registrant": "Series Portfolios Trust",
-      "manager": "",
-      "cik": "1650149",
-      "shares": 3153,
-      "value": 819181,
-      "reportDate": "2026-05-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0036999999999999997,
-      "action": "New"
     },
     {
       "fundName": "SIIT LARGE CAP FUND",
@@ -5531,19 +5552,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "The ESG Growth Portfolio",
-      "registrant": "HC Capital Trust",
-      "manager": "",
-      "cik": "934563",
-      "shares": 120,
-      "value": 30949,
-      "reportDate": "2026-06-30",
-      "priorShares": 120,
-      "change": 0,
-      "pctOut": 0.00009999999999999999,
-      "action": "No Change"
-    },
-    {
       "fundName": "iShares Enhanced Large Cap Core Active ETF",
       "registrant": "BlackRock ETF Trust",
       "manager": "BlackRock",
@@ -5555,6 +5563,19 @@
       "change": 35,
       "pctOut": 0.00009999999999999999,
       "action": "Bought"
+    },
+    {
+      "fundName": "The ESG Growth Portfolio",
+      "registrant": "HC Capital Trust",
+      "manager": "",
+      "cik": "934563",
+      "shares": 120,
+      "value": 30949,
+      "reportDate": "2026-06-30",
+      "priorShares": 120,
+      "change": 0,
+      "pctOut": 0.00009999999999999999,
+      "action": "No Change"
     },
     {
       "fundName": "E*TRADE No Fee Total Market Index Fund",
