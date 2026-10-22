@@ -2,13 +2,13 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-10-21T15:54:23.495Z",
+  "lastUpdated": "2026-10-22T15:51:47.122Z",
   "summary": {
-    "funds": 350,
-    "totalShares": 28291286,
-    "pctOut": 33.474599999999995,
+    "funds": 349,
+    "totalShares": 28287443,
+    "pctOut": 33.47,
     "newFunds": 13,
-    "sellouts": 34,
+    "sellouts": 31,
     "linkedManagers": 24,
     "linkedShares": 23978720
   },
@@ -353,13 +353,6 @@
       "lastReport": "2025-07-31"
     },
     {
-      "fundName": "Virtus Global Allocation Fund",
-      "registrant": "Virtus Strategy Trust",
-      "manager": "",
-      "lastShares": 500,
-      "lastReport": "2025-09-30"
-    },
-    {
       "fundName": "Global Multi-Strategy Fund",
       "registrant": "Principal Funds, Inc",
       "manager": "Principal",
@@ -393,20 +386,6 @@
       "manager": "",
       "lastShares": 262,
       "lastReport": "2025-11-30"
-    },
-    {
-      "fundName": "Wilmington Global Alpha Equities Fund",
-      "registrant": "Wilmington Funds",
-      "manager": "",
-      "lastShares": 261,
-      "lastReport": "2026-01-30"
-    },
-    {
-      "fundName": "Sector Rotation Fund",
-      "registrant": "Meeder Funds",
-      "manager": "",
-      "lastShares": 63,
-      "lastReport": "2025-12-31"
     },
     {
       "fundName": "iShares U.S. Industry Rotation Active ETF",
@@ -3771,19 +3750,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "MOA ALL AMERICA FUND",
-      "registrant": "MoA Funds Corp",
-      "manager": "",
-      "cik": "795259",
-      "shares": 3895,
-      "value": 1004559,
-      "reportDate": "2026-06-30",
-      "priorShares": 2535,
-      "change": 1360,
-      "pctOut": 0.0046,
-      "action": "Bought"
-    },
-    {
       "fundName": "Voya RussellTM Mid Cap Index Portfolio",
       "registrant": "Voya VARIABLE PORTFOLIOS INC",
       "manager": "Voya",
@@ -3793,6 +3759,19 @@
       "reportDate": "2026-06-30",
       "priorShares": 3744,
       "change": 151,
+      "pctOut": 0.0046,
+      "action": "Bought"
+    },
+    {
+      "fundName": "MOA ALL AMERICA FUND",
+      "registrant": "MoA Funds Corp",
+      "manager": "",
+      "cik": "795259",
+      "shares": 3895,
+      "value": 1004559,
+      "reportDate": "2026-06-30",
+      "priorShares": 2535,
+      "change": 1360,
       "pctOut": 0.0046,
       "action": "Bought"
     },
@@ -3834,19 +3813,6 @@
       "change": 0,
       "pctOut": 0.0041,
       "action": "No Change"
-    },
-    {
-      "fundName": "Alger Dynamic Opportunities Fund",
-      "registrant": "ALGER FUNDS II",
-      "manager": "",
-      "cik": "92751",
-      "shares": 3424,
-      "value": 715684,
-      "reportDate": "2026-04-30",
-      "priorShares": 5751,
-      "change": -2327,
-      "pctOut": 0.0041,
-      "action": "Sold"
     },
     {
       "fundName": "iShares Dow Jones U.S. ETF",
@@ -4867,13 +4833,13 @@
       "registrant": "DBX ETF Trust",
       "manager": "",
       "cik": "1503123",
-      "shares": 725,
-      "value": 188362,
-      "reportDate": "2026-05-29",
-      "priorShares": 709,
-      "change": 16,
+      "shares": 720,
+      "value": 175802,
+      "reportDate": "2026-08-31",
+      "priorShares": 725,
+      "change": -5,
       "pctOut": 0.0009,
-      "action": "Bought"
+      "action": "Sold"
     },
     {
       "fundName": "Baron Global Durable Advantage ETF",
@@ -4900,19 +4866,6 @@
       "change": -21,
       "pctOut": 0.0007999999999999999,
       "action": "Sold"
-    },
-    {
-      "fundName": "Xtrackers Russell US Multifactor ETF",
-      "registrant": "DBX ETF Trust",
-      "manager": "",
-      "cik": "1503123",
-      "shares": 678,
-      "value": 176151,
-      "reportDate": "2026-05-29",
-      "priorShares": 574,
-      "change": 104,
-      "pctOut": 0.0007999999999999999,
-      "action": "Bought"
     },
     {
       "fundName": "Wilmington Large-Cap Strategy Fund",
@@ -5331,6 +5284,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Xtrackers Russell US Multifactor ETF",
+      "registrant": "DBX ETF Trust",
+      "manager": "",
+      "cik": "1503123",
+      "shares": 264,
+      "value": 64461,
+      "reportDate": "2026-08-31",
+      "priorShares": 678,
+      "change": -414,
+      "pctOut": 0.00030000000000000003,
+      "action": "Sold"
+    },
+    {
       "fundName": "Defiance Large Cap ex-Mag 7 ETF",
       "registrant": "Tidal Trust II",
       "manager": "",
@@ -5552,19 +5518,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "iShares Enhanced Large Cap Core Active ETF",
-      "registrant": "BlackRock ETF Trust",
-      "manager": "BlackRock",
-      "cik": "1761055",
-      "shares": 120,
-      "value": 30874,
-      "reportDate": "2026-07-31",
-      "priorShares": 85,
-      "change": 35,
-      "pctOut": 0.00009999999999999999,
-      "action": "Bought"
-    },
-    {
       "fundName": "The ESG Growth Portfolio",
       "registrant": "HC Capital Trust",
       "manager": "",
@@ -5576,6 +5529,19 @@
       "change": 0,
       "pctOut": 0.00009999999999999999,
       "action": "No Change"
+    },
+    {
+      "fundName": "iShares Enhanced Large Cap Core Active ETF",
+      "registrant": "BlackRock ETF Trust",
+      "manager": "BlackRock",
+      "cik": "1761055",
+      "shares": 120,
+      "value": 30874,
+      "reportDate": "2026-07-31",
+      "priorShares": 85,
+      "change": 35,
+      "pctOut": 0.00009999999999999999,
+      "action": "Bought"
     },
     {
       "fundName": "E*TRADE No Fee Total Market Index Fund",
