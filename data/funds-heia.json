@@ -2,15 +2,15 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-10-23T15:42:16.944Z",
+  "lastUpdated": "2026-10-24T14:24:44.266Z",
   "summary": {
     "funds": 350,
-    "totalShares": 28287497,
-    "pctOut": 33.4701,
+    "totalShares": 28285347,
+    "pctOut": 33.4675,
     "newFunds": 13,
     "sellouts": 31,
     "linkedManagers": 24,
-    "linkedShares": 23978720
+    "linkedShares": 23976570
   },
   "newHolders": [
     {
@@ -683,7 +683,7 @@
     {
       "manager": "BlackRock",
       "fundCount": 39,
-      "shares": 2371831,
+      "shares": 2371101,
       "funds": [
         {
           "fundName": "iShares U.S. Aerospace &amp; Defense ETF",
@@ -739,7 +739,7 @@
         },
         {
           "fundName": "BlackRock Sustainable Aware Advantage Large Cap Core Fund",
-          "shares": 17460
+          "shares": 14213
         },
         {
           "fundName": "iShares Russell Mid-Cap Index Fund",
@@ -762,6 +762,10 @@
           "shares": 8943
         },
         {
+          "fundName": "iShares MSCI USA Equal Weighted ETF",
+          "shares": 8943
+        },
+        {
           "fundName": "iShares Morningstar Growth ETF",
           "shares": 7763
         },
@@ -770,12 +774,8 @@
           "shares": 7729
         },
         {
-          "fundName": "iShares MSCI USA Equal Weighted ETF",
-          "shares": 6887
-        },
-        {
           "fundName": "iShares MSCI World ETF",
-          "shares": 6313
+          "shares": 6774
         },
         {
           "fundName": "BlackRock Tactical Opportunities Fund",
@@ -1043,19 +1043,19 @@
     {
       "manager": "Goldman Sachs",
       "fundCount": 4,
-      "shares": 106376,
+      "shares": 104956,
       "funds": [
         {
           "fundName": "Goldman Sachs U.S. Tax-Managed Equity Fund",
           "shares": 99700
         },
         {
-          "fundName": "Goldman Sachs Absolute Return Tracker Fund",
-          "shares": 2755
-        },
-        {
           "fundName": "Goldman Sachs MarketBeta U.S. 1000 Equity ETF",
           "shares": 2595
+        },
+        {
+          "fundName": "Goldman Sachs Absolute Return Tracker Fund",
+          "shares": 1335
         },
         {
           "fundName": "Goldman Sachs MarketBeta(R) Russell 1000 Growth Equity ETF",
@@ -2918,19 +2918,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "BlackRock Sustainable Aware Advantage Large Cap Core Fund",
-      "registrant": "BlackRock Funds",
-      "manager": "BlackRock",
-      "cik": "844779",
-      "shares": 17460,
-      "value": 4536283,
-      "reportDate": "2026-05-31",
-      "priorShares": 22783,
-      "change": -5323,
-      "pctOut": 0.0207,
-      "action": "Sold"
-    },
-    {
       "fundName": "Fidelity Magellan K6 Fund",
       "registrant": "Fidelity Magellan Fund",
       "manager": "FMR (Fidelity)",
@@ -2981,6 +2968,19 @@
       "change": 2419,
       "pctOut": 0.0182,
       "action": "Bought"
+    },
+    {
+      "fundName": "BlackRock Sustainable Aware Advantage Large Cap Core Fund",
+      "registrant": "BlackRock Funds",
+      "manager": "BlackRock",
+      "cik": "844779",
+      "shares": 14213,
+      "value": 3470388,
+      "reportDate": "2026-08-31",
+      "priorShares": 17460,
+      "change": -3247,
+      "pctOut": 0.0168,
+      "action": "Sold"
     },
     {
       "fundName": "Direxion Daily Aerospace &amp; Defense Bull 3X Shares",
@@ -3295,6 +3295,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "iShares MSCI USA Equal Weighted ETF",
+      "registrant": "iShares, Inc.",
+      "manager": "BlackRock",
+      "cik": "930667",
+      "shares": 8943,
+      "value": 2183612,
+      "reportDate": "2026-08-31",
+      "priorShares": 6887,
+      "change": 2056,
+      "pctOut": 0.0106,
+      "action": "Bought"
+    },
+    {
       "fundName": "JNL/Mellon Industrials Sector Fund",
       "registrant": "JNL Series Trust",
       "manager": "",
@@ -3425,16 +3438,16 @@
       "action": "No Change"
     },
     {
-      "fundName": "iShares MSCI USA Equal Weighted ETF",
+      "fundName": "iShares MSCI World ETF",
       "registrant": "iShares, Inc.",
       "manager": "BlackRock",
       "cik": "930667",
-      "shares": 6887,
-      "value": 1789311,
-      "reportDate": "2026-05-31",
-      "priorShares": 6287,
-      "change": 600,
-      "pctOut": 0.0081,
+      "shares": 6774,
+      "value": 1654008,
+      "reportDate": "2026-08-31",
+      "priorShares": 6313,
+      "change": 461,
+      "pctOut": 0.008,
       "action": "Bought"
     },
     {
@@ -3475,19 +3488,6 @@
       "change": null,
       "pctOut": 0.0077,
       "action": "New"
-    },
-    {
-      "fundName": "iShares MSCI World ETF",
-      "registrant": "iShares, Inc.",
-      "manager": "BlackRock",
-      "cik": "930667",
-      "shares": 6313,
-      "value": 1640181,
-      "reportDate": "2026-05-31",
-      "priorShares": 5812,
-      "change": 501,
-      "pctOut": 0.0075,
-      "action": "Bought"
     },
     {
       "fundName": "BNY Mellon US Large Cap Core Equity ETF",
@@ -3904,19 +3904,6 @@
       "change": 0,
       "pctOut": 0.0033000000000000004,
       "action": "No Change"
-    },
-    {
-      "fundName": "Goldman Sachs Absolute Return Tracker Fund",
-      "registrant": "GOLDMAN SACHS TRUST",
-      "manager": "Goldman Sachs",
-      "cik": "822977",
-      "shares": 2755,
-      "value": 710542,
-      "reportDate": "2026-06-30",
-      "priorShares": 2313,
-      "change": 442,
-      "pctOut": 0.0033000000000000004,
-      "action": "Bought"
     },
     {
       "fundName": "Victory RS Mid Cap Growth Fund",
@@ -4474,6 +4461,19 @@
       "reportDate": "2026-06-30",
       "priorShares": 2604,
       "change": -1269,
+      "pctOut": 0.0015999999999999999,
+      "action": "Sold"
+    },
+    {
+      "fundName": "Goldman Sachs Absolute Return Tracker Fund",
+      "registrant": "GOLDMAN SACHS TRUST",
+      "manager": "Goldman Sachs",
+      "cik": "822977",
+      "shares": 1335,
+      "value": 325967,
+      "reportDate": "2026-08-31",
+      "priorShares": 2755,
+      "change": -1420,
       "pctOut": 0.0015999999999999999,
       "action": "Sold"
     },

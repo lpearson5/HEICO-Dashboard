@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-10-23T15:42:16.944Z",
+  "lastUpdated": "2026-10-24T14:24:44.266Z",
   "summary": {
     "funds": 438,
-    "totalShares": 19751436,
-    "pctOut": 35.754599999999996,
+    "totalShares": 19751875,
+    "pctOut": 35.7554,
     "newFunds": 53,
     "sellouts": 42,
     "linkedManagers": 25,
-    "linkedShares": 16988593
+    "linkedShares": 16989032
   },
   "newHolders": [
     {
@@ -1435,7 +1435,7 @@
     {
       "manager": "BlackRock",
       "fundCount": 35,
-      "shares": 1898923,
+      "shares": 1900283,
       "funds": [
         {
           "fundName": "BlackRock Mid-Cap Growth Equity Portfolio",
@@ -1498,6 +1498,10 @@
           "shares": 7816
         },
         {
+          "fundName": "iShares MSCI USA Equal Weighted ETF",
+          "shares": 5027
+        },
+        {
           "fundName": "iShares Morningstar Mid-Cap ETF",
           "shares": 4880
         },
@@ -1510,12 +1514,8 @@
           "shares": 4197
         },
         {
-          "fundName": "iShares MSCI USA Equal Weighted ETF",
-          "shares": 4021
-        },
-        {
           "fundName": "iShares MSCI World ETF",
-          "shares": 3773
+          "shares": 4122
         },
         {
           "fundName": "Global Atlantic BlackRock Disciplined Mid Cap Growth Portfolio",
@@ -1551,7 +1551,7 @@
         },
         {
           "fundName": "BlackRock Sustainable Aware Advantage Large Cap Core Fund",
-          "shares": 710
+          "shares": 715
         },
         {
           "fundName": "BlackRock Managed Income Fund",
@@ -1770,7 +1770,7 @@
     {
       "manager": "Morgan Stanley",
       "fundCount": 18,
-      "shares": 246887,
+      "shares": 246838,
       "funds": [
         {
           "fundName": "Eaton Vance Tax-Managed Diversified Equity Income Fund",
@@ -1814,7 +1814,7 @@
         },
         {
           "fundName": "Calvert US Large-Cap Core Responsible Index ETF",
-          "shares": 1803
+          "shares": 1754
         },
         {
           "fundName": "Morgan Stanley Pathway Large Cap Equity ETF",
@@ -2178,15 +2178,11 @@
     {
       "manager": "Goldman Sachs",
       "fundCount": 5,
-      "shares": 16331,
+      "shares": 15459,
       "funds": [
         {
           "fundName": "Goldman Sachs Equal Weight U.S. Large Cap Equity ETF",
           "shares": 12011
-        },
-        {
-          "fundName": "Goldman Sachs Absolute Return Tracker Fund",
-          "shares": 1457
         },
         {
           "fundName": "Goldman Sachs MarketBeta U.S. 1000 Equity ETF",
@@ -2199,6 +2195,10 @@
         {
           "fundName": "Goldman Sachs Multi-Manager Global Equity Fund",
           "shares": 695
+        },
+        {
+          "fundName": "Goldman Sachs Absolute Return Tracker Fund",
+          "shares": 585
         }
       ]
     },
@@ -4968,6 +4968,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "iShares MSCI USA Equal Weighted ETF",
+      "registrant": "iShares, Inc.",
+      "manager": "BlackRock",
+      "cik": "930667",
+      "shares": 5027,
+      "value": 1664691,
+      "reportDate": "2026-08-31",
+      "priorShares": 4021,
+      "change": 1006,
+      "pctOut": 0.0091,
+      "action": "Bought"
+    },
+    {
       "fundName": "iShares Morningstar Mid-Cap ETF",
       "registrant": "iShares Trust",
       "manager": "BlackRock",
@@ -5150,6 +5163,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "iShares MSCI World ETF",
+      "registrant": "iShares, Inc.",
+      "manager": "BlackRock",
+      "cik": "930667",
+      "shares": 4122,
+      "value": 1365000,
+      "reportDate": "2026-08-31",
+      "priorShares": 3773,
+      "change": 349,
+      "pctOut": 0.0075,
+      "action": "Bought"
+    },
+    {
       "fundName": "Federated Hermes Kaufmann Fund II",
       "registrant": "Federated Hermes Insurance Series",
       "manager": "",
@@ -5161,19 +5187,6 @@
       "change": -1119,
       "pctOut": 0.0073,
       "action": "Sold"
-    },
-    {
-      "fundName": "iShares MSCI USA Equal Weighted ETF",
-      "registrant": "iShares, Inc.",
-      "manager": "BlackRock",
-      "cik": "930667",
-      "shares": 4021,
-      "value": 1400032,
-      "reportDate": "2026-05-31",
-      "priorShares": 3725,
-      "change": 296,
-      "pctOut": 0.0073,
-      "action": "Bought"
     },
     {
       "fundName": "T. Rowe Price Tax-Efficient Equity Fund",
@@ -5263,19 +5276,6 @@
       "reportDate": "2026-06-30",
       "priorShares": 3527,
       "change": 251,
-      "pctOut": 0.0068,
-      "action": "Bought"
-    },
-    {
-      "fundName": "iShares MSCI World ETF",
-      "registrant": "iShares, Inc.",
-      "manager": "BlackRock",
-      "cik": "930667",
-      "shares": 3773,
-      "value": 1313683,
-      "reportDate": "2026-05-31",
-      "priorShares": 3447,
-      "change": 326,
       "pctOut": 0.0068,
       "action": "Bought"
     },
@@ -5839,19 +5839,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Calvert US Large-Cap Core Responsible Index ETF",
-      "registrant": "Morgan Stanley ETF Trust",
-      "manager": "Morgan Stanley",
-      "cik": "1676326",
-      "shares": 1803,
-      "value": 642211,
-      "reportDate": "2026-06-30",
-      "priorShares": 1754,
-      "change": 49,
-      "pctOut": 0.0033000000000000004,
-      "action": "Bought"
-    },
-    {
       "fundName": "Gotham Absolute Return Fund",
       "registrant": "FundVantage Trust",
       "manager": "",
@@ -5874,6 +5861,19 @@
       "reportDate": "2026-07-31",
       "priorShares": 1695,
       "change": 63,
+      "pctOut": 0.0031999999999999997,
+      "action": "Bought"
+    },
+    {
+      "fundName": "Calvert US Large-Cap Core Responsible Index ETF",
+      "registrant": "Morgan Stanley ETF Trust",
+      "manager": "Morgan Stanley",
+      "cik": "1676326",
+      "shares": 1754,
+      "value": 480947,
+      "reportDate": "2026-03-31",
+      "priorShares": 1654,
+      "change": 100,
       "pctOut": 0.0031999999999999997,
       "action": "Bought"
     },
@@ -6030,19 +6030,6 @@
       "reportDate": "2026-06-30",
       "priorShares": 3500,
       "change": -2040,
-      "pctOut": 0.0026,
-      "action": "Sold"
-    },
-    {
-      "fundName": "Goldman Sachs Absolute Return Tracker Fund",
-      "registrant": "GOLDMAN SACHS TRUST",
-      "manager": "Goldman Sachs",
-      "cik": "822977",
-      "shares": 1457,
-      "value": 518969,
-      "reportDate": "2026-06-30",
-      "priorShares": 5214,
-      "change": -3757,
       "pctOut": 0.0026,
       "action": "Sold"
     },
@@ -6675,11 +6662,11 @@
       "registrant": "BlackRock Funds",
       "manager": "BlackRock",
       "cik": "844779",
-      "shares": 710,
-      "value": 247208,
-      "reportDate": "2026-05-31",
-      "priorShares": 665,
-      "change": 45,
+      "shares": 715,
+      "value": 236772,
+      "reportDate": "2026-08-31",
+      "priorShares": 710,
+      "change": 5,
       "pctOut": 0.0013,
       "action": "Bought"
     },
@@ -6812,6 +6799,19 @@
       "change": 0,
       "pctOut": 0.0011,
       "action": "No Change"
+    },
+    {
+      "fundName": "Goldman Sachs Absolute Return Tracker Fund",
+      "registrant": "GOLDMAN SACHS TRUST",
+      "manager": "Goldman Sachs",
+      "cik": "822977",
+      "shares": 585,
+      "value": 193723,
+      "reportDate": "2026-08-31",
+      "priorShares": 1457,
+      "change": -872,
+      "pctOut": 0.0011,
+      "action": "Sold"
     },
     {
       "fundName": "Nuveen Nasdaq 100 Dynamic Overwrite Fund",
