@@ -8,16 +8,16 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-10-25T14:56:23.523Z",
+  "lastUpdated": "2026-10-26T17:15:09.188Z",
   "summary": {
-    "institutions": 674,
-    "totalShares": 70121750,
+    "institutions": 675,
+    "totalShares": 70123000,
     "pctOut": 82.97,
     "newHolders": 110,
     "sellouts": 60,
     "bought": 255,
     "sold": 217,
-    "held": 92
+    "held": 93
   },
   "top10": [
     {
@@ -11277,6 +11277,24 @@
       "voteNone": 1269
     },
     {
+      "filerName": "East Coast Asset Management, LLC.",
+      "filerCik": "1579254",
+      "shares": [
+        1250,
+        1250,
+        1250,
+        1250
+      ],
+      "netChg": 0,
+      "currentValue": 322388,
+      "pctOut": 0,
+      "action": "No Change",
+      "discretion": "SOLE",
+      "voteSole": 1250,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "Steward Partners Investment Advisory, LLC",
       "filerCik": "1723397",
       "shares": [
@@ -17397,13 +17415,13 @@
       "voteNone": null
     },
     {
-      "filerName": "BELLEVUE ASSET MANAGEMENT, LLC",
-      "filerCik": "1801619",
+      "filerName": "United Financial Planning Group LLC",
+      "filerCik": "2088337",
       "shares": [
         null,
         null,
-        32,
-        33
+        1,
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -17415,13 +17433,13 @@
       "voteNone": null
     },
     {
-      "filerName": "United Financial Planning Group LLC",
-      "filerCik": "2088337",
+      "filerName": "BELLEVUE ASSET MANAGEMENT, LLC",
+      "filerCik": "1801619",
       "shares": [
         null,
         null,
-        1,
-        null
+        32,
+        33
       ],
       "netChg": null,
       "currentValue": null,
@@ -17487,24 +17505,6 @@
       "voteNone": null
     },
     {
-      "filerName": "MUFG Securities EMEA plc",
-      "filerCik": "1597694",
-      "shares": [
-        null,
-        40320,
-        40320,
-        null
-      ],
-      "netChg": -40320,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Clark Wealth Partners",
       "filerCik": "2107657",
       "shares": [
@@ -17514,6 +17514,24 @@
         78
       ],
       "netChg": -78,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "MUFG Securities EMEA plc",
+      "filerCik": "1597694",
+      "shares": [
+        null,
+        40320,
+        40320,
+        null
+      ],
+      "netChg": -40320,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",

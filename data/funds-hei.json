@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-10-25T14:56:23.523Z",
+  "lastUpdated": "2026-10-26T17:15:09.188Z",
   "summary": {
     "funds": 438,
-    "totalShares": 19751875,
-    "pctOut": 35.7554,
-    "newFunds": 53,
+    "totalShares": 19724075,
+    "pctOut": 35.7051,
+    "newFunds": 54,
     "sellouts": 42,
     "linkedManagers": 25,
-    "linkedShares": 16989032
+    "linkedShares": 16961232
   },
   "newHolders": [
     {
@@ -336,6 +336,19 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.0157,
+      "action": "New"
+    },
+    {
+      "fundName": "Eaton Vance Focused Growth Opportunities Fund",
+      "registrant": "Eaton Vance Growth Trust",
+      "manager": "Morgan Stanley",
+      "cik": "102816",
+      "shares": 7839,
+      "value": 2595885,
+      "reportDate": "2026-08-31",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0142,
       "action": "New"
     },
     {
@@ -1128,8 +1141,8 @@
     },
     {
       "manager": "FMR (Fidelity)",
-      "fundCount": 44,
-      "shares": 2097881,
+      "fundCount": 43,
+      "shares": 2062193,
       "funds": [
         {
           "fundName": "Fidelity Advisor International Capital Appreciation Fund",
@@ -1137,19 +1150,19 @@
         },
         {
           "fundName": "Fidelity Extended Market Index Fund",
-          "shares": 209490
-        },
-        {
-          "fundName": "Strategic Advisers Fidelity U.S. Total Stock Fund",
-          "shares": 185678
+          "shares": 200583
         },
         {
           "fundName": "Fidelity Mid Cap Index Fund",
           "shares": 161444
         },
         {
+          "fundName": "Strategic Advisers Fidelity U.S. Total Stock Fund",
+          "shares": 159604
+        },
+        {
           "fundName": "Strategic Advisers Fidelity International Fund",
-          "shares": 145166
+          "shares": 144165
         },
         {
           "fundName": "Fidelity International Capital Appreciation K6 Fund",
@@ -1157,7 +1170,7 @@
         },
         {
           "fundName": "Fidelity Total Market Index Fund",
-          "shares": 83217
+          "shares": 83958
         },
         {
           "fundName": "Fidelity Enhanced Mid Cap Core ETF",
@@ -1165,7 +1178,7 @@
         },
         {
           "fundName": "Fidelity Series Total Market Index Fund",
-          "shares": 62378
+          "shares": 64341
         },
         {
           "fundName": "Fidelity Large Cap Growth Index Fund",
@@ -1220,12 +1233,12 @@
           "shares": 6754
         },
         {
-          "fundName": "Strategic Advisers International Fund",
-          "shares": 5792
+          "fundName": "Fidelity Flex 500 Index Fund",
+          "shares": 5697
         },
         {
-          "fundName": "Fidelity Flex 500 Index Fund",
-          "shares": 5596
+          "fundName": "Strategic Advisers International Fund",
+          "shares": 5096
         },
         {
           "fundName": "MML VIP T. Rowe Price Mid Cap Growth Fund",
@@ -1246,10 +1259,6 @@
         {
           "fundName": "SA Fidelity Institutional AM Global Equities Portfolio",
           "shares": 2429
-        },
-        {
-          "fundName": "Strategic Advisers U.S. Total Stock Fund",
-          "shares": 1815
         },
         {
           "fundName": "LVIP Blended Large Cap Growth Managed Volatility Fund",
@@ -1769,8 +1778,8 @@
     },
     {
       "manager": "Morgan Stanley",
-      "fundCount": 18,
-      "shares": 246838,
+      "fundCount": 19,
+      "shares": 254726,
       "funds": [
         {
           "fundName": "Eaton Vance Tax-Managed Diversified Equity Income Fund",
@@ -1805,6 +1814,10 @@
           "shares": 8900
         },
         {
+          "fundName": "Eaton Vance Focused Growth Opportunities Fund",
+          "shares": 7839
+        },
+        {
           "fundName": "Calvert U.S. Mid Cap Core Responsible Index Fund",
           "shares": 4784
         },
@@ -1814,7 +1827,7 @@
         },
         {
           "fundName": "Calvert US Large-Cap Core Responsible Index ETF",
-          "shares": 1754
+          "shares": 1803
         },
         {
           "fundName": "Morgan Stanley Pathway Large Cap Equity ETF",
@@ -2524,19 +2537,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Fidelity Extended Market Index Fund",
-      "registrant": "Fidelity Concord Street Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "819118",
-      "shares": 209490,
-      "value": 72940228,
-      "reportDate": "2026-05-31",
-      "priorShares": 210804,
-      "change": -1314,
-      "pctOut": 0.3792,
-      "action": "Sold"
-    },
-    {
       "fundName": "Ultra Fund",
       "registrant": "American Century Mutual Funds, Inc.",
       "manager": "American Century",
@@ -2561,6 +2561,19 @@
       "change": 0,
       "pctOut": 0.3764,
       "action": "No Change"
+    },
+    {
+      "fundName": "Fidelity Extended Market Index Fund",
+      "registrant": "Fidelity Concord Street Trust",
+      "manager": "FMR (Fidelity)",
+      "cik": "819118",
+      "shares": 200583,
+      "value": 66423060,
+      "reportDate": "2026-08-31",
+      "priorShares": 209490,
+      "change": -8907,
+      "pctOut": 0.36310000000000003,
+      "action": "Sold"
     },
     {
       "fundName": "Heritage Fund",
@@ -2600,19 +2613,6 @@
       "change": 0,
       "pctOut": 0.3382,
       "action": "No Change"
-    },
-    {
-      "fundName": "Strategic Advisers Fidelity U.S. Total Stock Fund",
-      "registrant": "Fidelity Rutland Square Trust II",
-      "manager": "FMR (Fidelity)",
-      "cik": "1364924",
-      "shares": 185678,
-      "value": 64649366,
-      "reportDate": "2026-05-31",
-      "priorShares": 221057,
-      "change": -35379,
-      "pctOut": 0.3361,
-      "action": "Sold"
     },
     {
       "fundName": "Baron Partners Fund",
@@ -2667,6 +2667,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Strategic Advisers Fidelity U.S. Total Stock Fund",
+      "registrant": "Fidelity Rutland Square Trust II",
+      "manager": "FMR (Fidelity)",
+      "cik": "1364924",
+      "shares": 159604,
+      "value": 52852865,
+      "reportDate": "2026-08-31",
+      "priorShares": 185678,
+      "change": -26074,
+      "pctOut": 0.2889,
+      "action": "Sold"
+    },
+    {
       "fundName": "Investment Co of America",
       "registrant": "Investment Co of America",
       "manager": "",
@@ -2684,13 +2697,13 @@
       "registrant": "Fidelity Rutland Square Trust II",
       "manager": "FMR (Fidelity)",
       "cik": "1364924",
-      "shares": 145166,
-      "value": 50543898,
-      "reportDate": "2026-05-31",
-      "priorShares": 19300,
-      "change": 125866,
-      "pctOut": 0.26280000000000003,
-      "action": "Bought"
+      "shares": 144165,
+      "value": 47740240,
+      "reportDate": "2026-08-31",
+      "priorShares": 145166,
+      "change": -1001,
+      "pctOut": 0.261,
+      "action": "Sold"
     },
     {
       "fundName": "American Funds Global Insight Fund",
@@ -2840,12 +2853,12 @@
       "registrant": "Fidelity Concord Street Trust",
       "manager": "FMR (Fidelity)",
       "cik": "819118",
-      "shares": 83217,
-      "value": 28974495,
-      "reportDate": "2026-05-31",
-      "priorShares": 82036,
-      "change": 1181,
-      "pctOut": 0.15059999999999998,
+      "shares": 83958,
+      "value": 27802692,
+      "reportDate": "2026-08-31",
+      "priorShares": 83217,
+      "change": 741,
+      "pctOut": 0.152,
       "action": "Bought"
     },
     {
@@ -2927,6 +2940,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Fidelity Series Total Market Index Fund",
+      "registrant": "Fidelity Concord Street Trust",
+      "manager": "FMR (Fidelity)",
+      "cik": "819118",
+      "shares": 64341,
+      "value": 21306522,
+      "reportDate": "2026-08-31",
+      "priorShares": 62378,
+      "change": 1963,
+      "pctOut": 0.1165,
+      "action": "Bought"
+    },
+    {
       "fundName": "Victory Pioneer Disciplined Growth Fund",
       "registrant": "Victory Portfolios IV",
       "manager": "",
@@ -2938,19 +2964,6 @@
       "change": -5237,
       "pctOut": 0.1151,
       "action": "Sold"
-    },
-    {
-      "fundName": "Fidelity Series Total Market Index Fund",
-      "registrant": "Fidelity Concord Street Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "819118",
-      "shares": 62378,
-      "value": 21718772,
-      "reportDate": "2026-05-31",
-      "priorShares": 60766,
-      "change": 1612,
-      "pctOut": 0.1129,
-      "action": "Bought"
     },
     {
       "fundName": "Neuberger Mid Cap Growth Fund",
@@ -4630,6 +4643,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Eaton Vance Focused Growth Opportunities Fund",
+      "registrant": "Eaton Vance Growth Trust",
+      "manager": "Morgan Stanley",
+      "cik": "102816",
+      "shares": 7839,
+      "value": 2595885,
+      "reportDate": "2026-08-31",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0142,
+      "action": "New"
+    },
+    {
       "fundName": "iShares Russell Mid-Cap Index Fund",
       "registrant": "BlackRock Funds",
       "manager": "BlackRock",
@@ -4864,16 +4890,16 @@
       "action": "Bought"
     },
     {
-      "fundName": "Strategic Advisers International Fund",
-      "registrant": "Fidelity Rutland Square Trust II",
+      "fundName": "Fidelity Flex 500 Index Fund",
+      "registrant": "Fidelity Concord Street Trust",
       "manager": "FMR (Fidelity)",
-      "cik": "1364924",
-      "shares": 5792,
-      "value": 2016659,
-      "reportDate": "2026-05-31",
-      "priorShares": 1500,
-      "change": 4292,
-      "pctOut": 0.0105,
+      "cik": "819118",
+      "shares": 5697,
+      "value": 1886562,
+      "reportDate": "2026-08-31",
+      "priorShares": 5596,
+      "change": 101,
+      "pctOut": 0.0103,
       "action": "Bought"
     },
     {
@@ -4888,19 +4914,6 @@
       "change": null,
       "pctOut": 0.0103,
       "action": "New"
-    },
-    {
-      "fundName": "Fidelity Flex 500 Index Fund",
-      "registrant": "Fidelity Concord Street Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "819118",
-      "shares": 5596,
-      "value": 1948415,
-      "reportDate": "2026-05-31",
-      "priorShares": 5734,
-      "change": -138,
-      "pctOut": 0.0101,
-      "action": "Sold"
     },
     {
       "fundName": "VictoryShares Dividend Accelerator ETF",
@@ -4953,6 +4966,19 @@
       "change": null,
       "pctOut": 0.0092,
       "action": "New"
+    },
+    {
+      "fundName": "Strategic Advisers International Fund",
+      "registrant": "Fidelity Rutland Square Trust II",
+      "manager": "FMR (Fidelity)",
+      "cik": "1364924",
+      "shares": 5096,
+      "value": 1687540,
+      "reportDate": "2026-08-31",
+      "priorShares": 5792,
+      "change": -696,
+      "pctOut": 0.0092,
+      "action": "Sold"
     },
     {
       "fundName": "EQ/Common Stock Index Portfolio",
@@ -5826,17 +5852,17 @@
       "action": "Bought"
     },
     {
-      "fundName": "Strategic Advisers U.S. Total Stock Fund",
-      "registrant": "Fidelity Rutland Square Trust II",
-      "manager": "FMR (Fidelity)",
-      "cik": "1364924",
-      "shares": 1815,
-      "value": 631947,
-      "reportDate": "2026-05-31",
-      "priorShares": 6114,
-      "change": -4299,
+      "fundName": "Calvert US Large-Cap Core Responsible Index ETF",
+      "registrant": "Morgan Stanley ETF Trust",
+      "manager": "Morgan Stanley",
+      "cik": "1676326",
+      "shares": 1803,
+      "value": 642211,
+      "reportDate": "2026-06-30",
+      "priorShares": 1754,
+      "change": 49,
       "pctOut": 0.0033000000000000004,
-      "action": "Sold"
+      "action": "Bought"
     },
     {
       "fundName": "Gotham Absolute Return Fund",
@@ -5861,19 +5887,6 @@
       "reportDate": "2026-07-31",
       "priorShares": 1695,
       "change": 63,
-      "pctOut": 0.0031999999999999997,
-      "action": "Bought"
-    },
-    {
-      "fundName": "Calvert US Large-Cap Core Responsible Index ETF",
-      "registrant": "Morgan Stanley ETF Trust",
-      "manager": "Morgan Stanley",
-      "cik": "1676326",
-      "shares": 1754,
-      "value": 480947,
-      "reportDate": "2026-03-31",
-      "priorShares": 1654,
-      "change": 100,
       "pctOut": 0.0031999999999999997,
       "action": "Bought"
     },

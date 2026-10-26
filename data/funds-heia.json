@@ -2,15 +2,15 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-10-25T14:56:23.523Z",
+  "lastUpdated": "2026-10-26T17:15:09.188Z",
   "summary": {
     "funds": 350,
-    "totalShares": 28285347,
-    "pctOut": 33.4675,
+    "totalShares": 28054299,
+    "pctOut": 33.1942,
     "newFunds": 13,
     "sellouts": 31,
     "linkedManagers": 24,
-    "linkedShares": 23976570
+    "linkedShares": 23745466
   },
   "newHolders": [
     {
@@ -520,7 +520,7 @@
     {
       "manager": "FMR (Fidelity)",
       "fundCount": 39,
-      "shares": 4807665,
+      "shares": 4576561,
       "funds": [
         {
           "fundName": "Fidelity Magellan Fund",
@@ -528,31 +528,27 @@
         },
         {
           "fundName": "Select Defense and Aerospace Portfolio",
-          "shares": 690700
+          "shares": 675100
         },
         {
           "fundName": "Fidelity Extended Market Index Fund",
-          "shares": 397125
+          "shares": 371241
         },
         {
           "fundName": "Strategic Advisers Fidelity U.S. Total Stock Fund",
-          "shares": 351064
+          "shares": 345764
         },
         {
           "fundName": "Fidelity Mid Cap Index Fund",
           "shares": 285586
         },
         {
-          "fundName": "Fidelity Growth Strategies Fund",
-          "shares": 147638
-        },
-        {
           "fundName": "Fidelity Total Market Index Fund",
-          "shares": 137068
+          "shares": 138476
         },
         {
           "fundName": "Fidelity Series Total Market Index Fund",
-          "shares": 116929
+          "shares": 118924
         },
         {
           "fundName": "Fidelity Large Cap Growth Index Fund",
@@ -560,7 +556,7 @@
         },
         {
           "fundName": "Fidelity Advisor Stock Selector Mid Cap Fund",
-          "shares": 88513
+          "shares": 97313
         },
         {
           "fundName": "Fidelity Advisor Industrials Fund",
@@ -569,10 +565,6 @@
         {
           "fundName": "Fidelity Mid Cap Growth Index Fund",
           "shares": 80714
-        },
-        {
-          "fundName": "Strategic Advisers U.S. Total Stock Fund",
-          "shares": 57157
         },
         {
           "fundName": "Fidelity Disciplined Equity Fund",
@@ -587,8 +579,8 @@
           "shares": 40537
         },
         {
-          "fundName": "Fidelity Growth Strategies K6 Fund",
-          "shares": 38362
+          "fundName": "Fidelity Growth Strategies Fund",
+          "shares": 26338
         },
         {
           "fundName": "Fidelity MSCI Industrials Index ETF",
@@ -615,16 +607,24 @@
           "shares": 16832
         },
         {
+          "fundName": "Strategic Advisers U.S. Total Stock Fund",
+          "shares": 13447
+        },
+        {
           "fundName": "Fidelity Magellan ETF",
           "shares": 12774
         },
         {
-          "fundName": "Fidelity Flex 500 Index Fund",
-          "shares": 10778
-        },
-        {
           "fundName": "Fidelity Trend Fund",
           "shares": 10775
+        },
+        {
+          "fundName": "Fidelity Flex 500 Index Fund",
+          "shares": 10765
+        },
+        {
+          "fundName": "Fidelity Growth Strategies K6 Fund",
+          "shares": 6862
         },
         {
           "fundName": "Fidelity Series Large Cap Growth Index Fund",
@@ -1414,12 +1414,12 @@
       "registrant": "Fidelity Select Portfolios",
       "manager": "FMR (Fidelity)",
       "cik": "320351",
-      "shares": 690700,
-      "value": 179450767,
-      "reportDate": "2026-05-31",
-      "priorShares": 711700,
-      "change": -21000,
-      "pctOut": 0.8172,
+      "shares": 675100,
+      "value": 164839167,
+      "reportDate": "2026-08-31",
+      "priorShares": 690700,
+      "change": -15600,
+      "pctOut": 0.7988000000000001,
       "action": "Sold"
     },
     {
@@ -1479,12 +1479,12 @@
       "registrant": "Fidelity Concord Street Trust",
       "manager": "FMR (Fidelity)",
       "cik": "819118",
-      "shares": 397125,
-      "value": 103177046,
-      "reportDate": "2026-05-31",
-      "priorShares": 407539,
-      "change": -10414,
-      "pctOut": 0.4699,
+      "shares": 371241,
+      "value": 90645915,
+      "reportDate": "2026-08-31",
+      "priorShares": 397125,
+      "change": -25884,
+      "pctOut": 0.4393,
       "action": "Sold"
     },
     {
@@ -1492,13 +1492,13 @@
       "registrant": "Fidelity Rutland Square Trust II",
       "manager": "FMR (Fidelity)",
       "cik": "1364924",
-      "shares": 351064,
-      "value": 91209938,
-      "reportDate": "2026-05-31",
-      "priorShares": 345045,
-      "change": 6019,
-      "pctOut": 0.4154,
-      "action": "Bought"
+      "shares": 345764,
+      "value": 84425196,
+      "reportDate": "2026-08-31",
+      "priorShares": 351064,
+      "change": -5300,
+      "pctOut": 0.4091,
+      "action": "Sold"
     },
     {
       "fundName": "ALGER SPECTRA FUND",
@@ -1722,29 +1722,16 @@
       "action": "No Change"
     },
     {
-      "fundName": "Fidelity Growth Strategies Fund",
-      "registrant": "Fidelity Mt. Vernon Street Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "707823",
-      "shares": 147638,
-      "value": 38357829,
-      "reportDate": "2026-05-31",
-      "priorShares": 164938,
-      "change": -17300,
-      "pctOut": 0.1747,
-      "action": "Sold"
-    },
-    {
       "fundName": "Fidelity Total Market Index Fund",
       "registrant": "Fidelity Concord Street Trust",
       "manager": "FMR (Fidelity)",
       "cik": "819118",
-      "shares": 137068,
-      "value": 35611637,
-      "reportDate": "2026-05-31",
-      "priorShares": 135564,
-      "change": 1504,
-      "pctOut": 0.16219999999999998,
+      "shares": 138476,
+      "value": 33811685,
+      "reportDate": "2026-08-31",
+      "priorShares": 137068,
+      "change": 1408,
+      "pctOut": 0.1638,
       "action": "Bought"
     },
     {
@@ -1817,12 +1804,12 @@
       "registrant": "Fidelity Concord Street Trust",
       "manager": "FMR (Fidelity)",
       "cik": "819118",
-      "shares": 116929,
-      "value": 30379323,
-      "reportDate": "2026-05-31",
-      "priorShares": 112830,
-      "change": 4099,
-      "pctOut": 0.1384,
+      "shares": 118924,
+      "value": 29037673,
+      "reportDate": "2026-08-31",
+      "priorShares": 116929,
+      "change": 1995,
+      "pctOut": 0.1407,
       "action": "Bought"
     },
     {
@@ -1930,6 +1917,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Fidelity Advisor Stock Selector Mid Cap Fund",
+      "registrant": "Fidelity Advisor Series I",
+      "manager": "FMR (Fidelity)",
+      "cik": "722574",
+      "shares": 97313,
+      "value": 23760915,
+      "reportDate": "2026-08-31",
+      "priorShares": 88513,
+      "change": 8800,
+      "pctOut": 0.1151,
+      "action": "Bought"
+    },
+    {
       "fundName": "VANGUARD INDUSTRIALS INDEX FUND",
       "registrant": "VANGUARD WORLD FUND",
       "manager": "Vanguard Group",
@@ -1953,19 +1953,6 @@
       "priorShares": 88964,
       "change": 131,
       "pctOut": 0.10540000000000001,
-      "action": "Bought"
-    },
-    {
-      "fundName": "Fidelity Advisor Stock Selector Mid Cap Fund",
-      "registrant": "Fidelity Advisor Series I",
-      "manager": "FMR (Fidelity)",
-      "cik": "722574",
-      "shares": 88513,
-      "value": 22996563,
-      "reportDate": "2026-05-31",
-      "priorShares": 83613,
-      "change": 4900,
-      "pctOut": 0.1047,
       "action": "Bought"
     },
     {
@@ -2122,19 +2109,6 @@
       "priorShares": 38430,
       "change": 18899,
       "pctOut": 0.0678,
-      "action": "Bought"
-    },
-    {
-      "fundName": "Strategic Advisers U.S. Total Stock Fund",
-      "registrant": "Fidelity Rutland Square Trust II",
-      "manager": "FMR (Fidelity)",
-      "cik": "1364924",
-      "shares": 57157,
-      "value": 14849960,
-      "reportDate": "2026-05-31",
-      "priorShares": 53729,
-      "change": 3428,
-      "pctOut": 0.0676,
       "action": "Bought"
     },
     {
@@ -2450,19 +2424,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Fidelity Growth Strategies K6 Fund",
-      "registrant": "Fidelity Mt. Vernon Street Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "707823",
-      "shares": 38362,
-      "value": 9966831,
-      "reportDate": "2026-05-31",
-      "priorShares": 40462,
-      "change": -2100,
-      "pctOut": 0.045399999999999996,
-      "action": "Sold"
-    },
-    {
       "fundName": "Victory Growth Fund",
       "registrant": "Victory Portfolios III",
       "manager": "",
@@ -2604,6 +2565,19 @@
       "change": 260,
       "pctOut": 0.0312,
       "action": "Bought"
+    },
+    {
+      "fundName": "Fidelity Growth Strategies Fund",
+      "registrant": "Fidelity Mt. Vernon Street Trust",
+      "manager": "FMR (Fidelity)",
+      "cik": "707823",
+      "shares": 26338,
+      "value": 6430949,
+      "reportDate": "2026-08-31",
+      "priorShares": 147638,
+      "change": -121300,
+      "pctOut": 0.0312,
+      "action": "Sold"
     },
     {
       "fundName": "MID-CAP INDEX PORTFOLIO",
@@ -3035,6 +3009,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "Strategic Advisers U.S. Total Stock Fund",
+      "registrant": "Fidelity Rutland Square Trust II",
+      "manager": "FMR (Fidelity)",
+      "cik": "1364924",
+      "shares": 13447,
+      "value": 3283354,
+      "reportDate": "2026-08-31",
+      "priorShares": 57157,
+      "change": -43710,
+      "pctOut": 0.015899999999999997,
+      "action": "Sold"
+    },
+    {
       "fundName": "Invesco MSCI USA ETF",
       "registrant": "Invesco Exchange-Traded Fund Trust II",
       "manager": "Invesco",
@@ -3204,19 +3191,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "Fidelity Flex 500 Index Fund",
-      "registrant": "Fidelity Concord Street Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "819118",
-      "shares": 10778,
-      "value": 2800232,
-      "reportDate": "2026-05-31",
-      "priorShares": 10300,
-      "change": 478,
-      "pctOut": 0.012799999999999999,
-      "action": "Bought"
-    },
-    {
       "fundName": "Fidelity Trend Fund",
       "registrant": "Fidelity Trend Fund",
       "manager": "FMR (Fidelity)",
@@ -3226,6 +3200,19 @@
       "reportDate": "2026-06-30",
       "priorShares": 104688,
       "change": -93913,
+      "pctOut": 0.0127,
+      "action": "Sold"
+    },
+    {
+      "fundName": "Fidelity Flex 500 Index Fund",
+      "registrant": "Fidelity Concord Street Trust",
+      "manager": "FMR (Fidelity)",
+      "cik": "819118",
+      "shares": 10765,
+      "value": 2628490,
+      "reportDate": "2026-08-31",
+      "priorShares": 10778,
+      "change": -13,
       "pctOut": 0.0127,
       "action": "Sold"
     },
@@ -3436,6 +3423,19 @@
       "change": 0,
       "pctOut": 0.0083,
       "action": "No Change"
+    },
+    {
+      "fundName": "Fidelity Growth Strategies K6 Fund",
+      "registrant": "Fidelity Mt. Vernon Street Trust",
+      "manager": "FMR (Fidelity)",
+      "cik": "707823",
+      "shares": 6862,
+      "value": 1675495,
+      "reportDate": "2026-08-31",
+      "priorShares": 38362,
+      "change": -31500,
+      "pctOut": 0.0081,
+      "action": "Sold"
     },
     {
       "fundName": "iShares MSCI World ETF",
@@ -4938,8 +4938,8 @@
       "manager": "",
       "cik": "1496608",
       "shares": 560,
-      "value": 145494,
-      "reportDate": "2026-05-31",
+      "value": 136735,
+      "reportDate": "2026-08-31",
       "priorShares": 560,
       "change": 0,
       "pctOut": 0.0007,
@@ -5193,6 +5193,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Defiance Large Cap Ex-mag 7 ETF",
+      "registrant": "Tidal Trust II",
+      "manager": "",
+      "cik": "1924868",
+      "shares": 303,
+      "value": 73984,
+      "reportDate": "2026-08-31",
+      "priorShares": 247,
+      "change": 56,
+      "pctOut": 0.00039999999999999996,
+      "action": "Bought"
+    },
+    {
       "fundName": "Wilshire 5000 Index Fund",
       "registrant": "Wilshire Mutual Funds Inc",
       "manager": "",
@@ -5293,19 +5306,6 @@
       "reportDate": "2026-08-31",
       "priorShares": 678,
       "change": -414,
-      "pctOut": 0.00030000000000000003,
-      "action": "Sold"
-    },
-    {
-      "fundName": "Defiance Large Cap ex-Mag 7 ETF",
-      "registrant": "Tidal Trust II",
-      "manager": "",
-      "cik": "1924868",
-      "shares": 247,
-      "value": 64173,
-      "reportDate": "2026-05-31",
-      "priorShares": 263,
-      "change": -16,
       "pctOut": 0.00030000000000000003,
       "action": "Sold"
     },
