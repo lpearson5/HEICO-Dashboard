@@ -176,14 +176,14 @@ function mostRecentCompleteQuarterEnd(today) {
 function pickPeriods(allHits, today) {
   const counts = {};
   for (const h of allHits) if (h.period) counts[h.period] = (counts[h.period] || 0) + 1;
-  // Don't advance to a new quarter the moment a single early filer appears — 13F
-  // filings for a quarter don't start arriving in force until ~45 days after it
-  // ends. Treat a quarter as "current" only once it has a REPRESENTATIVE number of
-  // filings; otherwise stay on the last fully-filed quarter. Without this, one
-  // early Q filer on the 1st of a new quarter flips the whole dashboard to the new
-  // period and strands everyone else as "Not Filed Yet".
+  // Don't advance to a new quarter the moment a single early filer appears — that
+  // flips the Ownership Tracker to the new period and strands everyone else as
+  // "Not Filed Yet" (happened 2026-10-01). Advance once the new quarter has at
+  // least 10% of the peak quarter's filing count (min 15) — IR's chosen trigger,
+  // so early filers show up during filing season. (The quarterly Ownership Report
+  // is separate: it waits for the 45-day filing deadline.)
   const maxCount = Math.max(0, ...Object.values(counts));
-  const threshold = Math.max(15, Math.round(maxCount * 0.25));
+  const threshold = Math.max(15, Math.round(maxCount * 0.10));
   let current = mostRecentQuarterEnd(today);
   for (let i = 0; i < 5 && (counts[current] || 0) < threshold; i++) current = priorQuarterEnd(current);
   return { current, prior: priorQuarterEnd(current), counts };

@@ -154,14 +154,21 @@ export default function Dashboard({
   const crmLive = useMemo(() => {
     const map: Record<string, LivePosition> = {};
     const add = (h: Holding) => {
-      if (h.currentShares == null) return;
+      // During filing season a holder that hasn't filed the new quarter yet keeps
+      // its last-filed position (value unknown at today's price) instead of
+      // vanishing from the CRM.
+      const notFiled = h.currentShares == null && h.action === "Not Filed Yet" && h.priorShares != null;
+      const shares = notFiled ? h.priorShares : h.currentShares;
+      if (shares == null) return;
+      const value = notFiled ? null : h.currentValue;
+      const action = notFiled ? "Not filed yet (last-filed shown)" : h.action;
       const key = normName(h.filerName);
       const prev = map[key];
       if (prev) {
-        prev.shares = (prev.shares ?? 0) + (h.currentShares ?? 0);
-        prev.value = (prev.value ?? 0) + (h.currentValue ?? 0);
+        prev.shares = (prev.shares ?? 0) + shares;
+        if (value != null) prev.value = (prev.value ?? 0) + value;
       } else {
-        map[key] = { shares: h.currentShares, value: h.currentValue, action: h.action, style: null, pctChange: h.pctChange };
+        map[key] = { shares, value, action, style: null, pctChange: notFiled ? null : h.pctChange };
       }
     };
     hei?.holdings.forEach(add);
