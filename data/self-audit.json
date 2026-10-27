@@ -1,16 +1,26 @@
 {
-  "asOf": "2026-10-26T17:28:53.776Z",
+  "asOf": "2026-10-27T16:39:03.516Z",
   "status": "OK",
   "counts": {
-    "hei": 780,
-    "heia": 674
+    "hei": 182,
+    "heia": 154
   },
-  "period": "2026-06-30",
+  "period": "2026-09-30",
   "findings": [
     {
       "level": "INFO",
+      "check": "holder-drop",
+      "detail": "hei: current holders 182 vs 780 last run (−77%) — quarter rolled to 2026-09-30, filings still arriving (expected)"
+    },
+    {
+      "level": "INFO",
+      "check": "holder-drop",
+      "detail": "heia: current holders 154 vs 674 last run (−77%) — quarter rolled to 2026-09-30, filings still arriving (expected)"
+    },
+    {
+      "level": "INFO",
       "check": "cross-check",
-      "detail": "hei: cross-checked 14 top holders vs SEC, 0 mismatch(es)"
+      "detail": "hei: cross-checked 15 top holders vs SEC, 0 mismatch(es)"
     },
     {
       "level": "INFO",

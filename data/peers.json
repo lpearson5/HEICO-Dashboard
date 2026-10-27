@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T17:15:09.188Z",
+  "lastUpdated": "2026-10-27T16:20:23.622Z",
   "peers": [
     {
       "name": "RTX Corp.",
@@ -114,52 +114,10 @@
           "value": 4433781397
         },
         {
-          "fund": "WASHINGTON MUTUAL INVESTORS FUND",
-          "manager": "Capital Group (American Funds)",
-          "shares": 15036970,
-          "value": 3236256683
-        },
-        {
-          "fund": "SPDR S&P 500 ETF TRUST  (SPY)",
-          "manager": "State Street",
-          "shares": 16315632,
-          "value": 3095564859
-        },
-        {
-          "fund": "VANGUARD INDEX FUNDS",
-          "manager": "Vanguard Group",
-          "shares": 12818215,
-          "value": 2431999932
-        },
-        {
-          "fund": "INVESTMENT CO OF AMERICA",
-          "manager": "",
-          "shares": 11907338,
-          "value": 2259179239
-        },
-        {
-          "fund": "CAPITAL INCOME BUILDER",
-          "manager": "Capital Group (American Funds)",
-          "shares": 9491160,
-          "value": 2042687455
-        },
-        {
-          "fund": "AMERICAN MUTUAL FUND",
-          "manager": "",
-          "shares": 9431257,
-          "value": 2029795132
-        },
-        {
           "fund": "SELECT SECTOR SPDR TRUST",
           "manager": "State Street",
           "shares": 7937195,
           "value": 1505924007
-        },
-        {
-          "fund": "VANGUARD INSTITUTIONAL INDEX FUNDS",
-          "manager": "Vanguard Group",
-          "shares": 7310624,
-          "value": 1387044692
         },
         {
           "fund": "MFS SERIES TRUST I",
@@ -172,18 +130,6 @@
           "manager": "Capital Group (American Funds)",
           "shares": 5512883,
           "value": 990444560
-        },
-        {
-          "fund": "CAPITAL WORLD GROWTH & INCOME FUND",
-          "manager": "Capital Group (American Funds)",
-          "shares": 5031485,
-          "value": 903956595
-        },
-        {
-          "fund": "PUTNAM LARGE CAP VALUE FUND",
-          "manager": "Putnam",
-          "shares": 4069424,
-          "value": 875821433
         },
         {
           "fund": "JPMORGAN TRUST II",
@@ -204,28 +150,82 @@
           "value": 686086279
         },
         {
-          "fund": "GROWTH FUND OF AMERICA",
-          "manager": "Capital Group (American Funds)",
-          "shares": 3789893,
-          "value": 680892176
-        },
-        {
           "fund": "FIDELITY SELECT PORTFOLIOS",
           "manager": "FMR (Fidelity)",
           "shares": 2735800,
           "value": 568307734
         },
         {
-          "fund": "AMERICAN BALANCED FUND",
-          "manager": "",
-          "shares": 2964651,
-          "value": 562483234
+          "fund": "FRANKLIN MANAGED TRUST",
+          "manager": "Franklin Resources",
+          "shares": 2450000,
+          "value": 464838500
         },
         {
-          "fund": "AMERICAN FUNDS FUNDAMENTAL INVESTORS",
+          "fund": "BlackRock ETF Trust",
+          "manager": "BlackRock",
+          "shares": 1769052,
+          "value": 380735371
+        },
+        {
+          "fund": "Global X Funds",
+          "manager": "",
+          "shares": 1769493,
+          "value": 280641590
+        },
+        {
+          "fund": "Amplify ETF Trust",
+          "manager": "",
+          "shares": 1229621,
+          "value": 233295992
+        },
+        {
+          "fund": "BNY Mellon Advantage Funds, Inc.",
+          "manager": "",
+          "shares": 1039587,
+          "value": 215953408
+        },
+        {
+          "fund": "Capital Group Core Equity ETF",
           "manager": "Capital Group (American Funds)",
-          "shares": 2605176,
-          "value": 494280042
+          "shares": 1178895,
+          "value": 211800276
+        },
+        {
+          "fund": "MFS SERIES TRUST II",
+          "manager": "MFS",
+          "shares": 978090,
+          "value": 203178636
+        },
+        {
+          "fund": "VANGUARD ADMIRAL FUNDS",
+          "manager": "Vanguard Group",
+          "shares": 965620,
+          "value": 195653924
+        },
+        {
+          "fund": "AMCAP FUND",
+          "manager": "Capital Group (American Funds)",
+          "shares": 1048663,
+          "value": 188402795
+        },
+        {
+          "fund": "Franklin Custodian Funds",
+          "manager": "Franklin Resources",
+          "shares": 882286,
+          "value": 167396123
+        },
+        {
+          "fund": "HARTFORD MUTUAL FUNDS, INC",
+          "manager": "Hartford",
+          "shares": 726810,
+          "value": 156424048
+        },
+        {
+          "fund": "JP MORGAN MUTUAL FUND INVESTMENT TRUST",
+          "manager": "JPMorgan",
+          "shares": 776500,
+          "value": 147325345
         }
       ]
     },
@@ -606,16 +606,10 @@
           "value": 583982740
         },
         {
-          "fund": "MFS SERIES TRUST IV",
-          "manager": "MFS",
-          "shares": 2108266,
-          "value": 544459695
-        },
-        {
           "fund": "MFS SERIES TRUST II",
           "manager": "MFS",
-          "shares": 1897166,
-          "value": 489943120
+          "shares": 1848937,
+          "value": 452897118
         },
         {
           "fund": "T. Rowe Price Growth Stock Fund, Inc.",
@@ -664,6 +658,12 @@
           "manager": "State Street",
           "shares": 667405,
           "value": 179438508
+        },
+        {
+          "fund": "MFS SERIES TRUST IV",
+          "manager": "MFS",
+          "shares": 726074,
+          "value": 177851826
         },
         {
           "fund": "FIDELITY SELECT PORTFOLIOS",
@@ -860,8 +860,8 @@
         {
           "fund": "Capital Group Growth ETF",
           "manager": "Capital Group (American Funds)",
-          "shares": 391432,
-          "value": 492546714
+          "shares": 400453,
+          "value": 469226798
         },
         {
           "fund": "INVESTMENT CO OF AMERICA",
@@ -880,6 +880,12 @@
           "manager": "Vanguard Group",
           "shares": 303656,
           "value": 404481938
+        },
+        {
+          "fund": "PRINCIPAL FUNDS, INC.",
+          "manager": "Principal",
+          "shares": 293724,
+          "value": 344168160
         },
         {
           "fund": "VANGUARD CHESTER FUNDS",
@@ -904,12 +910,6 @@
           "manager": "FMR (Fidelity)",
           "shares": 161403,
           "value": 230409239
-        },
-        {
-          "fund": "AMERICAN FUNDS INSURANCE SERIES",
-          "manager": "Capital Group (American Funds)",
-          "shares": 149304,
-          "value": 198878900
         }
       ]
     },
@@ -1128,16 +1128,16 @@
           "value": 77693850
         },
         {
+          "fund": "SCHWAB STRATEGIC TRUST",
+          "manager": "Charles Schwab",
+          "shares": 112523,
+          "value": 68970973
+        },
+        {
           "fund": "INVESCO EXCHANGE-TRADED FUND TRUST",
           "manager": "Invesco",
           "shares": 104914,
           "value": 68778471
-        },
-        {
-          "fund": "SCHWAB CAPITAL TRUST",
-          "manager": "Charles Schwab",
-          "shares": 103723,
-          "value": 67997687
         }
       ]
     },
@@ -1530,10 +1530,10 @@
           "value": 34844310
         },
         {
-          "fund": "BARON INVESTMENT FUNDS TRUST (f/k/a BARON ASSET FUND)",
-          "manager": "Baron Capital",
-          "shares": 605747,
-          "value": 27949167
+          "fund": "MFS SERIES TRUST IV",
+          "manager": "MFS",
+          "shares": 592781,
+          "value": 30688272
         },
         {
           "fund": "VANGUARD EXPLORER FUND",

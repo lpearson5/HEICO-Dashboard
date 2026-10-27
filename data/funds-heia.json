@@ -2,15 +2,15 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-10-26T17:15:09.188Z",
+  "lastUpdated": "2026-10-27T16:20:23.622Z",
   "summary": {
-    "funds": 350,
-    "totalShares": 28054299,
-    "pctOut": 33.1942,
-    "newFunds": 13,
-    "sellouts": 31,
+    "funds": 344,
+    "totalShares": 27941600,
+    "pctOut": 33.0608,
+    "newFunds": 11,
+    "sellouts": 37,
     "linkedManagers": 24,
-    "linkedShares": 23745466
+    "linkedShares": 23650455
   },
   "newHolders": [
     {
@@ -79,19 +79,6 @@
       "action": "New"
     },
     {
-      "fundName": "Franklin Systematic Style Premia ETF",
-      "registrant": "Franklin Templeton ETF Trust",
-      "manager": "Franklin Resources",
-      "cik": "1655589",
-      "shares": 1347,
-      "value": 284338,
-      "reportDate": "2026-03-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0015999999999999999,
-      "action": "New"
-    },
-    {
       "fundName": "JNL Multi-Manager Mid Cap Fund",
       "registrant": "JNL Series Trust",
       "manager": "",
@@ -128,19 +115,6 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.0009,
-      "action": "New"
-    },
-    {
-      "fundName": "BlackRock Balanced Fund, Inc.",
-      "registrant": "BlackRock Balanced Fund, Inc.",
-      "manager": "BlackRock",
-      "cik": "110055",
-      "shares": 208,
-      "value": 54040,
-      "reportDate": "2026-05-29",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.00019999999999999998,
       "action": "New"
     },
     {
@@ -220,6 +194,13 @@
       "lastReport": "2025-08-31"
     },
     {
+      "fundName": "Multi-Manager Large Cap Growth Strategies Fund",
+      "registrant": "COLUMBIA FUNDS SERIES TRUST I",
+      "manager": "Columbia (Ameriprise)",
+      "lastShares": 39319,
+      "lastReport": "2026-03-31"
+    },
+    {
       "fundName": "Invesco S&amp;P Emerging Markets Momentum ETF",
       "registrant": "Invesco Exchange-Traded Fund Trust II",
       "manager": "Invesco",
@@ -232,6 +213,13 @@
       "manager": "",
       "lastShares": 19530,
       "lastReport": "2025-12-31"
+    },
+    {
+      "fundName": "Azzad Ethical Fund",
+      "registrant": "AZZAD FUNDS",
+      "manager": "",
+      "lastShares": 13683,
+      "lastReport": "2026-03-31"
     },
     {
       "fundName": "WisdomTree U.S. Quality Dividend Growth Fund",
@@ -318,6 +306,13 @@
       "lastReport": "2025-10-31"
     },
     {
+      "fundName": "Touchstone Strategic Trust-Touchstone Dynamic Large Cap Growth Fund",
+      "registrant": "Touchstone Strategic Trust",
+      "manager": "",
+      "lastShares": 2705,
+      "lastReport": "2026-03-31"
+    },
+    {
       "fundName": "Fidelity Series Opportunistic Insights Fund",
       "registrant": "Fidelity Contrafund",
       "manager": "FMR (Fidelity)",
@@ -332,11 +327,25 @@
       "lastReport": "2025-07-31"
     },
     {
+      "fundName": "Franklin Systematic Style Premia ETF",
+      "registrant": "Franklin Templeton ETF Trust",
+      "manager": "Franklin Resources",
+      "lastShares": 1347,
+      "lastReport": "2026-03-31"
+    },
+    {
       "fundName": "AB All Market Total Return Portfolio",
       "registrant": "AB PORTFOLIOS",
       "manager": "",
       "lastShares": 1247,
       "lastReport": "2026-02-28"
+    },
+    {
+      "fundName": "Brown Advisory Mid-Cap Growth Fund",
+      "registrant": "Brown Advisory Funds",
+      "manager": "",
+      "lastShares": 782,
+      "lastReport": "2026-03-31"
     },
     {
       "fundName": "CONESTOGA MID CAP FUND",
@@ -393,6 +402,13 @@
       "manager": "BlackRock",
       "lastShares": 33,
       "lastReport": "2026-01-31"
+    },
+    {
+      "fundName": "Fidelity Enhanced U.S. All-Cap Equity ETF",
+      "registrant": "Fidelity Covington Trust",
+      "manager": "FMR (Fidelity)",
+      "lastShares": 23,
+      "lastReport": "2026-03-31"
     },
     {
       "fundName": "ARS Core Equity Portfolio ETF",
@@ -485,7 +501,7 @@
     {
       "manager": "Principal",
       "fundCount": 7,
-      "shares": 5545928,
+      "shares": 5493727,
       "funds": [
         {
           "fundName": "MidCap Fund",
@@ -493,7 +509,7 @@
         },
         {
           "fundName": "Blue Chip Fund",
-          "shares": 624385
+          "shares": 572184
         },
         {
           "fundName": "MidCap Account",
@@ -519,8 +535,8 @@
     },
     {
       "manager": "FMR (Fidelity)",
-      "fundCount": 39,
-      "shares": 4576561,
+      "fundCount": 38,
+      "shares": 4576538,
       "funds": [
         {
           "fundName": "Fidelity Magellan Fund",
@@ -667,10 +683,6 @@
           "shares": 190
         },
         {
-          "fundName": "Fidelity Enhanced U.S. All-Cap Equity ETF",
-          "shares": 23
-        },
-        {
           "fundName": "Fidelity Enhanced Mid Cap Growth ETF",
           "shares": 17
         },
@@ -683,7 +695,7 @@
     {
       "manager": "BlackRock",
       "fundCount": 39,
-      "shares": 2371101,
+      "shares": 2368980,
       "funds": [
         {
           "fundName": "iShares U.S. Aerospace &amp; Defense ETF",
@@ -746,12 +758,8 @@
           "shares": 13825
         },
         {
-          "fundName": "BlackRock Advantage Large Cap Value Fund",
-          "shares": 10924
-        },
-        {
           "fundName": "BlackRock Advantage Large Cap Growth Fund",
-          "shares": 9391
+          "shares": 9309
         },
         {
           "fundName": "Global Atlantic BlackRock Disciplined Mid Cap Growth Portfolio",
@@ -764,6 +772,10 @@
         {
           "fundName": "iShares MSCI USA Equal Weighted ETF",
           "shares": 8943
+        },
+        {
+          "fundName": "BlackRock Advantage Large Cap Value Fund",
+          "shares": 8891
         },
         {
           "fundName": "iShares Morningstar Growth ETF",
@@ -807,7 +819,7 @@
         },
         {
           "fundName": "iShares Morningstar U.S. Equity ETF",
-          "shares": 1495
+          "shares": 1489
         },
         {
           "fundName": "Global Atlantic BlackRock Disciplined Core Portfolio",
@@ -1023,16 +1035,12 @@
     },
     {
       "manager": "Columbia (Ameriprise)",
-      "fundCount": 3,
-      "shares": 159917,
+      "fundCount": 2,
+      "shares": 120598,
       "funds": [
         {
           "fundName": "CTIVP - Principal Large Cap Growth Fund",
           "shares": 119010
-        },
-        {
-          "fundName": "Multi-Manager Large Cap Growth Strategies Fund",
-          "shares": 39319
         },
         {
           "fundName": "Multi-Manager Directional Alternative Strategies Fund",
@@ -1065,8 +1073,8 @@
     },
     {
       "manager": "Franklin Resources",
-      "fundCount": 3,
-      "shares": 37161,
+      "fundCount": 2,
+      "shares": 35814,
       "funds": [
         {
           "fundName": "Franklin U.S. Mid Cap Multifactor Index ETF",
@@ -1075,10 +1083,6 @@
         {
           "fundName": "Franklin U.S. Equity Index ETF",
           "shares": 2424
-        },
-        {
-          "fundName": "Franklin Systematic Style Premia ETF",
-          "shares": 1347
         }
       ]
     },
@@ -1423,19 +1427,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Blue Chip Fund",
-      "registrant": "Principal Funds, Inc",
-      "manager": "Principal",
-      "cik": "898745",
-      "shares": 624385,
-      "value": 162221467,
-      "reportDate": "2026-05-31",
-      "priorShares": 332389,
-      "change": 291996,
-      "pctOut": 0.7388,
-      "action": "Bought"
-    },
-    {
       "fundName": "VANGUARD MID-CAP GROWTH INDEX FUND",
       "registrant": "VANGUARD INDEX FUNDS",
       "manager": "Vanguard Group",
@@ -1447,6 +1438,19 @@
       "change": 4095,
       "pctOut": 0.6873,
       "action": "Bought"
+    },
+    {
+      "fundName": "Blue Chip Fund",
+      "registrant": "Principal Funds, Inc",
+      "manager": "Principal",
+      "cik": "898745",
+      "shares": 572184,
+      "value": 139710167,
+      "reportDate": "2026-08-31",
+      "priorShares": 624385,
+      "change": -52201,
+      "pctOut": 0.677,
+      "action": "Sold"
     },
     {
       "fundName": "iShares Russell Mid-Cap Growth ETF",
@@ -2411,19 +2415,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "Multi-Manager Large Cap Growth Strategies Fund",
-      "registrant": "COLUMBIA FUNDS SERIES TRUST I",
-      "manager": "Columbia (Ameriprise)",
-      "cik": "773757",
-      "shares": 39319,
-      "value": 8299848,
-      "reportDate": "2026-03-31",
-      "priorShares": 10331,
-      "change": 28988,
-      "pctOut": 0.0465,
-      "action": "Bought"
-    },
-    {
       "fundName": "Victory Growth Fund",
       "registrant": "Victory Portfolios III",
       "manager": "",
@@ -2996,19 +2987,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Azzad Ethical Fund",
-      "registrant": "AZZAD FUNDS",
-      "manager": "",
-      "cik": "1031008",
-      "shares": 13683,
-      "value": 2888344,
-      "reportDate": "2026-03-31",
-      "priorShares": 13683,
-      "change": 0,
-      "pctOut": 0.0162,
-      "action": "No Change"
-    },
-    {
       "fundName": "Strategic Advisers U.S. Total Stock Fund",
       "registrant": "Fidelity Rutland Square Trust II",
       "manager": "FMR (Fidelity)",
@@ -3178,19 +3156,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "BlackRock Advantage Large Cap Value Fund",
-      "registrant": "BlackRock Large Cap Series Funds, Inc.",
-      "manager": "BlackRock",
-      "cik": "1097077",
-      "shares": 10924,
-      "value": 2838164,
-      "reportDate": "2026-05-29",
-      "priorShares": 10924,
-      "change": 0,
-      "pctOut": 0.012899999999999998,
-      "action": "No Change"
-    },
-    {
       "fundName": "Fidelity Trend Fund",
       "registrant": "Fidelity Trend Fund",
       "manager": "FMR (Fidelity)",
@@ -3234,13 +3199,13 @@
       "registrant": "BlackRock Funds",
       "manager": "BlackRock",
       "cik": "844779",
-      "shares": 9391,
-      "value": 2439876,
-      "reportDate": "2026-05-29",
+      "shares": 9309,
+      "value": 2272979,
+      "reportDate": "2026-08-31",
       "priorShares": 9391,
-      "change": 0,
-      "pctOut": 0.0111,
-      "action": "No Change"
+      "change": -82,
+      "pctOut": 0.011000000000000001,
+      "action": "Sold"
     },
     {
       "fundName": "Global Atlantic BlackRock Disciplined Mid Cap Growth Portfolio",
@@ -3293,6 +3258,19 @@
       "change": 2056,
       "pctOut": 0.0106,
       "action": "Bought"
+    },
+    {
+      "fundName": "BlackRock Advantage Large Cap Value Fund",
+      "registrant": "BlackRock Large Cap Series Funds, Inc.",
+      "manager": "BlackRock",
+      "cik": "1097077",
+      "shares": 8891,
+      "value": 2170915,
+      "reportDate": "2026-08-31",
+      "priorShares": 10924,
+      "change": -2033,
+      "pctOut": 0.0105,
+      "action": "Sold"
     },
     {
       "fundName": "JNL/Mellon Industrials Sector Fund",
@@ -3919,19 +3897,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Touchstone Strategic Trust-Touchstone Dynamic Large Cap Growth Fund",
-      "registrant": "Touchstone Strategic Trust",
-      "manager": "",
-      "cik": "711080",
-      "shares": 2705,
-      "value": 570998,
-      "reportDate": "2026-03-31",
-      "priorShares": 232,
-      "change": 2473,
-      "pctOut": 0.0031999999999999997,
-      "action": "Bought"
-    },
-    {
       "fundName": "VANGUARD TAX-MANAGED CAPITAL APPRECIATION FUND",
       "registrant": "VANGUARD TAX-MANAGED FUNDS",
       "manager": "Vanguard Group",
@@ -4047,19 +4012,6 @@
       "change": -72,
       "pctOut": 0.0028,
       "action": "Sold"
-    },
-    {
-      "fundName": "Federated Hermes Global Allocation Fund",
-      "registrant": "Federated Hermes Global Allocation Fund",
-      "manager": "",
-      "cik": "13386",
-      "shares": 2350,
-      "value": 610554,
-      "reportDate": "2026-05-31",
-      "priorShares": 2314,
-      "change": 36,
-      "pctOut": 0.0028,
-      "action": "Bought"
     },
     {
       "fundName": "Barrons 400 ETF",
@@ -4244,6 +4196,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Federated Hermes Global Allocation Fund",
+      "registrant": "Federated Hermes Global Allocation Fund",
+      "manager": "",
+      "cik": "13386",
+      "shares": 1832,
+      "value": 447319,
+      "reportDate": "2026-08-31",
+      "priorShares": 2350,
+      "change": -518,
+      "pctOut": 0.0022,
+      "action": "Sold"
+    },
+    {
       "fundName": "Global Atlantic BlackRock Disciplined Value Portfolio",
       "registrant": "Forethought Variable Insurance Trust",
       "manager": "BlackRock",
@@ -4365,13 +4330,13 @@
       "registrant": "iShares Trust",
       "manager": "BlackRock",
       "cik": "1100663",
-      "shares": 1495,
-      "value": 384634,
-      "reportDate": "2026-07-31",
+      "shares": 1489,
+      "value": 363569,
+      "reportDate": "2026-08-31",
       "priorShares": 1495,
-      "change": 0,
+      "change": -6,
       "pctOut": 0.0018,
-      "action": "No Change"
+      "action": "Sold"
     },
     {
       "fundName": "TIAA Separate Account VA-1 - Stock Index Account",
@@ -4437,19 +4402,6 @@
       "change": 0,
       "pctOut": 0.0015999999999999999,
       "action": "No Change"
-    },
-    {
-      "fundName": "Franklin Systematic Style Premia ETF",
-      "registrant": "Franklin Templeton ETF Trust",
-      "manager": "Franklin Resources",
-      "cik": "1655589",
-      "shares": 1347,
-      "value": 284338,
-      "reportDate": "2026-03-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0015999999999999999,
-      "action": "New"
     },
     {
       "fundName": "The Institutional U.S. Equity Portfolio",
@@ -4775,19 +4727,6 @@
       "change": 0,
       "pctOut": 0.001,
       "action": "No Change"
-    },
-    {
-      "fundName": "Brown Advisory Mid-Cap Growth Fund",
-      "registrant": "Brown Advisory Funds",
-      "manager": "",
-      "cik": "1548609",
-      "shares": 782,
-      "value": 165072,
-      "reportDate": "2026-03-31",
-      "priorShares": 3033,
-      "change": -2251,
-      "pctOut": 0.0009,
-      "action": "Sold"
     },
     {
       "fundName": "Alger Concentrated Equity Fund",
@@ -5380,12 +5319,12 @@
       "manager": "BlackRock",
       "cik": "110055",
       "shares": 208,
-      "value": 54040,
-      "reportDate": "2026-05-29",
-      "priorShares": null,
-      "change": null,
+      "value": 50787,
+      "reportDate": "2026-08-31",
+      "priorShares": 208,
+      "change": 0,
       "pctOut": 0.00019999999999999998,
-      "action": "New"
+      "action": "No Change"
     },
     {
       "fundName": "E*TRADE No Fee Large Cap Index Fund",
@@ -5685,19 +5624,6 @@
       "change": -1,
       "pctOut": 0,
       "action": "Sold"
-    },
-    {
-      "fundName": "Fidelity Enhanced U.S. All-Cap Equity ETF",
-      "registrant": "Fidelity Covington Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "945908",
-      "shares": 23,
-      "value": 4855,
-      "reportDate": "2026-03-31",
-      "priorShares": 18,
-      "change": 5,
-      "pctOut": 0,
-      "action": "Bought"
     },
     {
       "fundName": "State Street(R) SPDR(R) Russell 1000 Momentum Focus ETF",
