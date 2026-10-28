@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-10-27T16:20:23.622Z",
+  "lastUpdated": "2026-10-28T17:05:18.071Z",
   "summary": {
-    "funds": 426,
-    "totalShares": 19497227,
-    "pctOut": 35.294399999999996,
+    "funds": 427,
+    "totalShares": 19571510,
+    "pctOut": 35.4289,
     "newFunds": 54,
     "sellouts": 55,
-    "linkedManagers": 24,
-    "linkedShares": 16740880
+    "linkedManagers": 25,
+    "linkedShares": 16808186
   },
   "newHolders": [
     {
@@ -154,6 +154,19 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.049600000000000005,
+      "action": "New"
+    },
+    {
+      "fundName": "Lord Abbett Growth Opportunities Fund",
+      "registrant": "LORD ABBETT RESEARCH FUND INC",
+      "manager": "Lord Abbett",
+      "cik": "887194",
+      "shares": 23326,
+      "value": 7724405,
+      "reportDate": "2026-08-31",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0422,
       "action": "New"
     },
     {
@@ -492,19 +505,6 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.005399999999999999,
-      "action": "New"
-    },
-    {
-      "fundName": "Systematic Growth Fund",
-      "registrant": "VALIC Co I",
-      "manager": "",
-      "cik": "719423",
-      "shares": 2124,
-      "value": 739534,
-      "reportDate": "2026-05-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0038000000000000004,
       "action": "New"
     },
     {
@@ -1107,7 +1107,7 @@
     {
       "manager": "Capital Group (American Funds)",
       "fundCount": 10,
-      "shares": 3999966,
+      "shares": 4004026,
       "funds": [
         {
           "fundName": "Growth Fund of America",
@@ -1130,12 +1130,12 @@
           "shares": 131544
         },
         {
-          "fundName": "Washington Mutual Investors Fund",
-          "shares": 42664
+          "fundName": "Capital Group Global Equity ETF",
+          "shares": 43035
         },
         {
-          "fundName": "Capital Group Global Equity ETF",
-          "shares": 38975
+          "fundName": "Washington Mutual Investors Fund",
+          "shares": 42664
         },
         {
           "fundName": "American Funds U.S. Small &amp; Mid Cap Equity Fund",
@@ -1858,7 +1858,7 @@
     {
       "manager": "Morgan Stanley",
       "fundCount": 19,
-      "shares": 254726,
+      "shares": 254720,
       "funds": [
         {
           "fundName": "Eaton Vance Tax-Managed Diversified Equity Income Fund",
@@ -1910,7 +1910,7 @@
         },
         {
           "fundName": "Morgan Stanley Pathway Large Cap Equity ETF",
-          "shares": 1618
+          "shares": 1612
         },
         {
           "fundName": "Calvert US Mid-Cap Core Responsible Index ETF",
@@ -1941,7 +1941,7 @@
     {
       "manager": "Voya",
       "fundCount": 11,
-      "shares": 224667,
+      "shares": 232722,
       "funds": [
         {
           "fundName": "Voya Large Cap Growth Portfolio",
@@ -1953,11 +1953,11 @@
         },
         {
           "fundName": "VOYA MIDCAP OPPORTUNITIES FUND",
-          "shares": 30987
+          "shares": 41410
         },
         {
           "fundName": "VOYA LARGE-CAP GROWTH FUND",
-          "shares": 22309
+          "shares": 19945
         },
         {
           "fundName": "VOYA INDEX PLUS LARGECAP PORTFOLIO",
@@ -1985,7 +1985,7 @@
         },
         {
           "fundName": "Voya VACS Series LCC Fund",
-          "shares": 48
+          "shares": 44
         }
       ]
     },
@@ -2128,19 +2128,19 @@
     {
       "manager": "Neuberger Berman",
       "fundCount": 3,
-      "shares": 79896,
+      "shares": 112584,
       "funds": [
         {
           "fundName": "Neuberger Mid Cap Growth Fund",
-          "shares": 61325
+          "shares": 81311
+        },
+        {
+          "fundName": "Neuberger Disrupters ETF",
+          "shares": 15773
         },
         {
           "fundName": "Mid Cap Growth Portfolio",
           "shares": 15500
-        },
-        {
-          "fundName": "Neuberger Disrupters ETF",
-          "shares": 3071
         }
       ]
     },
@@ -2230,6 +2230,17 @@
       ]
     },
     {
+      "manager": "Lord Abbett",
+      "fundCount": 1,
+      "shares": 23326,
+      "funds": [
+        {
+          "fundName": "Lord Abbett Growth Opportunities Fund",
+          "shares": 23326
+        }
+      ]
+    },
+    {
       "manager": "JPMorgan",
       "fundCount": 2,
       "shares": 22194,
@@ -2262,23 +2273,23 @@
     {
       "manager": "Goldman Sachs",
       "fundCount": 5,
-      "shares": 15459,
+      "shares": 14642,
       "funds": [
         {
           "fundName": "Goldman Sachs Equal Weight U.S. Large Cap Equity ETF",
-          "shares": 12011
+          "shares": 11276
         },
         {
           "fundName": "Goldman Sachs MarketBeta U.S. 1000 Equity ETF",
-          "shares": 1411
-        },
-        {
-          "fundName": "Goldman Sachs MarketBeta(R) Russell 1000 Growth Equity ETF",
-          "shares": 757
+          "shares": 1395
         },
         {
           "fundName": "Goldman Sachs Multi-Manager Global Equity Fund",
           "shares": 695
+        },
+        {
+          "fundName": "Goldman Sachs MarketBeta(R) Russell 1000 Growth Equity ETF",
+          "shares": 691
         },
         {
           "fundName": "Goldman Sachs Absolute Return Tracker Fund",
@@ -2922,6 +2933,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Neuberger Mid Cap Growth Fund",
+      "registrant": "NEUBERGER BERMAN EQUITY FUNDS",
+      "manager": "Neuberger Berman",
+      "cik": "44402",
+      "shares": 81311,
+      "value": 26926138,
+      "reportDate": "2026-08-31",
+      "priorShares": 61325,
+      "change": 19986,
+      "pctOut": 0.1472,
+      "action": "Bought"
+    },
+    {
       "fundName": "Fidelity Enhanced Mid Cap Core ETF",
       "registrant": "Fidelity Covington Trust",
       "manager": "FMR (Fidelity)",
@@ -3023,19 +3047,6 @@
       "priorShares": 68812,
       "change": -5237,
       "pctOut": 0.1151,
-      "action": "Sold"
-    },
-    {
-      "fundName": "Neuberger Mid Cap Growth Fund",
-      "registrant": "NEUBERGER BERMAN EQUITY FUNDS",
-      "manager": "Neuberger Berman",
-      "cik": "44402",
-      "shares": 61325,
-      "value": 21352139,
-      "reportDate": "2026-05-31",
-      "priorShares": 81933,
-      "change": -20608,
-      "pctOut": 0.11100000000000002,
       "action": "Sold"
     },
     {
@@ -3234,6 +3245,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Capital Group Global Equity ETF",
+      "registrant": "Capital Group Global Equity ETF",
+      "manager": "Capital Group (American Funds)",
+      "cik": "2008374",
+      "shares": 43035,
+      "value": 14251040,
+      "reportDate": "2026-08-31",
+      "priorShares": 38975,
+      "change": 4060,
+      "pctOut": 0.0779,
+      "action": "Bought"
+    },
+    {
       "fundName": "Washington Mutual Investors Fund",
       "registrant": "AMERICAN FUNDS INSURANCE SERIES",
       "manager": "Capital Group (American Funds)",
@@ -3245,6 +3269,19 @@
       "change": -1822,
       "pctOut": 0.0772,
       "action": "Sold"
+    },
+    {
+      "fundName": "VOYA MIDCAP OPPORTUNITIES FUND",
+      "registrant": "Voya Equity Trust",
+      "manager": "Voya",
+      "cik": "1063946",
+      "shares": 41410,
+      "value": 13712922,
+      "reportDate": "2026-08-31",
+      "priorShares": 30987,
+      "change": 10423,
+      "pctOut": 0.075,
+      "action": "Bought"
     },
     {
       "fundName": "VIP International Capital Appreciation Portfolio",
@@ -3283,19 +3320,6 @@
       "priorShares": 50519,
       "change": -11402,
       "pctOut": 0.0708,
-      "action": "Sold"
-    },
-    {
-      "fundName": "Capital Group Global Equity ETF",
-      "registrant": "Capital Group Global Equity ETF",
-      "manager": "Capital Group (American Funds)",
-      "cik": "2008374",
-      "shares": 38975,
-      "value": 13570316,
-      "reportDate": "2026-05-31",
-      "priorShares": 44002,
-      "change": -5027,
-      "pctOut": 0.0706,
       "action": "Sold"
     },
     {
@@ -3342,12 +3366,12 @@
       "registrant": "VALIC Co I",
       "manager": "",
       "cik": "719423",
-      "shares": 37656,
-      "value": 13111066,
-      "reportDate": "2026-05-31",
-      "priorShares": 38531,
-      "change": -875,
-      "pctOut": 0.0682,
+      "shares": 37501,
+      "value": 12418456,
+      "reportDate": "2026-08-31",
+      "priorShares": 37656,
+      "change": -155,
+      "pctOut": 0.0679,
       "action": "Sold"
     },
     {
@@ -3414,19 +3438,6 @@
       "change": 2028,
       "pctOut": 0.0582,
       "action": "Bought"
-    },
-    {
-      "fundName": "VOYA MIDCAP OPPORTUNITIES FUND",
-      "registrant": "Voya Equity Trust",
-      "manager": "Voya",
-      "cik": "1063946",
-      "shares": 30987,
-      "value": 10789054,
-      "reportDate": "2026-05-31",
-      "priorShares": 38772,
-      "change": -7785,
-      "pctOut": 0.0561,
-      "action": "Sold"
     },
     {
       "fundName": "Schwab 1000 Index Fund",
@@ -3702,6 +3713,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Lord Abbett Growth Opportunities Fund",
+      "registrant": "LORD ABBETT RESEARCH FUND INC",
+      "manager": "Lord Abbett",
+      "cik": "887194",
+      "shares": 23326,
+      "value": 7724405,
+      "reportDate": "2026-08-31",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0422,
+      "action": "New"
+    },
+    {
       "fundName": "Fidelity ZERO Total Market Index Fund",
       "registrant": "Fidelity Concord Street Trust",
       "manager": "FMR (Fidelity)",
@@ -3726,19 +3750,6 @@
       "change": 1596,
       "pctOut": 0.041100000000000005,
       "action": "Bought"
-    },
-    {
-      "fundName": "VOYA LARGE-CAP GROWTH FUND",
-      "registrant": "Voya Equity Trust",
-      "manager": "Voya",
-      "cik": "1063946",
-      "shares": 22309,
-      "value": 7767548,
-      "reportDate": "2026-05-31",
-      "priorShares": 28263,
-      "change": -5954,
-      "pctOut": 0.0404,
-      "action": "Sold"
     },
     {
       "fundName": "Six Circles Managed Equity Portfolio U.S. Unconstrained Fund",
@@ -3804,6 +3815,19 @@
       "change": 13911,
       "pctOut": 0.038200000000000005,
       "action": "Bought"
+    },
+    {
+      "fundName": "VOYA LARGE-CAP GROWTH FUND",
+      "registrant": "Voya Equity Trust",
+      "manager": "Voya",
+      "cik": "1063946",
+      "shares": 19945,
+      "value": 6604787,
+      "reportDate": "2026-08-31",
+      "priorShares": 22309,
+      "change": -2364,
+      "pctOut": 0.0361,
+      "action": "Sold"
     },
     {
       "fundName": "Schwab U.S. Mid-Cap Index Fund",
@@ -4053,6 +4077,19 @@
       "action": "New"
     },
     {
+      "fundName": "Neuberger Disrupters ETF",
+      "registrant": "Neuberger Berman ETF Trust",
+      "manager": "Neuberger Berman",
+      "cik": "1506001",
+      "shares": 15773,
+      "value": 5223229,
+      "reportDate": "2026-08-31",
+      "priorShares": 3071,
+      "change": 12702,
+      "pctOut": 0.0286,
+      "action": "Bought"
+    },
+    {
       "fundName": "John Hancock Multifactor Mid Cap ETF",
       "registrant": "John Hancock Exchange-Traded Fund Trust",
       "manager": "John Hancock",
@@ -4261,19 +4298,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Goldman Sachs Equal Weight U.S. Large Cap Equity ETF",
-      "registrant": "Goldman Sachs ETF Trust",
-      "manager": "Goldman Sachs",
-      "cik": "1479026",
-      "shares": 12011,
-      "value": 4181990,
-      "reportDate": "2026-05-31",
-      "priorShares": 9852,
-      "change": 2159,
-      "pctOut": 0.0217,
-      "action": "Bought"
-    },
-    {
       "fundName": "T. Rowe Price Growth ETF",
       "registrant": "T. Rowe Price Exchange-Traded Funds, Inc.",
       "manager": "T. Rowe Price",
@@ -4348,6 +4372,19 @@
       "reportDate": "2026-07-31",
       "priorShares": 12127,
       "change": -839,
+      "pctOut": 0.0204,
+      "action": "Sold"
+    },
+    {
+      "fundName": "Goldman Sachs Equal Weight U.S. Large Cap Equity ETF",
+      "registrant": "Goldman Sachs ETF Trust",
+      "manager": "Goldman Sachs",
+      "cik": "1479026",
+      "shares": 11276,
+      "value": 3734047,
+      "reportDate": "2026-08-31",
+      "priorShares": 12011,
+      "change": -735,
       "pctOut": 0.0204,
       "action": "Sold"
     },
@@ -4532,6 +4569,19 @@
       "change": -5763,
       "pctOut": 0.0169,
       "action": "Sold"
+    },
+    {
+      "fundName": "Systematic Growth Fund",
+      "registrant": "VALIC Co I",
+      "manager": "",
+      "cik": "719423",
+      "shares": 9275,
+      "value": 3071416,
+      "reportDate": "2026-08-31",
+      "priorShares": 2124,
+      "change": 7151,
+      "pctOut": 0.0168,
+      "action": "Bought"
     },
     {
       "fundName": "Tax-Managed U.S. Mid &amp; Small Cap Fund",
@@ -5509,19 +5559,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Neuberger Disrupters ETF",
-      "registrant": "Neuberger Berman ETF Trust",
-      "manager": "Neuberger Berman",
-      "cik": "1506001",
-      "shares": 3071,
-      "value": 1069261,
-      "reportDate": "2026-05-31",
-      "priorShares": 2984,
-      "change": 87,
-      "pctOut": 0.0056,
-      "action": "Bought"
-    },
-    {
       "fundName": "LVIP American Century Select Mid Cap Managed Volatility Fund",
       "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
       "manager": "FMR (Fidelity)",
@@ -5735,8 +5772,8 @@
       "manager": "Voya",
       "cik": "1417802",
       "shares": 2220,
-      "value": 772960,
-      "reportDate": "2026-05-31",
+      "value": 735153,
+      "reportDate": "2026-08-31",
       "priorShares": 2220,
       "change": 0,
       "pctOut": 0.004,
@@ -5754,19 +5791,6 @@
       "change": 83,
       "pctOut": 0.004,
       "action": "Bought"
-    },
-    {
-      "fundName": "Systematic Growth Fund",
-      "registrant": "VALIC Co I",
-      "manager": "",
-      "cik": "719423",
-      "shares": 2124,
-      "value": 739534,
-      "reportDate": "2026-05-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0038000000000000004,
-      "action": "New"
     },
     {
       "fundName": "T. Rowe Price Spectrum Moderate Allocation Fund",
@@ -5942,13 +5966,13 @@
       "registrant": "MORGAN STANLEY PATHWAY FUNDS",
       "manager": "Morgan Stanley",
       "cik": "875186",
-      "shares": 1618,
-      "value": 563355,
-      "reportDate": "2026-05-31",
-      "priorShares": 1584,
-      "change": 34,
+      "shares": 1612,
+      "value": 533814,
+      "reportDate": "2026-08-31",
+      "priorShares": 1618,
+      "change": -6,
       "pctOut": 0.0029,
-      "action": "Bought"
+      "action": "Sold"
     },
     {
       "fundName": "Strategic Allocation: Aggressive Fund",
@@ -6042,19 +6066,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Goldman Sachs MarketBeta U.S. 1000 Equity ETF",
-      "registrant": "Goldman Sachs ETF Trust II",
-      "manager": "Goldman Sachs",
-      "cik": "1882879",
-      "shares": 1411,
-      "value": 491282,
-      "reportDate": "2026-05-31",
-      "priorShares": 1405,
-      "change": 6,
-      "pctOut": 0.0026,
-      "action": "Bought"
-    },
-    {
       "fundName": "1290 VT SmartBeta Equity ESG Portfolio",
       "registrant": "EQ Advisors Trust",
       "manager": "",
@@ -6066,6 +6077,19 @@
       "change": 0,
       "pctOut": 0.0026,
       "action": "No Change"
+    },
+    {
+      "fundName": "Goldman Sachs MarketBeta U.S. 1000 Equity ETF",
+      "registrant": "Goldman Sachs ETF Trust II",
+      "manager": "Goldman Sachs",
+      "cik": "1882879",
+      "shares": 1395,
+      "value": 461954,
+      "reportDate": "2026-08-31",
+      "priorShares": 1411,
+      "change": -16,
+      "pctOut": 0.0025,
+      "action": "Sold"
     },
     {
       "fundName": "PD Large-Cap Growth Index Portfolio",
@@ -6515,8 +6539,8 @@
       "manager": "",
       "cik": "1688680",
       "shares": 842,
-      "value": 293168,
-      "reportDate": "2026-05-31",
+      "value": 278828,
+      "reportDate": "2026-08-31",
       "priorShares": 842,
       "change": 0,
       "pctOut": 0.0015,
@@ -6627,19 +6651,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Goldman Sachs MarketBeta(R) Russell 1000 Growth Equity ETF",
-      "registrant": "Goldman Sachs ETF Trust",
-      "manager": "Goldman Sachs",
-      "cik": "1479026",
-      "shares": 757,
-      "value": 263572,
-      "reportDate": "2026-05-31",
-      "priorShares": 709,
-      "change": 48,
-      "pctOut": 0.0014,
-      "action": "Bought"
-    },
-    {
       "fundName": "Point Bridge America First ETF",
       "registrant": "ETF Series Solutions",
       "manager": "",
@@ -6703,6 +6714,19 @@
       "change": null,
       "pctOut": 0.0013,
       "action": "New"
+    },
+    {
+      "fundName": "Goldman Sachs MarketBeta(R) Russell 1000 Growth Equity ETF",
+      "registrant": "Goldman Sachs ETF Trust",
+      "manager": "Goldman Sachs",
+      "cik": "1479026",
+      "shares": 691,
+      "value": 228825,
+      "reportDate": "2026-08-31",
+      "priorShares": 757,
+      "change": -66,
+      "pctOut": 0.0013,
+      "action": "Sold"
     },
     {
       "fundName": "WisdomTree U.S. LargeCap Fund",
@@ -6874,19 +6898,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Growth Fund",
-      "registrant": "VALIC Co I",
-      "manager": "",
-      "cik": "719423",
-      "shares": 517,
-      "value": 180009,
-      "reportDate": "2026-05-31",
-      "priorShares": 643,
-      "change": -126,
-      "pctOut": 0.0009,
-      "action": "Sold"
-    },
-    {
       "fundName": "Symmetry Panoramic Global Equity Fund",
       "registrant": "Symmetry Panoramic Trust",
       "manager": "",
@@ -6898,6 +6909,19 @@
       "change": 0,
       "pctOut": 0.0009,
       "action": "No Change"
+    },
+    {
+      "fundName": "Growth Fund",
+      "registrant": "VALIC Co I",
+      "manager": "",
+      "cik": "719423",
+      "shares": 484,
+      "value": 160277,
+      "reportDate": "2026-08-31",
+      "priorShares": 517,
+      "change": -33,
+      "pctOut": 0.0009,
+      "action": "Sold"
     },
     {
       "fundName": "Wilmington Large-Cap Strategy Fund",
@@ -7121,6 +7145,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Destinations Small-Mid Cap Equity Fund",
+      "registrant": "Brinker Capital Destinations Trust",
+      "manager": "",
+      "cik": "1688680",
+      "shares": 251,
+      "value": 83119,
+      "reportDate": "2026-08-31",
+      "priorShares": 237,
+      "change": 14,
+      "pctOut": 0.0005,
+      "action": "Bought"
+    },
+    {
       "fundName": "Knights of Columbus U.S. ALL CAP INDEX FUND",
       "registrant": "ADVISORS' INNER CIRCLE III",
       "manager": "",
@@ -7132,19 +7169,6 @@
       "change": 5,
       "pctOut": 0.00039999999999999996,
       "action": "Bought"
-    },
-    {
-      "fundName": "Destinations Small-Mid Cap Equity Fund",
-      "registrant": "Brinker Capital Destinations Trust",
-      "manager": "",
-      "cik": "1688680",
-      "shares": 237,
-      "value": 82519,
-      "reportDate": "2026-05-31",
-      "priorShares": 237,
-      "change": 0,
-      "pctOut": 0.00039999999999999996,
-      "action": "No Change"
     },
     {
       "fundName": "Simplify Next Intangible Core Index ETF",
@@ -7602,19 +7626,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "Voya VACS Series LCC Fund",
-      "registrant": "Voya Equity Trust",
-      "manager": "Voya",
-      "cik": "1063946",
-      "shares": 48,
-      "value": 16713,
-      "reportDate": "2026-05-31",
-      "priorShares": 52,
-      "change": -4,
-      "pctOut": 0.00009999999999999999,
-      "action": "Sold"
-    },
-    {
       "fundName": "VIP Hedged Equity Portfolio",
       "registrant": "Variable Insurance Products Fund VI",
       "manager": "FMR (Fidelity)",
@@ -7626,6 +7637,19 @@
       "change": 0,
       "pctOut": 0.00009999999999999999,
       "action": "No Change"
+    },
+    {
+      "fundName": "Voya VACS Series LCC Fund",
+      "registrant": "Voya Equity Trust",
+      "manager": "Voya",
+      "cik": "1063946",
+      "shares": 44,
+      "value": 14571,
+      "reportDate": "2026-08-31",
+      "priorShares": 48,
+      "change": -4,
+      "pctOut": 0.00009999999999999999,
+      "action": "Sold"
     },
     {
       "fundName": "The Catholic SRI Growth Portfolio",

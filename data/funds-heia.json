@@ -2,15 +2,15 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-10-27T16:20:23.622Z",
+  "lastUpdated": "2026-10-28T17:05:18.071Z",
   "summary": {
     "funds": 344,
-    "totalShares": 27941600,
-    "pctOut": 33.0608,
+    "totalShares": 27947673,
+    "pctOut": 33.068,
     "newFunds": 11,
     "sellouts": 37,
     "linkedManagers": 24,
-    "linkedShares": 23650455
+    "linkedShares": 23658129
   },
   "newHolders": [
     {
@@ -1051,7 +1051,7 @@
     {
       "manager": "Goldman Sachs",
       "fundCount": 4,
-      "shares": 104956,
+      "shares": 104831,
       "funds": [
         {
           "fundName": "Goldman Sachs U.S. Tax-Managed Equity Fund",
@@ -1059,7 +1059,7 @@
         },
         {
           "fundName": "Goldman Sachs MarketBeta U.S. 1000 Equity ETF",
-          "shares": 2595
+          "shares": 2572
         },
         {
           "fundName": "Goldman Sachs Absolute Return Tracker Fund",
@@ -1067,7 +1067,7 @@
         },
         {
           "fundName": "Goldman Sachs MarketBeta(R) Russell 1000 Growth Equity ETF",
-          "shares": 1326
+          "shares": 1224
         }
       ]
     },
@@ -1083,6 +1083,41 @@
         {
           "fundName": "Franklin U.S. Equity Index ETF",
           "shares": 2424
+        }
+      ]
+    },
+    {
+      "manager": "Morgan Stanley",
+      "fundCount": 7,
+      "shares": 34419,
+      "funds": [
+        {
+          "fundName": "Morgan Stanley Pathway Large Cap Equity ETF",
+          "shares": 33114
+        },
+        {
+          "fundName": "Parametric Hedged Equity ETF",
+          "shares": 532
+        },
+        {
+          "fundName": "Transamerica Morgan Stanley Global Allocation VP",
+          "shares": 329
+        },
+        {
+          "fundName": "Global Strategist Portfolio",
+          "shares": 239
+        },
+        {
+          "fundName": "Parametric Equity Plus ETF",
+          "shares": 159
+        },
+        {
+          "fundName": "Global Strategist Portfolio",
+          "shares": 32
+        },
+        {
+          "fundName": "Permanence Portfolio",
+          "shares": 14
         }
       ]
     },
@@ -1156,41 +1191,6 @@
         {
           "fundName": "State Street(R) SPDR(R) MSCI World StrategicFactors(SM) ETF",
           "shares": 20
-        }
-      ]
-    },
-    {
-      "manager": "Morgan Stanley",
-      "fundCount": 7,
-      "shares": 26620,
-      "funds": [
-        {
-          "fundName": "Morgan Stanley Pathway Large Cap Equity ETF",
-          "shares": 25315
-        },
-        {
-          "fundName": "Parametric Hedged Equity ETF",
-          "shares": 532
-        },
-        {
-          "fundName": "Transamerica Morgan Stanley Global Allocation VP",
-          "shares": 329
-        },
-        {
-          "fundName": "Global Strategist Portfolio",
-          "shares": 239
-        },
-        {
-          "fundName": "Parametric Equity Plus ETF",
-          "shares": 159
-        },
-        {
-          "fundName": "Global Strategist Portfolio",
-          "shares": 32
-        },
-        {
-          "fundName": "Permanence Portfolio",
-          "shares": 14
         }
       ]
     },
@@ -2506,6 +2506,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Morgan Stanley Pathway Large Cap Equity ETF",
+      "registrant": "MORGAN STANLEY PATHWAY FUNDS",
+      "manager": "Morgan Stanley",
+      "cik": "875186",
+      "shares": 33114,
+      "value": 8085445,
+      "reportDate": "2026-08-31",
+      "priorShares": 25315,
+      "change": 7799,
+      "pctOut": 0.0392,
+      "action": "Bought"
+    },
+    {
       "fundName": "Weitz Large Cap Equity Fund",
       "registrant": "Weitz Funds",
       "manager": "",
@@ -2608,19 +2621,6 @@
       "change": 0,
       "pctOut": 0.0302,
       "action": "No Change"
-    },
-    {
-      "fundName": "Morgan Stanley Pathway Large Cap Equity ETF",
-      "registrant": "MORGAN STANLEY PATHWAY FUNDS",
-      "manager": "Morgan Stanley",
-      "cik": "875186",
-      "shares": 25315,
-      "value": 6577090,
-      "reportDate": "2026-05-31",
-      "priorShares": 15611,
-      "change": 9704,
-      "pctOut": 0.03,
-      "action": "Bought"
     },
     {
       "fundName": "Fidelity MSCI Industrials Index ETF",
@@ -3914,24 +3914,11 @@
       "registrant": "Goldman Sachs ETF Trust II",
       "manager": "Goldman Sachs",
       "cik": "1882879",
-      "shares": 2595,
-      "value": 674207,
-      "reportDate": "2026-05-31",
-      "priorShares": 2583,
-      "change": 12,
-      "pctOut": 0.0031000000000000003,
-      "action": "Bought"
-    },
-    {
-      "fundName": "Systematic Growth Fund",
-      "registrant": "VALIC Co I",
-      "manager": "",
-      "cik": "719423",
-      "shares": 2552,
-      "value": 663035,
-      "reportDate": "2026-05-31",
-      "priorShares": 3306,
-      "change": -754,
+      "shares": 2572,
+      "value": 628005,
+      "reportDate": "2026-08-31",
+      "priorShares": 2595,
+      "change": -23,
       "pctOut": 0.003,
       "action": "Sold"
     },
@@ -4443,19 +4430,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Goldman Sachs MarketBeta(R) Russell 1000 Growth Equity ETF",
-      "registrant": "Goldman Sachs ETF Trust",
-      "manager": "Goldman Sachs",
-      "cik": "1479026",
-      "shares": 1326,
-      "value": 344508,
-      "reportDate": "2026-05-31",
-      "priorShares": 1246,
-      "change": 80,
-      "pctOut": 0.0015999999999999999,
-      "action": "Bought"
-    },
-    {
       "fundName": "JNL Multi-Manager Mid Cap Fund",
       "registrant": "JNL Series Trust",
       "manager": "",
@@ -4560,6 +4534,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Goldman Sachs MarketBeta(R) Russell 1000 Growth Equity ETF",
+      "registrant": "Goldman Sachs ETF Trust",
+      "manager": "Goldman Sachs",
+      "cik": "1479026",
+      "shares": 1224,
+      "value": 298864,
+      "reportDate": "2026-08-31",
+      "priorShares": 1326,
+      "change": -102,
+      "pctOut": 0.0014,
+      "action": "Sold"
+    },
+    {
       "fundName": "WisdomTree U.S. Total Dividend Fund",
       "registrant": "WisdomTree Trust",
       "manager": "WisdomTree",
@@ -4596,6 +4583,19 @@
       "priorShares": 1280,
       "change": -204,
       "pctOut": 0.0013,
+      "action": "Sold"
+    },
+    {
+      "fundName": "Systematic Growth Fund",
+      "registrant": "VALIC Co I",
+      "manager": "",
+      "cik": "719423",
+      "shares": 1002,
+      "value": 244658,
+      "reportDate": "2026-08-31",
+      "priorShares": 2552,
+      "change": -1550,
+      "pctOut": 0.0012000000000000001,
       "action": "Sold"
     },
     {
@@ -4651,19 +4651,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Growth Fund",
-      "registrant": "VALIC Co I",
-      "manager": "",
-      "cik": "719423",
-      "shares": 909,
-      "value": 236167,
-      "reportDate": "2026-05-31",
-      "priorShares": 1161,
-      "change": -252,
-      "pctOut": 0.0011,
-      "action": "Sold"
-    },
-    {
       "fundName": "THRIVENT MODERATELY AGGRESSIVE ALLOCATION FUND",
       "registrant": "Thrivent Mutual Funds",
       "manager": "",
@@ -4701,6 +4688,19 @@
       "change": 0,
       "pctOut": 0.001,
       "action": "No Change"
+    },
+    {
+      "fundName": "Growth Fund",
+      "registrant": "VALIC Co I",
+      "manager": "",
+      "cik": "719423",
+      "shares": 813,
+      "value": 198510,
+      "reportDate": "2026-08-31",
+      "priorShares": 909,
+      "change": -96,
+      "pctOut": 0.001,
+      "action": "Sold"
     },
     {
       "fundName": "BlackRock Advantage Large Cap Value V.I. Fund",
@@ -4937,6 +4937,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Destinations Small-Mid Cap Equity Fund",
+      "registrant": "Brinker Capital Destinations Trust",
+      "manager": "",
+      "cik": "1688680",
+      "shares": 456,
+      "value": 111342,
+      "reportDate": "2026-08-31",
+      "priorShares": 411,
+      "change": 45,
+      "pctOut": 0.0005,
+      "action": "Bought"
+    },
+    {
       "fundName": "SA U.S. Core Market Fund",
       "registrant": "SA FUNDS INVESTMENT TRUST",
       "manager": "",
@@ -5000,19 +5013,6 @@
       "change": 11,
       "pctOut": 0.0005,
       "action": "Bought"
-    },
-    {
-      "fundName": "Destinations Small-Mid Cap Equity Fund",
-      "registrant": "Brinker Capital Destinations Trust",
-      "manager": "",
-      "cik": "1688680",
-      "shares": 411,
-      "value": 106782,
-      "reportDate": "2026-05-31",
-      "priorShares": 411,
-      "change": 0,
-      "pctOut": 0.0005,
-      "action": "No Change"
     },
     {
       "fundName": "Symmetry Panoramic US Equity Fund",

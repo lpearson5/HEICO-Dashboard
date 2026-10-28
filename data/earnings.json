@@ -1,20 +1,6 @@
 {
-  "asOf": "2026-10-27T16:38:42.211Z",
+  "asOf": "2026-10-28T17:22:46.305Z",
   "companies": [
-    {
-      "sym": "BA",
-      "name": "Boeing",
-      "main": false,
-      "lag": 29,
-      "lastReport": {
-        "period": "2026-06-30",
-        "filed": "2026-07-28"
-      },
-      "nextEstimated": {
-        "date": "2026-10-29",
-        "daysAway": 1
-      }
-    },
     {
       "sym": "TDG",
       "name": "TransDigm",
@@ -26,7 +12,7 @@
       },
       "nextEstimated": {
         "date": "2026-11-04",
-        "daysAway": 7
+        "daysAway": 6
       }
     },
     {
@@ -40,7 +26,7 @@
       },
       "nextEstimated": {
         "date": "2026-11-04",
-        "daysAway": 7
+        "daysAway": 6
       }
     },
     {
@@ -54,7 +40,7 @@
       },
       "nextEstimated": {
         "date": "2026-11-06",
-        "daysAway": 9
+        "daysAway": 8
       }
     },
     {
@@ -68,7 +54,7 @@
       },
       "nextEstimated": {
         "date": "2026-11-06",
-        "daysAway": 9
+        "daysAway": 8
       }
     },
     {
@@ -82,7 +68,7 @@
       },
       "nextEstimated": {
         "date": "2026-11-13",
-        "daysAway": 16
+        "daysAway": 15
       }
     },
     {
@@ -96,7 +82,7 @@
       },
       "nextEstimated": {
         "date": "2026-11-27",
-        "daysAway": 30
+        "daysAway": 29
       }
     },
     {
@@ -110,7 +96,7 @@
       },
       "nextEstimated": {
         "date": "2026-11-29",
-        "daysAway": 32
+        "daysAway": 31
       }
     },
     {
@@ -124,7 +110,7 @@
       },
       "nextEstimated": {
         "date": "2027-01-21",
-        "daysAway": 85
+        "daysAway": 84
       }
     },
     {
@@ -138,7 +124,21 @@
       },
       "nextEstimated": {
         "date": "2027-01-25",
-        "daysAway": 89
+        "daysAway": 88
+      }
+    },
+    {
+      "sym": "BA",
+      "name": "Boeing",
+      "main": false,
+      "lag": 29,
+      "lastReport": {
+        "period": "2026-09-30",
+        "filed": "2026-10-27"
+      },
+      "nextEstimated": {
+        "date": "2027-01-28",
+        "daysAway": 91
       }
     }
   ]

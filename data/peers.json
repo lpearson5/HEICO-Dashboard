@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T16:20:23.622Z",
+  "lastUpdated": "2026-10-28T17:05:18.071Z",
   "peers": [
     {
       "name": "RTX Corp.",
@@ -114,10 +114,58 @@
           "value": 4433781397
         },
         {
+          "fund": "WASHINGTON MUTUAL INVESTORS FUND",
+          "manager": "Capital Group (American Funds)",
+          "shares": 15036970,
+          "value": 3236256683
+        },
+        {
+          "fund": "SPDR S&P 500 ETF TRUST  (SPY)",
+          "manager": "State Street",
+          "shares": 16315632,
+          "value": 3095564859
+        },
+        {
+          "fund": "VANGUARD INDEX FUNDS",
+          "manager": "Vanguard Group",
+          "shares": 12818215,
+          "value": 2431999932
+        },
+        {
+          "fund": "INVESTMENT CO OF AMERICA",
+          "manager": "",
+          "shares": 11907338,
+          "value": 2259179239
+        },
+        {
+          "fund": "CAPITAL INCOME BUILDER",
+          "manager": "Capital Group (American Funds)",
+          "shares": 9491160,
+          "value": 2042687455
+        },
+        {
+          "fund": "AMERICAN MUTUAL FUND",
+          "manager": "",
+          "shares": 9431257,
+          "value": 2029795132
+        },
+        {
           "fund": "SELECT SECTOR SPDR TRUST",
           "manager": "State Street",
           "shares": 7937195,
           "value": 1505924007
+        },
+        {
+          "fund": "VANGUARD INSTITUTIONAL INDEX FUNDS",
+          "manager": "Vanguard Group",
+          "shares": 7310624,
+          "value": 1387044692
+        },
+        {
+          "fund": "Capital Group Dividend Value ETF",
+          "manager": "Capital Group (American Funds)",
+          "shares": 5892325,
+          "value": 1224012672
         },
         {
           "fund": "MFS SERIES TRUST I",
@@ -126,10 +174,16 @@
           "value": 1012398537
         },
         {
-          "fund": "Capital Group Dividend Value ETF",
+          "fund": "CAPITAL WORLD GROWTH & INCOME FUND",
           "manager": "Capital Group (American Funds)",
-          "shares": 5512883,
-          "value": 990444560
+          "shares": 5031485,
+          "value": 903956595
+        },
+        {
+          "fund": "PUTNAM LARGE CAP VALUE FUND",
+          "manager": "Putnam",
+          "shares": 4069424,
+          "value": 875821433
         },
         {
           "fund": "JPMORGAN TRUST II",
@@ -150,82 +204,28 @@
           "value": 686086279
         },
         {
+          "fund": "GROWTH FUND OF AMERICA",
+          "manager": "Capital Group (American Funds)",
+          "shares": 3789893,
+          "value": 680892176
+        },
+        {
           "fund": "FIDELITY SELECT PORTFOLIOS",
           "manager": "FMR (Fidelity)",
           "shares": 2735800,
           "value": 568307734
         },
         {
-          "fund": "FRANKLIN MANAGED TRUST",
-          "manager": "Franklin Resources",
-          "shares": 2450000,
-          "value": 464838500
-        },
-        {
-          "fund": "BlackRock ETF Trust",
-          "manager": "BlackRock",
-          "shares": 1769052,
-          "value": 380735371
-        },
-        {
-          "fund": "Global X Funds",
+          "fund": "AMERICAN BALANCED FUND",
           "manager": "",
-          "shares": 1769493,
-          "value": 280641590
+          "shares": 2964651,
+          "value": 562483234
         },
         {
-          "fund": "Amplify ETF Trust",
-          "manager": "",
-          "shares": 1229621,
-          "value": 233295992
-        },
-        {
-          "fund": "BNY Mellon Advantage Funds, Inc.",
-          "manager": "",
-          "shares": 1039587,
-          "value": 215953408
-        },
-        {
-          "fund": "Capital Group Core Equity ETF",
+          "fund": "AMERICAN FUNDS FUNDAMENTAL INVESTORS",
           "manager": "Capital Group (American Funds)",
-          "shares": 1178895,
-          "value": 211800276
-        },
-        {
-          "fund": "MFS SERIES TRUST II",
-          "manager": "MFS",
-          "shares": 978090,
-          "value": 203178636
-        },
-        {
-          "fund": "VANGUARD ADMIRAL FUNDS",
-          "manager": "Vanguard Group",
-          "shares": 965620,
-          "value": 195653924
-        },
-        {
-          "fund": "AMCAP FUND",
-          "manager": "Capital Group (American Funds)",
-          "shares": 1048663,
-          "value": 188402795
-        },
-        {
-          "fund": "Franklin Custodian Funds",
-          "manager": "Franklin Resources",
-          "shares": 882286,
-          "value": 167396123
-        },
-        {
-          "fund": "HARTFORD MUTUAL FUNDS, INC",
-          "manager": "Hartford",
-          "shares": 726810,
-          "value": 156424048
-        },
-        {
-          "fund": "JP MORGAN MUTUAL FUND INVESTMENT TRUST",
-          "manager": "JPMorgan",
-          "shares": 776500,
-          "value": 147325345
+          "shares": 2605176,
+          "value": 494280042
         }
       ]
     },
@@ -1740,6 +1740,12 @@
           "value": 67040038
         },
         {
+          "fund": "NEUBERGER BERMAN EQUITY FUNDS",
+          "manager": "Neuberger Berman",
+          "shares": 298120,
+          "value": 62211682
+        },
+        {
           "fund": "COLUMBIA ACORN TRUST",
           "manager": "Columbia (Ameriprise)",
           "shares": 252570,
@@ -1750,12 +1756,6 @@
           "manager": "T. Rowe Price",
           "shares": 232482,
           "value": 53122137
-        },
-        {
-          "fund": "PUTNAM FUNDS TRUST",
-          "manager": "Putnam",
-          "shares": 231510,
-          "value": 52900035
         },
         {
           "fund": "T. Rowe Price Small-Cap Value Fund, Inc.",
@@ -1794,16 +1794,16 @@
           "value": 32831794
         },
         {
+          "fund": "Voya EQUITY TRUST",
+          "manager": "Voya",
+          "shares": 151924,
+          "value": 31703500
+        },
+        {
           "fund": "MARSICO INVESTMENT FUND",
           "manager": "",
           "shares": 136795,
           "value": 31257658
-        },
-        {
-          "fund": "Voya EQUITY TRUST",
-          "manager": "Voya",
-          "shares": 160710,
-          "value": 29755457
         },
         {
           "fund": "JPMORGAN TRUST II",
