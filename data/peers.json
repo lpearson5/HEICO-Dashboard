@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T17:05:18.071Z",
+  "lastUpdated": "2026-10-29T17:22:16.595Z",
   "peers": [
     {
       "name": "RTX Corp.",
@@ -210,6 +210,12 @@
           "value": 680892176
         },
         {
+          "fund": "Global X Funds",
+          "manager": "",
+          "shares": 3245361,
+          "value": 674158841
+        },
+        {
           "fund": "FIDELITY SELECT PORTFOLIOS",
           "manager": "FMR (Fidelity)",
           "shares": 2735800,
@@ -220,12 +226,6 @@
           "manager": "",
           "shares": 2964651,
           "value": 562483234
-        },
-        {
-          "fund": "AMERICAN FUNDS FUNDAMENTAL INVESTORS",
-          "manager": "Capital Group (American Funds)",
-          "shares": 2605176,
-          "value": 494280042
         }
       ]
     },
@@ -329,9 +329,9 @@
           "value": 925497771
         },
         {
-          "filer": "JPMORGAN CHASE & CO  (JPM, AMJB, VYLD, JPM-PC, JPM-PD, JPM-PJ, JPM-PK, JPM-PL, JPM-PM)",
-          "shares": 4238780,
-          "value": 910024064
+          "filer": "Jupiter Topco LLC",
+          "shares": 4212507,
+          "value": 911877609
         }
       ],
       "topFunds": [
@@ -507,6 +507,11 @@
           "value": 2122733853
         },
         {
+          "filer": "Jupiter Topco LLC",
+          "shares": 7680827,
+          "value": 2065086302
+        },
+        {
           "filer": "Invesco Ltd.  (IVZ)",
           "shares": 6851793,
           "value": 1842173192
@@ -555,11 +560,6 @@
           "filer": "Capital Research Global Investors",
           "shares": 2440644,
           "value": 656188005
-        },
-        {
-          "filer": "Sixth Street Partners Management Company, L.P.",
-          "shares": 2402889,
-          "value": 646040737
         }
       ],
       "topFunds": [
@@ -624,6 +624,12 @@
           "value": 424023399
         },
         {
+          "fund": "Global X Funds",
+          "manager": "",
+          "shares": 1482784,
+          "value": 363207941
+        },
+        {
           "fund": "Fidelity Rutland Square Trust II",
           "manager": "FMR (Fidelity)",
           "shares": 1328836,
@@ -676,12 +682,6 @@
           "manager": "JPMorgan",
           "shares": 648587,
           "value": 174379101
-        },
-        {
-          "fund": "VANGUARD SCOTTSDALE FUNDS",
-          "manager": "Vanguard Group",
-          "shares": 662239,
-          "value": 171023222
         }
       ]
     },
@@ -1494,12 +1494,6 @@
           "value": 69640163
         },
         {
-          "fund": "COLUMBIA FUNDS SERIES TRUST I",
-          "manager": "Columbia (Ameriprise)",
-          "shares": 1072514,
-          "value": 58237510
-        },
-        {
           "fund": "T. Rowe Price Mid-Cap Growth Fund, Inc.",
           "manager": "T. Rowe Price",
           "shares": 1255977,
@@ -1594,6 +1588,12 @@
           "manager": "",
           "shares": 319698,
           "value": 14750866
+        },
+        {
+          "fund": "MFS SERIES TRUST I",
+          "manager": "MFS",
+          "shares": 228896,
+          "value": 11849946
         }
       ]
     },
@@ -1788,6 +1788,12 @@
           "value": 35346894
         },
         {
+          "fund": "COLUMBIA FUNDS SERIES TRUST I",
+          "manager": "Columbia (Ameriprise)",
+          "shares": 169270,
+          "value": 35323264
+        },
+        {
           "fund": "ARTISAN PARTNERS FUNDS INC",
           "manager": "",
           "shares": 143684,
@@ -1816,12 +1822,6 @@
           "manager": "",
           "shares": 128069,
           "value": 24895333
-        },
-        {
-          "fund": "LORD ABBETT DEVELOPING GROWTH FUND, INC.",
-          "manager": "Lord Abbett",
-          "shares": 124049,
-          "value": 24113885
         }
       ]
     },
