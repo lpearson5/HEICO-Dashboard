@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-29T17:39:48.470Z",
+  "asOf": "2026-10-30T17:16:35.559Z",
   "companies": [
     {
       "sym": "TDG",
@@ -12,7 +12,7 @@
       },
       "nextEstimated": {
         "date": "2026-11-04",
-        "daysAway": 5
+        "daysAway": 4
       }
     },
     {
@@ -26,21 +26,7 @@
       },
       "nextEstimated": {
         "date": "2026-11-04",
-        "daysAway": 5
-      }
-    },
-    {
-      "sym": "HWM",
-      "name": "Howmet Aerospace",
-      "main": false,
-      "lag": 37,
-      "lastReport": {
-        "period": "2026-06-30",
-        "filed": "2026-08-06"
-      },
-      "nextEstimated": {
-        "date": "2026-11-06",
-        "daysAway": 7
+        "daysAway": 4
       }
     },
     {
@@ -54,7 +40,7 @@
       },
       "nextEstimated": {
         "date": "2026-11-06",
-        "daysAway": 7
+        "daysAway": 6
       }
     },
     {
@@ -68,7 +54,7 @@
       },
       "nextEstimated": {
         "date": "2026-11-13",
-        "daysAway": 14
+        "daysAway": 13
       }
     },
     {
@@ -82,7 +68,7 @@
       },
       "nextEstimated": {
         "date": "2026-11-29",
-        "daysAway": 30
+        "daysAway": 29
       }
     },
     {
@@ -96,7 +82,7 @@
       },
       "nextEstimated": {
         "date": "2027-01-21",
-        "daysAway": 83
+        "daysAway": 82
       }
     },
     {
@@ -110,7 +96,7 @@
       },
       "nextEstimated": {
         "date": "2027-01-25",
-        "daysAway": 87
+        "daysAway": 86
       }
     },
     {
@@ -124,7 +110,7 @@
       },
       "nextEstimated": {
         "date": "2027-01-28",
-        "daysAway": 90
+        "daysAway": 89
       }
     },
     {
@@ -138,7 +124,21 @@
       },
       "nextEstimated": {
         "date": "2027-01-29",
-        "daysAway": 91
+        "daysAway": 90
+      }
+    },
+    {
+      "sym": "HWM",
+      "name": "Howmet Aerospace",
+      "main": false,
+      "lag": 37,
+      "lastReport": {
+        "period": "2026-09-30",
+        "filed": "2026-10-29"
+      },
+      "nextEstimated": {
+        "date": "2027-02-05",
+        "daysAway": 97
       }
     }
   ]

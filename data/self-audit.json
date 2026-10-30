@@ -1,12 +1,22 @@
 {
-  "asOf": "2026-10-29T17:40:04.298Z",
-  "status": "OK",
+  "asOf": "2026-10-30T17:16:57.536Z",
+  "status": "WARN",
   "counts": {
-    "hei": 222,
+    "hei": 224,
     "heia": 183
   },
   "period": "2026-09-30",
   "findings": [
+    {
+      "level": "WARN",
+      "check": "inst-pct",
+      "detail": "hei: institutional ownership 5.54% (implausible)"
+    },
+    {
+      "level": "WARN",
+      "check": "inst-pct",
+      "detail": "heia: institutional ownership 8.01% (implausible)"
+    },
     {
       "level": "INFO",
       "check": "cross-check",
