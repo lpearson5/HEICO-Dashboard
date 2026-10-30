@@ -65,10 +65,22 @@ function structural() {
   }
 
   // 7. institutional ownership % sanity (monthly summary)
+  const monthly = {};
   for (const t of ["hei", "heia"]) {
     const m = load(`monthly-${t}.json`);
     const pct = m?.summary?.pctOut;
     if (pct != null && (pct > 100 || pct < 30)) add(pct > 100 ? "CRITICAL" : "WARN", "inst-pct", `${t}: institutional ownership ${pct}% (implausible)`);
+    // 7b. Ownership Report holder-count drop vs prior run for the SAME quarter. Catches
+    // partial search dropouts that still leave a plausible % (e.g. HEI.A 675 → 513 on
+    // 2026-10-29, still 69%). A new quarter legitimately changes the count, so only
+    // compare like-for-like.
+    const inst = m?.summary?.institutions, q = m?.quarters?.[0];
+    if (inst != null && q) {
+      monthly[t] = { quarter: q, institutions: inst };
+      const pm = prior?.monthly?.[t];
+      if (pm && pm.quarter === q && inst < pm.institutions * 0.90)
+        add("WARN", "report-drop", `${t}: Ownership Report holders ${inst} vs ${pm.institutions} last run for ${q} (−${Math.round((1 - inst / pm.institutions) * 100)}%) — likely an incomplete SEC search`);
+    }
   }
 
   // 8. auxiliary feeds present & fresh
@@ -78,7 +90,7 @@ function structural() {
     const age = (Date.now() - Date.parse(d[key])) / 86_400_000;
     if (age > days) add("WARN", "feed-stale", `${f} is ${age.toFixed(0)} days old (>${days})`);
   }
-  return { counts, period };
+  return { counts, period, monthly };
 }
 
 // ── Independent SEC cross-check of the top holders ────────────────────────────────
@@ -125,13 +137,13 @@ async function crossCheck() {
 
 async function main() {
   console.log("=== Self-audit ===");
-  const { counts, period } = structural();
+  const { counts, period, monthly } = structural();
   try { await crossCheck(); } catch (e) { add("WARN", "cross-check", `cross-check errored: ${e.message}`); }
 
   const crit = findings.filter((f) => f.level === "CRITICAL");
   const warn = findings.filter((f) => f.level === "WARN");
   const status = crit.length ? "CRITICAL" : warn.length ? "WARN" : "OK";
-  const out = { asOf: new Date().toISOString(), status, counts, period, findings };
+  const out = { asOf: new Date().toISOString(), status, counts, period, monthly, findings };
   writeFileSync(join(DATA_DIR, "self-audit.json"), JSON.stringify(out, null, 2));
 
   // Alert file for the workflow → email (only on real problems, not INFO).

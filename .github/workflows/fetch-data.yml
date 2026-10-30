@@ -43,20 +43,19 @@ jobs:
           git add data/hei.json data/heia.json data/scan-cache.json data/alerts-sent.json data/monthly-hei.json data/monthly-heia.json data/funds-hei.json data/funds-heia.json data/nport-cache.json data/beneficial-owners.json data/peers.json data/peer-cache.json data/prices.json data/geography-hei.json data/geography-heia.json data/geo-cache.json data/short-interest.json data/fundamentals.json data/earnings.json data/options.json data/investor-styles.json data/esg-ownership.json data/peer-holders.json data/peer-overlap.json data/self-audit.json
           if ! git diff --cached --quiet; then
             date=$(date -u +%Y-%m-%d)
-            # Lead the commit (and thus the RSS-triggered alert email) with an
-            # [ALERT] marker when the pipeline flagged new large moves OR the
-            # self-audit found a data-integrity problem — so both reach the inbox.
-            alert=""
-            [ -s new-alerts.txt ] && alert="$(cat new-alerts.txt)"
-            if [ -s audit-findings.txt ]; then
-              alert="${alert:+$alert | }DATA AUDIT: $(head -1 audit-findings.txt)"
-            fi
-            if [ -n "$alert" ]; then
-              msg="[ALERT] $alert"
+            # [ALERT] is reserved for REAL large 13F moves: it triggers the Power
+            # Automate "HEICO Large 13F Move Alert" email (sent to IR and the
+            # co-presidents). Self-audit problems must NOT use it (on 2026-10-30 a
+            # data-quality warning went out as a false "large move" email); they get
+            # a [DATA CHECK] tag instead and show on the dashboard's Data-health badge.
+            hei=$(node -e "console.log(require('./data/hei.json').holdings.filter(h=>h.currentShares!=null).length)")
+            heia=$(node -e "console.log(require('./data/heia.json').holdings.filter(h=>h.currentShares!=null).length)")
+            audit="audit OK"
+            [ -s audit-findings.txt ] && audit="[DATA CHECK] $(head -1 audit-findings.txt)"
+            if [ -s new-alerts.txt ]; then
+              msg="[ALERT] $(cat new-alerts.txt)"
             else
-              hei=$(node -e "console.log(require('./data/hei.json').holdings.filter(h=>h.currentShares!=null).length)")
-              heia=$(node -e "console.log(require('./data/heia.json').holdings.filter(h=>h.currentShares!=null).length)")
-              msg="HEICO 13F data refreshed $date - HEI $hei holders, HEI.A $heia holders (audit OK)"
+              msg="HEICO 13F data refreshed $date - HEI $hei holders, HEI.A $heia holders ($audit)"
             fi
             git commit -m "$msg"
             git push

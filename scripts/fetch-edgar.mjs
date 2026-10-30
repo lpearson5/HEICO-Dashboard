@@ -572,12 +572,21 @@ async function buildMonthly(allHits, counts, cache, today) {
 
   // Latest filing per (cik, period) across the 4 quarters.
   const want = new Map(), nameByCik = new Map();
-  for (const h of allHits) {
-    if (!quarters.includes(h.period) || !h.accession || !h.doc) continue;
-    nameByCik.set(h.cik, h.name);
+  const consider = (h) => {
+    if (!quarters.includes(h.period) || !h.accession) return;
+    if (h.name) nameByCik.set(h.cik, h.name);
     const key = `${h.cik}|${h.period}`;
     const prev = want.get(key);
     if (!prev || (h.fileDate ?? "") > (prev.fileDate ?? "")) want.set(key, h);
+  };
+  for (const h of allHits) if (h.doc) consider(h);
+  // Durability (same as the Tracker): the full-text search intermittently returns
+  // a truncated result set, which on 2026-10-30 dropped ~80% of the Q2 holders from
+  // this report (HEI 780 → 142 institutions). Fold in every filing already in the
+  // scan-cache so one bad search can't erase known holders.
+  for (const [accession, rec] of Object.entries(cache)) {
+    if (accession.startsWith("_") || !rec || !rec.ok) continue;
+    consider({ accession, cik: rec.cik, name: rec.name, period: rec.period, fileDate: rec.fileDate ?? "", doc: null });
   }
   const filings = [...want.values()];
   const toFetch = filings.filter(h => !cache[h.accession]?.ok);

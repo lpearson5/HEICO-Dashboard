@@ -2,15 +2,15 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-10-30T16:58:28.045Z",
+  "lastUpdated": "2026-10-28T17:05:18.071Z",
   "summary": {
     "funds": 344,
-    "totalShares": 27956765,
-    "pctOut": 33.0788,
-    "newFunds": 10,
-    "sellouts": 35,
+    "totalShares": 27947673,
+    "pctOut": 33.068,
+    "newFunds": 11,
+    "sellouts": 37,
     "linkedManagers": 24,
-    "linkedShares": 23666596
+    "linkedShares": 23658129
   },
   "newHolders": [
     {
@@ -24,6 +24,19 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.0077,
+      "action": "New"
+    },
+    {
+      "fundName": "SIIT SMALL/MID CAP FUND",
+      "registrant": "SEI INSTITUTIONAL INVESTMENTS TRUST",
+      "manager": "",
+      "cik": "939934",
+      "shares": 5968,
+      "value": 1550546,
+      "reportDate": "2026-05-31",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0071,
       "action": "New"
     },
     {
@@ -342,6 +355,13 @@
       "lastReport": "2025-09-30"
     },
     {
+      "fundName": "MidCap Growth Fund III",
+      "registrant": "Principal Funds, Inc",
+      "manager": "Principal",
+      "lastShares": 522,
+      "lastReport": "2025-07-31"
+    },
+    {
       "fundName": "Global Multi-Strategy Fund",
       "registrant": "Principal Funds, Inc",
       "manager": "Principal",
@@ -354,6 +374,13 @@
       "manager": "",
       "lastShares": 452,
       "lastReport": "2025-11-30"
+    },
+    {
+      "fundName": "Longboard Fund",
+      "registrant": "NORTHERN LIGHTS FUND TRUST II",
+      "manager": "",
+      "lastShares": 451,
+      "lastReport": "2026-02-28"
     },
     {
       "fundName": "First Trust Multi-Manager Small Cap Opportunities ETF",
@@ -395,7 +422,7 @@
     {
       "manager": "Vanguard Group",
       "fundCount": 18,
-      "shares": 8307849,
+      "shares": 8304380,
       "funds": [
         {
           "fundName": "VANGUARD TOTAL STOCK MARKET INDEX FUND",
@@ -427,11 +454,11 @@
         },
         {
           "fundName": "VANGUARD RUSSELL 1000 GROWTH INDEX FUND",
-          "shares": 123560
+          "shares": 124124
         },
         {
           "fundName": "VANGUARD INDUSTRIALS INDEX FUND",
-          "shares": 93164
+          "shares": 89730
         },
         {
           "fundName": "VANGUARD LARGE-CAP INDEX FUND",
@@ -459,11 +486,11 @@
         },
         {
           "fundName": "VANGUARD RUSSELL 1000 INDEX FUND",
-          "shares": 12565
+          "shares": 12091
         },
         {
           "fundName": "VANGUARD RUSSELL 3000 INDEX FUND",
-          "shares": 6302
+          "shares": 6177
         },
         {
           "fundName": "VANGUARD TAX-MANAGED CAPITAL APPRECIATION FUND",
@@ -1045,29 +1072,6 @@
       ]
     },
     {
-      "manager": "Invesco",
-      "fundCount": 4,
-      "shares": 36427,
-      "funds": [
-        {
-          "fundName": "Invesco MSCI USA ETF",
-          "shares": 13138
-        },
-        {
-          "fundName": "Invesco MSCI North America Climate ETF",
-          "shares": 12104
-        },
-        {
-          "fundName": "Invesco MSCI Global Climate 500 ETF",
-          "shares": 5598
-        },
-        {
-          "fundName": "Invesco Russell 1000 Dynamic Multifactor ETF",
-          "shares": 5587
-        }
-      ]
-    },
-    {
       "manager": "Franklin Resources",
       "fundCount": 2,
       "shares": 35814,
@@ -1114,6 +1118,29 @@
         {
           "fundName": "Permanence Portfolio",
           "shares": 14
+        }
+      ]
+    },
+    {
+      "manager": "Invesco",
+      "fundCount": 4,
+      "shares": 31765,
+      "funds": [
+        {
+          "fundName": "Invesco MSCI USA ETF",
+          "shares": 13138
+        },
+        {
+          "fundName": "Invesco MSCI North America Climate ETF",
+          "shares": 12104
+        },
+        {
+          "fundName": "Invesco MSCI Global Climate 500 ETF",
+          "shares": 5598
+        },
+        {
+          "fundName": "Invesco Russell 1000 Dynamic Multifactor ETF",
+          "shares": 925
         }
       ]
     },
@@ -1231,19 +1258,19 @@
     {
       "manager": "American Century",
       "fundCount": 3,
-      "shares": 3254,
+      "shares": 2918,
       "funds": [
         {
           "fundName": "Avantis U.S. Mid Cap Equity ETF",
-          "shares": 2674
+          "shares": 2411
         },
         {
           "fundName": "Avantis U.S. Large Cap Equity ETF",
-          "shares": 559
+          "shares": 504
         },
         {
           "fundName": "Avantis Total Equity Markets ETF",
-          "shares": 21
+          "shares": 3
         }
       ]
     },
@@ -1509,8 +1536,8 @@
       "manager": "Capital Group (American Funds)",
       "cik": "44201",
       "shares": 303153,
-      "value": 74020868,
-      "reportDate": "2026-08-31",
+      "value": 78762181,
+      "reportDate": "2026-05-31",
       "priorShares": 303153,
       "change": 0,
       "pctOut": 0.3587,
@@ -1742,13 +1769,13 @@
       "registrant": "VANGUARD SCOTTSDALE FUNDS",
       "manager": "Vanguard Group",
       "cik": "1021882",
-      "shares": 123560,
-      "value": 30169645,
-      "reportDate": "2026-08-31",
-      "priorShares": 124124,
-      "change": -564,
-      "pctOut": 0.1462,
-      "action": "Sold"
+      "shares": 124124,
+      "value": 32248656,
+      "reportDate": "2026-05-31",
+      "priorShares": 124052,
+      "change": 72,
+      "pctOut": 0.1469,
+      "action": "Bought"
     },
     {
       "fundName": "American Funds Global Insight Fund",
@@ -1911,12 +1938,12 @@
       "registrant": "VANGUARD WORLD FUND",
       "manager": "Vanguard Group",
       "cik": "52848",
-      "shares": 93164,
-      "value": 22747854,
-      "reportDate": "2026-08-31",
-      "priorShares": 89730,
-      "change": 3434,
-      "pctOut": 0.11019999999999999,
+      "shares": 89730,
+      "value": 23312751,
+      "reportDate": "2026-05-31",
+      "priorShares": 86735,
+      "change": 2995,
+      "pctOut": 0.1062,
       "action": "Bought"
     },
     {
@@ -3025,19 +3052,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "VANGUARD RUSSELL 1000 INDEX FUND",
-      "registrant": "VANGUARD SCOTTSDALE FUNDS",
-      "manager": "Vanguard Group",
-      "cik": "1021882",
-      "shares": 12565,
-      "value": 3067996,
-      "reportDate": "2026-08-31",
-      "priorShares": 12091,
-      "change": 474,
-      "pctOut": 0.014899999999999998,
-      "action": "Bought"
-    },
-    {
       "fundName": "Invesco MSCI North America Climate ETF",
       "registrant": "Invesco Exchange-Traded Fund Trust II",
       "manager": "Invesco",
@@ -3048,6 +3062,32 @@
       "priorShares": 10489,
       "change": 1615,
       "pctOut": 0.0143,
+      "action": "Bought"
+    },
+    {
+      "fundName": "VANGUARD RUSSELL 1000 INDEX FUND",
+      "registrant": "VANGUARD SCOTTSDALE FUNDS",
+      "manager": "Vanguard Group",
+      "cik": "1021882",
+      "shares": 12091,
+      "value": 3141363,
+      "reportDate": "2026-05-31",
+      "priorShares": 12544,
+      "change": -453,
+      "pctOut": 0.0143,
+      "action": "Sold"
+    },
+    {
+      "fundName": "SIIT EXTENDED MARKET INDEX FUND",
+      "registrant": "SEI INSTITUTIONAL INVESTMENTS TRUST",
+      "manager": "",
+      "cik": "939934",
+      "shares": 11882,
+      "value": 3087062,
+      "reportDate": "2026-05-31",
+      "priorShares": 11482,
+      "change": 400,
+      "pctOut": 0.014100000000000001,
       "action": "Bought"
     },
     {
@@ -3075,19 +3115,6 @@
       "change": 1456,
       "pctOut": 0.0137,
       "action": "Bought"
-    },
-    {
-      "fundName": "SIIT EXTENDED MARKET INDEX FUND",
-      "registrant": "SEI INSTITUTIONAL INVESTMENTS TRUST",
-      "manager": "",
-      "cik": "939934",
-      "shares": 11382,
-      "value": 2779143,
-      "reportDate": "2026-08-31",
-      "priorShares": 11882,
-      "change": -500,
-      "pctOut": 0.0135,
-      "action": "Sold"
     },
     {
       "fundName": "Victory RS Growth Fund",
@@ -3259,19 +3286,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Argent Mid Cap ETF",
-      "registrant": "EA Series Trust",
-      "manager": "",
-      "cik": "1592900",
-      "shares": 8378,
-      "value": 2045656,
-      "reportDate": "2026-08-31",
-      "priorShares": 8014,
-      "change": 364,
-      "pctOut": 0.009899999999999999,
-      "action": "Bought"
-    },
-    {
       "fundName": "Innovator Equity Managed Floor ETF",
       "registrant": "Innovator ETFs Trust",
       "manager": "",
@@ -3283,6 +3297,19 @@
       "change": 1477,
       "pctOut": 0.009600000000000001,
       "action": "Bought"
+    },
+    {
+      "fundName": "Argent Mid Cap ETF",
+      "registrant": "EA Series Trust",
+      "manager": "",
+      "cik": "1592900",
+      "shares": 8014,
+      "value": 2082117,
+      "reportDate": "2026-05-29",
+      "priorShares": 8300,
+      "change": -286,
+      "pctOut": 0.0095,
+      "action": "Sold"
     },
     {
       "fundName": "PRAXIS VALUE INDEX FUND",
@@ -3441,32 +3468,6 @@
       "action": "New"
     },
     {
-      "fundName": "SIIT SMALL/MID CAP FUND",
-      "registrant": "SEI INSTITUTIONAL INVESTMENTS TRUST",
-      "manager": "",
-      "cik": "939934",
-      "shares": 6487,
-      "value": 1583931,
-      "reportDate": "2026-08-31",
-      "priorShares": 5968,
-      "change": 519,
-      "pctOut": 0.0077,
-      "action": "Bought"
-    },
-    {
-      "fundName": "VANGUARD RUSSELL 3000 INDEX FUND",
-      "registrant": "VANGUARD SCOTTSDALE FUNDS",
-      "manager": "Vanguard Group",
-      "cik": "1021882",
-      "shares": 6302,
-      "value": 1538759,
-      "reportDate": "2026-08-31",
-      "priorShares": 6177,
-      "change": 125,
-      "pctOut": 0.0075,
-      "action": "Bought"
-    },
-    {
       "fundName": "BNY Mellon US Large Cap Core Equity ETF",
       "registrant": "BNY Mellon ETF Trust",
       "manager": "",
@@ -3477,6 +3478,19 @@
       "priorShares": 6287,
       "change": 6,
       "pctOut": 0.0073999999999999995,
+      "action": "Bought"
+    },
+    {
+      "fundName": "VANGUARD RUSSELL 3000 INDEX FUND",
+      "registrant": "VANGUARD SCOTTSDALE FUNDS",
+      "manager": "Vanguard Group",
+      "cik": "1021882",
+      "shares": 6177,
+      "value": 1604846,
+      "reportDate": "2026-05-31",
+      "priorShares": 5959,
+      "change": 218,
+      "pctOut": 0.0073,
       "action": "Bought"
     },
     {
@@ -3504,6 +3518,19 @@
       "change": -32,
       "pctOut": 0.0071,
       "action": "Sold"
+    },
+    {
+      "fundName": "SIIT SMALL/MID CAP FUND",
+      "registrant": "SEI INSTITUTIONAL INVESTMENTS TRUST",
+      "manager": "",
+      "cik": "939934",
+      "shares": 5968,
+      "value": 1550546,
+      "reportDate": "2026-05-31",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0071,
+      "action": "New"
     },
     {
       "fundName": "Fidelity Series Large Cap Growth Index Fund",
@@ -3567,19 +3594,6 @@
       "reportDate": "2026-04-30",
       "priorShares": 5587,
       "change": 11,
-      "pctOut": 0.006600000000000001,
-      "action": "Bought"
-    },
-    {
-      "fundName": "Invesco Russell 1000 Dynamic Multifactor ETF",
-      "registrant": "Invesco Exchange-Traded Self-Indexed Fund Trust",
-      "manager": "Invesco",
-      "cik": "1657201",
-      "shares": 5587,
-      "value": 1364178,
-      "reportDate": "2026-08-31",
-      "priorShares": 925,
-      "change": 4662,
       "pctOut": 0.006600000000000001,
       "action": "Bought"
     },
@@ -3766,19 +3780,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "SIIT LARGE CAP FUND",
-      "registrant": "SEI INSTITUTIONAL INVESTMENTS TRUST",
-      "manager": "",
-      "cik": "939934",
-      "shares": 3633,
-      "value": 887070,
-      "reportDate": "2026-08-31",
-      "priorShares": 3073,
-      "change": 560,
-      "pctOut": 0.0043,
-      "action": "Bought"
-    },
-    {
       "fundName": "iMGP Small Company Fund",
       "registrant": "LITMAN GREGORY FUNDS TRUST",
       "manager": "",
@@ -3816,6 +3817,19 @@
       "change": 0,
       "pctOut": 0.0039,
       "action": "No Change"
+    },
+    {
+      "fundName": "SIIT LARGE CAP FUND",
+      "registrant": "SEI INSTITUTIONAL INVESTMENTS TRUST",
+      "manager": "",
+      "cik": "939934",
+      "shares": 3073,
+      "value": 798396,
+      "reportDate": "2026-05-31",
+      "priorShares": 4192,
+      "change": -1119,
+      "pctOut": 0.0036,
+      "action": "Sold"
     },
     {
       "fundName": "Global X Guru Index ETF",
@@ -3881,19 +3895,6 @@
       "change": -170,
       "pctOut": 0.0033000000000000004,
       "action": "Sold"
-    },
-    {
-      "fundName": "Avantis U.S. Mid Cap Equity ETF",
-      "registrant": "American Century ETF Trust",
-      "manager": "American Century",
-      "cik": "1710607",
-      "shares": 2674,
-      "value": 652911,
-      "reportDate": "2026-08-31",
-      "priorShares": 2411,
-      "change": 263,
-      "pctOut": 0.0031999999999999997,
-      "action": "Bought"
     },
     {
       "fundName": "VANGUARD TAX-MANAGED CAPITAL APPRECIATION FUND",
@@ -3974,6 +3975,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Avantis U.S. Mid Cap Equity ETF",
+      "registrant": "American Century ETF Trust",
+      "manager": "American Century",
+      "cik": "1710607",
+      "shares": 2411,
+      "value": 626402,
+      "reportDate": "2026-05-31",
+      "priorShares": 2101,
+      "change": 310,
+      "pctOut": 0.0029,
+      "action": "Bought"
+    },
+    {
       "fundName": "AVIP BlackRock Advantage Large Cap Value Portfolio",
       "registrant": "AuguStar Variable Insurance Products Fund Inc",
       "manager": "FMR (Fidelity)",
@@ -3991,13 +4005,26 @@
       "registrant": "ALPS ETF TRUST",
       "manager": "",
       "cik": "1414040",
-      "shares": 2328,
-      "value": 568428,
-      "reportDate": "2026-08-31",
-      "priorShares": 2225,
-      "change": 103,
-      "pctOut": 0.0028,
+      "shares": 2225,
+      "value": 578077,
+      "reportDate": "2026-05-31",
+      "priorShares": 1963,
+      "change": 262,
+      "pctOut": 0.0026,
       "action": "Bought"
+    },
+    {
+      "fundName": "SIIT LARGE CAP INDEX FUND",
+      "registrant": "SEI INSTITUTIONAL INVESTMENTS TRUST",
+      "manager": "",
+      "cik": "939934",
+      "shares": 2221,
+      "value": 577038,
+      "reportDate": "2026-05-31",
+      "priorShares": 2221,
+      "change": 0,
+      "pctOut": 0.0026,
+      "action": "No Change"
     },
     {
       "fundName": "Wasatch Global Select Fund",
@@ -4165,19 +4192,6 @@
       "reportDate": "2026-08-31",
       "priorShares": 2350,
       "change": -518,
-      "pctOut": 0.0022,
-      "action": "Sold"
-    },
-    {
-      "fundName": "SIIT LARGE CAP INDEX FUND",
-      "registrant": "SEI INSTITUTIONAL INVESTMENTS TRUST",
-      "manager": "",
-      "cik": "939934",
-      "shares": 1821,
-      "value": 444634,
-      "reportDate": "2026-08-31",
-      "priorShares": 2221,
-      "change": -400,
       "pctOut": 0.0022,
       "action": "Sold"
     },
@@ -4624,6 +4638,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Invesco Russell 1000 Dynamic Multifactor ETF",
+      "registrant": "Invesco Exchange-Traded Self-Indexed Fund Trust",
+      "manager": "Invesco",
+      "cik": "1657201",
+      "shares": 925,
+      "value": 240324,
+      "reportDate": "2026-05-31",
+      "priorShares": 2244,
+      "change": -1319,
+      "pctOut": 0.0011,
+      "action": "Sold"
+    },
+    {
       "fundName": "THRIVENT MODERATELY AGGRESSIVE ALLOCATION FUND",
       "registrant": "Thrivent Mutual Funds",
       "manager": "",
@@ -4858,19 +4885,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "Avantis U.S. Large Cap Equity ETF",
-      "registrant": "American Century ETF Trust",
-      "manager": "American Century",
-      "cik": "1710607",
-      "shares": 559,
-      "value": 136491,
-      "reportDate": "2026-08-31",
-      "priorShares": 504,
-      "change": 55,
-      "pctOut": 0.0007,
-      "action": "Bought"
-    },
-    {
       "fundName": "Aristotle Small/Mid Cap Equity Fund",
       "registrant": "Aristotle Fund Series Trust",
       "manager": "",
@@ -4893,6 +4907,19 @@
       "reportDate": "2026-06-30",
       "priorShares": 497,
       "change": 35,
+      "pctOut": 0.0006000000000000001,
+      "action": "Bought"
+    },
+    {
+      "fundName": "Avantis U.S. Large Cap Equity ETF",
+      "registrant": "American Century ETF Trust",
+      "manager": "American Century",
+      "cik": "1710607",
+      "shares": 504,
+      "value": 130944,
+      "reportDate": "2026-05-31",
+      "priorShares": 487,
+      "change": 17,
       "pctOut": 0.0006000000000000001,
       "action": "Bought"
     },
@@ -4993,8 +5020,8 @@
       "manager": "",
       "cik": "1736078",
       "shares": 408,
-      "value": 99621,
-      "reportDate": "2026-08-31",
+      "value": 106002,
+      "reportDate": "2026-05-31",
       "priorShares": 408,
       "change": 0,
       "pctOut": 0.0005,
@@ -5162,8 +5189,8 @@
       "manager": "",
       "cik": "1736078",
       "shares": 280,
-      "value": 68368,
-      "reportDate": "2026-08-31",
+      "value": 72747,
+      "reportDate": "2026-05-31",
       "priorShares": 280,
       "change": 0,
       "pctOut": 0.00030000000000000003,
@@ -5326,17 +5353,30 @@
       "action": "No Change"
     },
     {
+      "fundName": "Global X Adaptive U.S. Risk Management ETF",
+      "registrant": "GLOBAL X FUNDS",
+      "manager": "",
+      "cik": "1432353",
+      "shares": 179,
+      "value": 46506,
+      "reportDate": "2026-05-31",
+      "priorShares": 179,
+      "change": 0,
+      "pctOut": 0.00019999999999999998,
+      "action": "No Change"
+    },
+    {
       "fundName": "Longview Advantage ETF",
       "registrant": "RBB Fund Trust",
       "manager": "",
       "cik": "1618627",
-      "shares": 169,
-      "value": 41265,
-      "reportDate": "2026-08-31",
+      "shares": 160,
+      "value": 41570,
+      "reportDate": "2026-05-31",
       "priorShares": 160,
-      "change": 9,
+      "change": 0,
       "pctOut": 0.00019999999999999998,
-      "action": "Bought"
+      "action": "No Change"
     },
     {
       "fundName": "Parametric Equity Plus ETF",
@@ -5363,19 +5403,6 @@
       "change": 68,
       "pctOut": 0.00019999999999999998,
       "action": "Bought"
-    },
-    {
-      "fundName": "Global X Adaptive U.S. Risk Management ETF",
-      "registrant": "GLOBAL X FUNDS",
-      "manager": "",
-      "cik": "1432353",
-      "shares": 149,
-      "value": 36381,
-      "reportDate": "2026-08-31",
-      "priorShares": 179,
-      "change": -30,
-      "pctOut": 0.00019999999999999998,
-      "action": "Sold"
     },
     {
       "fundName": "THRIVENT MODERATELY CONSERVATIVE ALLOCATION FUND",
@@ -5500,8 +5527,8 @@
       "manager": "",
       "cik": "1592900",
       "shares": 70,
-      "value": 17092,
-      "reportDate": "2026-08-31",
+      "value": 18187,
+      "reportDate": "2026-05-29",
       "priorShares": 70,
       "change": 0,
       "pctOut": 0.00009999999999999999,
@@ -5610,19 +5637,6 @@
       "change": -33,
       "pctOut": 0,
       "action": "Sold"
-    },
-    {
-      "fundName": "Avantis Total Equity Markets ETF",
-      "registrant": "American Century ETF Trust",
-      "manager": "American Century",
-      "cik": "1710607",
-      "shares": 21,
-      "value": 5128,
-      "reportDate": "2026-08-31",
-      "priorShares": 3,
-      "change": 18,
-      "pctOut": 0,
-      "action": "Bought"
     },
     {
       "fundName": "State Street(R) SPDR(R) MSCI World StrategicFactors(SM) ETF",
@@ -5734,8 +5748,8 @@
       "manager": "",
       "cik": "1432353",
       "shares": 5,
-      "value": 1221,
-      "reportDate": "2026-08-31",
+      "value": 1299,
+      "reportDate": "2026-05-31",
       "priorShares": 5,
       "change": 0,
       "pctOut": 0,
@@ -5753,6 +5767,19 @@
       "change": -32250,
       "pctOut": 0,
       "action": "Sold"
+    },
+    {
+      "fundName": "Avantis Total Equity Markets ETF",
+      "registrant": "American Century ETF Trust",
+      "manager": "American Century",
+      "cik": "1710607",
+      "shares": 3,
+      "value": 779,
+      "reportDate": "2026-05-31",
+      "priorShares": 3,
+      "change": 0,
+      "pctOut": 0,
+      "action": "No Change"
     }
   ]
 }
