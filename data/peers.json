@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T16:01:09.148Z",
+  "lastUpdated": "2026-11-01T17:04:53.401Z",
   "peers": [
     {
       "name": "RTX Corp.",
@@ -705,6 +705,11 @@
           "value": 5693274985
         },
         {
+          "filer": "VANGUARD CAPITAL MANAGEMENT LLC",
+          "shares": 3653511,
+          "value": 4866622793
+        },
+        {
           "filer": "Capital Research Global Investors",
           "shares": 3119490,
           "value": 4155104974
@@ -715,9 +720,19 @@
           "value": 3437987248
         },
         {
+          "filer": "STATE STREET CORP  (STT, STT-PG)",
+          "shares": 2559096,
+          "value": 3408818236
+        },
+        {
           "filer": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
           "shares": 1709129,
           "value": 2276697104
+        },
+        {
+          "filer": "GEODE CAPITAL MANAGEMENT, LLC",
+          "shares": 1286385,
+          "value": 1705540829
         },
         {
           "filer": "FMR LLC",
@@ -755,6 +770,11 @@
           "value": 911248564
         },
         {
+          "filer": "UBS Group AG  (UBS)",
+          "shares": 606686,
+          "value": 808130019
+        },
+        {
           "filer": "Invesco Ltd.  (IVZ)",
           "shares": 479551,
           "value": 638781315
@@ -768,26 +788,6 @@
           "filer": "Sixth Street Partners Management Company, L.P.",
           "shares": 442904,
           "value": 589965844
-        },
-        {
-          "filer": "CHARLES SCHWAB INVESTMENT MANAGEMENT INC",
-          "shares": 442904,
-          "value": 589965844
-        },
-        {
-          "filer": "Stockbridge Partners LLC",
-          "shares": 434281,
-          "value": 578479663
-        },
-        {
-          "filer": "PRIMECAP MANAGEMENT CO/CA/",
-          "shares": 410217,
-          "value": 546425452
-        },
-        {
-          "filer": "MANUFACTURERS LIFE INSURANCE COMPANY, THE",
-          "shares": 392447,
-          "value": 522754463
         }
       ],
       "topFunds": [
@@ -916,8 +916,211 @@
     {
       "name": "Teledyne Technologies",
       "ticker": "TDY",
-      "top13F": [],
+      "top13F": [
+        {
+          "filer": "BlackRock, Inc.  (BLK)",
+          "shares": 4125237,
+          "value": 2751120691
+        },
+        {
+          "filer": "VANGUARD CAPITAL MANAGEMENT LLC",
+          "shares": 3028715,
+          "value": 2019850034
+        },
+        {
+          "filer": "VANGUARD PORTFOLIO MANAGEMENT LLC",
+          "shares": 2384161,
+          "value": 1589996971
+        },
+        {
+          "filer": "STATE STREET CORP  (STT, STT-PG)",
+          "shares": 2265326,
+          "value": 1510745909
+        },
+        {
+          "filer": "FIL Ltd",
+          "shares": 1834853,
+          "value": 1223663466
+        },
+        {
+          "filer": "DODGE & COX",
+          "shares": 1612837,
+          "value": 1075600995
+        },
+        {
+          "filer": "Jupiter Topco LLC",
+          "shares": 1540313,
+          "value": 1027236923
+        },
+        {
+          "filer": "Aristotle Capital Management, LLC",
+          "shares": 1515404,
+          "value": 1010671891
+        },
+        {
+          "filer": "GEODE CAPITAL MANAGEMENT, LLC",
+          "shares": 1317273,
+          "value": 877611194
+        },
+        {
+          "filer": "KAYNE ANDERSON RUDNICK INVESTMENT MANAGEMENT LLC",
+          "shares": 1016296,
+          "value": 677768121
+        },
+        {
+          "filer": "JPMORGAN CHASE & CO  (JPM, AMJB, VYLD, JPM-PC, JPM-PD, JPM-PJ, JPM-PK, JPM-PL, JPM-PM)",
+          "shares": 1025401,
+          "value": 657508751
+        },
+        {
+          "filer": "NORGES BANK",
+          "shares": 826081,
+          "value": 550913419
+        },
+        {
+          "filer": "Invesco Ltd.  (IVZ)",
+          "shares": 651535,
+          "value": 434508692
+        },
+        {
+          "filer": "BANK OF AMERICA CORP /DE/  (BAC, BAC-PB, BAC-PE, BAC-PK, BAC-PL, BAC-PM, BAC-PN, BAC-PO, BAC-PP, BAC-PQ, BAC-PS, BML-PG, BML-PL)",
+          "shares": 610193,
+          "value": 406937501
+        },
+        {
+          "filer": "UBS AM, a distinct business unit of UBS ASSET MANAGEMENT AMERICAS LLC",
+          "shares": 594607,
+          "value": 396543408
+        },
+        {
+          "filer": "KING LUTHER CAPITAL MANAGEMENT CORP",
+          "shares": 504348,
+          "value": 336349681
+        },
+        {
+          "filer": "MORGAN STANLEY  (MS, MS-PA, MS-PE, MS-PF, MS-PI, MS-PK, MS-PL, MS-PO, MS-PP, MS-PQ)",
+          "shares": 488917,
+          "value": 326059668
+        },
+        {
+          "filer": "NORTHERN TRUST CORP  (NTRS, NTRSO)",
+          "shares": 459300,
+          "value": 306307172
+        },
+        {
+          "filer": "Findlay Park Partners LLP",
+          "shares": 415899,
+          "value": 277363043
+        },
+        {
+          "filer": "DIMENSIONAL FUND ADVISORS LP",
+          "shares": 411112,
+          "value": 274075476
+        }
+      ],
       "topFunds": [
+        {
+          "fund": "DODGE & COX FUNDS",
+          "manager": "Dodge & Cox",
+          "shares": 1218100,
+          "value": 812350890
+        },
+        {
+          "fund": "JANUS INVESTMENT FUND",
+          "manager": "Janus Henderson",
+          "shares": 848267,
+          "value": 565709262
+        },
+        {
+          "fund": "SPDR S&P 500 ETF TRUST  (SPY)",
+          "manager": "State Street",
+          "shares": 561551,
+          "value": 374498362
+        },
+        {
+          "fund": "FIDELITY CONCORD STREET TRUST",
+          "manager": "FMR (Fidelity)",
+          "shares": 601392,
+          "value": 368623226
+        },
+        {
+          "fund": "VANGUARD WINDSOR FUNDS",
+          "manager": "Vanguard Group",
+          "shares": 540000,
+          "value": 354007800
+        },
+        {
+          "fund": "VANGUARD WORLD FUND",
+          "manager": "Vanguard Group",
+          "shares": 420492,
+          "value": 257740571
+        },
+        {
+          "fund": "VANGUARD INDEX FUNDS",
+          "manager": "Vanguard Group",
+          "shares": 354867,
+          "value": 236660802
+        },
+        {
+          "fund": "T. Rowe Price Growth Stock Fund, Inc.",
+          "manager": "T. Rowe Price",
+          "shares": 329550,
+          "value": 219776895
+        },
+        {
+          "fund": "SELECT SECTOR SPDR TRUST",
+          "manager": "State Street",
+          "shares": 319849,
+          "value": 213307298
+        },
+        {
+          "fund": "T. Rowe Price All-Cap Opportunities Fund, Inc.",
+          "manager": "T. Rowe Price",
+          "shares": 307280,
+          "value": 204925032
+        },
+        {
+          "fund": "T. Rowe Price U.S. Large-Cap Core Fund, Inc.",
+          "manager": "T. Rowe Price",
+          "shares": 318165,
+          "value": 186457417
+        },
+        {
+          "fund": "VANGUARD INSTITUTIONAL INDEX FUNDS",
+          "manager": "Vanguard Group",
+          "shares": 251508,
+          "value": 167730685
+        },
+        {
+          "fund": "T. Rowe Price New Horizons Fund, Inc.",
+          "manager": "T. Rowe Price",
+          "shares": 231841,
+          "value": 154614763
+        },
+        {
+          "fund": "JP MORGAN MUTUAL FUND INVESTMENT TRUST",
+          "manager": "JPMorgan",
+          "shares": 190587,
+          "value": 127102470
+        },
+        {
+          "fund": "VANGUARD EXPLORER FUND",
+          "manager": "Vanguard Group",
+          "shares": 175914,
+          "value": 115323941
+        },
+        {
+          "fund": "JPMORGAN TRUST II",
+          "manager": "JPMorgan",
+          "shares": 165154,
+          "value": 110141203
+        },
+        {
+          "fund": "JP MORGAN FLEMING MUTUAL FUND GROUP INC",
+          "manager": "JPMorgan",
+          "shares": 123341,
+          "value": 82256113
+        },
         {
           "fund": "Value Line Mid Cap Focused Fund, Inc.",
           "manager": "",
@@ -925,118 +1128,16 @@
           "value": 77693850
         },
         {
-          "fund": "FIDELITY CAPITAL TRUST",
-          "manager": "FMR (Fidelity)",
-          "shares": 112000,
-          "value": 59003840
+          "fund": "SCHWAB STRATEGIC TRUST",
+          "manager": "Charles Schwab",
+          "shares": 112523,
+          "value": 68970973
         },
         {
-          "fund": "MADISON FUNDS",
-          "manager": "",
-          "shares": 85083,
-          "value": 55777862
-        },
-        {
-          "fund": "DELAWARE GROUP EQUITY FUNDS II",
-          "manager": "",
-          "shares": 85954,
-          "value": 53276868
-        },
-        {
-          "fund": "CENTRAL SECURITIES CORP  (CET)",
-          "manager": "",
-          "shares": 70000,
-          "value": 46683000
-        },
-        {
-          "fund": "EQ ADVISORS TRUST",
-          "manager": "",
-          "shares": 57232,
-          "value": 38168021
-        },
-        {
-          "fund": "HARBOR FUNDS",
-          "manager": "",
-          "shares": 39700,
-          "value": 25640245
-        },
-        {
-          "fund": "AMERICAN CENTURY WORLD MUTUAL FUNDS INC",
-          "manager": "American Century",
-          "shares": 19770,
-          "value": 12118022
-        },
-        {
-          "fund": "Aristotle Funds Series Trust",
-          "manager": "",
-          "shares": 18800,
-          "value": 11374188
-        },
-        {
-          "fund": "ARK ETF Trust",
-          "manager": "ARK Invest",
-          "shares": 15436,
-          "value": 10119379
-        },
-        {
-          "fund": "SPDR SERIES TRUST",
-          "manager": "State Street",
-          "shares": 12623,
-          "value": 8418279
-        },
-        {
-          "fund": "Ivy Variable Insurance Portfolios",
-          "manager": "",
-          "shares": 6613,
-          "value": 4410210
-        },
-        {
-          "fund": "CRM Mutual Fund Trust",
-          "manager": "",
-          "shares": 5681,
-          "value": 3724293
-        },
-        {
-          "fund": "ULTRA SERIES FUND",
-          "manager": "",
-          "shares": 5100,
-          "value": 3401190
-        },
-        {
-          "fund": "Virtus ETF Trust II",
-          "manager": "",
-          "shares": 4015,
-          "value": 2632114
-        },
-        {
-          "fund": "BAIRD FUNDS INC",
-          "manager": "",
-          "shares": 3574,
-          "value": 2383501
-        },
-        {
-          "fund": "SHELTON FUNDS",
-          "manager": "",
-          "shares": 3750,
-          "value": 2298563
-        },
-        {
-          "fund": "TRUST FOR PROFESSIONAL MANAGERS",
-          "manager": "",
-          "shares": 3328,
-          "value": 2266701
-        },
-        {
-          "fund": "FIDELITY COVINGTON TRUST",
-          "manager": "FMR (Fidelity)",
-          "shares": 3403,
-          "value": 2109281
-        },
-        {
-          "fund": "LKCM Funds",
-          "manager": "",
-          "shares": 2500,
-          "value": 1667250
+          "fund": "INVESCO EXCHANGE-TRADED FUND TRUST",
+          "manager": "Invesco",
+          "shares": 104914,
+          "value": 68778471
         }
       ]
     },
@@ -1729,9 +1830,74 @@
       "ticker": "FTAI",
       "top13F": [
         {
+          "filer": "Capital International Investors",
+          "shares": 12382822,
+          "value": 3349827328
+        },
+        {
+          "filer": "Capital World Investors",
+          "shares": 11412484,
+          "value": 3087292760
+        },
+        {
+          "filer": "BlackRock, Inc.  (BLK)",
+          "shares": 8557163,
+          "value": 2314969306
+        },
+        {
+          "filer": "VANGUARD CAPITAL MANAGEMENT LLC",
+          "shares": 4633896,
+          "value": 1253607885
+        },
+        {
+          "filer": "VANGUARD PORTFOLIO MANAGEMENT LLC",
+          "shares": 4072337,
+          "value": 1101689329
+        },
+        {
+          "filer": "FMR LLC",
+          "shares": 3587945,
+          "value": 970646715
+        },
+        {
+          "filer": "DZ BANK AG Deutsche Zentral Genossenschafts Bank, Frankfurt am Main",
+          "shares": 3143073,
+          "value": 850295539
+        },
+        {
+          "filer": "STATE STREET CORP  (STT, STT-PG)",
+          "shares": 3083589,
+          "value": 834203332
+        },
+        {
           "filer": "Rubric Capital Management LP",
           "shares": 3000000,
           "value": 811590000
+        },
+        {
+          "filer": "WESTFIELD CAPITAL MANAGEMENT CO LP",
+          "shares": 2937228,
+          "value": 794608199
+        },
+        {
+          "filer": "Capital Research Global Investors",
+          "shares": 2891051,
+          "value": 782097262
+        },
+        {
+          "filer": "WELLINGTON MANAGEMENT GROUP LLP",
+          "shares": 2326754,
+          "value": 629456759
+        },
+        {
+          "filer": "GEODE CAPITAL MANAGEMENT, LLC",
+          "shares": 1998027,
+          "value": 539090284
+        },
+        {
+          "filer": "GOLDMAN SACHS GROUP INC  (GS, GSCE, GS-PA, GS-PC, GS-PD)",
+          "shares": 1959422,
+          "value": 530082316
         },
         {
           "filer": "Value Aligned Research Advisors, LLC",
@@ -1739,97 +1905,153 @@
           "value": 376918357
         },
         {
-          "filer": "WASHINGTON STATE INVESTMENT BOARD",
-          "shares": 787815,
-          "value": 213127592
+          "filer": "NORGES BANK",
+          "shares": 1280959,
+          "value": 346537838
         },
         {
-          "filer": "Temasek Holdings (Private) Ltd",
-          "shares": 567875,
-          "value": 153627224
+          "filer": "FRONTIER CAPITAL MANAGEMENT CO LLC",
+          "shares": 1183492,
+          "value": 320170153
         },
         {
-          "filer": "Long Focus Capital Management, LLC",
-          "shares": 315000,
-          "value": 85216950
+          "filer": "MORGAN STANLEY  (MS, MS-PA, MS-PE, MS-PF, MS-PI, MS-PK, MS-PL, MS-PO, MS-PP, MS-PQ)",
+          "shares": 1160212,
+          "value": 313872850
         },
         {
-          "filer": "Granahan Investment Management, LLC",
-          "shares": 293722,
-          "value": 79460613
+          "filer": "JPMORGAN CHASE & CO  (JPM, AMJB, VYLD, JPM-PC, JPM-PD, JPM-PJ, JPM-PK, JPM-PL, JPM-PM)",
+          "shares": 1032428,
+          "value": 272168881
         },
         {
-          "filer": "Luxor Capital Group, LP",
-          "shares": 267002,
-          "value": 72232051
-        },
-        {
-          "filer": "Two Seas Capital LP",
-          "shares": 248962,
-          "value": 67351690
-        },
-        {
-          "filer": "TREMBLANT CAPITAL GROUP",
-          "shares": 233414,
-          "value": 63145489
-        },
-        {
-          "filer": "Shay Capital LLC",
-          "shares": 231850,
-          "value": 62722381
-        },
-        {
-          "filer": "FRED ALGER MANAGEMENT, LLC",
-          "shares": 212624,
-          "value": 57521191
-        },
-        {
-          "filer": "STEADFAST CAPITAL MANAGEMENT LP",
-          "shares": 190100,
-          "value": 51427753
-        },
-        {
-          "filer": "Clearline Capital LP",
-          "shares": 188288,
-          "value": 50937553
-        },
-        {
-          "filer": "Cruiser Capital Advisors, LLC",
-          "shares": 143941,
-          "value": 38940359
-        },
-        {
-          "filer": "GOODNOW INVESTMENT GROUP, LLC",
-          "shares": 139960,
-          "value": 37863379
-        },
-        {
-          "filer": "Northern Right Capital Management, L.P.",
-          "shares": 133190,
-          "value": 36031891
-        },
-        {
-          "filer": "Owl Creek Asset Management, L.P.",
-          "shares": 127453,
-          "value": 34479860
-        },
-        {
-          "filer": "WEYBOSSET RESEARCH & MANAGEMENT LLC",
-          "shares": 120801,
-          "value": 32680295
-        },
-        {
-          "filer": "Newbrook Capital Advisors LP",
-          "shares": 117730,
-          "value": 31849497
-        },
-        {
-          "filer": "Incline Global Management LLC",
-          "shares": 101339,
-          "value": 27415240
+          "filer": "Sixth Street Partners Management Company, L.P.",
+          "shares": 902149,
+          "value": 244058369
         }
       ],
-      "topFunds": []
+      "topFunds": [
+        {
+          "fund": "VANGUARD INDEX FUNDS",
+          "manager": "Vanguard Group",
+          "shares": 1356456,
+          "value": 366962042
+        },
+        {
+          "fund": "VANGUARD EXPLORER FUND",
+          "manager": "Vanguard Group",
+          "shares": 357165,
+          "value": 89173386
+        },
+        {
+          "fund": "VANGUARD WHITEHALL FUNDS",
+          "manager": "Vanguard Group",
+          "shares": 317882,
+          "value": 65483692
+        },
+        {
+          "fund": "AMERICAN CENTURY MUTUAL FUNDS, INC.",
+          "manager": "American Century",
+          "shares": 255966,
+          "value": 52728996
+        },
+        {
+          "fund": "COLUMBIA ACORN TRUST",
+          "manager": "Columbia (Ameriprise)",
+          "shares": 283710,
+          "value": 47339851
+        },
+        {
+          "fund": "VANGUARD HORIZON FUNDS",
+          "manager": "Vanguard Group",
+          "shares": 220483,
+          "value": 43402079
+        },
+        {
+          "fund": "Bridge Builder Trust",
+          "manager": "",
+          "shares": 125504,
+          "value": 33952597
+        },
+        {
+          "fund": "TOUCHSTONE STRATEGIC TRUST",
+          "manager": "",
+          "shares": 119284,
+          "value": 32269901
+        },
+        {
+          "fund": "Columbia Funds Variable Series Trust II",
+          "manager": "Columbia (Ameriprise)",
+          "shares": 185160,
+          "value": 30895798
+        },
+        {
+          "fund": "PRINCIPAL FUNDS, INC.",
+          "manager": "Principal",
+          "shares": 131525,
+          "value": 27094150
+        },
+        {
+          "fund": "iSHARES TRUST",
+          "manager": "BlackRock",
+          "shares": 125343,
+          "value": 25820658
+        },
+        {
+          "fund": "VANGUARD WORLD FUND",
+          "manager": "Vanguard Group",
+          "shares": 123027,
+          "value": 23387433
+        },
+        {
+          "fund": "VANGUARD INTERNATIONAL EQUITY INDEX FUNDS",
+          "manager": "Vanguard Group",
+          "shares": 86899,
+          "value": 17901194
+        },
+        {
+          "fund": "VANGUARD VALLEY FORGE FUNDS",
+          "manager": "Vanguard Group",
+          "shares": 55580,
+          "value": 15036057
+        },
+        {
+          "fund": "VANGUARD INSTITUTIONAL INDEX FUNDS",
+          "manager": "Vanguard Group",
+          "shares": 49189,
+          "value": 13307100
+        },
+        {
+          "fund": "Six Circles Trust",
+          "manager": "",
+          "shares": 48821,
+          "value": 13207545
+        },
+        {
+          "fund": "AIM GROWTH SERIES (INVESCO GROWTH SERIES)",
+          "manager": "Invesco",
+          "shares": 49255,
+          "value": 12067475
+        },
+        {
+          "fund": "TIAA-CREF FUNDS",
+          "manager": "Nuveen (TIAA)",
+          "shares": 57054,
+          "value": 11753124
+        },
+        {
+          "fund": "Invesco Exchange-Traded Fund Trust II",
+          "manager": "Invesco",
+          "shares": 59777,
+          "value": 11363608
+        },
+        {
+          "fund": "VANGUARD TAX-MANAGED FUNDS",
+          "manager": "Vanguard Group",
+          "shares": 41701,
+          "value": 11281372
+        }
+      ]
     }
   ]
 }
