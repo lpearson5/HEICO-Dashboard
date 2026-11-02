@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-01T17:20:10.998Z",
+  "asOf": "2026-11-02T20:59:18.734Z",
   "companies": [
     {
       "sym": "TDG",
@@ -12,21 +12,7 @@
       },
       "nextEstimated": {
         "date": "2026-11-04",
-        "daysAway": 2
-      }
-    },
-    {
-      "sym": "FTAI",
-      "name": "FTAI Aviation",
-      "main": false,
-      "lag": 35,
-      "lastReport": {
-        "period": "2026-06-30",
-        "filed": "2026-07-31"
-      },
-      "nextEstimated": {
-        "date": "2026-11-04",
-        "daysAway": 2
+        "daysAway": 1
       }
     },
     {
@@ -40,7 +26,7 @@
       },
       "nextEstimated": {
         "date": "2026-11-06",
-        "daysAway": 4
+        "daysAway": 3
       }
     },
     {
@@ -54,7 +40,7 @@
       },
       "nextEstimated": {
         "date": "2026-11-13",
-        "daysAway": 11
+        "daysAway": 10
       }
     },
     {
@@ -68,7 +54,7 @@
       },
       "nextEstimated": {
         "date": "2026-11-29",
-        "daysAway": 27
+        "daysAway": 26
       }
     },
     {
@@ -82,7 +68,7 @@
       },
       "nextEstimated": {
         "date": "2027-01-21",
-        "daysAway": 80
+        "daysAway": 79
       }
     },
     {
@@ -96,7 +82,7 @@
       },
       "nextEstimated": {
         "date": "2027-01-25",
-        "daysAway": 84
+        "daysAway": 83
       }
     },
     {
@@ -110,7 +96,7 @@
       },
       "nextEstimated": {
         "date": "2027-01-28",
-        "daysAway": 87
+        "daysAway": 86
       }
     },
     {
@@ -124,7 +110,21 @@
       },
       "nextEstimated": {
         "date": "2027-01-29",
-        "daysAway": 88
+        "daysAway": 87
+      }
+    },
+    {
+      "sym": "FTAI",
+      "name": "FTAI Aviation",
+      "main": false,
+      "lag": 33,
+      "lastReport": {
+        "period": "2026-09-30",
+        "filed": "2026-11-02"
+      },
+      "nextEstimated": {
+        "date": "2027-02-01",
+        "daysAway": 90
       }
     },
     {
@@ -138,7 +138,7 @@
       },
       "nextEstimated": {
         "date": "2027-02-05",
-        "daysAway": 95
+        "daysAway": 94
       }
     }
   ]
