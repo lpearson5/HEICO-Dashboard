@@ -2,12 +2,12 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-11-04T18:33:48.080Z",
+  "lastUpdated": "2026-11-05T18:39:42.631Z",
   "summary": {
-    "funds": 344,
-    "totalShares": 27957009,
-    "pctOut": 33.079,
-    "newFunds": 10,
+    "funds": 345,
+    "totalShares": 27957064,
+    "pctOut": 33.0791,
+    "newFunds": 11,
     "sellouts": 30,
     "linkedManagers": 24,
     "linkedShares": 23666840
@@ -102,6 +102,19 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.0009,
+      "action": "New"
+    },
+    {
+      "fundName": "Wasatch Small/Mid Cap ETF",
+      "registrant": "WASATCH FUNDS TRUST",
+      "manager": "",
+      "cik": "806633",
+      "shares": 552,
+      "value": 126038,
+      "reportDate": "2026-09-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0007,
       "action": "New"
     },
     {
@@ -3887,19 +3900,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Wasatch U.S. Select Fund",
-      "registrant": "WASATCH FUNDS TRUST",
-      "manager": "",
-      "cik": "806633",
-      "shares": 2547,
-      "value": 656897,
-      "reportDate": "2026-06-30",
-      "priorShares": 2248,
-      "change": 299,
-      "pctOut": 0.003,
-      "action": "Bought"
-    },
-    {
       "fundName": "PD Large-Cap Growth Index Portfolio",
       "registrant": "PACIFIC SELECT FUND",
       "manager": "",
@@ -3924,6 +3924,19 @@
       "change": 0,
       "pctOut": 0.0029,
       "action": "No Change"
+    },
+    {
+      "fundName": "Wasatch U.S. Select Fund",
+      "registrant": "WASATCH FUNDS TRUST",
+      "manager": "",
+      "cik": "806633",
+      "shares": 2425,
+      "value": 553700,
+      "reportDate": "2026-09-30",
+      "priorShares": 2547,
+      "change": -122,
+      "pctOut": 0.0029,
+      "action": "Sold"
     },
     {
       "fundName": "Franklin U.S. Equity Index ETF",
@@ -3962,19 +3975,6 @@
       "priorShares": 2225,
       "change": 103,
       "pctOut": 0.0028,
-      "action": "Bought"
-    },
-    {
-      "fundName": "Wasatch Global Select Fund",
-      "registrant": "WASATCH FUNDS TRUST",
-      "manager": "",
-      "cik": "806633",
-      "shares": 2182,
-      "value": 562760,
-      "reportDate": "2026-06-30",
-      "priorShares": 2054,
-      "change": 128,
-      "pctOut": 0.0026,
       "action": "Bought"
     },
     {
@@ -4144,6 +4144,19 @@
       "priorShares": 2221,
       "change": -400,
       "pctOut": 0.0022,
+      "action": "Sold"
+    },
+    {
+      "fundName": "Wasatch Global Select Fund",
+      "registrant": "WASATCH FUNDS TRUST",
+      "manager": "",
+      "cik": "806633",
+      "shares": 1807,
+      "value": 412592,
+      "reportDate": "2026-09-30",
+      "priorShares": 2182,
+      "change": -375,
+      "pctOut": 0.0021,
       "action": "Sold"
     },
     {
@@ -4847,6 +4860,19 @@
       "change": -10,
       "pctOut": 0.0007,
       "action": "Sold"
+    },
+    {
+      "fundName": "Wasatch Small/Mid Cap ETF",
+      "registrant": "WASATCH FUNDS TRUST",
+      "manager": "",
+      "cik": "806633",
+      "shares": 552,
+      "value": 126038,
+      "reportDate": "2026-09-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0007,
+      "action": "New"
     },
     {
       "fundName": "Parametric Hedged Equity ETF",
