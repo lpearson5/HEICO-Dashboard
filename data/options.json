@@ -1,9 +1,9 @@
 {
-  "asOf": "2026-11-05T18:55:29.904Z",
+  "asOf": "2026-11-06T18:09:59.302Z",
   "currentPeriod": "2026-09-30",
   "totals": {
     "HEI": {
-      "put": 0,
+      "put": 10000,
       "call": 0
     },
     "HEIA": {
@@ -11,5 +11,14 @@
       "call": 0
     }
   },
-  "holders": []
+  "holders": [
+    {
+      "filer": "BARCLAYS PLC  (BCS, BCLYF)",
+      "cik": "312069",
+      "heiPut": 10000,
+      "heiCall": 0,
+      "heiaPut": 0,
+      "heiaCall": 0
+    }
+  ]
 }
