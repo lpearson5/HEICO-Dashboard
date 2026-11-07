@@ -3,8 +3,20 @@
   "cusip": "422806109",
   "currentPeriod": "2026-09-30",
   "priorPeriod": "2026-06-30",
-  "lastUpdated": "2026-11-06T17:53:51.506Z",
+  "lastUpdated": "2026-11-07T16:48:30.553Z",
   "holdings": [
+    {
+      "filerName": "GEODE CAPITAL MANAGEMENT, LLC",
+      "filerCik": "1214717",
+      "currentShares": 784016,
+      "priorShares": 777711,
+      "change": 6305,
+      "pctChange": 0.8,
+      "currentValue": 237001636,
+      "action": "Bought",
+      "firstSeen": "2026-11-06",
+      "newThisWeek": true
+    },
     {
       "filerName": "Fisher Asset Management, LLC",
       "filerCik": "850529",
@@ -78,6 +90,18 @@
       "newThisWeek": true
     },
     {
+      "filerName": "Amundi",
+      "filerCik": "1330387",
+      "currentShares": 125887,
+      "priorShares": 104658,
+      "change": 21229,
+      "pctChange": 20.3,
+      "currentValue": 38166420,
+      "action": "Bought",
+      "firstSeen": "2026-11-06",
+      "newThisWeek": true
+    },
+    {
       "filerName": "ASR Vermogensbeheer N.V.",
       "filerCik": "1916757",
       "currentShares": 123684,
@@ -123,6 +147,18 @@
       "currentValue": 29617654,
       "action": "Sold",
       "firstSeen": "2026-11-05",
+      "newThisWeek": true
+    },
+    {
+      "filerName": "DEUTSCHE BANK AG\\",
+      "filerCik": "948046",
+      "currentShares": 94683,
+      "priorShares": 91598,
+      "change": 3085,
+      "pctChange": 3.4,
+      "currentValue": 28705992,
+      "action": "Bought",
+      "firstSeen": "2026-11-06",
       "newThisWeek": true
     },
     {
@@ -1782,6 +1818,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "Aberdeen Group plc",
+      "filerCik": "1716774",
+      "currentShares": 1636,
+      "priorShares": 1724,
+      "change": -88,
+      "pctChange": -5.1,
+      "currentValue": 496002,
+      "action": "Sold",
+      "firstSeen": "2026-11-06",
+      "newThisWeek": true
+    },
+    {
       "filerName": "Indivisible Partners",
       "filerCik": "2098400",
       "currentShares": 1609,
@@ -3076,6 +3124,18 @@
       "action": "No Change",
       "firstSeen": "2026-10-05",
       "newThisWeek": false
+    },
+    {
+      "filerName": "UMB Bank, n.a.",
+      "filerCik": "933429",
+      "currentShares": 250,
+      "priorShares": 250,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 75795,
+      "action": "No Change",
+      "firstSeen": "2026-11-06",
+      "newThisWeek": true
     },
     {
       "filerName": "CoreCap Advisors, LLC",
@@ -4410,10 +4470,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "PORTLAND INVESTMENT COUNSEL INC.",
-      "filerCik": "1081668",
+      "filerName": "FRED ALGER MANAGEMENT, LLC",
+      "filerCik": "3520",
       "currentShares": null,
-      "priorShares": 2792,
+      "priorShares": 192685,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -4422,10 +4482,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "FRED ALGER MANAGEMENT, LLC",
-      "filerCik": "3520",
+      "filerName": "PORTLAND INVESTMENT COUNSEL INC.",
+      "filerCik": "1081668",
       "currentShares": null,
-      "priorShares": 192685,
+      "priorShares": 2792,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5034,10 +5094,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Citizens Business Bank",
-      "filerCik": "1948632",
+      "filerName": "Corient IA LP",
+      "filerCik": "2058426",
       "currentShares": null,
-      "priorShares": 1773,
+      "priorShares": 2030,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5046,10 +5106,10 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Corient IA LP",
-      "filerCik": "2058426",
+      "filerName": "Citizens Business Bank",
+      "filerCik": "1948632",
       "currentShares": null,
-      "priorShares": 2030,
+      "priorShares": 1773,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6690,18 +6750,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Aberdeen Group plc",
-      "filerCik": "1716774",
-      "currentShares": null,
-      "priorShares": 1724,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "SILVERCREST ASSET MANAGEMENT GROUP LLC",
       "filerCik": "1232395",
       "currentShares": null,
@@ -6774,18 +6822,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Freestone Grove Partners LP",
-      "filerCik": "2007591",
-      "currentShares": null,
-      "priorShares": 141150,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "LifeSteps Financial, Inc.",
       "filerCik": "1801373",
       "currentShares": null,
@@ -6794,6 +6830,18 @@
       "pctChange": null,
       "currentValue": null,
       "action": "Sell Out",
+      "firstSeen": null,
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Freestone Grove Partners LP",
+      "filerCik": "2007591",
+      "currentShares": null,
+      "priorShares": 141150,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Not Filed Yet",
       "firstSeen": null,
       "newThisWeek": false
     },
@@ -7494,18 +7542,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Amundi",
-      "filerCik": "1330387",
-      "currentShares": null,
-      "priorShares": 104658,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "Neuberger Berman Group LLC",
       "filerCik": "1465109",
       "currentShares": null,
@@ -7846,18 +7882,6 @@
       "filerCik": "1648711",
       "currentShares": null,
       "priorShares": 73297,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "UMB Bank, n.a.",
-      "filerCik": "933429",
-      "currentShares": null,
-      "priorShares": 250,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -8482,18 +8506,6 @@
       "filerCik": "1512857",
       "currentShares": null,
       "priorShares": 1781,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "DEUTSCHE BANK AG\\",
-      "filerCik": "948046",
-      "currentShares": null,
-      "priorShares": 91598,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -9466,18 +9478,6 @@
       "filerCik": "1137774",
       "currentShares": null,
       "priorShares": 956,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "GEODE CAPITAL MANAGEMENT, LLC",
-      "filerCik": "1214717",
-      "currentShares": null,
-      "priorShares": 777711,
       "change": null,
       "pctChange": null,
       "currentValue": null,

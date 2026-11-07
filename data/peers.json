@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T17:53:51.506Z",
+  "lastUpdated": "2026-11-07T16:48:30.553Z",
   "peers": [
     {
       "name": "RTX Corp.",
@@ -336,6 +336,12 @@
       ],
       "topFunds": [
         {
+          "fund": "FIDELITY CONCORD STREET TRUST",
+          "manager": "FMR (Fidelity)",
+          "shares": 10232870,
+          "value": 2126185729
+        },
+        {
           "fund": "SPDR S&P 500 ETF TRUST  (SPY)",
           "manager": "State Street",
           "shares": 9553726,
@@ -448,12 +454,6 @@
           "manager": "BlackRock",
           "shares": 1673877,
           "value": 361791775
-        },
-        {
-          "fund": "FIDELITY DESTINY PORTFOLIOS",
-          "manager": "FMR (Fidelity)",
-          "shares": 1331573,
-          "value": 288245607
         }
       ]
     },
@@ -804,12 +804,6 @@
           "value": 2440024346
         },
         {
-          "fund": "AMERICAN BALANCED FUND",
-          "manager": "",
-          "shares": 1447133,
-          "value": 1927639041
-        },
-        {
           "fund": "SPDR S&P 500 ETF TRUST  (SPY)",
           "manager": "State Street",
           "shares": 677634,
@@ -910,6 +904,12 @@
           "manager": "FMR (Fidelity)",
           "shares": 161403,
           "value": 230409239
+        },
+        {
+          "fund": "AMERICAN FUNDS INSURANCE SERIES",
+          "manager": "Capital Group (American Funds)",
+          "shares": 149304,
+          "value": 198878900
         }
       ]
     },

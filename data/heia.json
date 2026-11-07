@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-09-30",
   "priorPeriod": "2026-06-30",
-  "lastUpdated": "2026-11-06T17:53:51.506Z",
+  "lastUpdated": "2026-11-07T16:48:30.553Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -15,6 +15,18 @@
       "currentValue": 1623583291,
       "action": "Sold",
       "firstSeen": "2026-11-02",
+      "newThisWeek": true
+    },
+    {
+      "filerName": "GEODE CAPITAL MANAGEMENT, LLC",
+      "filerCik": "1214717",
+      "currentShares": 1334943,
+      "priorShares": 1426925,
+      "change": -91982,
+      "pctChange": -6.4,
+      "currentValue": 303873686,
+      "action": "Sold",
+      "firstSeen": "2026-11-06",
       "newThisWeek": true
     },
     {
@@ -66,6 +78,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "Amundi",
+      "filerCik": "1330387",
+      "currentShares": 372292,
+      "priorShares": 171858,
+      "change": 200434,
+      "pctChange": 116.6,
+      "currentValue": 85005432,
+      "action": "Bought",
+      "firstSeen": "2026-11-06",
+      "newThisWeek": true
+    },
+    {
       "filerName": "DIMENSIONAL FUND ADVISORS LP",
       "filerCik": "354204",
       "currentShares": 327982,
@@ -75,6 +99,18 @@
       "currentValue": 74900347,
       "action": "Bought",
       "firstSeen": "2026-11-04",
+      "newThisWeek": true
+    },
+    {
+      "filerName": "Fiera Capital Corp",
+      "filerCik": "1505817",
+      "currentShares": 264737,
+      "priorShares": 291395,
+      "change": -26658,
+      "pctChange": -9.1,
+      "currentValue": 60447399,
+      "action": "Sold",
+      "firstSeen": "2026-11-06",
       "newThisWeek": true
     },
     {
@@ -99,6 +135,18 @@
       "currentValue": 45590596,
       "action": "Sold",
       "firstSeen": "2026-11-05",
+      "newThisWeek": true
+    },
+    {
+      "filerName": "DEUTSCHE BANK AG\\",
+      "filerCik": "948046",
+      "currentShares": 186454,
+      "priorShares": 109972,
+      "change": 76482,
+      "pctChange": 69.5,
+      "currentValue": 42573043,
+      "action": "Bought",
+      "firstSeen": "2026-11-06",
       "newThisWeek": true
     },
     {
@@ -928,6 +976,18 @@
       "action": "No Change",
       "firstSeen": "2026-10-20",
       "newThisWeek": false
+    },
+    {
+      "filerName": "Aberdeen Group plc",
+      "filerCik": "1716774",
+      "currentShares": 6645,
+      "priorShares": 7510,
+      "change": -865,
+      "pctChange": -11.5,
+      "currentValue": 1517253,
+      "action": "Sold",
+      "firstSeen": "2026-11-06",
+      "newThisWeek": true
     },
     {
       "filerName": "ASR Vermogensbeheer N.V.",
@@ -2406,6 +2466,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "UMB Bank, n.a.",
+      "filerCik": "933429",
+      "currentShares": 401,
+      "priorShares": 355,
+      "change": 46,
+      "pctChange": 13,
+      "currentValue": 91560,
+      "action": "Bought",
+      "firstSeen": "2026-11-06",
+      "newThisWeek": true
+    },
+    {
       "filerName": "Root Financial Partners, LLC",
       "filerCik": "1977181",
       "currentShares": 383,
@@ -3438,6 +3510,18 @@
       "newThisWeek": true
     },
     {
+      "filerName": "Addison Advisors LLC",
+      "filerCik": "1843745",
+      "currentShares": 3,
+      "priorShares": null,
+      "change": 3,
+      "pctChange": 100,
+      "currentValue": 685,
+      "action": "New Position",
+      "firstSeen": "2026-11-06",
+      "newThisWeek": true
+    },
+    {
       "filerName": "Cape Investment Advisory, Inc.",
       "filerCik": "1944437",
       "currentShares": 2,
@@ -4350,18 +4434,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Aberdeen Group plc",
-      "filerCik": "1716774",
-      "currentShares": null,
-      "priorShares": 7510,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "AXQ CAPITAL, LP",
       "filerCik": "1916908",
       "currentShares": null,
@@ -4878,18 +4950,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Amundi",
-      "filerCik": "1330387",
-      "currentShares": null,
-      "priorShares": 171858,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "Neuberger Berman Group LLC",
       "filerCik": "1465109",
       "currentShares": null,
@@ -5122,18 +5182,6 @@
       "filerCik": "1648711",
       "currentShares": null,
       "priorShares": 3588,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "UMB Bank, n.a.",
-      "filerCik": "933429",
-      "currentShares": null,
-      "priorShares": 355,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -5626,18 +5674,6 @@
       "filerCik": "2057170",
       "currentShares": null,
       "priorShares": 35722,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "DEUTSCHE BANK AG\\",
-      "filerCik": "948046",
-      "currentShares": null,
-      "priorShares": 109972,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -6522,18 +6558,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "GEODE CAPITAL MANAGEMENT, LLC",
-      "filerCik": "1214717",
-      "currentShares": null,
-      "priorShares": 1426925,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "JANE STREET GROUP, LLC",
       "filerCik": "1595888",
       "currentShares": null,
@@ -7342,18 +7366,6 @@
       "filerCik": "1144492",
       "currentShares": null,
       "priorShares": 7533,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Fiera Capital Corp",
-      "filerCik": "1505817",
-      "currentShares": null,
-      "priorShares": 291395,
       "change": null,
       "pctChange": null,
       "currentValue": null,
