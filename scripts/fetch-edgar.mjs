@@ -157,15 +157,25 @@ function mostRecentQuarterEnd(today) {
   return `${y}-09-30`;
 }
 
-// The most recent quarter whose 13F filing deadline (quarter-end + 45 days) has
-// passed — i.e. the latest "settled" quarter. Used for the monthly snapshot.
+// The date a quarter counts as "settled": the 13F deadline (quarter-end + 45 days,
+// rolled forward to Monday if it lands on a weekend, per SEC rules), plus 2
+// business days of buffer for deadline-day filings to reach EDGAR's index.
+// e.g. Q3-2026: Sep 30 + 45 = Sat Nov 14 → deadline Mon Nov 16 → settled Wed Nov 18.
+// Switching any earlier makes deadline-day filers look like sellouts.
+function quarterSettledDate(qeStr) {
+  const d = new Date(`${qeStr}T00:00:00Z`);
+  d.setUTCDate(d.getUTCDate() + 45);
+  const skipWeekend = () => { while (d.getUTCDay() === 0 || d.getUTCDay() === 6) d.setUTCDate(d.getUTCDate() + 1); };
+  skipWeekend();
+  for (let i = 0; i < 2; i++) { d.setUTCDate(d.getUTCDate() + 1); skipWeekend(); }
+  return d;
+}
+
+// The most recent quarter that has settled (see above). Used for the quarterly
+// Ownership Report and peer reports.
 function mostRecentCompleteQuarterEnd(today) {
   let qe = mostRecentQuarterEnd(today);
-  const deadlinePassed = qeStr => {
-    const d = new Date(`${qeStr}T00:00:00Z`);
-    d.setUTCDate(d.getUTCDate() + 45);
-    return d.getTime() <= today.getTime();
-  };
+  const deadlinePassed = qeStr => quarterSettledDate(qeStr).getTime() <= today.getTime();
   for (let i = 0; i < 4 && !deadlinePassed(qe); i++) qe = priorQuarterEnd(qe);
   return qe;
 }
