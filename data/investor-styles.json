@@ -1,9 +1,9 @@
 {
-  "asOf": "2026-11-11T18:49:06.161Z",
+  "asOf": "2026-11-12T19:05:56.519Z",
   "period": "2026-06-30",
   "hei": {
-    "total": 782,
-    "totalShares": 43789584,
+    "total": 783,
+    "totalShares": 43831245,
     "categories": [
       {
         "style": "Growth",
@@ -284,7 +284,7 @@
         "holders": 64,
         "holderPct": 8.2,
         "shares": 3613839,
-        "sharePct": 8.3,
+        "sharePct": 8.2,
         "estCount": 36,
         "examples": [
           "TWO SIGMA INVESTMENTS, LP",
@@ -648,10 +648,10 @@
       },
       {
         "style": "Blend/Core",
-        "holders": 586,
-        "holderPct": 74.9,
-        "shares": 26291269,
-        "sharePct": 60,
+        "holders": 587,
+        "holderPct": 75,
+        "shares": 26332930,
+        "sharePct": 60.1,
         "estCount": 128,
         "examples": [
           "BlackRock, Inc.  (BLK)",
@@ -1009,6 +1009,11 @@
           {
             "name": "Lansforsakringar Fondforvaltning AB (publ)",
             "shares": 45469,
+            "est": false
+          },
+          {
+            "name": "BOLTON SECURITIES CORPORATION",
+            "shares": 41661,
             "est": false
           },
           {
@@ -3596,7 +3601,7 @@
       {
         "style": "Unclassified",
         "holders": 81,
-        "holderPct": 10.4,
+        "holderPct": 10.3,
         "shares": 361331,
         "sharePct": 0.8,
         "estCount": 0,
@@ -4018,14 +4023,14 @@
     ],
     "coverage": {
       "curated": 160,
-      "heuristic": 354,
+      "heuristic": 355,
       "estimated": 187,
       "unknown": 81
     }
   },
   "heia": {
-    "total": 676,
-    "totalShares": 70123321,
+    "total": 677,
+    "totalShares": 70123509,
     "categories": [
       {
         "style": "Growth",
@@ -4563,9 +4568,9 @@
       },
       {
         "style": "Blend/Core",
-        "holders": 513,
+        "holders": 514,
         "holderPct": 75.9,
-        "shares": 48989407,
+        "shares": 48989595,
         "sharePct": 69.9,
         "estCount": 106,
         "examples": [
@@ -6677,6 +6682,11 @@
             "est": false
           },
           {
+            "name": "BOLTON SECURITIES CORPORATION",
+            "shares": 188,
+            "est": false
+          },
+          {
             "name": "CENTRAL TRUST Co",
             "shares": 169,
             "est": false
@@ -7508,14 +7518,14 @@
     ],
     "coverage": {
       "curated": 170,
-      "heuristic": 299,
+      "heuristic": 300,
       "estimated": 138,
       "unknown": 69
     }
   },
   "combined": {
-    "total": 1018,
-    "totalShares": 113912905,
+    "total": 1019,
+    "totalShares": 113954754,
     "categories": [
       {
         "style": "Growth",
@@ -7909,7 +7919,7 @@
       {
         "style": "Momentum/Quant",
         "holders": 84,
-        "holderPct": 8.3,
+        "holderPct": 8.2,
         "shares": 8216550,
         "sharePct": 7.2,
         "estCount": 46,
@@ -8375,9 +8385,9 @@
       },
       {
         "style": "Blend/Core",
-        "holders": 742,
+        "holders": 743,
         "holderPct": 72.9,
-        "shares": 75280676,
+        "shares": 75322525,
         "sharePct": 66.1,
         "estCount": 159,
         "examples": [
@@ -9086,6 +9096,11 @@
           {
             "name": "Nykredit A/S",
             "shares": 42387,
+            "est": false
+          },
+          {
+            "name": "BOLTON SECURITIES CORPORATION",
+            "shares": 41849,
             "est": false
           },
           {
@@ -12710,7 +12725,7 @@
     ],
     "coverage": {
       "curated": 192,
-      "heuristic": 470,
+      "heuristic": 471,
       "estimated": 238,
       "unknown": 118
     }
