@@ -1,4 +1,4 @@
-export type Action = "New Position" | "Bought" | "Sold" | "Sell Out" | "No Change" | "Not Filed Yet";
+export type Action = "New Position" | "Bought" | "Sold" | "Sell Out" | "No Change" | "Not Filed Yet" | "Confidential";
 
 export interface Holding {
   filerName: string;

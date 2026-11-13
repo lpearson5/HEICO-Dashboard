@@ -41,15 +41,16 @@ const ACTION_COLORS: Record<Action, string> = {
   "Sell Out":      "bg-red-100 text-red-800 border-red-200",
   "No Change":     "bg-gray-100 text-gray-600 border-gray-200",
   "Not Filed Yet": "bg-purple-100 text-purple-800 border-purple-200",
+  Confidential:    "bg-slate-100 text-slate-700 border-slate-300",
 };
 
 const ACTION_FILTER_ORDER: (Action | "All")[] = [
-  "All", "New Position", "Bought", "Sold", "Sell Out", "No Change", "Not Filed Yet",
+  "All", "New Position", "Bought", "Sold", "Sell Out", "No Change", "Not Filed Yet", "Confidential",
 ];
 
 // Rank used when sorting by the Action column (logical order, not alphabetical).
 const ACTION_RANK: Record<Action, number> = {
-  "New Position": 0, Bought: 1, Sold: 2, "Sell Out": 3, "No Change": 4, "Not Filed Yet": 5,
+  "New Position": 0, Bought: 1, Sold: 2, "Sell Out": 3, "No Change": 4, "Not Filed Yet": 5, Confidential: 6,
 };
 
 // A "large move" = a quarter-over-quarter buy or sell of this many shares or more.
@@ -70,7 +71,7 @@ type SortKey =
   | "pctChange" | "currentValue" | "action" | "filed";
 
 // A filer has reported for the current quarter unless they're still pending.
-const hasFiled = (h: Holding): boolean => h.action !== "Not Filed Yet";
+const hasFiled = (h: Holding): boolean => h.action !== "Not Filed Yet" && h.action !== "Confidential";
 
 function fmt(n: number | null, decimals = 0): string {
   if (n == null) return "—";
@@ -157,11 +158,11 @@ export default function Dashboard({
       // During filing season a holder that hasn't filed the new quarter yet keeps
       // its last-filed position (value unknown at today's price) instead of
       // vanishing from the CRM.
-      const notFiled = h.currentShares == null && h.action === "Not Filed Yet" && h.priorShares != null;
+      const notFiled = h.currentShares == null && (h.action === "Not Filed Yet" || h.action === "Confidential") && h.priorShares != null;
       const shares = notFiled ? h.priorShares : h.currentShares;
       if (shares == null) return;
       const value = notFiled ? null : h.currentValue;
-      const action = notFiled ? "Not filed yet (last-filed shown)" : h.action;
+      const action = notFiled ? (h.action === "Confidential" ? "Confidential filing (last-filed shown)" : "Not filed yet (last-filed shown)") : h.action;
       const key = normName(h.filerName);
       const prev = map[key];
       if (prev) {
@@ -189,7 +190,7 @@ export default function Dashboard({
   const summary = useMemo(() => {
     if (!data) return null;
     const counts: Record<Action, number> = {
-      "New Position": 0, Bought: 0, Sold: 0, "Sell Out": 0, "No Change": 0, "Not Filed Yet": 0,
+      "New Position": 0, Bought: 0, Sold: 0, "Sell Out": 0, "No Change": 0, "Not Filed Yet": 0, Confidential: 0,
     };
     for (const h of data.holdings) counts[h.action]++;
     return counts;

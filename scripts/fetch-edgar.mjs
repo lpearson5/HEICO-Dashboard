@@ -290,10 +290,10 @@ async function fetchFiling(h, cache) {
 
 // ─── Holdings builder ─────────────────────────────────────────────────────────
 
-function classify(cur, pri, filedCurrent) {
+function classify(cur, pri, filedCurrent, confidential) {
   // No current position but held last quarter: distinguish a real exit (they
   // filed this quarter and dropped HEICO) from a filer who simply hasn't filed yet.
-  if (cur == null && pri != null) return filedCurrent ? "Sell Out" : "Not Filed Yet";
+  if (cur == null && pri != null) return confidential ? "Confidential" : filedCurrent ? "Sell Out" : "Not Filed Yet";
   if (cur != null && pri == null) return "New Position";
   if (cur == null) return "No Change";
   if (cur > pri) return "Bought";
@@ -301,7 +301,7 @@ function classify(cur, pri, filedCurrent) {
   return "No Change";
 }
 
-function buildHoldings(ticker, curByCik, priByCik, nameByCik, filedSet) {
+function buildHoldings(ticker, curByCik, priByCik, nameByCik, filedSet, confidentialSet = new Set()) {
   const holdings = [];
   for (const cik of new Set([...curByCik.keys(), ...priByCik.keys()])) {
     const curSh = curByCik.get(cik)?.shares ?? null;
@@ -324,7 +324,7 @@ function buildHoldings(ticker, curByCik, priByCik, nameByCik, filedSet) {
       priorShares:   priSh,
       change, pctChange,
       currentValue:  curByCik.get(cik)?.value ?? null,
-      action:        classify(curSh, priSh, filedSet.has(cik)),
+      action:        classify(curSh, priSh, filedSet.has(cik), confidentialSet.has(cik)),
     });
   }
   return holdings.sort((a, b) => (b.currentShares ?? -1) - (a.currentShares ?? -1));
@@ -347,7 +347,7 @@ function moveOf(h) {
   if (h.action === "Sold")         return { size: -h.change,       dir: "decreased" };
   if (h.action === "New Position") return { size: h.currentShares, dir: "new position" };
   if (h.action === "Sell Out")     return { size: h.priorShares,   dir: "exited" };
-  return null; // No Change / Not Filed Yet → not a confirmed move
+  return null; // No Change / Not Filed Yet / Confidential → not a confirmed move
 }
 
 // Has this filer submitted any 13F-HR for the given holdings period yet?
@@ -490,6 +490,7 @@ async function main() {
   // doesn't, it's a real exit; if we can't read it, leave them "Not Filed Yet".
   // (2026-11-13: Norges Bank's Q3 filing was minutes old → false 1.38M "exit" alert.)
   console.log(`\nChecking filing status of ${priorOnly.length} prior-only filers…`);
+  const confidentialSet = new Set();
   let pc = 0;
   for (const cik of priorOnly) {
     const cf = await findCurrentFiling(cik, current, cache);
@@ -498,8 +499,9 @@ async function main() {
       if (doc) {
         const h = { accession: cf.accession, cik, name: nameByCik.get(cik), period: current, fileDate: cf.fileDate, doc };
         const rec = await fetchFiling(h, cache);
-        // Confidential filings don't disclose holdings → leave as "Not Filed Yet".
-        if (rec.ok && !rec.confidential) { filings.push(h); filedSet.add(cik); }
+        // Confidential filings don't disclose holdings → shown as "Confidential".
+        if (rec.ok && rec.confidential) confidentialSet.add(cik);
+        else if (rec.ok) { filings.push(h); filedSet.add(cik); }
       }
     }
     if (++pc % 25 === 0) { saveCache(cache); console.log(`  filing status ${pc}/${priorOnly.length}`); }
@@ -524,7 +526,7 @@ async function main() {
       if (h.period === current) curByCik.set(h.cik, pos);
       else if (h.period === prior) priByCik.set(h.cik, pos);
     }
-    const holdings = buildHoldings(ticker, curByCik, priByCik, nameByCik, filedSet);
+    const holdings = buildHoldings(ticker, curByCik, priByCik, nameByCik, filedSet, confidentialSet);
     annotateNewThisWeek(holdings, curFileDateByCik, today);
     const withPos  = holdings.filter(x => x.currentShares != null).length;
     const newCount = holdings.filter(x => x.newThisWeek).length;
