@@ -349,22 +349,36 @@ function moveOf(h) {
 // Has this filer submitted any 13F-HR for the given holdings period yet?
 // Cached as true once filed (immutable); pending results are not cached so
 // they get re-checked next run.
-async function hasFiledCurrent(cik, period, cache) {
+// Find a filer's 13F for `period` via their SEC submissions list. Returns
+// { accession, fileDate } (latest such filing) or null. Cached once found.
+async function findCurrentFiling(cik, period, cache) {
   if (!cache._filed) cache._filed = {};
   const key = `${cik}|${period}`;
-  if (cache._filed[key]) return true;
+  const hit = cache._filed[key];
+  if (hit && typeof hit === "object") return hit; // (legacy `true` entries are re-checked)
   const sub = await getRetry(
     `https://data.sec.gov/submissions/CIK${String(cik).padStart(10, "0")}.json`,
     { json: true }
   );
   const f = sub?.filings?.recent;
-  if (!f) return false;
-  let filed = false;
-  for (let i = 0; i < f.form.length; i++) {
-    if (f.form[i].startsWith("13F-HR") && f.reportDate[i] === period) { filed = true; break; }
+  if (!f) return null;
+  for (let i = 0; i < f.form.length; i++) {   // newest first
+    if (f.form[i].startsWith("13F-HR") && f.reportDate[i] === period) {
+      const found = { accession: f.accessionNumber[i], fileDate: f.filingDate[i] };
+      cache._filed[key] = found;
+      return found;
+    }
   }
-  if (filed) cache._filed[key] = true;
-  return filed;
+  return null;
+}
+
+// Name of the information-table XML inside a 13F filing (not the cover page).
+async function infoTableDoc(cik, accession) {
+  const noD = accession.replace(/-/g, "");
+  const idx = await getRetry(`https://www.sec.gov/Archives/edgar/data/${cik}/${noD}/index.json`, { json: true });
+  const items = idx?.directory?.item ?? [];
+  const xml = items.map(x => x.name).filter(n => /\.xml$/i.test(n) && !/primary_doc\.xml$/i.test(n));
+  return xml[0] ?? null;
 }
 
 // Live shares outstanding by class, parsed from HEICO's latest 10-Q/10-K cover.
@@ -466,10 +480,23 @@ async function main() {
   const priorOnly = [...new Set(
     filings.filter(h => h.period === prior && !filedSet.has(h.cik)).map(h => h.cik)
   )];
+  // A new filing can appear in a filer's submissions list before the full-text
+  // search indexes it. Never call that a "Sell Out" without reading the filing:
+  // fetch its info table directly. If it still lists HEICO it's a holder; if it
+  // doesn't, it's a real exit; if we can't read it, leave them "Not Filed Yet".
+  // (2026-11-13: Norges Bank's Q3 filing was minutes old → false 1.38M "exit" alert.)
   console.log(`\nChecking filing status of ${priorOnly.length} prior-only filers…`);
   let pc = 0;
   for (const cik of priorOnly) {
-    if (await hasFiledCurrent(cik, current, cache)) filedSet.add(cik);
+    const cf = await findCurrentFiling(cik, current, cache);
+    if (cf) {
+      const doc = cache[cf.accession]?.ok ? "(cached)" : await infoTableDoc(cik, cf.accession);
+      if (doc) {
+        const h = { accession: cf.accession, cik, name: nameByCik.get(cik), period: current, fileDate: cf.fileDate, doc };
+        const rec = await fetchFiling(h, cache);
+        if (rec.ok) { filings.push(h); filedSet.add(cik); }
+      }
+    }
     if (++pc % 25 === 0) { saveCache(cache); console.log(`  filing status ${pc}/${priorOnly.length}`); }
     await sleep(150);
   }
