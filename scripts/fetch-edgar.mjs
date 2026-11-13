@@ -279,7 +279,11 @@ async function fetchFiling(h, cache) {
   const url = `https://www.sec.gov/Archives/edgar/data/${h.cik}/${noD}/${h.doc}`;
   const xml = await getRetry(url);
   const positions = xml ? parseInfoTable(xml) : {};
-  const rec = { cik: h.cik, name: h.name, period: h.period, fileDate: h.fileDate ?? null, positions, ok: !!xml };
+  // Confidential-treatment filings (e.g. Norges Bank) replace the whole holdings
+  // table with one placeholder row (CUSIP 000000000). That tells us nothing about
+  // HEICO — it must never be read as a sellout.
+  const confidential = !!xml && /<(?:\w+:)?cusip>\s*0{9}\s*</i.test(xml);
+  const rec = { cik: h.cik, name: h.name, period: h.period, fileDate: h.fileDate ?? null, positions, confidential, ok: !!xml };
   if (rec.ok) cache[h.accession] = rec;   // don't persist failures
   return rec;
 }
@@ -494,7 +498,8 @@ async function main() {
       if (doc) {
         const h = { accession: cf.accession, cik, name: nameByCik.get(cik), period: current, fileDate: cf.fileDate, doc };
         const rec = await fetchFiling(h, cache);
-        if (rec.ok) { filings.push(h); filedSet.add(cik); }
+        // Confidential filings don't disclose holdings → leave as "Not Filed Yet".
+        if (rec.ok && !rec.confidential) { filings.push(h); filedSet.add(cik); }
       }
     }
     if (++pc % 25 === 0) { saveCache(cache); console.log(`  filing status ${pc}/${priorOnly.length}`); }
