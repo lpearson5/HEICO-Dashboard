@@ -2,10 +2,10 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-11-12T18:47:37.331Z",
+  "lastUpdated": "2026-11-13T18:29:27.769Z",
   "summary": {
     "funds": 345,
-    "totalShares": 27957064,
+    "totalShares": 27957057,
     "pctOut": 33.0791,
     "newFunds": 11,
     "sellouts": 30,
@@ -5382,19 +5382,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "AB Dynamic Asset Allocation Portfolio",
-      "registrant": "AB VARIABLE PRODUCTS SERIES FUND, INC.",
-      "manager": "",
-      "cik": "825316",
-      "shares": 128,
-      "value": 33012,
-      "reportDate": "2026-06-30",
-      "priorShares": 138,
-      "change": -10,
-      "pctOut": 0.00019999999999999998,
-      "action": "Sold"
-    },
-    {
       "fundName": "Dimensional US Large Cap Vector ETF",
       "registrant": "Dimensional ETF Trust",
       "manager": "Dimensional",
@@ -5417,6 +5404,19 @@
       "reportDate": "2026-06-30",
       "priorShares": 474,
       "change": -350,
+      "pctOut": 0.00009999999999999999,
+      "action": "Sold"
+    },
+    {
+      "fundName": "AB Dynamic Asset Allocation Portfolio",
+      "registrant": "AB VARIABLE PRODUCTS SERIES FUND, INC.",
+      "manager": "",
+      "cik": "825316",
+      "shares": 121,
+      "value": 27628,
+      "reportDate": "2026-09-30",
+      "priorShares": 128,
+      "change": -7,
       "pctOut": 0.00009999999999999999,
       "action": "Sold"
     },

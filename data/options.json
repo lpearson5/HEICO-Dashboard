@@ -1,10 +1,10 @@
 {
-  "asOf": "2026-11-12T19:04:58.021Z",
+  "asOf": "2026-11-13T18:46:09.643Z",
   "currentPeriod": "2026-09-30",
   "totals": {
     "HEI": {
-      "put": 14960,
-      "call": 8200
+      "put": 20460,
+      "call": 62900
     },
     "HEIA": {
       "put": 0,
@@ -12,6 +12,14 @@
     }
   },
   "holders": [
+    {
+      "filer": "JANE STREET GROUP, LLC",
+      "cik": "1595888",
+      "heiPut": 5500,
+      "heiCall": 54700,
+      "heiaPut": 0,
+      "heiaCall": 0
+    },
     {
       "filer": "Squarepoint Ops LLC",
       "cik": "1642575",

@@ -8,7 +8,7 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-11-12T18:47:37.331Z",
+  "lastUpdated": "2026-11-13T18:29:27.769Z",
   "summary": {
     "institutions": 678,
     "totalShares": 70123509,
@@ -6052,9 +6052,9 @@
       "pctOut": 0.04,
       "action": "Bought",
       "discretion": "DFND",
-      "voteSole": 0,
+      "voteSole": 35743,
       "voteShared": 0,
-      "voteNone": 35743
+      "voteNone": 0
     },
     {
       "filerName": "Universal- Beteiligungs- und Servicegesellschaft mbH",
@@ -9698,11 +9698,11 @@
       "shares": [
         3051,
         3830,
-        null,
+        4285,
         4690
       ],
       "netChg": -779,
-      "currentValue": 787,
+      "currentValue": 786883,
       "pctOut": 0,
       "action": "Sold",
       "discretion": "DFND",
@@ -13118,7 +13118,7 @@
       "shares": [
         188,
         25,
-        null,
+        25,
         25
       ],
       "netChg": 163,
@@ -15597,24 +15597,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Alliance Wealth Advisors, LLC /UT",
-      "filerCik": "1893261",
-      "shares": [
-        null,
-        null,
-        null,
-        798
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Varma Mutual Pension Insurance Co",
       "filerCik": "1698484",
       "shares": [
@@ -15627,6 +15609,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Alliance Wealth Advisors, LLC /UT",
+      "filerCik": "1893261",
+      "shares": [
+        null,
+        null,
+        null,
+        798
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -17325,24 +17325,6 @@
       "voteNone": null
     },
     {
-      "filerName": "BALLAST ADVISORS LLC",
-      "filerCik": "1803415",
-      "shares": [
-        null,
-        14,
-        null,
-        null
-      ],
-      "netChg": -14,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Atlantic Private Wealth, LLC",
       "filerCik": "1893143",
       "shares": [
@@ -17355,6 +17337,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "BALLAST ADVISORS LLC",
+      "filerCik": "1803415",
+      "shares": [
+        null,
+        14,
+        null,
+        null
+      ],
+      "netChg": -14,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -17811,12 +17811,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Wellington Grp LLC",
-      "filerCik": "2134013",
+      "filerName": "Turning Point Benefit Group, Inc.",
+      "filerCik": "2008513",
       "shares": [
         null,
         null,
-        39,
+        6,
         null
       ],
       "netChg": null,
@@ -17829,12 +17829,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Turning Point Benefit Group, Inc.",
-      "filerCik": "2008513",
+      "filerName": "Wellington Grp LLC",
+      "filerCik": "2134013",
       "shares": [
         null,
         null,
-        6,
+        39,
         null
       ],
       "netChg": null,

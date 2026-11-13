@@ -8,7 +8,7 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-11-12T18:47:37.331Z",
+  "lastUpdated": "2026-11-13T18:29:27.769Z",
   "summary": {
     "institutions": 783,
     "totalShares": 43831245,
@@ -5882,7 +5882,7 @@
       "shares": [
         41661,
         34951,
-        null,
+        34722,
         40151
       ],
       "netChg": 6710,
@@ -6988,9 +6988,9 @@
       "pctOut": 0.04,
       "action": "Bought",
       "discretion": "DFND",
-      "voteSole": 0,
+      "voteSole": 20672,
       "voteShared": 0,
-      "voteNone": 20672
+      "voteNone": 0
     },
     {
       "filerName": "GATEWAY INVESTMENT ADVISERS LLC",
@@ -16560,7 +16560,7 @@
         30
       ],
       "netChg": 0,
-      "currentValue": 11,
+      "currentValue": 10686,
       "pctOut": 0,
       "action": "No Change",
       "discretion": "DFND",
@@ -18243,24 +18243,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Accent Capital Management, LLC",
-      "filerCik": "2014179",
-      "shares": [
-        null,
-        2497,
-        null,
-        null
-      ],
-      "netChg": -2497,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "MorganRosel Wealth Management, LLC",
       "filerCik": "1753218",
       "shares": [
@@ -18270,6 +18252,24 @@
         4406
       ],
       "netChg": -2243,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Accent Capital Management, LLC",
+      "filerCik": "2014179",
+      "shares": [
+        null,
+        2497,
+        null,
+        null
+      ],
+      "netChg": -2497,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
@@ -18477,24 +18477,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Goodman Advisory Group, LLC",
-      "filerCik": "1864123",
-      "shares": [
-        null,
-        1932,
-        null,
-        null
-      ],
-      "netChg": -1932,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Berbice Capital Management LLC",
       "filerCik": "2051605",
       "shares": [
@@ -18507,6 +18489,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Goodman Advisory Group, LLC",
+      "filerCik": "1864123",
+      "shares": [
+        null,
+        1932,
+        null,
+        null
+      ],
+      "netChg": -1932,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -18765,24 +18765,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Alliance Wealth Advisors, LLC /UT",
-      "filerCik": "1893261",
-      "shares": [
-        null,
-        null,
-        null,
-        697
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Varma Mutual Pension Insurance Co",
       "filerCik": "1698484",
       "shares": [
@@ -18795,6 +18777,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Alliance Wealth Advisors, LLC /UT",
+      "filerCik": "1893261",
+      "shares": [
+        null,
+        null,
+        null,
+        697
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19017,24 +19017,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Cornerstone Wealth Group, LLC",
-      "filerCik": "1774879",
-      "shares": [
-        null,
-        null,
-        620,
-        null
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Reyes Financial Architecture, Inc.",
       "filerCik": "2047201",
       "shares": [
@@ -19053,12 +19035,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Modus Advisors, LLC",
-      "filerCik": "1799284",
+      "filerName": "Cornerstone Wealth Group, LLC",
+      "filerCik": "1774879",
       "shares": [
         null,
         null,
-        24,
+        620,
         null
       ],
       "netChg": null,
@@ -19083,6 +19065,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Modus Advisors, LLC",
+      "filerCik": "1799284",
+      "shares": [
+        null,
+        null,
+        24,
+        null
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19179,6 +19179,24 @@
       "voteNone": null
     },
     {
+      "filerName": "BEESE FULMER INVESTMENT MANAGEMENT, INC.",
+      "filerCik": "911274",
+      "shares": [
+        null,
+        1303,
+        1092,
+        null
+      ],
+      "netChg": -1303,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "FORA Capital, LLC",
       "filerCik": "1742435",
       "shares": [
@@ -19209,24 +19227,6 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "BEESE FULMER INVESTMENT MANAGEMENT, INC.",
-      "filerCik": "911274",
-      "shares": [
-        null,
-        1303,
-        1092,
-        null
-      ],
-      "netChg": -1303,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19575,24 +19575,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Meramec Financial Planners, LLC",
-      "filerCik": "2100778",
-      "shares": [
-        null,
-        41,
-        41,
-        null
-      ],
-      "netChg": -41,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Inspire Advisors, LLC",
       "filerCik": "1810558",
       "shares": [
@@ -19659,6 +19641,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Meramec Financial Planners, LLC",
+      "filerCik": "2100778",
+      "shares": [
+        null,
+        41,
+        41,
+        null
+      ],
+      "netChg": -41,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19845,12 +19845,12 @@
       "voteNone": null
     },
     {
-      "filerName": "V-Square Quantitative Management LLC",
-      "filerCik": "1943239",
+      "filerName": "Legato Capital Management LLC",
+      "filerCik": "1442641",
       "shares": [
         null,
         null,
-        115,
+        1077,
         null
       ],
       "netChg": null,
@@ -19863,12 +19863,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Legato Capital Management LLC",
-      "filerCik": "1442641",
+      "filerName": "V-Square Quantitative Management LLC",
+      "filerCik": "1943239",
       "shares": [
         null,
         null,
-        1077,
+        115,
         null
       ],
       "netChg": null,
