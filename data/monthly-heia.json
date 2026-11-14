@@ -8,10 +8,10 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-11-13T18:29:27.769Z",
+  "lastUpdated": "2026-11-14T16:56:26.598Z",
   "summary": {
     "institutions": 678,
-    "totalShares": 70123509,
+    "totalShares": 70124092,
     "pctOut": 82.97,
     "newHolders": 109,
     "sellouts": 60,
@@ -5013,6 +5013,24 @@
       "voteNone": 0
     },
     {
+      "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
+      "filerCik": "1081019",
+      "shares": [
+        94947,
+        87544,
+        90012,
+        98457
+      ],
+      "netChg": 7403,
+      "currentValue": 24487781,
+      "pctOut": 0.11,
+      "action": "Bought",
+      "discretion": "SOLE",
+      "voteSole": 94947,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "Advaya LLP",
       "filerCik": "2056686",
       "shares": [
@@ -5027,24 +5045,6 @@
       "action": "No Change",
       "discretion": "SOLE",
       "voteSole": 94520,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
-      "filerName": "CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM",
-      "filerCik": "1081019",
-      "shares": [
-        94364,
-        87544,
-        90012,
-        98457
-      ],
-      "netChg": 6820,
-      "currentValue": 24337419,
-      "pctOut": 0.11,
-      "action": "Bought",
-      "discretion": "SOLE",
-      "voteSole": 94364,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -16389,24 +16389,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Virtu Financial LLC",
-      "filerCik": "1533964",
-      "shares": [
-        null,
-        null,
-        null,
-        3098
-      ],
-      "netChg": null,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "No Change",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "JANUS HENDERSON GROUP PLC  (JHG)",
       "filerCik": "1274173",
       "shares": [
@@ -16419,6 +16401,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Virtu Financial LLC",
+      "filerCik": "1533964",
+      "shares": [
+        null,
+        null,
+        null,
+        3098
+      ],
+      "netChg": null,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "No Change",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -17811,12 +17811,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Turning Point Benefit Group, Inc.",
-      "filerCik": "2008513",
+      "filerName": "Wellington Grp LLC",
+      "filerCik": "2134013",
       "shares": [
         null,
         null,
-        6,
+        39,
         null
       ],
       "netChg": null,
@@ -17829,12 +17829,12 @@
       "voteNone": null
     },
     {
-      "filerName": "Wellington Grp LLC",
-      "filerCik": "2134013",
+      "filerName": "Turning Point Benefit Group, Inc.",
+      "filerCik": "2008513",
       "shares": [
         null,
         null,
-        39,
+        6,
         null
       ],
       "netChg": null,
@@ -17901,13 +17901,13 @@
       "voteNone": null
     },
     {
-      "filerName": "TUCKER ASSET MANAGEMENT LLC",
-      "filerCik": "1870012",
+      "filerName": "Point72 (DIFC) Ltd",
+      "filerCik": "2017863",
       "shares": [
         null,
         null,
-        12,
-        null
+        null,
+        5932
       ],
       "netChg": null,
       "currentValue": null,
@@ -17919,13 +17919,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Point72 (DIFC) Ltd",
-      "filerCik": "2017863",
+      "filerName": "TUCKER ASSET MANAGEMENT LLC",
+      "filerCik": "1870012",
       "shares": [
         null,
         null,
-        null,
-        5932
+        12,
+        null
       ],
       "netChg": null,
       "currentValue": null,
