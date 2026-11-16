@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-11-15T17:39:29.051Z",
+  "lastUpdated": "2026-11-16T20:55:09.322Z",
   "summary": {
-    "funds": 435,
-    "totalShares": 19605258,
-    "pctOut": 35.49,
-    "newFunds": 53,
-    "sellouts": 48,
+    "funds": 433,
+    "totalShares": 19583159,
+    "pctOut": 35.449999999999996,
+    "newFunds": 52,
+    "sellouts": 47,
     "linkedManagers": 25,
-    "linkedShares": 16837382
+    "linkedShares": 16815408
   },
   "newHolders": [
     {
@@ -167,19 +167,6 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.0394,
-      "action": "New"
-    },
-    {
-      "fundName": "iShares Disciplined Volatility Equity Active ETF",
-      "registrant": "BlackRock ETF Trust",
-      "manager": "BlackRock",
-      "cik": "1761055",
-      "shares": 20894,
-      "value": 5639708,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0378,
       "action": "New"
     },
     {
@@ -922,13 +909,6 @@
       "lastReport": "2026-03-31"
     },
     {
-      "fundName": "Federated Hermes Global Allocation Fund",
-      "registrant": "Federated Hermes Global Allocation Fund",
-      "manager": "",
-      "lastShares": 511,
-      "lastReport": "2026-02-28"
-    },
-    {
       "fundName": "Gotham Neutral Fund",
       "registrant": "FundVantage Trust",
       "manager": "",
@@ -1170,8 +1150,8 @@
     },
     {
       "manager": "FMR (Fidelity)",
-      "fundCount": 41,
-      "shares": 2029708,
+      "fundCount": 40,
+      "shares": 2027893,
       "funds": [
         {
           "fundName": "Fidelity Advisor International Capital Appreciation Fund",
@@ -1280,10 +1260,6 @@
         {
           "fundName": "SA Fidelity Institutional AM Global Equities Portfolio",
           "shares": 2429
-        },
-        {
-          "fundName": "Strategic Advisers U.S. Total Stock Fund",
-          "shares": 1815
         },
         {
           "fundName": "LVIP Blended Large Cap Growth Managed Volatility Fund",
@@ -1464,8 +1440,8 @@
     },
     {
       "manager": "BlackRock",
-      "fundCount": 36,
-      "shares": 1720849,
+      "fundCount": 35,
+      "shares": 1699955,
       "funds": [
         {
           "fundName": "iShares U.S. Aerospace &amp; Defense ETF",
@@ -1506,10 +1482,6 @@
         {
           "fundName": "iShares Morningstar Mid-Cap Growth ETF",
           "shares": 22728
-        },
-        {
-          "fundName": "iShares Disciplined Volatility Equity Active ETF",
-          "shares": 20894
         },
         {
           "fundName": "iShares MSCI USA Quality GARP ETF",
@@ -2227,11 +2199,11 @@
     {
       "manager": "Goldman Sachs",
       "fundCount": 5,
-      "shares": 14642,
+      "shares": 15377,
       "funds": [
         {
           "fundName": "Goldman Sachs Equal Weight U.S. Large Cap Equity ETF",
-          "shares": 11276
+          "shares": 12011
         },
         {
           "fundName": "Goldman Sachs MarketBeta U.S. 1000 Equity ETF",
@@ -3771,19 +3743,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "iShares Disciplined Volatility Equity Active ETF",
-      "registrant": "BlackRock ETF Trust",
-      "manager": "BlackRock",
-      "cik": "1761055",
-      "shares": 20894,
-      "value": 5639708,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0378,
-      "action": "New"
-    },
-    {
       "fundName": "VOYA LARGE-CAP GROWTH FUND",
       "registrant": "Voya Equity Trust",
       "manager": "Voya",
@@ -4265,6 +4224,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Goldman Sachs Equal Weight U.S. Large Cap Equity ETF",
+      "registrant": "Goldman Sachs ETF Trust",
+      "manager": "Goldman Sachs",
+      "cik": "1479026",
+      "shares": 12011,
+      "value": 4181990,
+      "reportDate": "2026-05-31",
+      "priorShares": 9852,
+      "change": 2159,
+      "pctOut": 0.0217,
+      "action": "Bought"
+    },
+    {
       "fundName": "T. Rowe Price Growth ETF",
       "registrant": "T. Rowe Price Exchange-Traded Funds, Inc.",
       "manager": "T. Rowe Price",
@@ -4339,19 +4311,6 @@
       "reportDate": "2026-07-31",
       "priorShares": 12127,
       "change": -839,
-      "pctOut": 0.0204,
-      "action": "Sold"
-    },
-    {
-      "fundName": "Goldman Sachs Equal Weight U.S. Large Cap Equity ETF",
-      "registrant": "Goldman Sachs ETF Trust",
-      "manager": "Goldman Sachs",
-      "cik": "1479026",
-      "shares": 11276,
-      "value": 3734047,
-      "reportDate": "2026-08-31",
-      "priorShares": 12011,
-      "change": -735,
       "pctOut": 0.0204,
       "action": "Sold"
     },
@@ -5864,19 +5823,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Strategic Advisers U.S. Total Stock Fund",
-      "registrant": "Fidelity Rutland Square Trust II",
-      "manager": "FMR (Fidelity)",
-      "cik": "1364924",
-      "shares": 1815,
-      "value": 631947,
-      "reportDate": "2026-05-31",
-      "priorShares": 6114,
-      "change": -4299,
-      "pctOut": 0.0033000000000000004,
-      "action": "Sold"
-    },
-    {
       "fundName": "Calvert US Large-Cap Core Responsible Index ETF",
       "registrant": "Morgan Stanley ETF Trust",
       "manager": "Morgan Stanley",
@@ -7021,19 +6967,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Praxis Impact Large Cap Growth ETF",
-      "registrant": "Praxis Funds",
-      "manager": "",
-      "cik": "912900",
-      "shares": 405,
-      "value": 144257,
-      "reportDate": "2026-06-30",
-      "priorShares": 394,
-      "change": 11,
-      "pctOut": 0.0007,
-      "action": "Bought"
-    },
-    {
       "fundName": "Multifactor U.S. Equity Fund",
       "registrant": "RUSSELL INVESTMENT CO",
       "manager": "",
@@ -7160,6 +7093,19 @@
       "reportDate": "2026-06-30",
       "priorShares": 396,
       "change": -103,
+      "pctOut": 0.0005,
+      "action": "Sold"
+    },
+    {
+      "fundName": "Praxis Impact Large Cap Growth ETF",
+      "registrant": "Praxis Funds",
+      "manager": "",
+      "cik": "912900",
+      "shares": 280,
+      "value": 84890,
+      "reportDate": "2026-09-30",
+      "priorShares": 405,
+      "change": -125,
       "pctOut": 0.0005,
       "action": "Sold"
     },
