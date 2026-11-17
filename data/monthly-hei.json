@@ -8,15 +8,15 @@
     "2025-09-30"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-11-16T20:55:09.322Z",
+  "lastUpdated": "2026-11-17T19:44:01.174Z",
   "summary": {
-    "institutions": 783,
-    "totalShares": 43831574,
-    "pctOut": 79.35,
+    "institutions": 784,
+    "totalShares": 43854218,
+    "pctOut": 79.39,
     "newHolders": 120,
     "sellouts": 84,
     "bought": 257,
-    "sold": 271,
+    "sold": 272,
     "held": 135
   },
   "top10": [
@@ -6899,6 +6899,24 @@
       "action": "Sold",
       "discretion": "SOLE",
       "voteSole": 22870,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
+      "filerName": "CaixaBank, S.A.",
+      "filerCik": "1825259",
+      "shares": [
+        22644,
+        23322,
+        null,
+        null
+      ],
+      "netChg": -678,
+      "currentValue": 8065566,
+      "pctOut": 0.04,
+      "action": "Sold",
+      "discretion": "DFND",
+      "voteSole": 22644,
       "voteShared": 0,
       "voteNone": 0
     },
@@ -19053,24 +19071,6 @@
       "voteNone": null
     },
     {
-      "filerName": "MQS Management LLC",
-      "filerCik": "1759395",
-      "shares": [
-        null,
-        890,
-        null,
-        837
-      ],
-      "netChg": -890,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Modus Advisors, LLC",
       "filerCik": "1799284",
       "shares": [
@@ -19083,6 +19083,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "MQS Management LLC",
+      "filerCik": "1759395",
+      "shares": [
+        null,
+        890,
+        null,
+        837
+      ],
+      "netChg": -890,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,
@@ -19323,13 +19341,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Interchange Capital Partners, LLC",
-      "filerCik": "1845998",
+      "filerName": "AGF MANAGEMENT LTD",
+      "filerCik": "1003518",
       "shares": [
         null,
         null,
-        705,
-        null
+        9690,
+        10175
       ],
       "netChg": null,
       "currentValue": null,
@@ -19341,13 +19359,13 @@
       "voteNone": null
     },
     {
-      "filerName": "AGF MANAGEMENT LTD",
-      "filerCik": "1003518",
+      "filerName": "Interchange Capital Partners, LLC",
+      "filerCik": "1845998",
       "shares": [
         null,
         null,
-        9690,
-        10175
+        705,
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -20223,6 +20241,24 @@
       "voteNone": null
     },
     {
+      "filerName": "Legacy Wealth Managment, LLC/ID",
+      "filerCik": "2045082",
+      "shares": [
+        null,
+        15,
+        15,
+        15
+      ],
+      "netChg": -15,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
       "filerName": "JENNISON ASSOCIATES LLC",
       "filerCik": "53417",
       "shares": [
@@ -20250,24 +20286,6 @@
         2275
       ],
       "netChg": -14629,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
-      "filerName": "Legacy Wealth Managment, LLC/ID",
-      "filerCik": "2045082",
-      "shares": [
-        null,
-        15,
-        15,
-        15
-      ],
-      "netChg": -15,
       "currentValue": null,
       "pctOut": null,
       "action": "Sellout",

@@ -1,16 +1,16 @@
 {
-  "asOf": "2026-11-16T21:16:50.911Z",
+  "asOf": "2026-11-17T19:59:46.371Z",
   "period": "2026-06-30",
   "hei": {
-    "total": 783,
-    "totalShares": 43831574,
+    "total": 784,
+    "totalShares": 43854218,
     "categories": [
       {
         "style": "Growth",
         "holders": 34,
         "holderPct": 4.3,
         "shares": 13044151,
-        "sharePct": 29.8,
+        "sharePct": 29.7,
         "estCount": 11,
         "examples": [
           "PRICE T ROWE ASSOCIATES INC /MD/",
@@ -649,9 +649,9 @@
       {
         "style": "Blend/Core",
         "holders": 587,
-        "holderPct": 75,
+        "holderPct": 74.9,
         "shares": 26333259,
-        "sharePct": 60.1,
+        "sharePct": 60,
         "estCount": 128,
         "examples": [
           "BlackRock, Inc.  (BLK)",
@@ -3600,10 +3600,10 @@
       },
       {
         "style": "Unclassified",
-        "holders": 81,
-        "holderPct": 10.3,
-        "shares": 361331,
-        "sharePct": 0.8,
+        "holders": 82,
+        "holderPct": 10.5,
+        "shares": 383975,
+        "sharePct": 0.9,
         "estCount": 0,
         "examples": [
           "One Madison Group LLC",
@@ -3641,6 +3641,11 @@
           {
             "name": "Roundview Capital LLC",
             "shares": 25193,
+            "est": false
+          },
+          {
+            "name": "CaixaBank, S.A.",
+            "shares": 22644,
             "est": false
           },
           {
@@ -4025,7 +4030,7 @@
       "curated": 160,
       "heuristic": 355,
       "estimated": 187,
-      "unknown": 81
+      "unknown": 82
     }
   },
   "heia": {
@@ -7529,8 +7534,8 @@
     }
   },
   "combined": {
-    "total": 1020,
-    "totalShares": 113957513,
+    "total": 1021,
+    "totalShares": 113980157,
     "categories": [
       {
         "style": "Growth",
@@ -12127,9 +12132,9 @@
       },
       {
         "style": "Unclassified",
-        "holders": 118,
-        "holderPct": 11.6,
-        "shares": 2963617,
+        "holders": 119,
+        "holderPct": 11.7,
+        "shares": 2986261,
         "sharePct": 2.6,
         "estCount": 0,
         "examples": [
@@ -12233,6 +12238,11 @@
           {
             "name": "Roundview Capital LLC",
             "shares": 25193,
+            "est": false
+          },
+          {
+            "name": "CaixaBank, S.A.",
+            "shares": 22644,
             "est": false
           },
           {
@@ -12737,7 +12747,7 @@
       "curated": 193,
       "heuristic": 471,
       "estimated": 238,
-      "unknown": 118
+      "unknown": 119
     }
   }
 }

@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-11-16T20:55:09.322Z",
+  "lastUpdated": "2026-11-17T19:44:01.174Z",
   "summary": {
     "funds": 433,
-    "totalShares": 19583159,
-    "pctOut": 35.449999999999996,
+    "totalShares": 19570938,
+    "pctOut": 35.4279,
     "newFunds": 52,
     "sellouts": 47,
     "linkedManagers": 25,
-    "linkedShares": 16815408
+    "linkedShares": 16814673
   },
   "newHolders": [
     {
@@ -2199,11 +2199,11 @@
     {
       "manager": "Goldman Sachs",
       "fundCount": 5,
-      "shares": 15377,
+      "shares": 14642,
       "funds": [
         {
           "fundName": "Goldman Sachs Equal Weight U.S. Large Cap Equity ETF",
-          "shares": 12011
+          "shares": 11276
         },
         {
           "fundName": "Goldman Sachs MarketBeta U.S. 1000 Equity ETF",
@@ -3158,19 +3158,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Baird Mid Cap Growth Fund",
-      "registrant": "Baird Funds Inc",
-      "manager": "",
-      "cik": "1282693",
-      "shares": 44127,
-      "value": 15717596,
-      "reportDate": "2026-06-30",
-      "priorShares": 55237,
-      "change": -11110,
-      "pctOut": 0.0799,
-      "action": "Sold"
-    },
-    {
       "fundName": "Capital Group Global Equity ETF",
       "registrant": "Capital Group Global Equity ETF",
       "manager": "Capital Group (American Funds)",
@@ -3338,6 +3325,19 @@
       "change": 188,
       "pctOut": 0.0633,
       "action": "Bought"
+    },
+    {
+      "fundName": "Baird Mid Cap Growth Fund",
+      "registrant": "Baird Funds Inc",
+      "manager": "",
+      "cik": "1282693",
+      "shares": 32641,
+      "value": 9896098,
+      "reportDate": "2026-09-30",
+      "priorShares": 44127,
+      "change": -11486,
+      "pctOut": 0.05910000000000001,
+      "action": "Sold"
     },
     {
       "fundName": "Calvert Balanced Fund",
@@ -4224,19 +4224,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Goldman Sachs Equal Weight U.S. Large Cap Equity ETF",
-      "registrant": "Goldman Sachs ETF Trust",
-      "manager": "Goldman Sachs",
-      "cik": "1479026",
-      "shares": 12011,
-      "value": 4181990,
-      "reportDate": "2026-05-31",
-      "priorShares": 9852,
-      "change": 2159,
-      "pctOut": 0.0217,
-      "action": "Bought"
-    },
-    {
       "fundName": "T. Rowe Price Growth ETF",
       "registrant": "T. Rowe Price Exchange-Traded Funds, Inc.",
       "manager": "T. Rowe Price",
@@ -4311,6 +4298,19 @@
       "reportDate": "2026-07-31",
       "priorShares": 12127,
       "change": -839,
+      "pctOut": 0.0204,
+      "action": "Sold"
+    },
+    {
+      "fundName": "Goldman Sachs Equal Weight U.S. Large Cap Equity ETF",
+      "registrant": "Goldman Sachs ETF Trust",
+      "manager": "Goldman Sachs",
+      "cik": "1479026",
+      "shares": 11276,
+      "value": 3734047,
+      "reportDate": "2026-08-31",
+      "priorShares": 12011,
+      "change": -735,
       "pctOut": 0.0204,
       "action": "Sold"
     },
@@ -4788,12 +4788,12 @@
       "manager": "",
       "cik": "1002537",
       "shares": 7000,
-      "value": 2493330,
-      "reportDate": "2026-06-30",
-      "priorShares": 2500,
-      "change": 4500,
+      "value": 2122260,
+      "reportDate": "2026-09-30",
+      "priorShares": 7000,
+      "change": 0,
       "pctOut": 0.0127,
-      "action": "Bought"
+      "action": "No Change"
     },
     {
       "fundName": "U.S. Sustainability Core 1 Portfolio",
