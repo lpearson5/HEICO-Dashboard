@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-09-30",
   "priorPeriod": "2026-06-30",
-  "lastUpdated": "2026-11-17T19:44:01.174Z",
+  "lastUpdated": "2026-11-18T19:20:42.986Z",
   "holdings": [
     {
       "filerName": "PRICE T ROWE ASSOCIATES INC /MD/",
@@ -1950,6 +1950,18 @@
       "newThisWeek": true
     },
     {
+      "filerName": "NEW YORK STATE COMMON RETIREMENT FUND",
+      "filerCik": "810265",
+      "currentShares": 24750,
+      "priorShares": 24750,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 7503705,
+      "action": "No Change",
+      "firstSeen": "2026-11-17",
+      "newThisWeek": true
+    },
+    {
       "filerName": "Pictet Asset Management Holding SA",
       "filerCik": "1993888",
       "currentShares": 24279,
@@ -3032,14 +3044,14 @@
     {
       "filerName": "Allworth Financial LP",
       "filerCik": "1555170",
-      "currentShares": 9094,
+      "currentShares": 9147,
       "priorShares": 8757,
-      "change": 337,
-      "pctChange": 3.8,
-      "currentValue": 3239238,
+      "change": 390,
+      "pctChange": 4.5,
+      "currentValue": 2773280,
       "action": "Bought",
-      "firstSeen": "2026-11-06",
-      "newThisWeek": false
+      "firstSeen": "2026-11-17",
+      "newThisWeek": true
     },
     {
       "filerName": "PFS Partners, LLC",
@@ -5466,6 +5478,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "Integrated Investment Consultants, LLC",
+      "filerCik": "1665337",
+      "currentShares": 1559,
+      "priorShares": 1560,
+      "change": -1,
+      "pctChange": -0.1,
+      "currentValue": 472658,
+      "action": "Sold",
+      "firstSeen": "2026-11-17",
+      "newThisWeek": true
+    },
+    {
       "filerName": "Aaron Wealth Advisors LLC",
       "filerCik": "1812198",
       "currentShares": 1509,
@@ -5655,6 +5679,18 @@
       "currentValue": 411112,
       "action": "New Position",
       "firstSeen": "2026-11-13",
+      "newThisWeek": true
+    },
+    {
+      "filerName": "Caprock Group, LLC",
+      "filerCik": "1610769",
+      "currentShares": 1355,
+      "priorShares": 3440,
+      "change": -2085,
+      "pctChange": -60.6,
+      "currentValue": 410813,
+      "action": "Sold",
+      "firstSeen": "2026-11-17",
       "newThisWeek": true
     },
     {
@@ -5944,6 +5980,18 @@
       "action": "Sold",
       "firstSeen": "2026-11-05",
       "newThisWeek": false
+    },
+    {
+      "filerName": "Coastal Bridge Advisors, LLC",
+      "filerCik": "1665976",
+      "currentShares": 1154,
+      "priorShares": 1282,
+      "change": -128,
+      "pctChange": -10,
+      "currentValue": 349948,
+      "action": "Sold",
+      "firstSeen": "2026-11-18",
+      "newThisWeek": true
     },
     {
       "filerName": "Osmosis Investment Management UK Ltd",
@@ -9313,8 +9361,8 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
+      "action": "Sell Out",
+      "firstSeen": "2026-11-18",
       "newThisWeek": false
     },
     {
@@ -9346,18 +9394,6 @@
       "filerCik": "1056947",
       "currentShares": null,
       "priorShares": 4085,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Integrated Investment Consultants, LLC",
-      "filerCik": "1665337",
-      "currentShares": null,
-      "priorShares": 1560,
       "change": null,
       "pctChange": null,
       "currentValue": null,
@@ -9630,18 +9666,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Coastal Bridge Advisors, LLC",
-      "filerCik": "1665976",
-      "currentShares": null,
-      "priorShares": 1282,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "Claret Asset Management Corp",
       "filerCik": "1735513",
       "currentShares": null,
@@ -9891,18 +9915,6 @@
       "currentValue": null,
       "action": "Sell Out",
       "firstSeen": "2026-10-14",
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Caprock Group, LLC",
-      "filerCik": "1610769",
-      "currentShares": null,
-      "priorShares": 3440,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
       "newThisWeek": false
     },
     {
@@ -10251,18 +10263,6 @@
       "currentValue": null,
       "action": "Sell Out",
       "firstSeen": "2026-11-09",
-      "newThisWeek": false
-    },
-    {
-      "filerName": "NEW YORK STATE COMMON RETIREMENT FUND",
-      "filerCik": "810265",
-      "currentShares": null,
-      "priorShares": 24750,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
       "newThisWeek": false
     },
     {

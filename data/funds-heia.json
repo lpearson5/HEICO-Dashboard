@@ -2,17 +2,30 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-11-17T19:44:01.174Z",
+  "lastUpdated": "2026-11-18T19:20:42.986Z",
   "summary": {
-    "funds": 345,
-    "totalShares": 27958161,
-    "pctOut": 33.0804,
-    "newFunds": 11,
+    "funds": 346,
+    "totalShares": 27966061,
+    "pctOut": 33.089800000000004,
+    "newFunds": 12,
     "sellouts": 30,
     "linkedManagers": 24,
-    "linkedShares": 23666840
+    "linkedShares": 23674740
   },
   "newHolders": [
+    {
+      "fundName": "Empower T. Rowe Price Mid Cap Growth Fund",
+      "registrant": "EMPOWER FUNDS, INC.",
+      "manager": "T. Rowe Price",
+      "cik": "356476",
+      "shares": 7900,
+      "value": 1803807,
+      "reportDate": "2026-09-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0093,
+      "action": "New"
+    },
     {
       "fundName": "SEI Select Small Cap ETF",
       "registrant": "SEI EXCHANGE TRADED FUNDS",
@@ -1096,6 +1109,37 @@
       ]
     },
     {
+      "manager": "T. Rowe Price",
+      "fundCount": 6,
+      "shares": 30186,
+      "funds": [
+        {
+          "fundName": "T. Rowe Price Extended Equity Market Index Fund",
+          "shares": 11089
+        },
+        {
+          "fundName": "Empower T. Rowe Price Mid Cap Growth Fund",
+          "shares": 7900
+        },
+        {
+          "fundName": "T. Rowe Price Mid-Cap Index Fund",
+          "shares": 6682
+        },
+        {
+          "fundName": "T. Rowe Price Total Equity Market Index Fund",
+          "shares": 3795
+        },
+        {
+          "fundName": "SA T. Rowe Price Allocation Moderately Aggressive Portfolio",
+          "shares": 703
+        },
+        {
+          "fundName": "T. Rowe Price Active Core U.S. Equity ETF",
+          "shares": 17
+        }
+      ]
+    },
+    {
       "manager": "John Hancock",
       "fundCount": 3,
       "shares": 28284,
@@ -1142,33 +1186,6 @@
         {
           "fundName": "State Street(R) SPDR(R) MSCI World StrategicFactors(SM) ETF",
           "shares": 20
-        }
-      ]
-    },
-    {
-      "manager": "T. Rowe Price",
-      "fundCount": 5,
-      "shares": 22286,
-      "funds": [
-        {
-          "fundName": "T. Rowe Price Extended Equity Market Index Fund",
-          "shares": 11089
-        },
-        {
-          "fundName": "T. Rowe Price Mid-Cap Index Fund",
-          "shares": 6682
-        },
-        {
-          "fundName": "T. Rowe Price Total Equity Market Index Fund",
-          "shares": 3795
-        },
-        {
-          "fundName": "SA T. Rowe Price Allocation Moderately Aggressive Portfolio",
-          "shares": 703
-        },
-        {
-          "fundName": "T. Rowe Price Active Core U.S. Equity ETF",
-          "shares": 17
         }
       ]
     },
@@ -3287,6 +3304,19 @@
       "change": 1239,
       "pctOut": 0.009399999999999999,
       "action": "Bought"
+    },
+    {
+      "fundName": "Empower T. Rowe Price Mid Cap Growth Fund",
+      "registrant": "EMPOWER FUNDS, INC.",
+      "manager": "T. Rowe Price",
+      "cik": "356476",
+      "shares": 7900,
+      "value": 1803807,
+      "reportDate": "2026-09-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0093,
+      "action": "New"
     },
     {
       "fundName": "iShares Morningstar Growth ETF",

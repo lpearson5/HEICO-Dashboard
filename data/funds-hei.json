@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-11-17T19:44:01.174Z",
+  "lastUpdated": "2026-11-18T19:20:42.986Z",
   "summary": {
     "funds": 433,
-    "totalShares": 19570938,
-    "pctOut": 35.4279,
-    "newFunds": 52,
+    "totalShares": 19579538,
+    "pctOut": 35.443400000000004,
+    "newFunds": 51,
     "sellouts": 47,
     "linkedManagers": 25,
-    "linkedShares": 16814673
+    "linkedShares": 16823273
   },
   "newHolders": [
     {
@@ -154,19 +154,6 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.0422,
-      "action": "New"
-    },
-    {
-      "fundName": "Empower T. Rowe Price Mid Cap Growth Fund",
-      "registrant": "EMPOWER FUNDS, INC.",
-      "manager": "T. Rowe Price",
-      "cik": "356476",
-      "shares": 21749,
-      "value": 7746776,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0394,
       "action": "New"
     },
     {
@@ -1318,7 +1305,7 @@
     {
       "manager": "T. Rowe Price",
       "fundCount": 29,
-      "shares": 1905381,
+      "shares": 1913981,
       "funds": [
         {
           "fundName": "T. Rowe Price Growth Stock Fund, Inc.",
@@ -1349,16 +1336,16 @@
           "shares": 113388
         },
         {
+          "fundName": "Empower T. Rowe Price Mid Cap Growth Fund",
+          "shares": 30349
+        },
+        {
           "fundName": "T. Rowe Price Institutional Mid-Cap Equity Growth Fund",
           "shares": 28445
         },
         {
           "fundName": "VY(R) T. ROWE PRICE DIVERSIFIED MID CAP GROWTH PORTFOLIO",
           "shares": 25827
-        },
-        {
-          "fundName": "Empower T. Rowe Price Mid Cap Growth Fund",
-          "shares": 21749
         },
         {
           "fundName": "T. Rowe Price Institutional Large-Cap Core Growth Fund",
@@ -3379,6 +3366,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Empower T. Rowe Price Mid Cap Growth Fund",
+      "registrant": "EMPOWER FUNDS, INC.",
+      "manager": "T. Rowe Price",
+      "cik": "356476",
+      "shares": 30349,
+      "value": 9201210,
+      "reportDate": "2026-09-30",
+      "priorShares": 21749,
+      "change": 8600,
+      "pctOut": 0.054900000000000004,
+      "action": "Bought"
+    },
+    {
       "fundName": "iShares Russell 1000 ETF",
       "registrant": "iShares Trust",
       "manager": "BlackRock",
@@ -3689,19 +3689,6 @@
       "change": 12656,
       "pctOut": 0.0395,
       "action": "Bought"
-    },
-    {
-      "fundName": "Empower T. Rowe Price Mid Cap Growth Fund",
-      "registrant": "EMPOWER FUNDS, INC.",
-      "manager": "T. Rowe Price",
-      "cik": "356476",
-      "shares": 21749,
-      "value": 7746776,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0394,
-      "action": "New"
     },
     {
       "fundName": "ALGER MID CAP FOCUS FUND",

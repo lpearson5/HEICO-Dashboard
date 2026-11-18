@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-09-30",
   "priorPeriod": "2026-06-30",
-  "lastUpdated": "2026-11-17T19:44:01.174Z",
+  "lastUpdated": "2026-11-18T19:20:42.986Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -1791,6 +1791,18 @@
       "currentValue": 9350866,
       "action": "New Position",
       "firstSeen": "2026-11-16",
+      "newThisWeek": true
+    },
+    {
+      "filerName": "NEW YORK STATE COMMON RETIREMENT FUND",
+      "filerCik": "810265",
+      "currentShares": 39668,
+      "priorShares": 39668,
+      "change": 0,
+      "pctChange": 0,
+      "currentValue": 9057394,
+      "action": "No Change",
+      "firstSeen": "2026-11-17",
       "newThisWeek": true
     },
     {
@@ -4974,6 +4986,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "Allworth Financial LP",
+      "filerCik": "1555170",
+      "currentShares": 1897,
+      "priorShares": 946,
+      "change": 951,
+      "pctChange": 100.5,
+      "currentValue": 433058,
+      "action": "Bought",
+      "firstSeen": "2026-11-17",
+      "newThisWeek": true
+    },
+    {
       "filerName": "MOODY ALDRICH PARTNERS LLC",
       "filerCik": "936941",
       "currentShares": 1877,
@@ -5718,6 +5742,18 @@
       "newThisWeek": true
     },
     {
+      "filerName": "Coastal Bridge Advisors, LLC",
+      "filerCik": "1665976",
+      "currentShares": 1132,
+      "priorShares": null,
+      "change": 1132,
+      "pctChange": 100,
+      "currentValue": 258470,
+      "action": "New Position",
+      "firstSeen": "2026-11-18",
+      "newThisWeek": true
+    },
+    {
       "filerName": "Beacon Pointe Advisors, LLC",
       "filerCik": "1744317",
       "currentShares": 1119,
@@ -5919,18 +5955,6 @@
       "currentValue": 228330,
       "action": "New Position",
       "firstSeen": "2026-11-09",
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Allworth Financial LP",
-      "filerCik": "1555170",
-      "currentShares": 999,
-      "priorShares": 946,
-      "change": 53,
-      "pctChange": 5.6,
-      "currentValue": 257649,
-      "action": "Bought",
-      "firstSeen": "2026-11-06",
       "newThisWeek": false
     },
     {
@@ -8305,8 +8329,8 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
+      "action": "Sell Out",
+      "firstSeen": "2026-11-17",
       "newThisWeek": false
     },
     {
@@ -8547,18 +8571,6 @@
       "currentValue": null,
       "action": "Sell Out",
       "firstSeen": "2026-11-09",
-      "newThisWeek": false
-    },
-    {
-      "filerName": "NEW YORK STATE COMMON RETIREMENT FUND",
-      "filerCik": "810265",
-      "currentShares": null,
-      "priorShares": 39668,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
       "newThisWeek": false
     },
     {
@@ -9042,18 +9054,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "THURSTON, SPRINGER, MILLER, HERD & TITAK, INC.",
-      "filerCik": "319933",
-      "currentShares": null,
-      "priorShares": 26,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
-      "firstSeen": "2026-10-14",
-      "newThisWeek": false
-    },
-    {
       "filerName": "Point72 Asset Management, L.P.",
       "filerCik": "1603466",
       "currentShares": null,
@@ -9063,6 +9063,18 @@
       "currentValue": null,
       "action": "Sell Out",
       "firstSeen": "2026-11-16",
+      "newThisWeek": false
+    },
+    {
+      "filerName": "THURSTON, SPRINGER, MILLER, HERD & TITAK, INC.",
+      "filerCik": "319933",
+      "currentShares": null,
+      "priorShares": 26,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
+      "firstSeen": "2026-10-14",
       "newThisWeek": false
     }
   ]

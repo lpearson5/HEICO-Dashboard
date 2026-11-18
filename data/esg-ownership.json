@@ -1,26 +1,26 @@
 {
-  "asOf": "2026-11-17T19:59:46.424Z",
-  "period": "2026-06-30",
+  "asOf": "2026-11-18T20:04:21.982Z",
+  "period": "2026-09-30",
   "hei": {
-    "total": 784,
-    "totalShares": 43854218,
-    "esgHolders": 7,
-    "esgShares": 588166,
-    "holderPct": 0.9,
-    "sharePct": 1.3,
+    "total": 768,
+    "totalShares": 43450693,
+    "esgHolders": 6,
+    "esgShares": 593292,
+    "holderPct": 0.8,
+    "sharePct": 1.4,
     "tiers": {
-      "ESG-tilted house": 3,
+      "ESG-tilted house": 2,
       "Dedicated ESG manager": 4
     },
     "members": [
       {
         "name": "FEDERATED HERMES, INC.  (FHI)",
-        "shares": 563808,
+        "shares": 569463,
         "tier": "ESG-tilted house"
       },
       {
         "name": "Robeco Institutional Asset Management B.V.",
-        "shares": 11122,
+        "shares": 11353,
         "tier": "ESG-tilted house"
       },
       {
@@ -30,33 +30,28 @@
       },
       {
         "name": "Crossmark Global Holdings, Inc.",
-        "shares": 1643,
+        "shares": 1823,
         "tier": "Dedicated ESG manager"
       },
       {
-        "name": "Candriam S.C.A.",
-        "shares": 1377,
-        "tier": "ESG-tilted house"
-      },
-      {
         "name": "Ethic Inc.",
-        "shares": 1179,
+        "shares": 1289,
         "tier": "Dedicated ESG manager"
       },
       {
         "name": "Osmosis Investment Management UK Ltd",
-        "shares": 819,
+        "shares": 1146,
         "tier": "Dedicated ESG manager"
       }
     ]
   },
   "heia": {
-    "total": 678,
-    "totalShares": 70125939,
+    "total": 676,
+    "totalShares": 68133174,
     "esgHolders": 6,
-    "esgShares": 31902,
+    "esgShares": 34139,
     "holderPct": 0.9,
-    "sharePct": 0,
+    "sharePct": 0.1,
     "tiers": {
       "Dedicated ESG manager": 4,
       "ESG-tilted house": 2
@@ -64,43 +59,43 @@
     "members": [
       {
         "name": "Ethic Inc.",
-        "shares": 13451,
-        "tier": "Dedicated ESG manager"
-      },
-      {
-        "name": "PRAXIS INVESTMENT MANAGEMENT INC",
-        "shares": 7929,
+        "shares": 14307,
         "tier": "Dedicated ESG manager"
       },
       {
         "name": "Candriam S.C.A.",
-        "shares": 7264,
+        "shares": 8875,
         "tier": "ESG-tilted house"
       },
       {
-        "name": "Crossmark Global Holdings, Inc.",
-        "shares": 1597,
+        "name": "PRAXIS INVESTMENT MANAGEMENT INC",
+        "shares": 5209,
         "tier": "Dedicated ESG manager"
       },
       {
-        "name": "Osmosis Investment Management UK Ltd",
-        "shares": 1105,
+        "name": "Crossmark Global Holdings, Inc.",
+        "shares": 2299,
         "tier": "Dedicated ESG manager"
       },
       {
         "name": "FEDERATED HERMES, INC.  (FHI)",
-        "shares": 556,
+        "shares": 2165,
         "tier": "ESG-tilted house"
+      },
+      {
+        "name": "Osmosis Investment Management UK Ltd",
+        "shares": 1284,
+        "tier": "Dedicated ESG manager"
       }
     ]
   },
   "combined": {
-    "total": 1021,
-    "totalShares": 113980157,
+    "total": 1003,
+    "totalShares": 111583867,
     "esgHolders": 7,
-    "esgShares": 620068,
+    "esgShares": 627431,
     "holderPct": 0.7,
-    "sharePct": 0.5,
+    "sharePct": 0.6,
     "tiers": {
       "ESG-tilted house": 3,
       "Dedicated ESG manager": 4
@@ -108,37 +103,37 @@
     "members": [
       {
         "name": "FEDERATED HERMES, INC.  (FHI)",
-        "shares": 564364,
+        "shares": 571628,
         "tier": "ESG-tilted house"
       },
       {
-        "name": "PRAXIS INVESTMENT MANAGEMENT INC",
-        "shares": 16147,
+        "name": "Ethic Inc.",
+        "shares": 15596,
         "tier": "Dedicated ESG manager"
       },
       {
-        "name": "Ethic Inc.",
-        "shares": 14630,
+        "name": "PRAXIS INVESTMENT MANAGEMENT INC",
+        "shares": 13427,
         "tier": "Dedicated ESG manager"
       },
       {
         "name": "Robeco Institutional Asset Management B.V.",
-        "shares": 11122,
+        "shares": 11353,
         "tier": "ESG-tilted house"
       },
       {
         "name": "Candriam S.C.A.",
-        "shares": 8641,
+        "shares": 8875,
         "tier": "ESG-tilted house"
       },
       {
         "name": "Crossmark Global Holdings, Inc.",
-        "shares": 3240,
+        "shares": 4122,
         "tier": "Dedicated ESG manager"
       },
       {
         "name": "Osmosis Investment Management UK Ltd",
-        "shares": 1924,
+        "shares": 2430,
         "tier": "Dedicated ESG manager"
       }
     ]
