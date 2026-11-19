@@ -2,11 +2,11 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-11-18T19:20:42.986Z",
+  "lastUpdated": "2026-11-19T19:28:07.323Z",
   "summary": {
     "funds": 346,
-    "totalShares": 27966061,
-    "pctOut": 33.089800000000004,
+    "totalShares": 27960147,
+    "pctOut": 33.0828,
     "newFunds": 12,
     "sellouts": 30,
     "linkedManagers": 24,
@@ -2305,19 +2305,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "DF DENT MIDCAP GROWTH FUND",
-      "registrant": "FORUM FUNDS",
-      "manager": "",
-      "cik": "315774",
-      "shares": 41619,
-      "value": 10733956,
-      "reportDate": "2026-06-30",
-      "priorShares": 51418,
-      "change": -9799,
-      "pctOut": 0.0492,
-      "action": "Sold"
-    },
-    {
       "fundName": "Fidelity ZERO Total Market Index Fund",
       "registrant": "Fidelity Concord Street Trust",
       "manager": "FMR (Fidelity)",
@@ -2383,6 +2370,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "DF DENT MIDCAP GROWTH FUND",
+      "registrant": "FORUM FUNDS",
+      "manager": "",
+      "cik": "315774",
+      "shares": 36984,
+      "value": 8444557,
+      "reportDate": "2026-09-30",
+      "priorShares": 41619,
+      "change": -4635,
+      "pctOut": 0.043800000000000006,
+      "action": "Sold"
+    },
+    {
       "fundName": "Victory Growth Fund",
       "registrant": "Victory Portfolios III",
       "manager": "",
@@ -2414,12 +2414,12 @@
       "manager": "",
       "cik": "315774",
       "shares": 35057,
-      "value": 9041551,
-      "reportDate": "2026-06-30",
-      "priorShares": 35957,
-      "change": -900,
+      "value": 8004565,
+      "reportDate": "2026-09-30",
+      "priorShares": 35057,
+      "change": 0,
       "pctOut": 0.0415,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Six Circles U.S. Unconstrained Equity Fund",
@@ -2518,8 +2518,8 @@
       "manager": "",
       "cik": "1135300",
       "shares": 26600,
-      "value": 6860406,
-      "reportDate": "2026-06-30",
+      "value": 6073578,
+      "reportDate": "2026-09-30",
       "priorShares": 26600,
       "change": 0,
       "pctOut": 0.0315,
@@ -2708,19 +2708,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "DF DENT SMALL CAP GROWTH FUND",
-      "registrant": "FORUM FUNDS",
-      "manager": "",
-      "cik": "315774",
-      "shares": 22707,
-      "value": 5856362,
-      "reportDate": "2026-06-30",
-      "priorShares": 23125,
-      "change": -418,
-      "pctOut": 0.026899999999999997,
-      "action": "Sold"
-    },
-    {
       "fundName": "Fidelity ZERO Large Cap Index Fund",
       "registrant": "Fidelity Concord Street Trust",
       "manager": "FMR (Fidelity)",
@@ -2732,6 +2719,19 @@
       "change": 664,
       "pctOut": 0.0262,
       "action": "Bought"
+    },
+    {
+      "fundName": "DF DENT SMALL CAP GROWTH FUND",
+      "registrant": "FORUM FUNDS",
+      "manager": "",
+      "cik": "315774",
+      "shares": 21428,
+      "value": 4892655,
+      "reportDate": "2026-09-30",
+      "priorShares": 22707,
+      "change": -1279,
+      "pctOut": 0.0254,
+      "action": "Sold"
     },
     {
       "fundName": "Vulcan Value Partners Fund",
