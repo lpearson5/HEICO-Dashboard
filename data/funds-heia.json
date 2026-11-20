@@ -2,15 +2,15 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-11-19T19:28:07.323Z",
+  "lastUpdated": "2026-11-20T19:03:12.174Z",
   "summary": {
     "funds": 346,
-    "totalShares": 27960147,
-    "pctOut": 33.0828,
+    "totalShares": 27960116,
+    "pctOut": 33.082699999999996,
     "newFunds": 12,
     "sellouts": 30,
     "linkedManagers": 24,
-    "linkedShares": 23674740
+    "linkedShares": 23674709
   },
   "newHolders": [
     {
@@ -500,7 +500,7 @@
     {
       "manager": "FMR (Fidelity)",
       "fundCount": 38,
-      "shares": 4576538,
+      "shares": 4576507,
       "funds": [
         {
           "fundName": "Fidelity Magellan Fund",
@@ -640,7 +640,7 @@
         },
         {
           "fundName": "LVIP JPMorgan Select Mid Cap Value Managed Volatility Fund",
-          "shares": 484
+          "shares": 453
         },
         {
           "fundName": "AVIP AB Mid Cap Core Portfolio",
@@ -1959,12 +1959,12 @@
       "manager": "",
       "cik": "1557794",
       "shares": 73044,
-      "value": 18838778,
-      "reportDate": "2026-06-30",
-      "priorShares": 68000,
-      "change": 5044,
+      "value": 16678137,
+      "reportDate": "2026-09-30",
+      "priorShares": 73044,
+      "change": 0,
       "pctOut": 0.08639999999999999,
-      "action": "Bought"
+      "action": "No Change"
     },
     {
       "fundName": "BBH Select Mid Cap ETF",
@@ -4260,8 +4260,8 @@
       "manager": "FMR (Fidelity)",
       "cik": "914036",
       "shares": 1685,
-      "value": 434578,
-      "reportDate": "2026-06-30",
+      "value": 384736,
+      "reportDate": "2026-09-30",
       "priorShares": 1685,
       "change": 0,
       "pctOut": 0.002,
@@ -4611,8 +4611,8 @@
       "manager": "FMR (Fidelity)",
       "cik": "914036",
       "shares": 988,
-      "value": 254815,
-      "reportDate": "2026-06-30",
+      "value": 225590,
+      "reportDate": "2026-09-30",
       "priorShares": 988,
       "change": 0,
       "pctOut": 0.0012000000000000001,
@@ -4931,19 +4931,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "LVIP JPMorgan Select Mid Cap Value Managed Volatility Fund",
-      "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
-      "manager": "FMR (Fidelity)",
-      "cik": "914036",
-      "shares": 484,
-      "value": 124828,
-      "reportDate": "2026-06-30",
-      "priorShares": 521,
-      "change": -37,
-      "pctOut": 0.0006000000000000001,
-      "action": "Sold"
-    },
-    {
       "fundName": "Destinations Small-Mid Cap Equity Fund",
       "registrant": "Brinker Capital Destinations Trust",
       "manager": "",
@@ -4966,6 +4953,19 @@
       "reportDate": "2026-06-30",
       "priorShares": 530,
       "change": -75,
+      "pctOut": 0.0005,
+      "action": "Sold"
+    },
+    {
+      "fundName": "LVIP JPMorgan Select Mid Cap Value Managed Volatility Fund",
+      "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
+      "manager": "FMR (Fidelity)",
+      "cik": "914036",
+      "shares": 453,
+      "value": 103433,
+      "reportDate": "2026-09-30",
+      "priorShares": 484,
+      "change": -31,
       "pctOut": 0.0005,
       "action": "Sold"
     },

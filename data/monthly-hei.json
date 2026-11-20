@@ -8,11 +8,11 @@
     "2025-12-31"
   ],
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-11-19T19:28:07.323Z",
+  "lastUpdated": "2026-11-20T19:03:12.174Z",
   "summary": {
     "institutions": 771,
-    "totalShares": 43451431,
-    "pctOut": 78.66,
+    "totalShares": 43446174,
+    "pctOut": 78.64999999999999,
     "newHolders": 76,
     "sellouts": 89,
     "bought": 271,
@@ -5733,24 +5733,6 @@
       "voteNone": 31714
     },
     {
-      "filerName": "Advisors Asset Management, Inc.",
-      "filerCik": "1297376",
-      "shares": [
-        31513,
-        25474,
-        26092,
-        25309
-      ],
-      "netChg": 6039,
-      "currentValue": 7557469,
-      "pctOut": 0.06,
-      "action": "Bought",
-      "discretion": "SOLE",
-      "voteSole": 31513,
-      "voteShared": 0,
-      "voteNone": 0
-    },
-    {
       "filerName": "Sumitomo Mitsui DS Asset Management Company, Ltd",
       "filerCik": "1411530",
       "shares": [
@@ -5985,6 +5967,24 @@
       "voteNone": 26315
     },
     {
+      "filerName": "Advisors Asset Management, Inc.",
+      "filerCik": "1297376",
+      "shares": [
+        26256,
+        25474,
+        26092,
+        25309
+      ],
+      "netChg": 782,
+      "currentValue": 7960294,
+      "pctOut": 0.05,
+      "action": "Bought",
+      "discretion": "SOLE",
+      "voteSole": 26256,
+      "voteShared": 0,
+      "voteNone": 0
+    },
+    {
       "filerName": "PRUDENTIAL PLC",
       "filerCik": "898419",
       "shares": [
@@ -6008,7 +6008,7 @@
       "shares": [
         25278,
         25456,
-        27070,
+        27374,
         30985
       ],
       "netChg": -178,
@@ -18477,13 +18477,13 @@
       "voteNone": null
     },
     {
-      "filerName": "BCS Wealth Management",
-      "filerCik": "1798172",
+      "filerName": "Richardson Capital Management LLC",
+      "filerCik": "1621646",
       "shares": [
         null,
         null,
-        null,
-        936
+        73,
+        null
       ],
       "netChg": null,
       "currentValue": null,
@@ -18495,13 +18495,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Richardson Capital Management LLC",
-      "filerCik": "1621646",
+      "filerName": "BCS Wealth Management",
+      "filerCik": "1798172",
       "shares": [
         null,
         null,
-        73,
-        null
+        null,
+        936
       ],
       "netChg": null,
       "currentValue": null,
@@ -19953,13 +19953,13 @@
       "voteNone": null
     },
     {
-      "filerName": "CIBC WORLD MARKETS CORP",
-      "filerCik": "1056527",
+      "filerName": "Sachetta, LLC",
+      "filerCik": "2010574",
       "shares": [
         null,
         null,
-        null,
-        1528
+        9,
+        10
       ],
       "netChg": null,
       "currentValue": null,
@@ -19971,13 +19971,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Sachetta, LLC",
-      "filerCik": "2010574",
+      "filerName": "CIBC WORLD MARKETS CORP",
+      "filerCik": "1056527",
       "shares": [
         null,
         null,
-        9,
-        10
+        null,
+        1528
       ],
       "netChg": null,
       "currentValue": null,
@@ -20043,24 +20043,6 @@
       "voteNone": null
     },
     {
-      "filerName": "Summit Trail Advisors, LLC",
-      "filerCik": "1698478",
-      "shares": [
-        null,
-        5420,
-        6195,
-        6518
-      ],
-      "netChg": -5420,
-      "currentValue": null,
-      "pctOut": null,
-      "action": "Sellout",
-      "discretion": null,
-      "voteSole": null,
-      "voteShared": null,
-      "voteNone": null
-    },
-    {
       "filerName": "Capula Management Ltd",
       "filerCik": "1557017",
       "shares": [
@@ -20073,6 +20055,24 @@
       "currentValue": null,
       "pctOut": null,
       "action": "No Change",
+      "discretion": null,
+      "voteSole": null,
+      "voteShared": null,
+      "voteNone": null
+    },
+    {
+      "filerName": "Summit Trail Advisors, LLC",
+      "filerCik": "1698478",
+      "shares": [
+        null,
+        5420,
+        6195,
+        6518
+      ],
+      "netChg": -5420,
+      "currentValue": null,
+      "pctOut": null,
+      "action": "Sellout",
       "discretion": null,
       "voteSole": null,
       "voteShared": null,

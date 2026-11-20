@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-11-19T19:28:07.323Z",
+  "lastUpdated": "2026-11-20T19:03:12.174Z",
   "summary": {
-    "funds": 433,
-    "totalShares": 19579538,
-    "pctOut": 35.443400000000004,
-    "newFunds": 51,
+    "funds": 434,
+    "totalShares": 19583843,
+    "pctOut": 35.4512,
+    "newFunds": 52,
     "sellouts": 47,
     "linkedManagers": 25,
-    "linkedShares": 16823273
+    "linkedShares": 16827458
   },
   "newHolders": [
     {
@@ -414,6 +414,19 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.0083,
+      "action": "New"
+    },
+    {
+      "fundName": "Goldman Sachs High Yield Floating Rate Fund",
+      "registrant": "GOLDMAN SACHS TRUST",
+      "manager": "Goldman Sachs",
+      "cik": "822977",
+      "shares": 4412,
+      "value": 1337630,
+      "reportDate": "2026-09-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.008,
       "action": "New"
     },
     {
@@ -1138,7 +1151,7 @@
     {
       "manager": "FMR (Fidelity)",
       "fundCount": 40,
-      "shares": 2027893,
+      "shares": 2027666,
       "funds": [
         {
           "fundName": "Fidelity Advisor International Capital Appreciation Fund",
@@ -1242,7 +1255,7 @@
         },
         {
           "fundName": "LVIP American Century Select Mid Cap Managed Volatility Fund",
-          "shares": 3064
+          "shares": 2837
         },
         {
           "fundName": "SA Fidelity Institutional AM Global Equities Portfolio",
@@ -2185,12 +2198,16 @@
     },
     {
       "manager": "Goldman Sachs",
-      "fundCount": 5,
-      "shares": 14642,
+      "fundCount": 6,
+      "shares": 19054,
       "funds": [
         {
           "fundName": "Goldman Sachs Equal Weight U.S. Large Cap Equity ETF",
           "shares": 11276
+        },
+        {
+          "fundName": "Goldman Sachs High Yield Floating Rate Fund",
+          "shares": 4412
         },
         {
           "fundName": "Goldman Sachs MarketBeta U.S. 1000 Equity ETF",
@@ -3215,12 +3232,12 @@
       "manager": "FMR (Fidelity)",
       "cik": "914036",
       "shares": 39117,
-      "value": 13933084,
-      "reportDate": "2026-06-30",
-      "priorShares": 50519,
-      "change": -11402,
+      "value": 11859492,
+      "reportDate": "2026-09-30",
+      "priorShares": 39117,
+      "change": 0,
       "pctOut": 0.0708,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "VANGUARD TAX-MANAGED CAPITAL APPRECIATION FUND",
@@ -3917,12 +3934,12 @@
       "manager": "FMR (Fidelity)",
       "cik": "914036",
       "shares": 16836,
-      "value": 5996815,
-      "reportDate": "2026-06-30",
-      "priorShares": 16681,
-      "change": 155,
+      "value": 5104338,
+      "reportDate": "2026-09-30",
+      "priorShares": 16836,
+      "change": 0,
       "pctOut": 0.0305,
-      "action": "Bought"
+      "action": "No Change"
     },
     {
       "fundName": "VALUE LINE ASSET ALLOCATION FUND INC",
@@ -4398,8 +4415,8 @@
       "manager": "FMR (Fidelity)",
       "cik": "914036",
       "shares": 9905,
-      "value": 3528062,
-      "reportDate": "2026-06-30",
+      "value": 3002998,
+      "reportDate": "2026-09-30",
       "priorShares": 9905,
       "change": 0,
       "pctOut": 0.0179,
@@ -4541,12 +4558,12 @@
       "manager": "FMR (Fidelity)",
       "cik": "914036",
       "shares": 8978,
-      "value": 3197874,
-      "reportDate": "2026-06-30",
-      "priorShares": 12074,
-      "change": -3096,
+      "value": 2721950,
+      "reportDate": "2026-09-30",
+      "priorShares": 8978,
+      "change": 0,
       "pctOut": 0.016300000000000002,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Calvert VP SRI Balanced Portfolio",
@@ -5134,6 +5151,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Goldman Sachs High Yield Floating Rate Fund",
+      "registrant": "GOLDMAN SACHS TRUST",
+      "manager": "Goldman Sachs",
+      "cik": "822977",
+      "shares": 4412,
+      "value": 1337630,
+      "reportDate": "2026-09-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.008,
+      "action": "New"
+    },
+    {
       "fundName": "PRAXIS VALUE INDEX FUND",
       "registrant": "Praxis Mutual Funds",
       "manager": "",
@@ -5511,19 +5541,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "LVIP American Century Select Mid Cap Managed Volatility Fund",
-      "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
-      "manager": "FMR (Fidelity)",
-      "cik": "914036",
-      "shares": 3064,
-      "value": 1091366,
-      "reportDate": "2026-06-30",
-      "priorShares": 3061,
-      "change": 3,
-      "pctOut": 0.0055000000000000005,
-      "action": "Bought"
-    },
-    {
       "fundName": "T. Rowe Price Total Equity Market Index Fund",
       "registrant": "T. ROWE PRICE INDEX TRUST, INC.",
       "manager": "T. Rowe Price",
@@ -5560,6 +5577,19 @@
       "priorShares": 3024,
       "change": -155,
       "pctOut": 0.0052,
+      "action": "Sold"
+    },
+    {
+      "fundName": "LVIP American Century Select Mid Cap Managed Volatility Fund",
+      "registrant": "LINCOLN VARIABLE INSURANCE PRODUCTS TRUST",
+      "manager": "FMR (Fidelity)",
+      "cik": "914036",
+      "shares": 2837,
+      "value": 860122,
+      "reportDate": "2026-09-30",
+      "priorShares": 3064,
+      "change": -227,
+      "pctOut": 0.0051,
       "action": "Sold"
     },
     {
@@ -5966,6 +5996,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Blackstone Alternative Multi-Strategy Fund",
+      "registrant": "Blackstone Alternative Investment Funds",
+      "manager": "",
+      "cik": "1557794",
+      "shares": 1580,
+      "value": 479024,
+      "reportDate": "2026-09-30",
+      "priorShares": 1460,
+      "change": 120,
+      "pctOut": 0.0029,
+      "action": "Bought"
+    },
+    {
       "fundName": "Invesco Dividend AchieversTM ETF",
       "registrant": "Invesco Exchange-Traded Fund Trust",
       "manager": "Invesco",
@@ -6003,19 +6046,6 @@
       "change": 18,
       "pctOut": 0.0026999999999999997,
       "action": "Bought"
-    },
-    {
-      "fundName": "Blackstone Alternative Multi-Strategy Fund",
-      "registrant": "Blackstone Alternative Investment Funds",
-      "manager": "",
-      "cik": "1557794",
-      "shares": 1460,
-      "value": 520037,
-      "reportDate": "2026-06-30",
-      "priorShares": 3500,
-      "change": -2040,
-      "pctOut": 0.0026,
-      "action": "Sold"
     },
     {
       "fundName": "SA T. Rowe Price VCP Balanced Portfolio",
@@ -6140,8 +6170,8 @@
       "manager": "FMR (Fidelity)",
       "cik": "914036",
       "shares": 1216,
-      "value": 433127,
-      "reportDate": "2026-06-30",
+      "value": 368667,
+      "reportDate": "2026-09-30",
       "priorShares": 1216,
       "change": 0,
       "pctOut": 0.0022,
@@ -6647,12 +6677,12 @@
       "manager": "FMR (Fidelity)",
       "cik": "914036",
       "shares": 706,
-      "value": 251470,
-      "reportDate": "2026-06-30",
-      "priorShares": 828,
-      "change": -122,
+      "value": 214045,
+      "reportDate": "2026-09-30",
+      "priorShares": 706,
+      "change": 0,
       "pctOut": 0.0013,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Goldman Sachs Multi-Manager Global Equity Fund",
