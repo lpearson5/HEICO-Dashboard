@@ -2,15 +2,15 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-11-21T17:56:52.316Z",
+  "lastUpdated": "2026-11-22T18:23:40.179Z",
   "summary": {
-    "funds": 434,
-    "totalShares": 19583843,
-    "pctOut": 35.4512,
+    "funds": 435,
+    "totalShares": 19585658,
+    "pctOut": 35.4545,
     "newFunds": 52,
     "sellouts": 47,
     "linkedManagers": 25,
-    "linkedShares": 16827458
+    "linkedShares": 16829273
   },
   "newHolders": [
     {
@@ -1150,8 +1150,8 @@
     },
     {
       "manager": "FMR (Fidelity)",
-      "fundCount": 40,
-      "shares": 2027666,
+      "fundCount": 41,
+      "shares": 2029481,
       "funds": [
         {
           "fundName": "Fidelity Advisor International Capital Appreciation Fund",
@@ -1260,6 +1260,10 @@
         {
           "fundName": "SA Fidelity Institutional AM Global Equities Portfolio",
           "shares": 2429
+        },
+        {
+          "fundName": "Strategic Advisers U.S. Total Stock Fund",
+          "shares": 1815
         },
         {
           "fundName": "LVIP Blended Large Cap Growth Managed Volatility Fund",
@@ -5838,6 +5842,19 @@
       "change": 1099,
       "pctOut": 0.0033000000000000004,
       "action": "Bought"
+    },
+    {
+      "fundName": "Strategic Advisers U.S. Total Stock Fund",
+      "registrant": "Fidelity Rutland Square Trust II",
+      "manager": "FMR (Fidelity)",
+      "cik": "1364924",
+      "shares": 1815,
+      "value": 631947,
+      "reportDate": "2026-05-31",
+      "priorShares": 6114,
+      "change": -4299,
+      "pctOut": 0.0033000000000000004,
+      "action": "Sold"
     },
     {
       "fundName": "Calvert US Large-Cap Core Responsible Index ETF",

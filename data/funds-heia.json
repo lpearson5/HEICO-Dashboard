@@ -2,15 +2,15 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-11-21T17:56:52.316Z",
+  "lastUpdated": "2026-11-22T18:23:40.179Z",
   "summary": {
     "funds": 346,
-    "totalShares": 27960116,
-    "pctOut": 33.082699999999996,
-    "newFunds": 12,
-    "sellouts": 30,
+    "totalShares": 28003826,
+    "pctOut": 33.1344,
+    "newFunds": 14,
+    "sellouts": 28,
     "linkedManagers": 24,
-    "linkedShares": 23674709
+    "linkedShares": 23718419
   },
   "newHolders": [
     {
@@ -92,6 +92,19 @@
       "action": "New"
     },
     {
+      "fundName": "THRIVENT MODERATE ALLOCATION PORTFOLIO",
+      "registrant": "Thrivent Series Fund, Inc.",
+      "manager": "",
+      "cik": "790166",
+      "shares": 1293,
+      "value": 333478,
+      "reportDate": "2026-06-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0015,
+      "action": "New"
+    },
+    {
       "fundName": "Dimensional US Large Cap Core Equity Market ETF",
       "registrant": "Dimensional ETF Trust",
       "manager": "Dimensional",
@@ -128,6 +141,19 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.0007,
+      "action": "New"
+    },
+    {
+      "fundName": "BlackRock Balanced Fund, Inc.",
+      "registrant": "BlackRock Balanced Fund, Inc.",
+      "manager": "BlackRock",
+      "cik": "110055",
+      "shares": 208,
+      "value": 54040,
+      "reportDate": "2026-05-29",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.00019999999999999998,
       "action": "New"
     },
     {
@@ -312,13 +338,6 @@
       "lastReport": "2026-03-31"
     },
     {
-      "fundName": "AB All Market Total Return Portfolio",
-      "registrant": "AB PORTFOLIOS",
-      "manager": "",
-      "lastShares": 1247,
-      "lastReport": "2026-02-28"
-    },
-    {
       "fundName": "Brown Advisory Mid-Cap Growth Fund",
       "registrant": "Brown Advisory Funds",
       "manager": "",
@@ -331,13 +350,6 @@
       "manager": "",
       "lastShares": 720,
       "lastReport": "2025-09-30"
-    },
-    {
-      "fundName": "Global Multi-Strategy Fund",
-      "registrant": "Principal Funds, Inc",
-      "manager": "Principal",
-      "lastShares": 465,
-      "lastReport": "2026-02-28"
     },
     {
       "fundName": "Sofi Next 500 ETF",
@@ -500,7 +512,7 @@
     {
       "manager": "FMR (Fidelity)",
       "fundCount": 38,
-      "shares": 4576507,
+      "shares": 4620217,
       "funds": [
         {
           "fundName": "Fidelity Magellan Fund",
@@ -547,6 +559,10 @@
           "shares": 80714
         },
         {
+          "fundName": "Strategic Advisers U.S. Total Stock Fund",
+          "shares": 57157
+        },
+        {
           "fundName": "Fidelity Disciplined Equity Fund",
           "shares": 52058
         },
@@ -585,10 +601,6 @@
         {
           "fundName": "Fidelity Magellan K6 Fund",
           "shares": 16832
-        },
-        {
-          "fundName": "Strategic Advisers U.S. Total Stock Fund",
-          "shares": 13447
         },
         {
           "fundName": "Fidelity Magellan ETF",
@@ -2084,6 +2096,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Strategic Advisers U.S. Total Stock Fund",
+      "registrant": "Fidelity Rutland Square Trust II",
+      "manager": "FMR (Fidelity)",
+      "cik": "1364924",
+      "shares": 57157,
+      "value": 14849960,
+      "reportDate": "2026-05-31",
+      "priorShares": 53729,
+      "change": 3428,
+      "pctOut": 0.0676,
+      "action": "Bought"
+    },
+    {
       "fundName": "iShares Russell 1000 ETF",
       "registrant": "iShares Trust",
       "manager": "BlackRock",
@@ -2953,19 +2978,6 @@
       "change": 752,
       "pctOut": 0.016300000000000002,
       "action": "Bought"
-    },
-    {
-      "fundName": "Strategic Advisers U.S. Total Stock Fund",
-      "registrant": "Fidelity Rutland Square Trust II",
-      "manager": "FMR (Fidelity)",
-      "cik": "1364924",
-      "shares": 13447,
-      "value": 3283354,
-      "reportDate": "2026-08-31",
-      "priorShares": 57157,
-      "change": -43710,
-      "pctOut": 0.015899999999999997,
-      "action": "Sold"
     },
     {
       "fundName": "Invesco MSCI USA ETF",
@@ -4483,10 +4495,10 @@
       "shares": 1293,
       "value": 333478,
       "reportDate": "2026-06-30",
-      "priorShares": 3741,
-      "change": -2448,
+      "priorShares": null,
+      "change": null,
       "pctOut": 0.0015,
-      "action": "Sold"
+      "action": "New"
     },
     {
       "fundName": "THRIVENT MODERATELY AGGRESSIVE ALLOCATION PORTFOLIO",
@@ -5313,12 +5325,12 @@
       "manager": "BlackRock",
       "cik": "110055",
       "shares": 208,
-      "value": 50787,
-      "reportDate": "2026-08-31",
-      "priorShares": 208,
-      "change": 0,
+      "value": 54040,
+      "reportDate": "2026-05-29",
+      "priorShares": null,
+      "change": null,
       "pctOut": 0.00019999999999999998,
-      "action": "No Change"
+      "action": "New"
     },
     {
       "fundName": "E*TRADE No Fee Large Cap Index Fund",
