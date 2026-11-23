@@ -9,6 +9,7 @@ const ACTION_COLORS: Record<MonthlyAction, string> = {
   Sold:        "bg-amber-100 text-amber-800 border-amber-200",
   Sellout:     "bg-red-100 text-red-800 border-red-200",
   "No Change": "bg-gray-100 text-gray-600 border-gray-200",
+  Confidential: "bg-slate-100 text-slate-700 border-slate-300",
 };
 
 function fmt(n: number | null): string {

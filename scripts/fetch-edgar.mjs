@@ -458,7 +458,9 @@ async function main() {
   // scan-cache is our durable record of every filing ever seen, so fold it in.
   // (latest filing per cik+period still wins, so amendments and refilings apply.)
   for (const [accession, rec] of Object.entries(cache)) {
-    if (accession.startsWith("_") || !rec || !rec.ok) continue;
+    // Confidential filings disclose no holdings: folding them in would mark the
+    // filer "filed, no HEICO" = a false Sell Out (Norges Bank, 2026-11-14 on).
+    if (accession.startsWith("_") || !rec || !rec.ok || rec.confidential) continue;
     consider({ accession, cik: rec.cik, name: rec.name, period: rec.period,
                fileDate: rec.fileDate ?? "", doc: null });
   }
@@ -629,7 +631,9 @@ async function buildMonthly(allHits, counts, cache, today) {
   // this report (HEI 780 → 142 institutions). Fold in every filing already in the
   // scan-cache so one bad search can't erase known holders.
   for (const [accession, rec] of Object.entries(cache)) {
-    if (accession.startsWith("_") || !rec || !rec.ok) continue;
+    // Confidential filings disclose no holdings: folding them in would mark the
+    // filer "filed, no HEICO" = a false Sell Out (Norges Bank, 2026-11-14 on).
+    if (accession.startsWith("_") || !rec || !rec.ok || rec.confidential) continue;
     consider({ accession, cik: rec.cik, name: rec.name, period: rec.period, fileDate: rec.fileDate ?? "", doc: null });
   }
   const filings = [...want.values()];
@@ -654,6 +658,11 @@ async function buildMonthly(allHits, counts, cache, today) {
       if (!byCik.has(h.cik)) byCik.set(h.cik, {});
       byCik.get(h.cik)[h.period] = pos;
     }
+    // Filers whose current-quarter 13F was confidential (holdings omitted): no
+    // current position is known, but they did NOT sell out.
+    const confidentialCiks = new Set(Object.entries(cache)
+      .filter(([a, r]) => !a.startsWith("_") && r?.ok && r.confidential && r.period === quarters[0])
+      .map(([, r]) => String(r.cik)));
     const records = [];
     for (const [cik, byP] of byCik) {
       const shares = quarters.map(p => byP[p]?.shares ?? null);
@@ -668,7 +677,7 @@ async function buildMonthly(allHits, counts, cache, today) {
         netChg,
         currentValue: curPos?.value ?? null,
         pctOut: cur != null ? Math.round(cur / outShares * 1e4) / 1e4 * 100 : null,
-        action: monthlyAction(cur, prev),
+        action: cur == null && prev != null && confidentialCiks.has(String(cik)) ? "Confidential" : monthlyAction(cur, prev),
         discretion: curPos?.discretion ?? null,   // SOLE / DFND / OTR
         voteSole: curPos?.voteSole ?? null,
         voteShared: curPos?.voteShared ?? null,

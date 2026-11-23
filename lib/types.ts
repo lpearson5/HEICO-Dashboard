@@ -24,7 +24,7 @@ export interface TickerData {
 }
 
 // ── Monthly snapshot (Phase 1: 13F, 4-quarter history) ──
-export type MonthlyAction = "New" | "Bought" | "Sold" | "Sellout" | "No Change";
+export type MonthlyAction = "New" | "Bought" | "Sold" | "Sellout" | "No Change" | "Confidential";
 
 export interface MonthlyHolding {
   filerName: string;
