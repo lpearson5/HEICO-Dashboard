@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-09-30",
   "priorPeriod": "2026-06-30",
-  "lastUpdated": "2026-11-23T22:32:52.336Z",
+  "lastUpdated": "2026-11-24T21:06:09.336Z",
   "holdings": [
     {
       "filerName": "PRICE T ROWE ASSOCIATES INC /MD/",
@@ -1947,7 +1947,7 @@
       "currentValue": 7541603,
       "action": "Bought",
       "firstSeen": "2026-11-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "NEW YORK STATE COMMON RETIREMENT FUND",
@@ -1959,7 +1959,7 @@
       "currentValue": 7503705,
       "action": "No Change",
       "firstSeen": "2026-11-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Pictet Asset Management Holding SA",
@@ -3051,7 +3051,7 @@
       "currentValue": 2773280,
       "action": "Bought",
       "firstSeen": "2026-11-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "PFS Partners, LLC",
@@ -3842,8 +3842,8 @@
       "pctChange": 100,
       "currentValue": 1333030,
       "action": "New Position",
-      "firstSeen": "2026-11-16",
-      "newThisWeek": false
+      "firstSeen": "2026-11-24",
+      "newThisWeek": true
     },
     {
       "filerName": "EQUITABLE TRUST CO",
@@ -4374,6 +4374,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "Venturi Wealth Management, LLC",
+      "filerCik": "1666363",
+      "currentShares": 3156,
+      "priorShares": 3134,
+      "change": 22,
+      "pctChange": 0.7,
+      "currentValue": 956837,
+      "action": "Bought",
+      "firstSeen": "2026-11-24",
+      "newThisWeek": true
+    },
+    {
       "filerName": "CHOREO, LLC",
       "filerCik": "1679031",
       "currentShares": 3153,
@@ -4611,7 +4623,7 @@
       "currentValue": 813129,
       "action": "Bought",
       "firstSeen": "2026-11-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "CIBC Bancorp USA Inc.",
@@ -4887,7 +4899,7 @@
       "currentValue": 659995,
       "action": "Bought",
       "firstSeen": "2026-11-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "&PARTNERS",
@@ -5499,7 +5511,7 @@
       "currentValue": 472658,
       "action": "Sold",
       "firstSeen": "2026-11-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Aaron Wealth Advisors LLC",
@@ -5703,7 +5715,7 @@
       "currentValue": 410813,
       "action": "Sold",
       "firstSeen": "2026-11-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "QUADRANT CAPITAL GROUP LLC",
@@ -6123,7 +6135,7 @@
       "currentValue": 329253,
       "action": "Sold",
       "firstSeen": "2026-11-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Baker Avenue Asset Management, LP",
@@ -6555,7 +6567,7 @@
       "currentValue": 274074,
       "action": "No Change",
       "firstSeen": "2026-11-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "City Center Advisors, LLC",
@@ -7794,6 +7806,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "Sunbelt Securities, Inc.",
+      "filerCik": "1632932",
+      "currentShares": 118,
+      "priorShares": null,
+      "change": 118,
+      "pctChange": 100,
+      "currentValue": 35775,
+      "action": "New Position",
+      "firstSeen": "2026-11-24",
+      "newThisWeek": true
+    },
+    {
       "filerName": "Gen-Wealth Partners Inc",
       "filerCik": "2023375",
       "currentShares": 114,
@@ -8199,7 +8223,7 @@
       "currentValue": 16069,
       "action": "Bought",
       "firstSeen": "2026-11-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Cornerstone Financial Management LLC",
@@ -8991,7 +9015,7 @@
       "currentValue": 1819,
       "action": "No Change",
       "firstSeen": "2026-11-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "DiNuzzo Private Wealth, Inc.",
@@ -9582,18 +9606,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Venturi Wealth Management, LLC",
-      "filerCik": "1666363",
-      "currentShares": null,
-      "priorShares": 3134,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
-      "newThisWeek": false
-    },
-    {
       "filerName": "XML Financial, LLC",
       "filerCik": "1800465",
       "currentShares": null,
@@ -9618,18 +9630,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Fieldview Capital Management, LLC",
-      "filerCik": "2040221",
-      "currentShares": null,
-      "priorShares": 1794,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
-      "firstSeen": "2026-11-13",
-      "newThisWeek": false
-    },
-    {
       "filerName": "Employees Retirement System of Texas",
       "filerCik": "1398739",
       "currentShares": null,
@@ -9639,6 +9639,18 @@
       "currentValue": null,
       "action": "Sell Out",
       "firstSeen": "2026-11-10",
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Fieldview Capital Management, LLC",
+      "filerCik": "2040221",
+      "currentShares": null,
+      "priorShares": 1794,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
+      "firstSeen": "2026-11-13",
       "newThisWeek": false
     },
     {

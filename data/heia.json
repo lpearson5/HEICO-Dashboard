@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-09-30",
   "priorPeriod": "2026-06-30",
-  "lastUpdated": "2026-11-23T22:32:52.336Z",
+  "lastUpdated": "2026-11-24T21:06:09.336Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -806,8 +806,8 @@
       "pctChange": 100,
       "currentValue": 42547415,
       "action": "New Position",
-      "firstSeen": "2026-11-16",
-      "newThisWeek": false
+      "firstSeen": "2026-11-24",
+      "newThisWeek": true
     },
     {
       "filerName": "GENEVA CAPITAL MANAGEMENT LLC",
@@ -1264,6 +1264,18 @@
       "action": "Bought",
       "firstSeen": "2026-10-30",
       "newThisWeek": false
+    },
+    {
+      "filerName": "Venturi Wealth Management, LLC",
+      "filerCik": "1666363",
+      "currentShares": 90147,
+      "priorShares": 89163,
+      "change": 984,
+      "pctChange": 1.1,
+      "currentValue": 20583264,
+      "action": "Bought",
+      "firstSeen": "2026-11-24",
+      "newThisWeek": true
     },
     {
       "filerName": "PRICE T ROWE ASSOCIATES INC /MD/",
@@ -1803,7 +1815,7 @@
       "currentValue": 9057394,
       "action": "No Change",
       "firstSeen": "2026-11-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Vanguard Investments Australia, Ltd.",
@@ -3771,7 +3783,7 @@
       "currentValue": 1083426,
       "action": "Bought",
       "firstSeen": "2026-11-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Machina Capital S.A.S.",
@@ -4155,7 +4167,7 @@
       "currentValue": 793467,
       "action": "Bought",
       "firstSeen": "2026-11-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Ironwood Investment Counsel, LLC",
@@ -4239,7 +4251,7 @@
       "currentValue": 764905,
       "action": "New Position",
       "firstSeen": "2026-11-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Ballentine Partners, LLC",
@@ -4887,7 +4899,7 @@
       "currentValue": 529148,
       "action": "Sold",
       "firstSeen": "2026-11-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Family Manage LLC",
@@ -4995,7 +5007,7 @@
       "currentValue": 438622,
       "action": "Sold",
       "firstSeen": "2026-11-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Argent Trust Co",
@@ -5019,7 +5031,7 @@
       "currentValue": 433058,
       "action": "Bought",
       "firstSeen": "2026-11-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "MOODY ALDRICH PARTNERS LLC",
@@ -5535,7 +5547,7 @@
       "currentValue": 300,
       "action": "New Position",
       "firstSeen": "2026-11-17",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "HARBOR CAPITAL ADVISORS, INC.",
@@ -7194,6 +7206,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "Sunbelt Securities, Inc.",
+      "filerCik": "1632932",
+      "currentShares": 59,
+      "priorShares": null,
+      "change": 59,
+      "pctChange": 100,
+      "currentValue": 13471,
+      "action": "New Position",
+      "firstSeen": "2026-11-24",
+      "newThisWeek": true
+    },
+    {
       "filerName": "ELEVATION WEALTH PARTNERS, LLC",
       "filerCik": "1976256",
       "currentShares": 55,
@@ -8199,18 +8223,6 @@
       "currentValue": null,
       "action": "Sell Out",
       "firstSeen": "2026-10-30",
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Venturi Wealth Management, LLC",
-      "filerCik": "1666363",
-      "currentShares": null,
-      "priorShares": 89163,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
       "newThisWeek": false
     },
     {

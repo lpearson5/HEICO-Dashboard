@@ -2,95 +2,17 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-11-23T22:32:52.336Z",
+  "lastUpdated": "2026-11-24T21:06:09.336Z",
   "summary": {
-    "funds": 434,
-    "totalShares": 19556017,
-    "pctOut": 35.4009,
-    "newFunds": 49,
-    "sellouts": 47,
+    "funds": 437,
+    "totalShares": 19797914,
+    "pctOut": 35.8387,
+    "newFunds": 35,
+    "sellouts": 45,
     "linkedManagers": 25,
-    "linkedShares": 16801782
+    "linkedShares": 17021343
   },
   "newHolders": [
-    {
-      "fundName": "T. Rowe Price Growth Stock Fund, Inc.",
-      "registrant": "T. ROWE PRICE GROWTH STOCK FUND, INC.",
-      "manager": "T. Rowe Price",
-      "cik": "80257",
-      "shares": 483996,
-      "value": 172394535,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.8761,
-      "action": "New"
-    },
-    {
-      "fundName": "T. Rowe Price Blue Chip Growth Fund, Inc.",
-      "registrant": "T. ROWE PRICE BLUE CHIP GROWTH FUND, INC.",
-      "manager": "T. Rowe Price",
-      "cik": "902259",
-      "shares": 428723,
-      "value": 152706845,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.7761,
-      "action": "New"
-    },
-    {
-      "fundName": "T. Rowe Price Mid-Cap Growth Fund, Inc.",
-      "registrant": "T. ROWE PRICE MID-CAP GROWTH FUND, INC.",
-      "manager": "T. Rowe Price",
-      "cik": "887147",
-      "shares": 244555,
-      "value": 87108045,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.44270000000000004,
-      "action": "New"
-    },
-    {
-      "fundName": "T. Rowe Price Large-Cap Growth Fund",
-      "registrant": "T. Rowe Price Equity Funds, Inc.",
-      "manager": "T. Rowe Price",
-      "cik": "1012968",
-      "shares": 193599,
-      "value": 68958028,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.3505,
-      "action": "New"
-    },
-    {
-      "fundName": "JNL/T. Rowe Price Mid-Cap Growth Fund",
-      "registrant": "JNL Series Trust",
-      "manager": "T. Rowe Price",
-      "cik": "933691",
-      "shares": 115785,
-      "value": 41241459,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.2096,
-      "action": "New"
-    },
-    {
-      "fundName": "JNL/T. Rowe Price Growth Stock Fund",
-      "registrant": "JNL Series Trust",
-      "manager": "T. Rowe Price",
-      "cik": "933691",
-      "shares": 113388,
-      "value": 40387672,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.2053,
-      "action": "New"
-    },
     {
       "fundName": "Invesco Large Cap Growth ETF",
       "registrant": "Invesco Exchange-Traded Fund Trust",
@@ -102,19 +24,6 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.1298,
-      "action": "New"
-    },
-    {
-      "fundName": "T. Rowe Price Institutional Mid-Cap Equity Growth Fund",
-      "registrant": "T. Rowe Price Equity Funds, Inc.",
-      "manager": "T. Rowe Price",
-      "cik": "1012968",
-      "shares": 28445,
-      "value": 10131825,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.051500000000000004,
       "action": "New"
     },
     {
@@ -157,6 +66,19 @@
       "action": "New"
     },
     {
+      "fundName": "Allspring Common Stock Fund",
+      "registrant": "ALLSPRING FUNDS TRUST",
+      "manager": "",
+      "cik": "1081400",
+      "shares": 20000,
+      "value": 6063600,
+      "reportDate": "2026-09-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0362,
+      "action": "New"
+    },
+    {
       "fundName": "MassMutual Mid Cap Growth Fund",
       "registrant": "MASSMUTUAL SELECT FUNDS",
       "manager": "",
@@ -183,19 +105,6 @@
       "action": "New"
     },
     {
-      "fundName": "T. Rowe Price Institutional Large-Cap Core Growth Fund",
-      "registrant": "T. Rowe Price Equity Funds, Inc.",
-      "manager": "T. Rowe Price",
-      "cik": "1012968",
-      "shares": 17800,
-      "value": 6340182,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0322,
-      "action": "New"
-    },
-    {
       "fundName": "Blue Chip Growth Trust",
       "registrant": "John Hancock Variable Insurance Trust",
       "manager": "John Hancock",
@@ -206,32 +115,6 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.031100000000000003,
-      "action": "New"
-    },
-    {
-      "fundName": "T. Rowe Price Blue Chip Growth Portfolio",
-      "registrant": "T. ROWE PRICE EQUITY SERIES, INC.",
-      "manager": "T. Rowe Price",
-      "cik": "918294",
-      "shares": 16900,
-      "value": 6019611,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.030600000000000002,
-      "action": "New"
-    },
-    {
-      "fundName": "T. Rowe Price Blue Chip Growth ETF",
-      "registrant": "T. Rowe Price Exchange-Traded Funds, Inc.",
-      "manager": "T. Rowe Price",
-      "cik": "1795351",
-      "shares": 15929,
-      "value": 5673751,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0288,
       "action": "New"
     },
     {
@@ -261,19 +144,6 @@
       "action": "New"
     },
     {
-      "fundName": "T. Rowe Price Growth ETF",
-      "registrant": "T. Rowe Price Exchange-Traded Funds, Inc.",
-      "manager": "T. Rowe Price",
-      "cik": "1795351",
-      "shares": 11547,
-      "value": 4112926,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.020900000000000002,
-      "action": "New"
-    },
-    {
       "fundName": "T. Rowe Price Mid Cap Growth Portfolio",
       "registrant": "Brighthouse Funds Trust I",
       "manager": "T. Rowe Price",
@@ -297,19 +167,6 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.0201,
-      "action": "New"
-    },
-    {
-      "fundName": "T. Rowe Price Growth Stock ETF",
-      "registrant": "T. Rowe Price Exchange-Traded Funds, Inc.",
-      "manager": "T. Rowe Price",
-      "cik": "1795351",
-      "shares": 10209,
-      "value": 3636344,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0185,
       "action": "New"
     },
     {
@@ -352,19 +209,6 @@
       "action": "New"
     },
     {
-      "fundName": "T. Rowe Price Balanced Fund, Inc.",
-      "registrant": "T. Rowe Price Balanced Fund, Inc.",
-      "manager": "T. Rowe Price",
-      "cik": "871839",
-      "shares": 6100,
-      "value": 2172759,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.011000000000000001,
-      "action": "New"
-    },
-    {
       "fundName": "Growth Fund",
       "registrant": "HOMESTEAD FUNDS INC",
       "manager": "",
@@ -401,19 +245,6 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.0092,
-      "action": "New"
-    },
-    {
-      "fundName": "T. Rowe Price Mid-Cap Growth Portfolio",
-      "registrant": "T. ROWE PRICE EQUITY SERIES, INC.",
-      "manager": "T. Rowe Price",
-      "cik": "918294",
-      "shares": 4604,
-      "value": 1639899,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0083,
       "action": "New"
     },
     {
@@ -466,19 +297,6 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.006200000000000001,
-      "action": "New"
-    },
-    {
-      "fundName": "T. Rowe Price Total Equity Market Index Fund",
-      "registrant": "T. ROWE PRICE INDEX TRUST, INC.",
-      "manager": "T. Rowe Price",
-      "cik": "858581",
-      "shares": 2973,
-      "value": 1058953,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.005399999999999999,
       "action": "New"
     },
     {
@@ -560,19 +378,6 @@
       "action": "New"
     },
     {
-      "fundName": "T. Rowe Price Moderate Allocation Portfolio",
-      "registrant": "T. ROWE PRICE EQUITY SERIES, INC.",
-      "manager": "T. Rowe Price",
-      "cik": "918294",
-      "shares": 220,
-      "value": 78362,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.00039999999999999996,
-      "action": "New"
-    },
-    {
       "fundName": "Burney U.S. Equity Select ETF",
       "registrant": "EA Series Trust",
       "manager": "",
@@ -580,6 +385,19 @@
       "shares": 81,
       "value": 21864,
       "reportDate": "2026-04-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.00009999999999999999,
+      "action": "New"
+    },
+    {
+      "fundName": "T. Rowe Price Active Core U.S. Equity ETF",
+      "registrant": "T. Rowe Price Exchange-Traded Funds, Inc.",
+      "manager": "T. Rowe Price",
+      "cik": "1795351",
+      "shares": 62,
+      "value": 18797,
+      "reportDate": "2026-09-30",
       "priorShares": null,
       "change": null,
       "pctOut": 0.00009999999999999999,
@@ -779,13 +597,6 @@
       "lastReport": "2026-03-31"
     },
     {
-      "fundName": "AGF U.S. Market Neutral Anti-Beta Fund",
-      "registrant": "AGF Investments Trust",
-      "manager": "",
-      "lastShares": 3726,
-      "lastReport": "2025-12-31"
-    },
-    {
       "fundName": "First Trust Dorsey Wright Momentum &amp; Low Volatility ETF",
       "registrant": "First Trust Exchange-Traded Fund VI",
       "manager": "First Trust",
@@ -798,13 +609,6 @@
       "manager": "",
       "lastShares": 2975,
       "lastReport": "2025-08-31"
-    },
-    {
-      "fundName": "First Trust Lunt U.S. Factor Rotation ETF",
-      "registrant": "First Trust Exchange-Traded Fund",
-      "manager": "First Trust",
-      "lastShares": 2527,
-      "lastReport": "2025-09-30"
     },
     {
       "fundName": "Motley Fool Next Index ETF",
@@ -1110,6 +914,133 @@
       ]
     },
     {
+      "manager": "T. Rowe Price",
+      "fundCount": 30,
+      "shares": 2137634,
+      "funds": [
+        {
+          "fundName": "T. Rowe Price Growth Stock Fund, Inc.",
+          "shares": 541125
+        },
+        {
+          "fundName": "T. Rowe Price Blue Chip Growth Fund, Inc.",
+          "shares": 426418
+        },
+        {
+          "fundName": "T. Rowe Price Mid-Cap Growth Fund, Inc.",
+          "shares": 341166
+        },
+        {
+          "fundName": "T. Rowe Price Large-Cap Growth Fund",
+          "shares": 256652
+        },
+        {
+          "fundName": "T. Rowe Price Diversified Mid-Cap Growth Fund, Inc.",
+          "shares": 125828
+        },
+        {
+          "fundName": "JNL/T. Rowe Price Mid-Cap Growth Fund",
+          "shares": 115785
+        },
+        {
+          "fundName": "JNL/T. Rowe Price Growth Stock Fund",
+          "shares": 108423
+        },
+        {
+          "fundName": "T. Rowe Price Institutional Mid-Cap Equity Growth Fund",
+          "shares": 35545
+        },
+        {
+          "fundName": "Empower T. Rowe Price Mid Cap Growth Fund",
+          "shares": 30349
+        },
+        {
+          "fundName": "VY(R) T. ROWE PRICE DIVERSIFIED MID CAP GROWTH PORTFOLIO",
+          "shares": 25827
+        },
+        {
+          "fundName": "T. Rowe Price Institutional Large-Cap Core Growth Fund",
+          "shares": 17713
+        },
+        {
+          "fundName": "T. Rowe Price Blue Chip Growth Portfolio",
+          "shares": 16900
+        },
+        {
+          "fundName": "T. Rowe Price Growth ETF",
+          "shares": 16058
+        },
+        {
+          "fundName": "T. Rowe Price Blue Chip Growth ETF",
+          "shares": 15607
+        },
+        {
+          "fundName": "T. Rowe Price Mid Cap Growth Portfolio",
+          "shares": 11500
+        },
+        {
+          "fundName": "T. Rowe Price Growth Stock ETF",
+          "shares": 11249
+        },
+        {
+          "fundName": "T. Rowe Price Mid-Cap Growth Portfolio",
+          "shares": 6411
+        },
+        {
+          "fundName": "T. Rowe Price Extended Equity Market Index Fund",
+          "shares": 6101
+        },
+        {
+          "fundName": "T. Rowe Price Balanced Fund, Inc.",
+          "shares": 6100
+        },
+        {
+          "fundName": "T. Rowe Price Spectrum Moderate Growth Allocation Fund",
+          "shares": 5100
+        },
+        {
+          "fundName": "T. Rowe Price Mid-Cap Index Fund",
+          "shares": 4030
+        },
+        {
+          "fundName": "T. Rowe Price Tax-Efficient Equity Fund",
+          "shares": 4000
+        },
+        {
+          "fundName": "T. Rowe Price Total Equity Market Index Fund",
+          "shares": 3009
+        },
+        {
+          "fundName": "T. Rowe Price Spectrum Moderate Allocation Fund",
+          "shares": 1708
+        },
+        {
+          "fundName": "SA T. Rowe Price VCP Balanced Portfolio",
+          "shares": 1440
+        },
+        {
+          "fundName": "SA T. Rowe Price Allocation Moderately Aggressive Portfolio",
+          "shares": 1355
+        },
+        {
+          "fundName": "T. Rowe Price Spectrum Conservative Allocation Fund",
+          "shares": 1300
+        },
+        {
+          "fundName": "T. Rowe Price Global Allocation Fund",
+          "shares": 653
+        },
+        {
+          "fundName": "T. Rowe Price Moderate Allocation Portfolio",
+          "shares": 220
+        },
+        {
+          "fundName": "T. Rowe Price Active Core U.S. Equity ETF",
+          "shares": 62
+        }
+      ]
+    },
+    {
       "manager": "FMR (Fidelity)",
       "fundCount": 40,
       "shares": 2027666,
@@ -1273,129 +1204,6 @@
         {
           "fundName": "Fidelity Enhanced Large Cap Core ETF",
           "shares": 1
-        }
-      ]
-    },
-    {
-      "manager": "T. Rowe Price",
-      "fundCount": 29,
-      "shares": 1913981,
-      "funds": [
-        {
-          "fundName": "T. Rowe Price Growth Stock Fund, Inc.",
-          "shares": 483996
-        },
-        {
-          "fundName": "T. Rowe Price Blue Chip Growth Fund, Inc.",
-          "shares": 428723
-        },
-        {
-          "fundName": "T. Rowe Price Mid-Cap Growth Fund, Inc.",
-          "shares": 244555
-        },
-        {
-          "fundName": "T. Rowe Price Large-Cap Growth Fund",
-          "shares": 193599
-        },
-        {
-          "fundName": "T. Rowe Price Diversified Mid-Cap Growth Fund, Inc.",
-          "shares": 126097
-        },
-        {
-          "fundName": "JNL/T. Rowe Price Mid-Cap Growth Fund",
-          "shares": 115785
-        },
-        {
-          "fundName": "JNL/T. Rowe Price Growth Stock Fund",
-          "shares": 113388
-        },
-        {
-          "fundName": "Empower T. Rowe Price Mid Cap Growth Fund",
-          "shares": 30349
-        },
-        {
-          "fundName": "T. Rowe Price Institutional Mid-Cap Equity Growth Fund",
-          "shares": 28445
-        },
-        {
-          "fundName": "VY(R) T. ROWE PRICE DIVERSIFIED MID CAP GROWTH PORTFOLIO",
-          "shares": 25827
-        },
-        {
-          "fundName": "T. Rowe Price Institutional Large-Cap Core Growth Fund",
-          "shares": 17800
-        },
-        {
-          "fundName": "T. Rowe Price Blue Chip Growth Portfolio",
-          "shares": 16900
-        },
-        {
-          "fundName": "T. Rowe Price Blue Chip Growth ETF",
-          "shares": 15929
-        },
-        {
-          "fundName": "T. Rowe Price Growth ETF",
-          "shares": 11547
-        },
-        {
-          "fundName": "T. Rowe Price Mid Cap Growth Portfolio",
-          "shares": 11500
-        },
-        {
-          "fundName": "T. Rowe Price Growth Stock ETF",
-          "shares": 10209
-        },
-        {
-          "fundName": "T. Rowe Price Extended Equity Market Index Fund",
-          "shares": 6101
-        },
-        {
-          "fundName": "T. Rowe Price Balanced Fund, Inc.",
-          "shares": 6100
-        },
-        {
-          "fundName": "T. Rowe Price Spectrum Moderate Growth Allocation Fund",
-          "shares": 5100
-        },
-        {
-          "fundName": "T. Rowe Price Mid-Cap Growth Portfolio",
-          "shares": 4604
-        },
-        {
-          "fundName": "T. Rowe Price Tax-Efficient Equity Fund",
-          "shares": 4000
-        },
-        {
-          "fundName": "T. Rowe Price Mid-Cap Index Fund",
-          "shares": 3778
-        },
-        {
-          "fundName": "T. Rowe Price Total Equity Market Index Fund",
-          "shares": 2973
-        },
-        {
-          "fundName": "T. Rowe Price Spectrum Moderate Allocation Fund",
-          "shares": 1708
-        },
-        {
-          "fundName": "SA T. Rowe Price VCP Balanced Portfolio",
-          "shares": 1440
-        },
-        {
-          "fundName": "SA T. Rowe Price Allocation Moderately Aggressive Portfolio",
-          "shares": 1355
-        },
-        {
-          "fundName": "T. Rowe Price Spectrum Conservative Allocation Fund",
-          "shares": 1300
-        },
-        {
-          "fundName": "T. Rowe Price Global Allocation Fund",
-          "shares": 653
-        },
-        {
-          "fundName": "T. Rowe Price Moderate Allocation Portfolio",
-          "shares": 220
         }
       ]
     },
@@ -1745,7 +1553,7 @@
     {
       "manager": "Morgan Stanley",
       "fundCount": 19,
-      "shares": 254720,
+      "shares": 264902,
       "funds": [
         {
           "fundName": "Eaton Vance Tax-Managed Diversified Equity Income Fund",
@@ -1757,7 +1565,7 @@
         },
         {
           "fundName": "Calvert Balanced Fund",
-          "shares": 32500
+          "shares": 42900
         },
         {
           "fundName": "Eaton Vance Enhanced Equity Income Fund",
@@ -1773,7 +1581,7 @@
         },
         {
           "fundName": "Calvert U.S. Large Cap Core Responsible Index Fund",
-          "shares": 13290
+          "shares": 13111
         },
         {
           "fundName": "Calvert VP SRI Balanced Portfolio",
@@ -1809,7 +1617,7 @@
         },
         {
           "fundName": "Transamerica Morgan Stanley Global Allocation VP",
-          "shares": 193
+          "shares": 154
         },
         {
           "fundName": "Parametric Equity Plus ETF",
@@ -1889,12 +1697,12 @@
     },
     {
       "manager": "First Trust",
-      "fundCount": 7,
-      "shares": 160139,
+      "fundCount": 8,
+      "shares": 146603,
       "funds": [
         {
           "fundName": "First Trust Indxx Aerospace &amp; Defense ETF",
-          "shares": 99448
+          "shares": 84152
         },
         {
           "fundName": "First Trust Large Cap Growth AlphaDEX Fund",
@@ -1915,6 +1723,10 @@
         {
           "fundName": "First Trust Multi Cap Growth AlphaDEX Fund",
           "shares": 4582
+        },
+        {
+          "fundName": "First Trust Lunt U.S. Factor Rotation ETF",
+          "shares": 1760
         },
         {
           "fundName": "First Trust RBA Deglobalization ETF",
@@ -2015,7 +1827,7 @@
     {
       "manager": "Neuberger Berman",
       "fundCount": 3,
-      "shares": 112584,
+      "shares": 111846,
       "funds": [
         {
           "fundName": "Neuberger Mid Cap Growth Fund",
@@ -2027,7 +1839,7 @@
         },
         {
           "fundName": "Mid Cap Growth Portfolio",
-          "shares": 15500
+          "shares": 14762
         }
       ]
     },
@@ -2231,12 +2043,12 @@
       "manager": "Capital Group (American Funds)",
       "cik": "71516",
       "shares": 946573,
-      "value": 337159837,
-      "reportDate": "2026-06-30",
-      "priorShares": 1351699,
-      "change": -405126,
+      "value": 286982002,
+      "reportDate": "2026-09-30",
+      "priorShares": 946573,
+      "change": 0,
       "pctOut": 1.7135,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "VANGUARD MID-CAP INDEX FUND",
@@ -2291,6 +2103,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "T. Rowe Price Growth Stock Fund, Inc.",
+      "registrant": "T. ROWE PRICE GROWTH STOCK FUND, INC.",
+      "manager": "T. Rowe Price",
+      "cik": "80257",
+      "shares": 541125,
+      "value": 164058278,
+      "reportDate": "2026-09-30",
+      "priorShares": 483996,
+      "change": 57129,
+      "pctOut": 0.9795999999999999,
+      "action": "Bought"
+    },
+    {
       "fundName": "State Street(R) SPDR(R) S&amp;P(R) Aerospace &amp; Defense ETF",
       "registrant": "SPDR SERIES TRUST",
       "manager": "State Street",
@@ -2330,19 +2155,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "T. Rowe Price Growth Stock Fund, Inc.",
-      "registrant": "T. ROWE PRICE GROWTH STOCK FUND, INC.",
-      "manager": "T. Rowe Price",
-      "cik": "80257",
-      "shares": 483996,
-      "value": 172394535,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.8761,
-      "action": "New"
-    },
-    {
       "fundName": "Growth Fund",
       "registrant": "AMERICAN FUNDS INSURANCE SERIES",
       "manager": "Capital Group (American Funds)",
@@ -2373,13 +2185,13 @@
       "registrant": "T. ROWE PRICE BLUE CHIP GROWTH FUND, INC.",
       "manager": "T. Rowe Price",
       "cik": "902259",
-      "shares": 428723,
-      "value": 152706845,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.7761,
-      "action": "New"
+      "shares": 426418,
+      "value": 129281409,
+      "reportDate": "2026-09-30",
+      "priorShares": 428723,
+      "change": -2305,
+      "pctOut": 0.7719,
+      "action": "Sold"
     },
     {
       "fundName": "BlackRock Mid-Cap Growth Equity Portfolio",
@@ -2421,6 +2233,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "T. Rowe Price Mid-Cap Growth Fund, Inc.",
+      "registrant": "T. ROWE PRICE MID-CAP GROWTH FUND, INC.",
+      "manager": "T. Rowe Price",
+      "cik": "887147",
+      "shares": 341166,
+      "value": 103434708,
+      "reportDate": "2026-09-30",
+      "priorShares": 244555,
+      "change": 96611,
+      "pctOut": 0.6176,
+      "action": "Bought"
+    },
+    {
       "fundName": "VANGUARD MID-CAP GROWTH INDEX FUND",
       "registrant": "VANGUARD INDEX FUNDS",
       "manager": "Vanguard Group",
@@ -2431,6 +2256,19 @@
       "priorShares": 314602,
       "change": 3800,
       "pctOut": 0.5764,
+      "action": "Bought"
+    },
+    {
+      "fundName": "T. Rowe Price Large-Cap Growth Fund",
+      "registrant": "T. Rowe Price Equity Funds, Inc.",
+      "manager": "T. Rowe Price",
+      "cik": "1012968",
+      "shares": 256652,
+      "value": 77811753,
+      "reportDate": "2026-09-30",
+      "priorShares": 193599,
+      "change": 63053,
+      "pctOut": 0.4646,
       "action": "Bought"
     },
     {
@@ -2458,19 +2296,6 @@
       "change": -56000,
       "pctOut": 0.45310000000000006,
       "action": "Sold"
-    },
-    {
-      "fundName": "T. Rowe Price Mid-Cap Growth Fund, Inc.",
-      "registrant": "T. ROWE PRICE MID-CAP GROWTH FUND, INC.",
-      "manager": "T. Rowe Price",
-      "cik": "887147",
-      "shares": 244555,
-      "value": 87108045,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.44270000000000004,
-      "action": "New"
     },
     {
       "fundName": "Schwab U.S. Large-Cap Growth ETF",
@@ -2549,19 +2374,6 @@
       "change": 0,
       "pctOut": 0.363,
       "action": "No Change"
-    },
-    {
-      "fundName": "T. Rowe Price Large-Cap Growth Fund",
-      "registrant": "T. Rowe Price Equity Funds, Inc.",
-      "manager": "T. Rowe Price",
-      "cik": "1012968",
-      "shares": 193599,
-      "value": 68958028,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.3505,
-      "action": "New"
     },
     {
       "fundName": "Federated Hermes Kaufmann Fund",
@@ -2647,8 +2459,8 @@
       "manager": "",
       "cik": "51931",
       "shares": 152961,
-      "value": 54483179,
-      "reportDate": "2026-06-30",
+      "value": 46374716,
+      "reportDate": "2026-09-30",
       "priorShares": 152961,
       "change": 0,
       "pctOut": 0.27690000000000003,
@@ -2685,12 +2497,12 @@
       "registrant": "T. ROWE PRICE DIVERSIFIED MID-CAP GROWTH FUND, INC.",
       "manager": "T. Rowe Price",
       "cik": "1267862",
-      "shares": 126097,
-      "value": 44914490,
-      "reportDate": "2026-06-30",
-      "priorShares": 159415,
-      "change": -33318,
-      "pctOut": 0.22829999999999998,
+      "shares": 125828,
+      "value": 38148533,
+      "reportDate": "2026-09-30",
+      "priorShares": 126097,
+      "change": -269,
+      "pctOut": 0.2278,
       "action": "Sold"
     },
     {
@@ -2712,8 +2524,8 @@
       "manager": "",
       "cik": "1027263",
       "shares": 120400,
-      "value": 42885276,
-      "reportDate": "2026-06-30",
+      "value": 36502872,
+      "reportDate": "2026-09-30",
       "priorShares": 120400,
       "change": 0,
       "pctOut": 0.218,
@@ -2725,25 +2537,12 @@
       "manager": "T. Rowe Price",
       "cik": "933691",
       "shares": 115785,
-      "value": 41241459,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
+      "value": 35103696,
+      "reportDate": "2026-09-30",
+      "priorShares": 115785,
+      "change": 0,
       "pctOut": 0.2096,
-      "action": "New"
-    },
-    {
-      "fundName": "JNL/T. Rowe Price Growth Stock Fund",
-      "registrant": "JNL Series Trust",
-      "manager": "T. Rowe Price",
-      "cik": "933691",
-      "shares": 113388,
-      "value": 40387672,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.2053,
-      "action": "New"
+      "action": "No Change"
     },
     {
       "fundName": "Voya Large Cap Growth Portfolio",
@@ -2759,6 +2558,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "JNL/T. Rowe Price Growth Stock Fund",
+      "registrant": "JNL Series Trust",
+      "manager": "T. Rowe Price",
+      "cik": "933691",
+      "shares": 108423,
+      "value": 32871685,
+      "reportDate": "2026-09-30",
+      "priorShares": 113388,
+      "change": -4965,
+      "pctOut": 0.1963,
+      "action": "Sold"
+    },
+    {
       "fundName": "Schwab U.S. Large-Cap ETF",
       "registrant": "SCHWAB STRATEGIC TRUST",
       "manager": "Charles Schwab",
@@ -2769,19 +2581,6 @@
       "priorShares": 106916,
       "change": -3568,
       "pctOut": 0.18710000000000002,
-      "action": "Sold"
-    },
-    {
-      "fundName": "First Trust Indxx Aerospace &amp; Defense ETF",
-      "registrant": "First Trust Exchange-Traded Fund",
-      "manager": "First Trust",
-      "cik": "1329377",
-      "shares": 99448,
-      "value": 35422383,
-      "reportDate": "2026-06-30",
-      "priorShares": 175036,
-      "change": -75588,
-      "pctOut": 0.18,
       "action": "Sold"
     },
     {
@@ -2808,6 +2607,19 @@
       "priorShares": 102326,
       "change": -12080,
       "pctOut": 0.1634,
+      "action": "Sold"
+    },
+    {
+      "fundName": "First Trust Indxx Aerospace &amp; Defense ETF",
+      "registrant": "First Trust Exchange-Traded Fund",
+      "manager": "First Trust",
+      "cik": "1329377",
+      "shares": 84152,
+      "value": 25513203,
+      "reportDate": "2026-09-30",
+      "priorShares": 99448,
+      "change": -15296,
+      "pctOut": 0.1523,
       "action": "Sold"
     },
     {
@@ -2985,12 +2797,12 @@
       "manager": "",
       "cik": "1081400",
       "shares": 55000,
-      "value": 19590450,
-      "reportDate": "2026-06-30",
-      "priorShares": 35000,
-      "change": 20000,
+      "value": 16674900,
+      "reportDate": "2026-09-30",
+      "priorShares": 55000,
+      "change": 0,
       "pctOut": 0.0996,
-      "action": "Bought"
+      "action": "No Change"
     },
     {
       "fundName": "VANGUARD INDUSTRIALS INDEX FUND",
@@ -3136,6 +2948,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Calvert Balanced Fund",
+      "registrant": "Calvert Social Investment Fund",
+      "manager": "Morgan Stanley",
+      "cik": "356682",
+      "shares": 42900,
+      "value": 13006422,
+      "reportDate": "2026-09-30",
+      "priorShares": 32500,
+      "change": 10400,
+      "pctOut": 0.0777,
+      "action": "Bought"
+    },
+    {
       "fundName": "Washington Mutual Investors Fund",
       "registrant": "AMERICAN FUNDS INSURANCE SERIES",
       "manager": "Capital Group (American Funds)",
@@ -3266,6 +3091,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "T. Rowe Price Institutional Mid-Cap Equity Growth Fund",
+      "registrant": "T. Rowe Price Equity Funds, Inc.",
+      "manager": "T. Rowe Price",
+      "cik": "1012968",
+      "shares": 35545,
+      "value": 10776533,
+      "reportDate": "2026-09-30",
+      "priorShares": 28445,
+      "change": 7100,
+      "pctOut": 0.0643,
+      "action": "Bought"
+    },
+    {
       "fundName": "Nuveen Equity Index Fund",
       "registrant": "TIAA-CREF Funds",
       "manager": "Nuveen (TIAA)",
@@ -3303,19 +3141,6 @@
       "change": -11486,
       "pctOut": 0.05910000000000001,
       "action": "Sold"
-    },
-    {
-      "fundName": "Calvert Balanced Fund",
-      "registrant": "Calvert Social Investment Fund",
-      "manager": "Morgan Stanley",
-      "cik": "356682",
-      "shares": 32500,
-      "value": 11576175,
-      "reportDate": "2026-06-30",
-      "priorShares": 32500,
-      "change": 0,
-      "pctOut": 0.0588,
-      "action": "No Change"
     },
     {
       "fundName": "Dimensional U.S. Core Equity 2 ETF",
@@ -3381,19 +3206,6 @@
       "change": 2706,
       "pctOut": 0.0523,
       "action": "Bought"
-    },
-    {
-      "fundName": "T. Rowe Price Institutional Mid-Cap Equity Growth Fund",
-      "registrant": "T. Rowe Price Equity Funds, Inc.",
-      "manager": "T. Rowe Price",
-      "cik": "1012968",
-      "shares": 28445,
-      "value": 10131825,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.051500000000000004,
-      "action": "New"
     },
     {
       "fundName": "U.S. CORE EQUITY 1 PORTFOLIO",
@@ -3466,8 +3278,8 @@
       "manager": "Morgan Stanley",
       "cik": "1300391",
       "shares": 26029,
-      "value": 9271270,
-      "reportDate": "2026-06-30",
+      "value": 7891472,
+      "reportDate": "2026-09-30",
       "priorShares": 26029,
       "change": 0,
       "pctOut": 0.0471,
@@ -3531,8 +3343,8 @@
       "manager": "",
       "cik": "1047112",
       "shares": 24913,
-      "value": 8873761,
-      "reportDate": "2026-06-30",
+      "value": 7553123,
+      "reportDate": "2026-09-30",
       "priorShares": 24913,
       "change": 0,
       "pctOut": 0.0451,
@@ -3708,6 +3520,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Allspring Common Stock Fund",
+      "registrant": "ALLSPRING FUNDS TRUST",
+      "manager": "",
+      "cik": "1081400",
+      "shares": 20000,
+      "value": 6063600,
+      "reportDate": "2026-09-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0362,
+      "action": "New"
+    },
+    {
       "fundName": "VOYA LARGE-CAP GROWTH FUND",
       "registrant": "Voya Equity Trust",
       "manager": "Voya",
@@ -3829,13 +3654,13 @@
       "registrant": "T. Rowe Price Equity Funds, Inc.",
       "manager": "T. Rowe Price",
       "cik": "1012968",
-      "shares": 17800,
-      "value": 6340182,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0322,
-      "action": "New"
+      "shares": 17713,
+      "value": 5370227,
+      "reportDate": "2026-09-30",
+      "priorShares": 17800,
+      "change": -87,
+      "pctOut": 0.0321,
+      "action": "Sold"
     },
     {
       "fundName": "First Trust Long/Short Equity ETF",
@@ -3882,12 +3707,12 @@
       "manager": "T. Rowe Price",
       "cik": "918294",
       "shares": 16900,
-      "value": 6019611,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
+      "value": 5123742,
+      "reportDate": "2026-09-30",
+      "priorShares": 16900,
+      "change": 0,
       "pctOut": 0.030600000000000002,
-      "action": "New"
+      "action": "No Change"
     },
     {
       "fundName": "LVIP American Century Capital Appreciation Fund",
@@ -3942,17 +3767,17 @@
       "action": "Bought"
     },
     {
-      "fundName": "T. Rowe Price Blue Chip Growth ETF",
+      "fundName": "T. Rowe Price Growth ETF",
       "registrant": "T. Rowe Price Exchange-Traded Funds, Inc.",
       "manager": "T. Rowe Price",
       "cik": "1795351",
-      "shares": 15929,
-      "value": 5673751,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0288,
-      "action": "New"
+      "shares": 16058,
+      "value": 4868464,
+      "reportDate": "2026-09-30",
+      "priorShares": 11547,
+      "change": 4511,
+      "pctOut": 0.0291,
+      "action": "Bought"
     },
     {
       "fundName": "Neuberger Disrupters ETF",
@@ -3968,6 +3793,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "T. Rowe Price Blue Chip Growth ETF",
+      "registrant": "T. Rowe Price Exchange-Traded Funds, Inc.",
+      "manager": "T. Rowe Price",
+      "cik": "1795351",
+      "shares": 15607,
+      "value": 4731730,
+      "reportDate": "2026-09-30",
+      "priorShares": 15929,
+      "change": -322,
+      "pctOut": 0.0283,
+      "action": "Sold"
+    },
+    {
       "fundName": "John Hancock Multifactor Mid Cap ETF",
       "registrant": "John Hancock Exchange-Traded Fund Trust",
       "manager": "John Hancock",
@@ -3979,19 +3817,6 @@
       "change": 925,
       "pctOut": 0.0281,
       "action": "Bought"
-    },
-    {
-      "fundName": "Mid Cap Growth Portfolio",
-      "registrant": "NEUBERGER BERMAN ADVISERS MANAGEMENT TRUST",
-      "manager": "Neuberger Berman",
-      "cik": "736913",
-      "shares": 15500,
-      "value": 5520945,
-      "reportDate": "2026-06-30",
-      "priorShares": 22167,
-      "change": -6667,
-      "pctOut": 0.0281,
-      "action": "Sold"
     },
     {
       "fundName": "Eaton Vance Growth Fund",
@@ -4030,6 +3855,19 @@
       "priorShares": 16234,
       "change": -1394,
       "pctOut": 0.026899999999999997,
+      "action": "Sold"
+    },
+    {
+      "fundName": "Mid Cap Growth Portfolio",
+      "registrant": "NEUBERGER BERMAN ADVISERS MANAGEMENT TRUST",
+      "manager": "Neuberger Berman",
+      "cik": "736913",
+      "shares": 14762,
+      "value": 4475543,
+      "reportDate": "2026-09-30",
+      "priorShares": 15500,
+      "change": -738,
+      "pctOut": 0.026699999999999998,
       "action": "Sold"
     },
     {
@@ -4111,19 +3949,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Calvert U.S. Large Cap Core Responsible Index Fund",
-      "registrant": "Calvert Responsible Index Series, Inc.",
-      "manager": "Morgan Stanley",
-      "cik": "1105446",
-      "shares": 13290,
-      "value": 4733765,
-      "reportDate": "2026-06-30",
-      "priorShares": 14355,
-      "change": -1065,
-      "pctOut": 0.0241,
-      "action": "Sold"
-    },
-    {
       "fundName": "Schwab Fundamental U.S. Small Company Index Fund",
       "registrant": "SCHWAB CAPITAL TRUST",
       "manager": "Charles Schwab",
@@ -4135,6 +3960,19 @@
       "change": 948,
       "pctOut": 0.0238,
       "action": "Bought"
+    },
+    {
+      "fundName": "Calvert U.S. Large Cap Core Responsible Index Fund",
+      "registrant": "Calvert Responsible Index Series, Inc.",
+      "manager": "Morgan Stanley",
+      "cik": "1105446",
+      "shares": 13111,
+      "value": 3974993,
+      "reportDate": "2026-09-30",
+      "priorShares": 13290,
+      "change": -179,
+      "pctOut": 0.0237,
+      "action": "Sold"
     },
     {
       "fundName": "Dimensional U.S. Equity Market ETF",
@@ -4189,17 +4027,17 @@
       "action": "Sold"
     },
     {
-      "fundName": "T. Rowe Price Growth ETF",
-      "registrant": "T. Rowe Price Exchange-Traded Funds, Inc.",
-      "manager": "T. Rowe Price",
-      "cik": "1795351",
-      "shares": 11547,
-      "value": 4112926,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.020900000000000002,
-      "action": "New"
+      "fundName": "Mid-Cap Growth Portfolio",
+      "registrant": "PACIFIC SELECT FUND",
+      "manager": "",
+      "cik": "813900",
+      "shares": 11850,
+      "value": 3592683,
+      "reportDate": "2026-09-30",
+      "priorShares": 10218,
+      "change": 1632,
+      "pctOut": 0.0215,
+      "action": "Bought"
     },
     {
       "fundName": "Fidelity ZERO Large Cap Index Fund",
@@ -4280,6 +4118,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "T. Rowe Price Growth Stock ETF",
+      "registrant": "T. Rowe Price Exchange-Traded Funds, Inc.",
+      "manager": "T. Rowe Price",
+      "cik": "1795351",
+      "shares": 11249,
+      "value": 3410472,
+      "reportDate": "2026-09-30",
+      "priorShares": 10209,
+      "change": 1040,
+      "pctOut": 0.0204,
+      "action": "Bought"
+    },
+    {
       "fundName": "Invesco Bloomberg Pricing Power ETF",
       "registrant": "Invesco Exchange-Traded Self-Indexed Fund Trust",
       "manager": "Invesco",
@@ -4317,32 +4168,6 @@
       "change": -3772,
       "pctOut": 0.0196,
       "action": "Sold"
-    },
-    {
-      "fundName": "Mid-Cap Growth Portfolio",
-      "registrant": "PACIFIC SELECT FUND",
-      "manager": "",
-      "cik": "813900",
-      "shares": 10218,
-      "value": 3639549,
-      "reportDate": "2026-06-30",
-      "priorShares": 12375,
-      "change": -2157,
-      "pctOut": 0.0185,
-      "action": "Sold"
-    },
-    {
-      "fundName": "T. Rowe Price Growth Stock ETF",
-      "registrant": "T. Rowe Price Exchange-Traded Funds, Inc.",
-      "manager": "T. Rowe Price",
-      "cik": "1795351",
-      "shares": 10209,
-      "value": 3636344,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0185,
-      "action": "New"
     },
     {
       "fundName": "Victory 500 Index Fund",
@@ -4800,6 +4625,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "T. Rowe Price Mid-Cap Growth Portfolio",
+      "registrant": "T. ROWE PRICE EQUITY SERIES, INC.",
+      "manager": "T. Rowe Price",
+      "cik": "918294",
+      "shares": 6411,
+      "value": 1943687,
+      "reportDate": "2026-09-30",
+      "priorShares": 4604,
+      "change": 1807,
+      "pctOut": 0.0116,
+      "action": "Bought"
+    },
+    {
       "fundName": "SIIT EXTENDED MARKET INDEX FUND",
       "registrant": "SEI INSTITUTIONAL INVESTMENTS TRUST",
       "manager": "",
@@ -4818,12 +4656,12 @@
       "manager": "T. Rowe Price",
       "cik": "858581",
       "shares": 6101,
-      "value": 2173115,
-      "reportDate": "2026-06-30",
-      "priorShares": 4795,
-      "change": 1306,
+      "value": 1849701,
+      "reportDate": "2026-09-30",
+      "priorShares": 6101,
+      "change": 0,
       "pctOut": 0.011000000000000001,
-      "action": "Bought"
+      "action": "No Change"
     },
     {
       "fundName": "T. Rowe Price Balanced Fund, Inc.",
@@ -4831,12 +4669,12 @@
       "manager": "T. Rowe Price",
       "cik": "871839",
       "shares": 6100,
-      "value": 2172759,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
+      "value": 1849398,
+      "reportDate": "2026-09-30",
+      "priorShares": 6100,
+      "change": 0,
       "pctOut": 0.011000000000000001,
-      "action": "New"
+      "action": "No Change"
     },
     {
       "fundName": "State Street(R) SPDR(R) S&amp;P Kensho Future Security ETF",
@@ -4902,6 +4740,19 @@
       "change": null,
       "pctOut": 0.0103,
       "action": "New"
+    },
+    {
+      "fundName": "Multimanager Aggressive Equity Portfolio",
+      "registrant": "EQ Advisors Trust",
+      "manager": "",
+      "cik": "1027263",
+      "shares": 5652,
+      "value": 1713573,
+      "reportDate": "2026-09-30",
+      "priorShares": 4618,
+      "change": 1034,
+      "pctOut": 0.0102,
+      "action": "Bought"
     },
     {
       "fundName": "VictoryShares Dividend Accelerator ETF",
@@ -4987,8 +4838,8 @@
       "manager": "",
       "cik": "1027263",
       "shares": 5041,
-      "value": 1795554,
-      "reportDate": "2026-06-30",
+      "value": 1528330,
+      "reportDate": "2026-09-30",
       "priorShares": 5041,
       "change": 0,
       "pctOut": 0.0091,
@@ -5026,12 +4877,12 @@
       "manager": "Morgan Stanley",
       "cik": "1105446",
       "shares": 4784,
-      "value": 1704013,
-      "reportDate": "2026-06-30",
-      "priorShares": 4566,
-      "change": 218,
+      "value": 1450413,
+      "reportDate": "2026-09-30",
+      "priorShares": 4784,
+      "change": 0,
       "pctOut": 0.0087,
-      "action": "Bought"
+      "action": "No Change"
     },
     {
       "fundName": "BlackRock Multi-Asset Income Portfolio",
@@ -5047,32 +4898,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Multimanager Aggressive Equity Portfolio",
-      "registrant": "EQ Advisors Trust",
-      "manager": "",
-      "cik": "1027263",
-      "shares": 4618,
-      "value": 1644885,
-      "reportDate": "2026-06-30",
-      "priorShares": 1200,
-      "change": 3418,
-      "pctOut": 0.0084,
-      "action": "Bought"
-    },
-    {
-      "fundName": "T. Rowe Price Mid-Cap Growth Portfolio",
-      "registrant": "T. ROWE PRICE EQUITY SERIES, INC.",
-      "manager": "T. Rowe Price",
-      "cik": "918294",
-      "shares": 4604,
-      "value": 1639899,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0083,
-      "action": "New"
-    },
-    {
       "fundName": "Rational Dynamic Brands Fund",
       "registrant": "Mutual Fund & Variable Insurance Trust",
       "manager": "",
@@ -5082,19 +4907,6 @@
       "reportDate": "2026-06-30",
       "priorShares": 4000,
       "change": 600,
-      "pctOut": 0.0083,
-      "action": "Bought"
-    },
-    {
-      "fundName": "JNL/Mellon Industrials Sector Fund",
-      "registrant": "JNL Series Trust",
-      "manager": "",
-      "cik": "933691",
-      "shares": 4597,
-      "value": 1637405,
-      "reportDate": "2026-06-30",
-      "priorShares": 4165,
-      "change": 432,
       "pctOut": 0.0083,
       "action": "Bought"
     },
@@ -5151,6 +4963,19 @@
       "action": "New"
     },
     {
+      "fundName": "JNL/Mellon Industrials Sector Fund",
+      "registrant": "JNL Series Trust",
+      "manager": "",
+      "cik": "933691",
+      "shares": 4317,
+      "value": 1308828,
+      "reportDate": "2026-09-30",
+      "priorShares": 4597,
+      "change": -280,
+      "pctOut": 0.0078,
+      "action": "Sold"
+    },
+    {
       "fundName": "iShares Morningstar Growth ETF",
       "registrant": "iShares Trust",
       "manager": "BlackRock",
@@ -5187,6 +5012,19 @@
       "priorShares": 3773,
       "change": 349,
       "pctOut": 0.0075,
+      "action": "Bought"
+    },
+    {
+      "fundName": "T. Rowe Price Mid-Cap Index Fund",
+      "registrant": "T. ROWE PRICE INDEX TRUST, INC.",
+      "manager": "T. Rowe Price",
+      "cik": "858581",
+      "shares": 4030,
+      "value": 1221815,
+      "reportDate": "2026-09-30",
+      "priorShares": 3778,
+      "change": 252,
+      "pctOut": 0.0073,
       "action": "Bought"
     },
     {
@@ -5255,6 +5093,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "Timothy Plan US Large/Mid Cap Core ETF",
+      "registrant": "Timothy Plan",
+      "manager": "",
+      "cik": "916490",
+      "shares": 3825,
+      "value": 1159664,
+      "reportDate": "2026-09-30",
+      "priorShares": 3701,
+      "change": 124,
+      "pctOut": 0.0069,
+      "action": "Bought"
+    },
+    {
       "fundName": "The MidCap Growth Fund",
       "registrant": "COMMERCE FUNDS",
       "manager": "",
@@ -5268,52 +5119,13 @@
       "action": "Sold"
     },
     {
-      "fundName": "EQ/Large Cap Growth Index Portfolio",
-      "registrant": "EQ Advisors Trust",
-      "manager": "",
-      "cik": "1027263",
-      "shares": 3781,
-      "value": 1346754,
-      "reportDate": "2026-06-30",
-      "priorShares": 3794,
-      "change": -13,
-      "pctOut": 0.0068,
-      "action": "Sold"
-    },
-    {
-      "fundName": "T. Rowe Price Mid-Cap Index Fund",
-      "registrant": "T. ROWE PRICE INDEX TRUST, INC.",
-      "manager": "T. Rowe Price",
-      "cik": "858581",
-      "shares": 3778,
-      "value": 1345686,
-      "reportDate": "2026-06-30",
-      "priorShares": 3527,
-      "change": 251,
-      "pctOut": 0.0068,
-      "action": "Bought"
-    },
-    {
-      "fundName": "Timothy Plan US Large/Mid Cap Core ETF",
-      "registrant": "Timothy Plan",
-      "manager": "",
-      "cik": "916490",
-      "shares": 3701,
-      "value": 1318259,
-      "reportDate": "2026-06-30",
-      "priorShares": 3949,
-      "change": -248,
-      "pctOut": 0.0067,
-      "action": "Sold"
-    },
-    {
       "fundName": "Venerable US Large Cap Core Equity Fund",
       "registrant": "Venerable Variable Insurance Trust",
       "manager": "",
       "cik": "1995745",
       "shares": 3641,
-      "value": 1296888,
-      "reportDate": "2026-06-30",
+      "value": 1103878,
+      "reportDate": "2026-09-30",
       "priorShares": 3641,
       "change": 0,
       "pctOut": 0.006600000000000001,
@@ -5331,6 +5143,19 @@
       "change": null,
       "pctOut": 0.0063,
       "action": "New"
+    },
+    {
+      "fundName": "EQ/Large Cap Growth Index Portfolio",
+      "registrant": "EQ Advisors Trust",
+      "manager": "",
+      "cik": "1027263",
+      "shares": 3481,
+      "value": 1055370,
+      "reportDate": "2026-09-30",
+      "priorShares": 3781,
+      "change": -300,
+      "pctOut": 0.0063,
+      "action": "Sold"
     },
     {
       "fundName": "Global Atlantic BlackRock Disciplined Mid Cap Growth Portfolio",
@@ -5416,12 +5241,12 @@
       "manager": "Morgan Stanley",
       "cik": "1105446",
       "shares": 3373,
-      "value": 1201429,
-      "reportDate": "2026-06-30",
-      "priorShares": 3393,
-      "change": -20,
+      "value": 1022626,
+      "reportDate": "2026-09-30",
+      "priorShares": 3373,
+      "change": 0,
       "pctOut": 0.0060999999999999995,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Rainwater Equity ETF",
@@ -5463,19 +5288,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Venerable Mid Cap Index Fund",
-      "registrant": "Venerable Variable Insurance Trust",
-      "manager": "",
-      "cik": "1995745",
-      "shares": 3264,
-      "value": 1162604,
-      "reportDate": "2026-06-30",
-      "priorShares": 3399,
-      "change": -135,
-      "pctOut": 0.0059,
-      "action": "Sold"
-    },
-    {
       "fundName": "Federated Hermes Kaufmann Fund II",
       "registrant": "Federated Hermes Insurance Series",
       "manager": "",
@@ -5486,6 +5298,19 @@
       "priorShares": 4024,
       "change": -765,
       "pctOut": 0.0059,
+      "action": "Sold"
+    },
+    {
+      "fundName": "Venerable Mid Cap Index Fund",
+      "registrant": "Venerable Variable Insurance Trust",
+      "manager": "",
+      "cik": "1995745",
+      "shares": 3220,
+      "value": 976240,
+      "reportDate": "2026-09-30",
+      "priorShares": 3264,
+      "change": -44,
+      "pctOut": 0.0058,
       "action": "Sold"
     },
     {
@@ -5506,13 +5331,13 @@
       "registrant": "T. ROWE PRICE INDEX TRUST, INC.",
       "manager": "T. Rowe Price",
       "cik": "858581",
-      "shares": 2973,
-      "value": 1058953,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
+      "shares": 3009,
+      "value": 912269,
+      "reportDate": "2026-09-30",
+      "priorShares": 2973,
+      "change": 36,
       "pctOut": 0.005399999999999999,
-      "action": "New"
+      "action": "Bought"
     },
     {
       "fundName": "JNL/Mellon U.S. Stock Market Index Fund",
@@ -5520,25 +5345,12 @@
       "manager": "",
       "cik": "933691",
       "shares": 2899,
-      "value": 1032595,
-      "reportDate": "2026-06-30",
-      "priorShares": 3239,
-      "change": -340,
+      "value": 878919,
+      "reportDate": "2026-09-30",
+      "priorShares": 2899,
+      "change": 0,
       "pctOut": 0.0052,
-      "action": "Sold"
-    },
-    {
-      "fundName": "EQ/Large Cap Growth Managed Volatility Portfolio",
-      "registrant": "EQ Advisors Trust",
-      "manager": "",
-      "cik": "1027263",
-      "shares": 2869,
-      "value": 1021909,
-      "reportDate": "2026-06-30",
-      "priorShares": 3024,
-      "change": -155,
-      "pctOut": 0.0052,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "LVIP American Century Select Mid Cap Managed Volatility Fund",
@@ -5591,6 +5403,19 @@
       "change": 0,
       "pctOut": 0.0049,
       "action": "No Change"
+    },
+    {
+      "fundName": "EQ/Large Cap Growth Managed Volatility Portfolio",
+      "registrant": "EQ Advisors Trust",
+      "manager": "",
+      "cik": "1027263",
+      "shares": 2726,
+      "value": 826469,
+      "reportDate": "2026-09-30",
+      "priorShares": 2869,
+      "change": -143,
+      "pctOut": 0.0049,
+      "action": "Sold"
     },
     {
       "fundName": "ALGER MID CAP GROWTH INSTITUTIONAL FUND",
@@ -5736,6 +5561,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Themes Transatlantic Defense ETF",
+      "registrant": "Themes ETF Trust",
+      "manager": "",
+      "cik": "1976322",
+      "shares": 1978,
+      "value": 599690,
+      "reportDate": "2026-09-30",
+      "priorShares": 1895,
+      "change": 83,
+      "pctOut": 0.0036,
+      "action": "Bought"
+    },
+    {
       "fundName": "AQR Style Premia Alternative Fund",
       "registrant": "AQR Funds",
       "manager": "",
@@ -5775,19 +5613,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Themes Transatlantic Defense ETF",
-      "registrant": "Themes ETF Trust",
-      "manager": "",
-      "cik": "1976322",
-      "shares": 1895,
-      "value": 674980,
-      "reportDate": "2026-06-30",
-      "priorShares": 2007,
-      "change": -112,
-      "pctOut": 0.0034,
-      "action": "Sold"
-    },
-    {
       "fundName": "WBI BullBear Quality 3000 ETF",
       "registrant": "Absolute Shares Trust",
       "manager": "",
@@ -5812,6 +5637,19 @@
       "change": 49,
       "pctOut": 0.0033000000000000004,
       "action": "Bought"
+    },
+    {
+      "fundName": "First Trust Lunt U.S. Factor Rotation ETF",
+      "registrant": "First Trust Exchange-Traded Fund",
+      "manager": "First Trust",
+      "cik": "1329377",
+      "shares": 1760,
+      "value": 533597,
+      "reportDate": "2026-09-30",
+      "priorShares": 2527,
+      "change": -767,
+      "pctOut": 0.0031999999999999997,
+      "action": "Sold"
     },
     {
       "fundName": "Dimensional US Sustainability Core 1 ETF",
@@ -5896,13 +5734,13 @@
       "registrant": "ETF Opportunities Trust",
       "manager": "",
       "cik": "1771146",
-      "shares": 1662,
-      "value": 591988,
-      "reportDate": "2026-06-30",
-      "priorShares": 929,
-      "change": 733,
+      "shares": 1641,
+      "value": 497518,
+      "reportDate": "2026-09-30",
+      "priorShares": 1662,
+      "change": -21,
       "pctOut": 0.003,
-      "action": "Bought"
+      "action": "Sold"
     },
     {
       "fundName": "Morgan Stanley Pathway Large Cap Equity ETF",
@@ -6000,13 +5838,13 @@
       "registrant": "JNL Series Trust",
       "manager": "",
       "cik": "933691",
-      "shares": 1491,
-      "value": 531079,
-      "reportDate": "2026-06-30",
-      "priorShares": 1473,
-      "change": 18,
-      "pctOut": 0.0026999999999999997,
-      "action": "Bought"
+      "shares": 1452,
+      "value": 440217,
+      "reportDate": "2026-09-30",
+      "priorShares": 1491,
+      "change": -39,
+      "pctOut": 0.0026,
+      "action": "Sold"
     },
     {
       "fundName": "SA T. Rowe Price VCP Balanced Portfolio",
@@ -6027,8 +5865,8 @@
       "manager": "",
       "cik": "1027263",
       "shares": 1410,
-      "value": 502228,
-      "reportDate": "2026-06-30",
+      "value": 427484,
+      "reportDate": "2026-09-30",
       "priorShares": 1410,
       "change": 0,
       "pctOut": 0.0026,
@@ -6048,19 +5886,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "PD Large-Cap Growth Index Portfolio",
-      "registrant": "PACIFIC SELECT FUND",
-      "manager": "",
-      "cik": "813900",
-      "shares": 1375,
-      "value": 489761,
-      "reportDate": "2026-06-30",
-      "priorShares": 1483,
-      "change": -108,
-      "pctOut": 0.0025,
-      "action": "Sold"
-    },
-    {
       "fundName": "Fidelity Hedged Equity Fund",
       "registrant": "Fidelity Greenwood Street Trust",
       "manager": "FMR (Fidelity)",
@@ -6072,6 +5897,19 @@
       "change": 196,
       "pctOut": 0.0025,
       "action": "Bought"
+    },
+    {
+      "fundName": "PD Large-Cap Growth Index Portfolio",
+      "registrant": "PACIFIC SELECT FUND",
+      "manager": "",
+      "cik": "813900",
+      "shares": 1361,
+      "value": 412628,
+      "reportDate": "2026-09-30",
+      "priorShares": 1375,
+      "change": -14,
+      "pctOut": 0.0025,
+      "action": "Sold"
     },
     {
       "fundName": "SA T. Rowe Price Allocation Moderately Aggressive Portfolio",
@@ -6282,6 +6120,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Growth Equity Index Fund",
+      "registrant": "GuideStone Funds",
+      "manager": "",
+      "cik": "1131013",
+      "shares": 1108,
+      "value": 335923,
+      "reportDate": "2026-09-30",
+      "priorShares": 814,
+      "change": 294,
+      "pctOut": 0.002,
+      "action": "Bought"
+    },
+    {
       "fundName": "VANGUARD TAX-MANAGED BALANCED FUND",
       "registrant": "VANGUARD TAX-MANAGED FUNDS",
       "manager": "Vanguard Group",
@@ -6326,8 +6177,8 @@
       "manager": "Dimensional",
       "cik": "933691",
       "shares": 1068,
-      "value": 380411,
-      "reportDate": "2026-06-30",
+      "value": 323796,
+      "reportDate": "2026-09-30",
       "priorShares": 1068,
       "change": 0,
       "pctOut": 0.0019000000000000002,
@@ -6416,13 +6267,13 @@
       "registrant": "PACIFIC SELECT FUND",
       "manager": "",
       "cik": "813900",
-      "shares": 942,
-      "value": 335531,
-      "reportDate": "2026-06-30",
-      "priorShares": 971,
-      "change": -29,
+      "shares": 952,
+      "value": 288627,
+      "reportDate": "2026-09-30",
+      "priorShares": 942,
+      "change": 10,
       "pctOut": 0.0017,
-      "action": "Sold"
+      "action": "Bought"
     },
     {
       "fundName": "Dimensional US Large Cap Core Equity Market ETF",
@@ -6514,19 +6365,6 @@
       "change": -3,
       "pctOut": 0.0015,
       "action": "Sold"
-    },
-    {
-      "fundName": "Growth Equity Index Fund",
-      "registrant": "GuideStone Funds",
-      "manager": "",
-      "cik": "1131013",
-      "shares": 814,
-      "value": 289939,
-      "reportDate": "2026-06-30",
-      "priorShares": 814,
-      "change": 0,
-      "pctOut": 0.0015,
-      "action": "No Change"
     },
     {
       "fundName": "TIAA Separate Account VA-1 - Stock Index Account",
@@ -6898,8 +6736,8 @@
       "manager": "",
       "cik": "933691",
       "shares": 439,
-      "value": 156367,
-      "reportDate": "2026-06-30",
+      "value": 133096,
+      "reportDate": "2026-09-30",
       "priorShares": 439,
       "change": 0,
       "pctOut": 0.0007999999999999999,
@@ -7184,12 +7022,12 @@
       "manager": "T. Rowe Price",
       "cik": "918294",
       "shares": 220,
-      "value": 78362,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
+      "value": 66700,
+      "reportDate": "2026-09-30",
+      "priorShares": 220,
+      "change": 0,
       "pctOut": 0.00039999999999999996,
-      "action": "New"
+      "action": "No Change"
     },
     {
       "fundName": "State Street Total Return V.I.S. Fund",
@@ -7229,19 +7067,6 @@
       "change": 0,
       "pctOut": 0.00039999999999999996,
       "action": "No Change"
-    },
-    {
-      "fundName": "Transamerica Morgan Stanley Global Allocation VP",
-      "registrant": "TRANSAMERICA SERIES TRUST",
-      "manager": "Morgan Stanley",
-      "cik": "778207",
-      "shares": 193,
-      "value": 68745,
-      "reportDate": "2026-06-30",
-      "priorShares": 194,
-      "change": -1,
-      "pctOut": 0.00030000000000000003,
-      "action": "Sold"
     },
     {
       "fundName": "Strive 1000 Dividend Growth ETF",
@@ -7307,6 +7132,19 @@
       "change": 0,
       "pctOut": 0.00030000000000000003,
       "action": "No Change"
+    },
+    {
+      "fundName": "Transamerica Morgan Stanley Global Allocation VP",
+      "registrant": "TRANSAMERICA SERIES TRUST",
+      "manager": "Morgan Stanley",
+      "cik": "778207",
+      "shares": 154,
+      "value": 46690,
+      "reportDate": "2026-09-30",
+      "priorShares": 193,
+      "change": -39,
+      "pctOut": 0.00030000000000000003,
+      "action": "Sold"
     },
     {
       "fundName": "AZL MSCI Global Equity Index Fund",
@@ -7541,6 +7379,19 @@
       "change": 0,
       "pctOut": 0.00009999999999999999,
       "action": "No Change"
+    },
+    {
+      "fundName": "T. Rowe Price Active Core U.S. Equity ETF",
+      "registrant": "T. Rowe Price Exchange-Traded Funds, Inc.",
+      "manager": "T. Rowe Price",
+      "cik": "1795351",
+      "shares": 62,
+      "value": 18797,
+      "reportDate": "2026-09-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.00009999999999999999,
+      "action": "New"
     },
     {
       "fundName": "Hartford Schroders Diversified Opportunities Fund",
