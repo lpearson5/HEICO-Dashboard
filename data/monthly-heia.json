@@ -8,12 +8,12 @@
     "2025-12-31"
   ],
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-11-24T21:06:09.336Z",
+  "lastUpdated": "2026-11-25T20:27:45.323Z",
   "summary": {
-    "institutions": 682,
-    "totalShares": 68239249,
+    "institutions": 683,
+    "totalShares": 68239250,
     "pctOut": 80.74,
-    "newHolders": 79,
+    "newHolders": 80,
     "sellouts": 76,
     "bought": 249,
     "sold": 234,
@@ -1599,6 +1599,24 @@
       ],
       "netChg": 1,
       "currentValue": 318,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 1
+    },
+    {
+      "filerName": "Kilter Group LLC",
+      "filerCik": "2058915",
+      "shares": [
+        1,
+        null,
+        null,
+        null
+      ],
+      "netChg": 1,
+      "currentValue": 229,
       "pctOut": 0,
       "action": "New",
       "discretion": "SOLE",
@@ -15255,6 +15273,24 @@
       "voteNone": 0
     },
     {
+      "filerName": "Kilter Group LLC",
+      "filerCik": "2058915",
+      "shares": [
+        1,
+        null,
+        null,
+        null
+      ],
+      "netChg": 1,
+      "currentValue": 229,
+      "pctOut": 0,
+      "action": "New",
+      "discretion": "SOLE",
+      "voteSole": 0,
+      "voteShared": 0,
+      "voteNone": 1
+    },
+    {
       "filerName": "Lloyd Advisory Services, LLC.",
       "filerCik": "1802474",
       "shares": [
@@ -15579,13 +15615,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Procyon Advisors, LLC",
-      "filerCik": "1804329",
+      "filerName": "Rakuten Investment Management, Inc.",
+      "filerCik": "2062680",
       "shares": [
         null,
         null,
         null,
-        813
+        3208
       ],
       "netChg": null,
       "currentValue": null,
@@ -15597,13 +15633,13 @@
       "voteNone": null
     },
     {
-      "filerName": "Rakuten Investment Management, Inc.",
-      "filerCik": "2062680",
+      "filerName": "Procyon Advisors, LLC",
+      "filerCik": "1804329",
       "shares": [
         null,
         null,
         null,
-        3208
+        813
       ],
       "netChg": null,
       "currentValue": null,
@@ -17487,13 +17523,13 @@
       "voteNone": null
     },
     {
-      "filerName": "BELLEVUE ASSET MANAGEMENT, LLC",
-      "filerCik": "1801619",
+      "filerName": "TWINBEECH CAPITAL LP",
+      "filerCik": "1769646",
       "shares": [
         null,
         null,
-        null,
-        32
+        13800,
+        2802
       ],
       "netChg": null,
       "currentValue": null,
@@ -17505,13 +17541,13 @@
       "voteNone": null
     },
     {
-      "filerName": "TWINBEECH CAPITAL LP",
-      "filerCik": "1769646",
+      "filerName": "BELLEVUE ASSET MANAGEMENT, LLC",
+      "filerCik": "1801619",
       "shares": [
         null,
         null,
-        13800,
-        2802
+        null,
+        32
       ],
       "netChg": null,
       "currentValue": null,

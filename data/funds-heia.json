@@ -2,15 +2,15 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-11-24T21:06:09.336Z",
+  "lastUpdated": "2026-11-25T20:27:45.323Z",
   "summary": {
-    "funds": 348,
-    "totalShares": 27839152,
-    "pctOut": 32.9396,
+    "funds": 349,
+    "totalShares": 27877172,
+    "pctOut": 32.9846,
     "newFunds": 14,
     "sellouts": 30,
     "linkedManagers": 24,
-    "linkedShares": 23683668
+    "linkedShares": 23544342
   },
   "newHolders": [
     {
@@ -66,19 +66,6 @@
       "action": "New"
     },
     {
-      "fundName": "American Beacon Man Large Cap Growth Fund",
-      "registrant": "AMERICAN BEACON FUNDS",
-      "manager": "",
-      "cik": "809593",
-      "shares": 5700,
-      "value": 1470087,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0067,
-      "action": "New"
-    },
-    {
       "fundName": "SIMT Small Cap Growth Fund",
       "registrant": "SEI INSTITUTIONAL MANAGED TRUST",
       "manager": "",
@@ -115,6 +102,19 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.0019000000000000002,
+      "action": "New"
+    },
+    {
+      "fundName": "Alpha Architect US Equity 4 ETF",
+      "registrant": "EA Series Trust",
+      "manager": "",
+      "cik": "1592900",
+      "shares": 1486,
+      "value": 339298,
+      "reportDate": "2026-09-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0018,
       "action": "New"
     },
     {
@@ -170,6 +170,19 @@
       "action": "New"
     },
     {
+      "fundName": "HCM Hedged Equity ETF",
+      "registrant": "NORTHERN LIGHTS FUND TRUST III",
+      "manager": "",
+      "cik": "1537140",
+      "shares": 65,
+      "value": 14841,
+      "reportDate": "2026-09-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.00009999999999999999,
+      "action": "New"
+    },
+    {
       "fundName": "BNY Mellon US Large Cap Equity Growth ETF",
       "registrant": "BNY Mellon ETF Trust",
       "manager": "",
@@ -177,19 +190,6 @@
       "shares": 18,
       "value": 4631,
       "reportDate": "2026-07-31",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0,
-      "action": "New"
-    },
-    {
-      "fundName": "Fidelity Enhanced Mid Cap Growth ETF",
-      "registrant": "Fidelity Covington Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "945908",
-      "shares": 17,
-      "value": 4384,
-      "reportDate": "2026-06-30",
       "priorShares": null,
       "change": null,
       "pctOut": 0,
@@ -526,11 +526,11 @@
     {
       "manager": "FMR (Fidelity)",
       "fundCount": 38,
-      "shares": 4578359,
+      "shares": 4508842,
       "funds": [
         {
           "fundName": "Fidelity Magellan Fund",
-          "shares": 1909407
+          "shares": 1839507
         },
         {
           "fundName": "Select Defense and Aerospace Portfolio",
@@ -570,15 +570,15 @@
         },
         {
           "fundName": "Fidelity Mid Cap Growth Index Fund",
-          "shares": 80714
+          "shares": 77770
+        },
+        {
+          "fundName": "Fidelity Enhanced Mid Cap Core ETF",
+          "shares": 53842
         },
         {
           "fundName": "Fidelity Disciplined Equity Fund",
           "shares": 52058
-        },
-        {
-          "fundName": "Fidelity Enhanced Mid Cap Core ETF",
-          "shares": 49136
         },
         {
           "fundName": "Fidelity ZERO Total Market Index Fund",
@@ -606,11 +606,11 @@
         },
         {
           "fundName": "VIP Industrials Portfolio",
-          "shares": 17600
+          "shares": 17100
         },
         {
           "fundName": "Fidelity Magellan K6 Fund",
-          "shares": 16832
+          "shares": 15922
         },
         {
           "fundName": "Strategic Advisers U.S. Total Stock Fund",
@@ -650,7 +650,7 @@
         },
         {
           "fundName": "VIP Total Market Index Portfolio",
-          "shares": 1874
+          "shares": 1879
         },
         {
           "fundName": "LVIP Dimensional U.S. Core Equity 1 Fund",
@@ -674,7 +674,7 @@
         },
         {
           "fundName": "Fidelity Enhanced Mid Cap Growth ETF",
-          "shares": 17
+          "shares": 43
         },
         {
           "fundName": "Fidelity Enhanced Large Cap Growth ETF",
@@ -685,7 +685,7 @@
     {
       "manager": "BlackRock",
       "fundCount": 39,
-      "shares": 2285995,
+      "shares": 2286384,
       "funds": [
         {
           "fundName": "iShares U.S. Aerospace &amp; Defense ETF",
@@ -808,16 +808,16 @@
           "shares": 1805
         },
         {
+          "fundName": "iShares U.S. Large Cap Premium Income Active ETF",
+          "shares": 1614
+        },
+        {
           "fundName": "iShares Morningstar U.S. Equity ETF",
           "shares": 1489
         },
         {
           "fundName": "Global Atlantic BlackRock Disciplined Core Portfolio",
           "shares": 1272
-        },
-        {
-          "fundName": "iShares U.S. Large Cap Premium Income Active ETF",
-          "shares": 1225
         },
         {
           "fundName": "Global Atlantic BlackRock Disciplined Growth Portfolio",
@@ -913,7 +913,7 @@
     {
       "manager": "Baron Capital",
       "fundCount": 4,
-      "shares": 224728,
+      "shares": 212068,
       "funds": [
         {
           "fundName": "Baron Partners Fund",
@@ -925,7 +925,7 @@
         },
         {
           "fundName": "Baron First Principles ETF",
-          "shares": 43403
+          "shares": 30743
         },
         {
           "fundName": "Baron Global Durable Advantage ETF",
@@ -1080,11 +1080,11 @@
     {
       "manager": "Goldman Sachs",
       "fundCount": 4,
-      "shares": 104831,
+      "shares": 48105,
       "funds": [
         {
           "fundName": "Goldman Sachs U.S. Tax-Managed Equity Fund",
-          "shares": 99700
+          "shares": 42974
         },
         {
           "fundName": "Goldman Sachs MarketBeta U.S. 1000 Equity ETF",
@@ -1124,24 +1124,9 @@
       ]
     },
     {
-      "manager": "Franklin Resources",
-      "fundCount": 2,
-      "shares": 35814,
-      "funds": [
-        {
-          "fundName": "Franklin U.S. Mid Cap Multifactor Index ETF",
-          "shares": 33390
-        },
-        {
-          "fundName": "Franklin U.S. Equity Index ETF",
-          "shares": 2424
-        }
-      ]
-    },
-    {
       "manager": "Morgan Stanley",
       "fundCount": 7,
-      "shares": 34365,
+      "shares": 34408,
       "funds": [
         {
           "fundName": "Morgan Stanley Pathway Large Cap Equity ETF",
@@ -1149,7 +1134,7 @@
         },
         {
           "fundName": "Parametric Hedged Equity ETF",
-          "shares": 532
+          "shares": 574
         },
         {
           "fundName": "Transamerica Morgan Stanley Global Allocation VP",
@@ -1157,7 +1142,7 @@
         },
         {
           "fundName": "Global Strategist Portfolio",
-          "shares": 239
+          "shares": 240
         },
         {
           "fundName": "Parametric Equity Plus ETF",
@@ -1174,40 +1159,55 @@
       ]
     },
     {
+      "manager": "Franklin Resources",
+      "fundCount": 2,
+      "shares": 33566,
+      "funds": [
+        {
+          "fundName": "Franklin U.S. Mid Cap Multifactor Index ETF",
+          "shares": 31122
+        },
+        {
+          "fundName": "Franklin U.S. Equity Index ETF",
+          "shares": 2444
+        }
+      ]
+    },
+    {
       "manager": "John Hancock",
       "fundCount": 3,
-      "shares": 28284,
+      "shares": 30107,
       "funds": [
         {
           "fundName": "John Hancock Multifactor Mid Cap ETF",
-          "shares": 24793
+          "shares": 26466
         },
         {
           "fundName": "John Hancock Multifactor Large Cap ETF",
-          "shares": 2156
+          "shares": 2299
         },
         {
           "fundName": "Total Stock Market Index Trust",
-          "shares": 1335
+          "shares": 1342
         }
       ]
     },
     {
       "manager": "State Street",
       "fundCount": 6,
-      "shares": 27524,
+      "shares": 27094,
       "funds": [
         {
           "fundName": "STATE STREET SMALL/MID CAP EQUITY INDEX PORTFOLIO",
-          "shares": 26344
-        },
-        {
-          "fundName": "State Street Total Return V.I.S. Fund",
-          "shares": 451
+          "shares": 26044
         },
         {
           "fundName": "State Street Balanced Index Fund",
-          "shares": 402
+          "shares": 371
+        },
+        {
+          "fundName": "State Street Total Return V.I.S. Fund",
+          "shares": 351
         },
         {
           "fundName": "State Street(R) SPDR(R) MSCI USA StrategicFactors(SM) ETF",
@@ -1215,7 +1215,7 @@
         },
         {
           "fundName": "State Street(R) SPDR(R) Russell 1000 Momentum Focus ETF",
-          "shares": 21
+          "shares": 22
         },
         {
           "fundName": "State Street(R) SPDR(R) MSCI World StrategicFactors(SM) ETF",
@@ -1342,12 +1342,12 @@
       "registrant": "Fidelity Magellan Fund",
       "manager": "FMR (Fidelity)",
       "cik": "61397",
-      "shares": 1909407,
-      "value": 492455159,
-      "reportDate": "2026-06-30",
-      "priorShares": 1915307,
-      "change": -5900,
-      "pctOut": 2.2592,
+      "shares": 1839507,
+      "value": 420014633,
+      "reportDate": "2026-09-30",
+      "priorShares": 1909407,
+      "change": -69900,
+      "pctOut": 2.1765,
       "action": "Sold"
     },
     {
@@ -1611,6 +1611,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Alger Concentrated Equity ETF",
+      "registrant": "Alger ETF Trust",
+      "manager": "",
+      "cik": "1807486",
+      "shares": 251049,
+      "value": 57322018,
+      "reportDate": "2026-09-30",
+      "priorShares": 57329,
+      "change": 193720,
+      "pctOut": 0.297,
+      "action": "Bought"
+    },
+    {
       "fundName": "Virtus KAR Mid-Cap Core Fund",
       "registrant": "Virtus Equity Trust",
       "manager": "",
@@ -1720,8 +1733,8 @@
       "manager": "",
       "cik": "1257927",
       "shares": 159880,
-      "value": 41234651,
-      "reportDate": "2026-06-30",
+      "value": 36505400,
+      "reportDate": "2026-09-30",
       "priorShares": 159880,
       "change": 0,
       "pctOut": 0.1892,
@@ -1811,8 +1824,8 @@
       "manager": "Baron Capital",
       "cik": "1217673",
       "shares": 116875,
-      "value": 30143231,
-      "reportDate": "2026-06-30",
+      "value": 26686069,
+      "reportDate": "2026-09-30",
       "priorShares": 116875,
       "change": 0,
       "pctOut": 0.13829999999999998,
@@ -1869,32 +1882,6 @@
       "change": -13747,
       "pctOut": 0.12440000000000001,
       "action": "Sold"
-    },
-    {
-      "fundName": "Bridge Builder Small/Mid Cap Growth Fund",
-      "registrant": "Bridge Builder Trust",
-      "manager": "",
-      "cik": "1567101",
-      "shares": 101449,
-      "value": 26164712,
-      "reportDate": "2026-06-30",
-      "priorShares": 82117,
-      "change": 19332,
-      "pctOut": 0.12,
-      "action": "Bought"
-    },
-    {
-      "fundName": "Goldman Sachs U.S. Tax-Managed Equity Fund",
-      "registrant": "Goldman Sachs Trust",
-      "manager": "Goldman Sachs",
-      "cik": "822977",
-      "shares": 99700,
-      "value": 25713627,
-      "reportDate": "2026-06-30",
-      "priorShares": 16693,
-      "change": 83007,
-      "pctOut": 0.11800000000000001,
-      "action": "Bought"
     },
     {
       "fundName": "Fidelity Large Cap Growth Index Fund",
@@ -1975,16 +1962,29 @@
       "action": "No Change"
     },
     {
+      "fundName": "Bridge Builder Small/Mid Cap Growth Fund",
+      "registrant": "Bridge Builder Trust",
+      "manager": "",
+      "cik": "1567101",
+      "shares": 82239,
+      "value": 18777631,
+      "reportDate": "2026-09-30",
+      "priorShares": 101449,
+      "change": -19210,
+      "pctOut": 0.0973,
+      "action": "Sold"
+    },
+    {
       "fundName": "Fidelity Mid Cap Growth Index Fund",
       "registrant": "Fidelity Salem Street Trust",
       "manager": "FMR (Fidelity)",
       "cik": "35315",
-      "shares": 80714,
-      "value": 20816948,
-      "reportDate": "2026-06-30",
-      "priorShares": 91594,
-      "change": -10880,
-      "pctOut": 0.0955,
+      "shares": 77770,
+      "value": 17757224,
+      "reportDate": "2026-09-30",
+      "priorShares": 80714,
+      "change": -2944,
+      "pctOut": 0.092,
       "action": "Sold"
     },
     {
@@ -2031,13 +2031,13 @@
       "registrant": "NORTHWESTERN MUTUAL SERIES FUND INC",
       "manager": "",
       "cik": "742212",
-      "shares": 68902,
-      "value": 17770515,
-      "reportDate": "2026-06-30",
-      "priorShares": 57914,
-      "change": 10988,
-      "pctOut": 0.0815,
-      "action": "Bought"
+      "shares": 67600,
+      "value": 15435108,
+      "reportDate": "2026-09-30",
+      "priorShares": 68902,
+      "change": -1302,
+      "pctOut": 0.08,
+      "action": "Sold"
     },
     {
       "fundName": "JNL Multi-Manager Small Cap Growth Fund",
@@ -2084,8 +2084,8 @@
       "manager": "Baron Capital",
       "cik": "810902",
       "shares": 63732,
-      "value": 16437120,
-      "reportDate": "2026-06-30",
+      "value": 14551928,
+      "reportDate": "2026-09-30",
       "priorShares": 63732,
       "change": 0,
       "pctOut": 0.0754,
@@ -2118,16 +2118,16 @@
       "action": "Sold"
     },
     {
-      "fundName": "Alger Concentrated Equity ETF",
-      "registrant": "Alger ETF Trust",
-      "manager": "",
-      "cik": "1807486",
-      "shares": 57329,
-      "value": 14785722,
-      "reportDate": "2026-06-30",
-      "priorShares": 38430,
-      "change": 18899,
-      "pctOut": 0.0678,
+      "fundName": "Fidelity Enhanced Mid Cap Core ETF",
+      "registrant": "Fidelity Covington Trust",
+      "manager": "FMR (Fidelity)",
+      "cik": "945908",
+      "shares": 53842,
+      "value": 12293744,
+      "reportDate": "2026-09-30",
+      "priorShares": 49136,
+      "change": 4706,
+      "pctOut": 0.06369999999999999,
       "action": "Bought"
     },
     {
@@ -2196,19 +2196,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Fidelity Enhanced Mid Cap Core ETF",
-      "registrant": "Fidelity Covington Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "945908",
-      "shares": 49136,
-      "value": 12672666,
-      "reportDate": "2026-06-30",
-      "priorShares": 60729,
-      "change": -11593,
-      "pctOut": 0.058100000000000006,
-      "action": "Sold"
-    },
-    {
       "fundName": "VANGUARD BALANCED INDEX FUND",
       "registrant": "VANGUARD VALLEY FORGE FUNDS",
       "manager": "Vanguard Group",
@@ -2253,8 +2240,8 @@
       "manager": "",
       "cik": "915092",
       "shares": 44875,
-      "value": 11573711,
-      "reportDate": "2026-06-30",
+      "value": 10246309,
+      "reportDate": "2026-09-30",
       "priorShares": 44875,
       "change": 0,
       "pctOut": 0.0531,
@@ -2287,29 +2274,16 @@
       "action": "Bought"
     },
     {
-      "fundName": "Baron First Principles ETF",
-      "registrant": "Baron ETF Trust",
-      "manager": "Baron Capital",
-      "cik": "2081199",
-      "shares": 43403,
-      "value": 11194068,
-      "reportDate": "2026-06-30",
-      "priorShares": 22747,
-      "change": 20656,
-      "pctOut": 0.0514,
-      "action": "Bought"
-    },
-    {
       "fundName": "College Retirement Equities Fund - Total Global Stock Account",
       "registrant": "College Retirement Equities Fund",
       "manager": "",
       "cik": "777535",
-      "shares": 43226,
-      "value": 11148418,
-      "reportDate": "2026-06-30",
-      "priorShares": 42427,
-      "change": 799,
-      "pctOut": 0.05109999999999999,
+      "shares": 43466,
+      "value": 9924592,
+      "reportDate": "2026-09-30",
+      "priorShares": 43226,
+      "change": 240,
+      "pctOut": 0.0514,
       "action": "Bought"
     },
     {
@@ -2323,6 +2297,32 @@
       "priorShares": 37029,
       "change": 5976,
       "pctOut": 0.0509,
+      "action": "Bought"
+    },
+    {
+      "fundName": "Goldman Sachs U.S. Tax-Managed Equity Fund",
+      "registrant": "Goldman Sachs Trust",
+      "manager": "Goldman Sachs",
+      "cik": "822977",
+      "shares": 42974,
+      "value": 9812253,
+      "reportDate": "2026-09-30",
+      "priorShares": 99700,
+      "change": -56726,
+      "pctOut": 0.0508,
+      "action": "Sold"
+    },
+    {
+      "fundName": "American Beacon Stephens Mid-Cap Growth Fund",
+      "registrant": "AMERICAN BEACON FUNDS",
+      "manager": "",
+      "cik": "809593",
+      "shares": 42522,
+      "value": 9709048,
+      "reportDate": "2026-09-30",
+      "priorShares": 39617,
+      "change": 2905,
+      "pctOut": 0.0503,
       "action": "Bought"
     },
     {
@@ -2389,19 +2389,6 @@
       "change": 0,
       "pctOut": 0.0473,
       "action": "No Change"
-    },
-    {
-      "fundName": "American Beacon Stephens Mid-Cap Growth Fund",
-      "registrant": "AMERICAN BEACON FUNDS",
-      "manager": "",
-      "cik": "809593",
-      "shares": 39617,
-      "value": 10217620,
-      "reportDate": "2026-06-30",
-      "priorShares": 37693,
-      "change": 1924,
-      "pctOut": 0.046900000000000004,
-      "action": "Bought"
     },
     {
       "fundName": "U.S. CORE EQUITY 2 PORTFOLIO",
@@ -2495,19 +2482,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "Franklin U.S. Mid Cap Multifactor Index ETF",
-      "registrant": "Franklin Templeton ETF Trust",
-      "manager": "Franklin Resources",
-      "cik": "1655589",
-      "shares": 33390,
-      "value": 8611615,
-      "reportDate": "2026-06-30",
-      "priorShares": 32832,
-      "change": 558,
-      "pctOut": 0.0395,
-      "action": "Bought"
-    },
-    {
       "fundName": "Morgan Stanley Pathway Large Cap Equity ETF",
       "registrant": "MORGAN STANLEY PATHWAY FUNDS",
       "manager": "Morgan Stanley",
@@ -2526,12 +2500,25 @@
       "manager": "",
       "cik": "1257927",
       "shares": 32500,
-      "value": 8382075,
-      "reportDate": "2026-06-30",
-      "priorShares": 17000,
-      "change": 15500,
+      "value": 7420725,
+      "reportDate": "2026-09-30",
+      "priorShares": 32500,
+      "change": 0,
       "pctOut": 0.0385,
-      "action": "Bought"
+      "action": "No Change"
+    },
+    {
+      "fundName": "Franklin U.S. Mid Cap Multifactor Index ETF",
+      "registrant": "Franklin Templeton ETF Trust",
+      "manager": "Franklin Resources",
+      "cik": "1655589",
+      "shares": 31122,
+      "value": 7106086,
+      "reportDate": "2026-09-30",
+      "priorShares": 33390,
+      "change": -2268,
+      "pctOut": 0.0368,
+      "action": "Sold"
     },
     {
       "fundName": "Brown Advisory Growth Equity Fund",
@@ -2544,6 +2531,19 @@
       "priorShares": 33627,
       "change": -2525,
       "pctOut": 0.0368,
+      "action": "Sold"
+    },
+    {
+      "fundName": "Baron First Principles ETF",
+      "registrant": "Baron ETF Trust",
+      "manager": "Baron Capital",
+      "cik": "2081199",
+      "shares": 30743,
+      "value": 7019549,
+      "reportDate": "2026-09-30",
+      "priorShares": 43403,
+      "change": -12660,
+      "pctOut": 0.0364,
       "action": "Sold"
     },
     {
@@ -2573,16 +2573,16 @@
       "action": "No Change"
     },
     {
-      "fundName": "STATE STREET SMALL/MID CAP EQUITY INDEX PORTFOLIO",
-      "registrant": "STATE STREET INSTITUTIONAL INVESTMENT TRUST",
-      "manager": "State Street",
-      "cik": "1107414",
-      "shares": 26344,
-      "value": 6794381,
-      "reportDate": "2026-06-30",
-      "priorShares": 26084,
-      "change": 260,
-      "pctOut": 0.0312,
+      "fundName": "John Hancock Multifactor Mid Cap ETF",
+      "registrant": "John Hancock Exchange-Traded Fund Trust",
+      "manager": "John Hancock",
+      "cik": "1478482",
+      "shares": 26466,
+      "value": 6042982,
+      "reportDate": "2026-09-30",
+      "priorShares": 24793,
+      "change": 1673,
+      "pctOut": 0.0313,
       "action": "Bought"
     },
     {
@@ -2596,6 +2596,19 @@
       "priorShares": 147638,
       "change": -121300,
       "pctOut": 0.0312,
+      "action": "Sold"
+    },
+    {
+      "fundName": "STATE STREET SMALL/MID CAP EQUITY INDEX PORTFOLIO",
+      "registrant": "STATE STREET INSTITUTIONAL INVESTMENT TRUST",
+      "manager": "State Street",
+      "cik": "1107414",
+      "shares": 26044,
+      "value": 5946627,
+      "reportDate": "2026-09-30",
+      "priorShares": 26344,
+      "change": -300,
+      "pctOut": 0.0308,
       "action": "Sold"
     },
     {
@@ -2638,19 +2651,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Alger Capital Appreciation Portfolio",
-      "registrant": "ALGER PORTFOLIOS",
-      "manager": "",
-      "cik": "832566",
-      "shares": 25518,
-      "value": 6581347,
-      "reportDate": "2026-06-30",
-      "priorShares": 25518,
-      "change": 0,
-      "pctOut": 0.0302,
-      "action": "No Change"
-    },
-    {
       "fundName": "Fidelity MSCI Industrials Index ETF",
       "registrant": "FIDELITY COVINGTON TRUST",
       "manager": "FMR (Fidelity)",
@@ -2661,19 +2661,6 @@
       "priorShares": 22480,
       "change": 2370,
       "pctOut": 0.0294,
-      "action": "Bought"
-    },
-    {
-      "fundName": "John Hancock Multifactor Mid Cap ETF",
-      "registrant": "John Hancock Exchange-Traded Fund Trust",
-      "manager": "John Hancock",
-      "cik": "1478482",
-      "shares": 24793,
-      "value": 6394363,
-      "reportDate": "2026-06-30",
-      "priorShares": 23313,
-      "change": 1480,
-      "pctOut": 0.029300000000000003,
       "action": "Bought"
     },
     {
@@ -2768,6 +2755,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Alger Capital Appreciation Portfolio",
+      "registrant": "ALGER PORTFOLIOS",
+      "manager": "",
+      "cik": "832566",
+      "shares": 22157,
+      "value": 5059108,
+      "reportDate": "2026-09-30",
+      "priorShares": 25518,
+      "change": -3361,
+      "pctOut": 0.0262,
+      "action": "Sold"
+    },
+    {
       "fundName": "DF DENT SMALL CAP GROWTH FUND",
       "registrant": "FORUM FUNDS",
       "manager": "",
@@ -2794,6 +2794,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Alger Mid Cap 40 ETF",
+      "registrant": "Alger ETF Trust",
+      "manager": "",
+      "cik": "1807486",
+      "shares": 20510,
+      "value": 4683048,
+      "reportDate": "2026-09-30",
+      "priorShares": 19223,
+      "change": 1287,
+      "pctOut": 0.0243,
+      "action": "Bought"
+    },
+    {
       "fundName": "iShares Russell 3000 ETF",
       "registrant": "iShares Trust",
       "manager": "BlackRock",
@@ -2812,25 +2825,12 @@
       "manager": "",
       "cik": "1567101",
       "shares": 19757,
-      "value": 5095528,
-      "reportDate": "2026-06-30",
-      "priorShares": 28189,
-      "change": -8432,
+      "value": 4511116,
+      "reportDate": "2026-09-30",
+      "priorShares": 19757,
+      "change": 0,
       "pctOut": 0.0234,
-      "action": "Sold"
-    },
-    {
-      "fundName": "Alger Mid Cap 40 ETF",
-      "registrant": "Alger ETF Trust",
-      "manager": "",
-      "cik": "1807486",
-      "shares": 19223,
-      "value": 4957804,
-      "reportDate": "2026-06-30",
-      "priorShares": 20047,
-      "change": -824,
-      "pctOut": 0.022699999999999998,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Nationwide Large Cap Equity Portfolio",
@@ -2872,19 +2872,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "VIP Industrials Portfolio",
-      "registrant": "Variable Insurance Products Fund IV",
-      "manager": "FMR (Fidelity)",
-      "cik": "720318",
-      "shares": 17600,
-      "value": 4539216,
-      "reportDate": "2026-06-30",
-      "priorShares": 17900,
-      "change": -300,
-      "pctOut": 0.0208,
-      "action": "Sold"
-    },
-    {
       "fundName": "iShares U.S. Industrials ETF",
       "registrant": "iShares Trust",
       "manager": "BlackRock",
@@ -2898,16 +2885,16 @@
       "action": "Sold"
     },
     {
-      "fundName": "Fidelity Magellan K6 Fund",
-      "registrant": "Fidelity Magellan Fund",
+      "fundName": "VIP Industrials Portfolio",
+      "registrant": "Variable Insurance Products Fund IV",
       "manager": "FMR (Fidelity)",
-      "cik": "61397",
-      "shares": 16832,
-      "value": 4341141,
-      "reportDate": "2026-06-30",
-      "priorShares": 17022,
-      "change": -190,
-      "pctOut": 0.0199,
+      "cik": "720318",
+      "shares": 17100,
+      "value": 3904443,
+      "reportDate": "2026-09-30",
+      "priorShares": 17600,
+      "change": -500,
+      "pctOut": 0.0202,
       "action": "Sold"
     },
     {
@@ -2915,13 +2902,26 @@
       "registrant": "College Retirement Equities Fund",
       "manager": "",
       "cik": "777535",
-      "shares": 16529,
-      "value": 4262994,
-      "reportDate": "2026-06-30",
-      "priorShares": 16480,
-      "change": 49,
-      "pctOut": 0.0196,
+      "shares": 16630,
+      "value": 3797128,
+      "reportDate": "2026-09-30",
+      "priorShares": 16529,
+      "change": 101,
+      "pctOut": 0.0197,
       "action": "Bought"
+    },
+    {
+      "fundName": "Fidelity Magellan K6 Fund",
+      "registrant": "Fidelity Magellan Fund",
+      "manager": "FMR (Fidelity)",
+      "cik": "61397",
+      "shares": 15922,
+      "value": 3635470,
+      "reportDate": "2026-09-30",
+      "priorShares": 16832,
+      "change": -910,
+      "pctOut": 0.018799999999999997,
+      "action": "Sold"
     },
     {
       "fundName": "Dimensional US Core Equity Market ETF",
@@ -3215,12 +3215,25 @@
       "manager": "BlackRock",
       "cik": "1580353",
       "shares": 9175,
-      "value": 2366324,
-      "reportDate": "2026-06-30",
-      "priorShares": 9963,
-      "change": -788,
+      "value": 2094928,
+      "reportDate": "2026-09-30",
+      "priorShares": 9175,
+      "change": 0,
       "pctOut": 0.0109,
-      "action": "Sold"
+      "action": "No Change"
+    },
+    {
+      "fundName": "Weitz Conservative Allocation Fund",
+      "registrant": "Weitz Funds",
+      "manager": "",
+      "cik": "1257927",
+      "shares": 9000,
+      "value": 2054970,
+      "reportDate": "2026-09-30",
+      "priorShares": 7000,
+      "change": 2000,
+      "pctOut": 0.0106,
+      "action": "Bought"
     },
     {
       "fundName": "EQ/Common Stock Index Portfolio",
@@ -3418,19 +3431,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Weitz Conservative Allocation Fund",
-      "registrant": "Weitz Funds",
-      "manager": "",
-      "cik": "1257927",
-      "shares": 7000,
-      "value": 1805370,
-      "reportDate": "2026-06-30",
-      "priorShares": 7000,
-      "change": 0,
-      "pctOut": 0.0083,
-      "action": "No Change"
-    },
-    {
       "fundName": "Fidelity Growth Strategies K6 Fund",
       "registrant": "Fidelity Mt. Vernon Street Trust",
       "manager": "FMR (Fidelity)",
@@ -3566,12 +3566,12 @@
       "manager": "",
       "cik": "915092",
       "shares": 5911,
-      "value": 1524506,
-      "reportDate": "2026-06-30",
-      "priorShares": 7201,
-      "change": -1290,
+      "value": 1349659,
+      "reportDate": "2026-09-30",
+      "priorShares": 5911,
+      "change": 0,
       "pctOut": 0.006999999999999999,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "American Beacon Man Large Cap Growth Fund",
@@ -3579,12 +3579,12 @@
       "manager": "",
       "cik": "809593",
       "shares": 5700,
-      "value": 1470087,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
+      "value": 1301481,
+      "reportDate": "2026-09-30",
+      "priorShares": 5700,
+      "change": 0,
       "pctOut": 0.0067,
-      "action": "New"
+      "action": "No Change"
     },
     {
       "fundName": "Venerable Mid Cap Index Fund",
@@ -3769,19 +3769,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "Large Company Growth Portfolio",
-      "registrant": "Wilshire Mutual Funds Inc",
-      "manager": "",
-      "cik": "890453",
-      "shares": 4219,
-      "value": 1088122,
-      "reportDate": "2026-06-30",
-      "priorShares": 6296,
-      "change": -2077,
-      "pctOut": 0.005,
-      "action": "Sold"
-    },
-    {
       "fundName": "Pro-Blend Conservative Term Series",
       "registrant": "Manning & Napier Fund, Inc.",
       "manager": "",
@@ -3793,6 +3780,19 @@
       "change": 772,
       "pctOut": 0.0049,
       "action": "Bought"
+    },
+    {
+      "fundName": "Large Company Growth Portfolio",
+      "registrant": "Wilshire Mutual Funds Inc",
+      "manager": "",
+      "cik": "890453",
+      "shares": 3983,
+      "value": 909438,
+      "reportDate": "2026-09-30",
+      "priorShares": 4219,
+      "change": -236,
+      "pctOut": 0.004699999999999999,
+      "action": "Sold"
     },
     {
       "fundName": "Voya RussellTM Mid Cap Index Portfolio",
@@ -4029,6 +4029,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "Franklin U.S. Equity Index ETF",
+      "registrant": "Franklin Templeton ETF Trust",
+      "manager": "Franklin Resources",
+      "cik": "1655589",
+      "shares": 2444,
+      "value": 558039,
+      "reportDate": "2026-09-30",
+      "priorShares": 2424,
+      "change": 20,
+      "pctOut": 0.0029,
+      "action": "Bought"
+    },
+    {
       "fundName": "Wasatch U.S. Select Fund",
       "registrant": "WASATCH FUNDS TRUST",
       "manager": "",
@@ -4040,19 +4053,6 @@
       "change": -122,
       "pctOut": 0.0029,
       "action": "Sold"
-    },
-    {
-      "fundName": "Franklin U.S. Equity Index ETF",
-      "registrant": "Franklin Templeton ETF Trust",
-      "manager": "Franklin Resources",
-      "cik": "1655589",
-      "shares": 2424,
-      "value": 625174,
-      "reportDate": "2026-06-30",
-      "priorShares": 2156,
-      "change": 268,
-      "pctOut": 0.0029,
-      "action": "Bought"
     },
     {
       "fundName": "PD Large-Cap Growth Index Portfolio",
@@ -4085,12 +4085,12 @@
       "registrant": "John Hancock Exchange-Traded Fund Trust",
       "manager": "John Hancock",
       "cik": "1478482",
-      "shares": 2156,
-      "value": 556054,
-      "reportDate": "2026-06-30",
-      "priorShares": 2132,
-      "change": 24,
-      "pctOut": 0.0026,
+      "shares": 2299,
+      "value": 524931,
+      "reportDate": "2026-09-30",
+      "priorShares": 2156,
+      "change": 143,
+      "pctOut": 0.0026999999999999997,
       "action": "Bought"
     },
     {
@@ -4215,11 +4215,11 @@
       "registrant": "Variable Insurance Products Fund II",
       "manager": "FMR (Fidelity)",
       "cik": "831016",
-      "shares": 1874,
-      "value": 483323,
-      "reportDate": "2026-06-30",
-      "priorShares": 1837,
-      "change": 37,
+      "shares": 1879,
+      "value": 429032,
+      "reportDate": "2026-09-30",
+      "priorShares": 1874,
+      "change": 5,
       "pctOut": 0.0022,
       "action": "Bought"
     },
@@ -4268,12 +4268,12 @@
       "manager": "BlackRock",
       "cik": "1580353",
       "shares": 1805,
-      "value": 465528,
-      "reportDate": "2026-06-30",
-      "priorShares": 2285,
-      "change": -480,
+      "value": 412136,
+      "reportDate": "2026-09-30",
+      "priorShares": 1805,
+      "change": 0,
       "pctOut": 0.0021,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Blue Chip Account",
@@ -4341,6 +4341,19 @@
       "action": "New"
     },
     {
+      "fundName": "iShares U.S. Large Cap Premium Income Active ETF",
+      "registrant": "BlackRock ETF Trust",
+      "manager": "BlackRock",
+      "cik": "1761055",
+      "shares": 1614,
+      "value": 368525,
+      "reportDate": "2026-09-30",
+      "priorShares": 1225,
+      "change": 389,
+      "pctOut": 0.0019000000000000002,
+      "action": "Bought"
+    },
+    {
       "fundName": "Multi-Manager Directional Alternative Strategies Fund",
       "registrant": "COLUMBIA FUNDS SERIES TRUST I",
       "manager": "Columbia (Ameriprise)",
@@ -4393,13 +4406,26 @@
       "action": "Sold"
     },
     {
+      "fundName": "Alpha Architect US Equity 4 ETF",
+      "registrant": "EA Series Trust",
+      "manager": "",
+      "cik": "1592900",
+      "shares": 1486,
+      "value": 339298,
+      "reportDate": "2026-09-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0018,
+      "action": "New"
+    },
+    {
       "fundName": "TIAA Separate Account VA-1 - Stock Index Account",
       "registrant": "TIAA Separate Account VA-1",
       "manager": "Nuveen (TIAA)",
       "cik": "923524",
       "shares": 1471,
-      "value": 379386,
-      "reportDate": "2026-06-30",
+      "value": 335873,
+      "reportDate": "2026-09-30",
       "priorShares": 1471,
       "change": 0,
       "pctOut": 0.0017,
@@ -4437,8 +4463,8 @@
       "manager": "",
       "cik": "1592900",
       "shares": 1370,
-      "value": 353337,
-      "reportDate": "2026-06-30",
+      "value": 312812,
+      "reportDate": "2026-09-30",
       "priorShares": 1370,
       "change": 0,
       "pctOut": 0.0015999999999999999,
@@ -4458,17 +4484,30 @@
       "action": "No Change"
     },
     {
+      "fundName": "Total Stock Market Index Trust",
+      "registrant": "John Hancock Variable Insurance Trust",
+      "manager": "John Hancock",
+      "cik": "756913",
+      "shares": 1342,
+      "value": 306419,
+      "reportDate": "2026-09-30",
+      "priorShares": 1335,
+      "change": 7,
+      "pctOut": 0.0015999999999999999,
+      "action": "Bought"
+    },
+    {
       "fundName": "The Institutional U.S. Equity Portfolio",
       "registrant": "HC Capital Trust",
       "manager": "",
       "cik": "934563",
       "shares": 1335,
-      "value": 344310,
-      "reportDate": "2026-06-30",
-      "priorShares": 2604,
-      "change": -1269,
+      "value": 304821,
+      "reportDate": "2026-09-30",
+      "priorShares": 1335,
+      "change": 0,
       "pctOut": 0.0015999999999999999,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Goldman Sachs Absolute Return Tracker Fund",
@@ -4480,19 +4519,6 @@
       "reportDate": "2026-08-31",
       "priorShares": 2755,
       "change": -1420,
-      "pctOut": 0.0015999999999999999,
-      "action": "Sold"
-    },
-    {
-      "fundName": "Total Stock Market Index Trust",
-      "registrant": "John Hancock Variable Insurance Trust",
-      "manager": "John Hancock",
-      "cik": "756913",
-      "shares": 1335,
-      "value": 344310,
-      "reportDate": "2026-06-30",
-      "priorShares": 1374,
-      "change": -39,
       "pctOut": 0.0015999999999999999,
       "action": "Sold"
     },
@@ -4515,12 +4541,12 @@
       "manager": "",
       "cik": "1091439",
       "shares": 1300,
-      "value": 335283,
-      "reportDate": "2026-06-30",
-      "priorShares": 1462,
-      "change": -162,
+      "value": 296829,
+      "reportDate": "2026-09-30",
+      "priorShares": 1300,
+      "change": 0,
       "pctOut": 0.0015,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Harbor Human Capital Factor US Large Cap ETF",
@@ -4536,30 +4562,17 @@
       "action": "Bought"
     },
     {
-      "fundName": "THRIVENT MODERATE ALLOCATION PORTFOLIO",
-      "registrant": "Thrivent Series Fund, Inc.",
-      "manager": "",
-      "cik": "790166",
-      "shares": 1293,
-      "value": 333478,
-      "reportDate": "2026-06-30",
-      "priorShares": 3741,
-      "change": -2448,
-      "pctOut": 0.0015,
-      "action": "Sold"
-    },
-    {
       "fundName": "THRIVENT MODERATELY AGGRESSIVE ALLOCATION PORTFOLIO",
       "registrant": "Thrivent Series Fund, Inc.",
       "manager": "",
       "cik": "790166",
       "shares": 1281,
-      "value": 330383,
-      "reportDate": "2026-06-30",
-      "priorShares": 3688,
-      "change": -2407,
+      "value": 292491,
+      "reportDate": "2026-09-30",
+      "priorShares": 1281,
+      "change": 0,
       "pctOut": 0.0015,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Global Atlantic BlackRock Disciplined Core Portfolio",
@@ -4567,25 +4580,25 @@
       "manager": "BlackRock",
       "cik": "1580353",
       "shares": 1272,
-      "value": 328062,
-      "reportDate": "2026-06-30",
-      "priorShares": 3867,
-      "change": -2595,
+      "value": 290436,
+      "reportDate": "2026-09-30",
+      "priorShares": 1272,
+      "change": 0,
       "pctOut": 0.0015,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
-      "fundName": "iShares U.S. Large Cap Premium Income Active ETF",
-      "registrant": "BlackRock ETF Trust",
-      "manager": "BlackRock",
-      "cik": "1761055",
-      "shares": 1225,
-      "value": 315940,
-      "reportDate": "2026-06-30",
-      "priorShares": 762,
-      "change": 463,
-      "pctOut": 0.0014,
-      "action": "Bought"
+      "fundName": "THRIVENT MODERATE ALLOCATION PORTFOLIO",
+      "registrant": "Thrivent Series Fund, Inc.",
+      "manager": "",
+      "cik": "790166",
+      "shares": 1263,
+      "value": 288381,
+      "reportDate": "2026-09-30",
+      "priorShares": 1293,
+      "change": -30,
+      "pctOut": 0.0015,
+      "action": "Sold"
     },
     {
       "fundName": "Goldman Sachs MarketBeta(R) Russell 1000 Growth Equity ETF",
@@ -4644,12 +4657,12 @@
       "registrant": "SEASONS SERIES TRUST",
       "manager": "",
       "cik": "1003239",
-      "shares": 1076,
-      "value": 277511,
-      "reportDate": "2026-06-30",
-      "priorShares": 1280,
-      "change": -204,
-      "pctOut": 0.0013,
+      "shares": 1030,
+      "value": 235180,
+      "reportDate": "2026-09-30",
+      "priorShares": 1076,
+      "change": -46,
+      "pctOut": 0.0012000000000000001,
       "action": "Sold"
     },
     {
@@ -4671,8 +4684,8 @@
       "manager": "Nuveen (TIAA)",
       "cik": "1068204",
       "shares": 1001,
-      "value": 258168,
-      "reportDate": "2026-06-30",
+      "value": 228558,
+      "reportDate": "2026-09-30",
       "priorShares": 1001,
       "change": 0,
       "pctOut": 0.0012000000000000001,
@@ -4736,8 +4749,8 @@
       "manager": "BlackRock",
       "cik": "1580353",
       "shares": 818,
-      "value": 210970,
-      "reportDate": "2026-06-30",
+      "value": 186774,
+      "reportDate": "2026-09-30",
       "priorShares": 818,
       "change": 0,
       "pctOut": 0.001,
@@ -4775,8 +4788,8 @@
       "manager": "Dimensional",
       "cik": "1091439",
       "shares": 803,
-      "value": 207102,
-      "reportDate": "2026-06-30",
+      "value": 183349,
+      "reportDate": "2026-09-30",
       "priorShares": 803,
       "change": 0,
       "pctOut": 0.001,
@@ -4814,8 +4827,8 @@
       "manager": "",
       "cik": "934563",
       "shares": 728,
-      "value": 187758,
-      "reportDate": "2026-06-30",
+      "value": 166224,
+      "reportDate": "2026-09-30",
       "priorShares": 728,
       "change": 0,
       "pctOut": 0.0009,
@@ -4840,12 +4853,12 @@
       "manager": "Baron Capital",
       "cik": "2081199",
       "shares": 718,
-      "value": 185179,
-      "reportDate": "2026-06-30",
-      "priorShares": 604,
-      "change": 114,
+      "value": 163941,
+      "reportDate": "2026-09-30",
+      "priorShares": 718,
+      "change": 0,
       "pctOut": 0.0007999999999999999,
-      "action": "Bought"
+      "action": "No Change"
     },
     {
       "fundName": "SA T. Rowe Price Allocation Moderately Aggressive Portfolio",
@@ -4926,6 +4939,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Parametric Hedged Equity ETF",
+      "registrant": "Morgan Stanley ETF Trust",
+      "manager": "Morgan Stanley",
+      "cik": "1676326",
+      "shares": 574,
+      "value": 131061,
+      "reportDate": "2026-09-30",
+      "priorShares": 532,
+      "change": 42,
+      "pctOut": 0.0007,
+      "action": "Bought"
+    },
+    {
       "fundName": "AB US Equity ETF",
       "registrant": "AB Active ETFs, Inc.",
       "manager": "",
@@ -4952,19 +4978,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Aristotle Small/Mid Cap Equity Fund",
-      "registrant": "Aristotle Fund Series Trust",
-      "manager": "",
-      "cik": "1959372",
-      "shares": 555,
-      "value": 143140,
-      "reportDate": "2026-06-30",
-      "priorShares": 565,
-      "change": -10,
-      "pctOut": 0.0007,
-      "action": "Sold"
-    },
-    {
       "fundName": "Wasatch Small/Mid Cap ETF",
       "registrant": "WASATCH FUNDS TRUST",
       "manager": "",
@@ -4978,17 +4991,17 @@
       "action": "New"
     },
     {
-      "fundName": "Parametric Hedged Equity ETF",
-      "registrant": "Morgan Stanley ETF Trust",
-      "manager": "Morgan Stanley",
-      "cik": "1676326",
-      "shares": 532,
-      "value": 137208,
-      "reportDate": "2026-06-30",
-      "priorShares": 497,
-      "change": 35,
+      "fundName": "Aristotle Small/Mid Cap Equity Fund",
+      "registrant": "Aristotle Fund Series Trust",
+      "manager": "",
+      "cik": "1959372",
+      "shares": 517,
+      "value": 118047,
+      "reportDate": "2026-09-30",
+      "priorShares": 555,
+      "change": -38,
       "pctOut": 0.0006000000000000001,
-      "action": "Bought"
+      "action": "Sold"
     },
     {
       "fundName": "Praxis Impact Large Cap Growth ETF",
@@ -5022,12 +5035,12 @@
       "manager": "",
       "cik": "1075065",
       "shares": 455,
-      "value": 117349,
-      "reportDate": "2026-06-30",
-      "priorShares": 530,
-      "change": -75,
+      "value": 103890,
+      "reportDate": "2026-09-30",
+      "priorShares": 455,
+      "change": 0,
       "pctOut": 0.0005,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "LVIP JPMorgan Select Mid Cap Value Managed Volatility Fund",
@@ -5043,19 +5056,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "State Street Total Return V.I.S. Fund",
-      "registrant": "STATE STREET VARIABLE INSURANCE SERIES FUNDS INC",
-      "manager": "State Street",
-      "cik": "746687",
-      "shares": 451,
-      "value": 116317,
-      "reportDate": "2026-06-30",
-      "priorShares": 451,
-      "change": 0,
-      "pctOut": 0.0005,
-      "action": "No Change"
-    },
-    {
       "fundName": "SIMT Mid-Cap Fund",
       "registrant": "SEI INSTITUTIONAL MANAGED TRUST",
       "manager": "",
@@ -5067,19 +5067,6 @@
       "change": 0,
       "pctOut": 0.0005,
       "action": "No Change"
-    },
-    {
-      "fundName": "THRIVENT AGGRESSIVE ALLOCATION PORTFOLIO",
-      "registrant": "Thrivent Series Fund, Inc.",
-      "manager": "",
-      "cik": "790166",
-      "shares": 431,
-      "value": 111159,
-      "reportDate": "2026-06-30",
-      "priorShares": 1164,
-      "change": -733,
-      "pctOut": 0.0005,
-      "action": "Sold"
     },
     {
       "fundName": "Knights of Columbus U.S. ALL CAP INDEX FUND",
@@ -5095,6 +5082,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "THRIVENT AGGRESSIVE ALLOCATION PORTFOLIO",
+      "registrant": "Thrivent Series Fund, Inc.",
+      "manager": "",
+      "cik": "790166",
+      "shares": 421,
+      "value": 96127,
+      "reportDate": "2026-09-30",
+      "priorShares": 431,
+      "change": -10,
+      "pctOut": 0.0005,
+      "action": "Sold"
+    },
+    {
       "fundName": "Symmetry Panoramic US Equity Fund",
       "registrant": "Symmetry Panoramic Trust",
       "manager": "",
@@ -5108,29 +5108,29 @@
       "action": "No Change"
     },
     {
-      "fundName": "State Street Balanced Index Fund",
-      "registrant": "STATE STREET INSTITUTIONAL INVESTMENT TRUST",
-      "manager": "State Street",
-      "cik": "1107414",
-      "shares": 402,
-      "value": 103680,
-      "reportDate": "2026-06-30",
-      "priorShares": 402,
-      "change": 0,
-      "pctOut": 0.0005,
-      "action": "No Change"
-    },
-    {
       "fundName": "THRIVENT MODERATELY CONSERVATIVE ALLOCATION PORTFOLIO",
       "registrant": "Thrivent Series Fund, Inc.",
       "manager": "",
       "cik": "790166",
-      "shares": 381,
-      "value": 98264,
-      "reportDate": "2026-06-30",
-      "priorShares": 1100,
-      "change": -719,
-      "pctOut": 0.0005,
+      "shares": 373,
+      "value": 85167,
+      "reportDate": "2026-09-30",
+      "priorShares": 381,
+      "change": -8,
+      "pctOut": 0.00039999999999999996,
+      "action": "Sold"
+    },
+    {
+      "fundName": "State Street Balanced Index Fund",
+      "registrant": "STATE STREET INSTITUTIONAL INVESTMENT TRUST",
+      "manager": "State Street",
+      "cik": "1107414",
+      "shares": 371,
+      "value": 84710,
+      "reportDate": "2026-09-30",
+      "priorShares": 402,
+      "change": -31,
+      "pctOut": 0.00039999999999999996,
       "action": "Sold"
     },
     {
@@ -5145,6 +5145,19 @@
       "change": 0,
       "pctOut": 0.00039999999999999996,
       "action": "No Change"
+    },
+    {
+      "fundName": "State Street Total Return V.I.S. Fund",
+      "registrant": "STATE STREET VARIABLE INSURANCE SERIES FUNDS INC",
+      "manager": "State Street",
+      "cik": "746687",
+      "shares": 351,
+      "value": 80144,
+      "reportDate": "2026-09-30",
+      "priorShares": 451,
+      "change": -100,
+      "pctOut": 0.00039999999999999996,
+      "action": "Sold"
     },
     {
       "fundName": "AVIP BlackRock Advantage Large Cap Growth Portfolio",
@@ -5164,11 +5177,11 @@
       "registrant": "EA Series Trust",
       "manager": "",
       "cik": "1592900",
-      "shares": 335,
-      "value": 86400,
-      "reportDate": "2026-06-30",
-      "priorShares": 247,
-      "change": 88,
+      "shares": 346,
+      "value": 79002,
+      "reportDate": "2026-09-30",
+      "priorShares": 335,
+      "change": 11,
       "pctOut": 0.00039999999999999996,
       "action": "Bought"
     },
@@ -5178,8 +5191,8 @@
       "manager": "",
       "cik": "1091439",
       "shares": 317,
-      "value": 81757,
-      "reportDate": "2026-06-30",
+      "value": 72381,
+      "reportDate": "2026-09-30",
       "priorShares": 317,
       "change": 0,
       "pctOut": 0.00039999999999999996,
@@ -5191,12 +5204,12 @@
       "manager": "",
       "cik": "790166",
       "shares": 314,
-      "value": 80984,
-      "reportDate": "2026-06-30",
-      "priorShares": 972,
-      "change": -658,
+      "value": 71696,
+      "reportDate": "2026-09-30",
+      "priorShares": 314,
+      "change": 0,
       "pctOut": 0.00039999999999999996,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Defiance Large Cap Ex-mag 7 ETF",
@@ -5217,8 +5230,8 @@
       "manager": "",
       "cik": "890453",
       "shares": 296,
-      "value": 76341,
-      "reportDate": "2026-06-30",
+      "value": 67586,
+      "reportDate": "2026-09-30",
       "priorShares": 296,
       "change": 0,
       "pctOut": 0.00039999999999999996,
@@ -5230,8 +5243,8 @@
       "manager": "State Street",
       "cik": "1064642",
       "shares": 286,
-      "value": 73762,
-      "reportDate": "2026-06-30",
+      "value": 65302,
+      "reportDate": "2026-09-30",
       "priorShares": 286,
       "change": 0,
       "pctOut": 0.00030000000000000003,
@@ -5307,11 +5320,11 @@
       "registrant": "EA Series Trust",
       "manager": "",
       "cik": "1592900",
-      "shares": 274,
-      "value": 70667,
-      "reportDate": "2026-06-30",
-      "priorShares": 283,
-      "change": -9,
+      "shares": 273,
+      "value": 62334,
+      "reportDate": "2026-09-30",
+      "priorShares": 274,
+      "change": -1,
       "pctOut": 0.00030000000000000003,
       "action": "Sold"
     },
@@ -5329,6 +5342,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "Global Strategist Portfolio",
+      "registrant": "MORGAN STANLEY INSTITUTIONAL FUND TRUST",
+      "manager": "Morgan Stanley",
+      "cik": "741375",
+      "shares": 240,
+      "value": 54799,
+      "reportDate": "2026-09-30",
+      "priorShares": 239,
+      "change": 1,
+      "pctOut": 0.00030000000000000003,
+      "action": "Bought"
+    },
+    {
       "fundName": "iShares MSCI Kokusai ETF",
       "registrant": "iShares Trust",
       "manager": "BlackRock",
@@ -5342,19 +5368,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "Global Strategist Portfolio",
-      "registrant": "MORGAN STANLEY INSTITUTIONAL FUND TRUST",
-      "manager": "Morgan Stanley",
-      "cik": "741375",
-      "shares": 239,
-      "value": 61640,
-      "reportDate": "2026-06-30",
-      "priorShares": 240,
-      "change": -1,
-      "pctOut": 0.00030000000000000003,
-      "action": "Sold"
-    },
-    {
       "fundName": "JPMorgan Fundamental Data Science Mid Core ETF",
       "registrant": "J.P. Morgan Exchange-Traded Fund Trust",
       "manager": "JPMorgan",
@@ -5363,19 +5376,6 @@
       "value": 59835,
       "reportDate": "2026-06-30",
       "priorShares": 232,
-      "change": 0,
-      "pctOut": 0.00030000000000000003,
-      "action": "No Change"
-    },
-    {
-      "fundName": "Bridge Builder Large Cap Growth Fund",
-      "registrant": "Bridge Builder Trust",
-      "manager": "",
-      "cik": "1567101",
-      "shares": 227,
-      "value": 58546,
-      "reportDate": "2026-06-30",
-      "priorShares": 227,
       "change": 0,
       "pctOut": 0.00030000000000000003,
       "action": "No Change"
@@ -5438,12 +5438,12 @@
       "manager": "Morgan Stanley",
       "cik": "1676326",
       "shares": 159,
-      "value": 41008,
-      "reportDate": "2026-06-30",
-      "priorShares": 150,
-      "change": 9,
+      "value": 36304,
+      "reportDate": "2026-09-30",
+      "priorShares": 159,
+      "change": 0,
       "pctOut": 0.00019999999999999998,
-      "action": "Bought"
+      "action": "No Change"
     },
     {
       "fundName": "Innovator Equity Managed 10 Buffer ETF",
@@ -5529,8 +5529,8 @@
       "manager": "",
       "cik": "934563",
       "shares": 120,
-      "value": 30949,
-      "reportDate": "2026-06-30",
+      "value": 27400,
+      "reportDate": "2026-09-30",
       "priorShares": 120,
       "change": 0,
       "pctOut": 0.00009999999999999999,
@@ -5568,12 +5568,12 @@
       "manager": "",
       "cik": "811869",
       "shares": 88,
-      "value": 22696,
-      "reportDate": "2026-06-30",
-      "priorShares": 266,
-      "change": -178,
+      "value": 20093,
+      "reportDate": "2026-09-30",
+      "priorShares": 88,
+      "change": 0,
       "pctOut": 0.00009999999999999999,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "The Catholic SRI Growth Portfolio",
@@ -5581,8 +5581,8 @@
       "manager": "",
       "cik": "934563",
       "shares": 78,
-      "value": 20117,
-      "reportDate": "2026-06-30",
+      "value": 17810,
+      "reportDate": "2026-09-30",
       "priorShares": 78,
       "change": 0,
       "pctOut": 0.00009999999999999999,
@@ -5615,6 +5615,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "HCM Hedged Equity ETF",
+      "registrant": "NORTHERN LIGHTS FUND TRUST III",
+      "manager": "",
+      "cik": "1537140",
+      "shares": 65,
+      "value": 14841,
+      "reportDate": "2026-09-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.00009999999999999999,
+      "action": "New"
+    },
+    {
       "fundName": "THRIVENT DYNAMIC ALLOCATION FUND",
       "registrant": "Thrivent Mutual Funds",
       "manager": "",
@@ -5633,12 +5646,12 @@
       "manager": "",
       "cik": "790166",
       "shares": 57,
-      "value": 14701,
-      "reportDate": "2026-06-30",
-      "priorShares": 173,
-      "change": -116,
+      "value": 13015,
+      "reportDate": "2026-09-30",
+      "priorShares": 57,
+      "change": 0,
       "pctOut": 0.00009999999999999999,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Sector Rotation Fund",
@@ -5659,8 +5672,8 @@
       "manager": "",
       "cik": "790166",
       "shares": 52,
-      "value": 13411,
-      "reportDate": "2026-06-30",
+      "value": 11873,
+      "reportDate": "2026-09-30",
       "priorShares": 52,
       "change": 0,
       "pctOut": 0.00009999999999999999,
@@ -5672,12 +5685,25 @@
       "manager": "",
       "cik": "790166",
       "shares": 52,
-      "value": 13411,
-      "reportDate": "2026-06-30",
-      "priorShares": 156,
-      "change": -104,
+      "value": 11873,
+      "reportDate": "2026-09-30",
+      "priorShares": 52,
+      "change": 0,
       "pctOut": 0.00009999999999999999,
-      "action": "Sold"
+      "action": "No Change"
+    },
+    {
+      "fundName": "Fidelity Enhanced Mid Cap Growth ETF",
+      "registrant": "Fidelity Covington Trust",
+      "manager": "FMR (Fidelity)",
+      "cik": "945908",
+      "shares": 43,
+      "value": 9818,
+      "reportDate": "2026-09-30",
+      "priorShares": 17,
+      "change": 26,
+      "pctOut": 0.00009999999999999999,
+      "action": "Bought"
     },
     {
       "fundName": "Global Strategist Portfolio",
@@ -5685,25 +5711,25 @@
       "manager": "Morgan Stanley",
       "cik": "1011378",
       "shares": 32,
-      "value": 8253,
-      "reportDate": "2026-06-30",
-      "priorShares": 33,
-      "change": -1,
+      "value": 7307,
+      "reportDate": "2026-09-30",
+      "priorShares": 32,
+      "change": 0,
       "pctOut": 0,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "State Street(R) SPDR(R) Russell 1000 Momentum Focus ETF",
       "registrant": "SPDR SERIES TRUST",
       "manager": "State Street",
       "cik": "1064642",
-      "shares": 21,
-      "value": 5416,
-      "reportDate": "2026-06-30",
-      "priorShares": 54,
-      "change": -33,
+      "shares": 22,
+      "value": 5023,
+      "reportDate": "2026-09-30",
+      "priorShares": 21,
+      "change": 1,
       "pctOut": 0,
-      "action": "Sold"
+      "action": "Bought"
     },
     {
       "fundName": "Avantis Total Equity Markets ETF",
@@ -5724,8 +5750,8 @@
       "manager": "State Street",
       "cik": "1168164",
       "shares": 20,
-      "value": 5158,
-      "reportDate": "2026-06-30",
+      "value": 4567,
+      "reportDate": "2026-09-30",
       "priorShares": 20,
       "change": 0,
       "pctOut": 0,
@@ -5745,30 +5771,17 @@
       "action": "New"
     },
     {
-      "fundName": "Fidelity Enhanced Mid Cap Growth ETF",
-      "registrant": "Fidelity Covington Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "945908",
-      "shares": 17,
-      "value": 4384,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0,
-      "action": "New"
-    },
-    {
       "fundName": "Permanence Portfolio",
       "registrant": "MORGAN STANLEY INSTITUTIONAL FUND INC",
       "manager": "Morgan Stanley",
       "cik": "836487",
       "shares": 14,
-      "value": 3611,
-      "reportDate": "2026-06-30",
-      "priorShares": 15,
-      "change": -1,
+      "value": 3197,
+      "reportDate": "2026-09-30",
+      "priorShares": 14,
+      "change": 0,
       "pctOut": 0,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Innovator Equity Premium Income - Daily PutWrite ETF",
@@ -5828,12 +5841,12 @@
       "manager": "FMR (Fidelity)",
       "cik": "945908",
       "shares": 4,
-      "value": 1032,
-      "reportDate": "2026-06-30",
-      "priorShares": 32254,
-      "change": -32250,
+      "value": 913,
+      "reportDate": "2026-09-30",
+      "priorShares": 4,
+      "change": 0,
       "pctOut": 0,
-      "action": "Sold"
+      "action": "No Change"
     }
   ]
 }

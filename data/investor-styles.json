@@ -1,9 +1,9 @@
 {
-  "asOf": "2026-11-24T21:29:55.679Z",
+  "asOf": "2026-11-25T20:54:25.845Z",
   "period": "2026-09-30",
   "hei": {
-    "total": 773,
-    "totalShares": 43451372,
+    "total": 774,
+    "totalShares": 43461611,
     "categories": [
       {
         "style": "Growth",
@@ -628,9 +628,9 @@
       },
       {
         "style": "Blend/Core",
-        "holders": 571,
+        "holders": 572,
         "holderPct": 73.9,
-        "shares": 24592514,
+        "shares": 24602753,
         "sharePct": 56.6,
         "estCount": 119,
         "examples": [
@@ -1434,6 +1434,11 @@
           {
             "name": "HANTZ FINANCIAL SERVICES, INC.",
             "shares": 10476,
+            "est": false
+          },
+          {
+            "name": "Baader Bank Aktiengesellschaft",
+            "shares": 10239,
             "est": false
           },
           {
@@ -3973,14 +3978,14 @@
     ],
     "coverage": {
       "curated": 158,
-      "heuristic": 357,
+      "heuristic": 358,
       "estimated": 167,
       "unknown": 91
     }
   },
   "heia": {
-    "total": 681,
-    "totalShares": 68239249,
+    "total": 682,
+    "totalShares": 68239250,
     "categories": [
       {
         "style": "Growth",
@@ -4504,7 +4509,7 @@
       {
         "style": "Blend/Core",
         "holders": 522,
-        "holderPct": 76.7,
+        "holderPct": 76.5,
         "shares": 46747353,
         "sharePct": 68.5,
         "estCount": 106,
@@ -7130,9 +7135,9 @@
       },
       {
         "style": "Unclassified",
-        "holders": 68,
-        "holderPct": 10,
-        "shares": 3007546,
+        "holders": 69,
+        "holderPct": 10.1,
+        "shares": 3007547,
         "sharePct": 4.4,
         "estCount": 0,
         "examples": [
@@ -7482,6 +7487,11 @@
             "name": "Nemes Rush Group LLC",
             "shares": 2,
             "est": false
+          },
+          {
+            "name": "Kilter Group LLC",
+            "shares": 1,
+            "est": false
           }
         ]
       }
@@ -7490,17 +7500,17 @@
       "curated": 167,
       "heuristic": 312,
       "estimated": 134,
-      "unknown": 68
+      "unknown": 69
     }
   },
   "combined": {
-    "total": 1009,
-    "totalShares": 111690621,
+    "total": 1011,
+    "totalShares": 111700861,
     "categories": [
       {
         "style": "Growth",
         "holders": 47,
-        "holderPct": 4.7,
+        "holderPct": 4.6,
         "shares": 23990766,
         "sharePct": 21.5,
         "estCount": 16,
@@ -8290,9 +8300,9 @@
       },
       {
         "style": "Blend/Core",
-        "holders": 742,
+        "holders": 743,
         "holderPct": 73.5,
-        "shares": 71339867,
+        "shares": 71350106,
         "sharePct": 63.9,
         "estCount": 153,
         "examples": [
@@ -9581,6 +9591,11 @@
           {
             "name": "Bleakley Financial Group, LLC",
             "shares": 10253,
+            "est": false
+          },
+          {
+            "name": "Baader Bank Aktiengesellschaft",
+            "shares": 10239,
             "est": false
           },
           {
@@ -12017,9 +12032,9 @@
       },
       {
         "style": "Unclassified",
-        "holders": 122,
-        "holderPct": 12.1,
-        "shares": 3570449,
+        "holders": 123,
+        "holderPct": 12.2,
+        "shares": 3570450,
         "sharePct": 3.2,
         "estCount": 0,
         "examples": [
@@ -12639,15 +12654,20 @@
             "name": "Horizon Investments, LLC",
             "shares": 1,
             "est": false
+          },
+          {
+            "name": "Kilter Group LLC",
+            "shares": 1,
+            "est": false
           }
         ]
       }
     ],
     "coverage": {
       "curated": 187,
-      "heuristic": 483,
+      "heuristic": 484,
       "estimated": 217,
-      "unknown": 122
+      "unknown": 123
     }
   }
 }

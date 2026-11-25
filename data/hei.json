@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-09-30",
   "priorPeriod": "2026-06-30",
-  "lastUpdated": "2026-11-24T21:06:09.336Z",
+  "lastUpdated": "2026-11-25T20:27:45.323Z",
   "holdings": [
     {
       "filerName": "PRICE T ROWE ASSOCIATES INC /MD/",
@@ -122,8 +122,8 @@
       "pctChange": -11.4,
       "currentValue": 318469807,
       "action": "Sold",
-      "firstSeen": "2026-11-13",
-      "newThisWeek": false
+      "firstSeen": "2026-11-25",
+      "newThisWeek": true
     },
     {
       "filerName": "TWO SIGMA INVESTMENTS, LP",
@@ -2898,6 +2898,18 @@
       "newThisWeek": false
     },
     {
+      "filerName": "Baader Bank Aktiengesellschaft",
+      "filerCik": "1542629",
+      "currentShares": 10239,
+      "priorShares": 11739,
+      "change": -1500,
+      "pctChange": -12.8,
+      "currentValue": 3104260,
+      "action": "Sold",
+      "firstSeen": "2026-11-25",
+      "newThisWeek": true
+    },
+    {
       "filerName": "EDMOND DE ROTHSCHILD HOLDING S.A.",
       "filerCik": "1649647",
       "currentShares": 10003,
@@ -3014,8 +3026,8 @@
       "pctChange": -11,
       "currentValue": 2869902,
       "action": "Sold",
-      "firstSeen": "2026-11-16",
-      "newThisWeek": false
+      "firstSeen": "2026-11-25",
+      "newThisWeek": true
     },
     {
       "filerName": "DZ BANK AG Deutsche Zentral Genossenschafts Bank, Frankfurt am Main",
@@ -6015,7 +6027,7 @@
       "currentValue": 349948,
       "action": "Sold",
       "firstSeen": "2026-11-18",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Osmosis Investment Management UK Ltd",
@@ -9414,18 +9426,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "Liontrust Investment Partners LLP",
-      "filerCik": "1544204",
-      "currentShares": null,
-      "priorShares": 83537,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
-      "firstSeen": "2026-11-18",
-      "newThisWeek": false
-    },
-    {
       "filerName": "MARINO, STRAM & ASSOCIATES LLC",
       "filerCik": "1099762",
       "currentShares": null,
@@ -9435,6 +9435,18 @@
       "currentValue": null,
       "action": "Sell Out",
       "firstSeen": "2026-10-22",
+      "newThisWeek": false
+    },
+    {
+      "filerName": "Liontrust Investment Partners LLP",
+      "filerCik": "1544204",
+      "currentShares": null,
+      "priorShares": 83537,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
+      "firstSeen": "2026-11-18",
       "newThisWeek": false
     },
     {
@@ -9591,18 +9603,6 @@
       "currentValue": null,
       "action": "Sell Out",
       "firstSeen": "2026-10-21",
-      "newThisWeek": false
-    },
-    {
-      "filerName": "Baader Bank Aktiengesellschaft",
-      "filerCik": "1542629",
-      "currentShares": null,
-      "priorShares": 11739,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
       "newThisWeek": false
     },
     {
@@ -10021,8 +10021,8 @@
       "change": null,
       "pctChange": null,
       "currentValue": null,
-      "action": "Not Filed Yet",
-      "firstSeen": null,
+      "action": "Sell Out",
+      "firstSeen": "2026-11-25",
       "newThisWeek": false
     },
     {

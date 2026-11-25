@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-09-30",
   "priorPeriod": "2026-06-30",
-  "lastUpdated": "2026-11-24T21:06:09.336Z",
+  "lastUpdated": "2026-11-25T20:27:45.323Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -230,8 +230,8 @@
       "pctChange": -8.3,
       "currentValue": 155013680,
       "action": "Sold",
-      "firstSeen": "2026-11-13",
-      "newThisWeek": false
+      "firstSeen": "2026-11-25",
+      "newThisWeek": true
     },
     {
       "filerName": "ARROWSTREET CAPITAL, LIMITED PARTNERSHIP",
@@ -530,8 +530,8 @@
       "pctChange": -4.6,
       "currentValue": 60892643,
       "action": "Sold",
-      "firstSeen": "2026-11-16",
-      "newThisWeek": false
+      "firstSeen": "2026-11-25",
+      "newThisWeek": true
     },
     {
       "filerName": "Fiera Capital Corp",
@@ -5787,7 +5787,7 @@
       "currentValue": 258470,
       "action": "New Position",
       "firstSeen": "2026-11-18",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Beacon Pointe Advisors, LLC",
@@ -8176,6 +8176,18 @@
       "action": "Sold",
       "firstSeen": "2026-11-09",
       "newThisWeek": false
+    },
+    {
+      "filerName": "Kilter Group LLC",
+      "filerCik": "2058915",
+      "currentShares": 1,
+      "priorShares": null,
+      "change": 1,
+      "pctChange": 100,
+      "currentValue": 229,
+      "action": "New Position",
+      "firstSeen": "2026-11-25",
+      "newThisWeek": true
     },
     {
       "filerName": "MARINO, STRAM & ASSOCIATES LLC",

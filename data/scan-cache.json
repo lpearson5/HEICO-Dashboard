@@ -121414,5 +121414,93 @@
     },
     "confidential": false,
     "ok": true
+  },
+  "0001213900-26-123876": {
+    "cik": "1542629",
+    "name": "Baader Bank Aktiengesellschaft",
+    "period": "2026-09-30",
+    "fileDate": "2026-11-25",
+    "positions": {
+      "HEI": {
+        "shares": 10239,
+        "value": 3104260,
+        "discretion": "SOLE",
+        "voteSole": 0,
+        "voteShared": 0,
+        "voteNone": 10239
+      }
+    },
+    "confidential": false,
+    "ok": true
+  },
+  "0000895421-26-000360": {
+    "cik": "895421",
+    "name": "MORGAN STANLEY  (MS, MS-PA, MS-PE, MS-PF, MS-PI, MS-PK, MS-PL, MS-PO, MS-PP, MS-PQ)",
+    "period": "2026-09-30",
+    "fileDate": "2026-11-25",
+    "positions": {
+      "HEIA": {
+        "shares": 678900,
+        "value": 155013680,
+        "discretion": "DFND",
+        "voteSole": 480343,
+        "voteShared": 0,
+        "voteNone": 198557
+      },
+      "HEI": {
+        "shares": 1050428,
+        "value": 318469807,
+        "discretion": "DFND",
+        "voteSole": 718738,
+        "voteShared": 0,
+        "voteNone": 331690
+      }
+    },
+    "confidential": false,
+    "ok": true
+  },
+  "0000902219-26-000399": {
+    "cik": "902219",
+    "name": "WELLINGTON MANAGEMENT GROUP LLP",
+    "period": "2026-09-30",
+    "fileDate": "2026-11-25",
+    "positions": {
+      "HEI": {
+        "shares": 9466,
+        "value": 2869902,
+        "discretion": "DFND",
+        "voteSole": 0,
+        "voteShared": 25,
+        "voteNone": 9441
+      },
+      "HEIA": {
+        "shares": 266687,
+        "value": 60892643,
+        "discretion": "DFND",
+        "voteSole": 0,
+        "voteShared": 265701,
+        "voteNone": 986
+      }
+    },
+    "confidential": false,
+    "ok": true
+  },
+  "0002058915-26-000007": {
+    "cik": "2058915",
+    "name": "Kilter Group LLC",
+    "period": "2026-09-30",
+    "fileDate": "2026-11-25",
+    "positions": {
+      "HEIA": {
+        "shares": 1,
+        "value": 229,
+        "discretion": "SOLE",
+        "voteSole": 0,
+        "voteShared": 0,
+        "voteNone": 1
+      }
+    },
+    "confidential": false,
+    "ok": true
   }
 }
