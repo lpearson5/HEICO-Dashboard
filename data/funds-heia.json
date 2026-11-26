@@ -2,15 +2,15 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-11-25T20:27:45.323Z",
+  "lastUpdated": "2026-11-26T20:05:31.857Z",
   "summary": {
-    "funds": 349,
-    "totalShares": 27877172,
-    "pctOut": 32.9846,
-    "newFunds": 14,
-    "sellouts": 30,
+    "funds": 346,
+    "totalShares": 27765246,
+    "pctOut": 32.852199999999996,
+    "newFunds": 13,
+    "sellouts": 33,
     "linkedManagers": 24,
-    "linkedShares": 23544342
+    "linkedShares": 23432416
   },
   "newHolders": [
     {
@@ -89,19 +89,6 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.002,
-      "action": "New"
-    },
-    {
-      "fundName": "Multi-Manager Directional Alternative Strategies Fund",
-      "registrant": "COLUMBIA FUNDS SERIES TRUST I",
-      "manager": "Columbia (Ameriprise)",
-      "cik": "773757",
-      "shares": 1588,
-      "value": 331924,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0019000000000000002,
       "action": "New"
     },
     {
@@ -198,6 +185,13 @@
   ],
   "sellouts": [
     {
+      "fundName": "iShares MSCI USA Momentum Factor ETF",
+      "registrant": "iShares Trust",
+      "manager": "BlackRock",
+      "lastShares": 105448,
+      "lastReport": "2026-04-30"
+    },
+    {
       "fundName": "BBH Select Series Mid Cap Fund",
       "registrant": "BBH Trust",
       "manager": "",
@@ -275,6 +269,13 @@
       "lastReport": "2025-12-31"
     },
     {
+      "fundName": "Invesco MSCI Global Climate 500 ETF",
+      "registrant": "Invesco Exchange-Traded Fund Trust II",
+      "manager": "Invesco",
+      "lastShares": 5598,
+      "lastReport": "2026-04-30"
+    },
+    {
       "fundName": "Fidelity Advisor New Insights Fund",
       "registrant": "Fidelity Contrafund",
       "manager": "FMR (Fidelity)",
@@ -329,6 +330,13 @@
       "manager": "FMR (Fidelity)",
       "lastShares": 2549,
       "lastReport": "2025-12-31"
+    },
+    {
+      "fundName": "Multi-Manager Directional Alternative Strategies Fund",
+      "registrant": "COLUMBIA FUNDS SERIES TRUST I",
+      "manager": "Columbia (Ameriprise)",
+      "lastShares": 1588,
+      "lastReport": "2026-04-30"
     },
     {
       "fundName": "Franklin Systematic Style Premia ETF",
@@ -684,8 +692,8 @@
     },
     {
       "manager": "BlackRock",
-      "fundCount": 39,
-      "shares": 2286384,
+      "fundCount": 38,
+      "shares": 2181644,
       "funds": [
         {
           "fundName": "iShares U.S. Aerospace &amp; Defense ETF",
@@ -708,10 +716,6 @@
           "shares": 105900
         },
         {
-          "fundName": "iShares MSCI USA Momentum Factor ETF",
-          "shares": 105448
-        },
-        {
           "fundName": "iShares Russell 1000 ETF",
           "shares": 51874
         },
@@ -725,7 +729,7 @@
         },
         {
           "fundName": "iShares MSCI USA Quality GARP ETF",
-          "shares": 24390
+          "shares": 24504
         },
         {
           "fundName": "iShares MSCI ACWI ETF",
@@ -733,7 +737,7 @@
         },
         {
           "fundName": "iShares Russell 3000 ETF",
-          "shares": 20086
+          "shares": 20680
         },
         {
           "fundName": "iShares U.S. Industrials ETF",
@@ -1064,16 +1068,12 @@
     },
     {
       "manager": "Columbia (Ameriprise)",
-      "fundCount": 2,
-      "shares": 120598,
+      "fundCount": 1,
+      "shares": 119010,
       "funds": [
         {
           "fundName": "CTIVP - Principal Large Cap Growth Fund",
           "shares": 119010
-        },
-        {
-          "fundName": "Multi-Manager Directional Alternative Strategies Fund",
-          "shares": 1588
         }
       ]
     },
@@ -1097,29 +1097,6 @@
         {
           "fundName": "Goldman Sachs MarketBeta(R) Russell 1000 Growth Equity ETF",
           "shares": 1224
-        }
-      ]
-    },
-    {
-      "manager": "Invesco",
-      "fundCount": 4,
-      "shares": 36671,
-      "funds": [
-        {
-          "fundName": "Invesco MSCI USA ETF",
-          "shares": 13382
-        },
-        {
-          "fundName": "Invesco MSCI North America Climate ETF",
-          "shares": 12104
-        },
-        {
-          "fundName": "Invesco MSCI Global Climate 500 ETF",
-          "shares": 5598
-        },
-        {
-          "fundName": "Invesco Russell 1000 Dynamic Multifactor ETF",
-          "shares": 5587
         }
       ]
     },
@@ -1170,6 +1147,25 @@
         {
           "fundName": "Franklin U.S. Equity Index ETF",
           "shares": 2444
+        }
+      ]
+    },
+    {
+      "manager": "Invesco",
+      "fundCount": 3,
+      "shares": 31073,
+      "funds": [
+        {
+          "fundName": "Invesco MSCI USA ETF",
+          "shares": 13382
+        },
+        {
+          "fundName": "Invesco MSCI North America Climate ETF",
+          "shares": 12104
+        },
+        {
+          "fundName": "Invesco Russell 1000 Dynamic Multifactor ETF",
+          "shares": 5587
         }
       ]
     },
@@ -1855,19 +1851,6 @@
       "priorShares": 103452,
       "change": 2448,
       "pctOut": 0.1253,
-      "action": "Bought"
-    },
-    {
-      "fundName": "iShares MSCI USA Momentum Factor ETF",
-      "registrant": "iShares Trust",
-      "manager": "BlackRock",
-      "cik": "1100663",
-      "shares": 105448,
-      "value": 22040741,
-      "reportDate": "2026-04-30",
-      "priorShares": 103234,
-      "change": 2214,
-      "pctOut": 0.1248,
       "action": "Bought"
     },
     {
@@ -2681,12 +2664,12 @@
       "registrant": "iShares Trust",
       "manager": "BlackRock",
       "cik": "1100663",
-      "shares": 24390,
-      "value": 6290425,
-      "reportDate": "2026-06-30",
-      "priorShares": 18750,
-      "change": 5640,
-      "pctOut": 0.0289,
+      "shares": 24504,
+      "value": 5594998,
+      "reportDate": "2026-09-30",
+      "priorShares": 24390,
+      "change": 114,
+      "pctOut": 0.029,
       "action": "Bought"
     },
     {
@@ -2794,6 +2777,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "iShares Russell 3000 ETF",
+      "registrant": "iShares Trust",
+      "manager": "BlackRock",
+      "cik": "1100663",
+      "shares": 20680,
+      "value": 4721864,
+      "reportDate": "2026-09-30",
+      "priorShares": 20086,
+      "change": 594,
+      "pctOut": 0.0245,
+      "action": "Bought"
+    },
+    {
       "fundName": "Alger Mid Cap 40 ETF",
       "registrant": "Alger ETF Trust",
       "manager": "",
@@ -2805,19 +2801,6 @@
       "change": 1287,
       "pctOut": 0.0243,
       "action": "Bought"
-    },
-    {
-      "fundName": "iShares Russell 3000 ETF",
-      "registrant": "iShares Trust",
-      "manager": "BlackRock",
-      "cik": "1100663",
-      "shares": 20086,
-      "value": 5180380,
-      "reportDate": "2026-06-30",
-      "priorShares": 20240,
-      "change": -154,
-      "pctOut": 0.0238,
-      "action": "Sold"
     },
     {
       "fundName": "Bridge Builder Tax Managed Small/Mid Cap Fund",
@@ -3600,19 +3583,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Invesco MSCI Global Climate 500 ETF",
-      "registrant": "Invesco Exchange-Traded Fund Trust II",
-      "manager": "Invesco",
-      "cik": "1378872",
-      "shares": 5598,
-      "value": 1170094,
-      "reportDate": "2026-04-30",
-      "priorShares": 5587,
-      "change": 11,
-      "pctOut": 0.006600000000000001,
-      "action": "Bought"
-    },
-    {
       "fundName": "Invesco Russell 1000 Dynamic Multifactor ETF",
       "registrant": "Invesco Exchange-Traded Self-Indexed Fund Trust",
       "manager": "Invesco",
@@ -4352,19 +4322,6 @@
       "change": 389,
       "pctOut": 0.0019000000000000002,
       "action": "Bought"
-    },
-    {
-      "fundName": "Multi-Manager Directional Alternative Strategies Fund",
-      "registrant": "COLUMBIA FUNDS SERIES TRUST I",
-      "manager": "Columbia (Ameriprise)",
-      "cik": "773757",
-      "shares": 1588,
-      "value": 331924,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0019000000000000002,
-      "action": "New"
     },
     {
       "fundName": "VOYA RUSSELLTM MID CAP GROWTH INDEX PORTFOLIO",

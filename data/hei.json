@@ -3,7 +3,7 @@
   "cusip": "422806109",
   "currentPeriod": "2026-09-30",
   "priorPeriod": "2026-06-30",
-  "lastUpdated": "2026-11-25T20:27:45.323Z",
+  "lastUpdated": "2026-11-26T20:05:31.857Z",
   "holdings": [
     {
       "filerName": "PRICE T ROWE ASSOCIATES INC /MD/",
@@ -1875,7 +1875,7 @@
       "currentValue": 7960294,
       "action": "Bought",
       "firstSeen": "2026-11-19",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "PRUDENTIAL PLC",
@@ -3183,7 +3183,7 @@
       "currentValue": 2399906,
       "action": "Bought",
       "firstSeen": "2026-11-19",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "PNC FINANCIAL SERVICES GROUP, INC.  (PNC)",
@@ -5919,7 +5919,7 @@
       "currentValue": 374730,
       "action": "No Change",
       "firstSeen": "2026-11-19",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Siemens Fonds Invest GmbH",
@@ -7119,7 +7119,7 @@
       "currentValue": 211408,
       "action": "Bought",
       "firstSeen": "2026-11-19",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Arax Advisory Partners",
@@ -8307,7 +8307,7 @@
       "currentValue": 14718,
       "action": "No Change",
       "firstSeen": "2026-11-19",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Livforsakringsbolaget Skandia, Omsesidigt",
@@ -9582,18 +9582,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "VARCOV Co.",
-      "filerCik": "2078837",
-      "currentShares": null,
-      "priorShares": 762,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
-      "firstSeen": "2026-11-16",
-      "newThisWeek": false
-    },
-    {
       "filerName": "Cardinal Point Capital Management ULC",
       "filerCik": "1950841",
       "currentShares": null,
@@ -9603,6 +9591,18 @@
       "currentValue": null,
       "action": "Sell Out",
       "firstSeen": "2026-10-21",
+      "newThisWeek": false
+    },
+    {
+      "filerName": "VARCOV Co.",
+      "filerCik": "2078837",
+      "currentShares": null,
+      "priorShares": 762,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
+      "firstSeen": "2026-11-16",
       "newThisWeek": false
     },
     {

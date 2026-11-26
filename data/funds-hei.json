@@ -2,30 +2,17 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-11-25T20:27:45.323Z",
+  "lastUpdated": "2026-11-26T20:05:31.857Z",
   "summary": {
-    "funds": 442,
-    "totalShares": 19857924,
-    "pctOut": 35.9474,
-    "newFunds": 32,
-    "sellouts": 44,
+    "funds": 439,
+    "totalShares": 19708317,
+    "pctOut": 35.6766,
+    "newFunds": 29,
+    "sellouts": 48,
     "linkedManagers": 25,
-    "linkedShares": 17036183
+    "linkedShares": 16886644
   },
   "newHolders": [
-    {
-      "fundName": "Invesco Large Cap Growth ETF",
-      "registrant": "Invesco Exchange-Traded Fund Trust",
-      "manager": "Invesco",
-      "cik": "1209466",
-      "shares": 71685,
-      "value": 19349215,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.1298,
-      "action": "New"
-    },
     {
       "fundName": "T.Rowe Price Large Cap Growth Portfolio",
       "registrant": "Brighthouse Funds Trust II",
@@ -118,19 +105,6 @@
       "action": "New"
     },
     {
-      "fundName": "Burney U.S. Factor Rotation ETF",
-      "registrant": "EA Series Trust",
-      "manager": "",
-      "cik": "1592900",
-      "shares": 8697,
-      "value": 2347494,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0157,
-      "action": "New"
-    },
-    {
       "fundName": "Eaton Vance Focused Growth Opportunities Fund",
       "registrant": "Eaton Vance Growth Trust",
       "manager": "Morgan Stanley",
@@ -154,19 +128,6 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.013,
-      "action": "New"
-    },
-    {
-      "fundName": "Growth Fund",
-      "registrant": "HOMESTEAD FUNDS INC",
-      "manager": "",
-      "cik": "865733",
-      "shares": 5676,
-      "value": 2021734,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0103,
       "action": "New"
     },
     {
@@ -352,16 +313,16 @@
       "action": "New"
     },
     {
-      "fundName": "Burney U.S. Equity Select ETF",
-      "registrant": "EA Series Trust",
+      "fundName": "TFA Quantitative Fund",
+      "registrant": "Tactical Investment Series Trust",
       "manager": "",
-      "cik": "1592900",
-      "shares": 81,
-      "value": 21864,
-      "reportDate": "2026-04-30",
+      "cik": "1843263",
+      "shares": 180,
+      "value": 54572,
+      "reportDate": "2026-09-30",
       "priorShares": null,
       "change": null,
-      "pctOut": 0.00009999999999999999,
+      "pctOut": 0.00030000000000000003,
       "action": "New"
     },
     {
@@ -446,6 +407,20 @@
       "lastReport": "2026-02-27"
     },
     {
+      "fundName": "Invesco Large Cap Growth ETF",
+      "registrant": "Invesco Exchange-Traded Fund Trust",
+      "manager": "Invesco",
+      "lastShares": 71685,
+      "lastReport": "2026-04-30"
+    },
+    {
+      "fundName": "iShares MSCI USA Momentum Factor ETF",
+      "registrant": "iShares Trust",
+      "manager": "BlackRock",
+      "lastShares": 70032,
+      "lastReport": "2026-04-30"
+    },
+    {
       "fundName": "Invesco Global Opportunities Fund",
       "registrant": "AIM International Mutual Funds (Invesco International Mutual Funds)",
       "manager": "Invesco",
@@ -516,6 +491,13 @@
       "lastReport": "2026-01-31"
     },
     {
+      "fundName": "Burney U.S. Factor Rotation ETF",
+      "registrant": "EA Series Trust",
+      "manager": "",
+      "lastShares": 8697,
+      "lastReport": "2026-04-30"
+    },
+    {
       "fundName": "VANGUARD U.S. MOMENTUM FACTOR ETF",
       "registrant": "VANGUARD WELLINGTON FUND",
       "manager": "Vanguard Group",
@@ -579,13 +561,6 @@
       "lastReport": "2026-02-28"
     },
     {
-      "fundName": "Gotham Absolute Return Fund",
-      "registrant": "FundVantage Trust",
-      "manager": "",
-      "lastShares": 1790,
-      "lastReport": "2026-03-31"
-    },
-    {
       "fundName": "Sustainable Aware Equity Fund",
       "registrant": "RUSSELL INVESTMENT CO",
       "manager": "",
@@ -598,6 +573,13 @@
       "manager": "",
       "lastShares": 1167,
       "lastReport": "2025-11-30"
+    },
+    {
+      "fundName": "Fidelity Yield Enhanced Equity ETF",
+      "registrant": "Fidelity Greenwood Street Trust",
+      "manager": "FMR (Fidelity)",
+      "lastShares": 1123,
+      "lastReport": "2026-04-30"
     },
     {
       "fundName": "Goldman Sachs U.S. Equity Insights Fund",
@@ -628,17 +610,17 @@
       "lastReport": "2026-01-30"
     },
     {
+      "fundName": "Transamerica Large Value Opportunities",
+      "registrant": "TRANSAMERICA FUNDS",
+      "manager": "",
+      "lastShares": 546,
+      "lastReport": "2026-04-30"
+    },
+    {
       "fundName": "PIMCO RAFI Dynamic Multi-Factor U.S. Equity ETF",
       "registrant": "PIMCO Equity Series",
       "manager": "",
       "lastShares": 530,
-      "lastReport": "2026-03-31"
-    },
-    {
-      "fundName": "Gotham Neutral Fund",
-      "registrant": "FundVantage Trust",
-      "manager": "",
-      "lastShares": 485,
       "lastReport": "2026-03-31"
     },
     {
@@ -654,13 +636,6 @@
       "manager": "",
       "lastShares": 371,
       "lastReport": "2025-10-31"
-    },
-    {
-      "fundName": "Gotham Enhanced Return Fund",
-      "registrant": "FundVantage Trust",
-      "manager": "",
-      "lastShares": 312,
-      "lastReport": "2026-03-31"
     },
     {
       "fundName": "Goldman Sachs Variable Insurance Trust U.S. Equity Insights Fund",
@@ -684,6 +659,13 @@
       "lastReport": "2025-09-30"
     },
     {
+      "fundName": "Fidelity Dynamic Buffered Equity ETF",
+      "registrant": "Fidelity Greenwood Street Trust",
+      "manager": "FMR (Fidelity)",
+      "lastShares": 154,
+      "lastReport": "2026-04-30"
+    },
+    {
       "fundName": "TIFF Multi-Asset Fund",
       "registrant": "TIFF INVESTMENT PROGRAM",
       "manager": "",
@@ -696,6 +678,13 @@
       "manager": "",
       "lastShares": 106,
       "lastReport": "2026-03-31"
+    },
+    {
+      "fundName": "Burney U.S. Equity Select ETF",
+      "registrant": "EA Series Trust",
+      "manager": "",
+      "lastShares": 81,
+      "lastReport": "2026-04-30"
     },
     {
       "fundName": "Amplify Small-Mid Cap Equity ETF",
@@ -996,8 +985,8 @@
     },
     {
       "manager": "FMR (Fidelity)",
-      "fundCount": 40,
-      "shares": 2032963,
+      "fundCount": 38,
+      "shares": 2031686,
       "funds": [
         {
           "fundName": "Fidelity Advisor International Capital Appreciation Fund",
@@ -1120,10 +1109,6 @@
           "shares": 1216
         },
         {
-          "fundName": "Fidelity Yield Enhanced Equity ETF",
-          "shares": 1123
-        },
-        {
           "fundName": "VIP Total Market Index Portfolio",
           "shares": 1056
         },
@@ -1134,10 +1119,6 @@
         {
           "fundName": "Fidelity Hedged Equity ETF",
           "shares": 414
-        },
-        {
-          "fundName": "Fidelity Dynamic Buffered Equity ETF",
-          "shares": 154
         },
         {
           "fundName": "AVIP AB Mid Cap Core Portfolio",
@@ -1163,8 +1144,8 @@
     },
     {
       "manager": "BlackRock",
-      "fundCount": 35,
-      "shares": 1674119,
+      "fundCount": 34,
+      "shares": 1597542,
       "funds": [
         {
           "fundName": "BlackRock Mid-Cap Growth Equity Portfolio",
@@ -1187,10 +1168,6 @@
           "shares": 159941
         },
         {
-          "fundName": "iShares MSCI USA Momentum Factor ETF",
-          "shares": 70032
-        },
-        {
           "fundName": "iShares Core S&amp;P Total U.S. Stock Market ETF",
           "shares": 48360
         },
@@ -1207,16 +1184,12 @@
           "shares": 22728
         },
         {
-          "fundName": "iShares MSCI USA Quality GARP ETF",
-          "shares": 13748
-        },
-        {
           "fundName": "iShares MSCI ACWI ETF",
           "shares": 13668
         },
         {
           "fundName": "iShares Russell 3000 ETF",
-          "shares": 11364
+          "shares": 11688
         },
         {
           "fundName": "iShares U.S. Industrials ETF",
@@ -1225,6 +1198,10 @@
         {
           "fundName": "iShares Russell Mid-Cap Index Fund",
           "shares": 7816
+        },
+        {
+          "fundName": "iShares MSCI USA Quality GARP ETF",
+          "shares": 6879
         },
         {
           "fundName": "iShares MSCI USA Equal Weighted ETF",
@@ -1420,16 +1397,12 @@
     },
     {
       "manager": "Invesco",
-      "fundCount": 10,
-      "shares": 507111,
+      "fundCount": 9,
+      "shares": 435426,
       "funds": [
         {
           "fundName": "Invesco Aerospace &amp; Defense ETF",
           "shares": 381292
-        },
-        {
-          "fundName": "Invesco Large Cap Growth ETF",
-          "shares": 71685
         },
         {
           "fundName": "Invesco Dorsey Wright Momentum ETF",
@@ -2644,32 +2617,6 @@
       "change": 0,
       "pctOut": 0.1358,
       "action": "No Change"
-    },
-    {
-      "fundName": "Invesco Large Cap Growth ETF",
-      "registrant": "Invesco Exchange-Traded Fund Trust",
-      "manager": "Invesco",
-      "cik": "1209466",
-      "shares": 71685,
-      "value": 19349215,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.1298,
-      "action": "New"
-    },
-    {
-      "fundName": "iShares MSCI USA Momentum Factor ETF",
-      "registrant": "iShares Trust",
-      "manager": "BlackRock",
-      "cik": "1100663",
-      "shares": 70032,
-      "value": 18903037,
-      "reportDate": "2026-04-30",
-      "priorShares": 68351,
-      "change": 1681,
-      "pctOut": 0.1268,
-      "action": "Bought"
     },
     {
       "fundName": "VANGUARD RUSSELL 1000 GROWTH INDEX FUND",
@@ -3907,19 +3854,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "iShares MSCI USA Quality GARP ETF",
-      "registrant": "iShares Trust",
-      "manager": "BlackRock",
-      "cik": "1100663",
-      "shares": 13748,
-      "value": 4896900,
-      "reportDate": "2026-06-30",
-      "priorShares": 5465,
-      "change": 8283,
-      "pctOut": 0.0249,
-      "action": "Bought"
-    },
-    {
       "fundName": "iShares MSCI ACWI ETF",
       "registrant": "iShares Trust",
       "manager": "BlackRock",
@@ -4024,6 +3958,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "iShares Russell 3000 ETF",
+      "registrant": "iShares Trust",
+      "manager": "BlackRock",
+      "cik": "1100663",
+      "shares": 11688,
+      "value": 3543568,
+      "reportDate": "2026-09-30",
+      "priorShares": 11364,
+      "change": 324,
+      "pctOut": 0.0212,
+      "action": "Bought"
+    },
+    {
       "fundName": "Fidelity ZERO Large Cap Index Fund",
       "registrant": "Fidelity Concord Street Trust",
       "manager": "FMR (Fidelity)",
@@ -4061,19 +4008,6 @@
       "change": 2110,
       "pctOut": 0.0206,
       "action": "Bought"
-    },
-    {
-      "fundName": "iShares Russell 3000 ETF",
-      "registrant": "iShares Trust",
-      "manager": "BlackRock",
-      "cik": "1100663",
-      "shares": 11364,
-      "value": 4047743,
-      "reportDate": "2026-06-30",
-      "priorShares": 11448,
-      "change": -84,
-      "pctOut": 0.0206,
-      "action": "Sold"
     },
     {
       "fundName": "Dunham Focused Large Cap Growth Fund",
@@ -4232,19 +4166,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Liberty All-Star Growth Fund",
-      "registrant": "LIBERTY ALL STAR GROWTH FUND INC.",
-      "manager": "",
-      "cik": "786035",
-      "shares": 9500,
-      "value": 3383805,
-      "reportDate": "2026-06-30",
-      "priorShares": 9725,
-      "change": -225,
-      "pctOut": 0.0172,
-      "action": "Sold"
-    },
-    {
       "fundName": "First Trust Industrials/Producer Durables AlphaDEX Fund",
       "registrant": "First Trust Exchange-Traded AlphaDEX Fund",
       "manager": "First Trust",
@@ -4255,6 +4176,19 @@
       "priorShares": 15097,
       "change": -5763,
       "pctOut": 0.0169,
+      "action": "Sold"
+    },
+    {
+      "fundName": "Liberty All-Star Growth Fund",
+      "registrant": "LIBERTY ALL STAR GROWTH FUND INC.",
+      "manager": "",
+      "cik": "786035",
+      "shares": 9300,
+      "value": 2819574,
+      "reportDate": "2026-09-30",
+      "priorShares": 9500,
+      "change": -200,
+      "pctOut": 0.0168,
       "action": "Sold"
     },
     {
@@ -4334,19 +4268,6 @@
       "change": -200,
       "pctOut": 0.0157,
       "action": "Sold"
-    },
-    {
-      "fundName": "Burney U.S. Factor Rotation ETF",
-      "registrant": "EA Series Trust",
-      "manager": "",
-      "cik": "1592900",
-      "shares": 8697,
-      "value": 2347494,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0157,
-      "action": "New"
     },
     {
       "fundName": "TCW Durable Growth ETF",
@@ -4492,6 +4413,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Growth Fund",
+      "registrant": "HOMESTEAD FUNDS INC",
+      "manager": "",
+      "cik": "865733",
+      "shares": 7614,
+      "value": 2308413,
+      "reportDate": "2026-09-30",
+      "priorShares": 5676,
+      "change": 1938,
+      "pctOut": 0.0138,
+      "action": "Bought"
+    },
+    {
       "fundName": "Invesco MSCI USA ETF",
       "registrant": "Invesco Exchange-Traded Fund Trust II",
       "manager": "Invesco",
@@ -4583,6 +4517,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "iShares MSCI USA Quality GARP ETF",
+      "registrant": "iShares Trust",
+      "manager": "BlackRock",
+      "cik": "1100663",
+      "shares": 6879,
+      "value": 2085575,
+      "reportDate": "2026-09-30",
+      "priorShares": 13748,
+      "change": -6869,
+      "pctOut": 0.0125,
+      "action": "Sold"
+    },
+    {
       "fundName": "U.S. Sustainability Core 1 Portfolio",
       "registrant": "DFA INVESTMENT DIMENSIONS GROUP INC",
       "manager": "Dimensional",
@@ -4633,6 +4580,19 @@
       "change": -360,
       "pctOut": 0.0115,
       "action": "Sold"
+    },
+    {
+      "fundName": "Gotham Absolute Return Fund",
+      "registrant": "FundVantage Trust",
+      "manager": "",
+      "cik": "1388485",
+      "shares": 6174,
+      "value": 1871833,
+      "reportDate": "2026-09-30",
+      "priorShares": 1790,
+      "change": 4384,
+      "pctOut": 0.0112,
+      "action": "Bought"
     },
     {
       "fundName": "State Street(R) SPDR(R) S&amp;P Kensho Future Security ETF",
@@ -4711,19 +4671,6 @@
       "change": 101,
       "pctOut": 0.0103,
       "action": "Bought"
-    },
-    {
-      "fundName": "Growth Fund",
-      "registrant": "HOMESTEAD FUNDS INC",
-      "manager": "",
-      "cik": "865733",
-      "shares": 5676,
-      "value": 2021734,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0103,
-      "action": "New"
     },
     {
       "fundName": "Multimanager Aggressive Equity Portfolio",
@@ -6065,19 +6012,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Fidelity Yield Enhanced Equity ETF",
-      "registrant": "Fidelity Greenwood Street Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "1898391",
-      "shares": 1123,
-      "value": 303120,
-      "reportDate": "2026-04-30",
-      "priorShares": 1501,
-      "change": -378,
-      "pctOut": 0.002,
-      "action": "Sold"
-    },
-    {
       "fundName": "BlackRock Dynamic High Income Portfolio",
       "registrant": "BlackRock Funds II",
       "manager": "BlackRock",
@@ -6377,6 +6311,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "Gotham Neutral Fund",
+      "registrant": "FundVantage Trust",
+      "manager": "",
+      "cik": "1388485",
+      "shares": 773,
+      "value": 234358,
+      "reportDate": "2026-09-30",
+      "priorShares": 485,
+      "change": 288,
+      "pctOut": 0.0014,
+      "action": "Bought"
+    },
+    {
       "fundName": "The Institutional U.S. Equity Portfolio",
       "registrant": "HC Capital Trust",
       "manager": "",
@@ -6624,19 +6571,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "Transamerica Large Value Opportunities",
-      "registrant": "TRANSAMERICA FUNDS",
-      "manager": "",
-      "cik": "787623",
-      "shares": 546,
-      "value": 147376,
-      "reportDate": "2026-04-30",
-      "priorShares": 587,
-      "change": -41,
-      "pctOut": 0.001,
-      "action": "Sold"
-    },
-    {
       "fundName": "Schwab Fundamental U.S. Broad Market ETF",
       "registrant": "SCHWAB STRATEGIC TRUST",
       "manager": "Charles Schwab",
@@ -6765,6 +6699,19 @@
       "change": 0,
       "pctOut": 0.0007,
       "action": "No Change"
+    },
+    {
+      "fundName": "Gotham Enhanced Return Fund",
+      "registrant": "FundVantage Trust",
+      "manager": "",
+      "cik": "1388485",
+      "shares": 391,
+      "value": 118543,
+      "reportDate": "2026-09-30",
+      "priorShares": 312,
+      "change": 79,
+      "pctOut": 0.0007,
+      "action": "Bought"
     },
     {
       "fundName": "Xtrackers MSCI Kokusai Equity ETF",
@@ -7092,6 +7039,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "TFA Quantitative Fund",
+      "registrant": "Tactical Investment Series Trust",
+      "manager": "",
+      "cik": "1843263",
+      "shares": 180,
+      "value": 54572,
+      "reportDate": "2026-09-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.00030000000000000003,
+      "action": "New"
+    },
+    {
       "fundName": "State Street(R) SPDR(R) MSCI USA StrategicFactors(SM) ETF",
       "registrant": "SPDR SERIES TRUST",
       "manager": "State Street",
@@ -7113,19 +7073,6 @@
       "value": 56634,
       "reportDate": "2026-06-30",
       "priorShares": 159,
-      "change": 0,
-      "pctOut": 0.00030000000000000003,
-      "action": "No Change"
-    },
-    {
-      "fundName": "Fidelity Dynamic Buffered Equity ETF",
-      "registrant": "Fidelity Greenwood Street Trust",
-      "manager": "FMR (Fidelity)",
-      "cik": "1898391",
-      "shares": 154,
-      "value": 41568,
-      "reportDate": "2026-04-30",
-      "priorShares": 154,
       "change": 0,
       "pctOut": 0.00030000000000000003,
       "action": "No Change"
@@ -7337,19 +7284,6 @@
       "change": 85,
       "pctOut": 0.00019999999999999998,
       "action": "Bought"
-    },
-    {
-      "fundName": "Burney U.S. Equity Select ETF",
-      "registrant": "EA Series Trust",
-      "manager": "",
-      "cik": "1592900",
-      "shares": 81,
-      "value": 21864,
-      "reportDate": "2026-04-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.00009999999999999999,
-      "action": "New"
     },
     {
       "fundName": "AB Dynamic Asset Allocation Portfolio",
