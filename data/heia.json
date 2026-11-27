@@ -3,7 +3,7 @@
   "cusip": "422806208",
   "currentPeriod": "2026-09-30",
   "priorPeriod": "2026-06-30",
-  "lastUpdated": "2026-11-26T20:05:31.857Z",
+  "lastUpdated": "2026-11-27T19:53:32.478Z",
   "holdings": [
     {
       "filerName": "PRINCIPAL FINANCIAL GROUP INC  (PFG)",
@@ -3771,7 +3771,7 @@
       "currentValue": 1103062,
       "action": "Bought",
       "firstSeen": "2026-11-20",
-      "newThisWeek": true
+      "newThisWeek": false
     },
     {
       "filerName": "Kentucky Retirement Systems",
@@ -8586,18 +8586,6 @@
       "newThisWeek": false
     },
     {
-      "filerName": "AdvisorNet Financial, Inc",
-      "filerCik": "1409362",
-      "currentShares": null,
-      "priorShares": 413,
-      "change": null,
-      "pctChange": null,
-      "currentValue": null,
-      "action": "Sell Out",
-      "firstSeen": "2026-10-15",
-      "newThisWeek": false
-    },
-    {
       "filerName": "Park Place Capital Corp",
       "filerCik": "1965810",
       "currentShares": null,
@@ -9087,6 +9075,18 @@
       "currentValue": null,
       "action": "Sell Out",
       "firstSeen": "2026-11-10",
+      "newThisWeek": false
+    },
+    {
+      "filerName": "AdvisorNet Financial, Inc",
+      "filerCik": "1409362",
+      "currentShares": null,
+      "priorShares": 413,
+      "change": null,
+      "pctChange": null,
+      "currentValue": null,
+      "action": "Sell Out",
+      "firstSeen": "2026-10-15",
       "newThisWeek": false
     },
     {

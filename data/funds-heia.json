@@ -2,15 +2,15 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-11-26T20:05:31.857Z",
+  "lastUpdated": "2026-11-27T19:53:32.478Z",
   "summary": {
-    "funds": 346,
-    "totalShares": 27765246,
-    "pctOut": 32.852199999999996,
-    "newFunds": 13,
-    "sellouts": 33,
+    "funds": 351,
+    "totalShares": 27811905,
+    "pctOut": 32.907399999999996,
+    "newFunds": 15,
+    "sellouts": 32,
     "linkedManagers": 24,
-    "linkedShares": 23432416
+    "linkedShares": 23462242
   },
   "newHolders": [
     {
@@ -53,29 +53,42 @@
       "action": "New"
     },
     {
-      "fundName": "SEI Select Small Cap ETF",
-      "registrant": "SEI EXCHANGE TRADED FUNDS",
-      "manager": "",
-      "cik": "1888997",
-      "shares": 6535,
-      "value": 1685442,
-      "reportDate": "2026-06-30",
+      "fundName": "T. Rowe Price Mid Cap Growth Portfolio",
+      "registrant": "Brighthouse Funds Trust I",
+      "manager": "T. Rowe Price",
+      "cik": "1126087",
+      "shares": 4300,
+      "value": 981819,
+      "reportDate": "2026-09-30",
       "priorShares": null,
       "change": null,
-      "pctOut": 0.0077,
+      "pctOut": 0.0051,
       "action": "New"
     },
     {
-      "fundName": "SIMT Small Cap Growth Fund",
+      "fundName": "MassMutual Mid Cap Growth Fund",
+      "registrant": "MASSMUTUAL SELECT FUNDS",
+      "manager": "",
+      "cik": "916053",
+      "shares": 3500,
+      "value": 799155,
+      "reportDate": "2026-09-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0041,
+      "action": "New"
+    },
+    {
+      "fundName": "SIMT Tax-Managed Small/Mid Cap Fund",
       "registrant": "SEI INSTITUTIONAL MANAGED TRUST",
       "manager": "",
       "cik": "804239",
-      "shares": 5385,
-      "value": 1388845,
-      "reportDate": "2026-06-30",
+      "shares": 3185,
+      "value": 727231,
+      "reportDate": "2026-09-30",
       "priorShares": null,
       "change": null,
-      "pctOut": 0.0063999999999999994,
+      "pctOut": 0.0038000000000000004,
       "action": "New"
     },
     {
@@ -89,6 +102,19 @@
       "priorShares": null,
       "change": null,
       "pctOut": 0.002,
+      "action": "New"
+    },
+    {
+      "fundName": "MML VIP T. Rowe Price Mid Cap Growth Fund",
+      "registrant": "MML SERIES INVESTMENT FUND",
+      "manager": "FMR (Fidelity)",
+      "cik": "67160",
+      "shares": 1579,
+      "value": 360533,
+      "reportDate": "2026-09-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0019000000000000002,
       "action": "New"
     },
     {
@@ -225,13 +251,6 @@
       "manager": "",
       "lastShares": 19530,
       "lastReport": "2025-12-31"
-    },
-    {
-      "fundName": "Azzad Ethical Fund",
-      "registrant": "AZZAD FUNDS",
-      "manager": "",
-      "lastShares": 13683,
-      "lastReport": "2026-03-31"
     },
     {
       "fundName": "WisdomTree U.S. Quality Dividend Growth Fund",
@@ -420,27 +439,27 @@
     {
       "manager": "Vanguard Group",
       "fundCount": 18,
-      "shares": 8307849,
+      "shares": 8348128,
       "funds": [
         {
-          "fundName": "VANGUARD TOTAL STOCK MARKET INDEX FUND",
-          "shares": 3100763
+          "fundName": "VANGUARD MORNINGSTAR TOTAL STOCK MARKET INDEX FUND",
+          "shares": 3100634
         },
         {
-          "fundName": "VANGUARD MID-CAP INDEX FUND",
-          "shares": 1646213
+          "fundName": "VANGUARD MORNINGSTAR MID-CAP INDEX FUND",
+          "shares": 1627826
         },
         {
-          "fundName": "VANGUARD GROWTH INDEX FUND",
-          "shares": 945552
+          "fundName": "VANGUARD MORNINGSTAR GROWTH INDEX FUND",
+          "shares": 1026161
         },
         {
           "fundName": "VANGUARD EXTENDED MARKET INDEX FUND",
-          "shares": 836178
+          "shares": 797937
         },
         {
-          "fundName": "VANGUARD MID-CAP GROWTH INDEX FUND",
-          "shares": 580893
+          "fundName": "VANGUARD MORNINGSTAR MID-CAP GROWTH INDEX FUND",
+          "shares": 597281
         },
         {
           "fundName": "VANGUARD DIVIDEND APPRECIATION INDEX FUND",
@@ -459,24 +478,24 @@
           "shares": 93164
         },
         {
-          "fundName": "VANGUARD LARGE-CAP INDEX FUND",
-          "shares": 89095
+          "fundName": "VANGUARD MORNINGSTAR LARGE-CAP INDEX FUND",
+          "shares": 90139
         },
         {
           "fundName": "VANGUARD TOTAL WORLD STOCK INDEX FUND",
           "shares": 64391
         },
         {
-          "fundName": "VANGUARD INSTITUTIONAL TOTAL STOCK MARKET INDEX FUND",
-          "shares": 50192
+          "fundName": "VANGUARD MORNINGSTAR INSTITUTIONAL TOTAL STOCK MARKET INDEX FUND",
+          "shares": 49533
         },
         {
           "fundName": "VANGUARD BALANCED INDEX FUND",
           "shares": 48175
         },
         {
-          "fundName": "MID-CAP INDEX PORTFOLIO",
-          "shares": 26002
+          "fundName": "MORNINGSTAR MID-CAP INDEX PORTFOLIO",
+          "shares": 25656
         },
         {
           "fundName": "VANGUARD TAX-MANAGED BALANCED FUND",
@@ -499,7 +518,7 @@
     {
       "manager": "Principal",
       "fundCount": 7,
-      "shares": 5495593,
+      "shares": 5498585,
       "funds": [
         {
           "fundName": "MidCap Fund",
@@ -511,7 +530,7 @@
         },
         {
           "fundName": "MidCap Account",
-          "shares": 105117
+          "shares": 106965
         },
         {
           "fundName": "LargeCap Growth Fund I",
@@ -523,18 +542,18 @@
         },
         {
           "fundName": "LargeCap Growth Account I",
-          "shares": 4242
+          "shares": 4948
         },
         {
           "fundName": "Blue Chip Account",
-          "shares": 1776
+          "shares": 2214
         }
       ]
     },
     {
       "manager": "FMR (Fidelity)",
-      "fundCount": 38,
-      "shares": 4508842,
+      "fundCount": 39,
+      "shares": 4510119,
       "funds": [
         {
           "fundName": "Fidelity Magellan Fund",
@@ -602,7 +621,7 @@
         },
         {
           "fundName": "Nomura VIP Mid Cap Growth Series",
-          "shares": 24263
+          "shares": 23961
         },
         {
           "fundName": "Fidelity ZERO Large Cap Index Fund",
@@ -665,6 +684,10 @@
           "shares": 1685
         },
         {
+          "fundName": "MML VIP T. Rowe Price Mid Cap Growth Fund",
+          "shares": 1579
+        },
+        {
           "fundName": "AVIP BlackRock Balanced Allocation Portfolio",
           "shares": 1499
         },
@@ -693,7 +716,7 @@
     {
       "manager": "BlackRock",
       "fundCount": 38,
-      "shares": 2181644,
+      "shares": 2162622,
       "funds": [
         {
           "fundName": "iShares U.S. Aerospace &amp; Defense ETF",
@@ -701,11 +724,11 @@
         },
         {
           "fundName": "iShares Russell Mid-Cap Growth ETF",
-          "shares": 445253
+          "shares": 424478
         },
         {
           "fundName": "iShares Russell Mid-Cap ETF",
-          "shares": 309519
+          "shares": 310563
         },
         {
           "fundName": "iShares Russell 1000 Growth ETF",
@@ -713,7 +736,7 @@
         },
         {
           "fundName": "iShares Core S&amp;P Total U.S. Stock Market ETF",
-          "shares": 105900
+          "shares": 106647
         },
         {
           "fundName": "iShares Russell 1000 ETF",
@@ -840,12 +863,12 @@
           "shares": 208
         },
         {
-          "fundName": "BlackRock Managed Volatility V.I. Fund",
-          "shares": 124
-        },
-        {
           "fundName": "iShares Enhanced Large Cap Core Active ETF",
           "shares": 120
+        },
+        {
+          "fundName": "BlackRock Managed Volatility V.I. Fund",
+          "shares": 86
         }
       ]
     },
@@ -1029,8 +1052,8 @@
     },
     {
       "manager": "T. Rowe Price",
-      "fundCount": 8,
-      "shares": 127629,
+      "fundCount": 9,
+      "shares": 131929,
       "funds": [
         {
           "fundName": "T. Rowe Price Mid-Cap Growth Fund, Inc.",
@@ -1051,6 +1074,10 @@
         {
           "fundName": "T. Rowe Price Institutional Mid-Cap Equity Growth Fund",
           "shares": 6700
+        },
+        {
+          "fundName": "T. Rowe Price Mid Cap Growth Portfolio",
+          "shares": 4300
         },
         {
           "fundName": "T. Rowe Price Total Equity Market Index Fund",
@@ -1321,16 +1348,16 @@
       "action": "Sold"
     },
     {
-      "fundName": "VANGUARD TOTAL STOCK MARKET INDEX FUND",
+      "fundName": "VANGUARD MORNINGSTAR TOTAL STOCK MARKET INDEX FUND",
       "registrant": "VANGUARD INDEX FUNDS",
       "manager": "Vanguard Group",
       "cik": "36405",
-      "shares": 3100763,
-      "value": 799717785,
-      "reportDate": "2026-06-30",
-      "priorShares": 3102563,
-      "change": -1800,
-      "pctOut": 3.6689,
+      "shares": 3100634,
+      "value": 707967761,
+      "reportDate": "2026-09-30",
+      "priorShares": 3100763,
+      "change": -129,
+      "pctOut": 3.6687,
       "action": "Sold"
     },
     {
@@ -1347,42 +1374,29 @@
       "action": "Sold"
     },
     {
-      "fundName": "VANGUARD MID-CAP INDEX FUND",
+      "fundName": "VANGUARD MORNINGSTAR MID-CAP INDEX FUND",
       "registrant": "VANGUARD INDEX FUNDS",
       "manager": "Vanguard Group",
       "cik": "36405",
-      "shares": 1646213,
-      "value": 424574795,
-      "reportDate": "2026-06-30",
-      "priorShares": 1638221,
-      "change": 7992,
-      "pctOut": 1.9478,
-      "action": "Bought"
+      "shares": 1627826,
+      "value": 371681511,
+      "reportDate": "2026-09-30",
+      "priorShares": 1646213,
+      "change": -18387,
+      "pctOut": 1.9261,
+      "action": "Sold"
     },
     {
-      "fundName": "VANGUARD GROWTH INDEX FUND",
+      "fundName": "VANGUARD MORNINGSTAR GROWTH INDEX FUND",
       "registrant": "VANGUARD INDEX FUNDS",
       "manager": "Vanguard Group",
       "cik": "36405",
-      "shares": 945552,
-      "value": 243867316,
-      "reportDate": "2026-06-30",
-      "priorShares": 935232,
-      "change": 10320,
-      "pctOut": 1.1188,
-      "action": "Bought"
-    },
-    {
-      "fundName": "VANGUARD EXTENDED MARKET INDEX FUND",
-      "registrant": "VANGUARD INDEX FUNDS",
-      "manager": "Vanguard Group",
-      "cik": "36405",
-      "shares": 836178,
-      "value": 215658668,
-      "reportDate": "2026-06-30",
-      "priorShares": 825873,
-      "change": 10305,
-      "pctOut": 0.9894000000000001,
+      "shares": 1026161,
+      "value": 234303341,
+      "reportDate": "2026-09-30",
+      "priorShares": 945552,
+      "change": 80609,
+      "pctOut": 1.2142,
       "action": "Bought"
     },
     {
@@ -1397,6 +1411,19 @@
       "change": 138697,
       "pctOut": 0.9707,
       "action": "Bought"
+    },
+    {
+      "fundName": "VANGUARD EXTENDED MARKET INDEX FUND",
+      "registrant": "VANGUARD INDEX FUNDS",
+      "manager": "Vanguard Group",
+      "cik": "36405",
+      "shares": 797937,
+      "value": 182192955,
+      "reportDate": "2026-09-30",
+      "priorShares": 836178,
+      "change": -38241,
+      "pctOut": 0.9440999999999999,
+      "action": "Sold"
     },
     {
       "fundName": "iShares U.S. Aerospace &amp; Defense ETF",
@@ -1425,16 +1452,16 @@
       "action": "Sold"
     },
     {
-      "fundName": "VANGUARD MID-CAP GROWTH INDEX FUND",
+      "fundName": "VANGUARD MORNINGSTAR MID-CAP GROWTH INDEX FUND",
       "registrant": "VANGUARD INDEX FUNDS",
       "manager": "Vanguard Group",
       "cik": "36405",
-      "shares": 580893,
-      "value": 149818114,
-      "reportDate": "2026-06-30",
-      "priorShares": 576798,
-      "change": 4095,
-      "pctOut": 0.6873,
+      "shares": 597281,
+      "value": 136377171,
+      "reportDate": "2026-09-30",
+      "priorShares": 580893,
+      "change": 16388,
+      "pctOut": 0.7067,
       "action": "Bought"
     },
     {
@@ -1451,19 +1478,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "iShares Russell Mid-Cap Growth ETF",
-      "registrant": "iShares Trust",
-      "manager": "BlackRock",
-      "cik": "1100663",
-      "shares": 445253,
-      "value": 114835201,
-      "reportDate": "2026-06-30",
-      "priorShares": 503598,
-      "change": -58345,
-      "pctOut": 0.5268,
-      "action": "Sold"
-    },
-    {
       "fundName": "VANGUARD DIVIDEND APPRECIATION INDEX FUND",
       "registrant": "VANGUARD SPECIALIZED FUNDS",
       "manager": "Vanguard Group",
@@ -1475,6 +1489,19 @@
       "change": 3500,
       "pctOut": 0.5195,
       "action": "Bought"
+    },
+    {
+      "fundName": "iShares Russell Mid-Cap Growth ETF",
+      "registrant": "iShares Trust",
+      "manager": "BlackRock",
+      "cik": "1100663",
+      "shares": 424478,
+      "value": 96921062,
+      "reportDate": "2026-09-30",
+      "priorShares": 445253,
+      "change": -20775,
+      "pctOut": 0.5022000000000001,
+      "action": "Sold"
     },
     {
       "fundName": "Fidelity Extended Market Index Fund",
@@ -1520,12 +1547,12 @@
       "registrant": "iShares Trust",
       "manager": "BlackRock",
       "cik": "1100663",
-      "shares": 309519,
-      "value": 79828045,
-      "reportDate": "2026-06-30",
-      "priorShares": 285987,
-      "change": 23532,
-      "pctOut": 0.36619999999999997,
+      "shares": 310563,
+      "value": 70910850,
+      "reportDate": "2026-09-30",
+      "priorShares": 309519,
+      "change": 1044,
+      "pctOut": 0.3675,
       "action": "Bought"
     },
     {
@@ -1542,6 +1569,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "BBR ALO Fund, LLC.",
+      "registrant": "BBR ALO Fund, LLC.",
+      "manager": "",
+      "cik": "1811114",
+      "shares": 287895,
+      "value": 65735075,
+      "reportDate": "2026-09-30",
+      "priorShares": 283075,
+      "change": 4820,
+      "pctOut": 0.3406,
+      "action": "Bought"
+    },
+    {
       "fundName": "Fidelity Mid Cap Index Fund",
       "registrant": "Fidelity Salem Street Trust",
       "manager": "FMR (Fidelity)",
@@ -1552,19 +1592,6 @@
       "priorShares": 277757,
       "change": 7829,
       "pctOut": 0.3379,
-      "action": "Bought"
-    },
-    {
-      "fundName": "BBR ALO Fund, LLC.",
-      "registrant": "BBR ALO Fund, LLC.",
-      "manager": "",
-      "cik": "1811114",
-      "shares": 283075,
-      "value": 73007884,
-      "reportDate": "2026-06-30",
-      "priorShares": 245302,
-      "change": 37773,
-      "pctOut": 0.3349,
       "action": "Bought"
     },
     {
@@ -1586,8 +1613,8 @@
       "manager": "",
       "cik": "891160",
       "shares": 278590,
-      "value": 71851147,
-      "reportDate": "2026-06-30",
+      "value": 63610455,
+      "reportDate": "2026-09-30",
       "priorShares": 278590,
       "change": 0,
       "pctOut": 0.3296,
@@ -1755,8 +1782,8 @@
       "manager": "",
       "cik": "891160",
       "shares": 125000,
-      "value": 32238750,
-      "reportDate": "2026-06-30",
+      "value": 28541250,
+      "reportDate": "2026-09-30",
       "priorShares": 125000,
       "change": 0,
       "pctOut": 0.1479,
@@ -1841,30 +1868,30 @@
       "action": "Bought"
     },
     {
+      "fundName": "MidCap Account",
+      "registrant": "Principal Variable Contracts Funds, Inc",
+      "manager": "Principal",
+      "cik": "12601",
+      "shares": 106965,
+      "value": 24423318,
+      "reportDate": "2026-09-30",
+      "priorShares": 105117,
+      "change": 1848,
+      "pctOut": 0.1266,
+      "action": "Bought"
+    },
+    {
       "fundName": "iShares Core S&amp;P Total U.S. Stock Market ETF",
       "registrant": "iShares Trust",
       "manager": "BlackRock",
       "cik": "1100663",
-      "shares": 105900,
-      "value": 27312669,
-      "reportDate": "2026-06-30",
-      "priorShares": 103452,
-      "change": 2448,
-      "pctOut": 0.1253,
+      "shares": 106647,
+      "value": 24350710,
+      "reportDate": "2026-09-30",
+      "priorShares": 105900,
+      "change": 747,
+      "pctOut": 0.1262,
       "action": "Bought"
-    },
-    {
-      "fundName": "MidCap Account",
-      "registrant": "Principal Variable Contract Funds, Inc",
-      "manager": "Principal",
-      "cik": "12601",
-      "shares": 105117,
-      "value": 27110725,
-      "reportDate": "2026-06-30",
-      "priorShares": 118864,
-      "change": -13747,
-      "pctOut": 0.12440000000000001,
-      "action": "Sold"
     },
     {
       "fundName": "Fidelity Large Cap Growth Index Fund",
@@ -1906,16 +1933,16 @@
       "action": "Bought"
     },
     {
-      "fundName": "VANGUARD LARGE-CAP INDEX FUND",
+      "fundName": "VANGUARD MORNINGSTAR LARGE-CAP INDEX FUND",
       "registrant": "VANGUARD INDEX FUNDS",
       "manager": "Vanguard Group",
       "cik": "36405",
-      "shares": 89095,
-      "value": 22978491,
-      "reportDate": "2026-06-30",
-      "priorShares": 88964,
-      "change": 131,
-      "pctOut": 0.10540000000000001,
+      "shares": 90139,
+      "value": 20581438,
+      "reportDate": "2026-09-30",
+      "priorShares": 89095,
+      "change": 1044,
+      "pctOut": 0.1067,
       "action": "Bought"
     },
     {
@@ -2153,29 +2180,16 @@
       "action": "Sold"
     },
     {
-      "fundName": "CONESTOGA SMID CAP FUND",
-      "registrant": "Conestoga Funds",
-      "manager": "",
-      "cik": "1175813",
-      "shares": 51780,
-      "value": 13354580,
-      "reportDate": "2026-06-30",
-      "priorShares": 58000,
-      "change": -6220,
-      "pctOut": 0.06130000000000001,
-      "action": "Sold"
-    },
-    {
-      "fundName": "VANGUARD INSTITUTIONAL TOTAL STOCK MARKET INDEX FUND",
+      "fundName": "VANGUARD MORNINGSTAR INSTITUTIONAL TOTAL STOCK MARKET INDEX FUND",
       "registrant": "VANGUARD INSTITUTIONAL INDEX FUNDS",
       "manager": "Vanguard Group",
       "cik": "862084",
-      "shares": 50192,
-      "value": 12945019,
-      "reportDate": "2026-06-30",
-      "priorShares": 51071,
-      "change": -879,
-      "pctOut": 0.0594,
+      "shares": 49533,
+      "value": 11309870,
+      "reportDate": "2026-09-30",
+      "priorShares": 50192,
+      "change": -659,
+      "pctOut": 0.058600000000000006,
       "action": "Sold"
     },
     {
@@ -2184,12 +2198,12 @@
       "manager": "Vanguard Group",
       "cik": "889519",
       "shares": 48175,
-      "value": 12424814,
-      "reportDate": "2026-06-30",
-      "priorShares": 52287,
-      "change": -4112,
+      "value": 10999798,
+      "reportDate": "2026-09-30",
+      "priorShares": 48175,
+      "change": 0,
       "pctOut": 0.056999999999999995,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "HARTFORD MIDCAP HLS FUND",
@@ -2309,6 +2323,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "CONESTOGA SMID CAP FUND",
+      "registrant": "Conestoga Funds",
+      "manager": "",
+      "cik": "1175813",
+      "shares": 42140,
+      "value": 9621826,
+      "reportDate": "2026-09-30",
+      "priorShares": 51780,
+      "change": -9640,
+      "pctOut": 0.0499,
+      "action": "Sold"
+    },
+    {
       "fundName": "Nuveen Large Cap Growth Index Fund",
       "registrant": "TIAA-CREF Funds",
       "manager": "Nuveen (TIAA)",
@@ -2366,8 +2393,8 @@
       "manager": "",
       "cik": "891160",
       "shares": 40000,
-      "value": 10316400,
-      "reportDate": "2026-06-30",
+      "value": 9133200,
+      "reportDate": "2026-09-30",
       "priorShares": 40000,
       "change": 0,
       "pctOut": 0.0473,
@@ -2595,19 +2622,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "MID-CAP INDEX PORTFOLIO",
-      "registrant": "VANGUARD VARIABLE INSURANCE FUNDS",
-      "manager": "Vanguard Group",
-      "cik": "857490",
-      "shares": 26002,
-      "value": 6706176,
-      "reportDate": "2026-06-30",
-      "priorShares": 26159,
-      "change": -157,
-      "pctOut": 0.0308,
-      "action": "Sold"
-    },
-    {
       "fundName": "Principal Focused Blue Chip ETF",
       "registrant": "Principal Exchange-Traded Funds",
       "manager": "Principal",
@@ -2619,6 +2633,19 @@
       "change": 1866,
       "pctOut": 0.0305,
       "action": "Bought"
+    },
+    {
+      "fundName": "MORNINGSTAR MID-CAP INDEX PORTFOLIO",
+      "registrant": "VANGUARD VARIABLE INSURANCE FUNDS",
+      "manager": "Vanguard Group",
+      "cik": "857490",
+      "shares": 25656,
+      "value": 5858034,
+      "reportDate": "2026-09-30",
+      "priorShares": 26002,
+      "change": -346,
+      "pctOut": 0.030400000000000003,
+      "action": "Sold"
     },
     {
       "fundName": "iShares Disciplined Volatility Equity Active ETF",
@@ -2677,12 +2704,12 @@
       "registrant": "Ivy Variable Insurance Portfolios",
       "manager": "FMR (Fidelity)",
       "cik": "810016",
-      "shares": 24263,
-      "value": 6257670,
-      "reportDate": "2026-06-30",
-      "priorShares": 28077,
-      "change": -3814,
-      "pctOut": 0.0287,
+      "shares": 23961,
+      "value": 5471015,
+      "reportDate": "2026-09-30",
+      "priorShares": 24263,
+      "change": -302,
+      "pctOut": 0.0284,
       "action": "Sold"
     },
     {
@@ -2977,12 +3004,25 @@
       "manager": "Vanguard Group",
       "cik": "923202",
       "shares": 13818,
-      "value": 3563800,
-      "reportDate": "2026-06-30",
-      "priorShares": 13066,
-      "change": 752,
+      "value": 3155064,
+      "reportDate": "2026-09-30",
+      "priorShares": 13818,
+      "change": 0,
       "pctOut": 0.016300000000000002,
-      "action": "Bought"
+      "action": "No Change"
+    },
+    {
+      "fundName": "Azzad Ethical Fund",
+      "registrant": "AZZAD FUNDS",
+      "manager": "",
+      "cik": "1031008",
+      "shares": 13547,
+      "value": 3093187,
+      "reportDate": "2026-09-30",
+      "priorShares": 13683,
+      "change": -136,
+      "pctOut": 0.016,
+      "action": "Sold"
     },
     {
       "fundName": "Strategic Advisers U.S. Total Stock Fund",
@@ -3029,8 +3069,8 @@
       "manager": "",
       "cik": "804239",
       "shares": 12728,
-      "value": 3282678,
-      "reportDate": "2026-06-30",
+      "value": 2906184,
+      "reportDate": "2026-09-30",
       "priorShares": 12728,
       "change": 0,
       "pctOut": 0.0151,
@@ -3102,19 +3142,6 @@
       "action": "Sold"
     },
     {
-      "fundName": "Victory RS Growth Fund",
-      "registrant": "Victory Portfolios",
-      "manager": "",
-      "cik": "802716",
-      "shares": 11160,
-      "value": 2878276,
-      "reportDate": "2026-06-30",
-      "priorShares": 11430,
-      "change": -270,
-      "pctOut": 0.013200000000000002,
-      "action": "Sold"
-    },
-    {
       "fundName": "U.S. Sustainability Core 1 Portfolio",
       "registrant": "DFA INVESTMENT DIMENSIONS GROUP INC",
       "manager": "Dimensional",
@@ -3139,6 +3166,19 @@
       "change": 0,
       "pctOut": 0.0131,
       "action": "No Change"
+    },
+    {
+      "fundName": "Victory RS Growth Fund",
+      "registrant": "Victory Portfolios",
+      "manager": "",
+      "cik": "802716",
+      "shares": 10940,
+      "value": 2497930,
+      "reportDate": "2026-09-30",
+      "priorShares": 11160,
+      "change": -220,
+      "pctOut": 0.012899999999999998,
+      "action": "Sold"
     },
     {
       "fundName": "Fidelity Trend Fund",
@@ -3401,6 +3441,19 @@
       "action": "Sold"
     },
     {
+      "fundName": "SEI Select Small Cap ETF",
+      "registrant": "SEI EXCHANGE TRADED FUNDS",
+      "manager": "",
+      "cik": "1888997",
+      "shares": 7146,
+      "value": 1631646,
+      "reportDate": "2026-09-30",
+      "priorShares": 6535,
+      "change": 611,
+      "pctOut": 0.0085,
+      "action": "Bought"
+    },
+    {
       "fundName": "T. Rowe Price Mid-Cap Index Fund",
       "registrant": "T. ROWE PRICE INDEX TRUST, INC.",
       "manager": "T. Rowe Price",
@@ -3453,17 +3506,17 @@
       "action": "New"
     },
     {
-      "fundName": "SEI Select Small Cap ETF",
-      "registrant": "SEI EXCHANGE TRADED FUNDS",
+      "fundName": "SIMT Small Cap Growth Fund",
+      "registrant": "SEI INSTITUTIONAL MANAGED TRUST",
       "manager": "",
-      "cik": "1888997",
-      "shares": 6535,
-      "value": 1685442,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0077,
-      "action": "New"
+      "cik": "804239",
+      "shares": 6555,
+      "value": 1496703,
+      "reportDate": "2026-09-30",
+      "priorShares": 5385,
+      "change": 1170,
+      "pctOut": 0.0078,
+      "action": "Bought"
     },
     {
       "fundName": "SIIT SMALL/MID CAP FUND",
@@ -3622,19 +3675,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "SIMT Small Cap Growth Fund",
-      "registrant": "SEI INSTITUTIONAL MANAGED TRUST",
-      "manager": "",
-      "cik": "804239",
-      "shares": 5385,
-      "value": 1388845,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0.0063999999999999994,
-      "action": "New"
-    },
-    {
       "fundName": "BlackRock Tactical Opportunities Fund",
       "registrant": "BlackRock Funds",
       "manager": "BlackRock",
@@ -3659,6 +3699,19 @@
       "change": -6392,
       "pctOut": 0.0063,
       "action": "Sold"
+    },
+    {
+      "fundName": "LargeCap Growth Account I",
+      "registrant": "Principal Variable Contracts Funds, Inc",
+      "manager": "Principal",
+      "cik": "12601",
+      "shares": 4948,
+      "value": 1129777,
+      "reportDate": "2026-09-30",
+      "priorShares": 4242,
+      "change": 706,
+      "pctOut": 0.0059,
+      "action": "Bought"
     },
     {
       "fundName": "EQ/Large Cap Growth Managed Volatility Portfolio",
@@ -3713,17 +3766,17 @@
       "action": "Bought"
     },
     {
-      "fundName": "LargeCap Growth Account I",
-      "registrant": "Principal Variable Contract Funds, Inc",
-      "manager": "Principal",
-      "cik": "12601",
-      "shares": 4242,
-      "value": 1094054,
-      "reportDate": "2026-06-30",
-      "priorShares": 11037,
-      "change": -6795,
-      "pctOut": 0.005,
-      "action": "Sold"
+      "fundName": "T. Rowe Price Mid Cap Growth Portfolio",
+      "registrant": "Brighthouse Funds Trust I",
+      "manager": "T. Rowe Price",
+      "cik": "1126087",
+      "shares": 4300,
+      "value": 981819,
+      "reportDate": "2026-09-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0051,
+      "action": "New"
     },
     {
       "fundName": "U.S. Large Cap Equity Portfolio",
@@ -3830,6 +3883,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "MassMutual Mid Cap Growth Fund",
+      "registrant": "MASSMUTUAL SELECT FUNDS",
+      "manager": "",
+      "cik": "916053",
+      "shares": 3500,
+      "value": 799155,
+      "reportDate": "2026-09-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0041,
+      "action": "New"
+    },
+    {
       "fundName": "iMGP Small Company Fund",
       "registrant": "LITMAN GREGORY FUNDS TRUST",
       "manager": "",
@@ -3867,6 +3933,19 @@
       "change": 0,
       "pctOut": 0.0039,
       "action": "No Change"
+    },
+    {
+      "fundName": "SIMT Tax-Managed Small/Mid Cap Fund",
+      "registrant": "SEI INSTITUTIONAL MANAGED TRUST",
+      "manager": "",
+      "cik": "804239",
+      "shares": 3185,
+      "value": 727231,
+      "reportDate": "2026-09-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0038000000000000004,
+      "action": "New"
     },
     {
       "fundName": "Global X Guru Index ETF",
@@ -3925,12 +4004,12 @@
       "registrant": "Victory Portfolios",
       "manager": "",
       "cik": "802716",
-      "shares": 2750,
-      "value": 709253,
-      "reportDate": "2026-06-30",
-      "priorShares": 2920,
-      "change": -170,
-      "pctOut": 0.0033000000000000004,
+      "shares": 2710,
+      "value": 618774,
+      "reportDate": "2026-09-30",
+      "priorShares": 2750,
+      "change": -40,
+      "pctOut": 0.0031999999999999997,
       "action": "Sold"
     },
     {
@@ -3952,8 +4031,8 @@
       "manager": "Vanguard Group",
       "cik": "923202",
       "shares": 2666,
-      "value": 687588,
-      "reportDate": "2026-06-30",
+      "value": 608728,
+      "reportDate": "2026-09-30",
       "priorShares": 2666,
       "change": 0,
       "pctOut": 0.0031999999999999997,
@@ -4064,6 +4143,19 @@
       "action": "Bought"
     },
     {
+      "fundName": "Blue Chip Account",
+      "registrant": "Principal Variable Contracts Funds, Inc",
+      "manager": "Principal",
+      "cik": "12601",
+      "shares": 2214,
+      "value": 505523,
+      "reportDate": "2026-09-30",
+      "priorShares": 1776,
+      "change": 438,
+      "pctOut": 0.0026,
+      "action": "Bought"
+    },
+    {
       "fundName": "Growth Equity Index Fund",
       "registrant": "GuideStone Funds",
       "manager": "",
@@ -4121,12 +4213,12 @@
       "manager": "BlackRock",
       "cik": "319108",
       "shares": 1944,
-      "value": 501377,
-      "reportDate": "2026-06-30",
-      "priorShares": 2252,
-      "change": -308,
+      "value": 443874,
+      "reportDate": "2026-09-30",
+      "priorShares": 1944,
+      "change": 0,
       "pctOut": 0.0023,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "Janus Henderson Mid Cap Growth Alpha ETF",
@@ -4160,12 +4252,12 @@
       "manager": "BlackRock",
       "cik": "355916",
       "shares": 1891,
-      "value": 487708,
-      "reportDate": "2026-06-30",
-      "priorShares": 2150,
-      "change": -259,
+      "value": 431772,
+      "reportDate": "2026-09-30",
+      "priorShares": 1891,
+      "change": 0,
       "pctOut": 0.0022,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "AVIP BlackRock Advantage Large Cap Core Portfolio",
@@ -4246,19 +4338,6 @@
       "action": "No Change"
     },
     {
-      "fundName": "Blue Chip Account",
-      "registrant": "Principal Variable Contract Funds, Inc",
-      "manager": "Principal",
-      "cik": "12601",
-      "shares": 1776,
-      "value": 458048,
-      "reportDate": "2026-06-30",
-      "priorShares": 941,
-      "change": 835,
-      "pctOut": 0.0021,
-      "action": "Bought"
-    },
-    {
       "fundName": "FlexShares Morningstar US Market Factor Tilt Index Fund",
       "registrant": "FlexShares Trust",
       "manager": "Northern Trust",
@@ -4322,6 +4401,19 @@
       "change": 389,
       "pctOut": 0.0019000000000000002,
       "action": "Bought"
+    },
+    {
+      "fundName": "MML VIP T. Rowe Price Mid Cap Growth Fund",
+      "registrant": "MML SERIES INVESTMENT FUND",
+      "manager": "FMR (Fidelity)",
+      "cik": "67160",
+      "shares": 1579,
+      "value": 360533,
+      "reportDate": "2026-09-30",
+      "priorShares": null,
+      "change": null,
+      "pctOut": 0.0019000000000000002,
+      "action": "New"
     },
     {
       "fundName": "VOYA RUSSELLTM MID CAP GROWTH INDEX PORTFOLIO",
@@ -4402,19 +4494,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "SIMT LARGE CAP INDEX FUND",
-      "registrant": "SEI INSTITUTIONAL MANAGED TRUST",
-      "manager": "",
-      "cik": "804239",
-      "shares": 1440,
-      "value": 371390,
-      "reportDate": "2026-06-30",
-      "priorShares": 1400,
-      "change": 40,
-      "pctOut": 0.0017,
-      "action": "Bought"
-    },
-    {
       "fundName": "Strive 500 ETF",
       "registrant": "EA Series Trust",
       "manager": "",
@@ -4452,6 +4531,19 @@
       "change": 7,
       "pctOut": 0.0015999999999999999,
       "action": "Bought"
+    },
+    {
+      "fundName": "SIMT LARGE CAP INDEX FUND",
+      "registrant": "SEI INSTITUTIONAL MANAGED TRUST",
+      "manager": "",
+      "cik": "804239",
+      "shares": 1340,
+      "value": 305962,
+      "reportDate": "2026-09-30",
+      "priorShares": 1440,
+      "change": -100,
+      "pctOut": 0.0015999999999999999,
+      "action": "Sold"
     },
     {
       "fundName": "The Institutional U.S. Equity Portfolio",
@@ -4732,12 +4824,12 @@
       "manager": "BlackRock",
       "cik": "355916",
       "shares": 806,
-      "value": 207875,
-      "reportDate": "2026-06-30",
-      "priorShares": 1392,
-      "change": -586,
+      "value": 184034,
+      "reportDate": "2026-09-30",
+      "priorShares": 806,
+      "change": 0,
       "pctOut": 0.001,
-      "action": "Sold"
+      "action": "No Change"
     },
     {
       "fundName": "AZL DFA U.S. Core Equity Fund",
@@ -5455,19 +5547,6 @@
       "action": "New"
     },
     {
-      "fundName": "BlackRock Managed Volatility V.I. Fund",
-      "registrant": "BlackRock Variable Series Funds, Inc.",
-      "manager": "BlackRock",
-      "cik": "355916",
-      "shares": 124,
-      "value": 31981,
-      "reportDate": "2026-06-30",
-      "priorShares": 474,
-      "change": -350,
-      "pctOut": 0.00009999999999999999,
-      "action": "Sold"
-    },
-    {
       "fundName": "AB Dynamic Asset Allocation Portfolio",
       "registrant": "AB VARIABLE PRODUCTS SERIES FUND, INC.",
       "manager": "",
@@ -5531,6 +5610,19 @@
       "change": 0,
       "pctOut": 0.00009999999999999999,
       "action": "No Change"
+    },
+    {
+      "fundName": "BlackRock Managed Volatility V.I. Fund",
+      "registrant": "BlackRock Variable Series Funds, Inc.",
+      "manager": "BlackRock",
+      "cik": "355916",
+      "shares": 86,
+      "value": 19636,
+      "reportDate": "2026-09-30",
+      "priorShares": 124,
+      "change": -38,
+      "pctOut": 0.00009999999999999999,
+      "action": "Sold"
     },
     {
       "fundName": "The Catholic SRI Growth Portfolio",
