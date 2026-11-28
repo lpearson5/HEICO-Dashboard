@@ -2,13 +2,13 @@
   "ticker": "HEI",
   "cusip": "422806109",
   "sharesOutstanding": 55241647,
-  "lastUpdated": "2026-11-27T19:53:32.478Z",
+  "lastUpdated": "2026-11-28T18:46:11.339Z",
   "summary": {
     "funds": 441,
-    "totalShares": 19745718,
-    "pctOut": 35.7443,
-    "newFunds": 24,
-    "sellouts": 48,
+    "totalShares": 19745541,
+    "pctOut": 35.743900000000004,
+    "newFunds": 23,
+    "sellouts": 47,
     "linkedManagers": 25,
     "linkedShares": 16928152
   },
@@ -311,19 +311,6 @@
       "change": null,
       "pctOut": 0,
       "action": "New"
-    },
-    {
-      "fundName": "Ruk Strategic Growth ETF",
-      "registrant": "Advisor Managed Portfolios",
-      "manager": "",
-      "cik": "1970751",
-      "shares": 6,
-      "value": 2137,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0,
-      "action": "New"
     }
   ],
   "sellouts": [
@@ -445,13 +432,6 @@
       "manager": "FMR (Fidelity)",
       "lastShares": 6754,
       "lastReport": "2026-03-31"
-    },
-    {
-      "fundName": "PGIM Jennison Diversified Growth Fund",
-      "registrant": "Prudential Investment Portfolios 5",
-      "manager": "PGIM (Prudential)",
-      "lastShares": 6225,
-      "lastReport": "2026-01-30"
     },
     {
       "fundName": "OAK HARVEST LONG/SHORT HEDGED EQUITY",
@@ -4483,8 +4463,8 @@
       "manager": "",
       "cik": "1227523",
       "shares": 6645,
-      "value": 2366883,
-      "reportDate": "2026-06-30",
+      "value": 2014631,
+      "reportDate": "2026-09-30",
       "priorShares": 6645,
       "change": 0,
       "pctOut": 0.012,
@@ -5908,19 +5888,6 @@
       "action": "Bought"
     },
     {
-      "fundName": "Optimize Strategy Index ETF",
-      "registrant": "Advisor Managed Portfolios",
-      "manager": "",
-      "cik": "1970751",
-      "shares": 1153,
-      "value": 410687,
-      "reportDate": "2026-06-30",
-      "priorShares": 1157,
-      "change": -4,
-      "pctOut": 0.0021,
-      "action": "Sold"
-    },
-    {
       "fundName": "Calvert US Mid-Cap Core Responsible Index ETF",
       "registrant": "Morgan Stanley ETF Trust",
       "manager": "Morgan Stanley",
@@ -6114,6 +6081,19 @@
       "change": 0,
       "pctOut": 0.0018,
       "action": "No Change"
+    },
+    {
+      "fundName": "Optimize Strategy Index ETF",
+      "registrant": "Advisor Managed Portfolios",
+      "manager": "",
+      "cik": "1970751",
+      "shares": 972,
+      "value": 294691,
+      "reportDate": "2026-09-30",
+      "priorShares": 1153,
+      "change": -181,
+      "pctOut": 0.0018,
+      "action": "Sold"
     },
     {
       "fundName": "PD Mid-Cap Index Portfolio",
@@ -7546,6 +7526,19 @@
       "action": "No Change"
     },
     {
+      "fundName": "Ruk Strategic Growth ETF",
+      "registrant": "Advisor Managed Portfolios",
+      "manager": "",
+      "cik": "1970751",
+      "shares": 10,
+      "value": 3032,
+      "reportDate": "2026-09-30",
+      "priorShares": 6,
+      "change": 4,
+      "pctOut": 0,
+      "action": "Bought"
+    },
+    {
       "fundName": "State Street(R) SPDR(R) MSCI World StrategicFactors(SM) ETF",
       "registrant": "SPDR INDEX SHARES FUNDS",
       "manager": "State Street",
@@ -7557,19 +7550,6 @@
       "change": 0,
       "pctOut": 0,
       "action": "No Change"
-    },
-    {
-      "fundName": "Ruk Strategic Growth ETF",
-      "registrant": "Advisor Managed Portfolios",
-      "manager": "",
-      "cik": "1970751",
-      "shares": 6,
-      "value": 2137,
-      "reportDate": "2026-06-30",
-      "priorShares": null,
-      "change": null,
-      "pctOut": 0,
-      "action": "New"
     },
     {
       "fundName": "Innovator Equity Premium Income - Daily PutWrite ETF",

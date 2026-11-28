@@ -2,11 +2,11 @@
   "ticker": "HEIA",
   "cusip": "422806208",
   "sharesOutstanding": 84515758,
-  "lastUpdated": "2026-11-27T19:53:32.478Z",
+  "lastUpdated": "2026-11-28T18:46:11.339Z",
   "summary": {
     "funds": 351,
-    "totalShares": 27811905,
-    "pctOut": 32.907399999999996,
+    "totalShares": 27794998,
+    "pctOut": 32.8874,
     "newFunds": 15,
     "sellouts": 32,
     "linkedManagers": 24,
@@ -1703,12 +1703,12 @@
       "registrant": "IVY FUNDS",
       "manager": "",
       "cik": "883622",
-      "shares": 193136,
-      "value": 49811706,
-      "reportDate": "2026-06-30",
-      "priorShares": 251439,
-      "change": -58303,
-      "pctOut": 0.2285,
+      "shares": 176456,
+      "value": 40290198,
+      "reportDate": "2026-09-30",
+      "priorShares": 193136,
+      "change": -16680,
+      "pctOut": 0.2088,
       "action": "Sold"
     },
     {
@@ -3896,19 +3896,6 @@
       "action": "New"
     },
     {
-      "fundName": "iMGP Small Company Fund",
-      "registrant": "LITMAN GREGORY FUNDS TRUST",
-      "manager": "",
-      "cik": "1020425",
-      "shares": 3447,
-      "value": 889016,
-      "reportDate": "2026-06-30",
-      "priorShares": 3447,
-      "change": 0,
-      "pctOut": 0.0041,
-      "action": "No Change"
-    },
-    {
       "fundName": "iShares Dow Jones U.S. ETF",
       "registrant": "iShares Trust",
       "manager": "BlackRock",
@@ -3933,6 +3920,19 @@
       "change": 0,
       "pctOut": 0.0039,
       "action": "No Change"
+    },
+    {
+      "fundName": "iMGP Small Company Fund",
+      "registrant": "LITMAN GREGORY FUNDS TRUST",
+      "manager": "",
+      "cik": "1020425",
+      "shares": 3220,
+      "value": 735223,
+      "reportDate": "2026-09-30",
+      "priorShares": 3447,
+      "change": -227,
+      "pctOut": 0.0038000000000000004,
+      "action": "Sold"
     },
     {
       "fundName": "SIMT Tax-Managed Small/Mid Cap Fund",
